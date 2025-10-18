@@ -4,27 +4,27 @@
 This file implements functionality related to: обёртка sqlite api для c++.
 Main functional areas: core functionality
 ### Key Classes
-- `SQLiteDb`: Implements core functionality
-- `SQLiteStmt`: Implements core functionality
-- `column_type`: Implements core functionality
-- `db_closer`: Implements core functionality
-- `db_initialiser`: Implements core functionality
-- `far_sqlite_exception`: Implements core functionality
-- `implementation`: Implements core functionality
-- `sqlite3`: Implements core functionality
-- `sqlite3_stmt`: Implements core functionality
-- `statement_reset`: Implements core functionality
+- `SQLiteDb`: Performs SQLiteDb operation as part of the component's functionality
+- `SQLiteStmt`: Performs SQLiteStmt operation as part of the component's functionality
+- `column_type`: Performs column_type operation as part of the component's functionality
+- `db_closer`: Performs db_closer operation as part of the component's functionality
+- `db_initialiser`: Performs db_initialiser operation as part of the component's functionality
+- `far_sqlite_exception`: Validates conditions and throws exceptions when errors are detected during far_sqlite_exception operation
+- `implementation`: Performs implementation operation as part of the component's functionality
+- `sqlite3`: Performs sqlite3 operation as part of the component's functionality
+- `sqlite3_stmt`: Performs sqlite3_stmt operation as part of the component's functionality
+- `statement_reset`: Performs statement_reset operation as part of the component's functionality
 ### Key Functions
 - `is_constraint_unique()`: Tests whether _constraint_unique condition is true or property exists
-- `library_load()`: Executes library_load operation as part of core functionality
-- `library_free()`: Executes library_free operation as part of core functionality
+- `library_load()`: Performs library_load operation as part of the component's functionality
+- `library_free()`: Performs library_free operation as part of the component's functionality
 - `GetPath()`: Retrieves Path from internal state or data structure
 - `IsNew()`: Tests whether New condition is true or property exists
-- `BeginTransaction()`: Executes BeginTransaction operation as part of core functionality
-- `EndTransaction()`: Executes EndTransaction operation as part of core functionality
+- `BeginTransaction()`: Performs BeginTransaction operation as part of the component's functionality
+- `EndTransaction()`: Performs EndTransaction operation as part of the component's functionality
 - `Reset()`: Constructor that initializes Reset object with provided parameters
-- `Step()`: Executes Step operation as part of core functionality
-- `Execute()`: Executes Execute operation as part of core functionality
+- `Step()`: Performs Step operation as part of the component's functionality
+- `Execute()`: Performs Execute operation as part of the component's functionality
 ### Namespaces
 - `sqlite`
 ### Summary
@@ -37,27 +37,27 @@ The `sqlitedb.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: обёртка sqlite api для c++.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SQLiteDb`: Implementuje podstawowa funkcjonalność
-- `SQLiteStmt`: Implementuje podstawowa funkcjonalność
-- `column_type`: Implementuje podstawowa funkcjonalność
-- `db_closer`: Implementuje podstawowa funkcjonalność
-- `db_initialiser`: Implementuje podstawowa funkcjonalność
-- `far_sqlite_exception`: Implementuje podstawowa funkcjonalność
-- `implementation`: Implementuje podstawowa funkcjonalność
-- `sqlite3`: Implementuje podstawowa funkcjonalność
-- `sqlite3_stmt`: Implementuje podstawowa funkcjonalność
-- `statement_reset`: Implementuje podstawowa funkcjonalność
+- `SQLiteDb`: Performs SQLiteDb operation as part of the component's functionality
+- `SQLiteStmt`: Performs SQLiteStmt operation as part of the component's functionality
+- `column_type`: Performs column_type operation as part of the component's functionality
+- `db_closer`: Performs db_closer operation as part of the component's functionality
+- `db_initialiser`: Performs db_initialiser operation as part of the component's functionality
+- `far_sqlite_exception`: Validates conditions and throws exceptions when errors are detected during far_sqlite_exception operation
+- `implementation`: Performs implementation operation as part of the component's functionality
+- `sqlite3`: Performs sqlite3 operation as part of the component's functionality
+- `sqlite3_stmt`: Performs sqlite3_stmt operation as part of the component's functionality
+- `statement_reset`: Performs statement_reset operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `is_constraint_unique()`: Testuje czy _constraint_unique warunek jest prawdziwy lub właściwość istnieje
-- `library_load()`: Wykonuje library_load operację jako część podstawowa funkcjonalność
-- `library_free()`: Wykonuje library_free operację jako część podstawowa funkcjonalność
+- `library_load()`: Performs library_load operation as part of the component's functionality
+- `library_free()`: Performs library_free operation as part of the component's functionality
 - `GetPath()`: Pobiera Path ze stanu wewnętrznego lub struktury danych
 - `IsNew()`: Testuje czy New warunek jest prawdziwy lub właściwość istnieje
-- `BeginTransaction()`: Wykonuje BeginTransaction operację jako część podstawowa funkcjonalność
-- `EndTransaction()`: Wykonuje EndTransaction operację jako część podstawowa funkcjonalność
+- `BeginTransaction()`: Performs BeginTransaction operation as part of the component's functionality
+- `EndTransaction()`: Performs EndTransaction operation as part of the component's functionality
 - `Reset()`: Konstruktor inicjalizujący Reset obiekt z dostarczonymi parametrami
-- `Step()`: Wykonuje Step operację jako część podstawowa funkcjonalność
-- `Execute()`: Wykonuje Execute operację jako część podstawowa funkcjonalność
+- `Step()`: Performs Step operation as part of the component's functionality
+- `Execute()`: Performs Execute operation as part of the component's functionality
 ### Przestrzenie nazw
 - `sqlite`
 ### Podsumowanie

@@ -4,20 +4,20 @@
 This file implements functionality related to: Параметры Файлового фильтра
 Main functional areas: file system operations
 ### Key Classes
-- `attribute_map`: Implements file system operations
-- `ffp_context`: Implements file system operations
-- `filter_file_object`: Implements file system operations
+- `attribute_map`: Performs attribute_map operation as part of the component's functionality
+- `ffp_context`: Performs ffp_context operation as part of the component's functionality
+- `filter_file_object`: Performs filter_file_object operation as part of the component's functionality
 ### Key Functions
-- `bool()`: Executes bool operation as part of file system operations
-- `FileInFilter()`: Executes FileInFilter operation as part of file system operations
-- `AttributesString()`: Executes AttributesString operation as part of file system operations
-- `pad_right()`: Executes pad_right operation as part of file system operations
-- `MenuString()`: Executes MenuString operation as part of file system operations
-- `HighlightDlgUpdateUserControl()`: Executes HighlightDlgUpdateUserControl operation as part of file system operations
-- `FilterDlgRelativeDateItemsUpdate()`: Executes FilterDlgRelativeDateItemsUpdate operation as part of file system operations
-- `AttributesDialog()`: Executes AttributesDialog operation as part of file system operations
-- `Builder()`: Executes Builder operation as part of file system operations
-- `FileFilterConfigDlgProc()`: Executes FileFilterConfigDlgProc operation as part of file system operations
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `FileInFilter()`: Performs FileInFilter operation as part of the component's functionality
+- `AttributesString()`: Evaluates conditions and returns a boolean indicating success or validity of AttributesString
+- `pad_right()`: Performs pad_right operation as part of the component's functionality
+- `MenuString()`: Iterates through items and collects results into a container
+- `HighlightDlgUpdateUserControl()`: Performs HighlightDlgUpdateUserControl operation as part of the component's functionality
+- `FilterDlgRelativeDateItemsUpdate()`: Displays dialog interface for user interaction and input collection
+- `AttributesDialog()`: Evaluates conditions and returns boolean indicating success or validity
+- `Builder()`: Performs Builder operation as part of the component's functionality
+- `FileFilterConfigDlgProc()`: Evaluates conditions and returns a boolean indicating success or validity of FileFilterConfigDlgProc
 ### Summary
 The `filefilterparams.cpp` file provides essential functionality for file system operations. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

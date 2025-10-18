@@ -4,18 +4,18 @@
 This file implements functionality related to: Класс диалога
 Main functional areas: dialog handling, singleton implementation
 ### Key Classes
-- `DialogItemEx`: Implements dialog handling, singleton implementation
-- `DlgUserControl`: Implements dialog handling, singleton implementation
-- `dialogs_set`: Implements dialog handling, singleton implementation
+- `DialogItemEx`: Performs DialogItemEx operation as part of the component's functionality
+- `DlgUserControl`: Performs DlgUserControl operation as part of the component's functionality
+- `dialogs_set`: Performs dialogs_set operation as part of the component's functionality
 ### Key Functions
-- `CanGetFocus()`: Executes CanGetFocus operation as part of dialog handling, singleton implementation
+- `CanGetFocus()`: Evaluates conditions and returns a boolean indicating success or validity of CanGetFocus
 - `IsEmulatedEditorLine()`: Tests whether EmulatedEditorLine condition is true or property exists
 - `IsKeyHighlighted()`: Checks if given key combination is used for highlighting/navigation in dialog
 - `ConvertItemSmall()`: Converts data from one format or type to another
-- `ItemString()`: Executes ItemString operation as part of dialog handling, singleton implementation
+- `ItemString()`: Performs ItemString operation as part of the component's functionality
 - `ConvertItemEx2()`: Converts data from one format or type to another
 - `ItemsToItemsEx()`: Converts between standard dialog item format and extended item format
-- `DefProcFunction()`: Executes DefProcFunction operation as part of dialog handling, singleton implementation
+- `DefProcFunction()`: Performs DefProcFunction operation as part of the component's functionality
 - `InitDialogObjects()`: Initializes data structures and sets up initial state for operation
 - `IsSuitableItem()`: Tests whether SuitableItem condition is true or property exists
 ### Summary

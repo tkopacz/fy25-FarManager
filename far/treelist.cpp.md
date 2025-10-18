@@ -4,17 +4,17 @@
 This file implements functionality related to: Tree panel
 Main functional areas: core functionality
 ### Key Classes
-- `TreeListCache`: Implements core functionality
-- `tree_progress`: Implements core functionality
+- `TreeListCache`: Performs TreeListCache operation as part of the component's functionality
+- `tree_progress`: Displays dialog interface for user interaction and input collection
 ### Key Functions
 - `ConvertTemplateTreeName()`: Converts data from one format or type to another
-- `Str()`: Executes Str operation as part of core functionality
+- `Str()`: Performs Str operation as part of the component's functionality
 - `CreateTreeFileName()`: Creates and initializes new TreeFileName instance
-- `MkTreeFileName()`: Executes MkTreeFileName operation as part of core functionality
-- `MkTreeCacheFolderName()`: Executes MkTreeCacheFolderName operation as part of core functionality
+- `MkTreeFileName()`: Performs MkTreeFileName operation as part of the component's functionality
+- `MkTreeCacheFolderName()`: Performs MkTreeCacheFolderName operation as part of the component's functionality
 - `GetCacheTreeName()`: Retrieves CacheTreeName from internal state or data structure
 - `clear()`: Clears all data and resets to initial empty state
-- `empty()`: Executes empty operation as part of core functionality
+- `empty()`: Evaluates conditions and returns boolean indicating success or validity
 - `add()`: Adds new item to collection or list
 - `remove()`: Removes item from collection and frees associated resources
 ### Summary
@@ -27,17 +27,17 @@ The `treelist.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Tree panel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `TreeListCache`: Implementuje podstawowa funkcjonalność
-- `tree_progress`: Implementuje podstawowa funkcjonalność
+- `TreeListCache`: Performs TreeListCache operation as part of the component's functionality
+- `tree_progress`: Displays dialog interface for user interaction and input collection
 ### Kluczowe Funkcje
 - `ConvertTemplateTreeName()`: Konwertuje dane z jednego formatu lub typu do innego
-- `Str()`: Wykonuje Str operację jako część podstawowa funkcjonalność
+- `Str()`: Performs Str operation as part of the component's functionality
 - `CreateTreeFileName()`: Tworzy i inicjalizuje nowy TreeFileName instancję
-- `MkTreeFileName()`: Wykonuje MkTreeFileName operację jako część podstawowa funkcjonalność
-- `MkTreeCacheFolderName()`: Wykonuje MkTreeCacheFolderName operację jako część podstawowa funkcjonalność
+- `MkTreeFileName()`: Performs MkTreeFileName operation as part of the component's functionality
+- `MkTreeCacheFolderName()`: Performs MkTreeCacheFolderName operation as part of the component's functionality
 - `GetCacheTreeName()`: Pobiera CacheTreeName ze stanu wewnętrznego lub struktury danych
 - `clear()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
-- `empty()`: Wykonuje empty operację jako część podstawowa funkcjonalność
+- `empty()`: Evaluates conditions and returns boolean indicating success or validity
 - `add()`: Dodaje nowy element do kolekcji lub listy
 - `remove()`: Usuwa element z kolekcji i zwalnia powiązane zasoby
 ### Podsumowanie

@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ExternalCodec`: Implements core functionality
-- `LoadedFromXML`: Implements core functionality
-- `Options`: Implements core functionality
+- `ExternalCodec`: Performs ExternalCodec operation as part of the component's functionality
+- `LoadedFromXML`: Reads and loads data from a source
+- `Options`: Performs Options operation as part of the component's functionality
 ### Key Functions
-- `reset()`: Executes reset operation as part of core functionality
+- `reset()`: Performs reset operation as part of the component's functionality
 - `load()`: Loads data or resources from storage into memory
 - `save()`: Saves current state or data to persistent storage
 - `get_app_option()`: Retrieves _app_option from internal state or data structure
@@ -20,11 +20,11 @@ The `options.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ExternalCodec`: Implementuje podstawowa funkcjonalność
-- `LoadedFromXML`: Implementuje podstawowa funkcjonalność
-- `Options`: Implementuje podstawowa funkcjonalność
+- `ExternalCodec`: Performs ExternalCodec operation as part of the component's functionality
+- `LoadedFromXML`: Reads and loads data from a source
+- `Options`: Performs Options operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `reset()`: Wykonuje reset operację jako część podstawowa funkcjonalność
+- `reset()`: Performs reset operation as part of the component's functionality
 - `load()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `save()`: Zapisuje bieżący stan lub dane do trwałego magazynu
 - `get_app_option()`: Pobiera _app_option ze stanu wewnętrznego lub struktury danych

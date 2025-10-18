@@ -4,8 +4,8 @@
 This file implements functionality related to: Quick view panel
 Main functional areas: file viewing
 ### Key Functions
-- `msg()`: Executes msg operation as part of file viewing
-- `GroupDigits()`: Executes GroupDigits operation as part of file viewing
+- `msg()`: Performs msg operation as part of the component's functionality
+- `GroupDigits()`: Performs GroupDigits operation as part of the component's functionality
 ### Summary
 The `qview.cpp` file provides essential functionality for file viewing. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `MSG_DelBuff()`: Executes MSG_DelBuff operation as part of file system operations
-- `Message()`: Executes Message operation as part of file system operations
-- `MessageV()`: Executes MessageV operation as part of file system operations
+- `MSG_DelBuff()`: Performs MSG_DelBuff operation as part of the component's functionality
+- `Message()`: Performs Message operation as part of the component's functionality
+- `MessageV()`: Allocates memory and initializes resources for MessageV
 ### Summary
 The `fstd_mesg.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

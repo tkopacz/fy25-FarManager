@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `Dialog`: Implements singleton implementation
-- `DialogBuilderListItem`: Implements singleton implementation
-- `F8CP`: Implements singleton implementation
-- `VMenu2`: Implements singleton implementation
-- `cp_info`: Implements singleton implementation
-- `lng`: Implements singleton implementation
-- `system_codepages_enumerator`: Implements singleton implementation
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation as part of the component's functionality
+- `F8CP`: Performs F8CP operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `cp_info`: Performs cp_info operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `system_codepages_enumerator`: Performs system_codepages_enumerator operation as part of the component's functionality
 ### Key Functions
-- `SelectCodePage()`: Executes SelectCodePage operation as part of singleton implementation
-- `FillCodePagesList()`: Executes FillCodePagesList operation as part of singleton implementation
-- `FormatName()`: Executes FormatName operation as part of singleton implementation
-- `UnsupportedDataMessageFull()`: Executes UnsupportedDataMessageFull operation as part of singleton implementation
+- `SelectCodePage()`: Performs SelectCodePage operation as part of the component's functionality
+- `FillCodePagesList()`: Performs FillCodePagesList operation as part of the component's functionality
+- `FormatName()`: Performs FormatName operation as part of the component's functionality
+- `UnsupportedDataMessageFull()`: Performs UnsupportedDataMessageFull operation as part of the component's functionality
 - `GetFavorite()`: Retrieves Favorite from internal state or data structure
 - `SetFavorite()`: Updates Favorite in internal state or configuration
 - `DeleteFavorite()`: Removes Favorite from collection and frees associated resources

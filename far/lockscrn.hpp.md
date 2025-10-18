@@ -4,7 +4,7 @@
 This file implements functionality related to: class LockScreen
 Main functional areas: screen operations
 ### Key Classes
-- `LockScreen`: Implements screen operations
+- `LockScreen`: Performs LockScreen operation as part of the component's functionality
 ### Summary
 The `lockscrn.hpp` file provides essential functionality for screen operations. It defines 1 class(es) to support the Far Manager file manager operations.
 

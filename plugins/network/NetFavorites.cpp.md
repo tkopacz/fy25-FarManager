@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `EnumFavorites()`: Executes EnumFavorites operation as part of core functionality
+- `EnumFavorites()`: Evaluates conditions and returns a boolean indicating success or validity of EnumFavorites
 - `settings()`: Updates tings in internal state or configuration
-- `CheckFavoriteItem()`: Validates data integrity and checks for correctness
-- `InFavoriteExists()`: Executes InFavoriteExists operation as part of core functionality
+- `CheckFavoriteItem()`: Validates conditions and returns boolean indicating whether validation passed
+- `InFavoriteExists()`: Evaluates conditions and returns a boolean indicating success or validity of InFavoriteExists
 - `WriteFavoriteItem()`: Writes data from buffer to destination
 - `ReadFavoriteItem()`: Reads data from source into provided buffer
 - `GetFavoritesParent()`: Retrieves FavoritesParent from internal state or data structure
@@ -21,10 +21,10 @@ The `NetFavorites.cpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `EnumFavorites()`: Wykonuje EnumFavorites operację jako część podstawowa funkcjonalność
+- `EnumFavorites()`: Evaluates conditions and returns a boolean indicating success or validity of EnumFavorites
 - `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
 - `CheckFavoriteItem()`: Waliduje integralność danych i sprawdza poprawność
-- `InFavoriteExists()`: Wykonuje InFavoriteExists operację jako część podstawowa funkcjonalność
+- `InFavoriteExists()`: Evaluates conditions and returns a boolean indicating success or validity of InFavoriteExists
 - `WriteFavoriteItem()`: Zapisuje dane z bufora do miejsca docelowego
 - `ReadFavoriteItem()`: Odczytuje dane ze źródła do dostarczonego bufora
 - `GetFavoritesParent()`: Pobiera FavoritesParent ze stanu wewnętrznego lub struktury danych

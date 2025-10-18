@@ -4,19 +4,19 @@
 This file implements functionality related to: Internal viewer
 Main functional areas: file viewing
 ### Key Classes
-- `Viewer`: Implements file viewing
-- `test_data`: Implements file viewing
+- `Viewer`: Performs Viewer operation as part of the component's functionality
+- `test_data`: Performs test_data operation as part of the component's functionality
 ### Key Functions
 - `is_code_page_supported_in_viewer()`: Tests whether _code_page_supported_in_viewer condition is true or property exists
 - `IsCodePageSupported()`: Tests whether CodePageSupported condition is true or property exists
 - `get_char_size()`: Retrieves _char_size from internal state or data structure
-- `hex_mode_bytes_area_wdth()`: Executes hex_mode_bytes_area_wdth operation as part of file viewing
-- `hex_mode_chars_area_width()`: Executes hex_mode_chars_area_width operation as part of file viewing
-- `hex_mode_line_width_from_bytes()`: Executes hex_mode_line_width_from_bytes operation as part of file viewing
-- `hex_mode_columns_per_stripe()`: Executes hex_mode_columns_per_stripe operation as part of file viewing
-- `hex_mode_bytes_from_line_width()`: Executes hex_mode_bytes_from_line_width operation as part of file viewing
-- `hex_mode_byte_from_column()`: Executes hex_mode_byte_from_column operation as part of file viewing
-- `listed()`: Executes listed operation as part of file viewing
+- `hex_mode_bytes_area_wdth()`: Performs hex_mode_bytes_area_wdth operation as part of the component's functionality
+- `hex_mode_chars_area_width()`: Performs hex_mode_chars_area_width operation as part of the component's functionality
+- `hex_mode_line_width_from_bytes()`: Performs hex_mode_line_width_from_bytes operation as part of the component's functionality
+- `hex_mode_columns_per_stripe()`: Performs hex_mode_columns_per_stripe operation as part of the component's functionality
+- `hex_mode_bytes_from_line_width()`: Performs hex_mode_bytes_from_line_width operation as part of the component's functionality
+- `hex_mode_byte_from_column()`: Performs hex_mode_byte_from_column operation as part of the component's functionality
+- `listed()`: Performs listed operation as part of the component's functionality
 ### Summary
 The `viewer.cpp` file provides essential functionality for file viewing. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

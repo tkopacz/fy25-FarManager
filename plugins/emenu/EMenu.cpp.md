@@ -5,11 +5,11 @@ Main functional areas: menu management
 ### Key Functions
 - `GetGlobalInfoW()`: Retrieves GlobalInfoW from internal state or data structure
 - `SetStartupInfoW()`: Updates StartupInfoW in internal state or configuration
-- `CPlugin()`: Executes CPlugin operation as part of menu management
+- `CPlugin()`: Performs CPlugin operation as part of the component's functionality
 - `GetPluginInfoW()`: Retrieves PluginInfoW from internal state or data structure
 - `OpenW()`: Opens resource and prepares it for access operations
-- `ConfigureW()`: Executes ConfigureW operation as part of menu management
-- `ExitFARW()`: Executes ExitFARW operation as part of menu management
+- `ConfigureW()`: Performs ConfigureW operation as part of the component's functionality
+- `ExitFARW()`: Performs ExitFARW operation as part of the component's functionality
 ### Summary
 The `EMenu.cpp` file provides essential functionality for menu management. and contains approximately 7 function(s) to support the Far Manager file manager operations.
 

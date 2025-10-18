@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `байт()`: Executes байт operation as part of core functionality
+- `байт()`: Performs байт operation as part of the component's functionality
 - `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
 - `IsNSISHeader()`: Tests whether NSISHeader condition is true or property exists
 ### Summary
@@ -15,7 +15,7 @@ The `nsisdetect.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `байт()`: Wykonuje байт operację jako część podstawowa funkcjonalność
+- `байт()`: Performs байт operation as part of the component's functionality
 - `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
 - `IsNSISHeader()`: Testuje czy NSISHeader warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

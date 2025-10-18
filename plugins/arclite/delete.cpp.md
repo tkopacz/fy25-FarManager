@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveFileDeleter`: Implements core functionality
-- `ArchiveFileDeleterProgress`: Implements core functionality
-- `ArchiveFileDeleterStream`: Implements core functionality
+- `ArchiveFileDeleter`: Performs ArchiveFileDeleter operation as part of the component's functionality
+- `ArchiveFileDeleterProgress`: Performs ArchiveFileDeleterProgress operation as part of the component's functionality
+- `ArchiveFileDeleterStream`: Opens and manages file access for reading or writing operations
 ### Key Functions
-- `do_update_ui()`: Executes do_update_ui operation as part of core functionality
+- `do_update_ui()`: Performs do_update_ui operation as part of the component's functionality
 - `update_total()`: Updates existing data with new values while preserving structure
 - `update_completed()`: Updates existing data with new values while preserving structure
 - `open()`: Opens resource and prepares it for access operations
@@ -21,11 +21,11 @@ The `delete.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveFileDeleter`: Implementuje podstawowa funkcjonalność
-- `ArchiveFileDeleterProgress`: Implementuje podstawowa funkcjonalność
-- `ArchiveFileDeleterStream`: Implementuje podstawowa funkcjonalność
+- `ArchiveFileDeleter`: Performs ArchiveFileDeleter operation as part of the component's functionality
+- `ArchiveFileDeleterProgress`: Performs ArchiveFileDeleterProgress operation as part of the component's functionality
+- `ArchiveFileDeleterStream`: Opens and manages file access for reading or writing operations
 ### Kluczowe Funkcje
-- `do_update_ui()`: Wykonuje do_update_ui operację jako część podstawowa funkcjonalność
+- `do_update_ui()`: Performs do_update_ui operation as part of the component's functionality
 - `update_total()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
 - `update_completed()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
 - `open()`: Otwiera zasób i przygotowuje go do operacji dostępu

@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `c_str()`: Executes c_str operation as part of string utilities
-- `Text()`: Executes Text operation as part of string utilities
+- `c_str()`: Performs c_str operation as part of the component's functionality
+- `Text()`: Performs Text operation as part of the component's functionality
 - `Add()`: Adds new item to collection or list
-- `AnsiString()`: Executes AnsiString operation as part of string utilities
-- `Alloc()`: Executes Alloc operation as part of string utilities
+- `AnsiString()`: Performs AnsiString operation as part of the component's functionality
+- `Alloc()`: Performs Alloc operation as part of the component's functionality
 ### Summary
 The `mcString.cpp` file provides essential functionality for string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

@@ -4,8 +4,8 @@
 This file implements functionality related to: */
 Main functional areas: console operations
 ### Key Functions
-- `margin()`: Executes margin operation as part of console operations
-- `command()`: Executes command operation as part of console operations
+- `margin()`: Evaluates conditions and returns boolean indicating success or validity
+- `command()`: Performs command operation as part of the component's functionality
 ### Summary
 The `console_session.cpp` file provides essential functionality for console operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

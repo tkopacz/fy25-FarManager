@@ -4,13 +4,13 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ExtraBlockHeader`: Implements core functionality
-- `NTFSAttributeHeader`: Implements core functionality
-- `TimesAttribute`: Implements core functionality
-- `ZIP64Descriptor`: Implements core functionality
-- `ZipHdr1`: Implements core functionality
-- `ZipHdr2`: Implements core functionality
-- `ZipHeader`: Implements core functionality
+- `ExtraBlockHeader`: Performs ExtraBlockHeader operation as part of the component's functionality
+- `NTFSAttributeHeader`: Performs NTFSAttributeHeader operation as part of the component's functionality
+- `TimesAttribute`: Performs TimesAttribute operation as part of the component's functionality
+- `ZIP64Descriptor`: Performs ZIP64Descriptor operation as part of the component's functionality
+- `ZipHdr1`: Performs ZipHdr1 operation as part of the component's functionality
+- `ZipHdr2`: Performs ZipHdr2 operation as part of the component's functionality
+- `ZipHeader`: Performs ZipHeader operation as part of the component's functionality
 ### Key Functions
 - `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
 - `GetFilePosition()`: Retrieves FilePosition from internal state or data structure
@@ -32,13 +32,13 @@ The `zip.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ExtraBlockHeader`: Implementuje podstawowa funkcjonalność
-- `NTFSAttributeHeader`: Implementuje podstawowa funkcjonalność
-- `TimesAttribute`: Implementuje podstawowa funkcjonalność
-- `ZIP64Descriptor`: Implementuje podstawowa funkcjonalność
-- `ZipHdr1`: Implementuje podstawowa funkcjonalność
-- `ZipHdr2`: Implementuje podstawowa funkcjonalność
-- `ZipHeader`: Implementuje podstawowa funkcjonalność
+- `ExtraBlockHeader`: Performs ExtraBlockHeader operation as part of the component's functionality
+- `NTFSAttributeHeader`: Performs NTFSAttributeHeader operation as part of the component's functionality
+- `TimesAttribute`: Performs TimesAttribute operation as part of the component's functionality
+- `ZIP64Descriptor`: Performs ZIP64Descriptor operation as part of the component's functionality
+- `ZipHdr1`: Performs ZipHdr1 operation as part of the component's functionality
+- `ZipHdr2`: Performs ZipHdr2 operation as part of the component's functionality
+- `ZipHeader`: Performs ZipHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
 - `GetFilePosition()`: Pobiera FilePosition ze stanu wewnętrznego lub struktury danych

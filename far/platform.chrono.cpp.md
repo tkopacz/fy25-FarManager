@@ -4,16 +4,16 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `from_filetime()`: Executes from_filetime operation as part of core functionality
-- `posix_shift()`: Executes posix_shift operation as part of core functionality
-- `make_time()`: Executes make_time operation as part of core functionality
-- `make_system_time()`: Executes make_system_time operation as part of core functionality
-- `now_utc()`: Executes now_utc operation as part of core functionality
-- `now_local()`: Executes now_local operation as part of core functionality
-- `timepoint_to_system_time()`: Executes timepoint_to_system_time operation as part of core functionality
-- `FileTimeToSystemTime()`: Executes FileTimeToSystemTime operation as part of core functionality
-- `transfer_hns()`: Executes transfer_hns operation as part of core functionality
-- `timepoint_to_utc_time()`: Executes timepoint_to_utc_time operation as part of core functionality
+- `from_filetime()`: Performs from_filetime operation as part of the component's functionality
+- `posix_shift()`: Performs posix_shift operation as part of the component's functionality
+- `make_time()`: Performs make_time operation as part of the component's functionality
+- `make_system_time()`: Performs make_system_time operation as part of the component's functionality
+- `now_utc()`: Performs now_utc operation as part of the component's functionality
+- `now_local()`: Performs now_local operation as part of the component's functionality
+- `timepoint_to_system_time()`: Evaluates conditions and returns boolean indicating success or validity
+- `FileTimeToSystemTime()`: Performs FileTimeToSystemTime operation as part of the component's functionality
+- `transfer_hns()`: Performs transfer_hns operation as part of the component's functionality
+- `timepoint_to_utc_time()`: Evaluates conditions and returns a boolean indicating success or validity of timepoint_to_utc_time
 ### Namespaces
 - `os`
 ### Summary
@@ -26,16 +26,16 @@ The `platform.chrono.cpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `from_filetime()`: Wykonuje from_filetime operację jako część podstawowa funkcjonalność
-- `posix_shift()`: Wykonuje posix_shift operację jako część podstawowa funkcjonalność
-- `make_time()`: Wykonuje make_time operację jako część podstawowa funkcjonalność
-- `make_system_time()`: Wykonuje make_system_time operację jako część podstawowa funkcjonalność
-- `now_utc()`: Wykonuje now_utc operację jako część podstawowa funkcjonalność
-- `now_local()`: Wykonuje now_local operację jako część podstawowa funkcjonalność
-- `timepoint_to_system_time()`: Wykonuje timepoint_to_system_time operację jako część podstawowa funkcjonalność
-- `FileTimeToSystemTime()`: Wykonuje FileTimeToSystemTime operację jako część podstawowa funkcjonalność
-- `transfer_hns()`: Wykonuje transfer_hns operację jako część podstawowa funkcjonalność
-- `timepoint_to_utc_time()`: Wykonuje timepoint_to_utc_time operację jako część podstawowa funkcjonalność
+- `from_filetime()`: Performs from_filetime operation as part of the component's functionality
+- `posix_shift()`: Performs posix_shift operation as part of the component's functionality
+- `make_time()`: Performs make_time operation as part of the component's functionality
+- `make_system_time()`: Performs make_system_time operation as part of the component's functionality
+- `now_utc()`: Performs now_utc operation as part of the component's functionality
+- `now_local()`: Performs now_local operation as part of the component's functionality
+- `timepoint_to_system_time()`: Evaluates conditions and returns boolean indicating success or validity
+- `FileTimeToSystemTime()`: Performs FileTimeToSystemTime operation as part of the component's functionality
+- `transfer_hns()`: Performs transfer_hns operation as part of the component's functionality
+- `timepoint_to_utc_time()`: Evaluates conditions and returns a boolean indicating success or validity of timepoint_to_utc_time
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

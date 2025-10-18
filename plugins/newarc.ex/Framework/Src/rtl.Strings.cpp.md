@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `StrDeleteArray()`: Executes StrDeleteArray operation as part of string utilities
-- `StrDelete()`: Executes StrDelete operation as part of string utilities
+- `StrDeleteArray()`: Performs StrDeleteArray operation as part of the component's functionality
+- `StrDelete()`: Performs StrDelete operation as part of the component's functionality
 - `StrReplace()`: Constructor that initializes StrReplace object with provided parameters
-- `StrDuplicate()`: Executes StrDuplicate operation as part of string utilities
-- `StrLength()`: Executes StrLength operation as part of string utilities
+- `StrDuplicate()`: Performs StrDuplicate operation as part of the component's functionality
+- `StrLength()`: Performs StrLength operation as part of the component's functionality
 ### Summary
 The `rtl.Strings.cpp` file provides essential functionality for string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

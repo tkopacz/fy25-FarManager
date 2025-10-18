@@ -4,14 +4,14 @@
 This file implements functionality related to: Параметры Файлового фильтра
 Main functional areas: file system operations
 ### Key Classes
-- `FileFilterParams`: Implements file system operations
-- `filter_area`: Implements file system operations
-- `filter_dates`: Implements file system operations
-- `fmask`: Implements file system operations
+- `FileFilterParams`: Performs FileFilterParams operation as part of the component's functionality
+- `filter_area`: Performs filter_area operation as part of the component's functionality
+- `filter_dates`: Performs filter_dates operation as part of the component's functionality
+- `fmask`: Performs fmask operation as part of the component's functionality
 ### Key Functions
-- `filter_dates()`: Executes filter_dates operation as part of file system operations
-- `bool()`: Executes bool operation as part of file system operations
-- `Clone()`: Executes Clone operation as part of file system operations
+- `filter_dates()`: Performs filter_dates operation as part of the component's functionality
+- `bool()`: Performs bool operation as part of the component's functionality
+- `Clone()`: Performs Clone operation as part of the component's functionality
 - `SetTitle()`: Updates Title in internal state or configuration
 - `SetMask()`: Updates Mask in internal state or configuration
 - `SetDate()`: Updates Date in internal state or configuration

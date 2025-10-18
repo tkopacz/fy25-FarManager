@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Functions
-- `AskSaveList()`: Executes AskSaveList operation as part of dialog handling
+- `AskSaveList()`: Evaluates conditions and returns a boolean indicating success or validity of AskSaveList
 - `SET_FLAG()`: Updates _FLAG in internal state or configuration
-- `QueryExHostOptions()`: Executes QueryExHostOptions operation as part of dialog handling
+- `QueryExHostOptions()`: Performs QueryExHostOptions operation as part of the component's functionality
 - `GetLoginData()`: Retrieves LoginData from internal state or data structure
 ### Summary
 The `FtpDlg.cpp` file provides essential functionality for dialog handling. and contains approximately 4 function(s) to support the Far Manager file manager operations.

@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `CFHEADER`: Implements core functionality
+- `CFHEADER`: Performs CFHEADER operation as part of the component's functionality
 ### Key Functions
 - `IsCabHeader()`: Tests whether CabHeader condition is true or property exists
 ### Summary
@@ -15,7 +15,7 @@ The `cabdetect.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CFHEADER`: Implementuje podstawowa funkcjonalność
+- `CFHEADER`: Performs CFHEADER operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsCabHeader()`: Testuje czy CabHeader warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

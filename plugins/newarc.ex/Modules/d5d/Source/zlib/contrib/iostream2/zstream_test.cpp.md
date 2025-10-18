@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: string utilities, testing
 ### Key Functions
-- `main()`: Executes main operation as part of string utilities, testing
-- `out()`: Executes out operation as part of string utilities, testing
-- `in()`: Executes in operation as part of string utilities, testing
+- `main()`: Allocates memory and initializes resources for main
+- `out()`: Performs out operation as part of the component's functionality
+- `in()`: Allocates memory and initializes resources for in
 ### Summary
 The `zstream_test.cpp` file provides essential functionality for string utilities, testing. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

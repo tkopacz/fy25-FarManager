@@ -5,7 +5,7 @@ This file implements functionality related to: Misc functions for drive/disk inf
 Main functional areas: core functionality
 ### Key Functions
 - `UpdateSavedDrives()`: Updates existing data with new values while preserving structure
-- `allowed_drives_mask()`: Executes allowed_drives_mask operation as part of core functionality
+- `allowed_drives_mask()`: Performs allowed_drives_mask operation as part of the component's functionality
 - `get_logical_drives()`: Retrieves _logical_drives from internal state or data structure
 ### Namespaces
 - `fs`
@@ -21,7 +21,7 @@ Ten plik implementuje funkcjonalność związaną z: Misc functions for drive/di
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `UpdateSavedDrives()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `allowed_drives_mask()`: Wykonuje allowed_drives_mask operację jako część podstawowa funkcjonalność
+- `allowed_drives_mask()`: Performs allowed_drives_mask operation as part of the component's functionality
 - `get_logical_drives()`: Pobiera _logical_drives ze stanu wewnętrznego lub struktury danych
 ### Przestrzenie nazw
 - `fs`

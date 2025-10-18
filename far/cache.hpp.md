@@ -4,7 +4,7 @@
 This file implements functionality related to: Кеширование записи в файл/чтения из файла
 Main functional areas: file caching
 ### Key Classes
-- `CachedRead`: Implements file caching
+- `CachedRead`: Performs CachedRead operation as part of the component's functionality
 ### Key Functions
 - `CachedRead()`: Constructor that initializes CachedRead object with file reference and buffer size for optimized disk I/O
 - `AdjustAlignment()`: Adjusts buffer alignment based on physical sector size for optimal disk I/O performance

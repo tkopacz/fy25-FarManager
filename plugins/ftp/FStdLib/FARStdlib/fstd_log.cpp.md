@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `LOGInit()`: Executes LOGInit operation as part of file system operations
-- `FP_FILELog()`: Executes FP_FILELog operation as part of file system operations
-- `fprintf()`: Executes fprintf operation as part of file system operations
+- `LOGInit()`: Performs LOGInit operation as part of the component's functionality
+- `FP_FILELog()`: Opens and manages file access for reading or writing operations
+- `fprintf()`: Performs fprintf operation as part of the component's functionality
 ### Summary
 The `fstd_log.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

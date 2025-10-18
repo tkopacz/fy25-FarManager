@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `expected`: Implements core functionality
-- `unexpected`: Implements core functionality
+- `expected`: Performs expected operation as part of the component's functionality
+- `unexpected`: Performs unexpected operation as part of the component's functionality
 ### Key Functions
 - `has_value()`: Tests whether _value condition is true or property exists
-- `bool()`: Executes bool operation as part of core functionality
-- `value()`: Executes value operation as part of core functionality
-- `error()`: Executes error operation as part of core functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `value()`: Performs value operation as part of the component's functionality
+- `error()`: Validates conditions and throws exceptions when errors are detected during error operation
 ### Namespaces
 - `std`
 ### Summary
@@ -21,13 +21,13 @@ The `expected.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `expected`: Implementuje podstawowa funkcjonalność
-- `unexpected`: Implementuje podstawowa funkcjonalność
+- `expected`: Performs expected operation as part of the component's functionality
+- `unexpected`: Performs unexpected operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `has_value()`: Testuje czy _wartość warunek jest prawdziwy lub właściwość istnieje
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `value()`: Wykonuje wartość operację jako część podstawowa funkcjonalność
-- `error()`: Wykonuje error operację jako część podstawowa funkcjonalność
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `value()`: Performs value operation as part of the component's functionality
+- `error()`: Validates conditions and throws exceptions when errors are detected during error operation
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

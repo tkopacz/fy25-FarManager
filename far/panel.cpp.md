@@ -4,9 +4,9 @@
 This file implements functionality related to: Parent class для панелей
 Main functional areas: panel management
 ### Key Functions
-- `ExecFolder()`: Executes ExecFolder operation as part of panel management
-- `internal_sort_mode_to_plugin()`: Executes internal_sort_mode_to_plugin operation as part of panel management
-- `plugin_sort_mode_to_internal()`: Executes plugin_sort_mode_to_internal operation as part of panel management
+- `ExecFolder()`: Evaluates conditions and returns a boolean indicating success or validity of ExecFolder
+- `internal_sort_mode_to_plugin()`: Performs internal_sort_mode_to_plugin operation as part of the component's functionality
+- `plugin_sort_mode_to_internal()`: Performs plugin_sort_mode_to_internal operation as part of the component's functionality
 ### Summary
 The `panel.cpp` file provides essential functionality for panel management. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

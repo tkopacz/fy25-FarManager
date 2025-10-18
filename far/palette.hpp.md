@@ -4,19 +4,19 @@
 This file implements functionality related to: Таблица цветов
 Main functional areas: core functionality
 ### Key Classes
-- `FarColor`: Implements core functionality
-- `palette`: Implements core functionality
+- `FarColor`: Performs FarColor operation as part of the component's functionality
+- `palette`: Performs palette operation as part of the component's functionality
 ### Key Functions
-- `fg()`: Executes fg operation as part of core functionality
-- `bg()`: Executes bg operation as part of core functionality
+- `fg()`: Performs fg operation as part of the component's functionality
+- `bg()`: Performs bg operation as part of the component's functionality
 - `Load()`: Loads data or resources from storage into memory
 - `Save()`: Saves current state or data to persistent storage
-- `ResetToDefaultIndex()`: Executes ResetToDefaultIndex operation as part of core functionality
-- `ResetToDefaultRGB()`: Executes ResetToDefaultRGB operation as part of core functionality
-- `Default()`: Executes Default operation as part of core functionality
+- `ResetToDefaultIndex()`: Performs ResetToDefaultIndex operation as part of the component's functionality
+- `ResetToDefaultRGB()`: Performs ResetToDefaultRGB operation as part of the component's functionality
+- `Default()`: Performs Default operation as part of the component's functionality
 - `Set()`: Updates value in internal state or configuration
 - `CopyTo()`: Copies data from source to destination location
-- `size()`: Executes size operation as part of core functionality
+- `size()`: Performs size operation as part of the component's functionality
 ### Namespaces
 - `channel`
 - `detail`
@@ -30,19 +30,19 @@ The `palette.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Таблица цветов
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FarColor`: Implementuje podstawowa funkcjonalność
-- `palette`: Implementuje podstawowa funkcjonalność
+- `FarColor`: Performs FarColor operation as part of the component's functionality
+- `palette`: Performs palette operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `fg()`: Wykonuje fg operację jako część podstawowa funkcjonalność
-- `bg()`: Wykonuje bg operację jako część podstawowa funkcjonalność
+- `fg()`: Performs fg operation as part of the component's functionality
+- `bg()`: Performs bg operation as part of the component's functionality
 - `Load()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `Save()`: Zapisuje bieżący stan lub dane do trwałego magazynu
-- `ResetToDefaultIndex()`: Wykonuje ResetToDefaultIndex operację jako część podstawowa funkcjonalność
-- `ResetToDefaultRGB()`: Wykonuje ResetToDefaultRGB operację jako część podstawowa funkcjonalność
-- `Default()`: Wykonuje Default operację jako część podstawowa funkcjonalność
+- `ResetToDefaultIndex()`: Performs ResetToDefaultIndex operation as part of the component's functionality
+- `ResetToDefaultRGB()`: Performs ResetToDefaultRGB operation as part of the component's functionality
+- `Default()`: Performs Default operation as part of the component's functionality
 - `Set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
 - `CopyTo()`: Kopiuje dane ze źródła do miejsca docelowego
-- `size()`: Wykonuje size operację jako część podstawowa funkcjonalność
+- `size()`: Performs size operation as part of the component's functionality
 ### Przestrzenie nazw
 - `channel`
 - `detail`

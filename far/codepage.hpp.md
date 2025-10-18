@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ansi`: Implements core functionality
-- `cp_info`: Implements core functionality
-- `oem`: Implements core functionality
-- `utf8`: Implements core functionality
+- `ansi`: Performs ansi operation as part of the component's functionality
+- `cp_info`: Performs cp_info operation as part of the component's functionality
+- `oem`: Performs oem operation as part of the component's functionality
+- `utf8`: Performs utf8 operation as part of the component's functionality
 ### Key Functions
-- `id()`: Executes id operation as part of core functionality
-- `utf8()`: Executes utf8 operation as part of core functionality
-- `ansi()`: Executes ansi operation as part of core functionality
-- `oem()`: Executes oem operation as part of core functionality
-- `normalise()`: Executes normalise operation as part of core functionality
+- `id()`: Performs id operation as part of the component's functionality
+- `utf8()`: Performs utf8 operation as part of the component's functionality
+- `ansi()`: Performs ansi operation as part of the component's functionality
+- `oem()`: Performs oem operation as part of the component's functionality
+- `normalise()`: Performs normalise operation as part of the component's functionality
 - `InstalledCodepages()`: Constructor that initializes InstalledCodepages object with provided parameters
 - `GetCodePageInfo()`: Retrieves CodePageInfo from internal state or data structure
 - `IsVirtualCodePage()`: Tests whether VirtualCodePage condition is true or property exists
@@ -31,16 +31,16 @@ The `codepage.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ansi`: Implementuje podstawowa funkcjonalność
-- `cp_info`: Implementuje podstawowa funkcjonalność
-- `oem`: Implementuje podstawowa funkcjonalność
-- `utf8`: Implementuje podstawowa funkcjonalność
+- `ansi`: Performs ansi operation as part of the component's functionality
+- `cp_info`: Performs cp_info operation as part of the component's functionality
+- `oem`: Performs oem operation as part of the component's functionality
+- `utf8`: Performs utf8 operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `id()`: Wykonuje id operację jako część podstawowa funkcjonalność
-- `utf8()`: Wykonuje utf8 operację jako część podstawowa funkcjonalność
-- `ansi()`: Wykonuje ansi operację jako część podstawowa funkcjonalność
-- `oem()`: Wykonuje oem operację jako część podstawowa funkcjonalność
-- `normalise()`: Wykonuje normalise operację jako część podstawowa funkcjonalność
+- `id()`: Performs id operation as part of the component's functionality
+- `utf8()`: Performs utf8 operation as part of the component's functionality
+- `ansi()`: Performs ansi operation as part of the component's functionality
+- `oem()`: Performs oem operation as part of the component's functionality
+- `normalise()`: Performs normalise operation as part of the component's functionality
 - `InstalledCodepages()`: Konstruktor inicjalizujący InstalledCodepages obiekt z dostarczonymi parametrami
 - `GetCodePageInfo()`: Pobiera CodePageInfo ze stanu wewnętrznego lub struktury danych
 - `IsVirtualCodePage()`: Testuje czy VirtualCodePage warunek jest prawdziwy lub właściwość istnieje

@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Language`: Implements core functionality
+- `Language`: Performs Language operation as part of the component's functionality
 ### Key Functions
 - `LoadFromBuffer()`: Loads data or resources from storage into memory
 - `LoadFromFile()`: Loads data or resources from storage into memory
@@ -20,7 +20,7 @@ The `FarLng2.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Language`: Implementuje podstawowa funkcjonalność
+- `Language`: Performs Language operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `LoadFromBuffer()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `LoadFromFile()`: Ładuje dane lub zasoby z magazynu do pamięci

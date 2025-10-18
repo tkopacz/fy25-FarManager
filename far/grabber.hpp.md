@@ -4,14 +4,14 @@
 This file implements functionality related to: Screen grabber
 Main functional areas: core functionality
 ### Key Classes
-- `grabber_tag`: Implements core functionality
-- `private_tag`: Implements core functionality
+- `grabber_tag`: Performs grabber_tag operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
-- `Grabber()`: Executes Grabber operation as part of core functionality
+- `Grabber()`: Performs Grabber operation as part of the component's functionality
 - `GetType()`: Retrieves Type from internal state or data structure
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
 - `DisplayObject()`: Displays content or makes visual element visible on screen
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
@@ -27,11 +27,11 @@ The `grabber.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Screen grabber
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `grabber_tag`: Implementuje podstawowa funkcjonalność
-- `private_tag`: Implementuje podstawowa funkcjonalność
+- `grabber_tag`: Performs grabber_tag operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `Grabber()`: Wykonuje Grabber operację jako część podstawowa funkcjonalność
+- `Grabber()`: Performs Grabber operation as part of the component's functionality
 - `GetType()`: Pobiera Type ze stanu wewnętrznego lub struktury danych
 - `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
 - `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe

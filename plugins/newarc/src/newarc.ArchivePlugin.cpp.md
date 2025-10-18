@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Functions
-- `Allocate()`: Executes Allocate operation as part of plugin interface
-- `malloc()`: Executes malloc operation as part of plugin interface
-- `Free()`: Executes Free operation as part of plugin interface
-- `Archive()`: Executes Archive operation as part of plugin interface
+- `Allocate()`: Allocates memory and initializes resources for Allocate
+- `malloc()`: Performs malloc operation as part of the component's functionality
+- `Free()`: Performs Free operation as part of the component's functionality
+- `Archive()`: Allocates memory and initializes resources for Archive
 ### Summary
 The `newarc.ArchivePlugin.cpp` file provides essential functionality for plugin interface. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

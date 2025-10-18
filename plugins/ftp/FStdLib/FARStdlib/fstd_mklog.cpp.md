@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `LOGInit()`: Executes LOGInit operation as part of file system operations
-- `FP_GetLogFullFileName()`: Executes FP_GetLogFullFileName operation as part of file system operations
-- `strcpy()`: Executes strcpy operation as part of file system operations
+- `LOGInit()`: Evaluates conditions and returns a boolean indicating success or validity of LOGInit
+- `FP_GetLogFullFileName()`: Performs FP_GetLogFullFileName operation as part of the component's functionality
+- `strcpy()`: Performs strcpy operation as part of the component's functionality
 ### Summary
 The `fstd_mklog.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

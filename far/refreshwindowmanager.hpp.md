@@ -4,11 +4,11 @@
 This file implements functionality related to: Класс для рефрешки
 Main functional areas: window management
 ### Key Classes
-- `RefreshWindowManager`: Implements window management
-- `SaveScreen`: Implements window management
-- `UndoGlobalSaveScrPtr`: Implements window management
+- `RefreshWindowManager`: Performs RefreshWindowManager operation as part of the component's functionality
+- `SaveScreen`: Writes or saves data to a destination
+- `UndoGlobalSaveScrPtr`: Performs UndoGlobalSaveScrPtr operation as part of the component's functionality
 ### Key Functions
-- `UndoGlobalSaveScrPtr()`: Executes UndoGlobalSaveScrPtr operation as part of window management
+- `UndoGlobalSaveScrPtr()`: Performs UndoGlobalSaveScrPtr operation as part of the component's functionality
 ### Summary
 The `refreshwindowmanager.hpp` file provides essential functionality for window management. It defines 3 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

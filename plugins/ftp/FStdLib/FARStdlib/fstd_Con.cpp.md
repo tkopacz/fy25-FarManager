@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `FP_ConWidth()`: Executes FP_ConWidth operation as part of file system operations
-- `FP_ConHeight()`: Executes FP_ConHeight operation as part of file system operations
+- `FP_ConWidth()`: Performs FP_ConWidth operation as part of the component's functionality
+- `FP_ConHeight()`: Performs FP_ConHeight operation as part of the component's functionality
 ### Summary
 The `fstd_Con.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

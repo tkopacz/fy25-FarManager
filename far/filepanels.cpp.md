@@ -4,11 +4,11 @@
 This file implements functionality related to: Файловые панели
 Main functional areas: panel management, file system operations
 ### Key Functions
-- `PrepareOptFolder()`: Executes PrepareOptFolder operation as part of panel management, file system operations
-- `SwapPanels()`: Executes SwapPanels operation as part of panel management, file system operations
-- `RightPanel()`: Executes RightPanel operation as part of panel management, file system operations
-- `LeftPanel()`: Executes LeftPanel operation as part of panel management, file system operations
-- `NameDir()`: Executes NameDir operation as part of panel management, file system operations
+- `PrepareOptFolder()`: Performs PrepareOptFolder operation as part of the component's functionality
+- `SwapPanels()`: Evaluates conditions and returns a boolean indicating success or validity of SwapPanels
+- `RightPanel()`: Performs RightPanel operation as part of the component's functionality
+- `LeftPanel()`: Performs LeftPanel operation as part of the component's functionality
+- `NameDir()`: Performs NameDir operation as part of the component's functionality
 ### Summary
 The `filepanels.cpp` file provides essential functionality for panel management, file system operations. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

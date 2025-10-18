@@ -4,7 +4,7 @@
 This file implements functionality related to: Eject съемных носителей
 Main functional areas: core functionality
 ### Key Functions
-- `EjectVolume()`: Executes EjectVolume operation as part of core functionality
+- `EjectVolume()`: Performs EjectVolume operation as part of the component's functionality
 - `LoadVolume()`: Loads data or resources from storage into memory
 - `IsEjectableMedia()`: Tests whether EjectableMedia condition is true or property exists
 ### Summary
@@ -17,7 +17,7 @@ The `eject.hpp` file provides essential functionality for core functionality. an
 Ten plik implementuje funkcjonalność związaną z: Eject съемных носителей
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `EjectVolume()`: Wykonuje EjectVolume operację jako część podstawowa funkcjonalność
+- `EjectVolume()`: Performs EjectVolume operation as part of the component's functionality
 - `LoadVolume()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `IsEjectableMedia()`: Testuje czy EjectableMedia warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

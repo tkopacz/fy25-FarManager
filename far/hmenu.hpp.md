@@ -4,15 +4,15 @@
 This file implements functionality related to: Горизонтальное меню
 Main functional areas: menu management
 ### Key Classes
-- `HMenuData`: Implements menu management
-- `VMenu2`: Implements menu management
-- `private_tag`: Implements menu management
+- `HMenuData`: Performs HMenuData operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `VMProcess()`: Processes virtual machine operations or commands
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
 - `GetType()`: Retrieves Type from internal state or data structure
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
 - `GetExitCode()`: Retrieves ExitCode from internal state or data structure

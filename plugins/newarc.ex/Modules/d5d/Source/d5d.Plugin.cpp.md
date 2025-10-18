@@ -7,13 +7,13 @@ Main functional areas: plugin interface
 - `ShortStringToTCHAR()`: Constructor that initializes ShortStringToTCHAR object with provided parameters
 - `GetLanguageString()`: Retrieves LanguageString from internal state or data structure
 - `ShowMessageBox()`: Displays content or makes visual element visible on screen
-- `Percent()`: Executes Percent operation as part of plugin interface
+- `Percent()`: Performs Percent operation as part of the component's functionality
 - `GetLanguageStringThunk()`: Retrieves LanguageStringThunk from internal state or data structure
 - `ShowMessageBoxThunk()`: Displays content or makes visual element visible on screen
-- `PercentThunk()`: Executes PercentThunk operation as part of plugin interface
-- `m_pfnGetNumVersion()`: Executes m_pfnGetNumVersion operation as part of plugin interface
-- `ANSI_NAME_DELETE()`: Executes ANSI_NAME_DELETE operation as part of plugin interface
-- `D5DArchive()`: Executes D5DArchive operation as part of plugin interface
+- `PercentThunk()`: Performs PercentThunk operation as part of the component's functionality
+- `m_pfnGetNumVersion()`: Performs m_pfnGetNumVersion operation as part of the component's functionality
+- `ANSI_NAME_DELETE()`: Performs ANSI_NAME_DELETE operation as part of the component's functionality
+- `D5DArchive()`: Performs D5DArchive operation as part of the component's functionality
 ### Summary
 The `d5d.Plugin.cpp` file provides essential functionality for plugin interface. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

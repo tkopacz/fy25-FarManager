@@ -4,20 +4,20 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `date_type`: Implements core functionality
-- `locale`: Implements core functionality
-- `locale_names`: Implements core functionality
-- `name`: Implements core functionality
+- `date_type`: Performs date_type operation as part of the component's functionality
+- `locale`: Performs locale operation as part of the component's functionality
+- `locale_names`: Performs locale_names operation as part of the component's functionality
+- `name`: Performs name operation as part of the component's functionality
 ### Key Functions
-- `locale()`: Executes locale operation as part of core functionality
+- `locale()`: Performs locale operation as part of the component's functionality
 - `is_invariant()`: Tests whether _invariant condition is true or property exists
 - `is_cjk()`: Tests whether _cjk condition is true or property exists
-- `date_format()`: Executes date_format operation as part of core functionality
-- `digits_grouping()`: Executes digits_grouping operation as part of core functionality
-- `date_separator()`: Executes date_separator operation as part of core functionality
-- `time_separator()`: Executes time_separator operation as part of core functionality
-- `decimal_separator()`: Executes decimal_separator operation as part of core functionality
-- `thousand_separator()`: Executes thousand_separator operation as part of core functionality
+- `date_format()`: Performs date_format operation as part of the component's functionality
+- `digits_grouping()`: Performs digits_grouping operation as part of the component's functionality
+- `date_separator()`: Performs date_separator operation as part of the component's functionality
+- `time_separator()`: Performs time_separator operation as part of the component's functionality
+- `decimal_separator()`: Performs decimal_separator operation as part of the component's functionality
+- `thousand_separator()`: Performs thousand_separator operation as part of the component's functionality
 - `LocalNames()`: Constructor that initializes LocalNames object with provided parameters
 ### Namespaces
 - `detail`
@@ -31,20 +31,20 @@ The `locale.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `date_type`: Implementuje podstawowa funkcjonalność
-- `locale`: Implementuje podstawowa funkcjonalność
-- `locale_names`: Implementuje podstawowa funkcjonalność
-- `name`: Implementuje podstawowa funkcjonalność
+- `date_type`: Performs date_type operation as part of the component's functionality
+- `locale`: Performs locale operation as part of the component's functionality
+- `locale_names`: Performs locale_names operation as part of the component's functionality
+- `name`: Performs name operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `locale()`: Wykonuje locale operację jako część podstawowa funkcjonalność
+- `locale()`: Performs locale operation as part of the component's functionality
 - `is_invariant()`: Testuje czy _invariant warunek jest prawdziwy lub właściwość istnieje
 - `is_cjk()`: Testuje czy _cjk warunek jest prawdziwy lub właściwość istnieje
-- `date_format()`: Wykonuje date_format operację jako część podstawowa funkcjonalność
-- `digits_grouping()`: Wykonuje digits_grouping operację jako część podstawowa funkcjonalność
-- `date_separator()`: Wykonuje date_separator operację jako część podstawowa funkcjonalność
-- `time_separator()`: Wykonuje time_separator operację jako część podstawowa funkcjonalność
-- `decimal_separator()`: Wykonuje decimal_separator operację jako część podstawowa funkcjonalność
-- `thousand_separator()`: Wykonuje thousand_separator operację jako część podstawowa funkcjonalność
+- `date_format()`: Performs date_format operation as part of the component's functionality
+- `digits_grouping()`: Performs digits_grouping operation as part of the component's functionality
+- `date_separator()`: Performs date_separator operation as part of the component's functionality
+- `time_separator()`: Performs time_separator operation as part of the component's functionality
+- `decimal_separator()`: Performs decimal_separator operation as part of the component's functionality
+- `thousand_separator()`: Performs thousand_separator operation as part of the component's functionality
 - `LocalNames()`: Konstruktor inicjalizujący LocalNames obiekt z dostarczonymi parametrami
 ### Przestrzenie nazw
 - `detail`

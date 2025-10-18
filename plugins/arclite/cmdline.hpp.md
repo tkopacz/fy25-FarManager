@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `CommandArgs`: Implements core functionality
-- `ExtractCommand`: Implements core functionality
-- `ExtractItemsCommand`: Implements core functionality
-- `OpenCommand`: Implements core functionality
-- `TestCommand`: Implements core functionality
-- `UpdateCommand`: Implements core functionality
+- `CommandArgs`: Performs CommandArgs operation as part of the component's functionality
+- `ExtractCommand`: Performs ExtractCommand operation as part of the component's functionality
+- `ExtractItemsCommand`: Performs ExtractItemsCommand operation as part of the component's functionality
+- `OpenCommand`: Opens a resource or connection for use
+- `TestCommand`: Performs TestCommand operation as part of the component's functionality
+- `UpdateCommand`: Updates the current state or data with new values
 ### Key Functions
 - `parse_command()`: Parses input string or data into structured format
 - `parse_plugin_call()`: Parses input string or data into structured format
@@ -26,12 +26,12 @@ The `cmdline.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CommandArgs`: Implementuje podstawowa funkcjonalność
-- `ExtractCommand`: Implementuje podstawowa funkcjonalność
-- `ExtractItemsCommand`: Implementuje podstawowa funkcjonalność
-- `OpenCommand`: Implementuje podstawowa funkcjonalność
-- `TestCommand`: Implementuje podstawowa funkcjonalność
-- `UpdateCommand`: Implementuje podstawowa funkcjonalność
+- `CommandArgs`: Performs CommandArgs operation as part of the component's functionality
+- `ExtractCommand`: Performs ExtractCommand operation as part of the component's functionality
+- `ExtractItemsCommand`: Performs ExtractItemsCommand operation as part of the component's functionality
+- `OpenCommand`: Opens a resource or connection for use
+- `TestCommand`: Performs TestCommand operation as part of the component's functionality
+- `UpdateCommand`: Updates the current state or data with new values
 ### Kluczowe Funkcje
 - `parse_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
 - `parse_plugin_call()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego

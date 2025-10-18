@@ -3,25 +3,25 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ExecuteStruct`: Implements core functionality
-- `Plugin`: Implements core functionality
-- `PluginManager`: Implements core functionality
-- `export_name`: Implements core functionality
-- `export_type`: Implements core functionality
-- `i_plugin_module`: Implements core functionality
-- `lng`: Implements core functionality
-- `native_plugin_factory`: Implements core functionality
-- `native_plugin_module`: Implements core functionality
-- `plugin_factory`: Implements core functionality
+- `ExecuteStruct`: Performs ExecuteStruct operation as part of the component's functionality
+- `Plugin`: Evaluates conditions and returns a boolean indicating success or validity of Plugin
+- `PluginManager`: Performs PluginManager operation as part of the component's functionality
+- `export_name`: Performs export_name operation as part of the component's functionality
+- `export_type`: Performs export_type operation as part of the component's functionality
+- `i_plugin_module`: Performs i_plugin_module operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `native_plugin_factory`: Performs native_plugin_factory operation as part of the component's functionality
+- `native_plugin_module`: Performs native_plugin_module operation as part of the component's functionality
+- `plugin_factory`: Performs plugin_factory operation as part of the component's functionality
 ### Key Functions
-- `plugin_factory()`: Executes plugin_factory operation as part of core functionality
+- `plugin_factory()`: Performs plugin_factory operation as part of the component's functionality
 - `ProcessError()`: Processes Error through transformation or handling pipeline
 - `IsExternal()`: Tests whether External condition is true or property exists
-- `Title()`: Executes Title operation as part of core functionality
-- `version()`: Executes version operation as part of core functionality
+- `Title()`: Performs Title operation as part of the component's functionality
+- `version()`: Performs version operation as part of the component's functionality
 - `Id()`: Constructor that initializes Id object with provided parameters
-- `Owner()`: Executes Owner operation as part of core functionality
-- `ExportsNames()`: Executes ExportsNames operation as part of core functionality
+- `Owner()`: Performs Owner operation as part of the component's functionality
+- `ExportsNames()`: Performs ExportsNames operation as part of the component's functionality
 - `opaque()`: Constructor that initializes opaque object with provided parameters
 - `GetProcAddress()`: Retrieves ProcAddress from internal state or data structure
 ### Namespaces
@@ -35,25 +35,25 @@ The `plclass.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ExecuteStruct`: Implementuje podstawowa funkcjonalność
-- `Plugin`: Implementuje podstawowa funkcjonalność
-- `PluginManager`: Implementuje podstawowa funkcjonalność
-- `export_name`: Implementuje podstawowa funkcjonalność
-- `export_type`: Implementuje podstawowa funkcjonalność
-- `i_plugin_module`: Implementuje podstawowa funkcjonalność
-- `lng`: Implementuje podstawowa funkcjonalność
-- `native_plugin_factory`: Implementuje podstawowa funkcjonalność
-- `native_plugin_module`: Implementuje podstawowa funkcjonalność
-- `plugin_factory`: Implementuje podstawowa funkcjonalność
+- `ExecuteStruct`: Performs ExecuteStruct operation as part of the component's functionality
+- `Plugin`: Evaluates conditions and returns a boolean indicating success or validity of Plugin
+- `PluginManager`: Performs PluginManager operation as part of the component's functionality
+- `export_name`: Performs export_name operation as part of the component's functionality
+- `export_type`: Performs export_type operation as part of the component's functionality
+- `i_plugin_module`: Performs i_plugin_module operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `native_plugin_factory`: Performs native_plugin_factory operation as part of the component's functionality
+- `native_plugin_module`: Performs native_plugin_module operation as part of the component's functionality
+- `plugin_factory`: Performs plugin_factory operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `plugin_factory()`: Wykonuje plugin_factory operację jako część podstawowa funkcjonalność
+- `plugin_factory()`: Performs plugin_factory operation as part of the component's functionality
 - `ProcessError()`: Przetwarza Error przez potok transformacji lub obsługi
 - `IsExternal()`: Testuje czy External warunek jest prawdziwy lub właściwość istnieje
-- `Title()`: Wykonuje Title operację jako część podstawowa funkcjonalność
-- `version()`: Wykonuje version operację jako część podstawowa funkcjonalność
+- `Title()`: Performs Title operation as part of the component's functionality
+- `version()`: Performs version operation as part of the component's functionality
 - `Id()`: Konstruktor inicjalizujący Id obiekt z dostarczonymi parametrami
-- `Owner()`: Wykonuje Owner operację jako część podstawowa funkcjonalność
-- `ExportsNames()`: Wykonuje ExportsNames operację jako część podstawowa funkcjonalność
+- `Owner()`: Performs Owner operation as part of the component's functionality
+- `ExportsNames()`: Performs ExportsNames operation as part of the component's functionality
 - `opaque()`: Konstruktor inicjalizujący opaque obiekt z dostarczonymi parametrami
 - `GetProcAddress()`: Pobiera ProcAddress ze stanu wewnętrznego lub struktury danych
 ### Przestrzenie nazw

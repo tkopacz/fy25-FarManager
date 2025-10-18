@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: color management
 ### Key Classes
-- `axis`: Implements color management
-- `cube_data`: Implements color management
-- `rgb_context_t`: Implements color management
-- `shapes`: Implements color management
+- `axis`: Performs axis operation as part of the component's functionality
+- `cube_data`: Performs cube_data operation as part of the component's functionality
+- `rgb_context_t`: Performs rgb_context_t operation as part of the component's functionality
+- `shapes`: Performs shapes operation as part of the component's functionality
 ### Key Functions
-- `rotate_coord()`: Executes rotate_coord operation as part of color management
-- `rotate_cube()`: Executes rotate_cube operation as part of color management
+- `rotate_coord()`: Performs rotate_coord operation as part of the component's functionality
+- `rotate_cube()`: Performs rotate_cube operation as part of the component's functionality
 - `copy_row()`: Copies data from source to destination location
 - `copy_col()`: Copies data from source to destination location
 - `move_step()`: Moves data or object from current location to new location
 - `move_plane()`: Moves data or object from current location to new location
-- `slice_str()`: Executes slice_str operation as part of color management
-- `rotate()`: Executes rotate operation as part of color management
-- `Event()`: Executes Event operation as part of color management
-- `Timer()`: Executes Timer operation as part of color management
+- `slice_str()`: Performs slice_str operation as part of the component's functionality
+- `rotate()`: Displays dialog interface for user interaction and input collection
+- `Event()`: Performs Event operation as part of the component's functionality
+- `Timer()`: Performs Timer operation as part of the component's functionality
 ### Namespaces
 - `color_picker_common`
 ### Summary

@@ -4,19 +4,19 @@
 This file implements functionality related to: Установка фаровских цветов
 Main functional areas: color management
 ### Key Classes
-- `color_item`: Implements color management
-- `color_item_span`: Implements color management
+- `color_item`: Performs color_item operation as part of the component's functionality
+- `color_item_span`: Performs color_item_span operation as part of the component's functionality
 ### Key Functions
-- `ChangeColor()`: Executes ChangeColor operation as part of color management
-- `empty()`: Executes empty operation as part of color management
+- `ChangeColor()`: Performs ChangeColor operation as part of the component's functionality
+- `empty()`: Evaluates conditions and returns boolean indicating success or validity
 - `SetItemColors()`: Updates ItemColors in internal state or configuration
-- `ConfigurePalette()`: Executes ConfigurePalette operation as part of color management
-- `Builder()`: Executes Builder operation as part of color management
+- `ConfigurePalette()`: Displays dialog interface for user interaction and input collection
+- `Builder()`: Performs Builder operation as part of the component's functionality
 - `load_theme()`: Loads data or resources from storage into memory
-- `apply_external_theme()`: Executes apply_external_theme operation as part of color management
-- `deserialize_color()`: Executes deserialize_color operation as part of color management
-- `try_apply_external_theme()`: Executes try_apply_external_theme operation as part of color management
-- `choose_theme()`: Executes choose_theme operation as part of color management
+- `apply_external_theme()`: Performs apply_external_theme operation as part of the component's functionality
+- `deserialize_color()`: Performs deserialize_color operation as part of the component's functionality
+- `try_apply_external_theme()`: Validates conditions and throws exceptions when errors are detected during try_apply_external_theme operation
+- `choose_theme()`: Performs choose_theme operation as part of the component's functionality
 ### Summary
 The `setcolor.cpp` file provides essential functionality for color management. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

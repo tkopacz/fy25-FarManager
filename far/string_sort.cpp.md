@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: string utilities
 ### Key Classes
-- `invariant_comparer`: Implements string utilities
-- `invariant_comparer_icase`: Implements string utilities
-- `numeric_comparer`: Implements string utilities
-- `ordinal_comparer`: Implements string utilities
-- `ordinal_comparer_icase`: Implements string utilities
+- `invariant_comparer`: Performs invariant_comparer operation as part of the component's functionality
+- `invariant_comparer_icase`: Performs invariant_comparer_icase operation as part of the component's functionality
+- `numeric_comparer`: Performs numeric_comparer operation as part of the component's functionality
+- `ordinal_comparer`: Performs ordinal_comparer operation as part of the component's functionality
+- `ordinal_comparer_icase`: Performs ordinal_comparer_icase operation as part of the component's functionality
 ### Key Functions
-- `per_char_compare()`: Executes per_char_compare operation as part of string utilities
-- `windows_to_std()`: Executes windows_to_std operation as part of string utilities
-- `compare_ordinal_t()`: Executes compare_ordinal_t operation as part of string utilities
-- `compare_ordinal()`: Executes compare_ordinal operation as part of string utilities
-- `compare_ordinal_icase()`: Executes compare_ordinal_icase operation as part of string utilities
-- `compare_numeric_t()`: Executes compare_numeric_t operation as part of string utilities
-- `compare_ordinal_numeric()`: Executes compare_ordinal_numeric operation as part of string utilities
-- `compare_ordinal_numeric_icase()`: Executes compare_ordinal_numeric_icase operation as part of string utilities
+- `per_char_compare()`: Performs per_char_compare operation as part of the component's functionality
+- `windows_to_std()`: Performs windows_to_std operation as part of the component's functionality
+- `compare_ordinal_t()`: Performs compare_ordinal_t operation as part of the component's functionality
+- `compare_ordinal()`: Performs compare_ordinal operation as part of the component's functionality
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation as part of the component's functionality
+- `compare_numeric_t()`: Performs compare_numeric_t operation as part of the component's functionality
+- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation as part of the component's functionality
+- `compare_ordinal_numeric_icase()`: Performs compare_ordinal_numeric_icase operation as part of the component's functionality
 - `create_alt_sort_table()`: Creates and initializes new _alt_sort_table instance
-- `compare_invariant()`: Executes compare_invariant operation as part of string utilities
+- `compare_invariant()`: Performs compare_invariant operation as part of the component's functionality
 ### Summary
 The `string_sort.cpp` file provides essential functionality for string utilities. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

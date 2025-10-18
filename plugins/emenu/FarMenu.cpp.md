@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: menu management
 ### Key Functions
-- `InsertItem()`: Executes InsertItem operation as part of menu management
+- `InsertItem()`: Allocates memory and initializes resources for InsertItem
 - `GetCursorXY()`: Retrieves CursorXY from internal state or data structure
 ### Summary
 The `FarMenu.cpp` file provides essential functionality for menu management. and contains approximately 2 function(s) to support the Far Manager file manager operations.

@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `UnixToDos()`: Executes UnixToDos operation as part of core functionality
-- `UnixTimeToFileTime()`: Executes UnixTimeToFileTime operation as part of core functionality
+- `UnixToDos()`: Performs UnixToDos operation as part of the component's functionality
+- `UnixTimeToFileTime()`: Performs UnixTimeToFileTime operation as part of the component's functionality
 - `GetOctal()`: Retrieves Octal from internal state or data structure
 - `GetHex()`: Retrieves Hex from internal state or data structure
 ### Summary
@@ -16,8 +16,8 @@ The `unixutils.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `UnixToDos()`: Wykonuje UnixToDos operację jako część podstawowa funkcjonalność
-- `UnixTimeToFileTime()`: Wykonuje UnixTimeToFileTime operację jako część podstawowa funkcjonalność
+- `UnixToDos()`: Performs UnixToDos operation as part of the component's functionality
+- `UnixTimeToFileTime()`: Performs UnixTimeToFileTime operation as part of the component's functionality
 - `GetOctal()`: Pobiera Octal ze stanu wewnętrznego lub struktury danych
 - `GetHex()`: Pobiera Hex ze stanu wewnętrznego lub struktury danych
 ### Podsumowanie

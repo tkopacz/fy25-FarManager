@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `StrChrCount()`: Executes StrChrCount operation as part of core functionality
-- `StrNChr()`: Executes StrNChr operation as part of core functionality
-- `StrPosChr()`: Executes StrPosChr operation as part of core functionality
-- `StrPosStr()`: Executes StrPosStr operation as part of core functionality
-- `MakeStringHash()`: Executes MakeStringHash operation as part of core functionality
+- `StrChrCount()`: Performs StrChrCount operation as part of the component's functionality
+- `StrNChr()`: Performs StrNChr operation as part of the component's functionality
+- `StrPosChr()`: Performs StrPosChr operation as part of the component's functionality
+- `StrPosStr()`: Performs StrPosStr operation as part of the component's functionality
+- `MakeStringHash()`: Performs MakeStringHash operation as part of the component's functionality
 - `GetEOLStr()`: Retrieves EOLStr from internal state or data structure
 - `GetTextEOLStr()`: Retrieves TextEOLStr from internal state or data structure
 - `IsPrintChar()`: Tests whether PrintChar condition is true or property exists
@@ -20,11 +20,11 @@ The `mutils.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `StrChrCount()`: Wykonuje StrChrCount operację jako część podstawowa funkcjonalność
-- `StrNChr()`: Wykonuje StrNChr operację jako część podstawowa funkcjonalność
-- `StrPosChr()`: Wykonuje StrPosChr operację jako część podstawowa funkcjonalność
-- `StrPosStr()`: Wykonuje StrPosStr operację jako część podstawowa funkcjonalność
-- `MakeStringHash()`: Wykonuje MakeStringHash operację jako część podstawowa funkcjonalność
+- `StrChrCount()`: Performs StrChrCount operation as part of the component's functionality
+- `StrNChr()`: Performs StrNChr operation as part of the component's functionality
+- `StrPosChr()`: Performs StrPosChr operation as part of the component's functionality
+- `StrPosStr()`: Performs StrPosStr operation as part of the component's functionality
+- `MakeStringHash()`: Performs MakeStringHash operation as part of the component's functionality
 - `GetEOLStr()`: Pobiera EOLStr ze stanu wewnętrznego lub struktury danych
 - `GetTextEOLStr()`: Pobiera TextEOLStr ze stanu wewnętrznego lub struktury danych
 - `IsPrintChar()`: Testuje czy PrintChar warunek jest prawdziwy lub właściwość istnieje

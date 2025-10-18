@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Functions
-- `cstrlen()`: Executes cstrlen operation as part of dialog handling
-- `DialogHandler()`: Executes DialogHandler operation as part of dialog handling
-- `Enable()`: Executes Enable operation as part of dialog handling
-- `PagedDialogHandler()`: Executes PagedDialogHandler operation as part of dialog handling
+- `cstrlen()`: Performs cstrlen operation as part of the component's functionality
+- `DialogHandler()`: Displays dialog interface for user interaction and input collection
+- `Enable()`: Performs Enable operation as part of the component's functionality
+- `PagedDialogHandler()`: Evaluates conditions and returns a boolean indicating success or validity of PagedDialogHandler
 ### Summary
 The `FarDialogs.cpp` file provides essential functionality for dialog handling. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

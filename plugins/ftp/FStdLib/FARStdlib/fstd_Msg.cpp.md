@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `_FP_GetMsgINT()`: Executes _FP_GetMsgINT operation as part of file system operations
-- `_FP_GetMsgSTR()`: Executes _FP_GetMsgSTR operation as part of file system operations
+- `_FP_GetMsgINT()`: Performs _FP_GetMsgINT operation as part of the component's functionality
+- `_FP_GetMsgSTR()`: Performs _FP_GetMsgSTR operation as part of the component's functionality
 ### Summary
 The `fstd_Msg.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

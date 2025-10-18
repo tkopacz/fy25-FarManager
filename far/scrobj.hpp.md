@@ -4,10 +4,10 @@
 This file implements functionality related to: Parent class для всех screen objects
 Main functional areas: screen operations
 ### Key Classes
-- `SaveScreen`: Implements screen operations
-- `ScreenObject`: Implements screen operations
-- `ScreenObjectWithShadow`: Implements screen operations
-- `SimpleScreenObject`: Implements screen operations
+- `SaveScreen`: Writes or saves data to a destination
+- `ScreenObject`: Performs ScreenObject operation as part of the component's functionality
+- `ScreenObjectWithShadow`: Performs ScreenObjectWithShadow operation as part of the component's functionality
+- `SimpleScreenObject`: Performs SimpleScreenObject operation as part of the component's functionality
 ### Key Functions
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
@@ -17,7 +17,7 @@ Main functional areas: screen operations
 - `SetPosition()`: Updates Position in internal state or configuration
 - `GetPosition()`: Retrieves Position from internal state or data structure
 - `SetScreenPosition()`: Updates ScreenPosition in internal state or configuration
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
 - `VMProcess()`: Processes virtual machine operations or commands
 ### Summary
 The `scrobj.hpp` file provides essential functionality for screen operations. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

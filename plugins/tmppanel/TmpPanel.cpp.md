@@ -9,8 +9,8 @@ Main functional areas: panel management
 - `ReadFileLines()`: Reads data from source into provided buffer
 - `ShowMenuFromList()`: Displays content or makes visual element visible on screen
 - `ProcessList()`: Processes List through transformation or handling pipeline
-- `run_command()`: Executes run_command operation as part of panel management
-- `TempFilename()`: Executes TempFilename operation as part of panel management
+- `run_command()`: Creates or opens file handles with specified access permissions and sharing modes
+- `TempFilename()`: Performs TempFilename operation as part of the component's functionality
 - `GetGlobalInfoW()`: Retrieves GlobalInfoW from internal state or data structure
 - `SetStartupInfoW()`: Updates StartupInfoW in internal state or configuration
 - `OpenW()`: Opens resource and prepares it for access operations

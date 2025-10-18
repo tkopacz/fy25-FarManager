@@ -4,13 +4,13 @@
 This file implements functionality related to: Regular expressions
 Main functional areas: regular expressions
 ### Key Classes
-- `REOpCode`: Implements regular expressions
-- `RegExp`: Implements regular expressions
-- `StateStackItem`: Implements regular expressions
-- `UniSet`: Implements regular expressions
-- `regex_exception`: Implements regular expressions
-- `regex_match`: Implements regular expressions
-- `state_stack`: Implements regular expressions
+- `REOpCode`: Performs REOpCode operation as part of the component's functionality
+- `RegExp`: Performs RegExp operation as part of the component's functionality
+- `StateStackItem`: Performs StateStackItem operation as part of the component's functionality
+- `UniSet`: Performs UniSet operation as part of the component's functionality
+- `regex_exception`: Performs regex_exception operation as part of the component's functionality
+- `regex_match`: Performs regex_match operation as part of the component's functionality
+- `state_stack`: Performs state_stack operation as part of the component's functionality
 ### Key Functions
 - `code()`: Returns operation code or encoded value representation
 - `position()`: Returns current position or offset within data structure

@@ -4,20 +4,20 @@
 This file implements functionality related to: Вертикальное меню
 Main functional areas: menu management
 ### Key Classes
-- `SortItemParam`: Implements menu management
-- `box_type`: Implements menu management
-- `menu_item`: Implements menu management
-- `menu_item_ex`: Implements menu management
-- `private_tag`: Implements menu management
-- `vmenu_fixed_column_t`: Implements menu management
+- `SortItemParam`: Performs SortItemParam operation as part of the component's functionality
+- `box_type`: Performs box_type operation as part of the component's functionality
+- `menu_item`: Performs menu_item operation as part of the component's functionality
+- `menu_item_ex`: Performs menu_item_ex operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `vmenu_fixed_column_t`: Performs vmenu_fixed_column_t operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
 - `GetType()`: Retrieves Type from internal state or data structure
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `SetPosition()`: Updates Position in internal state or configuration
-- `SendMessage()`: Executes SendMessage operation as part of menu management
-- `Resize()`: Changes size dimensions while preserving content when possible
+- `SendMessage()`: Performs SendMessage operation as part of the component's functionality
+- `Resize()`: Adjusts size or capacity of buffer or container
 - `SetTitle()`: Updates Title in internal state or configuration
 - `SetBottomTitle()`: Updates BottomTitle in internal state or configuration
 - `SetBoxType()`: Updates BoxType in internal state or configuration

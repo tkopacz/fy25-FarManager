@@ -4,7 +4,7 @@
 This file implements functionality related to: Одиночная строка редактирования для диалога (как наследник класса Edit)
 Main functional areas: dialog handling, text editing
 ### Key Functions
-- `Editor()`: Executes Editor operation as part of dialog handling, text editing
+- `Editor()`: Performs Editor operation as part of the component's functionality
 ### Summary
 The `dlgedit.cpp` file provides essential functionality for dialog handling, text editing. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

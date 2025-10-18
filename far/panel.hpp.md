@@ -4,15 +4,15 @@
 This file implements functionality related to: Parent class для панелей
 Main functional areas: panel management
 ### Key Classes
-- `DizList`: Implements panel management
-- `PanelViewSettings`: Implements panel management
-- `ShortcutInfo`: Implements panel management
-- `column`: Implements panel management
-- `panel_mode`: Implements panel management
-- `panel_sort`: Implements panel management
-- `plugin_panel`: Implements panel management
+- `DizList`: Performs DizList operation as part of the component's functionality
+- `PanelViewSettings`: Performs PanelViewSettings operation as part of the component's functionality
+- `ShortcutInfo`: Performs ShortcutInfo operation as part of the component's functionality
+- `column`: Performs column operation as part of the component's functionality
+- `panel_mode`: Performs panel_mode operation as part of the component's functionality
+- `panel_sort`: Performs panel_sort operation as part of the component's functionality
+- `plugin_panel`: Performs plugin_panel operation as part of the component's functionality
 ### Key Functions
-- `clone()`: Executes clone operation as part of panel management
+- `clone()`: Performs clone operation as part of the component's functionality
 - `Show()`: Displays content or makes visual element visible on screen
 - `Hide()`: Hides visual element from screen without destroying it
 - `DisplayObject()`: Displays content or makes visual element visible on screen
@@ -20,7 +20,7 @@ Main functional areas: panel management
 - `VMProcess()`: Processes virtual machine operations or commands
 - `CloseFile()`: Closes resource and performs cleanup operations
 - `UpdateViewPanel()`: Updates existing data with new values while preserving structure
-- `CompareDir()`: Executes CompareDir operation as part of panel management
+- `CompareDir()`: Performs CompareDir operation as part of the component's functionality
 - `MoveToMouse()`: Moves data or object from current location to new location
 ### Summary
 The `panel.hpp` file provides essential functionality for panel management. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

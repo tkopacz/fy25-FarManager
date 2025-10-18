@@ -4,18 +4,18 @@
 This file implements functionality related to: Надстройка над Edit.
 Main functional areas: text editing
 ### Key Classes
-- `Callback`: Implements text editing
-- `DlgEdit`: Implements text editing
-- `History`: Implements text editing
-- `VMenu2`: Implements text editing
+- `Callback`: Callback function that handles specific events or notifications
+- `DlgEdit`: Performs DlgEdit operation as part of the component's functionality
+- `History`: Performs History operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
 ### Key Functions
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `Show()`: Displays content or makes visual element visible on screen
-- `Changed()`: Executes Changed operation as part of text editing
+- `Changed()`: Performs Changed operation as part of the component's functionality
 - `GetMaxLength()`: Retrieves MaxLength from internal state or data structure
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
-- `AutoComplete()`: Executes AutoComplete operation as part of text editing
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
+- `AutoComplete()`: Performs AutoComplete operation as part of the component's functionality
 - `SetAutocomplete()`: Updates Autocomplete in internal state or configuration
 - `GetAutocomplete()`: Retrieves Autocomplete from internal state or data structure
 - `SetMacroAreaAC()`: Updates MacroAreaAC in internal state or configuration

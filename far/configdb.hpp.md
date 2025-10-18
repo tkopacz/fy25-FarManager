@@ -4,27 +4,27 @@
 This file implements functionality related to: хранение настроек в базе sqlite.
 Main functional areas: configuration management
 ### Key Classes
-- `AssociationsConfig`: Implements configuration management
-- `ColorsConfig`: Implements configuration management
-- `FarColor`: Implements configuration management
-- `GeneralConfig`: Implements configuration management
-- `HierarchicalConfig`: Implements configuration management
-- `HistoryConfig`: Implements configuration management
-- `PluginsCacheConfig`: Implements configuration management
-- `PluginsHotkeysConfig`: Implements configuration management
-- `VersionInfo`: Implements configuration management
-- `async_delete`: Implements configuration management
+- `AssociationsConfig`: Performs AssociationsConfig operation as part of the component's functionality
+- `ColorsConfig`: Performs ColorsConfig operation as part of the component's functionality
+- `FarColor`: Performs FarColor operation as part of the component's functionality
+- `GeneralConfig`: Performs GeneralConfig operation as part of the component's functionality
+- `HierarchicalConfig`: Performs HierarchicalConfig operation as part of the component's functionality
+- `HistoryConfig`: Performs HistoryConfig operation as part of the component's functionality
+- `PluginsCacheConfig`: Performs PluginsCacheConfig operation as part of the component's functionality
+- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation as part of the component's functionality
+- `VersionInfo`: Performs VersionInfo operation as part of the component's functionality
+- `async_delete`: Performs async_delete operation as part of the component's functionality
 ### Key Functions
 - `GetValue()`: Retrieves specific configuration value by key name
-- `ValuesEnumerator()`: Executes ValuesEnumerator operation as part of configuration management
+- `ValuesEnumerator()`: Performs ValuesEnumerator operation as part of the component's functionality
 - `get()`: Retrieves specific configuration value by key name
-- `bool()`: Executes bool operation as part of configuration management
-- `KeysEnumerator()`: Executes KeysEnumerator operation as part of configuration management
-- `EnumKeys()`: Executes EnumKeys operation as part of configuration management
-- `EnumValues()`: Executes EnumValues operation as part of configuration management
+- `bool()`: Performs bool operation as part of the component's functionality
+- `KeysEnumerator()`: Performs KeysEnumerator operation as part of the component's functionality
+- `EnumKeys()`: Performs EnumKeys operation as part of the component's functionality
+- `EnumValues()`: Performs EnumValues operation as part of the component's functionality
 - `ToSettingsType()`: Updates configuration value for specified key
-- `MasksEnumerator()`: Executes MasksEnumerator operation as part of configuration management
-- `EnumMasks()`: Executes EnumMasks operation as part of configuration management
+- `MasksEnumerator()`: Performs MasksEnumerator operation as part of the component's functionality
+- `EnumMasks()`: Performs EnumMasks operation as part of the component's functionality
 ### Namespaces
 - `concurrency`
 - `detail`

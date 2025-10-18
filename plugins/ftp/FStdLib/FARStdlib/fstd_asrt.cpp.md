@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `__WinAbort()`: Executes __WinAbort operation as part of file system operations
-- `va_start()`: Executes va_start operation as part of file system operations
-- `strcpy()`: Executes strcpy operation as part of file system operations
+- `__WinAbort()`: Performs __WinAbort operation as part of the component's functionality
+- `va_start()`: Performs va_start operation as part of the component's functionality
+- `strcpy()`: Performs strcpy operation as part of the component's functionality
 ### Summary
 The `fstd_asrt.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

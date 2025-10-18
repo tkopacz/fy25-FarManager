@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `LZH_Level0`: Implements core functionality
+- `LZH_Level0`: Performs LZH_Level0 operation as part of the component's functionality
 ### Key Functions
-- `CheckLZHHeader()`: Validates data integrity and checks for correctness
+- `CheckLZHHeader()`: Validates conditions and returns boolean indicating whether validation passed
 - `IsLzhHeader()`: Tests whether LzhHeader condition is true or property exists
 ### Summary
 The `lzhdetect.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
@@ -16,7 +16,7 @@ The `lzhdetect.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `LZH_Level0`: Implementuje podstawowa funkcjonalność
+- `LZH_Level0`: Performs LZH_Level0 operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `CheckLZHHeader()`: Waliduje integralność danych i sprawdza poprawność
 - `IsLzhHeader()`: Testuje czy LzhHeader warunek jest prawdziwy lub właściwość istnieje

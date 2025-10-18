@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: panel management
 ### Key Classes
-- `FarPanelInfo`: Implements panel management
+- `FarPanelInfo`: Evaluates conditions and returns boolean indicating success or validity
 ### Key Functions
-- `Reset()`: Executes Reset operation as part of panel management
-- `Redraw()`: Executes Redraw operation as part of panel management
+- `Reset()`: Performs Reset operation as part of the component's functionality
+- `Redraw()`: Performs Redraw operation as part of the component's functionality
 - `Update()`: Updates existing data with new values while preserving structure
 - `GetPanelItem()`: Retrieves PanelItem from internal state or data structure
 - `UpdatePanelInfo()`: Updates existing data with new values while preserving structure
 - `GetSelectedItem()`: Retrieves SelectedItem from internal state or data structure
 - `GetCurrentItem()`: Retrieves CurrentItem from internal state or data structure
-- `FreePanelItem()`: Executes FreePanelItem operation as part of panel management
+- `FreePanelItem()`: Performs FreePanelItem operation as part of the component's functionality
 - `GetSelectedItemsCount()`: Retrieves SelectedItemsCount from internal state or data structure
 - `GetItemsCount()`: Retrieves ItemsCount from internal state or data structure
 ### Summary

@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `RegQueryStringArray()`: Executes RegQueryStringArray operation as part of string utilities
-- `RegSaveStringArray()`: Executes RegSaveStringArray operation as part of string utilities
-- `RegQueryLongValue()`: Executes RegQueryLongValue operation as part of string utilities
+- `RegQueryStringArray()`: Performs RegQueryStringArray operation as part of the component's functionality
+- `RegSaveStringArray()`: Performs RegSaveStringArray operation as part of the component's functionality
+- `RegQueryLongValue()`: Performs RegQueryLongValue operation as part of the component's functionality
 ### Summary
 The `FarRegistry.hpp` file provides essential functionality for string utilities. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

@@ -4,8 +4,8 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `CFFILE`: Implements core functionality
-- `CFHEADER`: Implements core functionality
+- `CFFILE`: Performs CFFILE operation as part of the component's functionality
+- `CFHEADER`: Performs CFHEADER operation as part of the component's functionality
 ### Key Functions
 - `IsArchive()`: Tests whether Archive condition is true or property exists
 - `OpenArchive()`: Opens resource and prepares it for access operations
@@ -24,8 +24,8 @@ The `cab.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CFFILE`: Implementuje podstawowa funkcjonalność
-- `CFHEADER`: Implementuje podstawowa funkcjonalność
+- `CFFILE`: Performs CFFILE operation as part of the component's functionality
+- `CFHEADER`: Performs CFHEADER operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
 - `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu

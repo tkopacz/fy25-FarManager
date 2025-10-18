@@ -4,11 +4,11 @@
 This file implements functionality related to: Вертикальное меню
 Main functional areas: menu management
 ### Key Functions
-- `Resize()`: Changes size dimensions while preserving content when possible
-- `VMenu2DlgProc()`: Executes VMenu2DlgProc operation as part of menu management
-- `SendMessage()`: Executes SendMessage operation as part of menu management
+- `Resize()`: Evaluates conditions and returns boolean indicating success or validity
+- `VMenu2DlgProc()`: Evaluates conditions and returns a boolean indicating success or validity of VMenu2DlgProc
+- `SendMessage()`: Displays dialog interface for user interaction and input collection
 - `GetExitCode()`: Retrieves ExitCode from internal state or data structure
-- `RunEx()`: Executes RunEx operation as part of menu management
+- `RunEx()`: Performs RunEx operation as part of the component's functionality
 - `GetSelectPos()`: Retrieves SelectPos from internal state or data structure
 ### Summary
 The `vmenu2.cpp` file provides essential functionality for menu management. and contains approximately 6 function(s) to support the Far Manager file manager operations.

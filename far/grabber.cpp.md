@@ -8,7 +8,7 @@ Main functional areas: core functionality
 - `Move()`: Moves data or object from current location to new location
 - `MovePointLeft()`: Moves data or object from current location to new location
 - `MovePointRight()`: Moves data or object from current location to new location
-- `RunGraber()`: Executes RunGraber operation as part of core functionality
+- `RunGraber()`: Evaluates conditions and returns a boolean indicating success or validity of RunGraber
 ### Summary
 The `grabber.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 
@@ -23,6 +23,6 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `Move()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
 - `MovePointLeft()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
 - `MovePointRight()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `RunGraber()`: Wykonuje RunGraber operację jako część podstawowa funkcjonalność
+- `RunGraber()`: Evaluates conditions and returns a boolean indicating success or validity of RunGraber
 ### Podsumowanie
 Plik `grabber.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.

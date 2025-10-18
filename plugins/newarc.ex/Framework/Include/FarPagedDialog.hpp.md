@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Classes
-- `FarDialogHandler`: Implements dialog handling
-- `FarPagedDialog`: Implements dialog handling
-- `FarPagedDialogHandler`: Implements dialog handling
-- `PageInfo`: Implements dialog handling
+- `FarDialogHandler`: Callback function that handles specific events or notifications
+- `FarPagedDialog`: Performs FarPagedDialog operation as part of the component's functionality
+- `FarPagedDialogHandler`: Callback function that handles specific events or notifications
+- `PageInfo`: Performs PageInfo operation as part of the component's functionality
 ### Key Functions
-- `NewPage()`: Executes NewPage operation as part of dialog handling
+- `NewPage()`: Performs NewPage operation as part of the component's functionality
 - `ShowEx()`: Renders dialog on screen and enters message loop for user interaction
-- `PreparePage()`: Executes PreparePage operation as part of dialog handling
+- `PreparePage()`: Performs PreparePage operation as part of the component's functionality
 - `SetPage()`: Updates Page in internal state or configuration
 ### Summary
 The `FarPagedDialog.hpp` file provides essential functionality for dialog handling. It defines 4 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.

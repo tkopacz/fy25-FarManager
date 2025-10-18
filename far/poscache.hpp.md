@@ -4,17 +4,17 @@
 This file implements functionality related to: Кэш позиций в файлах для viewer/editor
 Main functional areas: file caching
 ### Key Classes
-- `Bookmarks`: Implements file caching
-- `EditorPosCache`: Implements file caching
-- `FilePositionCache`: Implements file caching
-- `ViewerPosCache`: Implements file caching
-- `editor_bookmark`: Implements file caching
-- `viewer_bookmark`: Implements file caching
+- `Bookmarks`: Performs Bookmarks operation as part of the component's functionality
+- `EditorPosCache`: Performs EditorPosCache operation as part of the component's functionality
+- `FilePositionCache`: Performs FilePositionCache operation as part of the component's functionality
+- `ViewerPosCache`: Performs ViewerPosCache operation as part of the component's functionality
+- `editor_bookmark`: Performs editor_bookmark operation as part of the component's functionality
+- `viewer_bookmark`: Performs viewer_bookmark operation as part of the component's functionality
 ### Key Functions
 - `Clear()`: Clears all data and resets to initial empty state
 - `AddPosition()`: Adds new Position to collection or list
 - `GetPosition()`: Retrieves Position from internal state or data structure
-- `CompactHistory()`: Executes CompactHistory operation as part of file caching
+- `CompactHistory()`: Performs CompactHistory operation as part of the component's functionality
 ### Summary
 The `poscache.hpp` file provides essential functionality for file caching. It defines 6 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

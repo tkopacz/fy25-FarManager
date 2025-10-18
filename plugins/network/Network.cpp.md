@@ -9,7 +9,7 @@ Main functional areas: core functionality
 - `OpenW()`: Opens resource and prepares it for access operations
 - `ClosePanelW()`: Closes resource and performs cleanup operations
 - `GetFindDataW()`: Retrieves FindDataW from internal state or data structure
-- `FreeFindDataW()`: Executes FreeFindDataW operation as part of core functionality
+- `FreeFindDataW()`: Performs FreeFindDataW operation as part of the component's functionality
 - `GetOpenPanelInfoW()`: Retrieves OpenPanelInfoW from internal state or data structure
 - `SetDirectoryW()`: Updates DirectoryW in internal state or configuration
 - `DeleteFilesW()`: Removes FilesW from collection and frees associated resources
@@ -28,7 +28,7 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `OpenW()`: Otwiera zasób i przygotowuje go do operacji dostępu
 - `ClosePanelW()`: Zamyka zasób i wykonuje operacje czyszczące
 - `GetFindDataW()`: Pobiera FindDataW ze stanu wewnętrznego lub struktury danych
-- `FreeFindDataW()`: Wykonuje FreeFindDataW operację jako część podstawowa funkcjonalność
+- `FreeFindDataW()`: Performs FreeFindDataW operation as part of the component's functionality
 - `GetOpenPanelInfoW()`: Pobiera OpenPanelInfoW ze stanu wewnętrznego lub struktury danych
 - `SetDirectoryW()`: Aktualizuje DirectoryW w stanie wewnętrznym lub konfiguracji
 - `DeleteFilesW()`: Usuwa FilesW z kolekcji i zwalnia powiązane zasoby

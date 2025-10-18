@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `StrAlloc()`: Executes StrAlloc operation as part of string utilities
-- `StrFree()`: Executes StrFree operation as part of string utilities
-- `StrDup()`: Executes StrDup operation as part of string utilities
-- `StrRealloc()`: Executes StrRealloc operation as part of string utilities
-- `StrTrim()`: Executes StrTrim operation as part of string utilities
+- `StrAlloc()`: Performs StrAlloc operation as part of the component's functionality
+- `StrFree()`: Performs StrFree operation as part of the component's functionality
+- `StrDup()`: Performs StrDup operation as part of the component's functionality
+- `StrRealloc()`: Performs StrRealloc operation as part of the component's functionality
+- `StrTrim()`: Performs StrTrim operation as part of the component's functionality
 ### Summary
 The `mu_str.cpp` file provides essential functionality for string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

@@ -9,8 +9,8 @@ Main functional areas: core functionality
 - `FindStrEnd()`: Searches for StrEnd in collection and returns position or reference
 - `FindNextStr()`: Searches for NextStr in collection and returns position or reference
 - `FindQuotedSubstr()`: Searches for QuotedSubstr in collection and returns position or reference
-- `TranslateMessage()`: Executes TranslateMessage operation as part of core functionality
-- `ScanMsgsBuf()`: Executes ScanMsgsBuf operation as part of core functionality
+- `TranslateMessage()`: Performs TranslateMessage operation as part of the component's functionality
+- `ScanMsgsBuf()`: Allocates memory and initializes resources for ScanMsgsBuf
 - `LoadLanguageFile()`: Loads data or resources from storage into memory
 - `SearchAndLoadLanguageFile()`: Searches for AndLoadLanguageFile in collection and returns position or reference
 ### Summary
@@ -28,8 +28,8 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `FindStrEnd()`: Wyszukuje StrEnd w kolekcji i zwraca pozycję lub referencję
 - `FindNextStr()`: Wyszukuje NextStr w kolekcji i zwraca pozycję lub referencję
 - `FindQuotedSubstr()`: Wyszukuje QuotedSubstr w kolekcji i zwraca pozycję lub referencję
-- `TranslateMessage()`: Wykonuje TranslateMessage operację jako część podstawowa funkcjonalność
-- `ScanMsgsBuf()`: Wykonuje ScanMsgsBuf operację jako część podstawowa funkcjonalność
+- `TranslateMessage()`: Performs TranslateMessage operation as part of the component's functionality
+- `ScanMsgsBuf()`: Allocates memory and initializes resources for ScanMsgsBuf
 - `LoadLanguageFile()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `SearchAndLoadLanguageFile()`: Wyszukuje AndLoadLanguageFile w kolekcji i zwraca pozycję lub referencję
 ### Podsumowanie

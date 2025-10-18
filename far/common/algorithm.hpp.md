@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `repeat()`: Executes repeat operation as part of core functionality
-- `apply_permutation()`: Executes apply_permutation operation as part of core functionality
-- `emplace()`: Executes emplace operation as part of core functionality
-- `contains()`: Executes contains operation as part of core functionality
-- `in_closed_range()`: Executes in_closed_range operation as part of core functionality
-- `any_of()`: Executes any_of operation as part of core functionality
-- `none_of()`: Executes none_of operation as part of core functionality
-- `intersect()`: Executes intersect operation as part of core functionality
+- `repeat()`: Performs repeat operation as part of the component's functionality
+- `apply_permutation()`: Validates conditions and throws exceptions when errors are detected during apply_permutation operation
+- `emplace()`: Performs emplace operation as part of the component's functionality
+- `contains()`: Evaluates conditions and returns boolean indicating success or validity
+- `in_closed_range()`: Evaluates conditions and returns boolean indicating success or validity
+- `any_of()`: Evaluates conditions and returns boolean indicating success or validity
+- `none_of()`: Evaluates conditions and returns boolean indicating success or validity
+- `intersect()`: Performs intersect operation as part of the component's functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -22,14 +22,14 @@ The `algorithm.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `repeat()`: Wykonuje repeat operację jako część podstawowa funkcjonalność
-- `apply_permutation()`: Wykonuje apply_permutation operację jako część podstawowa funkcjonalność
-- `emplace()`: Wykonuje emplace operację jako część podstawowa funkcjonalność
-- `contains()`: Wykonuje contains operację jako część podstawowa funkcjonalność
-- `in_closed_range()`: Wykonuje in_closed_range operację jako część podstawowa funkcjonalność
-- `any_of()`: Wykonuje any_of operację jako część podstawowa funkcjonalność
-- `none_of()`: Wykonuje none_of operację jako część podstawowa funkcjonalność
-- `intersect()`: Wykonuje intersect operację jako część podstawowa funkcjonalność
+- `repeat()`: Performs repeat operation as part of the component's functionality
+- `apply_permutation()`: Validates conditions and throws exceptions when errors are detected during apply_permutation operation
+- `emplace()`: Performs emplace operation as part of the component's functionality
+- `contains()`: Evaluates conditions and returns boolean indicating success or validity
+- `in_closed_range()`: Evaluates conditions and returns boolean indicating success or validity
+- `any_of()`: Evaluates conditions and returns boolean indicating success or validity
+- `none_of()`: Evaluates conditions and returns boolean indicating success or validity
+- `intersect()`: Performs intersect operation as part of the component's functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

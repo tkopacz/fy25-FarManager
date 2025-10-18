@@ -4,9 +4,9 @@
 This file implements functionality related to: про сидюк
 Main functional areas: core functionality
 ### Key Classes
-- `cd_type`: Implements core functionality
+- `cd_type`: Performs cd_type operation as part of the component's functionality
 ### Key Functions
-- `DriveCanBeVirtual()`: Executes DriveCanBeVirtual operation as part of core functionality
+- `DriveCanBeVirtual()`: Performs DriveCanBeVirtual operation as part of the component's functionality
 - `get_cdrom_type()`: Retrieves _cdrom_type from internal state or data structure
 - `is_removable_usb()`: Tests whether _removable_usb condition is true or property exists
 ### Summary
@@ -19,9 +19,9 @@ The `cddrv.hpp` file provides essential functionality for core functionality. It
 Ten plik implementuje funkcjonalność związaną z: про сидюк
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `cd_type`: Implementuje podstawowa funkcjonalność
+- `cd_type`: Performs cd_type operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `DriveCanBeVirtual()`: Wykonuje DriveCanBeVirtual operację jako część podstawowa funkcjonalność
+- `DriveCanBeVirtual()`: Performs DriveCanBeVirtual operation as part of the component's functionality
 - `get_cdrom_type()`: Pobiera _cdrom_type ze stanu wewnętrznego lub struktury danych
 - `is_removable_usb()`: Testuje czy _removable_usb warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

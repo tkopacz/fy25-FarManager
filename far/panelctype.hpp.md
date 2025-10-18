@@ -4,7 +4,7 @@
 This file implements functionality related to: Файловая панель - типы панелей
 Main functional areas: panel management
 ### Key Classes
-- `column_type`: Implements panel management
+- `column_type`: Performs column_type operation as part of the component's functionality
 ### Summary
 The `panelctype.hpp` file provides essential functionality for panel management. It defines 1 class(es) to support the Far Manager file manager operations.
 

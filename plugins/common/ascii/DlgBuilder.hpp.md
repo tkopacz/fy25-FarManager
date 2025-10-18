@@ -4,25 +4,25 @@
 This file implements functionality related to: Динамическое конструирование диалогов
 Main functional areas: dialog handling
 ### Key Classes
-- `CheckBoxBinding`: Implements dialog handling
-- `ComboBoxBinding`: Implements dialog handling
-- `DialogAPIBinding`: Implements dialog handling
-- `DialogBuilderBase`: Implements dialog handling
-- `DialogBuilderListItem`: Implements dialog handling
-- `DialogItemBinding`: Implements dialog handling
-- `PluginCheckBoxBinding`: Implements dialog handling
-- `PluginDialogBuilder`: Implements dialog handling
-- `PluginEditFieldBinding`: Implements dialog handling
-- `PluginIntEditFieldBinding`: Implements dialog handling
+- `CheckBoxBinding`: Validates conditions and returns boolean indicating whether validation passed
+- `ComboBoxBinding`: Performs ComboBoxBinding operation as part of the component's functionality
+- `DialogAPIBinding`: Performs DialogAPIBinding operation as part of the component's functionality
+- `DialogBuilderBase`: Performs DialogBuilderBase operation as part of the component's functionality
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation as part of the component's functionality
+- `DialogItemBinding`: Performs DialogItemBinding operation as part of the component's functionality
+- `PluginCheckBoxBinding`: Performs PluginCheckBoxBinding operation as part of the component's functionality
+- `PluginDialogBuilder`: Performs PluginDialogBuilder operation as part of the component's functionality
+- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation as part of the component's functionality
+- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation as part of the component's functionality
 ### Key Functions
 - `SaveValue()`: Saves current state or data to persistent storage
-- `ReallocDialogItems()`: Executes ReallocDialogItems operation as part of dialog handling
+- `ReallocDialogItems()`: Allocates memory and initializes resources for ReallocDialogItems
 - `SetNextY()`: Updates NextY in internal state or configuration
-- `ItemWidth()`: Executes ItemWidth operation as part of dialog handling
-- `TextWidth()`: Executes TextWidth operation as part of dialog handling
+- `ItemWidth()`: Performs ItemWidth operation as part of the component's functionality
+- `TextWidth()`: Performs TextWidth operation as part of the component's functionality
 - `AddBorder()`: Adds new Border to collection or list
 - `UpdateBorderSize()`: Updates existing data with new values while preserving structure
-- `MaxTextWidth()`: Executes MaxTextWidth operation as part of dialog handling
+- `MaxTextWidth()`: Performs MaxTextWidth operation as part of the component's functionality
 - `UpdateSecondColumnPosition()`: Updates existing data with new values while preserving structure
 - `InitDialogItem()`: Initializes data structures and sets up initial state for operation
 ### Summary

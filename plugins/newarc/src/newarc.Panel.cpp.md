@@ -3,19 +3,19 @@
 ### Purpose
 Main functional areas: panel management
 ### Key Classes
-- `ArchiveTemplate`: Implements panel management
-- `ParamStruct`: Implements panel management
-- `ScanStruct`: Implements panel management
+- `ArchiveTemplate`: Performs ArchiveTemplate operation as part of the component's functionality
+- `ParamStruct`: Performs ParamStruct operation as part of the component's functionality
+- `ScanStruct`: Performs ScanStruct operation as part of the component's functionality
 ### Key Functions
-- `CheckForEsc()`: Validates data integrity and checks for correctness
+- `CheckForEsc()`: Validates conditions and returns boolean indicating whether validation passed
 - `ProcessName()`: Processes Name through transformation or handling pipeline
 - `CreateListFile()`: Creates and initializes new ListFile instance
 - `ParseString()`: Parses input string or data into structured format
 - `IsFileInFolder()`: Tests whether FileInFolder condition is true or property exists
 - `GetArchiveItemsToProcess()`: Retrieves ArchiveItemsToProcess from internal state or data structure
-- `ExecuteCommand()`: Executes ExecuteCommand operation as part of panel management
+- `ExecuteCommand()`: Closes file handles and releases associated system resources
 - `SetFormatTitle()`: Updates FormatTitle in internal state or configuration
-- `hndAddEditTemplate()`: Executes hndAddEditTemplate operation as part of panel management
+- `hndAddEditTemplate()`: Allocates memory and initializes resources for hndAddEditTemplate
 - `LoadTemplates()`: Loads data or resources from storage into memory
 ### Summary
 The `newarc.Panel.cpp` file provides essential functionality for panel management. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

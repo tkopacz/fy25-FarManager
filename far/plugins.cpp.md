@@ -4,20 +4,20 @@
 This file implements functionality related to: Работа с плагинами (низкий уровень, кое-что повыше в filelist.cpp)
 Main functional areas: plugin interface
 ### Key Classes
-- `PluginData`: Implements plugin interface
-- `PluginMenuItemData`: Implements plugin interface
-- `layout`: Implements plugin interface
-- `plugin_panel_holder`: Implements plugin interface
+- `PluginData`: Performs PluginData operation as part of the component's functionality
+- `PluginMenuItemData`: Performs PluginMenuItemData operation as part of the component's functionality
+- `layout`: Performs layout operation as part of the component's functionality
+- `plugin_panel_holder`: Performs plugin_panel_holder operation as part of the component's functionality
 ### Key Functions
 - `GetHotKeyPluginKey()`: Retrieves HotKeyPluginKey from internal state or data structure
 - `GetPluginHotKey()`: Retrieves PluginHotKey from internal state or data structure
-- `EnsureLuaCpuCompatibility()`: Executes EnsureLuaCpuCompatibility operation as part of plugin interface
-- `bool()`: Executes bool operation as part of plugin interface
-- `m_PluginsLoaded()`: Executes m_PluginsLoaded operation as part of plugin interface
-- `ScTree()`: Executes ScTree operation as part of plugin interface
-- `analyse()`: Executes analyse operation as part of plugin interface
+- `EnsureLuaCpuCompatibility()`: Performs EnsureLuaCpuCompatibility operation as part of the component's functionality
+- `bool()`: Performs bool operation as part of the component's functionality
+- `m_PluginsLoaded()`: Performs m_PluginsLoaded operation as part of the component's functionality
+- `ScTree()`: Performs ScTree operation as part of the component's functionality
+- `analyse()`: Performs analyse operation as part of the component's functionality
 - `set_analyse()`: Updates _analyse in internal state or configuration
-- `File()`: Executes File operation as part of plugin interface
+- `File()`: Performs File operation as part of the component's functionality
 - `AddHotkey()`: Adds new Hotkey to collection or list
 ### Summary
 The `plugins.cpp` file provides essential functionality for plugin interface. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

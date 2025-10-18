@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `TReg`: Implements core functionality
-- `TRegDataInfo`: Implements core functionality
-- `TRegKeyInfo`: Implements core functionality
+- `TReg`: Performs TReg operation as part of the component's functionality
+- `TRegDataInfo`: Performs TRegDataInfo operation as part of the component's functionality
+- `TRegKeyInfo`: Performs TRegKeyInfo operation as part of the component's functionality
 ### Key Functions
-- `ChangeKey()`: Executes ChangeKey operation as part of core functionality
+- `ChangeKey()`: Performs ChangeKey operation as part of the component's functionality
 - `GetBaseKey()`: Retrieves BaseKey from internal state or data structure
 - `GetKey()`: Retrieves Key from internal state or data structure
 - `SetCurrentKey()`: Updates CurrentKey in internal state or configuration
@@ -26,11 +26,11 @@ The `regclass.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `TReg`: Implementuje podstawowa funkcjonalność
-- `TRegDataInfo`: Implementuje podstawowa funkcjonalność
-- `TRegKeyInfo`: Implementuje podstawowa funkcjonalność
+- `TReg`: Performs TReg operation as part of the component's functionality
+- `TRegDataInfo`: Performs TRegDataInfo operation as part of the component's functionality
+- `TRegKeyInfo`: Performs TRegKeyInfo operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `ChangeKey()`: Wykonuje ChangeKey operację jako część podstawowa funkcjonalność
+- `ChangeKey()`: Performs ChangeKey operation as part of the component's functionality
 - `GetBaseKey()`: Pobiera BaseKey ze stanu wewnętrznego lub struktury danych
 - `GetKey()`: Pobiera Key ze stanu wewnętrznego lub struktury danych
 - `SetCurrentKey()`: Aktualizuje CurrentKey w stanie wewnętrznym lub konfiguracji

@@ -4,15 +4,15 @@
 This file implements functionality related to: Динамическое конструирование диалогов - версия для внутреннего употребления в FAR
 Main functional areas: dialog handling
 ### Key Classes
-- `DialogBuilder`: Implements dialog handling
-- `DialogBuilderListItem`: Implements dialog handling
-- `lng`: Implements dialog handling
+- `DialogBuilder`: Performs DialogBuilder operation as part of the component's functionality
+- `DialogBuilderListItem`: Displays dialog interface for user interaction and input collection
+- `lng`: Performs lng operation as part of the component's functionality
 ### Key Functions
 - `c_str()`: Constructor that initializes c_str object with provided parameters
-- `str()`: Executes str operation as part of dialog handling
-- `value()`: Executes value operation as part of dialog handling
-- `flags()`: Executes flags operation as part of dialog handling
-- `DialogBuilder()`: Executes DialogBuilder operation as part of dialog handling
+- `str()`: Performs str operation as part of the component's functionality
+- `value()`: Performs value operation as part of the component's functionality
+- `flags()`: Performs flags operation as part of the component's functionality
+- `DialogBuilder()`: Performs DialogBuilder operation as part of the component's functionality
 - `AddText()`: Adds new Text to collection or list
 - `AddCheckbox()`: Adds new Checkbox to collection or list
 - `AddTextBefore()`: Adds new TextBefore to collection or list

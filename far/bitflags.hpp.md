@@ -4,14 +4,14 @@
 This file implements functionality related to: Флаги
 Main functional areas: core functionality
 ### Key Classes
-- `TBitFlags`: Implements core functionality
+- `TBitFlags`: Performs TBitFlags operation as part of the component's functionality
 ### Key Functions
 - `Flags()`: Constructor that initializes Flags object with provided parameters
 - `Set()`: Updates value in internal state or configuration
 - `Clear()`: Clears all data and resets to initial empty state
-- `CheckAny()`: Validates data integrity and checks for correctness
-- `CheckAll()`: Validates data integrity and checks for correctness
-- `Check()`: Validates data integrity and checks for correctness
+- `CheckAny()`: Validates conditions and returns boolean indicating whether validation passed
+- `CheckAll()`: Validates conditions and returns boolean indicating whether validation passed
+- `Check()`: Validates conditions and returns boolean indicating whether validation passed
 - `Change()`: Constructor that initializes Change object with provided parameters
 - `Invert()`: Constructor that initializes Invert object with provided parameters
 - `ClearAll()`: Clears all data and resets to initial empty state
@@ -25,7 +25,7 @@ The `bitflags.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Флаги
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `TBitFlags`: Implementuje podstawowa funkcjonalność
+- `TBitFlags`: Performs TBitFlags operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `Flags()`: Konstruktor inicjalizujący Flags obiekt z dostarczonymi parametrami
 - `Set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji

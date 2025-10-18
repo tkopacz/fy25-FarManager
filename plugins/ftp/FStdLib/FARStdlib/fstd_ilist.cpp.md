@@ -4,7 +4,7 @@
 Main functional areas: file system operations
 ### Key Functions
 - `Copy()`: Copies data from source to destination location
-- `FPIL_ADDSET()`: Executes FPIL_ADDSET operation as part of file system operations
+- `FPIL_ADDSET()`: Performs FPIL_ADDSET operation as part of the component's functionality
 ### Summary
 The `fstd_ilist.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

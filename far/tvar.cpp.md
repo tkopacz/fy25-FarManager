@@ -4,7 +4,7 @@
 This file implements functionality related to: Реализация класса TVar (для макросов)
 Main functional areas: core functionality
 ### Key Functions
-- `checkTypeString()`: Validates data integrity and checks for correctness
+- `checkTypeString()`: Validates data integrity and checks correctness of input
 ### Summary
 The `tvar.cpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

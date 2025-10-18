@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `memchr()`: Executes memchr operation as part of core functionality
-- `wmemchr()`: Executes wmemchr operation as part of core functionality
+- `memchr()`: Performs memchr operation as part of the component's functionality
+- `wmemchr()`: Performs wmemchr operation as part of the component's functionality
 ### Summary
 The `memchr.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `memchr.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `memchr()`: Wykonuje memchr operację jako część podstawowa funkcjonalność
-- `wmemchr()`: Wykonuje wmemchr operację jako część podstawowa funkcjonalność
+- `memchr()`: Performs memchr operation as part of the component's functionality
+- `wmemchr()`: Performs wmemchr operation as part of the component's functionality
 ### Podsumowanie
 Plik `memchr.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

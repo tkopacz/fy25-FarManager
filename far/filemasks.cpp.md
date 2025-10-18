@@ -4,19 +4,19 @@
 This file implements functionality related to: Класс для работы с масками файлов (учитывается наличие масок исключения).
 Main functional areas: file system operations
 ### Key Classes
-- `filemasks`: Implements file system operations
-- `regex_data`: Implements file system operations
-- `with_brackets`: Implements file system operations
+- `filemasks`: Performs filemasks operation as part of the component's functionality
+- `regex_data`: Performs regex_data operation as part of the component's functionality
+- `with_brackets`: Performs with_brackets operation as part of the component's functionality
 ### Key Functions
-- `extract_impl()`: Executes extract_impl operation as part of file system operations
-- `extract_separators()`: Executes extract_separators operation as part of file system operations
-- `extract_masks()`: Executes extract_masks operation as part of file system operations
-- `extract_re()`: Executes extract_re operation as part of file system operations
-- `assign()`: Executes assign operation as part of file system operations
-- `empty()`: Executes empty operation as part of file system operations
-- `last_matches()`: Executes last_matches operation as part of file system operations
+- `extract_impl()`: Performs extract_impl operation as part of the component's functionality
+- `extract_separators()`: Performs extract_separators operation as part of the component's functionality
+- `extract_masks()`: Performs extract_masks operation as part of the component's functionality
+- `extract_re()`: Performs extract_re operation as part of the component's functionality
+- `assign()`: Evaluates conditions and returns a boolean indicating success or validity of assign
+- `empty()`: Performs empty operation as part of the component's functionality
+- `last_matches()`: Performs last_matches operation as part of the component's functionality
 - `get_mask_group()`: Retrieves _mask_group from internal state or data structure
-- `ExpandedGroups()`: Executes ExpandedGroups operation as part of file system operations
+- `ExpandedGroups()`: Performs ExpandedGroups operation as part of the component's functionality
 - `add_pathext()`: Adds new _pathext to collection or list
 ### Summary
 The `filemasks.cpp` file provides essential functionality for file system operations. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

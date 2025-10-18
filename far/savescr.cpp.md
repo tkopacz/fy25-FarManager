@@ -4,7 +4,7 @@
 This file implements functionality related to: Сохраняем и восстанавливаем экран кусками и целиком
 Main functional areas: screen operations
 ### Key Functions
-- `CleanupBuffer()`: Executes CleanupBuffer operation as part of screen operations
+- `CleanupBuffer()`: Performs CleanupBuffer operation as part of the component's functionality
 - `clear_and_shrink()`: Clears all data and resets to initial empty state
 ### Summary
 The `savescr.cpp` file provides essential functionality for screen operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.

@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Functions
-- `hndCommandLinesAndParams()`: Executes hndCommandLinesAndParams operation as part of dialog handling
-- `dlgCommandLinesAndParams()`: Executes dlgCommandLinesAndParams operation as part of dialog handling
-- `D()`: Executes D operation as part of dialog handling
+- `hndCommandLinesAndParams()`: Evaluates conditions and returns a boolean indicating success or validity of hndCommandLinesAndParams
+- `dlgCommandLinesAndParams()`: Allocates memory and initializes resources for dlgCommandLinesAndParams
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgCommandLinesAndParams.cpp` file provides essential functionality for dialog handling. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

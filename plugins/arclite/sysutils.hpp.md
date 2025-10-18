@@ -3,23 +3,23 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `CriticalSection`: Implements core functionality
-- `CriticalSectionLock`: Implements core functionality
-- `DirList`: Implements core functionality
-- `DisableSleepMode`: Implements core functionality
-- `File`: Implements core functionality
-- `FileEnum`: Implements core functionality
-- `FindData`: Implements core functionality
-- `Key`: Implements core functionality
-- `Patch7zCP`: Implements core functionality
-- `TempFile`: Implements core functionality
+- `CriticalSection`: Performs CriticalSection operation as part of the component's functionality
+- `CriticalSectionLock`: Performs CriticalSectionLock operation as part of the component's functionality
+- `DirList`: Performs DirList operation as part of the component's functionality
+- `DisableSleepMode`: Performs DisableSleepMode operation as part of the component's functionality
+- `File`: Performs File operation as part of the component's functionality
+- `FileEnum`: Performs FileEnum operation as part of the component's functionality
+- `FindData`: Performs FindData operation as part of the component's functionality
+- `Key`: Performs Key operation as part of the component's functionality
+- `Patch7zCP`: Performs Patch7zCP operation as part of the component's functionality
+- `TempFile`: Performs TempFile operation as part of the component's functionality
 ### Key Functions
 - `get_system_message()`: Retrieves _system_message from internal state or data structure
 - `get_console_title()`: Retrieves _console_title from internal state or data structure
-- `wait_for_single_object()`: Executes wait_for_single_object operation as part of core functionality
-- `ansi_to_unicode()`: Executes ansi_to_unicode operation as part of core functionality
-- `unicode_to_ansi()`: Executes unicode_to_ansi operation as part of core functionality
-- `expand_env_vars()`: Executes expand_env_vars operation as part of core functionality
+- `wait_for_single_object()`: Performs wait_for_single_object operation as part of the component's functionality
+- `ansi_to_unicode()`: Performs ansi_to_unicode operation as part of the component's functionality
+- `unicode_to_ansi()`: Performs unicode_to_ansi operation as part of the component's functionality
+- `expand_env_vars()`: Performs expand_env_vars operation as part of the component's functionality
 - `get_full_path_name()`: Retrieves _full_path_name from internal state or data structure
 - `get_current_directory()`: Retrieves _current_directory from internal state or data structure
 - `GetSync()`: Retrieves Sync from internal state or data structure
@@ -33,23 +33,23 @@ The `sysutils.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CriticalSection`: Implementuje podstawowa funkcjonalność
-- `CriticalSectionLock`: Implementuje podstawowa funkcjonalność
-- `DirList`: Implementuje podstawowa funkcjonalność
-- `DisableSleepMode`: Implementuje podstawowa funkcjonalność
-- `File`: Implementuje podstawowa funkcjonalność
-- `FileEnum`: Implementuje podstawowa funkcjonalność
-- `FindData`: Implementuje podstawowa funkcjonalność
-- `Key`: Implementuje podstawowa funkcjonalność
-- `Patch7zCP`: Implementuje podstawowa funkcjonalność
-- `TempFile`: Implementuje podstawowa funkcjonalność
+- `CriticalSection`: Performs CriticalSection operation as part of the component's functionality
+- `CriticalSectionLock`: Performs CriticalSectionLock operation as part of the component's functionality
+- `DirList`: Performs DirList operation as part of the component's functionality
+- `DisableSleepMode`: Performs DisableSleepMode operation as part of the component's functionality
+- `File`: Performs File operation as part of the component's functionality
+- `FileEnum`: Performs FileEnum operation as part of the component's functionality
+- `FindData`: Performs FindData operation as part of the component's functionality
+- `Key`: Performs Key operation as part of the component's functionality
+- `Patch7zCP`: Performs Patch7zCP operation as part of the component's functionality
+- `TempFile`: Performs TempFile operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `get_system_message()`: Pobiera _system_message ze stanu wewnętrznego lub struktury danych
 - `get_console_title()`: Pobiera _console_title ze stanu wewnętrznego lub struktury danych
-- `wait_for_single_object()`: Wykonuje wait_for_single_obiekt operację jako część podstawowa funkcjonalność
-- `ansi_to_unicode()`: Wykonuje ansi_to_unicode operację jako część podstawowa funkcjonalność
-- `unicode_to_ansi()`: Wykonuje unicode_to_ansi operację jako część podstawowa funkcjonalność
-- `expand_env_vars()`: Wykonuje expand_env_vars operację jako część podstawowa funkcjonalność
+- `wait_for_single_object()`: Performs wait_for_single_object operation as part of the component's functionality
+- `ansi_to_unicode()`: Performs ansi_to_unicode operation as part of the component's functionality
+- `unicode_to_ansi()`: Performs unicode_to_ansi operation as part of the component's functionality
+- `expand_env_vars()`: Performs expand_env_vars operation as part of the component's functionality
 - `get_full_path_name()`: Pobiera _full_path_name ze stanu wewnętrznego lub struktury danych
 - `get_current_directory()`: Pobiera _current_directory ze stanu wewnętrznego lub struktury danych
 - `GetSync()`: Pobiera Sync ze stanu wewnętrznego lub struktury danych

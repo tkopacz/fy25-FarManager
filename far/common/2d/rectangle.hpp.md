@@ -4,11 +4,11 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `rectangle_t`: Implements core functionality
+- `rectangle_t`: Performs rectangle_t operation as part of the component's functionality
 ### Key Functions
-- `width()`: Executes width operation as part of core functionality
-- `height()`: Executes height operation as part of core functionality
-- `contains()`: Executes contains operation as part of core functionality
+- `width()`: Performs width operation as part of the component's functionality
+- `height()`: Performs height operation as part of the component's functionality
+- `contains()`: Performs contains operation as part of the component's functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -21,11 +21,11 @@ The `rectangle.hpp` file provides essential functionality for core functionality
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `rectangle_t`: Implementuje podstawowa funkcjonalność
+- `rectangle_t`: Performs rectangle_t operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `width()`: Wykonuje width operację jako część podstawowa funkcjonalność
-- `height()`: Wykonuje height operację jako część podstawowa funkcjonalność
-- `contains()`: Wykonuje contains operację jako część podstawowa funkcjonalność
+- `width()`: Performs width operation as part of the component's functionality
+- `height()`: Performs height operation as part of the component's functionality
+- `contains()`: Performs contains operation as part of the component's functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

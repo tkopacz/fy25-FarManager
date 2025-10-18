@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArcCmdMenuData`: Implements core functionality
+- `ArcCmdMenuData`: Performs ArcCmdMenuData operation as part of the component's functionality
 ### Key Functions
-- `ArcCmd()`: Executes ArcCmd operation as part of core functionality
-- `FormatSort()`: Executes FormatSort operation as part of core functionality
+- `ArcCmd()`: Performs ArcCmd operation as part of the component's functionality
+- `FormatSort()`: Performs FormatSort operation as part of the component's functionality
 ### Summary
 The `ArcProc.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `ArcProc.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArcCmdMenuData`: Implementuje podstawowa funkcjonalność
+- `ArcCmdMenuData`: Performs ArcCmdMenuData operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `ArcCmd()`: Wykonuje ArcCmd operację jako część podstawowa funkcjonalność
-- `FormatSort()`: Wykonuje FormatSort operację jako część podstawowa funkcjonalność
+- `ArcCmd()`: Performs ArcCmd operation as part of the component's functionality
+- `FormatSort()`: Performs FormatSort operation as part of the component's functionality
 ### Podsumowanie
 Plik `ArcProc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

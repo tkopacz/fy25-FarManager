@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `Config`: Implements file viewing
-- `InitDialogItem`: Implements file viewing
-- `MenuData`: Implements file viewing
-- `TMacroView`: Implements file viewing
+- `Config`: Performs Config operation as part of the component's functionality
+- `InitDialogItem`: Initializes the component or system with required setup and configuration
+- `MenuData`: Performs MenuData operation as part of the component's functionality
+- `TMacroView`: Performs TMacroView operation as part of the component's functionality
 ### Key Functions
-- `InterceptDllCall()`: Executes InterceptDllCall operation as part of file viewing
-- `MacroDialogProc()`: Executes MacroDialogProc operation as part of file viewing
-- `MenuDialogProc()`: Executes MenuDialogProc operation as part of file viewing
-- `DefKeyDialogProc()`: Executes DefKeyDialogProc operation as part of file viewing
+- `InterceptDllCall()`: Performs InterceptDllCall operation as part of the component's functionality
+- `MacroDialogProc()`: Performs MacroDialogProc operation as part of the component's functionality
+- `MenuDialogProc()`: Performs MenuDialogProc operation as part of the component's functionality
+- `DefKeyDialogProc()`: Performs DefKeyDialogProc operation as part of the component's functionality
 - `CopyDialogProc()`: Copies data from source to destination location
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessPeekKey()`: Processes PeekKey through transformation or handling pipeline
-- `AllTrim()`: Executes AllTrim operation as part of file viewing
-- `UnQuoteText()`: Executes UnQuoteText operation as part of file viewing
-- `QuoteText()`: Executes QuoteText operation as part of file viewing
+- `AllTrim()`: Performs AllTrim operation as part of the component's functionality
+- `UnQuoteText()`: Performs UnQuoteText operation as part of the component's functionality
+- `QuoteText()`: Performs QuoteText operation as part of the component's functionality
 ### Summary
 The `MacroView.hpp` file provides essential functionality for file viewing. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

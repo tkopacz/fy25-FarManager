@@ -4,16 +4,16 @@
 This file implements functionality related to: Работа с атрибутами файлов
 Main functional areas: file system operations
 ### Key Functions
-- `Action()`: Executes Action operation as part of file system operations
-- `ESetFileAttributes()`: Executes ESetFileAttributes operation as part of file system operations
+- `Action()`: Performs Action operation as part of the component's functionality
+- `ESetFileAttributes()`: Performs ESetFileAttributes operation as part of the component's functionality
 - `set_file_compression()`: Updates _file_compression in internal state or configuration
-- `File()`: Executes File operation as part of file system operations
-- `ESetFileCompression()`: Executes ESetFileCompression operation as part of file system operations
-- `ESetFileEncryption()`: Executes ESetFileEncryption operation as part of file system operations
-- `ESetFileTime()`: Executes ESetFileTime operation as part of file system operations
+- `File()`: Performs File operation as part of the component's functionality
+- `ESetFileCompression()`: Evaluates conditions and returns a boolean indicating success or validity of ESetFileCompression
+- `ESetFileEncryption()`: Performs ESetFileEncryption operation as part of the component's functionality
+- `ESetFileTime()`: Evaluates conditions and returns a boolean indicating success or validity of ESetFileTime
 - `set_file_sparse()`: Updates _file_sparse in internal state or configuration
-- `ESetFileSparse()`: Executes ESetFileSparse operation as part of file system operations
-- `ESetFileOwner()`: Executes ESetFileOwner operation as part of file system operations
+- `ESetFileSparse()`: Evaluates conditions and returns boolean indicating success or validity
+- `ESetFileOwner()`: Performs ESetFileOwner operation as part of the component's functionality
 ### Summary
 The `fileattr.cpp` file provides essential functionality for file system operations. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

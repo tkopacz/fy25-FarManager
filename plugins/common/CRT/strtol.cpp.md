@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `strtoxl()`: Executes strtoxl operation as part of string utilities
+- `strtoxl()`: Performs strtoxl operation as part of the component's functionality
 ### Summary
 The `strtol.cpp` file provides essential functionality for string utilities. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

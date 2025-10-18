@@ -4,15 +4,15 @@
 This file implements functionality related to: Конфигурация
 Main functional areas: configuration management
 ### Key Classes
-- `FARConfigItem`: Implements configuration management
-- `Options`: Implements configuration management
-- `edit_mode`: Implements configuration management
+- `FARConfigItem`: Performs FARConfigItem operation as part of the component's functionality
+- `Options`: Validates conditions and throws exceptions when errors are detected during Options operation
+- `edit_mode`: Performs edit_mode operation as part of the component's functionality
 ### Key Functions
 - `DisplayModeToReal()`: Displays content or makes visual element visible on screen
-- `RealModeToDisplay()`: Executes RealModeToDisplay operation as part of configuration management
-- `Builder()`: Executes Builder operation as part of configuration management
-- `ApplyDefaultMaskGroups()`: Executes ApplyDefaultMaskGroups operation as part of configuration management
-- `FillMasksMenu()`: Executes FillMasksMenu operation as part of configuration management
+- `RealModeToDisplay()`: Performs RealModeToDisplay operation as part of the component's functionality
+- `Builder()`: Displays dialog interface for user interaction and input collection
+- `ApplyDefaultMaskGroups()`: Handles Windows Installer (MSI) operations for ApplyDefaultMaskGroups
+- `FillMasksMenu()`: Performs FillMasksMenu operation as part of the component's functionality
 ### Summary
 The `config.cpp` file provides essential functionality for configuration management. It defines 3 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

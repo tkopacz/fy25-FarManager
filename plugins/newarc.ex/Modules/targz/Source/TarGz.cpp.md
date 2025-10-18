@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `MyIsArchive()`: Executes MyIsArchive operation as part of core functionality
-- `ArchiveGzip()`: Executes ArchiveGzip operation as part of core functionality
-- `ArchiveOne()`: Executes ArchiveOne operation as part of core functionality
-- `QueryArchive()`: Executes QueryArchive operation as part of core functionality
+- `MyIsArchive()`: Allocates memory and initializes resources for MyIsArchive
+- `ArchiveGzip()`: Performs ArchiveGzip operation as part of the component's functionality
+- `ArchiveOne()`: Performs ArchiveOne operation as part of the component's functionality
+- `QueryArchive()`: Performs QueryArchive operation as part of the component's functionality
 - `OpenArchive()`: Opens resource and prepares it for access operations
 - `GetSFXPos()`: Retrieves SFXPos from internal state or data structure
 - `GetArcItem()`: Retrieves ArcItem from internal state or data structure
@@ -22,10 +22,10 @@ The `TarGz.cpp` file provides essential functionality for core functionality. an
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `MyIsArchive()`: Wykonuje MyIsArchive operację jako część podstawowa funkcjonalność
-- `ArchiveGzip()`: Wykonuje ArchiveGzip operację jako część podstawowa funkcjonalność
-- `ArchiveOne()`: Wykonuje ArchiveOne operację jako część podstawowa funkcjonalność
-- `QueryArchive()`: Wykonuje QueryArchive operację jako część podstawowa funkcjonalność
+- `MyIsArchive()`: Allocates memory and initializes resources for MyIsArchive
+- `ArchiveGzip()`: Performs ArchiveGzip operation as part of the component's functionality
+- `ArchiveOne()`: Performs ArchiveOne operation as part of the component's functionality
+- `QueryArchive()`: Performs QueryArchive operation as part of the component's functionality
 - `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
 - `GetSFXPos()`: Pobiera SFXPos ze stanu wewnętrznego lub struktury danych
 - `GetArcItem()`: Pobiera ArcItem ze stanu wewnętrznego lub struktury danych

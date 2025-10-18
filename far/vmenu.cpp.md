@@ -4,26 +4,26 @@
 This file implements functionality related to: Обычное вертикальное меню
 Main functional areas: menu management
 ### Key Classes
-- `alignment`: Implements menu management
-- `bulk_update_scope_guard`: Implements menu management
-- `color_indices`: Implements menu management
-- `item_color_indices`: Implements menu management
-- `item_hscroll_policy`: Implements menu management
-- `menu_layout`: Implements menu management
-- `test_data`: Implements menu management
-- `test_segment`: Implements menu management
-- `vmenu_horizontal_tracker`: Implements menu management
+- `alignment`: Performs alignment operation as part of the component's functionality
+- `bulk_update_scope_guard`: Performs bulk_update_scope_guard operation as part of the component's functionality
+- `color_indices`: Performs color_indices operation as part of the component's functionality
+- `item_color_indices`: Performs item_color_indices operation as part of the component's functionality
+- `item_hscroll_policy`: Performs item_hscroll_policy operation as part of the component's functionality
+- `menu_layout`: Performs menu_layout operation as part of the component's functionality
+- `test_data`: Performs test_data operation as part of the component's functionality
+- `test_segment`: Performs test_segment operation as part of the component's functionality
+- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation as part of the component's functionality
 ### Key Functions
-- `item_color_indices()`: Executes item_color_indices operation as part of menu management
-- `need_box()`: Executes need_box operation as part of menu management
+- `item_color_indices()`: Performs item_color_indices operation as part of the component's functionality
+- `need_box()`: Performs need_box operation as part of the component's functionality
 - `get_box_type()`: Retrieves _box_type from internal state or data structure
 - `get_service_area_size()`: Retrieves _service_area_size from internal state or data structure
-- `fixed_columns_width()`: Executes fixed_columns_width operation as part of menu management
+- `fixed_columns_width()`: Performs fixed_columns_width operation as part of the component's functionality
 - `get_title_service_area_size()`: Retrieves _title_service_area_size from internal state or data structure
 - `get_client_rect()`: Retrieves _client_rect from internal state or data structure
-- `need_check_mark()`: Executes need_check_mark operation as part of menu management
-- `need_left_hscroll()`: Executes need_left_hscroll operation as part of menu management
-- `need_right_hscroll()`: Executes need_right_hscroll operation as part of menu management
+- `need_check_mark()`: Performs need_check_mark operation as part of the component's functionality
+- `need_left_hscroll()`: Performs need_left_hscroll operation as part of the component's functionality
+- `need_right_hscroll()`: Performs need_right_hscroll operation as part of the component's functionality
 ### Namespaces
 - `std`
 ### Summary

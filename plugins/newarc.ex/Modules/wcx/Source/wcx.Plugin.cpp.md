@@ -4,8 +4,8 @@
 Main functional areas: plugin interface
 ### Key Functions
 - `ConvertResult()`: Converts data from one format or type to another
-- `WcxArchive()`: Executes WcxArchive operation as part of plugin interface
-- `m_pfnGetPackerCaps()`: Executes m_pfnGetPackerCaps operation as part of plugin interface
+- `WcxArchive()`: Performs WcxArchive operation as part of the component's functionality
+- `m_pfnGetPackerCaps()`: Performs m_pfnGetPackerCaps operation as part of the component's functionality
 ### Summary
 The `wcx.Plugin.cpp` file provides essential functionality for plugin interface. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

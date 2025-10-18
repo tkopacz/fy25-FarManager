@@ -4,17 +4,17 @@
 This file implements functionality related to: */
 Main functional areas: string utilities
 ### Key Classes
-- `SQLiteDb`: Implements string utilities
-- `keyhole`: Implements string utilities
-- `less_icase_t`: Implements string utilities
-- `less_t`: Implements string utilities
-- `pluginapi_sort_accessor`: Implements string utilities
+- `SQLiteDb`: Performs SQLiteDb operation as part of the component's functionality
+- `keyhole`: Performs keyhole operation as part of the component's functionality
+- `less_icase_t`: Performs less_icase_t operation as part of the component's functionality
+- `less_t`: Performs less_t operation as part of the component's functionality
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation as part of the component's functionality
 ### Key Functions
-- `compare()`: Executes compare operation as part of string utilities
+- `compare()`: Performs compare operation as part of the component's functionality
 - `adjust_comparer()`: Adjusts _comparer based on current conditions or requirements
-- `compare_ordinal_icase()`: Executes compare_ordinal_icase operation as part of string utilities
-- `compare_ordinal_numeric()`: Executes compare_ordinal_numeric operation as part of string utilities
-- `ordering_as_int()`: Executes ordering_as_int operation as part of string utilities
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation as part of the component's functionality
+- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation as part of the component's functionality
+- `ordering_as_int()`: Performs ordering_as_int operation as part of the component's functionality
 ### Namespaces
 - `detail`
 - `string_sort`

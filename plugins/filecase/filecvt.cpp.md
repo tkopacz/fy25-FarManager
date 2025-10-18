@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `DlgProc()`: Executes DlgProc operation as part of file system operations
-- `CaseConvertion()`: Executes CaseConvertion operation as part of file system operations
-- `Builder()`: Executes Builder operation as part of file system operations
+- `DlgProc()`: Evaluates conditions and returns a boolean indicating success or validity of DlgProc
+- `CaseConvertion()`: Allocates memory and initializes resources for CaseConvertion
+- `Builder()`: Performs Builder operation as part of the component's functionality
 - `settings()`: Updates tings in internal state or configuration
 ### Summary
 The `filecvt.cpp` file provides essential functionality for file system operations. and contains approximately 4 function(s) to support the Far Manager file manager operations.

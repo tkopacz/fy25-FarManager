@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `function_traits`: Implements core functionality
-- `function_traits_impl`: Implements core functionality
+- `function_traits`: Performs function_traits operation as part of the component's functionality
+- `function_traits_impl`: Performs function_traits_impl operation as part of the component's functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -16,8 +16,8 @@ The `function_traits.hpp` file provides essential functionality for core functio
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `function_traits`: Implementuje podstawowa funkcjonalność
-- `function_traits_impl`: Implementuje podstawowa funkcjonalność
+- `function_traits`: Performs function_traits operation as part of the component's functionality
+- `function_traits_impl`: Performs function_traits_impl operation as part of the component's functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

@@ -4,15 +4,15 @@
 This file implements functionality related to: Temporary panel header file
 Main functional areas: panel management
 ### Key Classes
-- `PluginPanel`: Implements panel management
-- `shared_data`: Implements panel management
+- `PluginPanel`: Performs PluginPanel operation as part of the component's functionality
+- `shared_data`: Performs shared_data operation as part of the component's functionality
 ### Key Functions
 - `clear()`: Clears all data and resets to initial empty state
 - `GetMsg()`: Retrieves Msg from internal state or data structure
-- `GoToFile()`: Executes GoToFile operation as part of panel management
-- `WFD2FFD()`: Executes WFD2FFD operation as part of panel management
-- `FormNtPath()`: Executes FormNtPath operation as part of panel management
-- `ExpandEnvStrs()`: Executes ExpandEnvStrs operation as part of panel management
+- `GoToFile()`: Performs GoToFile operation as part of the component's functionality
+- `WFD2FFD()`: Performs WFD2FFD operation as part of the component's functionality
+- `FormNtPath()`: Performs FormNtPath operation as part of the component's functionality
+- `ExpandEnvStrs()`: Performs ExpandEnvStrs operation as part of the component's functionality
 - `FindListFile()`: Searches for ListFile in collection and returns position or reference
 - `GetFullPath()`: Retrieves FullPath from internal state or data structure
 - `IsTextUTF8()`: Tests whether TextUTF8 condition is true or property exists

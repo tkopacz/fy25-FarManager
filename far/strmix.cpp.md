@@ -4,20 +4,20 @@
 This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
 Main functional areas: string utilities
 ### Key Classes
-- `size`: Implements string utilities
-- `tests`: Implements string utilities
-- `units`: Implements string utilities
+- `size`: Performs size operation as part of the component's functionality
+- `tests`: Performs tests operation as part of the component's functionality
+- `units`: Performs units operation as part of the component's functionality
 ### Key Functions
-- `GroupDigitsImpl()`: Executes GroupDigitsImpl operation as part of string utilities
-- `GroupDigits()`: Executes GroupDigits operation as part of string utilities
-- `GroupDigitsInvariant()`: Executes GroupDigitsInvariant operation as part of string utilities
+- `GroupDigitsImpl()`: Performs GroupDigitsImpl operation as part of the component's functionality
+- `GroupDigits()`: Performs GroupDigits operation as part of the component's functionality
+- `GroupDigitsInvariant()`: Performs GroupDigitsInvariant operation as part of the component's functionality
 - `legacy_InsertQuotes()`: Constructor that initializes legacy_InsertQuotes object with provided parameters
-- `InsertRegexpQuote()`: Executes InsertRegexpQuote operation as part of string utilities
-- `truncate_right()`: Executes truncate_right operation as part of string utilities
-- `legacy_operation()`: Executes legacy_operation operation as part of string utilities
-- `truncate_left()`: Executes truncate_left operation as part of string utilities
-- `truncate_center()`: Executes truncate_center operation as part of string utilities
-- `StartOffset()`: Executes StartOffset operation as part of string utilities
+- `InsertRegexpQuote()`: Performs InsertRegexpQuote operation as part of the component's functionality
+- `truncate_right()`: Performs truncate_right operation as part of the component's functionality
+- `legacy_operation()`: Performs legacy_operation operation as part of the component's functionality
+- `truncate_left()`: Performs truncate_left operation as part of the component's functionality
+- `truncate_center()`: Performs truncate_center operation as part of the component's functionality
+- `StartOffset()`: Performs StartOffset operation as part of the component's functionality
 ### Namespaces
 - `id`
 ### Summary

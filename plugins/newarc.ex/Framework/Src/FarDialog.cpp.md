@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Functions
-- `cstrlen()`: Executes cstrlen operation as part of dialog handling
+- `cstrlen()`: Performs cstrlen operation as part of the component's functionality
 - `SetPosition()`: Updates Position in internal state or configuration
-- `memcpy()`: Executes memcpy operation as part of dialog handling
-- `DialogHandler()`: Executes DialogHandler operation as part of dialog handling
+- `memcpy()`: Performs memcpy operation as part of the component's functionality
+- `DialogHandler()`: Displays dialog interface for user interaction and input collection
 ### Summary
 The `FarDialog.cpp` file provides essential functionality for dialog handling. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

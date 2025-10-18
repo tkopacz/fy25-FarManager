@@ -4,19 +4,19 @@
 This file implements functionality related to: Standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_state`: Implements color management
-- `single_color_state`: Implements color management
+- `color_state`: Performs color_state operation as part of the component's functionality
+- `single_color_state`: Performs single_color_state operation as part of the component's functionality
 ### Key Functions
-- `color_code()`: Executes color_code operation as part of color management
-- `fg_item()`: Executes fg_item operation as part of color management
-- `bg_item()`: Executes bg_item operation as part of color management
+- `color_code()`: Performs color_code operation as part of the component's functionality
+- `fg_item()`: Performs fg_item operation as part of the component's functionality
+- `bg_item()`: Performs bg_item operation as part of the component's functionality
 - `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from internal state or data structure
 - `refresh_fg()`: Refreshes data by reloading from source or recalculating
 - `refresh_bg()`: Refreshes data by reloading from source or recalculating
 - `GetColorDlgProc()`: Retrieves ColorDlgProc from internal state or data structure
-- `scd_item()`: Executes scd_item operation as part of color management
-- `activate_control()`: Executes activate_control operation as part of color management
-- `disable_if_needed()`: Executes disable_if_needed operation as part of color management
+- `scd_item()`: Performs scd_item operation as part of the component's functionality
+- `activate_control()`: Evaluates conditions and returns a boolean indicating success or validity of activate_control
+- `disable_if_needed()`: Performs disable_if_needed operation as part of the component's functionality
 ### Namespaces
 - `cb`
 - `cd`

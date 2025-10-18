@@ -4,7 +4,7 @@
 Main functional areas: string utilities
 ### Key Functions
 - `DeleteList()`: Removes List from collection and frees associated resources
-- `lstrcpy()`: Executes lstrcpy operation as part of string utilities
+- `lstrcpy()`: Performs lstrcpy operation as part of the component's functionality
 ### Summary
 The `strclass.cpp` file provides essential functionality for string utilities. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

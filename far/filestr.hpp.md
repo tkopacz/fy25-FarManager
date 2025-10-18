@@ -4,13 +4,13 @@
 This file implements functionality related to: */
 Main functional areas: file system operations, string utilities
 ### Key Classes
-- `conversion_data`: Implements file system operations, string utilities
-- `file_line`: Implements file system operations, string utilities
+- `conversion_data`: Performs conversion_data operation as part of the component's functionality
+- `file_line`: Performs file_line operation as part of the component's functionality
 ### Key Functions
-- `error_bytes()`: Executes error_bytes operation as part of file system operations, string utilities
+- `error_bytes()`: Performs error_bytes operation as part of the component's functionality
 - `get()`: Retrieves value from internal state or data structure
 - `GetString()`: Retrieves String from internal state or data structure
-- `fill()`: Executes fill operation as part of file system operations, string utilities
+- `fill()`: Performs fill operation as part of the component's functionality
 - `GetTString()`: Retrieves TString from internal state or data structure
 - `GetFileCodepage()`: Retrieves FileCodepage from internal state or data structure
 ### Summary

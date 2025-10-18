@@ -4,24 +4,24 @@
 This file implements functionality related to: Конфигурация
 Main functional areas: configuration management
 ### Key Classes
-- `AutoCompleteOptions`: Implements configuration management
-- `CodeXLAT`: Implements configuration management
-- `CommandLineOptions`: Implements configuration management
-- `Confirmation`: Implements configuration management
-- `CopyMoveOptions`: Implements configuration management
-- `DeleteOptions`: Implements configuration management
-- `DialogBuilder`: Implements configuration management
-- `DialogsOptions`: Implements configuration management
-- `DizOptions`: Implements configuration management
-- `EditorOptions`: Implements configuration management
+- `AutoCompleteOptions`: Performs AutoCompleteOptions operation as part of the component's functionality
+- `CodeXLAT`: Performs CodeXLAT operation as part of the component's functionality
+- `CommandLineOptions`: Performs CommandLineOptions operation as part of the component's functionality
+- `Confirmation`: Performs Confirmation operation as part of the component's functionality
+- `CopyMoveOptions`: Performs CopyMoveOptions operation as part of the component's functionality
+- `DeleteOptions`: Removes or deletes the specified resource or item
+- `DialogBuilder`: Performs DialogBuilder operation as part of the component's functionality
+- `DialogsOptions`: Performs DialogsOptions operation as part of the component's functionality
+- `DizOptions`: Performs DizOptions operation as part of the component's functionality
+- `EditorOptions`: Performs EditorOptions operation as part of the component's functionality
 ### Key Functions
-- `Changed()`: Executes Changed operation as part of configuration management
+- `Changed()`: Evaluates conditions and returns boolean indicating success or validity
 - `GetT()`: Retrieves specific configuration value by key name
 - `SetT()`: Updates configuration value for specified key
-- `MakeUnchanged()`: Executes MakeUnchanged operation as part of configuration management
-- `validator()`: Executes validator operation as part of configuration management
-- `Callable()`: Executes Callable operation as part of configuration management
-- `notifier()`: Executes notifier operation as part of configuration management
+- `MakeUnchanged()`: Performs MakeUnchanged operation as part of the component's functionality
+- `validator()`: Performs validator operation as part of the component's functionality
+- `Callable()`: Performs Callable operation as part of the component's functionality
+- `notifier()`: Performs notifier operation as part of the component's functionality
 - `SetCallback()`: Updates configuration value for specified key
 - `Get()`: Retrieves specific configuration value by key name
 - `Set()`: Updates configuration value for specified key

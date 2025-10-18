@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FormatDetector`: Implements core functionality
+- `FormatDetector`: Performs FormatDetector operation as part of the component's functionality
 ### Key Functions
 - `Is7z()`: Tests whether 7z condition is true or property exists
 - `IsArj()`: Tests whether Arj condition is true or property exists
@@ -24,7 +24,7 @@ The `FormatDetector.hpp` file provides essential functionality for core function
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FormatDetector`: Implementuje podstawowa funkcjonalność
+- `FormatDetector`: Performs FormatDetector operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `Is7z()`: Testuje czy 7z warunek jest prawdziwy lub właściwość istnieje
 - `IsArj()`: Testuje czy Arj warunek jest prawdziwy lub właściwość istnieje

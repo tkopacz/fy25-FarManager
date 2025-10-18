@@ -4,13 +4,13 @@
 This file implements functionality related to: импортируемые функции
 Main functional areas: core functionality
 ### Key Classes
-- `imports`: Implements core functionality
-- `unique_function_pointer`: Implements core functionality
+- `imports`: Performs imports operation as part of the component's functionality
+- `unique_function_pointer`: Performs unique_function_pointer operation as part of the component's functionality
 ### Key Functions
-- `function_type()`: Executes function_type operation as part of core functionality
+- `function_type()`: Performs function_type operation as part of the component's functionality
 - `get_pointer()`: Retrieves _pointer from internal state or data structure
-- `bool()`: Executes bool operation as part of core functionality
-- `DEFINE_IMPORT_FUNCTION()`: Executes DEFINE_IMPORT_FUNCTION operation as part of core functionality
+- `bool()`: Performs bool operation as part of the component's functionality
+- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation as part of the component's functionality
 ### Namespaces
 - `imports_detail`
 ### Summary
@@ -23,13 +23,13 @@ The `imports.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: импортируемые функции
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `imports`: Implementuje podstawowa funkcjonalność
-- `unique_function_pointer`: Implementuje podstawowa funkcjonalność
+- `imports`: Performs imports operation as part of the component's functionality
+- `unique_function_pointer`: Performs unique_function_pointer operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `function_type()`: Wykonuje function_type operację jako część podstawowa funkcjonalność
+- `function_type()`: Performs function_type operation as part of the component's functionality
 - `get_pointer()`: Pobiera _pointer ze stanu wewnętrznego lub struktury danych
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `DEFINE_IMPORT_FUNCTION()`: Wykonuje DEFINE_IMPORT_FUNCTION operację jako część podstawowa funkcjonalność
+- `bool()`: Performs bool operation as part of the component's functionality
+- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation as part of the component's functionality
 ### Przestrzenie nazw
 - `imports_detail`
 ### Podsumowanie

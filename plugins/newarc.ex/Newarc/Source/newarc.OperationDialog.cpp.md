@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Functions
-- `doFrame()`: Executes doFrame operation as part of dialog handling
-- `doIndicator()`: Executes doIndicator operation as part of dialog handling
+- `doFrame()`: Allocates memory and initializes resources for doFrame
+- `doIndicator()`: Allocates memory and initializes resources for doIndicator
 ### Summary
 The `newarc.OperationDialog.cpp` file provides essential functionality for dialog handling. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

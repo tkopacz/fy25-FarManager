@@ -5,8 +5,8 @@ This file implements functionality related to: "Запускатель" прог
 Main functional areas: core functionality
 ### Key Functions
 - `OpenFolderInShell()`: Opens resource and prepares it for access operations
-- `ExpandOSAliases()`: Executes ExpandOSAliases operation as part of core functionality
-- `ExtractIfExistCommand()`: Executes ExtractIfExistCommand operation as part of core functionality
+- `ExpandOSAliases()`: Performs ExpandOSAliases operation as part of the component's functionality
+- `ExtractIfExistCommand()`: Performs ExtractIfExistCommand operation as part of the component's functionality
 ### Summary
 The `execute.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -18,7 +18,7 @@ Ten plik implementuje funkcjonalność związaną z: "Запускатель" п
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `OpenFolderInShell()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `ExpandOSAliases()`: Wykonuje ExpandOSAliases operację jako część podstawowa funkcjonalność
-- `ExtractIfExistCommand()`: Wykonuje ExtractIfExistCommand operację jako część podstawowa funkcjonalność
+- `ExpandOSAliases()`: Performs ExpandOSAliases operation as part of the component's functionality
+- `ExtractIfExistCommand()`: Performs ExtractIfExistCommand operation as part of the component's functionality
 ### Podsumowanie
 Plik `execute.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

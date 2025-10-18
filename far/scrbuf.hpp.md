@@ -4,16 +4,16 @@
 This file implements functionality related to: Буферизация вывода на экран, весь вывод идет через этот буфер
 Main functional areas: screen operations
 ### Key Classes
-- `ScreenBuf`: Implements screen operations
-- `flush_type`: Implements screen operations
+- `ScreenBuf`: Performs ScreenBuf operation as part of the component's functionality
+- `flush_type`: Performs flush_type operation as part of the component's functionality
 ### Key Functions
-- `DebugDump()`: Executes DebugDump operation as part of screen operations
-- `AllocBuf()`: Executes AllocBuf operation as part of screen operations
-- `Lock()`: Executes Lock operation as part of screen operations
-- `Unlock()`: Executes Unlock operation as part of screen operations
+- `DebugDump()`: Performs DebugDump operation as part of the component's functionality
+- `AllocBuf()`: Performs AllocBuf operation as part of the component's functionality
+- `Lock()`: Performs Lock operation as part of the component's functionality
+- `Unlock()`: Performs Unlock operation as part of the component's functionality
 - `GetLockCount()`: Retrieves LockCount from internal state or data structure
 - `SetLockCount()`: Updates LockCount in internal state or configuration
-- `ResetLockCount()`: Executes ResetLockCount operation as part of screen operations
+- `ResetLockCount()`: Performs ResetLockCount operation as part of the component's functionality
 - `MoveCursor()`: Moves data or object from current location to new location
 - `GetCursorPos()`: Retrieves CursorPos from internal state or data structure
 - `SetCursorType()`: Updates CursorType in internal state or configuration

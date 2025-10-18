@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Implements core functionality
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Implements core functionality
-- `THREAD_BASIC_INFORMATION`: Implements core functionality
-- `test`: Implements core functionality
+- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation as part of the component's functionality
+- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation as part of the component's functionality
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation as part of the component's functionality
+- `test`: Performs test operation as part of the component's functionality
 ### Key Functions
 - `GetProcessId()`: Retrieves ProcessId from internal state or data structure
 - `GetThreadId()`: Retrieves ThreadId from internal state or data structure
@@ -17,7 +17,7 @@ Main functional areas: core functionality
 - `GetTypeFromTypeToken()`: Retrieves TypeFromTypeToken from internal state or data structure
 - `GetUserAccountID()`: Retrieves UserAccountID from internal state or data structure
 - `GetNameByType()`: Retrieves NameByType from internal state or data structure
-- `l()`: Executes l operation as part of core functionality
+- `l()`: Performs l operation as part of the component's functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -29,10 +29,10 @@ The `handles.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Implementuje podstawowa funkcjonalność
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Implementuje podstawowa funkcjonalność
-- `THREAD_BASIC_INFORMATION`: Implementuje podstawowa funkcjonalność
-- `test`: Implementuje podstawowa funkcjonalność
+- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation as part of the component's functionality
+- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation as part of the component's functionality
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation as part of the component's functionality
+- `test`: Performs test operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `GetProcessId()`: Pobiera ProcessId ze stanu wewnętrznego lub struktury danych
 - `GetThreadId()`: Pobiera ThreadId ze stanu wewnętrznego lub struktury danych
@@ -43,7 +43,7 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `GetTypeFromTypeToken()`: Pobiera TypeFromTypeToken ze stanu wewnętrznego lub struktury danych
 - `GetUserAccountID()`: Pobiera UserAccountID ze stanu wewnętrznego lub struktury danych
 - `GetNameByType()`: Pobiera NameByType ze stanu wewnętrznego lub struktury danych
-- `l()`: Wykonuje l operację jako część podstawowa funkcjonalność
+- `l()`: Performs l operation as part of the component's functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

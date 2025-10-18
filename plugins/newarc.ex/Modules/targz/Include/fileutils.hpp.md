@@ -5,7 +5,7 @@ Main functional areas: file system operations
 ### Key Functions
 - `CreateFileEx()`: Creates and initializes new FileEx instance
 - `CreateDirEx()`: Creates and initializes new DirEx instance
-- `GenerateName()`: Executes GenerateName operation as part of file system operations
+- `GenerateName()`: Performs GenerateName operation as part of the component's functionality
 ### Summary
 The `fileutils.hpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

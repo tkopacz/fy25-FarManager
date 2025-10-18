@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `same_traits`: Implements file viewing
+- `same_traits`: Performs same_traits operation as part of the component's functionality
 ### Key Functions
 - `to()`: Constructor that initializes to object with provided parameters
 - `from()`: Constructor that initializes from object with provided parameters
-- `assign()`: Executes assign operation as part of file viewing
-- `eq()`: Executes eq operation as part of file viewing
-- `lt()`: Executes lt operation as part of file viewing
-- `compare()`: Executes compare operation as part of file viewing
-- `length()`: Executes length operation as part of file viewing
+- `assign()`: Performs assign operation as part of the component's functionality
+- `eq()`: Evaluates conditions and returns boolean indicating success or validity
+- `lt()`: Evaluates conditions and returns boolean indicating success or validity
+- `compare()`: Performs compare operation as part of the component's functionality
+- `length()`: Performs length operation as part of the component's functionality
 - `find()`: Searches for item in collection and returns position or reference
 - `move()`: Moves data or object from current location to new location
 - `copy()`: Copies data from source to destination location

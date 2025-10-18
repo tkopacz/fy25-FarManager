@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: configuration management
 ### Key Functions
-- `TiXmlElement()`: Executes TiXmlElement operation as part of configuration management
+- `TiXmlElement()`: Performs TiXmlElement operation as part of the component's functionality
 - `handle()`: Handles event by executing appropriate response logic
 ### Summary
 The `newarc.FormatConfig.cpp` file provides essential functionality for configuration management. and contains approximately 2 function(s) to support the Far Manager file manager operations.

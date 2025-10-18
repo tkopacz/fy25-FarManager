@@ -4,18 +4,18 @@
 This file implements functionality related to: Кэш SID`ов и функция GetOwner
 Main functional areas: file system operations
 ### Key Classes
-- `sid`: Implements file system operations
-- `sid_hash_eq`: Implements file system operations
+- `sid`: Performs sid operation as part of the component's functionality
+- `sid_hash_eq`: Performs sid_hash_eq operation as part of the component's functionality
 ### Key Functions
-- `SidToName()`: Executes SidToName operation as part of file system operations
-- `sid()`: Executes sid operation as part of file system operations
-- `bool()`: Executes bool operation as part of file system operations
+- `SidToName()`: Evaluates conditions and returns a boolean indicating success or validity of SidToName
+- `sid()`: Performs sid operation as part of the component's functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
 - `get()`: Retrieves value from internal state or data structure
-- `reset()`: Executes reset operation as part of file system operations
-- `size()`: Executes size operation as part of file system operations
+- `reset()`: Performs reset operation as part of the component's functionality
+- `size()`: Returns the current size or capacity of the container
 - `get_hash()`: Retrieves _hash from internal state or data structure
-- `SidToNameCached()`: Executes SidToNameCached operation as part of file system operations
-- `Callable()`: Executes Callable operation as part of file system operations
+- `SidToNameCached()`: Evaluates conditions and returns a boolean indicating success or validity of SidToNameCached
+- `Callable()`: Performs Callable operation as part of the component's functionality
 - `IsOwned()`: Tests whether Owned condition is true or property exists
 ### Summary
 The `fileowner.cpp` file provides essential functionality for file system operations. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

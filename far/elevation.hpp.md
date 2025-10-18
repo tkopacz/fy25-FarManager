@@ -4,18 +4,18 @@
 This file implements functionality related to: Elevation
 Main functional areas: singleton implementation
 ### Key Classes
-- `elevation`: Implements singleton implementation
-- `lng`: Implements singleton implementation
-- `suppress`: Implements singleton implementation
+- `elevation`: Performs elevation operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `suppress`: Performs suppress operation as part of the component's functionality
 ### Key Functions
-- `ResetApprove()`: Executes ResetApprove operation as part of singleton implementation
-- `Elevated()`: Executes Elevated operation as part of singleton implementation
+- `ResetApprove()`: Performs ResetApprove operation as part of the component's functionality
+- `Elevated()`: Evaluates conditions and returns boolean indicating success or validity
 - `create_directory()`: Creates and initializes new _directory instance
 - `remove_directory()`: Removes _directory from collection and frees associated resources
 - `delete_file()`: Removes _file from collection and frees associated resources
 - `copy_file()`: Copies data from source to destination location
 - `move_file()`: Moves data or object from current location to new location
-- `replace_file()`: Executes replace_file operation as part of singleton implementation
+- `replace_file()`: Performs replace_file operation as part of the component's functionality
 - `get_file_attributes()`: Retrieves _file_attributes from internal state or data structure
 - `set_file_attributes()`: Updates _file_attributes in internal state or configuration
 ### Summary

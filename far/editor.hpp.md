@@ -4,26 +4,26 @@
 This file implements functionality related to: Редактор
 Main functional areas: text editing
 ### Key Classes
-- `ColorItem`: Implements text editing
-- `DlgEdit`: Implements text editing
-- `Edit`: Implements text editing
-- `EditorContainer`: Implements text editing
-- `EditorUndoData`: Implements text editing
-- `FileEditor`: Implements text editing
-- `FindCoord`: Implements text editing
-- `InternalEditorBookmark`: Implements text editing
-- `InternalEditorSessionBookMark`: Implements text editing
-- `KeyBar`: Implements text editing
+- `ColorItem`: Performs ColorItem operation as part of the component's functionality
+- `DlgEdit`: Performs DlgEdit operation as part of the component's functionality
+- `Edit`: Performs Edit operation as part of the component's functionality
+- `EditorContainer`: Performs EditorContainer operation as part of the component's functionality
+- `EditorUndoData`: Performs EditorUndoData operation as part of the component's functionality
+- `FileEditor`: Performs FileEditor operation as part of the component's functionality
+- `FindCoord`: Performs FindCoord operation as part of the component's functionality
+- `InternalEditorBookmark`: Performs InternalEditorBookmark operation as part of the component's functionality
+- `InternalEditorSessionBookMark`: Performs InternalEditorSessionBookMark operation as part of the component's functionality
+- `KeyBar`: Performs KeyBar operation as part of the component's functionality
 ### Key Functions
-- `Editor()`: Executes Editor operation as part of text editing
+- `Editor()`: Performs Editor operation as part of the component's functionality
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `VMProcess()`: Processes virtual machine operations or commands
 - `SetCacheParams()`: Updates CacheParams in internal state or configuration
 - `GetCacheParams()`: Retrieves CacheParams from internal state or data structure
-- `TryCodePage()`: Executes TryCodePage operation as part of text editing
+- `TryCodePage()`: Performs TryCodePage operation as part of the component's functionality
 - `SetCodePage()`: Updates CodePage in internal state or configuration
-- `KeepInitParameters()`: Executes KeepInitParameters operation as part of text editing
+- `KeepInitParameters()`: Performs KeepInitParameters operation as part of the component's functionality
 - `SetStartPos()`: Updates StartPos in internal state or configuration
 ### Summary
 The `editor.hpp` file provides essential functionality for text editing. It defines 14 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

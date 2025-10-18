@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Classes
-- `CreateArchiveParams`: Implements dialog handling
+- `CreateArchiveParams`: Creates and initializes a new instance or resource
 ### Key Functions
 - `SetFormatTitle()`: Updates FormatTitle in internal state or configuration
 - `SetTemplate()`: Updates Template in internal state or configuration
-- `EnableControls()`: Executes EnableControls operation as part of dialog handling
-- `hndModifyCreateArchive()`: Executes hndModifyCreateArchive operation as part of dialog handling
-- `dlgModifyCreateArchive()`: Executes dlgModifyCreateArchive operation as part of dialog handling
-- `D()`: Executes D operation as part of dialog handling
+- `EnableControls()`: Evaluates conditions and returns boolean indicating success or validity
+- `hndModifyCreateArchive()`: Evaluates conditions and returns a boolean indicating success or validity of hndModifyCreateArchive
+- `dlgModifyCreateArchive()`: Evaluates conditions and returns a boolean indicating success or validity of dlgModifyCreateArchive
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgModifyCreateArchive.cpp` file provides essential functionality for dialog handling. It defines 1 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
 

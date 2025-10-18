@@ -4,12 +4,12 @@
 This file implements functionality related to: Реализация класса TVar ("кастрированый" вариант - только целое и строковое значение)
 Main functional areas: core functionality
 ### Key Classes
-- `Dialog`: Implements core functionality
-- `TVar`: Implements core functionality
-- `Type`: Implements core functionality
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `TVar`: Performs TVar operation as part of the component's functionality
+- `Type`: Performs Type operation as part of the component's functionality
 ### Key Functions
-- `TVar()`: Executes TVar operation as part of core functionality
-- `type()`: Executes type operation as part of core functionality
+- `TVar()`: Performs TVar operation as part of the component's functionality
+- `type()`: Performs type operation as part of the component's functionality
 - `ParseType()`: Parses input string or data into structured format
 - `SetType()`: Updates Type in internal state or configuration
 - `isString()`: Tests whether String condition is true or property exists
@@ -28,12 +28,12 @@ The `tvar.hpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Реализация класса TVar ("кастрированый" вариант - только целое и строковое значение)
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Dialog`: Implementuje podstawowa funkcjonalność
-- `TVar`: Implementuje podstawowa funkcjonalność
-- `Type`: Implementuje podstawowa funkcjonalność
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `TVar`: Performs TVar operation as part of the component's functionality
+- `Type`: Performs Type operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `TVar()`: Wykonuje TVar operację jako część podstawowa funkcjonalność
-- `type()`: Wykonuje type operację jako część podstawowa funkcjonalność
+- `TVar()`: Performs TVar operation as part of the component's functionality
+- `type()`: Performs type operation as part of the component's functionality
 - `ParseType()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
 - `SetType()`: Aktualizuje Type w stanie wewnętrznym lub konfiguracji
 - `isString()`: Testuje czy String warunek jest prawdziwy lub właściwość istnieje

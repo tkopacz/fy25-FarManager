@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `ThreadProc()`: Executes ThreadProc operation as part of core functionality
-- `EnsureThreadStarted()`: Executes EnsureThreadStarted operation as part of core functionality
+- `ThreadProc()`: Initializes COM (Component Object Model) interfaces for interoperability with Windows components
+- `EnsureThreadStarted()`: Evaluates conditions and returns a boolean indicating success or validity of EnsureThreadStarted
 - `OpenPlugin()`: Opens resource and prepares it for access operations
 - `ShowMenu()`: Displays content or makes visual element visible on screen
-- `Stop()`: Executes Stop operation as part of core functionality
-- `Startup()`: Executes Startup operation as part of core functionality
-- `Cleanup()`: Executes Cleanup operation as part of core functionality
+- `Stop()`: Performs Stop operation as part of the component's functionality
+- `Startup()`: Allocates memory and initializes resources for Startup
+- `Cleanup()`: Performs Cleanup operation as part of the component's functionality
 ### Namespaces
 - `OleThread`
 - `OpenPluginArgs`
@@ -23,13 +23,13 @@ The `OleThread.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `ThreadProc()`: Wykonuje ThreadProc operację jako część podstawowa funkcjonalność
-- `EnsureThreadStarted()`: Wykonuje EnsureThreadStarted operację jako część podstawowa funkcjonalność
+- `ThreadProc()`: Initializes COM (Component Object Model) interfaces for interoperability with Windows components
+- `EnsureThreadStarted()`: Evaluates conditions and returns a boolean indicating success or validity of EnsureThreadStarted
 - `OpenPlugin()`: Otwiera zasób i przygotowuje go do operacji dostępu
 - `ShowMenu()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `Stop()`: Wykonuje Stop operację jako część podstawowa funkcjonalność
-- `Startup()`: Wykonuje Startup operację jako część podstawowa funkcjonalność
-- `Cleanup()`: Wykonuje Cleanup operację jako część podstawowa funkcjonalność
+- `Stop()`: Performs Stop operation as part of the component's functionality
+- `Startup()`: Allocates memory and initializes resources for Startup
+- `Cleanup()`: Performs Cleanup operation as part of the component's functionality
 ### Przestrzenie nazw
 - `OleThread`
 - `OpenPluginArgs`

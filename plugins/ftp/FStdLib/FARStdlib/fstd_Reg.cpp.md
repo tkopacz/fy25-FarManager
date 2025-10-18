@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `FP_CheckRegKey()`: Executes FP_CheckRegKey operation as part of file system operations
-- `FP_CreateRegKey()`: Executes FP_CreateRegKey operation as part of file system operations
-- `sprintf()`: Executes sprintf operation as part of file system operations
-- `FP_DeleteRegKey()`: Executes FP_DeleteRegKey operation as part of file system operations
-- `FP_DeleteRegKeyFull()`: Executes FP_DeleteRegKeyFull operation as part of file system operations
-- `FP_DeleteRegKeyAll()`: Executes FP_DeleteRegKeyAll operation as part of file system operations
-- `FP_GetRegKey()`: Executes FP_GetRegKey operation as part of file system operations
-- `memset()`: Executes memset operation as part of file system operations
-- `FP_OpenRegKey()`: Executes FP_OpenRegKey operation as part of file system operations
-- `FP_SetRegKey()`: Executes FP_SetRegKey operation as part of file system operations
+- `FP_CheckRegKey()`: Validates conditions and returns boolean indicating whether validation passed
+- `FP_CreateRegKey()`: Accesses Windows registry to read or write configuration data
+- `sprintf()`: Performs sprintf operation as part of the component's functionality
+- `FP_DeleteRegKey()`: Evaluates conditions and returns a boolean indicating success or validity of FP_DeleteRegKey
+- `FP_DeleteRegKeyFull()`: Evaluates conditions and returns boolean indicating success or validity
+- `FP_DeleteRegKeyAll()`: Evaluates conditions and returns a boolean indicating success or validity of FP_DeleteRegKeyAll
+- `FP_GetRegKey()`: Accesses Windows registry for reading or writing configuration settings
+- `memset()`: Performs memset operation as part of the component's functionality
+- `FP_OpenRegKey()`: Accesses Windows registry to read or write configuration data
+- `FP_SetRegKey()`: Accesses Windows registry for reading or writing configuration settings
 ### Summary
 The `fstd_Reg.cpp` file provides essential functionality for file system operations. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

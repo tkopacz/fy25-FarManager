@@ -4,10 +4,10 @@
 Main functional areas: core functionality
 ### Key Functions
 - `ShowMemInfo()`: Displays content or makes visual element visible on screen
-- `calloc()`: Executes calloc operation as part of core functionality
-- `_Alloc()`: Executes _Alloc operation as part of core functionality
-- `free()`: Executes free operation as part of core functionality
-- `realloc()`: Executes realloc operation as part of core functionality
+- `calloc()`: Performs calloc operation as part of the component's functionality
+- `_Alloc()`: Performs _Alloc operation as part of the component's functionality
+- `free()`: Allocates memory and initializes resources for free
+- `realloc()`: Allocates memory and initializes resources for realloc
 ### Namespaces
 - `std`
 ### Summary
@@ -20,10 +20,10 @@ The `Mem.cpp` file provides essential functionality for core functionality. and 
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `ShowMemInfo()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `calloc()`: Wykonuje calloc operację jako część podstawowa funkcjonalność
-- `_Alloc()`: Wykonuje _Alloc operację jako część podstawowa funkcjonalność
-- `free()`: Wykonuje free operację jako część podstawowa funkcjonalność
-- `realloc()`: Wykonuje realloc operację jako część podstawowa funkcjonalność
+- `calloc()`: Performs calloc operation as part of the component's functionality
+- `_Alloc()`: Performs _Alloc operation as part of the component's functionality
+- `free()`: Allocates memory and initializes resources for free
+- `realloc()`: Allocates memory and initializes resources for realloc
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

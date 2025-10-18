@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `map_file`: Implements core functionality
-- `tracer`: Implements core functionality
-- `with_symbols`: Implements core functionality
+- `map_file`: Performs map_file operation as part of the component's functionality
+- `tracer`: Performs tracer operation as part of the component's functionality
+- `with_symbols`: Performs with_symbols operation as part of the component's functionality
 ### Key Functions
 - `get_symbol()`: Retrieves _symbol from internal state or data structure
-- `with_symbols()`: Executes with_symbols operation as part of core functionality
-- `sym_initialise()`: Executes sym_initialise operation as part of core functionality
-- `sym_cleanup()`: Executes sym_cleanup operation as part of core functionality
+- `with_symbols()`: Performs with_symbols operation as part of the component's functionality
+- `sym_initialise()`: Performs sym_initialise operation as part of the component's functionality
+- `sym_cleanup()`: Performs sym_cleanup operation as part of the component's functionality
 ### Namespaces
 - `tracer_detail`
 ### Summary
@@ -22,14 +22,14 @@ The `tracer.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `map_file`: Implementuje podstawowa funkcjonalność
-- `tracer`: Implementuje podstawowa funkcjonalność
-- `with_symbols`: Implementuje podstawowa funkcjonalność
+- `map_file`: Performs map_file operation as part of the component's functionality
+- `tracer`: Performs tracer operation as part of the component's functionality
+- `with_symbols`: Performs with_symbols operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `get_symbol()`: Pobiera _symbol ze stanu wewnętrznego lub struktury danych
-- `with_symbols()`: Wykonuje with_symbols operację jako część podstawowa funkcjonalność
-- `sym_initialise()`: Wykonuje sym_initialise operację jako część podstawowa funkcjonalność
-- `sym_cleanup()`: Wykonuje sym_cleanup operację jako część podstawowa funkcjonalność
+- `with_symbols()`: Performs with_symbols operation as part of the component's functionality
+- `sym_initialise()`: Performs sym_initialise operation as part of the component's functionality
+- `sym_cleanup()`: Performs sym_cleanup operation as part of the component's functionality
 ### Przestrzenie nazw
 - `tracer_detail`
 ### Podsumowanie

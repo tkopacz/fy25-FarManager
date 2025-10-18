@@ -4,27 +4,27 @@
 This file implements functionality related to: Plugin API for FAR Manager 2.0 build 1807
 Main functional areas: plugin interface
 ### Key Classes
-- `ActlEjectMedia`: Implements plugin interface
-- `ActlKeyMacro`: Implements plugin interface
-- `CmdLineSelect`: Implements plugin interface
-- `DialogInfo`: Implements plugin interface
-- `EditorBookMarks`: Implements plugin interface
-- `EditorColor`: Implements plugin interface
-- `EditorConvertPos`: Implements plugin interface
-- `EditorGetString`: Implements plugin interface
-- `EditorInfo`: Implements plugin interface
-- `EditorSaveFile`: Implements plugin interface
+- `ActlEjectMedia`: Performs ActlEjectMedia operation as part of the component's functionality
+- `ActlKeyMacro`: Performs ActlKeyMacro operation as part of the component's functionality
+- `CmdLineSelect`: Performs CmdLineSelect operation as part of the component's functionality
+- `DialogInfo`: Performs DialogInfo operation as part of the component's functionality
+- `EditorBookMarks`: Performs EditorBookMarks operation as part of the component's functionality
+- `EditorColor`: Performs EditorColor operation as part of the component's functionality
+- `EditorConvertPos`: Performs EditorConvertPos operation as part of the component's functionality
+- `EditorGetString`: Performs EditorGetString operation as part of the component's functionality
+- `EditorInfo`: Performs EditorInfo operation as part of the component's functionality
+- `EditorSaveFile`: Performs EditorSaveFile operation as part of the component's functionality
 ### Key Functions
 - `IsEdit()`: Tests whether Edit condition is true or property exists
-- `DlgList_SetCurPos()`: Executes DlgList_SetCurPos operation as part of plugin interface
-- `DlgList_DeleteItem()`: Executes DlgList_DeleteItem operation as part of plugin interface
-- `DlgList_SetItemStrAsData()`: Executes DlgList_SetItemStrAsData operation as part of plugin interface
+- `DlgList_SetCurPos()`: Performs DlgList_SetCurPos operation as part of the component's functionality
+- `DlgList_DeleteItem()`: Performs DlgList_DeleteItem operation as part of the component's functionality
+- `DlgList_SetItemStrAsData()`: Performs DlgList_SetItemStrAsData operation as part of the component's functionality
 - `ClosePluginW()`: Closes resource and performs cleanup operations
-- `CompareW()`: Executes CompareW operation as part of plugin interface
-- `ConfigureW()`: Executes ConfigureW operation as part of plugin interface
+- `CompareW()`: Performs CompareW operation as part of the component's functionality
+- `ConfigureW()`: Performs ConfigureW operation as part of the component's functionality
 - `DeleteFilesW()`: Removes FilesW from collection and frees associated resources
-- `ExitFARW()`: Executes ExitFARW operation as part of plugin interface
-- `FreeFindDataW()`: Executes FreeFindDataW operation as part of plugin interface
+- `ExitFARW()`: Performs ExitFARW operation as part of the component's functionality
+- `FreeFindDataW()`: Performs FreeFindDataW operation as part of the component's functionality
 ### Summary
 The `plugin.hpp` file provides essential functionality for plugin interface. It defines 56 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

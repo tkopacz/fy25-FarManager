@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations, string utilities
 ### Key Functions
-- `c_str()`: Executes c_str operation as part of file system operations, string utilities
+- `c_str()`: Performs c_str operation as part of the component's functionality
 - `Add()`: Adds new item to collection or list
-- `Cmp()`: Executes Cmp operation as part of file system operations, string utilities
+- `Cmp()`: Evaluates conditions and returns a boolean indicating success or validity of Cmp
 ### Summary
 The `fstd_String.cpp` file provides essential functionality for file system operations, string utilities. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

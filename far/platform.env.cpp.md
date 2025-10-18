@@ -5,11 +5,11 @@ This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
 - `get()`: Retrieves value from internal state or data structure
-- `C_Name()`: Executes C_Name operation as part of core functionality
+- `C_Name()`: Performs C_Name operation as part of the component's functionality
 - `set()`: Updates value in internal state or configuration
-- `del()`: Executes del operation as part of core functionality
-- `expand()`: Executes expand operation as part of core functionality
-- `C_Str()`: Executes C_Str operation as part of core functionality
+- `del()`: Evaluates conditions and returns boolean indicating success or validity
+- `expand()`: Performs expand operation as part of the component's functionality
+- `C_Str()`: Performs C_Str operation as part of the component's functionality
 - `get_pathext()`: Retrieves _pathext from internal state or data structure
 ### Namespaces
 - `os`
@@ -24,11 +24,11 @@ Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `C_Name()`: Wykonuje C_Name operację jako część podstawowa funkcjonalność
+- `C_Name()`: Performs C_Name operation as part of the component's functionality
 - `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `del()`: Wykonuje del operację jako część podstawowa funkcjonalność
-- `expand()`: Wykonuje expand operację jako część podstawowa funkcjonalność
-- `C_Str()`: Wykonuje C_Str operację jako część podstawowa funkcjonalność
+- `del()`: Evaluates conditions and returns boolean indicating success or validity
+- `expand()`: Performs expand operation as part of the component's functionality
+- `C_Str()`: Performs C_Str operation as part of the component's functionality
 - `get_pathext()`: Pobiera _pathext ze stanu wewnętrznego lub struktury danych
 ### Przestrzenie nazw
 - `os`

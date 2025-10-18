@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `append_arg`: Implements string utilities
-- `lvalue_string_view`: Implements string utilities
-- `string_comparer`: Implements string utilities
-- `string_copyref`: Implements string utilities
+- `append_arg`: Performs append_arg operation as part of the component's functionality
+- `lvalue_string_view`: Performs lvalue_string_view operation as part of the component's functionality
+- `string_comparer`: Performs string_comparer operation as part of the component's functionality
+- `string_copyref`: Performs string_copyref operation as part of the component's functionality
 ### Key Functions
 - `copy_string()`: Copies data from source to destination location
-- `null_terminated_t()`: Executes null_terminated_t operation as part of string utilities
+- `null_terminated_t()`: Performs null_terminated_t operation as part of the component's functionality
 - `c_str()`: Constructor that initializes c_str object with provided parameters
-- `empty()`: Executes empty operation as part of string utilities
-- `append_impl()`: Executes append_impl operation as part of string utilities
-- `append()`: Executes append operation as part of string utilities
-- `concat()`: Executes concat operation as part of string utilities
-- `contains()`: Executes contains operation as part of string utilities
-- `constexpr()`: Executes constexpr operation as part of string utilities
-- `within()`: Executes within operation as part of string utilities
+- `empty()`: Evaluates conditions and returns boolean indicating success or validity
+- `append_impl()`: Performs append_impl operation as part of the component's functionality
+- `append()`: Performs append operation as part of the component's functionality
+- `concat()`: Performs concat operation as part of the component's functionality
+- `contains()`: Evaluates conditions and returns boolean indicating success or validity
+- `constexpr()`: Performs constexpr operation as part of the component's functionality
+- `within()`: Evaluates conditions and returns boolean indicating success or validity
 ### Namespaces
 - `copy`
 - `detail`

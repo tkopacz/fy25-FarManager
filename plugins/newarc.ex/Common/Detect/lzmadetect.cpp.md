@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `CHeader`: Implements core functionality
+- `CHeader`: Performs CHeader operation as part of the component's functionality
 ### Key Functions
 - `HasUnpackSize()`: Tests whether UnpackSize condition is true or property exists
-- `CheckDictSize()`: Validates data integrity and checks for correctness
+- `CheckDictSize()`: Evaluates conditions and returns a boolean indicating success or validity of CheckDictSize
 - `IsLzmaHeader()`: Tests whether LzmaHeader condition is true or property exists
 ### Summary
 The `lzmadetect.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
@@ -17,7 +17,7 @@ The `lzmadetect.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CHeader`: Implementuje podstawowa funkcjonalność
+- `CHeader`: Performs CHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `HasUnpackSize()`: Testuje czy UnpackSize warunek jest prawdziwy lub właściwość istnieje
 - `CheckDictSize()`: Waliduje integralność danych i sprawdza poprawność

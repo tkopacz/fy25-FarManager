@@ -4,22 +4,22 @@
 This file implements functionality related to: Работа с цветами
 Main functional areas: color management
 ### Key Classes
-- `color_mapping`: Implements color management
-- `colors_cache`: Implements color management
-- `colors_mapping`: Implements color management
-- `index_color_16`: Implements color management
-- `palette_type`: Implements color management
+- `color_mapping`: Performs color_mapping operation as part of the component's functionality
+- `colors_cache`: Performs colors_cache operation as part of the component's functionality
+- `colors_mapping`: Performs colors_mapping operation as part of the component's functionality
+- `index_color_16`: Performs index_color_16 operation as part of the component's functionality
+- `palette_type`: Performs palette_type operation as part of the component's functionality
 ### Key Functions
 - `palette()`: Constructor that initializes palette object with provided parameters
 - `closest_index_16()`: Closes resource and performs cleanup operations
 - `closest_index_256()`: Closes resource and performs cleanup operations
 - `last_16()`: Constructor that initializes last_16 object with provided parameters
 - `last_256()`: Constructor that initializes last_256 object with provided parameters
-- `invalidate()`: Executes invalidate operation as part of color management
-- `index_bits()`: Executes index_bits operation as part of color management
-- `color_bits()`: Executes color_bits operation as part of color management
-- `alpha_bits()`: Executes alpha_bits operation as part of color management
-- `index_value()`: Executes index_value operation as part of color management
+- `invalidate()`: Performs invalidate operation as part of the component's functionality
+- `index_bits()`: Performs index_bits operation as part of the component's functionality
+- `color_bits()`: Performs color_bits operation as part of the component's functionality
+- `alpha_bits()`: Performs alpha_bits operation as part of the component's functionality
+- `index_value()`: Performs index_value operation as part of the component's functionality
 ### Namespaces
 - `colors`
 ### Summary

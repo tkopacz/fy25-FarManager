@@ -4,19 +4,19 @@
 This file implements functionality related to: Куча разных стандартных диалогов
 Main functional areas: dialog handling
 ### Key Classes
-- `dirinfo_progress_detail`: Implements dialog handling
-- `single_progress_detail`: Implements dialog handling
-- `status`: Implements dialog handling
+- `dirinfo_progress_detail`: Performs dirinfo_progress_detail operation as part of the component's functionality
+- `single_progress_detail`: Performs single_progress_detail operation as part of the component's functionality
+- `status`: Performs status operation as part of the component's functionality
 ### Key Functions
 - `GetShared()`: Retrieves Shared from internal state or data structure
 - `SaveToShared()`: Saves current state or data to persistent storage
 - `SetFlagIf()`: Updates FlagIf in internal state or configuration
 - `GetString()`: Retrieves String from internal state or data structure
 - `GetNameAndPassword()`: Retrieves NameAndPassword from internal state or data structure
-- `format_process_name()`: Executes format_process_name operation as part of dialog handling
-- `PointToName()`: Executes PointToName operation as part of dialog handling
-- `OperationFailed()`: Executes OperationFailed operation as part of dialog handling
-- `ReCompileErrorMessage()`: Executes ReCompileErrorMessage operation as part of dialog handling
+- `format_process_name()`: Performs format_process_name operation as part of the component's functionality
+- `PointToName()`: Performs PointToName operation as part of the component's functionality
+- `OperationFailed()`: Opens and manages file access for reading or writing operations
+- `ReCompileErrorMessage()`: Validates conditions and throws exceptions when errors are detected during ReCompileErrorMessage operation
 ### Summary
 The `stddlg.cpp` file provides essential functionality for dialog handling. It defines 3 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 

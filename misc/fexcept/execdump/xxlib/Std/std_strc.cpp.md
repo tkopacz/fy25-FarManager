@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `StrChrT()`: Executes StrChrT operation as part of string utilities
-- `StrEOL()`: Executes StrEOL operation as part of string utilities
-- `StrCatT()`: Executes StrCatT operation as part of string utilities
-- `StrRChrT()`: Executes StrRChrT operation as part of string utilities
-- `strLen()`: Executes strLen operation as part of string utilities
-- `StrChr()`: Executes StrChr operation as part of string utilities
-- `StrRChr()`: Executes StrRChr operation as part of string utilities
-- `StrStr()`: Executes StrStr operation as part of string utilities
-- `StrCpy()`: Executes StrCpy operation as part of string utilities
-- `strcpy()`: Executes strcpy operation as part of string utilities
+- `StrChrT()`: Performs StrChrT operation as part of the component's functionality
+- `StrEOL()`: Performs StrEOL operation as part of the component's functionality
+- `StrCatT()`: Performs StrCatT operation as part of the component's functionality
+- `StrRChrT()`: Performs StrRChrT operation as part of the component's functionality
+- `strLen()`: Performs strLen operation as part of the component's functionality
+- `StrChr()`: Performs StrChr operation as part of the component's functionality
+- `StrRChr()`: Performs StrRChr operation as part of the component's functionality
+- `StrStr()`: Evaluates conditions and returns a boolean indicating success or validity of StrStr
+- `StrCpy()`: Performs StrCpy operation as part of the component's functionality
+- `strcpy()`: Performs strcpy operation as part of the component's functionality
 ### Summary
 The `std_strc.cpp` file provides essential functionality for string utilities. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

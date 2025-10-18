@@ -4,25 +4,25 @@
 This file implements functionality related to: Враперы вокруг некоторых WinAPI функций
 Main functional areas: core functionality
 ### Key Classes
-- `deleter`: Implements core functionality
-- `error_state`: Implements core functionality
-- `function_pointer`: Implements core functionality
-- `handle_closer`: Implements core functionality
-- `handle_implementation`: Implements core functionality
-- `handle_t`: Implements core functionality
-- `last_error_guard`: Implements core functionality
-- `module`: Implements core functionality
-- `module_deleter`: Implements core functionality
-- `nt_handle_closer`: Implements core functionality
+- `deleter`: Removes or deletes the specified resource or item
+- `error_state`: Performs error_state operation as part of the component's functionality
+- `function_pointer`: Performs function_pointer operation as part of the component's functionality
+- `handle_closer`: Performs handle_closer operation as part of the component's functionality
+- `handle_implementation`: Performs handle_implementation operation as part of the component's functionality
+- `handle_t`: Performs handle_t operation as part of the component's functionality
+- `last_error_guard`: Performs last_error_guard operation as part of the component's functionality
+- `module`: Performs module operation as part of the component's functionality
+- `module_deleter`: Performs module_deleter operation as part of the component's functionality
+- `nt_handle_closer`: Performs nt_handle_closer operation as part of the component's functionality
 ### Key Functions
-- `buffer()`: Executes buffer operation as part of core functionality
-- `wait()`: Executes wait operation as part of core functionality
+- `buffer()`: Performs buffer operation as part of the component's functionality
+- `wait()`: Performs wait operation as part of the component's functionality
 - `is_signaled()`: Tests whether _signaled condition is true or property exists
-- `wait_any()`: Executes wait_any operation as part of core functionality
-- `wait_all()`: Executes wait_all operation as part of core functionality
-- `normalise()`: Executes normalise operation as part of core functionality
-- `native_handle()`: Executes native_handle operation as part of core functionality
-- `reset()`: Executes reset operation as part of core functionality
+- `wait_any()`: Performs wait_any operation as part of the component's functionality
+- `wait_all()`: Performs wait_all operation as part of the component's functionality
+- `normalise()`: Performs normalise operation as part of the component's functionality
+- `native_handle()`: Performs native_handle operation as part of the component's functionality
+- `reset()`: Performs reset operation as part of the component's functionality
 - `close()`: Closes resource and performs cleanup operations
 - `set_error_mode()`: Updates _error_mode in internal state or configuration
 ### Namespaces
@@ -41,25 +41,25 @@ The `platform.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Враперы вокруг некоторых WinAPI функций
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `deleter`: Implementuje podstawowa funkcjonalność
-- `error_state`: Implementuje podstawowa funkcjonalność
-- `function_pointer`: Implementuje podstawowa funkcjonalność
-- `handle_closer`: Implementuje podstawowa funkcjonalność
-- `handle_implementation`: Implementuje podstawowa funkcjonalność
-- `handle_t`: Implementuje podstawowa funkcjonalność
-- `last_error_guard`: Implementuje podstawowa funkcjonalność
-- `module`: Implementuje podstawowa funkcjonalność
-- `module_deleter`: Implementuje podstawowa funkcjonalność
-- `nt_handle_closer`: Implementuje podstawowa funkcjonalność
+- `deleter`: Removes or deletes the specified resource or item
+- `error_state`: Performs error_state operation as part of the component's functionality
+- `function_pointer`: Performs function_pointer operation as part of the component's functionality
+- `handle_closer`: Performs handle_closer operation as part of the component's functionality
+- `handle_implementation`: Performs handle_implementation operation as part of the component's functionality
+- `handle_t`: Performs handle_t operation as part of the component's functionality
+- `last_error_guard`: Performs last_error_guard operation as part of the component's functionality
+- `module`: Performs module operation as part of the component's functionality
+- `module_deleter`: Performs module_deleter operation as part of the component's functionality
+- `nt_handle_closer`: Performs nt_handle_closer operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `buffer()`: Wykonuje buffer operację jako część podstawowa funkcjonalność
-- `wait()`: Wykonuje wait operację jako część podstawowa funkcjonalność
+- `buffer()`: Performs buffer operation as part of the component's functionality
+- `wait()`: Performs wait operation as part of the component's functionality
 - `is_signaled()`: Testuje czy _signaled warunek jest prawdziwy lub właściwość istnieje
-- `wait_any()`: Wykonuje wait_any operację jako część podstawowa funkcjonalność
-- `wait_all()`: Wykonuje wait_all operację jako część podstawowa funkcjonalność
-- `normalise()`: Wykonuje normalise operację jako część podstawowa funkcjonalność
-- `native_handle()`: Wykonuje native_handle operację jako część podstawowa funkcjonalność
-- `reset()`: Wykonuje reset operację jako część podstawowa funkcjonalność
+- `wait_any()`: Performs wait_any operation as part of the component's functionality
+- `wait_all()`: Performs wait_all operation as part of the component's functionality
+- `normalise()`: Performs normalise operation as part of the component's functionality
+- `native_handle()`: Performs native_handle operation as part of the component's functionality
+- `reset()`: Performs reset operation as part of the component's functionality
 - `close()`: Zamyka zasób i wykonuje operacje czyszczące
 - `set_error_mode()`: Aktualizuje _error_mode w stanie wewnętrznym lub konfiguracji
 ### Przestrzenie nazw

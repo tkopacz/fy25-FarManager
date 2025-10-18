@@ -4,17 +4,17 @@
 This file implements functionality related to: Редактирование файла - надстройка над editor.cpp
 Main functional areas: text editing, file system operations
 ### Key Classes
-- `FileEditor`: Implements text editing, file system operations
+- `FileEditor`: Performs FileEditor operation as part of the component's functionality
 ### Key Functions
-- `expired()`: Executes expired operation as part of text editing, file system operations
-- `hndOpenEditor()`: Executes hndOpenEditor operation as part of text editing, file system operations
-- `dlgOpenEditor()`: Executes dlgOpenEditor operation as part of text editing, file system operations
-- `dlgBadEditorCodepage()`: Executes dlgBadEditorCodepage operation as part of text editing, file system operations
-- `Builder()`: Executes Builder operation as part of text editing, file system operations
-- `hndSaveFileAs()`: Executes hndSaveFileAs operation as part of text editing, file system operations
-- `dlgSaveFileAs()`: Executes dlgSaveFileAs operation as part of text editing, file system operations
+- `expired()`: Evaluates conditions and returns boolean indicating success or validity
+- `hndOpenEditor()`: Evaluates conditions and returns a boolean indicating success or validity of hndOpenEditor
+- `dlgOpenEditor()`: Evaluates conditions and returns a boolean indicating success or validity of dlgOpenEditor
+- `dlgBadEditorCodepage()`: Evaluates conditions and returns a boolean indicating success or validity of dlgBadEditorCodepage
+- `Builder()`: Performs Builder operation as part of the component's functionality
+- `hndSaveFileAs()`: Evaluates conditions and returns a boolean indicating success or validity of hndSaveFileAs
+- `dlgSaveFileAs()`: Evaluates conditions and returns a boolean indicating success or validity of dlgSaveFileAs
 - `get_read_only_attributes()`: Retrieves _read_only_attributes from internal state or data structure
-- `FileStatus()`: Executes FileStatus operation as part of text editing, file system operations
+- `FileStatus()`: Performs FileStatus operation as part of the component's functionality
 - `SetExitCode()`: Updates ExitCode in internal state or configuration
 ### Summary
 The `fileedit.cpp` file provides essential functionality for text editing, file system operations. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

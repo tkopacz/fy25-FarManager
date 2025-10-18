@@ -4,9 +4,9 @@
 This file implements functionality related to: Просмотр файла - надстройка над viewer.cpp
 Main functional areas: file viewing, file system operations
 ### Key Classes
-- `f3_key_timer`: Implements file viewing, file system operations
-- `private_tag`: Implements file viewing, file system operations
-- `reload_timer`: Implements file viewing, file system operations
+- `f3_key_timer`: Performs f3_key_timer operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `reload_timer`: Performs reload_timer operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `InitKeyBar()`: Initializes data structures and sets up initial state for operation

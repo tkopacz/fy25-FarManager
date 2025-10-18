@@ -4,18 +4,18 @@
 This file implements functionality related to: Поиск каталога по Alt-F10
 Main functional areas: core functionality
 ### Key Classes
-- `EditControl`: Implements core functionality
-- `SaveScreen`: Implements core functionality
-- `TreeList`: Implements core functionality
-- `private_tag`: Implements core functionality
+- `EditControl`: Performs EditControl operation as part of the component's functionality
+- `SaveScreen`: Writes or saves data to a destination
+- `TreeList`: Performs TreeList operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `InitKeyBar()`: Initializes data structures and sets up initial state for operation
 - `SetScreenPosition()`: Updates ScreenPosition in internal state or configuration
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
-- `CanFastHide()`: Executes CanFastHide operation as part of core functionality
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
+- `CanFastHide()`: Checks and returns whether a specific condition (CanFastHide) is true or false
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
 - `GetType()`: Retrieves Type from internal state or data structure
 - `IsKeyBarVisible()`: Tests whether KeyBarVisible condition is true or property exists
@@ -29,10 +29,10 @@ The `foldtree.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Поиск каталога по Alt-F10
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `EditControl`: Implementuje podstawowa funkcjonalność
-- `SaveScreen`: Implementuje podstawowa funkcjonalność
-- `TreeList`: Implementuje podstawowa funkcjonalność
-- `private_tag`: Implementuje podstawowa funkcjonalność
+- `EditControl`: Performs EditControl operation as part of the component's functionality
+- `SaveScreen`: Writes or saves data to a destination
+- `TreeList`: Performs TreeList operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `create()`: Tworzy i inicjalizuje nowy obiekt instancję
 - `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
@@ -40,7 +40,7 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `InitKeyBar()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
 - `SetScreenPosition()`: Aktualizuje ScreenPosition w stanie wewnętrznym lub konfiguracji
 - `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `CanFastHide()`: Wykonuje CanFastHide operację jako część podstawowa funkcjonalność
+- `CanFastHide()`: Checks and returns whether a specific condition (CanFastHide) is true or false
 - `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
 - `GetType()`: Pobiera Type ze stanu wewnętrznego lub struktury danych
 - `IsKeyBarVisible()`: Testuje czy KeyBarVisible warunek jest prawdziwy lub właściwość istnieje

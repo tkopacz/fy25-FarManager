@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `CTArgInit()`: Executes CTArgInit operation as part of file system operations
-- `CTArgGet()`: Executes CTArgGet operation as part of file system operations
-- `CTArgGetArg()`: Executes CTArgGetArg operation as part of file system operations
-- `CTArgCheck()`: Executes CTArgCheck operation as part of file system operations
+- `CTArgInit()`: Evaluates conditions and returns boolean indicating success or validity
+- `CTArgGet()`: Performs CTArgGet operation as part of the component's functionality
+- `CTArgGetArg()`: Performs CTArgGetArg operation as part of the component's functionality
+- `CTArgCheck()`: Evaluates conditions and returns a boolean indicating success or validity of CTArgCheck
 ### Summary
 The `fstd_Arg.cpp` file provides essential functionality for file system operations. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

@@ -4,9 +4,9 @@
 Main functional areas: dialog handling, file system operations
 ### Key Functions
 - `GetFileInfo()`: Retrieves FileInfo from internal state or data structure
-- `TimeToStr()`: Executes TimeToStr operation as part of dialog handling, file system operations
-- `msgFileAlreadyExists()`: Executes msgFileAlreadyExists operation as part of dialog handling, file system operations
-- `D()`: Executes D operation as part of dialog handling, file system operations
+- `TimeToStr()`: Performs TimeToStr operation as part of the component's functionality
+- `msgFileAlreadyExists()`: Performs msgFileAlreadyExists operation as part of the component's functionality
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgFileAlreadyExists.cpp` file provides essential functionality for dialog handling, file system operations. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

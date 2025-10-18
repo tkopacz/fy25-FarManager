@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: testing
 ### Key Functions
-- `main()`: Executes main operation as part of testing
+- `main()`: Program entry point that initializes application and begins execution
 ### Namespaces
 - `PCRE`
 - `std`

@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `StrFromOEMDup()`: Executes StrFromOEMDup operation as part of file system operations
-- `StrToOEMDup()`: Executes StrToOEMDup operation as part of file system operations
-- `StrFromOEM()`: Executes StrFromOEM operation as part of file system operations
-- `OemToCharBuff()`: Executes OemToCharBuff operation as part of file system operations
-- `StrToOEM()`: Executes StrToOEM operation as part of file system operations
-- `CharToOemBuff()`: Executes CharToOemBuff operation as part of file system operations
+- `StrFromOEMDup()`: Performs StrFromOEMDup operation as part of the component's functionality
+- `StrToOEMDup()`: Performs StrToOEMDup operation as part of the component's functionality
+- `StrFromOEM()`: Performs StrFromOEM operation as part of the component's functionality
+- `OemToCharBuff()`: Performs OemToCharBuff operation as part of the component's functionality
+- `StrToOEM()`: Performs StrToOEM operation as part of the component's functionality
+- `CharToOemBuff()`: Performs CharToOemBuff operation as part of the component's functionality
 ### Summary
 The `fstd_OEM.cpp` file provides essential functionality for file system operations. and contains approximately 6 function(s) to support the Far Manager file manager operations.
 

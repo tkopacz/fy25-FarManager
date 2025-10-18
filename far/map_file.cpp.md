@@ -3,17 +3,17 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Classes
-- `config_provider`: Implements file system operations
-- `map_file`: Implements file system operations
-- `map_format`: Implements file system operations
-- `std`: Implements file system operations
+- `config_provider`: Performs config_provider operation as part of the component's functionality
+- `map_file`: Validates conditions and throws exceptions when errors are detected during map_file operation
+- `map_format`: Performs map_format operation as part of the component's functionality
+- `std`: Performs std operation as part of the component's functionality
 ### Key Functions
 - `get_map_name()`: Retrieves _map_name from internal state or data structure
-- `StreamBuffer()`: Executes StreamBuffer operation as part of file system operations
-- `Stream()`: Executes Stream operation as part of file system operations
+- `StreamBuffer()`: Performs StreamBuffer operation as part of the component's functionality
+- `Stream()`: Performs Stream operation as part of the component's functionality
 - `get_impl()`: Retrieves _impl from internal state or data structure
-- `determine_format()`: Executes determine_format operation as part of file system operations
-- `Lines()`: Executes Lines operation as part of file system operations
+- `determine_format()`: Performs determine_format operation as part of the component's functionality
+- `Lines()`: Performs Lines operation as part of the component's functionality
 - `read_mini()`: Reads data from source into provided buffer
 - `read_vc()`: Reads data from source into provided buffer
 - `read_clang()`: Reads data from source into provided buffer

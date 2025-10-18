@@ -3,17 +3,17 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `StringData`: Implements string utilities
+- `StringData`: Performs StringData operation as part of the component's functionality
 ### Key Functions
 - `AllocData()`: Constructor that initializes AllocData object with provided parameters
-- `FreeData()`: Executes FreeData operation as part of string utilities
+- `FreeData()`: Performs FreeData operation as part of the component's functionality
 - `SetLength()`: Updates Length in internal state or configuration
 - `GetData()`: Retrieves Data from internal state or data structure
 - `GetLength()`: Retrieves Length from internal state or data structure
 - `GetSize()`: Retrieves Size from internal state or data structure
-- `Unique()`: Executes Unique operation as part of string utilities
+- `Unique()`: Evaluates conditions and returns boolean indicating success or validity
 - `AddRef()`: Adds new Ref to collection or list
-- `DecRef()`: Executes DecRef operation as part of string utilities
+- `DecRef()`: Performs DecRef operation as part of the component's functionality
 ### Summary
 The `StringBase.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 

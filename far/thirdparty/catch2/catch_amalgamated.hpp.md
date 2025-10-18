@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AnsiSkippingString`: Implements singleton implementation
-- `Approx`: Implements singleton implementation
-- `Arg`: Implements singleton implementation
-- `Args`: Implements singleton implementation
-- `AssertionHandler`: Implements singleton implementation
-- `AssertionInfo`: Implements singleton implementation
-- `AssertionOrBenchmarkResult`: Implements singleton implementation
-- `AssertionReaction`: Implements singleton implementation
-- `AssertionResult`: Implements singleton implementation
-- `AssertionResultData`: Implements singleton implementation
+- `AnsiSkippingString`: Performs AnsiSkippingString operation as part of the component's functionality
+- `Approx`: Performs Approx operation as part of the component's functionality
+- `Arg`: Performs Arg operation as part of the component's functionality
+- `Args`: Performs Args operation as part of the component's functionality
+- `AssertionHandler`: Callback function that handles specific events or notifications
+- `AssertionInfo`: Performs AssertionInfo operation as part of the component's functionality
+- `AssertionOrBenchmarkResult`: Performs AssertionOrBenchmarkResult operation as part of the component's functionality
+- `AssertionReaction`: Performs AssertionReaction operation as part of the component's functionality
+- `AssertionResult`: Performs AssertionResult operation as part of the component's functionality
+- `AssertionResultData`: Performs AssertionResultData operation as part of the component's functionality
 ### Key Functions
 - `getCurrentMutableContext()`: Retrieves CurrentMutableContext from internal state or data structure
 - `getCurrentContext()`: Retrieves CurrentContext from internal state or data structure
 - `createContext()`: Creates and initializes new Context instance
-- `cleanUpContext()`: Executes cleanUpContext operation as part of singleton implementation
+- `cleanUpContext()`: Performs cleanUpContext operation as part of the component's functionality
 - `getResultCapture()`: Retrieves ResultCapture from internal state or data structure
 - `getConfig()`: Retrieves Config from internal state or data structure
 - `setResultCapture()`: Updates ResultCapture in internal state or configuration
 - `setConfig()`: Updates Config in internal state or configuration
 - `sharedRng()`: Constructor that initializes sharedRng object with provided parameters
-- `throw_test_failure_exception()`: Executes throw_test_failure_exception operation as part of singleton implementation
+- `throw_test_failure_exception()`: Performs throw_test_failure_exception operation as part of the component's functionality
 ### Namespaces
 - `Benchmark`
 - `Catch`

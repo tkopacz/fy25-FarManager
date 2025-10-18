@@ -4,16 +4,16 @@
 This file implements functionality related to: Функции, имеющие отношение к клавиатуре
 Main functional areas: core functionality
 ### Key Classes
-- `FarKey`: Implements core functionality
-- `FarKeyboardState`: Implements core functionality
-- `implementation`: Implements core functionality
-- `keyboard_repeat_emulation`: Implements core functionality
+- `FarKey`: Performs FarKey operation as part of the component's functionality
+- `FarKeyboardState`: Performs FarKeyboardState operation as part of the component's functionality
+- `implementation`: Performs implementation operation as part of the component's functionality
+- `keyboard_repeat_emulation`: Performs keyboard_repeat_emulation operation as part of the component's functionality
 ### Key Functions
 - `ClearKeyQueue()`: Clears all data and resets to initial empty state
-- `main_loop_process_messages()`: Executes main_loop_process_messages operation as part of core functionality
-- `AltPressed()`: Executes AltPressed operation as part of core functionality
-- `CtrlPressed()`: Executes CtrlPressed operation as part of core functionality
-- `ShiftPressed()`: Executes ShiftPressed operation as part of core functionality
+- `main_loop_process_messages()`: Main entry point of the application that initializes and starts program execution
+- `AltPressed()`: Evaluates conditions and returns boolean indicating success or validity
+- `CtrlPressed()`: Evaluates conditions and returns boolean indicating success or validity
+- `ShiftPressed()`: Evaluates conditions and returns boolean indicating success or validity
 - `OnlyAltPressed()`: Event handler invoked when lyAltPressed occurs
 - `OnlyCtrlPressed()`: Event handler invoked when lyCtrlPressed occurs
 - `OnlyShiftPressed()`: Event handler invoked when lyShiftPressed occurs
@@ -29,16 +29,16 @@ The `keyboard.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Функции, имеющие отношение к клавиатуре
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FarKey`: Implementuje podstawowa funkcjonalność
-- `FarKeyboardState`: Implementuje podstawowa funkcjonalność
-- `implementation`: Implementuje podstawowa funkcjonalność
-- `keyboard_repeat_emulation`: Implementuje podstawowa funkcjonalność
+- `FarKey`: Performs FarKey operation as part of the component's functionality
+- `FarKeyboardState`: Performs FarKeyboardState operation as part of the component's functionality
+- `implementation`: Performs implementation operation as part of the component's functionality
+- `keyboard_repeat_emulation`: Performs keyboard_repeat_emulation operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `ClearKeyQueue()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
-- `main_loop_process_messages()`: Wykonuje main_loop_process_messages operację jako część podstawowa funkcjonalność
-- `AltPressed()`: Wykonuje AltPressed operację jako część podstawowa funkcjonalność
-- `CtrlPressed()`: Wykonuje CtrlPressed operację jako część podstawowa funkcjonalność
-- `ShiftPressed()`: Wykonuje ShiftPressed operację jako część podstawowa funkcjonalność
+- `main_loop_process_messages()`: Main entry point of the application that initializes and starts program execution
+- `AltPressed()`: Evaluates conditions and returns boolean indicating success or validity
+- `CtrlPressed()`: Evaluates conditions and returns boolean indicating success or validity
+- `ShiftPressed()`: Evaluates conditions and returns boolean indicating success or validity
 - `OnlyAltPressed()`: Procedura obsługi zdarzeń wywoływana gdy lyAltPressed występuje
 - `OnlyCtrlPressed()`: Procedura obsługi zdarzeń wywoływana gdy lyCtrlPressed występuje
 - `OnlyShiftPressed()`: Procedura obsługi zdarzeń wywoływana gdy lyShiftPressed występuje

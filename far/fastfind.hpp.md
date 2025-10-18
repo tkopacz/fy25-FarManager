@@ -4,16 +4,16 @@
 This file implements functionality related to: Fast Find
 Main functional areas: core functionality
 ### Key Classes
-- `EditControl`: Implements core functionality
-- `Panel`: Implements core functionality
-- `private_tag`: Implements core functionality
+- `EditControl`: Performs EditControl operation as part of the component's functionality
+- `Panel`: Performs Panel operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `GetType()`: Retrieves Type from internal state or data structure
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
 - `Process()`: Processes data through transformation or handling pipeline
 - `KeyToProcess()`: Constructor that initializes KeyToProcess object with provided parameters
 - `DisplayObject()`: Displays content or makes visual element visible on screen
@@ -28,9 +28,9 @@ The `fastfind.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Fast Find
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `EditControl`: Implementuje podstawowa funkcjonalność
-- `Panel`: Implementuje podstawowa funkcjonalność
-- `private_tag`: Implementuje podstawowa funkcjonalność
+- `EditControl`: Performs EditControl operation as part of the component's functionality
+- `Panel`: Performs Panel operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `create()`: Tworzy i inicjalizuje nowy obiekt instancję
 - `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi

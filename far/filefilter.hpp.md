@@ -4,18 +4,18 @@
 This file implements functionality related to: Файловый фильтр
 Main functional areas: file system operations
 ### Key Classes
-- `filter_area`: Implements file system operations
-- `filter_result`: Implements file system operations
-- `multifilter`: Implements file system operations
+- `filter_area`: Performs filter_area operation as part of the component's functionality
+- `filter_result`: Performs filter_result operation as part of the component's functionality
+- `multifilter`: Performs multifilter operation as part of the component's functionality
 ### Key Functions
-- `bool()`: Executes bool operation as part of file system operations
+- `bool()`: Performs bool operation as part of the component's functionality
 - `UpdateCurrentTime()`: Updates existing data with new values while preserving structure
-- `FileInFilterEx()`: Executes FileInFilterEx operation as part of file system operations
-- `FileInFilter()`: Executes FileInFilter operation as part of file system operations
+- `FileInFilterEx()`: Performs FileInFilterEx operation as part of the component's functionality
+- `FileInFilter()`: Performs FileInFilter operation as part of the component's functionality
 - `IsEnabledOnPanel()`: Tests whether EnabledOnPanel condition is true or property exists
-- `area()`: Executes area operation as part of file system operations
+- `area()`: Performs area operation as part of the component's functionality
 - `panel()`: Constructor that initializes panel object with provided parameters
-- `should_include_folders_by_default()`: Executes should_include_folders_by_default operation as part of file system operations
+- `should_include_folders_by_default()`: Performs should_include_folders_by_default operation as part of the component's functionality
 - `LoadFilter()`: Loads data or resources from storage into memory
 - `SaveFilter()`: Saves current state or data to persistent storage
 ### Namespaces

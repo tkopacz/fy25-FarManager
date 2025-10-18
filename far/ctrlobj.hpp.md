@@ -4,20 +4,20 @@
 This file implements functionality related to: Управление остальными объектами, раздача сообщений клавиатуры и мыши
 Main functional areas: core functionality
 ### Key Classes
-- `CommandLine`: Implements core functionality
-- `ControlObject`: Implements core functionality
-- `FilePositionCache`: Implements core functionality
-- `History`: Implements core functionality
-- `KeyBar`: Implements core functionality
-- `Manager`: Implements core functionality
-- `MenuBar`: Implements core functionality
-- `PluginManager`: Implements core functionality
-- `Shortcuts`: Implements core functionality
-- `configuration`: Implements core functionality
+- `CommandLine`: Performs CommandLine operation as part of the component's functionality
+- `ControlObject`: Performs ControlObject operation as part of the component's functionality
+- `FilePositionCache`: Performs FilePositionCache operation as part of the component's functionality
+- `History`: Performs History operation as part of the component's functionality
+- `KeyBar`: Performs KeyBar operation as part of the component's functionality
+- `Manager`: Performs Manager operation as part of the component's functionality
+- `MenuBar`: Performs MenuBar operation as part of the component's functionality
+- `PluginManager`: Performs PluginManager operation as part of the component's functionality
+- `Shortcuts`: Performs Shortcuts operation as part of the component's functionality
+- `configuration`: Performs configuration operation as part of the component's functionality
 ### Key Functions
 - `Init()`: Initializes data structures and sets up initial state for operation
 - `close()`: Closes resource and performs cleanup operations
-- `Panels()`: Executes Panels operation as part of core functionality
+- `Panels()`: Performs Panels operation as part of the component's functionality
 - `CreateDummyFilePanels()`: Creates and initializes new DummyFilePanels instance
 - `CmdLine()`: Constructor that initializes CmdLine object with provided parameters
 ### Namespaces
@@ -32,20 +32,20 @@ The `ctrlobj.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Управление остальными объектами, раздача сообщений клавиатуры и мыши
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CommandLine`: Implementuje podstawowa funkcjonalność
-- `ControlObject`: Implementuje podstawowa funkcjonalność
-- `FilePositionCache`: Implementuje podstawowa funkcjonalność
-- `History`: Implementuje podstawowa funkcjonalność
-- `KeyBar`: Implementuje podstawowa funkcjonalność
-- `Manager`: Implementuje podstawowa funkcjonalność
-- `MenuBar`: Implementuje podstawowa funkcjonalność
-- `PluginManager`: Implementuje podstawowa funkcjonalność
-- `Shortcuts`: Implementuje podstawowa funkcjonalność
-- `configuration`: Implementuje podstawowa funkcjonalność
+- `CommandLine`: Performs CommandLine operation as part of the component's functionality
+- `ControlObject`: Performs ControlObject operation as part of the component's functionality
+- `FilePositionCache`: Performs FilePositionCache operation as part of the component's functionality
+- `History`: Performs History operation as part of the component's functionality
+- `KeyBar`: Performs KeyBar operation as part of the component's functionality
+- `Manager`: Performs Manager operation as part of the component's functionality
+- `MenuBar`: Performs MenuBar operation as part of the component's functionality
+- `PluginManager`: Performs PluginManager operation as part of the component's functionality
+- `Shortcuts`: Performs Shortcuts operation as part of the component's functionality
+- `configuration`: Performs configuration operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `Init()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
 - `close()`: Zamyka zasób i wykonuje operacje czyszczące
-- `Panels()`: Wykonuje Panels operację jako część podstawowa funkcjonalność
+- `Panels()`: Performs Panels operation as part of the component's functionality
 - `CreateDummyFilePanels()`: Tworzy i inicjalizuje nowy DummyFilePanels instancję
 - `CmdLine()`: Konstruktor inicjalizujący CmdLine obiekt z dostarczonymi parametrami
 ### Przestrzenie nazw

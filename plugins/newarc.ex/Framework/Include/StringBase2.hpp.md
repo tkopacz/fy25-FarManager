@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `AnsiTraits`: Implements string utilities
-- `BaseTraits`: Implements string utilities
-- `StringBase`: Implements string utilities
-- `StringData`: Implements string utilities
-- `UnicodeTraits`: Implements string utilities
+- `AnsiTraits`: Performs AnsiTraits operation as part of the component's functionality
+- `BaseTraits`: Performs BaseTraits operation as part of the component's functionality
+- `StringBase`: Performs StringBase operation as part of the component's functionality
+- `StringData`: Performs StringData operation as part of the component's functionality
+- `UnicodeTraits`: Performs UnicodeTraits operation as part of the component's functionality
 ### Key Functions
-- `StrLengthW()`: Executes StrLengthW operation as part of string utilities
-- `StrLengthA()`: Executes StrLengthA operation as part of string utilities
+- `StrLengthW()`: Performs StrLengthW operation as part of the component's functionality
+- `StrLengthA()`: Performs StrLengthA operation as part of the component's functionality
 - `ConvertString()`: Converts data from one format or type to another
-- `Free()`: Executes Free operation as part of string utilities
+- `Free()`: Performs Free operation as part of the component's functionality
 - `GetDefaultEncoding()`: Retrieves DefaultEncoding from internal state or data structure
-- `StrLength()`: Executes StrLength operation as part of string utilities
+- `StrLength()`: Performs StrLength operation as part of the component's functionality
 - `GetAnsiDataLength()`: Retrieves AnsiDataLength from internal state or data structure
-- `MultiByteToWideChar()`: Executes MultiByteToWideChar operation as part of string utilities
+- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation as part of the component's functionality
 - `CopyAnsiData()`: Copies data from source to destination location
 - `GetUnicodeDataLength()`: Retrieves UnicodeDataLength from internal state or data structure
 ### Summary

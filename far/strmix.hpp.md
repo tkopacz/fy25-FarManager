@@ -4,18 +4,18 @@
 This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
 Main functional areas: string utilities
 ### Key Classes
-- `RegExp`: Implements string utilities
-- `RegExpMatch`: Implements string utilities
-- `regex_match`: Implements string utilities
+- `RegExp`: Performs RegExp operation as part of the component's functionality
+- `RegExpMatch`: Performs RegExpMatch operation as part of the component's functionality
+- `regex_match`: Performs regex_match operation as part of the component's functionality
 ### Key Functions
 - `QuoteSpaceOnly()`: Constructor that initializes QuoteSpaceOnly object with provided parameters
-- `InsertRegexpQuote()`: Executes InsertRegexpQuote operation as part of string utilities
-- `QuoteSpace()`: Executes QuoteSpace operation as part of string utilities
-- `QuoteOuterSpace()`: Executes QuoteOuterSpace operation as part of string utilities
-- `ReplaceStrings()`: Executes ReplaceStrings operation as part of string utilities
-- `replace()`: Executes replace operation as part of string utilities
+- `InsertRegexpQuote()`: Performs InsertRegexpQuote operation as part of the component's functionality
+- `QuoteSpace()`: Performs QuoteSpace operation as part of the component's functionality
+- `QuoteOuterSpace()`: Performs QuoteOuterSpace operation as part of the component's functionality
+- `ReplaceStrings()`: Performs ReplaceStrings operation as part of the component's functionality
+- `replace()`: Performs replace operation as part of the component's functionality
 - `Copy()`: Copies data from source to destination location
-- `replace_icase()`: Executes replace_icase operation as part of string utilities
+- `replace_icase()`: Performs replace_icase operation as part of the component's functionality
 - `remove_duplicates()`: Removes _duplicates from collection and frees associated resources
 - `get()`: Retrieves value from internal state or data structure
 ### Namespaces

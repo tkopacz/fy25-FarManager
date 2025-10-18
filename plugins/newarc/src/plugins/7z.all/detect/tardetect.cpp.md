@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `posix_header`: Implements core functionality
+- `posix_header`: Performs posix_header operation as part of the component's functionality
 ### Key Functions
-- `_strtoxq()`: Executes _strtoxq operation as part of core functionality
-- `_strtoi64()`: Executes _strtoi64 operation as part of core functionality
+- `_strtoxq()`: Performs _strtoxq operation as part of the component's functionality
+- `_strtoi64()`: Performs _strtoi64 operation as part of the component's functionality
 - `GetOctal()`: Retrieves Octal from internal state or data structure
 - `IsTarHeader()`: Tests whether TarHeader condition is true or property exists
 ### Summary
@@ -18,10 +18,10 @@ The `tardetect.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `posix_header`: Implementuje podstawowa funkcjonalność
+- `posix_header`: Performs posix_header operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `_strtoxq()`: Wykonuje _strtoxq operację jako część podstawowa funkcjonalność
-- `_strtoi64()`: Wykonuje _strtoi64 operację jako część podstawowa funkcjonalność
+- `_strtoxq()`: Performs _strtoxq operation as part of the component's functionality
+- `_strtoi64()`: Performs _strtoi64 operation as part of the component's functionality
 - `GetOctal()`: Pobiera Octal ze stanu wewnętrznego lub struktury danych
 - `IsTarHeader()`: Testuje czy TarHeader warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

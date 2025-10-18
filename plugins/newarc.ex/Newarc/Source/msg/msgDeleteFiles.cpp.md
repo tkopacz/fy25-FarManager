@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `msgDeleteFiles()`: Executes msgDeleteFiles operation as part of file system operations
-- `message()`: Executes message operation as part of file system operations
+- `msgDeleteFiles()`: Evaluates conditions and returns boolean indicating success or validity
+- `message()`: Performs message operation as part of the component's functionality
 ### Summary
 The `msgDeleteFiles.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

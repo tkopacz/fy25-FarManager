@@ -3,19 +3,19 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `StrTok`: Implements core functionality
-- `custom_data`: Implements core functionality
-- `priority_mapping`: Implements core functionality
+- `StrTok`: Performs StrTok operation as part of the component's functionality
+- `custom_data`: Performs custom_data operation as part of the component's functionality
+- `priority_mapping`: Performs priority_mapping operation as part of the component's functionality
 ### Key Functions
-- `bool()`: Executes bool operation as part of core functionality
-- `ui64toa_width()`: Executes ui64toa_width operation as part of core functionality
-- `str()`: Executes str operation as part of core functionality
-- `PrintTitle()`: Executes PrintTitle operation as part of core functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `ui64toa_width()`: Performs ui64toa_width operation as part of the component's functionality
+- `str()`: Evaluates conditions and returns a boolean indicating success or validity of str
+- `PrintTitle()`: Performs PrintTitle operation as part of the component's functionality
 - `settings()`: Updates tings in internal state or configuration
-- `upper()`: Executes upper operation as part of core functionality
-- `TranslateMode()`: Executes TranslateMode operation as part of core functionality
-- `can_be_per_sec()`: Executes can_be_per_sec operation as part of core functionality
-- `generate_titles()`: Executes generate_titles operation as part of core functionality
+- `upper()`: Performs upper operation as part of the component's functionality
+- `TranslateMode()`: Evaluates conditions and returns a boolean indicating success or validity of TranslateMode
+- `can_be_per_sec()`: Checks state or conditions and returns boolean indicating the result
+- `generate_titles()`: Performs generate_titles operation as part of the component's functionality
 - `convert_panel_modes()`: Converts data from one format or type to another
 ### Namespaces
 - `std`
@@ -28,19 +28,19 @@ The `Pclass.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `StrTok`: Implementuje podstawowa funkcjonalność
-- `custom_data`: Implementuje podstawowa funkcjonalność
-- `priority_mapping`: Implementuje podstawowa funkcjonalność
+- `StrTok`: Performs StrTok operation as part of the component's functionality
+- `custom_data`: Performs custom_data operation as part of the component's functionality
+- `priority_mapping`: Performs priority_mapping operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `ui64toa_width()`: Wykonuje ui64toa_width operację jako część podstawowa funkcjonalność
-- `str()`: Wykonuje str operację jako część podstawowa funkcjonalność
-- `PrintTitle()`: Wykonuje PrintTitle operację jako część podstawowa funkcjonalność
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `ui64toa_width()`: Performs ui64toa_width operation as part of the component's functionality
+- `str()`: Evaluates conditions and returns a boolean indicating success or validity of str
+- `PrintTitle()`: Performs PrintTitle operation as part of the component's functionality
 - `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
-- `upper()`: Wykonuje upper operację jako część podstawowa funkcjonalność
-- `TranslateMode()`: Wykonuje TranslateMode operację jako część podstawowa funkcjonalność
-- `can_be_per_sec()`: Wykonuje can_be_per_sec operację jako część podstawowa funkcjonalność
-- `generate_titles()`: Wykonuje generate_titles operację jako część podstawowa funkcjonalność
+- `upper()`: Performs upper operation as part of the component's functionality
+- `TranslateMode()`: Evaluates conditions and returns a boolean indicating success or validity of TranslateMode
+- `can_be_per_sec()`: Checks state or conditions and returns boolean indicating the result
+- `generate_titles()`: Performs generate_titles operation as part of the component's functionality
 - `convert_panel_modes()`: Konwertuje dane z jednego formatu lub typu do innego
 ### Przestrzenie nazw
 - `std`

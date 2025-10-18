@@ -4,17 +4,17 @@
 This file implements functionality related to: RGB colors extension to the standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_rgb_state`: Implements color management
+- `color_rgb_state`: Performs color_rgb_state operation as part of the component's functionality
 ### Key Functions
-- `pick_color_rgb_gui()`: Executes pick_color_rgb_gui operation as part of color management
-- `TrueColorToFarColor()`: Executes TrueColorToFarColor operation as part of color management
-- `TrueColorToFarColorDistinct()`: Executes TrueColorToFarColorDistinct operation as part of color management
-- `channel_value()`: Executes channel_value operation as part of color management
-- `as_rgb()`: Executes as_rgb operation as part of color management
-- `from_rgb()`: Executes from_rgb operation as part of color management
+- `pick_color_rgb_gui()`: Evaluates conditions and returns a boolean indicating success or validity of pick_color_rgb_gui
+- `TrueColorToFarColor()`: Performs TrueColorToFarColor operation as part of the component's functionality
+- `TrueColorToFarColorDistinct()`: Performs TrueColorToFarColorDistinct operation as part of the component's functionality
+- `channel_value()`: Performs channel_value operation as part of the component's functionality
+- `as_rgb()`: Performs as_rgb operation as part of the component's functionality
+- `from_rgb()`: Performs from_rgb operation as part of the component's functionality
 - `GetColorDlgProc()`: Retrieves ColorDlgProc from internal state or data structure
-- `cube_rgb()`: Executes cube_rgb operation as part of color management
-- `match_rgb()`: Executes match_rgb operation as part of color management
+- `cube_rgb()`: Performs cube_rgb operation as part of the component's functionality
+- `match_rgb()`: Evaluates conditions and returns boolean indicating success or validity
 - `init_cube()`: Initializes data structures and sets up initial state for operation
 ### Namespaces
 - `color_picker_common`

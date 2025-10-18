@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `SevenZipHeader`: Implements core functionality
+- `SevenZipHeader`: Performs SevenZipHeader operation as part of the component's functionality
 ### Key Functions
-- `CRC32()`: Executes CRC32 operation as part of core functionality
+- `CRC32()`: Performs CRC32 operation as part of the component's functionality
 - `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
 - `Is7zHeader()`: Tests whether 7zHeader condition is true or property exists
 ### Summary
@@ -17,9 +17,9 @@ The `7zdetect.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SevenZipHeader`: Implementuje podstawowa funkcjonalność
+- `SevenZipHeader`: Performs SevenZipHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `CRC32()`: Wykonuje CRC32 operację jako część podstawowa funkcjonalność
+- `CRC32()`: Performs CRC32 operation as part of the component's functionality
 - `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
 - `Is7zHeader()`: Testuje czy 7zHeader warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

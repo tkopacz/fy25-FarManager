@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: testing
 ### Key Functions
-- `idOutProc()`: Executes idOutProc operation as part of testing
-- `idException()`: Executes idException operation as part of testing
-- `fclose()`: Executes fclose operation as part of testing
-- `exception_occured()`: Executes exception_occured operation as part of testing
-- `gccHandler()`: Executes gccHandler operation as part of testing
-- `Test()`: Executes Test operation as part of testing
-- `Proc2()`: Executes Proc2 operation as part of testing
-- `Proc1()`: Executes Proc1 operation as part of testing
-- `Proc()`: Executes Proc operation as part of testing
-- `main()`: Executes main operation as part of testing
+- `idOutProc()`: Performs idOutProc operation as part of the component's functionality
+- `idException()`: Validates conditions and throws exceptions when errors are detected during idException operation
+- `fclose()`: Performs fclose operation as part of the component's functionality
+- `exception_occured()`: Validates conditions and throws exceptions when errors are detected during exception_occured operation
+- `gccHandler()`: Validates conditions and throws exceptions when errors are detected during gccHandler operation
+- `Test()`: Validates conditions and throws exceptions when errors are detected during Test operation
+- `Proc2()`: Performs Proc2 operation as part of the component's functionality
+- `Proc1()`: Performs Proc1 operation as part of the component's functionality
+- `Proc()`: Performs Proc operation as part of the component's functionality
+- `main()`: Validates conditions and throws exceptions when errors are detected during main operation
 ### Summary
 The `test.cpp` file provides essential functionality for testing. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `FP_InPattern()`: Executes FP_InPattern operation as part of file system operations
+- `FP_InPattern()`: Evaluates conditions and returns a boolean indicating success or validity of FP_InPattern
 ### Summary
 The `fstd_Patt.cpp` file provides essential functionality for file system operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

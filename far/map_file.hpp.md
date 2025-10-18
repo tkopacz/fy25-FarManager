@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Classes
-- `info`: Implements file system operations
-- `line`: Implements file system operations
-- `map_file`: Implements file system operations
+- `info`: Performs info operation as part of the component's functionality
+- `line`: Performs line operation as part of the component's functionality
+- `map_file`: Performs map_file operation as part of the component's functionality
 ### Key Functions
-- `map_file()`: Executes map_file operation as part of file system operations
+- `map_file()`: Performs map_file operation as part of the component's functionality
 - `get()`: Retrieves value from internal state or data structure
 - `read()`: Reads specified number of bytes from file at current position
 ### Summary

@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `DialogData`: Implements plugin interface
-- `FAR_SEARCH_A_CALLBACK_PARAM`: Implements plugin interface
-- `comparer_helper`: Implements plugin interface
-- `oldPanelInfoContainer`: Implements plugin interface
+- `DialogData`: Returns pointer or reference to internal data buffer
+- `FAR_SEARCH_A_CALLBACK_PARAM`: Callback function that handles specific events or notifications
+- `comparer_helper`: Performs comparer_helper operation as part of the component's functionality
+- `oldPanelInfoContainer`: Performs oldPanelInfoContainer operation as part of the component's functionality
 ### Key Functions
-- `old_palette_to_palette()`: Executes old_palette_to_palette operation as part of plugin interface
+- `old_palette_to_palette()`: Performs old_palette_to_palette operation as part of the component's functionality
 - `Create()`: Creates and initializes new object instance
 - `PluginsRootKey()`: Constructor that initializes PluginsRootKey object with provided parameters
 - `FindExport()`: Searches for Export in collection and returns position or reference
-- `kind()`: Executes kind operation as part of plugin interface
+- `kind()`: Performs kind operation as part of the component's functionality
 - `CreateOemPluginFactory()`: Creates and initializes new OemPluginFactory instance
 - `IsSpaceA()`: Tests whether SpaceA condition is true or property exists
 - `IsEolA()`: Tests whether EolA condition is true or property exists
 - `IsSlashA()`: Tests whether SlashA condition is true or property exists
-- `LocalUpperInit()`: Executes LocalUpperInit operation as part of plugin interface
+- `LocalUpperInit()`: Evaluates conditions and returns a boolean indicating success or validity of LocalUpperInit
 ### Namespaces
 - `oldfar`
 - `oldpluginapi`

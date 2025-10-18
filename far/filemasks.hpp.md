@@ -4,14 +4,14 @@
 This file implements functionality related to: Класс для работы с масками файлов (учитывается наличие масок исключения).
 Main functional areas: file system operations
 ### Key Classes
-- `RegExpMatch`: Implements file system operations
-- `filemasks`: Implements file system operations
-- `masks`: Implements file system operations
+- `RegExpMatch`: Performs RegExpMatch operation as part of the component's functionality
+- `filemasks`: Performs filemasks operation as part of the component's functionality
+- `masks`: Performs masks operation as part of the component's functionality
 ### Key Functions
-- `assign()`: Executes assign operation as part of file system operations
-- `check()`: Validates data integrity and checks for correctness
-- `empty()`: Executes empty operation as part of file system operations
-- `ErrorMessage()`: Executes ErrorMessage operation as part of file system operations
+- `assign()`: Performs assign operation as part of the component's functionality
+- `check()`: Validates data integrity and checks correctness of input
+- `empty()`: Performs empty operation as part of the component's functionality
+- `ErrorMessage()`: Performs ErrorMessage operation as part of the component's functionality
 - `clear()`: Clears all data and resets to initial empty state
 ### Summary
 The `filemasks.hpp` file provides essential functionality for file system operations. It defines 3 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.

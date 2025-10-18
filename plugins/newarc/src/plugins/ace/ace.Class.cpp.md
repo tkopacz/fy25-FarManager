@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `InfoProc()`: Executes InfoProc operation as part of core functionality
-- `StateProc()`: Executes StateProc operation as part of core functionality
-- `RequestProc()`: Executes RequestProc operation as part of core functionality
-- `ErrorProc()`: Executes ErrorProc operation as part of core functionality
-- `AceListThread()`: Executes AceListThread operation as part of core functionality
-- `m_pfnCallback()`: Executes m_pfnCallback operation as part of core functionality
+- `InfoProc()`: Performs InfoProc operation as part of the component's functionality
+- `StateProc()`: Performs StateProc operation as part of the component's functionality
+- `RequestProc()`: Performs RequestProc operation as part of the component's functionality
+- `ErrorProc()`: Performs ErrorProc operation as part of the component's functionality
+- `AceListThread()`: Performs AceListThread operation as part of the component's functionality
+- `m_pfnCallback()`: Callback function that handles specific events or notifications
 ### Summary
 The `ace.Class.cpp` file provides essential functionality for core functionality. and contains approximately 6 function(s) to support the Far Manager file manager operations.
 
@@ -18,11 +18,11 @@ The `ace.Class.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `InfoProc()`: Wykonuje InfoProc operację jako część podstawowa funkcjonalność
-- `StateProc()`: Wykonuje StateProc operację jako część podstawowa funkcjonalność
-- `RequestProc()`: Wykonuje RequestProc operację jako część podstawowa funkcjonalność
-- `ErrorProc()`: Wykonuje ErrorProc operację jako część podstawowa funkcjonalność
-- `AceListThread()`: Wykonuje AceListThread operację jako część podstawowa funkcjonalność
-- `m_pfnCallback()`: Wykonuje m_pfnCallback operację jako część podstawowa funkcjonalność
+- `InfoProc()`: Performs InfoProc operation as part of the component's functionality
+- `StateProc()`: Performs StateProc operation as part of the component's functionality
+- `RequestProc()`: Performs RequestProc operation as part of the component's functionality
+- `ErrorProc()`: Performs ErrorProc operation as part of the component's functionality
+- `AceListThread()`: Performs AceListThread operation as part of the component's functionality
+- `m_pfnCallback()`: Callback function that handles specific events or notifications
 ### Podsumowanie
 Plik `ace.Class.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.

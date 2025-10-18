@@ -4,16 +4,16 @@
 This file implements functionality related to: Misc functions for processing of path names
 Main functional areas: panel management
 ### Key Classes
-- `column`: Implements panel management
-- `folder_size`: Implements panel management
+- `column`: Performs column operation as part of the component's functionality
+- `folder_size`: Performs folder_size operation as part of the component's functionality
 ### Key Functions
-- `ShellUpdatePanels()`: Executes ShellUpdatePanels operation as part of panel management
-- `CheckUpdateAnotherPanel()`: Validates data integrity and checks for correctness
-- `MakePath()`: Executes MakePath operation as part of panel management
-- `MakePathForUI()`: Executes MakePathForUI operation as part of panel management
-- `FormatStr_Attribute()`: Executes FormatStr_Attribute operation as part of panel management
-- `FormatStr_DateTime()`: Executes FormatStr_DateTime operation as part of panel management
-- `FormatStr_Size()`: Executes FormatStr_Size operation as part of panel management
+- `ShellUpdatePanels()`: Performs ShellUpdatePanels operation as part of the component's functionality
+- `CheckUpdateAnotherPanel()`: Validates data integrity and checks correctness of input
+- `MakePath()`: Performs MakePath operation as part of the component's functionality
+- `MakePathForUI()`: Performs MakePathForUI operation as part of the component's functionality
+- `FormatStr_Attribute()`: Performs FormatStr_Attribute operation as part of the component's functionality
+- `FormatStr_DateTime()`: Performs FormatStr_DateTime operation as part of the component's functionality
+- `FormatStr_Size()`: Performs FormatStr_Size operation as part of the component's functionality
 - `GetDefaultWidth()`: Retrieves DefaultWidth from internal state or data structure
 ### Summary
 The `panelmix.hpp` file provides essential functionality for panel management. It defines 2 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.

@@ -3,24 +3,24 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `array_ptr`: Implements core functionality
-- `block_ptr`: Implements core functionality
-- `file_closer`: Implements core functionality
-- `nop_deleter`: Implements core functionality
-- `ptr_setter`: Implements core functionality
-- `releaser`: Implements core functionality
-- `unique_ptr_with_ondestroy`: Implements core functionality
+- `array_ptr`: Performs array_ptr operation as part of the component's functionality
+- `block_ptr`: Performs block_ptr operation as part of the component's functionality
+- `file_closer`: Performs file_closer operation as part of the component's functionality
+- `nop_deleter`: Performs nop_deleter operation as part of the component's functionality
+- `ptr_setter`: Performs ptr_setter operation as part of the component's functionality
+- `releaser`: Performs releaser operation as part of the component's functionality
+- `unique_ptr_with_ondestroy`: Performs unique_ptr_with_ondestroy operation as part of the component's functionality
 ### Key Functions
-- `reset()`: Executes reset operation as part of core functionality
-- `data()`: Executes data operation as part of core functionality
+- `reset()`: Allocates memory and initializes resources for reset
+- `data()`: Returns pointer or reference to internal data buffer
 - `get_data()`: Retrieves _data from internal state or data structure
-- `size()`: Executes size operation as part of core functionality
-- `empty()`: Executes empty operation as part of core functionality
-- `bool()`: Executes bool operation as part of core functionality
-- `begin()`: Executes begin operation as part of core functionality
-- `end()`: Executes end operation as part of core functionality
-- `cbegin()`: Executes cbegin operation as part of core functionality
-- `cend()`: Executes cend operation as part of core functionality
+- `size()`: Returns the current size or capacity of the container
+- `empty()`: Performs empty operation as part of the component's functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `begin()`: Performs begin operation as part of the component's functionality
+- `end()`: Performs end operation as part of the component's functionality
+- `cbegin()`: Performs cbegin operation as part of the component's functionality
+- `cend()`: Performs cend operation as part of the component's functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -32,24 +32,24 @@ The `smart_ptr.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `array_ptr`: Implementuje podstawowa funkcjonalność
-- `block_ptr`: Implementuje podstawowa funkcjonalność
-- `file_closer`: Implementuje podstawowa funkcjonalność
-- `nop_deleter`: Implementuje podstawowa funkcjonalność
-- `ptr_setter`: Implementuje podstawowa funkcjonalność
-- `releaser`: Implementuje podstawowa funkcjonalność
-- `unique_ptr_with_ondestroy`: Implementuje podstawowa funkcjonalność
+- `array_ptr`: Performs array_ptr operation as part of the component's functionality
+- `block_ptr`: Performs block_ptr operation as part of the component's functionality
+- `file_closer`: Performs file_closer operation as part of the component's functionality
+- `nop_deleter`: Performs nop_deleter operation as part of the component's functionality
+- `ptr_setter`: Performs ptr_setter operation as part of the component's functionality
+- `releaser`: Performs releaser operation as part of the component's functionality
+- `unique_ptr_with_ondestroy`: Performs unique_ptr_with_ondestroy operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `reset()`: Wykonuje reset operację jako część podstawowa funkcjonalność
-- `data()`: Wykonuje dane operację jako część podstawowa funkcjonalność
+- `reset()`: Allocates memory and initializes resources for reset
+- `data()`: Returns pointer or reference to internal data buffer
 - `get_data()`: Pobiera _dane ze stanu wewnętrznego lub struktury danych
-- `size()`: Wykonuje size operację jako część podstawowa funkcjonalność
-- `empty()`: Wykonuje empty operację jako część podstawowa funkcjonalność
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `begin()`: Wykonuje begin operację jako część podstawowa funkcjonalność
-- `end()`: Wykonuje end operację jako część podstawowa funkcjonalność
-- `cbegin()`: Wykonuje cbegin operację jako część podstawowa funkcjonalność
-- `cend()`: Wykonuje cend operację jako część podstawowa funkcjonalność
+- `size()`: Returns the current size or capacity of the container
+- `empty()`: Performs empty operation as part of the component's functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `begin()`: Performs begin operation as part of the component's functionality
+- `end()`: Performs end operation as part of the component's functionality
+- `cbegin()`: Performs cbegin operation as part of the component's functionality
+- `cend()`: Performs cend operation as part of the component's functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

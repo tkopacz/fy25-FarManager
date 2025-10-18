@@ -4,10 +4,10 @@
 This file implements functionality related to: Testing framework wrapper
 Main functional areas: testing
 ### Key Classes
-- `generic_exception_matcher`: Implements testing
+- `generic_exception_matcher`: Performs generic_exception_matcher operation as part of the component's functionality
 ### Key Functions
-- `match()`: Executes match operation as part of testing
-- `describe()`: Executes describe operation as part of testing
+- `match()`: Performs match operation as part of the component's functionality
+- `describe()`: Performs describe operation as part of the component's functionality
 ### Summary
 The `testing.hpp` file provides essential functionality for testing. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

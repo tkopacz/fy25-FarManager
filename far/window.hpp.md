@@ -4,9 +4,9 @@
 This file implements functionality related to: Немодальное окно (базовый класс для FilePanels, FileEditor, FileViewer)
 Main functional areas: window management
 ### Key Classes
-- `KeyBar`: Implements window management
-- `Manager`: Implements window management
-- `window`: Implements window management
+- `KeyBar`: Performs KeyBar operation as part of the component's functionality
+- `Manager`: Performs Manager operation as part of the component's functionality
+- `window`: Performs window operation as part of the component's functionality
 ### Key Functions
 - `Refresh()`: Refreshes data by reloading from source or recalculating
 - `GetCanLoseFocus()`: Retrieves CanLoseFocus from internal state or data structure
@@ -15,9 +15,9 @@ Main functional areas: window management
 - `OnDestroy()`: Event handler invoked when Destroy occurs
 - `OnChangeFocus()`: Event handler invoked when ChangeFocus occurs
 - `InitKeyBar()`: Initializes data structures and sets up initial state for operation
-- `RedrawKeyBar()`: Executes RedrawKeyBar operation as part of window management
+- `RedrawKeyBar()`: Performs RedrawKeyBar operation as part of the component's functionality
 - `GetMacroArea()`: Retrieves MacroArea from internal state or data structure
-- `CanFastHide()`: Executes CanFastHide operation as part of window management
+- `CanFastHide()`: Checks and returns whether a specific condition (CanFastHide) is true or false
 ### Summary
 The `window.hpp` file provides essential functionality for window management. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

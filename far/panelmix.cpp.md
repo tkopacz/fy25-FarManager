@@ -4,18 +4,18 @@
 This file implements functionality related to: Commonly used panel related functions
 Main functional areas: panel management
 ### Key Classes
-- `column_info`: Implements panel management
+- `column_info`: Performs column_info operation as part of the component's functionality
 ### Key Functions
-- `ShellUpdatePanels()`: Executes ShellUpdatePanels operation as part of panel management
-- `CheckUpdateAnotherPanel()`: Validates data integrity and checks for correctness
-- `MakePath()`: Executes MakePath operation as part of panel management
-- `MakePathForUI()`: Executes MakePathForUI operation as part of panel management
-- `EnumWidths()`: Executes EnumWidths operation as part of panel management
-- `EnumWidthsRange()`: Executes EnumWidthsRange operation as part of panel management
-- `FormatStr_Attribute()`: Executes FormatStr_Attribute operation as part of panel management
-- `FormatStr_DateTime()`: Executes FormatStr_DateTime operation as part of panel management
-- `fit_to_right()`: Executes fit_to_right operation as part of panel management
-- `FormatStr_Size()`: Executes FormatStr_Size operation as part of panel management
+- `ShellUpdatePanels()`: Evaluates conditions and returns boolean indicating success or validity
+- `CheckUpdateAnotherPanel()`: Evaluates conditions and returns a boolean indicating success or validity of CheckUpdateAnotherPanel
+- `MakePath()`: Evaluates conditions and returns a boolean indicating success or validity of MakePath
+- `MakePathForUI()`: Evaluates conditions and returns a boolean indicating success or validity of MakePathForUI
+- `EnumWidths()`: Performs EnumWidths operation as part of the component's functionality
+- `EnumWidthsRange()`: Performs EnumWidthsRange operation as part of the component's functionality
+- `FormatStr_Attribute()`: Iterates through items and collects results into a container
+- `FormatStr_DateTime()`: Performs FormatStr_DateTime operation as part of the component's functionality
+- `fit_to_right()`: Performs fit_to_right operation as part of the component's functionality
+- `FormatStr_Size()`: Returns the current size or capacity of the container
 ### Summary
 The `panelmix.cpp` file provides essential functionality for panel management. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

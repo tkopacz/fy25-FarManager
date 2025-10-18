@@ -4,16 +4,16 @@
 This file implements functionality related to: Plugin API for Far Manager <%VERSION%>
 Main functional areas: plugin interface
 ### Key Classes
-- `AnalyseInfo`: Implements plugin interface
-- `ArclitePrivateInfo`: Implements plugin interface
-- `CloseAnalyseInfo`: Implements plugin interface
-- `ClosePanelInfo`: Implements plugin interface
-- `CmdLineSelect`: Implements plugin interface
-- `CompareInfo`: Implements plugin interface
-- `ConfigureInfo`: Implements plugin interface
-- `DeleteFilesInfo`: Implements plugin interface
-- `DetectCodePageInfo`: Implements plugin interface
-- `DialogInfo`: Implements plugin interface
+- `AnalyseInfo`: Performs AnalyseInfo operation as part of the component's functionality
+- `ArclitePrivateInfo`: Performs ArclitePrivateInfo operation as part of the component's functionality
+- `CloseAnalyseInfo`: Closes an open resource or connection and releases associated resources
+- `ClosePanelInfo`: Closes an open resource or connection and releases associated resources
+- `CmdLineSelect`: Performs CmdLineSelect operation as part of the component's functionality
+- `CompareInfo`: Performs CompareInfo operation as part of the component's functionality
+- `ConfigureInfo`: Performs ConfigureInfo operation as part of the component's functionality
+- `DeleteFilesInfo`: Removes or deletes the specified resource or item
+- `DetectCodePageInfo`: Performs DetectCodePageInfo operation as part of the component's functionality
+- `DialogInfo`: Performs DialogInfo operation as part of the component's functionality
 ### Key Functions
 - `IsBgIndex()`: Tests whether BgIndex condition is true or property exists
 - `IsFgIndex()`: Tests whether FgIndex condition is true or property exists

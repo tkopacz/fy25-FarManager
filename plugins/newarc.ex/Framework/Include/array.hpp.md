@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Array`: Implements core functionality
-- `ConstArray`: Implements core functionality
-- `ObjectArray`: Implements core functionality
-- `PointerArray`: Implements core functionality
-- `sort_param`: Implements core functionality
+- `Array`: Performs Array operation as part of the component's functionality
+- `ConstArray`: Performs ConstArray operation as part of the component's functionality
+- `ObjectArray`: Performs ObjectArray operation as part of the component's functionality
+- `PointerArray`: Performs PointerArray operation as part of the component's functionality
+- `sort_param`: Performs sort_param operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
-- `free()`: Executes free operation as part of core functionality
-- `reset()`: Executes reset operation as part of core functionality
+- `free()`: Allocates memory and initializes resources for free
+- `reset()`: Performs reset operation as part of the component's functionality
 - `remove()`: Removes item from collection and frees associated resources
-- `at()`: Executes at operation as part of core functionality
-- `indexof()`: Executes indexof operation as part of core functionality
-- `count()`: Executes count operation as part of core functionality
-- `sort()`: Executes sort operation as part of core functionality
+- `at()`: Performs at operation as part of the component's functionality
+- `indexof()`: Performs indexof operation as part of the component's functionality
+- `count()`: Performs count operation as part of the component's functionality
+- `sort()`: Performs sort operation as part of the component's functionality
 - `SetLimit()`: Updates Limit in internal state or configuration
-- `FreeItem()`: Executes FreeItem operation as part of core functionality
+- `FreeItem()`: Performs FreeItem operation as part of the component's functionality
 ### Summary
 The `array.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,21 +28,21 @@ The `array.hpp` file provides essential functionality for core functionality. It
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Array`: Implementuje podstawowa funkcjonalność
-- `ConstArray`: Implementuje podstawowa funkcjonalność
-- `ObjectArray`: Implementuje podstawowa funkcjonalność
-- `PointerArray`: Implementuje podstawowa funkcjonalność
-- `sort_param`: Implementuje podstawowa funkcjonalność
+- `Array`: Performs Array operation as part of the component's functionality
+- `ConstArray`: Performs ConstArray operation as part of the component's functionality
+- `ObjectArray`: Performs ObjectArray operation as part of the component's functionality
+- `PointerArray`: Performs PointerArray operation as part of the component's functionality
+- `sort_param`: Performs sort_param operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `free()`: Wykonuje free operację jako część podstawowa funkcjonalność
-- `reset()`: Wykonuje reset operację jako część podstawowa funkcjonalność
+- `free()`: Allocates memory and initializes resources for free
+- `reset()`: Performs reset operation as part of the component's functionality
 - `remove()`: Usuwa element z kolekcji i zwalnia powiązane zasoby
-- `at()`: Wykonuje at operację jako część podstawowa funkcjonalność
-- `indexof()`: Wykonuje indexof operację jako część podstawowa funkcjonalność
-- `count()`: Wykonuje count operację jako część podstawowa funkcjonalność
-- `sort()`: Wykonuje sort operację jako część podstawowa funkcjonalność
+- `at()`: Performs at operation as part of the component's functionality
+- `indexof()`: Performs indexof operation as part of the component's functionality
+- `count()`: Performs count operation as part of the component's functionality
+- `sort()`: Performs sort operation as part of the component's functionality
 - `SetLimit()`: Aktualizuje Limit w stanie wewnętrznym lub konfiguracji
-- `FreeItem()`: Wykonuje FreeItem operację jako część podstawowa funkcjonalność
+- `FreeItem()`: Performs FreeItem operation as part of the component's functionality
 ### Podsumowanie
 Plik `array.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

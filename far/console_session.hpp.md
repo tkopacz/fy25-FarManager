@@ -4,16 +4,16 @@
 This file implements functionality related to: */
 Main functional areas: console operations
 ### Key Classes
-- `SaveScreen`: Implements console operations
-- `console_session`: Implements console operations
+- `SaveScreen`: Writes or saves data to a destination
+- `console_session`: Performs console_session operation as part of the component's functionality
 ### Key Functions
-- `activate()`: Executes activate operation as part of console operations
-- `deactivate()`: Executes deactivate operation as part of console operations
-- `snap()`: Executes snap operation as part of console operations
-- `pin()`: Executes pin operation as part of console operations
-- `unpin()`: Executes unpin operation as part of console operations
-- `finalize()`: Executes finalize operation as part of console operations
-- `scroll()`: Executes scroll operation as part of console operations
+- `activate()`: Performs activate operation as part of the component's functionality
+- `deactivate()`: Performs deactivate operation as part of the component's functionality
+- `snap()`: Performs snap operation as part of the component's functionality
+- `pin()`: Performs pin operation as part of the component's functionality
+- `unpin()`: Performs unpin operation as part of the component's functionality
+- `finalize()`: Performs finalize operation as part of the component's functionality
+- `scroll()`: Performs scroll operation as part of the component's functionality
 ### Summary
 The `console_session.hpp` file provides essential functionality for console operations. It defines 2 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
 

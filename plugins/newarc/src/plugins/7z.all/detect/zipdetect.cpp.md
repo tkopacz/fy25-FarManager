@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ZipHeader`: Implements core functionality
+- `ZipHeader`: Performs ZipHeader operation as part of the component's functionality
 ### Key Functions
 - `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
 - `IsZipHeader()`: Tests whether ZipHeader condition is true or property exists
@@ -16,7 +16,7 @@ The `zipdetect.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ZipHeader`: Implementuje podstawowa funkcjonalność
+- `ZipHeader`: Performs ZipHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
 - `IsZipHeader()`: Testuje czy ZipHeader warunek jest prawdziwy lub właściwość istnieje

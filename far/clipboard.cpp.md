@@ -4,7 +4,7 @@
 This file implements functionality related to: Работа с буфером обмена.
 Main functional areas: clipboard operations, singleton implementation
 ### Key Classes
-- `clipboard_guard`: Implements clipboard operations, singleton implementation
+- `clipboard_guard`: Performs clipboard_guard operation as part of the component's functionality
 ### Key Functions
 - `Open()`: Opens clipboard for exclusive access to perform read/write operations
 - `Clear()`: Empties clipboard contents and releases associated memory

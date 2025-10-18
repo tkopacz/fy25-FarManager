@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `singleton`: Implements singleton implementation
+- `singleton`: Performs singleton operation as part of the component's functionality
 ### Key Functions
 - `instance()`: Constructor that initializes instance object with provided parameters
 ### Summary

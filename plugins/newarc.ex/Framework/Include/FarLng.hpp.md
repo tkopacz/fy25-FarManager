@@ -5,7 +5,7 @@ Main functional areas: core functionality
 ### Key Functions
 - `LoadLanguageFile()`: Loads data or resources from storage into memory
 - `SearchAndLoadLanguageFile()`: Searches for AndLoadLanguageFile in collection and returns position or reference
-- `FinalizeLanguageStrings()`: Executes FinalizeLanguageStrings operation as part of core functionality
+- `FinalizeLanguageStrings()`: Performs FinalizeLanguageStrings operation as part of the component's functionality
 ### Summary
 The `FarLng.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -17,6 +17,6 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `LoadLanguageFile()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `SearchAndLoadLanguageFile()`: Wyszukuje AndLoadLanguageFile w kolekcji i zwraca pozycję lub referencję
-- `FinalizeLanguageStrings()`: Wykonuje FinalizeLanguageStrings operację jako część podstawowa funkcjonalność
+- `FinalizeLanguageStrings()`: Performs FinalizeLanguageStrings operation as part of the component's functionality
 ### Podsumowanie
 Plik `FarLng.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,7 +4,7 @@
 This file implements functionality related to: 256 colors extension to the standard color picker
 Main functional areas: color management
 ### Key Functions
-- `pick_color_256()`: Executes pick_color_256 operation as part of color management
+- `pick_color_256()`: Performs pick_color_256 operation as part of the component's functionality
 ### Summary
 The `color_picker_256.hpp` file provides essential functionality for color management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

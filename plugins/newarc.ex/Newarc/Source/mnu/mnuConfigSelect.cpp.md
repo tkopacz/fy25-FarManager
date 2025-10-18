@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: configuration management
 ### Key Functions
-- `mnuConfigSelect()`: Executes mnuConfigSelect operation as part of configuration management
+- `mnuConfigSelect()`: Performs mnuConfigSelect operation as part of the component's functionality
 ### Summary
 The `mnuConfigSelect.cpp` file provides essential functionality for configuration management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

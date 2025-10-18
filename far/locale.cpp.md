@@ -4,10 +4,10 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `init`: Implements core functionality
+- `init`: Initializes the component or system with required setup and configuration
 ### Key Functions
 - `is_cjk_codepage()`: Tests whether _cjk_codepage condition is true or property exists
-- `any_of()`: Executes any_of operation as part of core functionality
+- `any_of()`: Performs any_of operation as part of the component's functionality
 - `get_is_cjk()`: Retrieves _is_cjk from internal state or data structure
 - `get_date_format()`: Retrieves _date_format from internal state or data structure
 - `get_digits_grouping()`: Retrieves _digits_grouping from internal state or data structure
@@ -28,10 +28,10 @@ The `locale.cpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `init`: Implementuje podstawowa funkcjonalność
+- `init`: Initializes the component or system with required setup and configuration
 ### Kluczowe Funkcje
 - `is_cjk_codepage()`: Testuje czy _cjk_codepage warunek jest prawdziwy lub właściwość istnieje
-- `any_of()`: Wykonuje any_of operację jako część podstawowa funkcjonalność
+- `any_of()`: Performs any_of operation as part of the component's functionality
 - `get_is_cjk()`: Pobiera _is_cjk ze stanu wewnętrznego lub struktury danych
 - `get_date_format()`: Pobiera _date_format ze stanu wewnętrznego lub struktury danych
 - `get_digits_grouping()`: Pobiera _digits_grouping ze stanu wewnętrznego lub struktury danych

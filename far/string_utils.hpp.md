@@ -4,9 +4,9 @@
 This file implements functionality related to: Сравнение без учета регистра, преобразование регистра
 Main functional areas: string utilities
 ### Key Classes
-- `fuzzy_searcher_impl`: Implements string utilities
-- `i_searcher`: Implements string utilities
-- `search_replace_string_options`: Implements string utilities
+- `fuzzy_searcher_impl`: Performs fuzzy_searcher_impl operation as part of the component's functionality
+- `i_searcher`: Performs i_searcher operation as part of the component's functionality
+- `search_replace_string_options`: Performs search_replace_string_options operation as part of the component's functionality
 ### Key Functions
 - `IsEol()`: Tests whether Eol condition is true or property exists
 - `IsBlankOrEos()`: Tests whether BlankOrEos condition is true or property exists
@@ -16,8 +16,8 @@ Main functional areas: string utilities
 - `is_alphanumeric()`: Tests whether _alphanumeric condition is true or property exists
 - `is_upper()`: Tests whether _upper condition is true or property exists
 - `is_lower()`: Tests whether _lower condition is true or property exists
-- `upper()`: Executes upper operation as part of string utilities
-- `lower()`: Executes lower operation as part of string utilities
+- `upper()`: Performs upper operation as part of the component's functionality
+- `lower()`: Performs lower operation as part of the component's functionality
 ### Namespaces
 - `detail`
 - `inplace`

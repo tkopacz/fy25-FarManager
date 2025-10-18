@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `UType2Str()`: Executes UType2Str operation as part of file system operations
-- `Str2UType()`: Executes Str2UType operation as part of file system operations
+- `UType2Str()`: Performs UType2Str operation as part of the component's functionality
+- `Str2UType()`: Performs Str2UType operation as part of the component's functionality
 - `GetOtherPath()`: Retrieves OtherPath from internal state or data structure
-- `FMSG()`: Executes FMSG operation as part of file system operations
-- `SayOutError()`: Executes SayOutError operation as part of file system operations
+- `FMSG()`: Performs FMSG operation as part of the component's functionality
+- `SayOutError()`: Performs SayOutError operation as part of the component's functionality
 ### Summary
 The `FileList.cpp` file provides essential functionality for file system operations. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

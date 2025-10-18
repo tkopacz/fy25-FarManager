@@ -4,16 +4,16 @@
 This file implements functionality related to: Буферизация вывода на экран, весь вывод идет через этот буфер
 Main functional areas: screen operations
 ### Key Classes
-- `border`: Implements screen operations
+- `border`: Performs border operation as part of the component's functionality
 ### Key Functions
 - `is_visible()`: Tests whether _visible condition is true or property exists
-- `invalidate_broken_pairs_in_cache()`: Executes invalidate_broken_pairs_in_cache operation as part of screen operations
-- `apply_nt_index_shadow()`: Executes apply_nt_index_shadow operation as part of screen operations
-- `apply_index_shadow()`: Executes apply_index_shadow operation as part of screen operations
-- `apply_shadow()`: Executes apply_shadow operation as part of screen operations
-- `bake_shadows()`: Executes bake_shadows operation as part of screen operations
-- `expand_write_region_if_needed()`: Executes expand_write_region_if_needed operation as part of screen operations
-- `Flush()`: Executes Flush operation as part of screen operations
+- `invalidate_broken_pairs_in_cache()`: Performs invalidate_broken_pairs_in_cache operation as part of the component's functionality
+- `apply_nt_index_shadow()`: Performs apply_nt_index_shadow operation as part of the component's functionality
+- `apply_index_shadow()`: Evaluates conditions and returns a boolean indicating success or validity of apply_index_shadow
+- `apply_shadow()`: Performs apply_shadow operation as part of the component's functionality
+- `bake_shadows()`: Performs bake_shadows operation as part of the component's functionality
+- `expand_write_region_if_needed()`: Performs expand_write_region_if_needed operation as part of the component's functionality
+- `Flush()`: Displays dialog interface for user interaction and input collection
 ### Namespaces
 - `colors`
 ### Summary

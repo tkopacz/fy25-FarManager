@@ -4,16 +4,16 @@
 This file implements functionality related to: История (Alt-F8, Alt-F11, Alt-F12)
 Main functional areas: singleton implementation
 ### Key Functions
-- `empty()`: Executes empty operation as part of singleton implementation
-- `check()`: Validates data integrity and checks for correctness
+- `empty()`: Evaluates conditions and returns boolean indicating success or validity
+- `check()`: Validates conditions and returns boolean indicating whether validation passed
 - `add()`: Adds new item to collection or list
 - `remove()`: Removes item from collection and frees associated resources
-- `assign()`: Executes assign operation as part of singleton implementation
-- `introduce_record()`: Executes introduce_record operation as part of singleton implementation
+- `assign()`: Performs assign operation as part of the component's functionality
+- `introduce_record()`: Performs introduce_record operation as part of the component's functionality
 - `GetPrev()`: Retrieves Prev from internal state or data structure
 - `ProcessMenu()`: Processes Menu through transformation or handling pipeline
-- `msg()`: Executes msg operation as part of singleton implementation
-- `Builder()`: Executes Builder operation as part of singleton implementation
+- `msg()`: Performs msg operation as part of the component's functionality
+- `Builder()`: Performs Builder operation as part of the component's functionality
 ### Summary
 The `history.cpp` file provides essential functionality for singleton implementation. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

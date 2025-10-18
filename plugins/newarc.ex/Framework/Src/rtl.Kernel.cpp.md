@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `RtlCreateEvent()`: Executes RtlCreateEvent operation as part of core functionality
+- `RtlCreateEvent()`: Performs RtlCreateEvent operation as part of the component's functionality
 - `CreateEvent()`: Creates and initializes new Event instance
-- `RtlCreateThread()`: Executes RtlCreateThread operation as part of core functionality
-- `RtlWaitAndCloseThread()`: Executes RtlWaitAndCloseThread operation as part of core functionality
+- `RtlCreateThread()`: Performs RtlCreateThread operation as part of the component's functionality
+- `RtlWaitAndCloseThread()`: Closes file handles and releases associated system resources
 ### Summary
 The `rtl.Kernel.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `rtl.Kernel.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `RtlCreateEvent()`: Wykonuje RtlCreateEvent operację jako część podstawowa funkcjonalność
+- `RtlCreateEvent()`: Performs RtlCreateEvent operation as part of the component's functionality
 - `CreateEvent()`: Tworzy i inicjalizuje nowy Event instancję
-- `RtlCreateThread()`: Wykonuje RtlCreateThread operację jako część podstawowa funkcjonalność
-- `RtlWaitAndCloseThread()`: Wykonuje RtlWaitAndCloseThread operację jako część podstawowa funkcjonalność
+- `RtlCreateThread()`: Performs RtlCreateThread operation as part of the component's functionality
+- `RtlWaitAndCloseThread()`: Closes file handles and releases associated system resources
 ### Podsumowanie
 Plik `rtl.Kernel.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

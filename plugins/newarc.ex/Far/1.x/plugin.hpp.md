@@ -4,27 +4,27 @@
 This file implements functionality related to: Plugin API for FAR Manager 1.75 build 2634
 Main functional areas: plugin interface
 ### Key Classes
-- `ActlEjectMedia`: Implements plugin interface
-- `ActlKeyMacro`: Implements plugin interface
-- `CharTableSet`: Implements plugin interface
-- `CmdLineSelect`: Implements plugin interface
-- `EditorBookMarks`: Implements plugin interface
-- `EditorColor`: Implements plugin interface
-- `EditorConvertPos`: Implements plugin interface
-- `EditorConvertText`: Implements plugin interface
-- `EditorGetString`: Implements plugin interface
-- `EditorInfo`: Implements plugin interface
+- `ActlEjectMedia`: Performs ActlEjectMedia operation as part of the component's functionality
+- `ActlKeyMacro`: Performs ActlKeyMacro operation as part of the component's functionality
+- `CharTableSet`: Performs CharTableSet operation as part of the component's functionality
+- `CmdLineSelect`: Performs CmdLineSelect operation as part of the component's functionality
+- `EditorBookMarks`: Performs EditorBookMarks operation as part of the component's functionality
+- `EditorColor`: Performs EditorColor operation as part of the component's functionality
+- `EditorConvertPos`: Performs EditorConvertPos operation as part of the component's functionality
+- `EditorConvertText`: Performs EditorConvertText operation as part of the component's functionality
+- `EditorGetString`: Performs EditorGetString operation as part of the component's functionality
+- `EditorInfo`: Performs EditorInfo operation as part of the component's functionality
 ### Key Functions
-- `DlgList_SetCurPos()`: Executes DlgList_SetCurPos operation as part of plugin interface
-- `DlgList_DeleteItem()`: Executes DlgList_DeleteItem operation as part of plugin interface
-- `DlgList_SetItemStrAsData()`: Executes DlgList_SetItemStrAsData operation as part of plugin interface
+- `DlgList_SetCurPos()`: Performs DlgList_SetCurPos operation as part of the component's functionality
+- `DlgList_DeleteItem()`: Performs DlgList_DeleteItem operation as part of the component's functionality
+- `DlgList_SetItemStrAsData()`: Performs DlgList_SetItemStrAsData operation as part of the component's functionality
 - `ClosePlugin()`: Closes resource and performs cleanup operations
-- `Compare()`: Executes Compare operation as part of plugin interface
-- `Configure()`: Executes Configure operation as part of plugin interface
+- `Compare()`: Performs Compare operation as part of the component's functionality
+- `Configure()`: Performs Configure operation as part of the component's functionality
 - `DeleteFiles()`: Removes Files from collection and frees associated resources
-- `ExitFAR()`: Executes ExitFAR operation as part of plugin interface
-- `FreeFindData()`: Executes FreeFindData operation as part of plugin interface
-- `FreeVirtualFindData()`: Executes FreeVirtualFindData operation as part of plugin interface
+- `ExitFAR()`: Performs ExitFAR operation as part of the component's functionality
+- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
+- `FreeVirtualFindData()`: Performs FreeVirtualFindData operation as part of the component's functionality
 ### Summary
 The `plugin.hpp` file provides essential functionality for plugin interface. It defines 52 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

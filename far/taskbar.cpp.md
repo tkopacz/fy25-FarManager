@@ -4,11 +4,11 @@
 This file implements functionality related to: Windows 7 taskbar support
 Main functional areas: singleton implementation
 ### Key Classes
-- `taskbar_impl`: Implements singleton implementation
+- `taskbar_impl`: Performs taskbar_impl operation as part of the component's functionality
 ### Key Functions
 - `set_state()`: Updates _state in internal state or configuration
 - `set_value()`: Updates _value in internal state or configuration
-- `last_state()`: Executes last_state operation as part of singleton implementation
+- `last_state()`: Performs last_state operation as part of the component's functionality
 - `handler()`: Handles r by executing appropriate response logic
 ### Summary
 The `taskbar.cpp` file provides essential functionality for singleton implementation. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.

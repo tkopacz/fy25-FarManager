@@ -4,22 +4,22 @@
 This file implements functionality related to: Поиск (Alt-F7)
 Main functional areas: file system operations
 ### Key Classes
-- `ArcListItem`: Implements file system operations
-- `CodePageInfo`: Implements file system operations
-- `FindFiles`: Implements file system operations
-- `FindFilesOptions`: Implements file system operations
-- `FindListItem`: Implements file system operations
-- `InterThreadData`: Implements file system operations
-- `background_searcher`: Implements file system operations
-- `menu_data`: Implements file system operations
-- `percent`: Implements file system operations
-- `pop`: Implements file system operations
+- `ArcListItem`: Performs ArcListItem operation as part of the component's functionality
+- `CodePageInfo`: Performs CodePageInfo operation as part of the component's functionality
+- `FindFiles`: Performs FindFiles operation as part of the component's functionality
+- `FindFilesOptions`: Performs FindFilesOptions operation as part of the component's functionality
+- `FindListItem`: Performs FindListItem operation as part of the component's functionality
+- `InterThreadData`: Performs InterThreadData operation as part of the component's functionality
+- `background_searcher`: Performs background_searcher operation as part of the component's functionality
+- `menu_data`: Performs menu_data operation as part of the component's functionality
+- `percent`: Performs percent operation as part of the component's functionality
+- `pop`: Performs pop operation as part of the component's functionality
 ### Key Functions
 - `IsWordDiv()`: Tests whether WordDiv condition is true or property exists
 - `AddMenuRecord()`: Adds new MenuRecord to collection or list
-- `ScopedLock()`: Executes ScopedLock operation as part of file system operations
-- `AdvancedDialog()`: Executes AdvancedDialog operation as part of file system operations
-- `MainDlgProc()`: Executes MainDlgProc operation as part of file system operations
+- `ScopedLock()`: Performs ScopedLock operation as part of the component's functionality
+- `AdvancedDialog()`: Performs AdvancedDialog operation as part of the component's functionality
+- `MainDlgProc()`: Evaluates conditions and returns a boolean indicating success or validity of MainDlgProc
 - `FindDlgProc()`: Searches for DlgProc in collection and returns position or reference
 - `OpenFile()`: Opens resource and prepares it for access operations
 - `FindFilesProcess()`: Searches for FilesProcess in collection and returns position or reference

@@ -11,9 +11,9 @@ Main functional areas: file system operations
 - `GetCheck()`: Retrieves Check from internal state or data structure
 - `ProcessSelection()`: Processes Selection through transformation or handling pipeline
 - `Process()`: Processes data through transformation or handling pipeline
-- `bool()`: Executes bool operation as part of file system operations
-- `FileInFilter()`: Executes FileInFilter operation as part of file system operations
-- `Key()`: Executes Key operation as part of file system operations
+- `bool()`: Evaluates conditions and returns a boolean indicating success or validity of bool
+- `FileInFilter()`: Performs FileInFilter operation as part of the component's functionality
+- `Key()`: Performs Key operation as part of the component's functionality
 ### Namespaces
 - `legacy_names`
 - `names`

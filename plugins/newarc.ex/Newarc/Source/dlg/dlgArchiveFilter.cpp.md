@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Functions
-- `hndArchiveFilter()`: Executes hndArchiveFilter operation as part of dialog handling
-- `dlgArchiveFilter()`: Executes dlgArchiveFilter operation as part of dialog handling
-- `D()`: Executes D operation as part of dialog handling
+- `hndArchiveFilter()`: Evaluates conditions and returns a boolean indicating success or validity of hndArchiveFilter
+- `dlgArchiveFilter()`: Evaluates conditions and returns a boolean indicating success or validity of dlgArchiveFilter
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgArchiveFilter.cpp` file provides essential functionality for dialog handling. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

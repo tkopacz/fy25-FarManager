@@ -3,19 +3,19 @@
 ### Purpose
 Main functional areas: panel management
 ### Key Classes
-- `ExecuteStruct`: Implements panel management
-- `ScanStruct`: Implements panel management
+- `ExecuteStruct`: Performs ExecuteStruct operation as part of the component's functionality
+- `ScanStruct`: Performs ScanStruct operation as part of the component's functionality
 ### Key Functions
-- `QuoteSpaceOnly()`: Executes QuoteSpaceOnly operation as part of panel management
-- `ExecuteCommand()`: Executes ExecuteCommand operation as part of panel management
-- `CheckForEsc()`: Validates data integrity and checks for correctness
-- `strcpy()`: Executes strcpy operation as part of panel management
+- `QuoteSpaceOnly()`: Performs QuoteSpaceOnly operation as part of the component's functionality
+- `ExecuteCommand()`: Closes file handles and releases associated system resources
+- `CheckForEsc()`: Validates conditions and returns boolean indicating whether validation passed
+- `strcpy()`: Performs strcpy operation as part of the component's functionality
 - `GetArchiveItemsToProcessFromNode()`: Retrieves ArchiveItemsToProcessFromNode from internal state or data structure
 - `FindDataToArchiveItem()`: Searches for DataToArchiveItem in collection and returns position or reference
-- `ScanDirectory()`: Executes ScanDirectory operation as part of panel management
+- `ScanDirectory()`: Evaluates conditions and returns a boolean indicating success or validity of ScanDirectory
 - `Delete()`: Removes item from collection and frees associated resources
 - `GetArchiveItemsToProcess()`: Retrieves ArchiveItemsToProcess from internal state or data structure
-- `ES()`: Executes ES operation as part of panel management
+- `ES()`: Performs ES operation as part of the component's functionality
 ### Summary
 The `newarc.Panel.cpp` file provides essential functionality for panel management. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

@@ -4,17 +4,17 @@
 This file implements functionality related to: Надстройка над Edit.
 Main functional areas: text editing
 ### Key Classes
-- `cmp_user_data`: Implements text editing
+- `cmp_user_data`: Performs cmp_user_data operation as part of the component's functionality
 ### Key Functions
 - `AddSeparatorOrSetTitle()`: Adds new SeparatorOrSetTitle to collection or list
 - `ParseStringWithQuotes()`: Parses input string or data into structured format
-- `contains()`: Executes contains operation as part of text editing
-- `EnumWithQuoutes()`: Executes EnumWithQuoutes operation as part of text editing
-- `EnumFiles()`: Executes EnumFiles operation as part of text editing
-- `EnumModules()`: Executes EnumModules operation as part of text editing
-- `EnumEnvironment()`: Executes EnumEnvironment operation as part of text editing
+- `contains()`: Performs contains operation as part of the component's functionality
+- `EnumWithQuoutes()`: Evaluates conditions and returns a boolean indicating success or validity of EnumWithQuoutes
+- `EnumFiles()`: Evaluates conditions and returns boolean indicating success or validity
+- `EnumModules()`: Opens and manages file access for reading or writing operations
+- `EnumEnvironment()`: Evaluates conditions and returns boolean indicating success or validity
 - `is_input_queue_empty()`: Tests whether _input_queue_empty condition is true or property exists
-- `InputRecordToKey()`: Executes InputRecordToKey operation as part of text editing
+- `InputRecordToKey()`: Performs InputRecordToKey operation as part of the component's functionality
 ### Summary
 The `editcontrol.cpp` file provides essential functionality for text editing. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 

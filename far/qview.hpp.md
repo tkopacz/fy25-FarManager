@@ -4,9 +4,9 @@
 This file implements functionality related to: Quick view panel
 Main functional areas: file viewing
 ### Key Classes
-- `Viewer`: Implements file viewing
-- `private_tag`: Implements file viewing
-- `scan_status`: Implements file viewing
+- `Viewer`: Performs Viewer operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `scan_status`: Performs scan_status operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `ShowFile()`: Displays content or makes visual element visible on screen
@@ -15,7 +15,7 @@ Main functional areas: file viewing
 - `VMProcess()`: Processes virtual machine operations or commands
 - `Update()`: Updates existing data with new values while preserving structure
 - `CloseFile()`: Closes resource and performs cleanup operations
-- `QViewDelTempName()`: Executes QViewDelTempName operation as part of file viewing
+- `QViewDelTempName()`: Performs QViewDelTempName operation as part of the component's functionality
 - `UpdateIfChanged()`: Updates existing data with new values while preserving structure
 - `RefreshTitle()`: Refreshes data by reloading from source or recalculating
 ### Summary

@@ -10,10 +10,10 @@ Main functional areas: string utilities
 - `is_alphanumeric()`: Tests whether _alphanumeric condition is true or property exists
 - `is_upper()`: Tests whether _upper condition is true or property exists
 - `is_lower()`: Tests whether _lower condition is true or property exists
-- `upper()`: Executes upper operation as part of string utilities
-- `lower()`: Executes lower operation as part of string utilities
-- `fold()`: Executes fold operation as part of string utilities
-- `equal_icase()`: Executes equal_icase operation as part of string utilities
+- `upper()`: Performs upper operation as part of the component's functionality
+- `lower()`: Performs lower operation as part of the component's functionality
+- `fold()`: Performs fold operation as part of the component's functionality
+- `equal_icase()`: Evaluates conditions and returns boolean indicating success or validity
 ### Summary
 The `string_utils.cpp` file provides essential functionality for string utilities. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

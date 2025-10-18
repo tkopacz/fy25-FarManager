@@ -4,27 +4,27 @@
 This file implements functionality related to: Console functions
 Main functional areas: console operations
 ### Key Classes
-- `ModuleImports`: Implements console operations
-- `colors_mapping_type`: Implements console operations
-- `console`: Implements console operations
-- `console_detail`: Implements console operations
-- `cursor_suppressor`: Implements console operations
-- `expanded_state`: Implements console operations
-- `external_console`: Implements console operations
-- `foreign_blocks_list`: Implements console operations
-- `hide_cursor`: Implements console operations
-- `scoped_vt_output`: Implements console operations
+- `ModuleImports`: Performs ModuleImports operation as part of the component's functionality
+- `colors_mapping_type`: Performs colors_mapping_type operation as part of the component's functionality
+- `console`: Performs console operation as part of the component's functionality
+- `console_detail`: Performs console_detail operation as part of the component's functionality
+- `cursor_suppressor`: Performs cursor_suppressor operation as part of the component's functionality
+- `expanded_state`: Performs expanded_state operation as part of the component's functionality
+- `external_console`: Performs external_console operation as part of the component's functionality
+- `foreign_blocks_list`: Performs foreign_blocks_list operation as part of the component's functionality
+- `hide_cursor`: Performs hide_cursor operation as part of the component's functionality
+- `scoped_vt_output`: Performs scoped_vt_output operation as part of the component's functionality
 ### Key Functions
-- `ReplaceControlCharacter()`: Executes ReplaceControlCharacter operation as part of console operations
-- `sanitise_dbsc_pair()`: Executes sanitise_dbsc_pair operation as part of console operations
-- `sanitise_surrogate_pair()`: Executes sanitise_surrogate_pair operation as part of console operations
-- `sanitise_pair()`: Executes sanitise_pair operation as part of console operations
+- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation as part of the component's functionality
+- `sanitise_dbsc_pair()`: Evaluates conditions and returns a boolean indicating success or validity of sanitise_dbsc_pair
+- `sanitise_surrogate_pair()`: Evaluates conditions and returns a boolean indicating success or validity of sanitise_surrogate_pair
+- `sanitise_pair()`: Checks state or conditions and returns boolean indicating the result
 - `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info from internal state or data structure
-- `make_coord()`: Executes make_coord operation as part of console operations
-- `make_rect()`: Executes make_rect operation as part of console operations
+- `make_coord()`: Performs make_coord operation as part of the component's functionality
+- `make_rect()`: Performs make_rect operation as part of the component's functionality
 - `GetDelta()`: Retrieves Delta from internal state or data structure
 - `is_redirected()`: Tests whether _redirected condition is true or property exists
-- `color()`: Executes color operation as part of console operations
+- `color()`: Performs color operation as part of the component's functionality
 ### Namespaces
 - `console_detail`
 ### Summary

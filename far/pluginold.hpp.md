@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `ActlKeyMacro`: Implements plugin interface
-- `CharTableSet`: Implements plugin interface
-- `CmdLineSelect`: Implements plugin interface
-- `EditorBookMarks`: Implements plugin interface
-- `EditorColor`: Implements plugin interface
-- `EditorConvertPos`: Implements plugin interface
-- `EditorConvertText`: Implements plugin interface
-- `EditorGetString`: Implements plugin interface
-- `EditorInfo`: Implements plugin interface
-- `EditorSaveFile`: Implements plugin interface
+- `ActlKeyMacro`: Performs ActlKeyMacro operation as part of the component's functionality
+- `CharTableSet`: Performs CharTableSet operation as part of the component's functionality
+- `CmdLineSelect`: Performs CmdLineSelect operation as part of the component's functionality
+- `EditorBookMarks`: Performs EditorBookMarks operation as part of the component's functionality
+- `EditorColor`: Performs EditorColor operation as part of the component's functionality
+- `EditorConvertPos`: Performs EditorConvertPos operation as part of the component's functionality
+- `EditorConvertText`: Performs EditorConvertText operation as part of the component's functionality
+- `EditorGetString`: Performs EditorGetString operation as part of the component's functionality
+- `EditorInfo`: Performs EditorInfo operation as part of the component's functionality
+- `EditorSaveFile`: Performs EditorSaveFile operation as part of the component's functionality
 ### Namespaces
 - `oldfar`
 ### Summary

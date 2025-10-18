@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `FIOWrite()`: Executes FIOWrite operation as part of file system operations
-- `FIORead()`: Executes FIORead operation as part of file system operations
+- `FIOWrite()`: Evaluates conditions and returns a boolean indicating success or validity of FIOWrite
+- `FIORead()`: Evaluates conditions and returns a boolean indicating success or validity of FIORead
 ### Summary
 The `WFileIO.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

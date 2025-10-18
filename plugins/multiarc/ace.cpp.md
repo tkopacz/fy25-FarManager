@@ -4,13 +4,13 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ACEHEADER`: Implements core functionality
-- `ACEHEADERBLOCK`: Implements core functionality
-- `ACEHEADERFILE`: Implements core functionality
-- `ACERECORDS`: Implements core functionality
-- `OSIDType`: Implements core functionality
+- `ACEHEADER`: Performs ACEHEADER operation as part of the component's functionality
+- `ACEHEADERBLOCK`: Performs ACEHEADERBLOCK operation as part of the component's functionality
+- `ACEHEADERFILE`: Performs ACEHEADERFILE operation as part of the component's functionality
+- `ACERECORDS`: Performs ACERECORDS operation as part of the component's functionality
+- `OSIDType`: Performs OSIDType operation as part of the component's functionality
 ### Key Functions
-- `make_crctable()`: Executes make_crctable operation as part of core functionality
+- `make_crctable()`: Performs make_crctable operation as part of the component's functionality
 - `getcrc()`: Retrieves crc from internal state or data structure
 - `IsArchive()`: Tests whether Archive condition is true or property exists
 - `OpenArchive()`: Opens resource and prepares it for access operations
@@ -29,13 +29,13 @@ The `ace.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ACEHEADER`: Implementuje podstawowa funkcjonalność
-- `ACEHEADERBLOCK`: Implementuje podstawowa funkcjonalność
-- `ACEHEADERFILE`: Implementuje podstawowa funkcjonalność
-- `ACERECORDS`: Implementuje podstawowa funkcjonalność
-- `OSIDType`: Implementuje podstawowa funkcjonalność
+- `ACEHEADER`: Performs ACEHEADER operation as part of the component's functionality
+- `ACEHEADERBLOCK`: Performs ACEHEADERBLOCK operation as part of the component's functionality
+- `ACEHEADERFILE`: Performs ACEHEADERFILE operation as part of the component's functionality
+- `ACERECORDS`: Performs ACERECORDS operation as part of the component's functionality
+- `OSIDType`: Performs OSIDType operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `make_crctable()`: Wykonuje make_crctable operację jako część podstawowa funkcjonalność
+- `make_crctable()`: Performs make_crctable operation as part of the component's functionality
 - `getcrc()`: Pobiera crc ze stanu wewnętrznego lub struktury danych
 - `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
 - `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu

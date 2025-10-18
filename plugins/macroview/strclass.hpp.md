@@ -3,17 +3,17 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `TStrList`: Implements string utilities
+- `TStrList`: Performs TStrList operation as part of the component's functionality
 ### Key Functions
 - `DeleteList()`: Removes List from collection and frees associated resources
 - `Clear()`: Clears all data and resets to initial empty state
 - `Add()`: Adds new item to collection or list
-- `Insert()`: Executes Insert operation as part of string utilities
+- `Insert()`: Performs Insert operation as part of the component's functionality
 - `Delete()`: Removes item from collection and frees associated resources
 - `GetText()`: Retrieves Text from internal state or data structure
 - `SetText()`: Updates Text in internal state or configuration
 - `GetCount()`: Retrieves Count from internal state or data structure
-- `Sort()`: Executes Sort operation as part of string utilities
+- `Sort()`: Performs Sort operation as part of the component's functionality
 ### Summary
 The `strclass.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 

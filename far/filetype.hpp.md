@@ -6,7 +6,7 @@ Main functional areas: file system operations
 ### Key Functions
 - `GetFiletypeOpenMode()`: Retrieves FiletypeOpenMode from internal state or data structure
 - `ProcessExternal()`: Processes External through transformation or handling pipeline
-- `EditFileTypes()`: Executes EditFileTypes operation as part of file system operations
+- `EditFileTypes()`: Performs EditFileTypes operation as part of the component's functionality
 ### Summary
 The `filetype.hpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

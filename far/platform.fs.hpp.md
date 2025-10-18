@@ -4,16 +4,16 @@
 This file implements functionality related to: */
 Main functional areas: file system operations
 ### Key Classes
-- `Chunk`: Implements file system operations
-- `current_directory_guard`: Implements file system operations
-- `file`: Implements file system operations
-- `file_status`: Implements file system operations
-- `file_walker`: Implements file system operations
-- `find_data`: Implements file system operations
-- `find_file_handle_closer`: Implements file system operations
-- `find_handle_closer`: Implements file system operations
-- `find_volume_handle_closer`: Implements file system operations
-- `process_current_directory_guard`: Implements file system operations
+- `Chunk`: Performs Chunk operation as part of the component's functionality
+- `current_directory_guard`: Performs current_directory_guard operation as part of the component's functionality
+- `file`: Opens and manages file access for reading or writing operations
+- `file_status`: Performs file_status operation as part of the component's functionality
+- `file_walker`: Performs file_walker operation as part of the component's functionality
+- `find_data`: Performs find_data operation as part of the component's functionality
+- `find_file_handle_closer`: Performs find_file_handle_closer operation as part of the component's functionality
+- `find_handle_closer`: Performs find_handle_closer operation as part of the component's functionality
+- `find_volume_handle_closer`: Performs find_volume_handle_closer operation as part of the component's functionality
+- `process_current_directory_guard`: Processes input data and performs the required operations
 ### Key Functions
 - `set_current_directory_syncronisation()`: Updates _current_directory_syncronisation in internal state or configuration
 - `AlternateFileName()`: Constructor that initializes AlternateFileName object with provided parameters

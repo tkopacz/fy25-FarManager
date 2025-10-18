@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FileIndex`: Implements core functionality
-- `FileName`: Implements core functionality
-- `InitDialogItem`: Implements core functionality
-- `Options`: Implements core functionality
-- `OwnPanelInfo`: Implements core functionality
+- `FileIndex`: Performs FileIndex operation as part of the component's functionality
+- `FileName`: Performs FileName operation as part of the component's functionality
+- `InitDialogItem`: Initializes the component or system with required setup and configuration
+- `Options`: Performs Options operation as part of the component's functionality
+- `OwnPanelInfo`: Performs OwnPanelInfo operation as part of the component's functionality
 ### Key Functions
-- `WFD2FFD()`: Executes WFD2FFD operation as part of core functionality
+- `WFD2FFD()`: Performs WFD2FFD operation as part of the component's functionality
 - `GetSetting()`: Retrieves Setting from internal state or data structure
-- `SplitCopy()`: Executes SplitCopy operation as part of core functionality
+- `SplitCopy()`: Allocates memory and initializes resources for SplitCopy
 - `ShowMessageRaw()`: Displays content or makes visual element visible on screen
 - `ShowMessage()`: Displays content or makes visual element visible on screen
 - `ShowMessageWhenComparingContents()`: Displays content or makes visual element visible on screen
 - `ShowDialogProc()`: Displays content or makes visual element visible on screen
 - `ShowDialog()`: Displays content or makes visual element visible on screen
 - `settings()`: Updates tings in internal state or configuration
-- `CheckForEsc()`: Validates data integrity and checks for correctness
+- `CheckForEsc()`: Evaluates conditions and returns a boolean indicating success or validity of CheckForEsc
 ### Summary
 The `Compare.cpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,15 +28,15 @@ The `Compare.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FileIndex`: Implementuje podstawowa funkcjonalność
-- `FileName`: Implementuje podstawowa funkcjonalność
-- `InitDialogItem`: Implementuje podstawowa funkcjonalność
-- `Options`: Implementuje podstawowa funkcjonalność
-- `OwnPanelInfo`: Implementuje podstawowa funkcjonalność
+- `FileIndex`: Performs FileIndex operation as part of the component's functionality
+- `FileName`: Performs FileName operation as part of the component's functionality
+- `InitDialogItem`: Initializes the component or system with required setup and configuration
+- `Options`: Performs Options operation as part of the component's functionality
+- `OwnPanelInfo`: Performs OwnPanelInfo operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `WFD2FFD()`: Wykonuje WFD2FFD operację jako część podstawowa funkcjonalność
+- `WFD2FFD()`: Performs WFD2FFD operation as part of the component's functionality
 - `GetSetting()`: Pobiera Setting ze stanu wewnętrznego lub struktury danych
-- `SplitCopy()`: Wykonuje SplitCopy operację jako część podstawowa funkcjonalność
+- `SplitCopy()`: Allocates memory and initializes resources for SplitCopy
 - `ShowMessageRaw()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
 - `ShowMessage()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
 - `ShowMessageWhenComparingContents()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie

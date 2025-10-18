@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: menu management
 ### Key Functions
-- `ChangeDisk()`: Executes ChangeDisk operation as part of menu management
+- `ChangeDisk()`: Performs ChangeDisk operation as part of the component's functionality
 ### Summary
 The `diskmenu.hpp` file provides essential functionality for menu management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

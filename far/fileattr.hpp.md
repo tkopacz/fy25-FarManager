@@ -4,13 +4,13 @@
 This file implements functionality related to: Работа с атрибутами файлов
 Main functional areas: file system operations
 ### Key Functions
-- `ESetFileAttributes()`: Executes ESetFileAttributes operation as part of file system operations
-- `ESetFileCompression()`: Executes ESetFileCompression operation as part of file system operations
-- `ESetFileEncryption()`: Executes ESetFileEncryption operation as part of file system operations
-- `ESetFileSparse()`: Executes ESetFileSparse operation as part of file system operations
-- `ESetFileTime()`: Executes ESetFileTime operation as part of file system operations
-- `ESetFileOwner()`: Executes ESetFileOwner operation as part of file system operations
-- `EDeleteReparsePoint()`: Executes EDeleteReparsePoint operation as part of file system operations
+- `ESetFileAttributes()`: Performs ESetFileAttributes operation as part of the component's functionality
+- `ESetFileCompression()`: Performs ESetFileCompression operation as part of the component's functionality
+- `ESetFileEncryption()`: Performs ESetFileEncryption operation as part of the component's functionality
+- `ESetFileSparse()`: Performs ESetFileSparse operation as part of the component's functionality
+- `ESetFileTime()`: Performs ESetFileTime operation as part of the component's functionality
+- `ESetFileOwner()`: Performs ESetFileOwner operation as part of the component's functionality
+- `EDeleteReparsePoint()`: Performs EDeleteReparsePoint operation as part of the component's functionality
 ### Summary
 The `fileattr.hpp` file provides essential functionality for file system operations. and contains approximately 7 function(s) to support the Far Manager file manager operations.
 

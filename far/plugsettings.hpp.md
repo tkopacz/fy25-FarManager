@@ -4,10 +4,10 @@
 This file implements functionality related to: API для хранения плагинами настроек.
 Main functional areas: core functionality
 ### Key Classes
-- `AbstractSettings`: Implements core functionality
-- `FarSettingsEnum`: Implements core functionality
-- `FarSettingsItem`: Implements core functionality
-- `FarSettingsValue`: Implements core functionality
+- `AbstractSettings`: Performs AbstractSettings operation as part of the component's functionality
+- `FarSettingsEnum`: Performs FarSettingsEnum operation as part of the component's functionality
+- `FarSettingsItem`: Performs FarSettingsItem operation as part of the component's functionality
+- `FarSettingsValue`: Performs FarSettingsValue operation as part of the component's functionality
 ### Key Functions
 - `Add()`: Adds new item to collection or list
 - `Allocate()`: Constructor that initializes Allocate object with provided parameters
@@ -21,10 +21,10 @@ The `plugsettings.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: API для хранения плагинами настроек.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `AbstractSettings`: Implementuje podstawowa funkcjonalność
-- `FarSettingsEnum`: Implementuje podstawowa funkcjonalność
-- `FarSettingsItem`: Implementuje podstawowa funkcjonalność
-- `FarSettingsValue`: Implementuje podstawowa funkcjonalność
+- `AbstractSettings`: Performs AbstractSettings operation as part of the component's functionality
+- `FarSettingsEnum`: Performs FarSettingsEnum operation as part of the component's functionality
+- `FarSettingsItem`: Performs FarSettingsItem operation as part of the component's functionality
+- `FarSettingsValue`: Performs FarSettingsValue operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `Add()`: Dodaje nowy element do kolekcji lub listy
 - `Allocate()`: Konstruktor inicjalizujący Allocate obiekt z dostarczonymi parametrami

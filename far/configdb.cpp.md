@@ -4,25 +4,25 @@
 This file implements functionality related to: хранение настроек в базе sqlite.
 Main functional areas: configuration management
 ### Key Classes
-- `AsyncWorkItem`: Implements configuration management
-- `HierarchicalConfigDb`: Implements configuration management
-- `HistoryConfigCustom`: Implements configuration management
-- `async_delete_impl`: Implements configuration management
-- `iGeneralConfigDb`: Implements configuration management
-- `representation_destination`: Implements configuration management
-- `representation_source`: Implements configuration management
-- `sqlite_boilerplate`: Implements configuration management
+- `AsyncWorkItem`: Performs AsyncWorkItem operation as part of the component's functionality
+- `HierarchicalConfigDb`: Performs HierarchicalConfigDb operation as part of the component's functionality
+- `HistoryConfigCustom`: Performs HistoryConfigCustom operation as part of the component's functionality
+- `async_delete_impl`: Performs async_delete_impl operation as part of the component's functionality
+- `iGeneralConfigDb`: Performs iGeneralConfigDb operation as part of the component's functionality
+- `representation_destination`: Performs representation_destination operation as part of the component's functionality
+- `representation_source`: Validates conditions and throws exceptions when errors are detected during representation_source operation
+- `sqlite_boilerplate`: Performs sqlite_boilerplate operation as part of the component's functionality
 ### Key Functions
-- `representation_source()`: Executes representation_source operation as part of configuration management
-- `Root()`: Executes Root operation as part of configuration management
+- `representation_source()`: Validates conditions and throws exceptions when errors are detected during representation_source operation
+- `Root()`: Performs Root operation as part of the component's functionality
 - `SetRoot()`: Updates configuration value for specified key
 - `GetError()`: Retrieves specific configuration value by key name
 - `CreateChild()`: Creates and initializes new Child instance
 - `SetAttribute()`: Updates configuration value for specified key
 - `Save()`: Persists current configuration settings to storage
-- `m_AsyncDone()`: Executes m_AsyncDone operation as part of configuration management
-- `finish()`: Executes finish operation as part of configuration management
-- `serialise_integer()`: Executes serialise_integer operation as part of configuration management
+- `m_AsyncDone()`: Performs m_AsyncDone operation as part of the component's functionality
+- `finish()`: Validates conditions and throws exceptions when errors are detected during finish operation
+- `serialise_integer()`: Performs serialise_integer operation as part of the component's functionality
 ### Summary
 The `configdb.cpp` file provides essential functionality for configuration management. It defines 8 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

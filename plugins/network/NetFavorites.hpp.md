@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FAVORITEITEM`: Implements core functionality
+- `FAVORITEITEM`: Performs FAVORITEITEM operation as part of the component's functionality
 ### Key Functions
-- `EnumFavorites()`: Executes EnumFavorites operation as part of core functionality
-- `CheckFavoriteItem()`: Validates data integrity and checks for correctness
-- `InFavoriteExists()`: Executes InFavoriteExists operation as part of core functionality
+- `EnumFavorites()`: Performs EnumFavorites operation as part of the component's functionality
+- `CheckFavoriteItem()`: Validates data integrity and checks correctness of input
+- `InFavoriteExists()`: Performs InFavoriteExists operation as part of the component's functionality
 - `WriteFavoriteItem()`: Writes data from buffer to destination
 - `ReadFavoriteItem()`: Reads data from source into provided buffer
 - `GetFavoritesParent()`: Retrieves FavoritesParent from internal state or data structure
@@ -22,11 +22,11 @@ The `NetFavorites.hpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FAVORITEITEM`: Implementuje podstawowa funkcjonalność
+- `FAVORITEITEM`: Performs FAVORITEITEM operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `EnumFavorites()`: Wykonuje EnumFavorites operację jako część podstawowa funkcjonalność
+- `EnumFavorites()`: Performs EnumFavorites operation as part of the component's functionality
 - `CheckFavoriteItem()`: Waliduje integralność danych i sprawdza poprawność
-- `InFavoriteExists()`: Wykonuje InFavoriteExists operację jako część podstawowa funkcjonalność
+- `InFavoriteExists()`: Performs InFavoriteExists operation as part of the component's functionality
 - `WriteFavoriteItem()`: Zapisuje dane z bufora do miejsca docelowego
 - `ReadFavoriteItem()`: Odczytuje dane ze źródła do dostarczonego bufora
 - `GetFavoritesParent()`: Pobiera FavoritesParent ze stanu wewnętrznego lub struktury danych

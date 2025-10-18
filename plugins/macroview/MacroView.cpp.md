@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Functions
-- `DllMainCRTStartup()`: Executes DllMainCRTStartup operation as part of file viewing
+- `DllMainCRTStartup()`: Evaluates conditions and returns a boolean indicating success or validity of DllMainCRTStartup
 ### Summary
 The `MacroView.cpp` file provides essential functionality for file viewing. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

@@ -4,9 +4,9 @@
 This file implements functionality related to: */
 Main functional areas: clipboard operations
 ### Key Classes
-- `state`: Implements clipboard operations
+- `state`: Performs state operation as part of the component's functionality
 ### Key Functions
-- `enable_ansi_to_unicode_conversion_workaround()`: Executes enable_ansi_to_unicode_conversion_workaround operation as part of clipboard operations
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation as part of the component's functionality
 - `open()`: Opens clipboard for exclusive access to perform read/write operations
 - `close()`: Closes clipboard and releases exclusive lock, making it available for other processes
 - `clear()`: Empties clipboard contents and releases associated memory

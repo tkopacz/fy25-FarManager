@@ -3,23 +3,23 @@
 ### Purpose
 Main functional areas: testing
 ### Key Classes
-- `base`: Implements testing
-- `c`: Implements testing
-- `data`: Implements testing
-- `derived1`: Implements testing
-- `derived2`: Implements testing
-- `test`: Implements testing
+- `base`: Performs base operation as part of the component's functionality
+- `c`: Allocates memory and initializes resources for c
+- `data`: Performs data operation as part of the component's functionality
+- `derived1`: Performs derived1 operation as part of the component's functionality
+- `derived2`: Performs derived2 operation as part of the component's functionality
+- `test`: Validates conditions and throws exceptions when errors are detected during test operation
 ### Key Functions
-- `cpp_far()`: Executes cpp_far operation as part of testing
-- `far_exception()`: Executes far_exception operation as part of testing
-- `cpp_far_rethrow()`: Executes cpp_far_rethrow operation as part of testing
-- `cpp_far_fatal()`: Executes cpp_far_fatal operation as part of testing
-- `far_fatal_exception()`: Executes far_fatal_exception operation as part of testing
-- `cpp_std()`: Executes cpp_std operation as part of testing
-- `cpp_std_lib()`: Executes cpp_std_lib operation as part of testing
-- `cpp_std_nested()`: Executes cpp_std_nested operation as part of testing
-- `cpp_std_nested_thread()`: Executes cpp_std_nested_thread operation as part of testing
-- `cpp_std_bad_alloc()`: Executes cpp_std_bad_alloc operation as part of testing
+- `cpp_far()`: Validates conditions and throws exceptions when errors are detected during cpp_far operation
+- `far_exception()`: Performs far_exception operation as part of the component's functionality
+- `cpp_far_rethrow()`: Validates conditions and throws exceptions when errors are detected during cpp_far_rethrow operation
+- `cpp_far_fatal()`: Validates conditions and throws exceptions when errors are detected during cpp_far_fatal operation
+- `far_fatal_exception()`: Performs far_fatal_exception operation as part of the component's functionality
+- `cpp_std()`: Validates conditions and throws exceptions when errors are detected during cpp_std operation
+- `cpp_std_lib()`: Performs cpp_std_lib operation as part of the component's functionality
+- `cpp_std_nested()`: Validates conditions and throws exceptions when errors are detected during cpp_std_nested operation
+- `cpp_std_nested_thread()`: Validates conditions and throws exceptions when errors are detected during cpp_std_nested_thread operation
+- `cpp_std_bad_alloc()`: Allocates memory and initializes resources for cpp_std_bad_alloc
 ### Namespaces
 - `tests`
 ### Summary

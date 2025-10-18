@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Sizeof()`: Executes Sizeof operation as part of core functionality
-- `Ptr()`: Executes Ptr operation as part of core functionality
+- `Sizeof()`: Returns the current size or capacity of the container
+- `Ptr()`: Performs Ptr operation as part of the component's functionality
 - `WriteToBuff()`: Writes data from buffer to destination
 - `ReadFromBuff()`: Reads data from source into provided buffer
-- `DoPtrData()`: Executes DoPtrData operation as part of core functionality
-- `DoSizeofData()`: Executes DoSizeofData operation as part of core functionality
+- `DoPtrData()`: Returns pointer or reference to internal data buffer
+- `DoSizeofData()`: Returns pointer or reference to internal data buffer
 - `isSimple()`: Tests whether Simple condition is true or property exists
 - `isReal()`: Tests whether Real condition is true or property exists
 - `isFixed()`: Tests whether Fixed condition is true or property exists
@@ -22,12 +22,12 @@ The `hvalue.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Sizeof()`: Wykonuje Sizeof operację jako część podstawowa funkcjonalność
-- `Ptr()`: Wykonuje Ptr operację jako część podstawowa funkcjonalność
+- `Sizeof()`: Returns the current size or capacity of the container
+- `Ptr()`: Performs Ptr operation as part of the component's functionality
 - `WriteToBuff()`: Zapisuje dane z bufora do miejsca docelowego
 - `ReadFromBuff()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `DoPtrData()`: Wykonuje DoPtrData operację jako część podstawowa funkcjonalność
-- `DoSizeofData()`: Wykonuje DoSizeofData operację jako część podstawowa funkcjonalność
+- `DoPtrData()`: Returns pointer or reference to internal data buffer
+- `DoSizeofData()`: Returns pointer or reference to internal data buffer
 - `isSimple()`: Testuje czy Simple warunek jest prawdziwy lub właściwość istnieje
 - `isReal()`: Testuje czy Real warunek jest prawdziwy lub właściwość istnieje
 - `isFixed()`: Testuje czy Fixed warunek jest prawdziwy lub właściwość istnieje

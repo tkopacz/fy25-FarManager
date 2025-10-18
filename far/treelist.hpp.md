@@ -4,14 +4,14 @@
 This file implements functionality related to: Tree panel
 Main functional areas: core functionality
 ### Key Classes
-- `TreeItem`: Implements core functionality
-- `private_tag`: Implements core functionality
+- `TreeItem`: Performs TreeItem operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
-- `string_view()`: Executes string_view operation as part of core functionality
+- `string_view()`: Performs string_view operation as part of the component's functionality
 - `create()`: Creates and initializes new object instance
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `GoToFile()`: Executes GoToFile operation as part of core functionality
+- `GoToFile()`: Performs GoToFile operation as part of the component's functionality
 - `FindPartName()`: Searches for PartName in collection and returns position or reference
 - `Update()`: Updates existing data with new values while preserving structure
 - `GetCurDir()`: Retrieves CurDir from internal state or data structure
@@ -27,14 +27,14 @@ The `treelist.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Tree panel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `TreeItem`: Implementuje podstawowa funkcjonalność
-- `private_tag`: Implementuje podstawowa funkcjonalność
+- `TreeItem`: Performs TreeItem operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `string_view()`: Wykonuje string_view operację jako część podstawowa funkcjonalność
+- `string_view()`: Performs string_view operation as part of the component's functionality
 - `create()`: Tworzy i inicjalizuje nowy obiekt instancję
 - `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
 - `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `GoToFile()`: Wykonuje GoToFile operację jako część podstawowa funkcjonalność
+- `GoToFile()`: Performs GoToFile operation as part of the component's functionality
 - `FindPartName()`: Wyszukuje PartName w kolekcji i zwraca pozycję lub referencję
 - `Update()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
 - `GetCurDir()`: Pobiera CurDir ze stanu wewnętrznego lub struktury danych

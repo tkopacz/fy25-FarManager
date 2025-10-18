@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Functions
-- `ObserverArchive()`: Executes ObserverArchive operation as part of plugin interface
-- `free()`: Executes free operation as part of plugin interface
+- `ObserverArchive()`: Performs ObserverArchive operation as part of the component's functionality
+- `free()`: Performs free operation as part of the component's functionality
 - `ConvertResult()`: Converts data from one format or type to another
 ### Summary
 The `observer.Plugin.cpp` file provides essential functionality for plugin interface. and contains approximately 3 function(s) to support the Far Manager file manager operations.

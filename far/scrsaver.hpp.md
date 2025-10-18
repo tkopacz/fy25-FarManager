@@ -4,7 +4,7 @@
 This file implements functionality related to: ScreenSaver
 Main functional areas: screen operations
 ### Key Functions
-- `ScreenSaver()`: Executes ScreenSaver operation as part of screen operations
+- `ScreenSaver()`: Performs ScreenSaver operation as part of the component's functionality
 ### Summary
 The `scrsaver.hpp` file provides essential functionality for screen operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

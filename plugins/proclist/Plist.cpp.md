@@ -6,13 +6,13 @@ Main functional areas: core functionality
 - `OpenProcessForced()`: Opens resource and prepares it for access operations
 - `OpenProcess()`: Opens resource and prepares it for access operations
 - `GetPData()`: Retrieves PData from internal state or data structure
-- `FreeUserData()`: Executes FreeUserData operation as part of core functionality
+- `FreeUserData()`: Performs FreeUserData operation as part of the component's functionality
 - `GetList()`: Retrieves List from internal state or data structure
-- `l()`: Executes l operation as part of core functionality
+- `l()`: Performs l operation as part of the component's functionality
 - `ProcessData()`: Processes Data through transformation or handling pipeline
-- `KillProcess()`: Executes KillProcess operation as part of core functionality
-- `PrintNTCurDirAndEnv()`: Executes PrintNTCurDirAndEnv operation as part of core functionality
-- `PrintModuleVersion()`: Executes PrintModuleVersion operation as part of core functionality
+- `KillProcess()`: Evaluates conditions and returns a boolean indicating success or validity of KillProcess
+- `PrintNTCurDirAndEnv()`: Opens and manages file access for reading or writing operations
+- `PrintModuleVersion()`: Performs PrintModuleVersion operation as part of the component's functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -27,13 +27,13 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `OpenProcessForced()`: Otwiera zasób i przygotowuje go do operacji dostępu
 - `OpenProcess()`: Otwiera zasób i przygotowuje go do operacji dostępu
 - `GetPData()`: Pobiera PData ze stanu wewnętrznego lub struktury danych
-- `FreeUserData()`: Wykonuje FreeUserData operację jako część podstawowa funkcjonalność
+- `FreeUserData()`: Performs FreeUserData operation as part of the component's functionality
 - `GetList()`: Pobiera List ze stanu wewnętrznego lub struktury danych
-- `l()`: Wykonuje l operację jako część podstawowa funkcjonalność
+- `l()`: Performs l operation as part of the component's functionality
 - `ProcessData()`: Przetwarza Data przez potok transformacji lub obsługi
-- `KillProcess()`: Wykonuje KillProcess operację jako część podstawowa funkcjonalność
-- `PrintNTCurDirAndEnv()`: Wykonuje PrintNTCurDirAndEnv operację jako część podstawowa funkcjonalność
-- `PrintModuleVersion()`: Wykonuje PrintModuleVersion operację jako część podstawowa funkcjonalność
+- `KillProcess()`: Evaluates conditions and returns a boolean indicating success or validity of KillProcess
+- `PrintNTCurDirAndEnv()`: Opens and manages file access for reading or writing operations
+- `PrintModuleVersion()`: Performs PrintModuleVersion operation as part of the component's functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

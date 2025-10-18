@@ -4,16 +4,16 @@
 This file implements functionality related to: */
 Main functional areas: window management
 ### Key Classes
-- `Dialog`: Implements window management
-- `FastFind`: Implements window management
-- `FileEditor`: Implements window management
-- `FilePanels`: Implements window management
-- `FileViewer`: Implements window management
-- `FolderTree`: Implements window management
-- `Grabber`: Implements window management
-- `HMenu`: Implements window management
-- `Help`: Implements window management
-- `VMenu`: Implements window management
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `FastFind`: Performs FastFind operation as part of the component's functionality
+- `FileEditor`: Performs FileEditor operation as part of the component's functionality
+- `FilePanels`: Performs FilePanels operation as part of the component's functionality
+- `FileViewer`: Performs FileViewer operation as part of the component's functionality
+- `FolderTree`: Performs FolderTree operation as part of the component's functionality
+- `Grabber`: Performs Grabber operation as part of the component's functionality
+- `HMenu`: Performs HMenu operation as part of the component's functionality
+- `Help`: Performs Help operation as part of the component's functionality
+- `VMenu`: Performs VMenu operation as part of the component's functionality
 ### Summary
 The `windowsfwd.hpp` file provides essential functionality for window management. It defines 13 class(es) to support the Far Manager file manager operations.
 

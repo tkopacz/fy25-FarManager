@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `PRPeriodCreate()`: Executes PRPeriodCreate operation as part of core functionality
-- `PRPeriodEnd()`: Executes PRPeriodEnd operation as part of core functionality
-- `PRPeriodTime()`: Executes PRPeriodTime operation as part of core functionality
-- `TIME_DIFF_MS()`: Executes TIME_DIFF_MS operation as part of core functionality
-- `PRPeriodPeriod()`: Executes PRPeriodPeriod operation as part of core functionality
-- `PRPeriodDestroy()`: Executes PRPeriodDestroy operation as part of core functionality
-- `PRPeriodReset()`: Executes PRPeriodReset operation as part of core functionality
+- `PRPeriodCreate()`: Allocates memory and initializes resources for PRPeriodCreate
+- `PRPeriodEnd()`: Evaluates conditions and returns a boolean indicating success or validity of PRPeriodEnd
+- `PRPeriodTime()`: Performs PRPeriodTime operation as part of the component's functionality
+- `TIME_DIFF_MS()`: Performs TIME_DIFF_MS operation as part of the component's functionality
+- `PRPeriodPeriod()`: Performs PRPeriodPeriod operation as part of the component's functionality
+- `PRPeriodDestroy()`: Performs PRPeriodDestroy operation as part of the component's functionality
+- `PRPeriodReset()`: Performs PRPeriodReset operation as part of the component's functionality
 ### Summary
 The `period.cpp` file provides essential functionality for core functionality. and contains approximately 7 function(s) to support the Far Manager file manager operations.
 
@@ -19,12 +19,12 @@ The `period.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `PRPeriodCreate()`: Wykonuje PRPeriodCreate operację jako część podstawowa funkcjonalność
-- `PRPeriodEnd()`: Wykonuje PRPeriodEnd operację jako część podstawowa funkcjonalność
-- `PRPeriodTime()`: Wykonuje PRPeriodTime operację jako część podstawowa funkcjonalność
-- `TIME_DIFF_MS()`: Wykonuje TIME_DIFF_MS operację jako część podstawowa funkcjonalność
-- `PRPeriodPeriod()`: Wykonuje PRPeriodPeriod operację jako część podstawowa funkcjonalność
-- `PRPeriodDestroy()`: Wykonuje PRPeriodDestroy operację jako część podstawowa funkcjonalność
-- `PRPeriodReset()`: Wykonuje PRPeriodReset operację jako część podstawowa funkcjonalność
+- `PRPeriodCreate()`: Allocates memory and initializes resources for PRPeriodCreate
+- `PRPeriodEnd()`: Evaluates conditions and returns a boolean indicating success or validity of PRPeriodEnd
+- `PRPeriodTime()`: Performs PRPeriodTime operation as part of the component's functionality
+- `TIME_DIFF_MS()`: Performs TIME_DIFF_MS operation as part of the component's functionality
+- `PRPeriodPeriod()`: Performs PRPeriodPeriod operation as part of the component's functionality
+- `PRPeriodDestroy()`: Performs PRPeriodDestroy operation as part of the component's functionality
+- `PRPeriodReset()`: Performs PRPeriodReset operation as part of the component's functionality
 ### Podsumowanie
 Plik `period.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.

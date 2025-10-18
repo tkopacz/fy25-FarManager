@@ -4,24 +4,24 @@
 This file implements functionality related to: Regular expressions
 Main functional areas: regular expressions
 ### Key Classes
-- `REOpCode_data`: Implements regular expressions
-- `RegExp`: Implements regular expressions
-- `SAlternative`: Implements regular expressions
-- `SAssert`: Implements regular expressions
-- `SBracket`: Implements regular expressions
-- `SNamedBracket`: Implements regular expressions
-- `SRange`: Implements regular expressions
-- `Setter`: Implements regular expressions
-- `tests`: Implements regular expressions
+- `REOpCode_data`: Performs REOpCode_data operation as part of the component's functionality
+- `RegExp`: Performs RegExp operation as part of the component's functionality
+- `SAlternative`: Performs SAlternative operation as part of the component's functionality
+- `SAssert`: Performs SAssert operation as part of the component's functionality
+- `SBracket`: Performs SBracket operation as part of the component's functionality
+- `SNamedBracket`: Performs SNamedBracket operation as part of the component's functionality
+- `SRange`: Performs SRange operation as part of the component's functionality
+- `Setter`: Updates ter with the provided value
+- `tests`: Performs tests operation as part of the component's functionality
 ### Key Functions
 - `isType()`: Tests whether Type condition is true or property exists
-- `Reset()`: Executes Reset operation as part of regular expressions
-- `bool()`: Executes bool operation as part of regular expressions
+- `Reset()`: Performs Reset operation as part of the component's functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
 - `GetBit()`: Retrieves Bit from internal state or data structure
 - `Setter()`: Updates ter in internal state or configuration
 - `SetBit()`: Updates Bit in internal state or configuration
 - `ClearBit()`: Clears all data and resets to initial empty state
-- `regex_exception()`: Executes regex_exception operation as part of regular expressions
+- `regex_exception()`: Performs regex_exception operation as part of the component's functionality
 ### Summary
 The `RegExp.cpp` file provides essential functionality for regular expressions. It defines 9 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
 

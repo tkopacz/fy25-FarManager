@@ -4,15 +4,15 @@
 This file implements functionality related to: Privileges
 Main functional areas: core functionality
 ### Key Classes
-- `privilege`: Implements core functionality
-- `sid_deleter`: Implements core functionality
+- `privilege`: Performs privilege operation as part of the component's functionality
+- `sid_deleter`: Performs sid_deleter operation as part of the component's functionality
 ### Key Functions
-- `make_sid()`: Executes make_sid operation as part of core functionality
+- `make_sid()`: Performs make_sid operation as part of the component's functionality
 - `is_admin()`: Tests whether _admin condition is true or property exists
-- `elevation_type()`: Executes elevation_type operation as part of core functionality
+- `elevation_type()`: Performs elevation_type operation as part of the component's functionality
 - `open_current_process_token()`: Opens resource and prepares it for access operations
-- `privilege()`: Executes privilege operation as part of core functionality
-- `check()`: Validates data integrity and checks for correctness
+- `privilege()`: Performs privilege operation as part of the component's functionality
+- `check()`: Validates conditions and returns boolean indicating whether validation passed
 ### Namespaces
 - `detail`
 - `os`
@@ -26,14 +26,14 @@ The `platform.security.hpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: Privileges
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `privilege`: Implementuje podstawowa funkcjonalność
-- `sid_deleter`: Implementuje podstawowa funkcjonalność
+- `privilege`: Performs privilege operation as part of the component's functionality
+- `sid_deleter`: Performs sid_deleter operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `make_sid()`: Wykonuje make_sid operację jako część podstawowa funkcjonalność
+- `make_sid()`: Performs make_sid operation as part of the component's functionality
 - `is_admin()`: Testuje czy _admin warunek jest prawdziwy lub właściwość istnieje
-- `elevation_type()`: Wykonuje elevation_type operację jako część podstawowa funkcjonalność
+- `elevation_type()`: Performs elevation_type operation as part of the component's functionality
 - `open_current_process_token()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `privilege()`: Wykonuje privilege operację jako część podstawowa funkcjonalność
+- `privilege()`: Performs privilege operation as part of the component's functionality
 - `check()`: Waliduje integralność danych i sprawdza poprawność
 ### Przestrzenie nazw
 - `detail`

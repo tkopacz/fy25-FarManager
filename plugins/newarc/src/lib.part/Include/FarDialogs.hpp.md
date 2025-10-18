@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Classes
-- `FarDialog`: Implements dialog handling
-- `FarDialogHandler`: Implements dialog handling
-- `FarPagedDialog`: Implements dialog handling
-- `FarPagedDialogHandler`: Implements dialog handling
-- `PageInfo`: Implements dialog handling
+- `FarDialog`: Performs FarDialog operation as part of the component's functionality
+- `FarDialogHandler`: Callback function that handles specific events or notifications
+- `FarPagedDialog`: Performs FarPagedDialog operation as part of the component's functionality
+- `FarPagedDialogHandler`: Callback function that handles specific events or notifications
+- `PageInfo`: Performs PageInfo operation as part of the component's functionality
 ### Key Functions
 - `SetFlags()`: Updates Flags in internal state or configuration
 - `SetDialogFlags()`: Updates DialogFlags in internal state or configuration
 - `GetDialogFlags()`: Retrieves DialogFlags from internal state or data structure
-- `FirstButton()`: Executes FirstButton operation as part of dialog handling
+- `FirstButton()`: Performs FirstButton operation as part of the component's functionality
 - `SetFocus()`: Updates Focus in internal state or configuration
-- `DefaultButton()`: Executes DefaultButton operation as part of dialog handling
-- `Control()`: Executes Control operation as part of dialog handling
-- `SingleBox()`: Executes SingleBox operation as part of dialog handling
-- `DoubleBox()`: Executes DoubleBox operation as part of dialog handling
-- `Edit()`: Executes Edit operation as part of dialog handling
+- `DefaultButton()`: Performs DefaultButton operation as part of the component's functionality
+- `Control()`: Performs Control operation as part of the component's functionality
+- `SingleBox()`: Performs SingleBox operation as part of the component's functionality
+- `DoubleBox()`: Performs DoubleBox operation as part of the component's functionality
+- `Edit()`: Performs Edit operation as part of the component's functionality
 ### Summary
 The `FarDialogs.hpp` file provides essential functionality for dialog handling. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

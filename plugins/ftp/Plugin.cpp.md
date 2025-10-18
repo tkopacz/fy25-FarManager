@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `FTPPluginsInfo`: Implements plugin interface
+- `FTPPluginsInfo`: Performs FTPPluginsInfo operation as part of the component's functionality
 ### Key Functions
-- `idProcStart()`: Executes idProcStart operation as part of plugin interface
-- `idProcEnd()`: Executes idProcEnd operation as part of plugin interface
-- `idGetOpt()`: Executes idGetOpt operation as part of plugin interface
-- `idFtpCmdBlock()`: Executes idFtpCmdBlock operation as part of plugin interface
-- `FtpCmdBlock()`: Executes FtpCmdBlock operation as part of plugin interface
-- `idFtpGetRetryCount()`: Executes idFtpGetRetryCount operation as part of plugin interface
-- `FtpGetRetryCount()`: Executes FtpGetRetryCount operation as part of plugin interface
-- `idGetHostOpt()`: Executes idGetHostOpt operation as part of plugin interface
+- `idProcStart()`: Allocates memory and initializes resources for idProcStart
+- `idProcEnd()`: Performs idProcEnd operation as part of the component's functionality
+- `idGetOpt()`: Performs idGetOpt operation as part of the component's functionality
+- `idFtpCmdBlock()`: Performs idFtpCmdBlock operation as part of the component's functionality
+- `FtpCmdBlock()`: Performs FtpCmdBlock operation as part of the component's functionality
+- `idFtpGetRetryCount()`: Performs idFtpGetRetryCount operation as part of the component's functionality
+- `FtpGetRetryCount()`: Performs FtpGetRetryCount operation as part of the component's functionality
+- `idGetHostOpt()`: Performs idGetHostOpt operation as part of the component's functionality
 - `CreateFTPInterface()`: Creates and initializes new FTPInterface instance
 - `StdCreator()`: Constructor that initializes StdCreator object with provided parameters
 ### Summary

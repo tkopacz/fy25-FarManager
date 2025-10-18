@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `DiskMenuParam`: Implements plugin interface
-- `SMenuDlgParam`: Implements plugin interface
-- `output_suppressor`: Implements plugin interface
+- `DiskMenuParam`: Performs DiskMenuParam operation as part of the component's functionality
+- `SMenuDlgParam`: Performs SMenuDlgParam operation as part of the component's functionality
+- `output_suppressor`: Performs output_suppressor operation as part of the component's functionality
 ### Key Functions
 - `IsWindowsVersionOrGreater()`: Tests whether WindowsVersionOrGreater condition is true or property exists
 - `IsWindowsXPOrGreater()`: Tests whether WindowsXPOrGreater condition is true or property exists
 - `settings()`: Updates tings in internal state or configuration
-- `Builder()`: Executes Builder operation as part of plugin interface
-- `oMainMenu()`: Executes oMainMenu operation as part of plugin interface
-- `oDrivesMenu()`: Executes oDrivesMenu operation as part of plugin interface
-- `szMenuItem()`: Executes szMenuItem operation as part of plugin interface
-- `strDir()`: Executes strDir operation as part of plugin interface
-- `szFile()`: Executes szFile operation as part of plugin interface
-- `pCMenu2()`: Executes pCMenu2 operation as part of plugin interface
+- `Builder()`: Performs Builder operation as part of the component's functionality
+- `oMainMenu()`: Main entry point of the application that initializes and starts program execution
+- `oDrivesMenu()`: Performs oDrivesMenu operation as part of the component's functionality
+- `szMenuItem()`: Performs szMenuItem operation as part of the component's functionality
+- `strDir()`: Performs strDir operation as part of the component's functionality
+- `szFile()`: Performs szFile operation as part of the component's functionality
+- `pCMenu2()`: Performs pCMenu2 operation as part of the component's functionality
 ### Summary
 The `Plugin.cpp` file provides essential functionality for plugin interface. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

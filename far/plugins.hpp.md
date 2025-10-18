@@ -4,26 +4,26 @@
 This file implements functionality related to: Работа с плагинами (низкий уровень, кое-что повыше в filelist.cpp)
 Main functional areas: plugin interface
 ### Key Classes
-- `CallPluginInfo`: Implements plugin interface
-- `Dialog`: Implements plugin interface
-- `Editor`: Implements plugin interface
-- `FileEditor`: Implements plugin interface
-- `Panel`: Implements plugin interface
-- `Plugin`: Implements plugin interface
-- `PluginManager`: Implements plugin interface
-- `SaveScreen`: Implements plugin interface
-- `Viewer`: Implements plugin interface
-- `delayed_deleter`: Implements plugin interface
+- `CallPluginInfo`: Performs CallPluginInfo operation as part of the component's functionality
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `Editor`: Performs Editor operation as part of the component's functionality
+- `FileEditor`: Performs FileEditor operation as part of the component's functionality
+- `Panel`: Performs Panel operation as part of the component's functionality
+- `Plugin`: Performs Plugin operation as part of the component's functionality
+- `PluginManager`: Performs PluginManager operation as part of the component's functionality
+- `SaveScreen`: Writes or saves data to a destination
+- `Viewer`: Performs Viewer operation as part of the component's functionality
+- `delayed_deleter`: Performs delayed_deleter operation as part of the component's functionality
 ### Key Functions
-- `plugin()`: Executes plugin operation as part of plugin interface
-- `panel()`: Executes panel operation as part of plugin interface
+- `plugin()`: Performs plugin operation as part of the component's functionality
+- `panel()`: Performs panel operation as part of the component's functionality
 - `set_panel()`: Updates _panel in internal state or configuration
-- `delayed_delete()`: Executes delayed_delete operation as part of plugin interface
-- `NotifyExitLuaMacro()`: Executes NotifyExitLuaMacro operation as part of plugin interface
+- `delayed_delete()`: Performs delayed_delete operation as part of the component's functionality
+- `NotifyExitLuaMacro()`: Performs NotifyExitLuaMacro operation as part of the component's functionality
 - `ClosePanel()`: Closes resource and performs cleanup operations
 - `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from internal state or data structure
 - `GetFindData()`: Retrieves FindData from internal state or data structure
-- `FreeFindData()`: Executes FreeFindData operation as part of plugin interface
+- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
 - `GetVirtualFindData()`: Retrieves VirtualFindData from internal state or data structure
 ### Summary
 The `plugins.hpp` file provides essential functionality for plugin interface. It defines 14 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

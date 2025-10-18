@@ -4,27 +4,27 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `CatchableType`: Implements core functionality
-- `CatchableTypeArray`: Implements core functionality
-- `DelayLoadInfo`: Implements core functionality
-- `DelayLoadProc`: Implements core functionality
-- `EXCEPTION_ASAN_ERROR`: Implements core functionality
-- `EXCEPTION_SANITIZER_ERROR`: Implements core functionality
-- `PMD`: Implements core functionality
-- `THREAD_BASIC_INFORMATION`: Implements core functionality
-- `ThrowInfo`: Implements core functionality
-- `debug_client`: Implements core functionality
+- `CatchableType`: Performs CatchableType operation as part of the component's functionality
+- `CatchableTypeArray`: Performs CatchableTypeArray operation as part of the component's functionality
+- `DelayLoadInfo`: Performs DelayLoadInfo operation as part of the component's functionality
+- `DelayLoadProc`: Performs DelayLoadProc operation as part of the component's functionality
+- `EXCEPTION_ASAN_ERROR`: Performs EXCEPTION_ASAN_ERROR operation as part of the component's functionality
+- `EXCEPTION_SANITIZER_ERROR`: Performs EXCEPTION_SANITIZER_ERROR operation as part of the component's functionality
+- `PMD`: Performs PMD operation as part of the component's functionality
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation as part of the component's functionality
+- `ThrowInfo`: Performs ThrowInfo operation as part of the component's functionality
+- `debug_client`: Performs debug_client operation as part of the component's functionality
 ### Key Functions
 - `code()`: Returns operation code or encoded value representation
 - `exception_record()`: Constructor that initializes exception_record object with provided parameters
 - `context_record()`: Constructor that initializes context_record object with provided parameters
-- `thread_handle()`: Executes thread_handle operation as part of core functionality
-- `thread_id()`: Executes thread_id operation as part of core functionality
-- `report_to_stderr()`: Executes report_to_stderr operation as part of core functionality
+- `thread_handle()`: Performs thread_handle operation as part of the component's functionality
+- `thread_id()`: Performs thread_id operation as part of the component's functionality
+- `report_to_stderr()`: Performs report_to_stderr operation as part of the component's functionality
 - `set_report_location()`: Updates _report_location in internal state or configuration
-- `disable_exception_handling()`: Executes disable_exception_handling operation as part of core functionality
-- `exception_handling_in_progress()`: Executes exception_handling_in_progress operation as part of core functionality
-- `force_stderr_exception_ui()`: Executes force_stderr_exception_ui operation as part of core functionality
+- `disable_exception_handling()`: Validates conditions and throws exceptions when errors are detected during disable_exception_handling operation
+- `exception_handling_in_progress()`: Validates conditions and throws exceptions when errors are detected during exception_handling_in_progress operation
+- `force_stderr_exception_ui()`: Validates conditions and throws exceptions when errors are detected during force_stderr_exception_ui operation
 ### Namespaces
 - `detail`
 ### Summary
@@ -37,27 +37,27 @@ The `exception_handler.cpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CatchableType`: Implementuje podstawowa funkcjonalność
-- `CatchableTypeArray`: Implementuje podstawowa funkcjonalność
-- `DelayLoadInfo`: Implementuje podstawowa funkcjonalność
-- `DelayLoadProc`: Implementuje podstawowa funkcjonalność
-- `EXCEPTION_ASAN_ERROR`: Implementuje podstawowa funkcjonalność
-- `EXCEPTION_SANITIZER_ERROR`: Implementuje podstawowa funkcjonalność
-- `PMD`: Implementuje podstawowa funkcjonalność
-- `THREAD_BASIC_INFORMATION`: Implementuje podstawowa funkcjonalność
-- `ThrowInfo`: Implementuje podstawowa funkcjonalność
-- `debug_client`: Implementuje podstawowa funkcjonalność
+- `CatchableType`: Performs CatchableType operation as part of the component's functionality
+- `CatchableTypeArray`: Performs CatchableTypeArray operation as part of the component's functionality
+- `DelayLoadInfo`: Performs DelayLoadInfo operation as part of the component's functionality
+- `DelayLoadProc`: Performs DelayLoadProc operation as part of the component's functionality
+- `EXCEPTION_ASAN_ERROR`: Performs EXCEPTION_ASAN_ERROR operation as part of the component's functionality
+- `EXCEPTION_SANITIZER_ERROR`: Performs EXCEPTION_SANITIZER_ERROR operation as part of the component's functionality
+- `PMD`: Performs PMD operation as part of the component's functionality
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation as part of the component's functionality
+- `ThrowInfo`: Performs ThrowInfo operation as part of the component's functionality
+- `debug_client`: Performs debug_client operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `code()`: Zwraca kod operacji lub zakodowaną reprezentację wartości
 - `exception_record()`: Konstruktor inicjalizujący exception_record obiekt z dostarczonymi parametrami
 - `context_record()`: Konstruktor inicjalizujący context_record obiekt z dostarczonymi parametrami
-- `thread_handle()`: Wykonuje thread_handle operację jako część podstawowa funkcjonalność
-- `thread_id()`: Wykonuje thread_id operację jako część podstawowa funkcjonalność
-- `report_to_stderr()`: Wykonuje report_to_stderr operację jako część podstawowa funkcjonalność
+- `thread_handle()`: Performs thread_handle operation as part of the component's functionality
+- `thread_id()`: Performs thread_id operation as part of the component's functionality
+- `report_to_stderr()`: Performs report_to_stderr operation as part of the component's functionality
 - `set_report_location()`: Aktualizuje _report_location w stanie wewnętrznym lub konfiguracji
-- `disable_exception_handling()`: Wykonuje disable_exception_handling operację jako część podstawowa funkcjonalność
-- `exception_handling_in_progress()`: Wykonuje exception_handling_in_progress operację jako część podstawowa funkcjonalność
-- `force_stderr_exception_ui()`: Wykonuje force_stderr_exception_ui operację jako część podstawowa funkcjonalność
+- `disable_exception_handling()`: Validates conditions and throws exceptions when errors are detected during disable_exception_handling operation
+- `exception_handling_in_progress()`: Validates conditions and throws exceptions when errors are detected during exception_handling_in_progress operation
+- `force_stderr_exception_ui()`: Validates conditions and throws exceptions when errors are detected during force_stderr_exception_ui operation
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

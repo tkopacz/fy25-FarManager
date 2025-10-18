@@ -4,19 +4,19 @@
 This file implements functionality related to: Форматирование строк
 Main functional areas: core functionality
 ### Key Classes
-- `fmt`: Implements core functionality
-- `format_no_spec`: Implements core functionality
-- `formattable`: Implements core functionality
-- `no_spec`: Implements core functionality
-- `parse_no_spec`: Implements core functionality
+- `fmt`: Performs fmt operation as part of the component's functionality
+- `format_no_spec`: Performs format_no_spec operation as part of the component's functionality
+- `formattable`: Performs formattable operation as part of the component's functionality
+- `no_spec`: Performs no_spec operation as part of the component's functionality
+- `parse_no_spec`: Performs parse_no_spec operation as part of the component's functionality
 ### Key Functions
-- `format()`: Executes format operation as part of core functionality
-- `vformat()`: Executes vformat operation as part of core functionality
-- `format_to()`: Executes format_to operation as part of core functionality
-- `str()`: Executes str operation as part of core functionality
+- `format()`: Performs format operation as part of the component's functionality
+- `vformat()`: Performs vformat operation as part of the component's functionality
+- `format_to()`: Performs format_to operation as part of the component's functionality
+- `str()`: Performs str operation as part of the component's functionality
 - `parse()`: Parses input string or data into structured format
 - `to_string()`: Converts object to string representation for display or serialization
-- `format_as()`: Executes format_as operation as part of core functionality
+- `format_as()`: Performs format_as operation as part of the component's functionality
 ### Namespaces
 - `detail`
 - `far`
@@ -31,19 +31,19 @@ The `format.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: Форматирование строк
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `fmt`: Implementuje podstawowa funkcjonalność
-- `format_no_spec`: Implementuje podstawowa funkcjonalność
-- `formattable`: Implementuje podstawowa funkcjonalność
-- `no_spec`: Implementuje podstawowa funkcjonalność
-- `parse_no_spec`: Implementuje podstawowa funkcjonalność
+- `fmt`: Performs fmt operation as part of the component's functionality
+- `format_no_spec`: Performs format_no_spec operation as part of the component's functionality
+- `formattable`: Performs formattable operation as part of the component's functionality
+- `no_spec`: Performs no_spec operation as part of the component's functionality
+- `parse_no_spec`: Performs parse_no_spec operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `format()`: Wykonuje format operację jako część podstawowa funkcjonalność
-- `vformat()`: Wykonuje vformat operację jako część podstawowa funkcjonalność
-- `format_to()`: Wykonuje format_to operację jako część podstawowa funkcjonalność
-- `str()`: Wykonuje str operację jako część podstawowa funkcjonalność
+- `format()`: Performs format operation as part of the component's functionality
+- `vformat()`: Performs vformat operation as part of the component's functionality
+- `format_to()`: Performs format_to operation as part of the component's functionality
+- `str()`: Performs str operation as part of the component's functionality
 - `parse()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
 - `to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `format_as()`: Wykonuje format_as operację jako część podstawowa funkcjonalność
+- `format_as()`: Performs format_as operation as part of the component's functionality
 ### Przestrzenie nazw
 - `detail`
 - `far`

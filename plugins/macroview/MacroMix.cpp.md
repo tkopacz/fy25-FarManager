@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `InterceptDllCall()`: Executes InterceptDllCall operation as part of core functionality
-- `CmpStr()`: Executes CmpStr operation as part of core functionality
-- `AllTrim()`: Executes AllTrim operation as part of core functionality
-- `UnQuoteText()`: Executes UnQuoteText operation as part of core functionality
-- `QuoteText()`: Executes QuoteText operation as part of core functionality
-- `lstrcpy()`: Executes lstrcpy operation as part of core functionality
-- `CheckFirstBackSlash()`: Validates data integrity and checks for correctness
-- `CheckRLen()`: Validates data integrity and checks for correctness
-- `CheckLen()`: Validates data integrity and checks for correctness
+- `InterceptDllCall()`: Evaluates conditions and returns a boolean indicating success or validity of InterceptDllCall
+- `CmpStr()`: Performs CmpStr operation as part of the component's functionality
+- `AllTrim()`: Performs AllTrim operation as part of the component's functionality
+- `UnQuoteText()`: Performs UnQuoteText operation as part of the component's functionality
+- `QuoteText()`: Performs QuoteText operation as part of the component's functionality
+- `lstrcpy()`: Performs lstrcpy operation as part of the component's functionality
+- `CheckFirstBackSlash()`: Allocates memory and initializes resources for CheckFirstBackSlash
+- `CheckRLen()`: Validates data integrity and checks correctness of input
+- `CheckLen()`: Validates data integrity and checks correctness of input
 - `GetMsg()`: Retrieves Msg from internal state or data structure
 ### Summary
 The `MacroMix.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
@@ -22,12 +22,12 @@ The `MacroMix.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `InterceptDllCall()`: Wykonuje InterceptDllCall operację jako część podstawowa funkcjonalność
-- `CmpStr()`: Wykonuje CmpStr operację jako część podstawowa funkcjonalność
-- `AllTrim()`: Wykonuje AllTrim operację jako część podstawowa funkcjonalność
-- `UnQuoteText()`: Wykonuje UnQuoteText operację jako część podstawowa funkcjonalność
-- `QuoteText()`: Wykonuje QuoteText operację jako część podstawowa funkcjonalność
-- `lstrcpy()`: Wykonuje lstrcpy operację jako część podstawowa funkcjonalność
+- `InterceptDllCall()`: Evaluates conditions and returns a boolean indicating success or validity of InterceptDllCall
+- `CmpStr()`: Performs CmpStr operation as part of the component's functionality
+- `AllTrim()`: Performs AllTrim operation as part of the component's functionality
+- `UnQuoteText()`: Performs UnQuoteText operation as part of the component's functionality
+- `QuoteText()`: Performs QuoteText operation as part of the component's functionality
+- `lstrcpy()`: Performs lstrcpy operation as part of the component's functionality
 - `CheckFirstBackSlash()`: Waliduje integralność danych i sprawdza poprawność
 - `CheckRLen()`: Waliduje integralność danych i sprawdza poprawność
 - `CheckLen()`: Waliduje integralność danych i sprawdza poprawność

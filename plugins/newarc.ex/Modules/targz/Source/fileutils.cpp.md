@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `AskRetry()`: Executes AskRetry operation as part of file system operations
+- `AskRetry()`: Performs AskRetry operation as part of the component's functionality
 - `GetFileAttr()`: Retrieves FileAttr from internal state or data structure
-- `AskOverwrite()`: Executes AskOverwrite operation as part of file system operations
+- `AskOverwrite()`: Allocates memory and initializes resources for AskOverwrite
 - `CreateFileEx()`: Creates and initializes new FileEx instance
 - `CreateDirEx()`: Creates and initializes new DirEx instance
-- `GenerateName()`: Executes GenerateName operation as part of file system operations
+- `GenerateName()`: Performs GenerateName operation as part of the component's functionality
 ### Summary
 The `fileutils.cpp` file provides essential functionality for file system operations. and contains approximately 6 function(s) to support the Far Manager file manager operations.
 

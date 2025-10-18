@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `initialize`: Implements core functionality
-- `memory_releaser`: Implements core functionality
-- `releaser`: Implements core functionality
+- `initialize`: Initializes the component or system with required setup and configuration
+- `memory_releaser`: Performs memory_releaser operation as part of the component's functionality
+- `releaser`: Performs releaser operation as part of the component's functionality
 ### Key Functions
 - `get_shell_name()`: Retrieves _shell_name from internal state or data structure
 - `get_shell_filetype_description()`: Retrieves _shell_filetype_description from internal state or data structure
@@ -21,9 +21,9 @@ The `platform.com.hpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `initialize`: Implementuje podstawowa funkcjonalność
-- `memory_releaser`: Implementuje podstawowa funkcjonalność
-- `releaser`: Implementuje podstawowa funkcjonalność
+- `initialize`: Initializes the component or system with required setup and configuration
+- `memory_releaser`: Performs memory_releaser operation as part of the component's functionality
+- `releaser`: Performs releaser operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `get_shell_name()`: Pobiera _shell_name ze stanu wewnętrznego lub struktury danych
 - `get_shell_filetype_description()`: Pobiera _shell_filetype_description ze stanu wewnętrznego lub struktury danych

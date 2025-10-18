@@ -4,23 +4,23 @@
 This file implements functionality related to: Командная строка
 Main functional areas: core functionality
 ### Key Classes
-- `SetAutocomplete`: Implements core functionality
-- `echo`: Implements core functionality
-- `execute_info`: Implements core functionality
-- `segment`: Implements core functionality
-- `source_mode`: Implements core functionality
-- `wait_mode`: Implements core functionality
+- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
+- `echo`: Performs echo operation as part of the component's functionality
+- `execute_info`: Performs execute_info operation as part of the component's functionality
+- `segment`: Performs segment operation as part of the component's functionality
+- `source_mode`: Performs source_mode operation as part of the component's functionality
+- `wait_mode`: Performs wait_mode operation as part of the component's functionality
 ### Key Functions
-- `CommandLine()`: Executes CommandLine operation as part of core functionality
+- `CommandLine()`: Performs CommandLine operation as part of the component's functionality
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `VMProcess()`: Processes virtual machine operations or commands
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
+- `ResizeConsole()`: Adjusts size or capacity of buffer or container
 - `GetCurDir()`: Retrieves CurDir from internal state or data structure
 - `SetCurDir()`: Updates CurDir in internal state or configuration
 - `GetString()`: Retrieves String from internal state or data structure
 - `SetString()`: Updates String in internal state or configuration
-- `InsertString()`: Executes InsertString operation as part of core functionality
+- `InsertString()`: Performs InsertString operation as part of the component's functionality
 ### Summary
 The `cmdline.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -31,14 +31,14 @@ The `cmdline.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Командная строка
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SetAutocomplete`: Implementuje podstawowa funkcjonalność
-- `echo`: Implementuje podstawowa funkcjonalność
-- `execute_info`: Implementuje podstawowa funkcjonalność
-- `segment`: Implementuje podstawowa funkcjonalność
-- `source_mode`: Implementuje podstawowa funkcjonalność
-- `wait_mode`: Implementuje podstawowa funkcjonalność
+- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
+- `echo`: Performs echo operation as part of the component's functionality
+- `execute_info`: Performs execute_info operation as part of the component's functionality
+- `segment`: Performs segment operation as part of the component's functionality
+- `source_mode`: Performs source_mode operation as part of the component's functionality
+- `wait_mode`: Performs wait_mode operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `CommandLine()`: Wykonuje CommandLine operację jako część podstawowa funkcjonalność
+- `CommandLine()`: Performs CommandLine operation as part of the component's functionality
 - `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
 - `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
 - `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
@@ -47,6 +47,6 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `SetCurDir()`: Aktualizuje CurDir w stanie wewnętrznym lub konfiguracji
 - `GetString()`: Pobiera String ze stanu wewnętrznego lub struktury danych
 - `SetString()`: Aktualizuje String w stanie wewnętrznym lub konfiguracji
-- `InsertString()`: Wykonuje InsertString operację jako część podstawowa funkcjonalność
+- `InsertString()`: Performs InsertString operation as part of the component's functionality
 ### Podsumowanie
 Plik `cmdline.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

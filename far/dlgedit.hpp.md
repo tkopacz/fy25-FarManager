@@ -4,12 +4,12 @@
 This file implements functionality related to: Одиночная строка редактирования для диалога (как наследник класса Edit)
 Main functional areas: dialog handling, text editing
 ### Key Classes
-- `Dialog`: Implements dialog handling, text editing
-- `EditControl`: Implements dialog handling, text editing
-- `Editor`: Implements dialog handling, text editing
-- `FarColor`: Implements dialog handling, text editing
-- `History`: Implements dialog handling, text editing
-- `SetAutocomplete`: Implements dialog handling, text editing
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `EditControl`: Performs EditControl operation as part of the component's functionality
+- `Editor`: Performs Editor operation as part of the component's functionality
+- `FarColor`: Performs FarColor operation as part of the component's functionality
+- `History`: Performs History operation as part of the component's functionality
+- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
 ### Key Functions
 - `Flags()`: Constructor that initializes Flags object with provided parameters
 - `Init()`: Initializes data structures and sets up initial state for operation

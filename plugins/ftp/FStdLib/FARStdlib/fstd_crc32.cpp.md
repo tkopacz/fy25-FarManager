@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `make_crc_table()`: Executes make_crc_table operation as part of file system operations
-- `Crc32()`: Executes Crc32 operation as part of file system operations
+- `make_crc_table()`: Performs make_crc_table operation as part of the component's functionality
+- `Crc32()`: Performs Crc32 operation as part of the component's functionality
 ### Summary
 The `fstd_crc32.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `CMP_TIME()`: Executes CMP_TIME operation as part of file system operations
-- `CheckForKeyPressed()`: Validates data integrity and checks for correctness
-- `FP_Color()`: Executes FP_Color operation as part of file system operations
+- `CMP_TIME()`: Performs CMP_TIME operation as part of the component's functionality
+- `CheckForKeyPressed()`: Opens and manages file access for reading or writing operations
+- `FP_Color()`: Performs FP_Color operation as part of the component's functionality
 ### Summary
 The `fstd_FUtils.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

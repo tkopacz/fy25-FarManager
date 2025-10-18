@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `AsciiStringBase`: Implements string utilities
-- `AsciiStringBaseEx`: Implements string utilities
+- `AsciiStringBase`: Performs AsciiStringBase operation as part of the component's functionality
+- `AsciiStringBaseEx`: Performs AsciiStringBaseEx operation as part of the component's functionality
 ### Key Functions
 - `SetData()`: Updates Data in internal state or configuration
 - `GetEncoding()`: Retrieves Encoding from internal state or data structure
-- `Append()`: Executes Append operation as part of string utilities
+- `Append()`: Performs Append operation as part of the component's functionality
 ### Summary
 The `AsciiStringBase.hpp` file provides essential functionality for string utilities. It defines 2 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

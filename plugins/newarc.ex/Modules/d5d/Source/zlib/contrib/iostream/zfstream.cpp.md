@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: file system operations, string utilities
 ### Key Functions
-- `gzsetparams()`: Executes gzsetparams operation as part of file system operations, string utilities
-- `streampos()`: Executes streampos operation as part of file system operations, string utilities
+- `gzsetparams()`: Performs gzsetparams operation as part of the component's functionality
+- `streampos()`: Performs streampos operation as part of the component's functionality
 - `setg()`: Updates g in internal state or configuration
-- `flushbuf()`: Executes flushbuf operation as part of file system operations, string utilities
+- `flushbuf()`: Performs flushbuf operation as part of the component's functionality
 - `clear()`: Clears all data and resets to initial empty state
 ### Summary
 The `zfstream.cpp` file provides essential functionality for file system operations, string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.

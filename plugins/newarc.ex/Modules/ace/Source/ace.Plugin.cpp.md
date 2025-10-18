@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `ACEHEADER`: Implements plugin interface
+- `ACEHEADER`: Performs ACEHEADER operation as part of the component's functionality
 ### Key Functions
 - `IsACE()`: Tests whether ACE condition is true or property exists
-- `AceArchive()`: Executes AceArchive operation as part of plugin interface
-- `__CreateFileList()`: Executes __CreateFileList operation as part of plugin interface
-- `free()`: Executes free operation as part of plugin interface
-- `message()`: Executes message operation as part of plugin interface
+- `AceArchive()`: Performs AceArchive operation as part of the component's functionality
+- `__CreateFileList()`: Allocates memory and initializes resources for __CreateFileList
+- `free()`: Performs free operation as part of the component's functionality
+- `message()`: Performs message operation as part of the component's functionality
 ### Summary
 The `ace.Plugin.cpp` file provides essential functionality for plugin interface. It defines 1 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

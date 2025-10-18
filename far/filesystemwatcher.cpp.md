@@ -4,7 +4,7 @@
 This file implements functionality related to: class FileSystemWatcher
 Main functional areas: file system operations, singleton implementation
 ### Key Classes
-- `background_watcher`: Implements file system operations, singleton implementation
+- `background_watcher`: Performs background_watcher operation as part of the component's functionality
 ### Key Functions
 - `add()`: Adds new item to collection or list
 - `remove()`: Removes item from collection and frees associated resources

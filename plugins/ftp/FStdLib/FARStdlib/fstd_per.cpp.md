@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Classes
-- `PRPeriod`: Implements file system operations
+- `PRPeriod`: Performs PRPeriod operation as part of the component's functionality
 ### Key Functions
-- `FP_PeriodCreate()`: Executes FP_PeriodCreate operation as part of file system operations
-- `FP_PeriodDestroy()`: Executes FP_PeriodDestroy operation as part of file system operations
-- `FP_PeriodEnd()`: Executes FP_PeriodEnd operation as part of file system operations
-- `FP_PeriodTime()`: Executes FP_PeriodTime operation as part of file system operations
-- `FP_PeriodReset()`: Executes FP_PeriodReset operation as part of file system operations
+- `FP_PeriodCreate()`: Allocates memory and initializes resources for FP_PeriodCreate
+- `FP_PeriodDestroy()`: Performs FP_PeriodDestroy operation as part of the component's functionality
+- `FP_PeriodEnd()`: Evaluates conditions and returns a boolean indicating success or validity of FP_PeriodEnd
+- `FP_PeriodTime()`: Performs FP_PeriodTime operation as part of the component's functionality
+- `FP_PeriodReset()`: Performs FP_PeriodReset operation as part of the component's functionality
 ### Summary
 The `fstd_per.cpp` file provides essential functionality for file system operations. It defines 1 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

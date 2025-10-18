@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `matrix`: Implements core functionality
-- `matrix_data`: Implements core functionality
-- `matrix_iterator`: Implements core functionality
-- `matrix_row`: Implements core functionality
-- `matrix_view`: Implements core functionality
+- `matrix`: Allocates memory and initializes resources for matrix
+- `matrix_data`: Performs matrix_data operation as part of the component's functionality
+- `matrix_iterator`: Performs matrix_iterator operation as part of the component's functionality
+- `matrix_row`: Performs matrix_row operation as part of the component's functionality
+- `matrix_view`: Performs matrix_view operation as part of the component's functionality
 ### Key Functions
-- `matrix_row()`: Executes matrix_row operation as part of core functionality
-- `matrix_iterator()`: Executes matrix_iterator operation as part of core functionality
-- `begin()`: Executes begin operation as part of core functionality
-- `iterator()`: Executes iterator operation as part of core functionality
-- `end()`: Executes end operation as part of core functionality
-- `cbegin()`: Executes cbegin operation as part of core functionality
-- `cend()`: Executes cend operation as part of core functionality
-- `rbegin()`: Executes rbegin operation as part of core functionality
-- `rend()`: Executes rend operation as part of core functionality
-- `crbegin()`: Executes crbegin operation as part of core functionality
+- `matrix_row()`: Performs matrix_row operation as part of the component's functionality
+- `matrix_iterator()`: Performs matrix_iterator operation as part of the component's functionality
+- `begin()`: Performs begin operation as part of the component's functionality
+- `iterator()`: Performs iterator operation as part of the component's functionality
+- `end()`: Performs end operation as part of the component's functionality
+- `cbegin()`: Performs cbegin operation as part of the component's functionality
+- `cend()`: Performs cend operation as part of the component's functionality
+- `rbegin()`: Performs rbegin operation as part of the component's functionality
+- `rend()`: Performs rend operation as part of the component's functionality
+- `crbegin()`: Performs crbegin operation as part of the component's functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -32,22 +32,22 @@ The `matrix.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `matrix`: Implementuje podstawowa funkcjonalność
-- `matrix_data`: Implementuje podstawowa funkcjonalność
-- `matrix_iterator`: Implementuje podstawowa funkcjonalność
-- `matrix_row`: Implementuje podstawowa funkcjonalność
-- `matrix_view`: Implementuje podstawowa funkcjonalność
+- `matrix`: Allocates memory and initializes resources for matrix
+- `matrix_data`: Performs matrix_data operation as part of the component's functionality
+- `matrix_iterator`: Performs matrix_iterator operation as part of the component's functionality
+- `matrix_row`: Performs matrix_row operation as part of the component's functionality
+- `matrix_view`: Performs matrix_view operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `matrix_row()`: Wykonuje matrix_row operację jako część podstawowa funkcjonalność
-- `matrix_iterator()`: Wykonuje matrix_iterator operację jako część podstawowa funkcjonalność
-- `begin()`: Wykonuje begin operację jako część podstawowa funkcjonalność
-- `iterator()`: Wykonuje iterator operację jako część podstawowa funkcjonalność
-- `end()`: Wykonuje end operację jako część podstawowa funkcjonalność
-- `cbegin()`: Wykonuje cbegin operację jako część podstawowa funkcjonalność
-- `cend()`: Wykonuje cend operację jako część podstawowa funkcjonalność
-- `rbegin()`: Wykonuje rbegin operację jako część podstawowa funkcjonalność
-- `rend()`: Wykonuje rend operację jako część podstawowa funkcjonalność
-- `crbegin()`: Wykonuje crbegin operację jako część podstawowa funkcjonalność
+- `matrix_row()`: Performs matrix_row operation as part of the component's functionality
+- `matrix_iterator()`: Performs matrix_iterator operation as part of the component's functionality
+- `begin()`: Performs begin operation as part of the component's functionality
+- `iterator()`: Performs iterator operation as part of the component's functionality
+- `end()`: Performs end operation as part of the component's functionality
+- `cbegin()`: Performs cbegin operation as part of the component's functionality
+- `cend()`: Performs cend operation as part of the component's functionality
+- `rbegin()`: Performs rbegin operation as part of the component's functionality
+- `rend()`: Performs rend operation as part of the component's functionality
+- `crbegin()`: Performs crbegin operation as part of the component's functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

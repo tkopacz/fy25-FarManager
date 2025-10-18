@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ParseException`: Implements core functionality
-- `View`: Implements core functionality
+- `ParseException`: Validates conditions and throws exceptions when errors are detected during ParseException operation
+- `View`: Performs View operation as part of the component's functionality
 ### Key Functions
 - `save_start()`: Saves current state or data to persistent storage
 - `save_end()`: Saves current state or data to persistent storage
 - `get_saved()`: Retrieves _saved from internal state or data structure
 - `move()`: Moves data or object from current location to new location
-- `space()`: Executes space operation as part of core functionality
-- `Name()`: Executes Name operation as part of core functionality
-- `name()`: Executes name operation as part of core functionality
-- `skip_spaces()`: Executes skip_spaces operation as part of core functionality
-- `check_end()`: Validates data integrity and checks for correctness
+- `space()`: Performs space operation as part of the component's functionality
+- `Name()`: Performs Name operation as part of the component's functionality
+- `name()`: Validates conditions and throws exceptions when errors are detected during name operation
+- `skip_spaces()`: Performs skip_spaces operation as part of the component's functionality
+- `check_end()`: Validates conditions and throws exceptions when errors are detected during check_end operation
 - `ParseException()`: Parses input string or data into structured format
 ### Namespaces
 - `SimpleXML`
@@ -27,17 +27,17 @@ The `SimpleXML.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ParseException`: Implementuje podstawowa funkcjonalność
-- `View`: Implementuje podstawowa funkcjonalność
+- `ParseException`: Validates conditions and throws exceptions when errors are detected during ParseException operation
+- `View`: Performs View operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `save_start()`: Zapisuje bieżący stan lub dane do trwałego magazynu
 - `save_end()`: Zapisuje bieżący stan lub dane do trwałego magazynu
 - `get_saved()`: Pobiera _saved ze stanu wewnętrznego lub struktury danych
 - `move()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `space()`: Wykonuje space operację jako część podstawowa funkcjonalność
-- `Name()`: Wykonuje Name operację jako część podstawowa funkcjonalność
-- `name()`: Wykonuje name operację jako część podstawowa funkcjonalność
-- `skip_spaces()`: Wykonuje skip_spaces operację jako część podstawowa funkcjonalność
+- `space()`: Performs space operation as part of the component's functionality
+- `Name()`: Performs Name operation as part of the component's functionality
+- `name()`: Validates conditions and throws exceptions when errors are detected during name operation
+- `skip_spaces()`: Performs skip_spaces operation as part of the component's functionality
 - `check_end()`: Waliduje integralność danych i sprawdza poprawność
 - `ParseException()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
 ### Przestrzenie nazw

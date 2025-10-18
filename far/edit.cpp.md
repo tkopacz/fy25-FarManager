@@ -4,18 +4,18 @@
 This file implements functionality related to: Строка редактора
 Main functional areas: text editing
 ### Key Classes
-- `positions_cache`: Implements text editing
+- `positions_cache`: Performs positions_cache operation as part of the component's functionality
 ### Key Functions
 - `get()`: Retrieves value from internal state or data structure
-- `RealPosToVisual()`: Executes RealPosToVisual operation as part of text editing
-- `VisualPosToReal()`: Executes VisualPosToReal operation as part of text editing
-- `block()`: Executes block operation as part of text editing
+- `RealPosToVisual()`: Performs RealPosToVisual operation as part of the component's functionality
+- `VisualPosToReal()`: Performs VisualPosToReal operation as part of the component's functionality
+- `block()`: Performs block operation as part of the component's functionality
 - `RemoveSelection()`: Removes Selection from collection and frees associated resources
-- `flatten_string()`: Executes flatten_string operation as part of text editing
-- `Select()`: Executes Select operation as part of text editing
+- `flatten_string()`: Performs flatten_string operation as part of the component's functionality
+- `Select()`: Performs Select operation as part of the component's functionality
 - `Show()`: Displays content or makes visual element visible on screen
-- `repeat()`: Executes repeat operation as part of text editing
-- `InsertKey()`: Executes InsertKey operation as part of text editing
+- `repeat()`: Performs repeat operation as part of the component's functionality
+- `InsertKey()`: Evaluates conditions and returns a boolean indicating success or validity of InsertKey
 ### Summary
 The `edit.cpp` file provides essential functionality for text editing. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

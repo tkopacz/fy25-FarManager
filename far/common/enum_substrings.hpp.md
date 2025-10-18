@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `enum_substrings()`: Executes enum_substrings operation as part of string utilities
+- `enum_substrings()`: Performs enum_substrings operation as part of the component's functionality
 ### Summary
 The `enum_substrings.hpp` file provides essential functionality for string utilities. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

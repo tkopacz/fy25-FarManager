@@ -4,7 +4,7 @@
 This file implements functionality related to: Сканирование текущего каталога и, опционально, подкаталогов на
 Main functional areas: core functionality
 ### Key Classes
-- `ScanTree`: Implements core functionality
+- `ScanTree`: Checks state or conditions and returns boolean indicating the result
 ### Key Functions
 - `GetNextName()`: Retrieves NextName from internal state or data structure
 ### Summary
@@ -17,7 +17,7 @@ The `scantree.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Сканирование текущего каталога и, опционально, подкаталогов на
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ScanTree`: Implementuje podstawowa funkcjonalność
+- `ScanTree`: Checks state or conditions and returns boolean indicating the result
 ### Kluczowe Funkcje
 - `GetNextName()`: Pobiera NextName ze stanu wewnętrznego lub struktury danych
 ### Podsumowanie

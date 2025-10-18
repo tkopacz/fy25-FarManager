@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `_strncat()`: Executes _strncat operation as part of file system operations
-- `StrCat()`: Executes StrCat operation as part of file system operations
-- `strcat()`: Executes strcat operation as part of file system operations
+- `_strncat()`: Performs _strncat operation as part of the component's functionality
+- `StrCat()`: Performs StrCat operation as part of the component's functionality
+- `strcat()`: Performs strcat operation as part of the component's functionality
 ### Summary
 The `fstd_exSCAT.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

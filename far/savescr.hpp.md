@@ -4,17 +4,17 @@
 This file implements functionality related to: Сохраняем и восстанавливаем экран кусками и целиком
 Main functional areas: screen operations
 ### Key Classes
-- `Grabber`: Implements screen operations
-- `SaveScreen`: Implements screen operations
+- `Grabber`: Performs Grabber operation as part of the component's functionality
+- `SaveScreen`: Writes or saves data to a destination
 ### Key Functions
 - `SaveScreen()`: Saves current state or data to persistent storage
 - `SaveArea()`: Saves current state or data to persistent storage
-- `RestoreArea()`: Executes RestoreArea operation as part of screen operations
-- `Discard()`: Executes Discard operation as part of screen operations
-- `AppendArea()`: Executes AppendArea operation as part of screen operations
-- `Resize()`: Changes size dimensions while preserving content when possible
-- `width()`: Executes width operation as part of screen operations
-- `height()`: Executes height operation as part of screen operations
+- `RestoreArea()`: Performs RestoreArea operation as part of the component's functionality
+- `Discard()`: Performs Discard operation as part of the component's functionality
+- `AppendArea()`: Performs AppendArea operation as part of the component's functionality
+- `Resize()`: Adjusts size or capacity of buffer or container
+- `width()`: Performs width operation as part of the component's functionality
+- `height()`: Performs height operation as part of the component's functionality
 ### Summary
 The `savescr.hpp` file provides essential functionality for screen operations. It defines 2 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
 

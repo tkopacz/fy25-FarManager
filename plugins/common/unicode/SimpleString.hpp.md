@@ -3,17 +3,17 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `SimpleString`: Implements string utilities
+- `SimpleString`: Performs SimpleString operation as part of the component's functionality
 ### Key Functions
-- `Alloc()`: Executes Alloc operation as part of string utilities
-- `SimpleString()`: Executes SimpleString operation as part of string utilities
-- `Inflate()`: Executes Inflate operation as part of string utilities
-- `Len()`: Executes Len operation as part of string utilities
+- `Alloc()`: Performs Alloc operation as part of the component's functionality
+- `SimpleString()`: Performs SimpleString operation as part of the component's functionality
+- `Inflate()`: Performs Inflate operation as part of the component's functionality
+- `Len()`: Performs Len operation as part of the component's functionality
 - `SetLen()`: Updates Len in internal state or configuration
-- `Size()`: Executes Size operation as part of string utilities
-- `At()`: Executes At operation as part of string utilities
+- `Size()`: Returns the current size or capacity of the container
+- `At()`: Performs At operation as part of the component's functionality
 - `IsEmpty()`: Tests whether Empty condition is true or property exists
-- `Format()`: Executes Format operation as part of string utilities
+- `Format()`: Performs Format operation as part of the component's functionality
 - `Replace()`: Constructor that initializes Replace object with provided parameters
 ### Summary
 The `SimpleString.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

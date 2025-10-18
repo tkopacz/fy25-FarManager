@@ -4,15 +4,15 @@
 This file implements functionality related to: Версия Far Manager
 Main functional areas: core functionality
 ### Key Classes
-- `VersionInfo`: Implements core functionality
+- `VersionInfo`: Performs VersionInfo operation as part of the component's functionality
 ### Key Functions
-- `version_string()`: Executes version_string operation as part of core functionality
+- `version_string()`: Performs version_string operation as part of the component's functionality
 - `copyright()`: Copies data from source to destination location
-- `scm_revision()`: Executes scm_revision operation as part of core functionality
-- `platform()`: Executes platform operation as part of core functionality
-- `version()`: Executes version operation as part of core functionality
-- `compiler()`: Executes compiler operation as part of core functionality
-- `library()`: Executes library operation as part of core functionality
+- `scm_revision()`: Performs scm_revision operation as part of the component's functionality
+- `platform()`: Performs platform operation as part of the component's functionality
+- `version()`: Performs version operation as part of the component's functionality
+- `compiler()`: Performs compiler operation as part of the component's functionality
+- `library()`: Performs library operation as part of the component's functionality
 ### Namespaces
 - `build`
 ### Summary
@@ -25,15 +25,15 @@ The `farversion.hpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Версия Far Manager
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `VersionInfo`: Implementuje podstawowa funkcjonalność
+- `VersionInfo`: Performs VersionInfo operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `version_string()`: Wykonuje version_string operację jako część podstawowa funkcjonalność
+- `version_string()`: Performs version_string operation as part of the component's functionality
 - `copyright()`: Kopiuje dane ze źródła do miejsca docelowego
-- `scm_revision()`: Wykonuje scm_revision operację jako część podstawowa funkcjonalność
-- `platform()`: Wykonuje platform operację jako część podstawowa funkcjonalność
-- `version()`: Wykonuje version operację jako część podstawowa funkcjonalność
-- `compiler()`: Wykonuje compiler operację jako część podstawowa funkcjonalność
-- `library()`: Wykonuje library operację jako część podstawowa funkcjonalność
+- `scm_revision()`: Performs scm_revision operation as part of the component's functionality
+- `platform()`: Performs platform operation as part of the component's functionality
+- `version()`: Performs version operation as part of the component's functionality
+- `compiler()`: Performs compiler operation as part of the component's functionality
+- `library()`: Performs library operation as part of the component's functionality
 ### Przestrzenie nazw
 - `build`
 ### Podsumowanie

@@ -4,7 +4,7 @@
 Main functional areas: core functionality
 ### Key Functions
 - `SetStartupInfo()`: Updates StartupInfo in internal state or configuration
-- `ExitFAR()`: Executes ExitFAR operation as part of core functionality
+- `ExitFAR()`: Performs ExitFAR operation as part of the component's functionality
 - `GetPluginInfo()`: Retrieves PluginInfo from internal state or data structure
 - `GetPluginStartupInfo()`: Retrieves PluginStartupInfo from internal state or data structure
 ### Summary
@@ -17,7 +17,7 @@ The `ansi.cpp` file provides essential functionality for core functionality. and
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `SetStartupInfo()`: Aktualizuje StartupInfo w stanie wewnętrznym lub konfiguracji
-- `ExitFAR()`: Wykonuje ExitFAR operację jako część podstawowa funkcjonalność
+- `ExitFAR()`: Performs ExitFAR operation as part of the component's functionality
 - `GetPluginInfo()`: Pobiera PluginInfo ze stanu wewnętrznego lub struktury danych
 - `GetPluginStartupInfo()`: Pobiera PluginStartupInfo ze stanu wewnętrznego lub struktury danych
 ### Podsumowanie

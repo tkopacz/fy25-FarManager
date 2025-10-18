@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `_OSErrorS()`: Executes _OSErrorS operation as part of core functionality
-- `__FIO_ERRORN()`: Executes __FIO_ERRORN operation as part of core functionality
-- `strerror()`: Executes strerror operation as part of core functionality
+- `_OSErrorS()`: Allocates memory and initializes resources for _OSErrorS
+- `__FIO_ERRORN()`: Opens and manages file access for reading or writing operations
+- `strerror()`: Performs strerror operation as part of the component's functionality
 - `GetIOErrorS_()`: Retrieves IOErrorS_ from internal state or data structure
 - `GetIOErrorN()`: Retrieves IOErrorN from internal state or data structure
 - `SetErrorN()`: Updates ErrorN in internal state or configuration
@@ -20,9 +20,9 @@ The `io_err.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `_OSErrorS()`: Wykonuje _OSErrorS operację jako część podstawowa funkcjonalność
-- `__FIO_ERRORN()`: Wykonuje __FIO_ERRORN operację jako część podstawowa funkcjonalność
-- `strerror()`: Wykonuje strerror operację jako część podstawowa funkcjonalność
+- `_OSErrorS()`: Allocates memory and initializes resources for _OSErrorS
+- `__FIO_ERRORN()`: Opens and manages file access for reading or writing operations
+- `strerror()`: Performs strerror operation as part of the component's functionality
 - `GetIOErrorS_()`: Pobiera IOErrorS_ ze stanu wewnętrznego lub struktury danych
 - `GetIOErrorN()`: Pobiera IOErrorN ze stanu wewnętrznego lub struktury danych
 - `SetErrorN()`: Aktualizuje ErrorN w stanie wewnętrznym lub konfiguracji

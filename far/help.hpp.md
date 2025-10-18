@@ -4,11 +4,11 @@
 This file implements functionality related to: Помощь
 Main functional areas: core functionality
 ### Key Classes
-- `Plugin`: Implements core functionality
+- `Plugin`: Performs Plugin operation as part of the component's functionality
 ### Key Functions
 - `show()`: Displays content or makes visual element visible on screen
-- `make_link()`: Executes make_link operation as part of core functionality
-- `make_topic()`: Executes make_topic operation as part of core functionality
+- `make_link()`: Performs make_link operation as part of the component's functionality
+- `make_topic()`: Performs make_topic operation as part of the component's functionality
 ### Namespaces
 - `help`
 ### Summary
@@ -21,11 +21,11 @@ The `help.hpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Помощь
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Plugin`: Implementuje podstawowa funkcjonalność
+- `Plugin`: Performs Plugin operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `make_link()`: Wykonuje make_link operację jako część podstawowa funkcjonalność
-- `make_topic()`: Wykonuje make_topic operację jako część podstawowa funkcjonalność
+- `make_link()`: Performs make_link operation as part of the component's functionality
+- `make_topic()`: Performs make_topic operation as part of the component's functionality
 ### Przestrzenie nazw
 - `help`
 ### Podsumowanie

@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Zero()`: Executes Zero operation as part of core functionality
-- `TDateTime()`: Executes TDateTime operation as part of core functionality
-- `Time2Str()`: Executes Time2Str operation as part of core functionality
-- `Sec2Str()`: Executes Sec2Str operation as part of core functionality
-- `FillStartTime()`: Executes FillStartTime operation as part of core functionality
-- `DoubleToDate()`: Executes DoubleToDate operation as part of core functionality
-- `DateToDouble()`: Executes DateToDouble operation as part of core functionality
-- `TimeDiff2TimeStr()`: Executes TimeDiff2TimeStr operation as part of core functionality
+- `Zero()`: Performs Zero operation as part of the component's functionality
+- `TDateTime()`: Performs TDateTime operation as part of the component's functionality
+- `Time2Str()`: Evaluates conditions and returns boolean indicating success or validity
+- `Sec2Str()`: Performs Sec2Str operation as part of the component's functionality
+- `FillStartTime()`: Performs FillStartTime operation as part of the component's functionality
+- `DoubleToDate()`: Performs DoubleToDate operation as part of the component's functionality
+- `DateToDouble()`: Performs DateToDouble operation as part of the component's functionality
+- `TimeDiff2TimeStr()`: Performs TimeDiff2TimeStr operation as part of the component's functionality
 ### Summary
 The `htime.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `htime.cpp` file provides essential functionality for core functionality. an
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Zero()`: Wykonuje Zero operację jako część podstawowa funkcjonalność
-- `TDateTime()`: Wykonuje TDateTime operację jako część podstawowa funkcjonalność
-- `Time2Str()`: Wykonuje Time2Str operację jako część podstawowa funkcjonalność
-- `Sec2Str()`: Wykonuje Sec2Str operację jako część podstawowa funkcjonalność
-- `FillStartTime()`: Wykonuje FillStartTime operację jako część podstawowa funkcjonalność
-- `DoubleToDate()`: Wykonuje DoubleToDate operację jako część podstawowa funkcjonalność
-- `DateToDouble()`: Wykonuje DateToDouble operację jako część podstawowa funkcjonalność
-- `TimeDiff2TimeStr()`: Wykonuje TimeDiff2TimeStr operację jako część podstawowa funkcjonalność
+- `Zero()`: Performs Zero operation as part of the component's functionality
+- `TDateTime()`: Performs TDateTime operation as part of the component's functionality
+- `Time2Str()`: Evaluates conditions and returns boolean indicating success or validity
+- `Sec2Str()`: Performs Sec2Str operation as part of the component's functionality
+- `FillStartTime()`: Performs FillStartTime operation as part of the component's functionality
+- `DoubleToDate()`: Performs DoubleToDate operation as part of the component's functionality
+- `DateToDouble()`: Performs DateToDouble operation as part of the component's functionality
+- `TimeDiff2TimeStr()`: Performs TimeDiff2TimeStr operation as part of the component's functionality
 ### Podsumowanie
 Plik `htime.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,23 +4,23 @@
 This file implements functionality related to: Файловая панель
 Main functional areas: file system operations
 ### Key Classes
-- `CustomSort`: Implements file system operations
-- `FileList`: Implements file system operations
-- `arg`: Implements file system operations
-- `file_state`: Implements file system operations
-- `hash_less`: Implements file system operations
-- `list_less`: Implements file system operations
-- `ps_action`: Implements file system operations
-- `ps_mode`: Implements file system operations
-- `sort_mode`: Implements file system operations
+- `CustomSort`: Performs CustomSort operation as part of the component's functionality
+- `FileList`: Evaluates conditions and returns a boolean indicating success or validity of FileList
+- `arg`: Performs arg operation as part of the component's functionality
+- `file_state`: Performs file_state operation as part of the component's functionality
+- `hash_less`: Checks and returns whether a specific condition (hash_less) is true or false
+- `list_less`: Performs list_less operation as part of the component's functionality
+- `ps_action`: Performs ps_action operation as part of the component's functionality
+- `ps_mode`: Performs ps_mode operation as part of the component's functionality
+- `sort_mode`: Performs sort_mode operation as part of the component's functionality
 ### Key Functions
-- `order_indicator()`: Executes order_indicator operation as part of file system operations
-- `to_fat_write_time()`: Executes to_fat_write_time operation as part of file system operations
-- `to_whole_seconds()`: Executes to_whole_seconds operation as part of file system operations
-- `compare_fat_write_time()`: Executes compare_fat_write_time operation as part of file system operations
-- `FileListToSortingPanelItem()`: Executes FileListToSortingPanelItem operation as part of file system operations
-- `SortFileList()`: Executes SortFileList operation as part of file system operations
-- `CanSort()`: Executes CanSort operation as part of file system operations
+- `order_indicator()`: Performs order_indicator operation as part of the component's functionality
+- `to_fat_write_time()`: Performs to_fat_write_time operation as part of the component's functionality
+- `to_whole_seconds()`: Performs to_whole_seconds operation as part of the component's functionality
+- `compare_fat_write_time()`: Performs compare_fat_write_time operation as part of the component's functionality
+- `FileListToSortingPanelItem()`: Performs FileListToSortingPanelItem operation as part of the component's functionality
+- `SortFileList()`: Evaluates conditions and returns a boolean indicating success or validity of SortFileList
+- `CanSort()`: Checks state or conditions and returns boolean indicating the result
 - `GetItemFullName()`: Retrieves ItemFullName from internal state or data structure
 - `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize from internal state or data structure
 - `event_id()`: Constructor that initializes event_id object with provided parameters

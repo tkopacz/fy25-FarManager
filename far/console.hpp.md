@@ -4,18 +4,18 @@
 This file implements functionality related to: Console functions
 Main functional areas: console operations
 ### Key Classes
-- `console`: Implements console operations
-- `console_aliases`: Implements console operations
-- `data`: Implements console operations
-- `implementation`: Implements console operations
-- `input_queue_inspector`: Implements console operations
-- `stream_buffers_overrider`: Implements console operations
+- `console`: Performs console operation as part of the component's functionality
+- `console_aliases`: Performs console_aliases operation as part of the component's functionality
+- `data`: Performs data operation as part of the component's functionality
+- `implementation`: Performs implementation operation as part of the component's functionality
+- `input_queue_inspector`: Performs input_queue_inspector operation as part of the component's functionality
+- `stream_buffers_overrider`: Performs stream_buffers_overrider operation as part of the component's functionality
 ### Key Functions
-- `ReplaceControlCharacter()`: Executes ReplaceControlCharacter operation as part of console operations
-- `sanitise_pair()`: Executes sanitise_pair operation as part of console operations
+- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation as part of the component's functionality
+- `sanitise_pair()`: Performs sanitise_pair operation as part of the component's functionality
 - `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info from internal state or data structure
-- `Allocate()`: Executes Allocate operation as part of console operations
-- `Free()`: Executes Free operation as part of console operations
+- `Allocate()`: Performs Allocate operation as part of the component's functionality
+- `Free()`: Performs Free operation as part of the component's functionality
 - `GetInputHandle()`: Retrieves InputHandle from internal state or data structure
 - `GetOutputHandle()`: Retrieves OutputHandle from internal state or data structure
 - `GetErrorHandle()`: Retrieves ErrorHandle from internal state or data structure

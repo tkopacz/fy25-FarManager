@@ -4,11 +4,11 @@
 Main functional areas: core functionality
 ### Key Functions
 - `OnInitialize()`: Event handler invoked when Initialize occurs
-- `ZipModule()`: Executes ZipModule operation as part of core functionality
+- `ZipModule()`: Performs ZipModule operation as part of the component's functionality
 - `OnGetArchivePluginInfo()`: Event handler invoked when GetArchivePluginInfo occurs
 - `OnFinalize()`: Event handler invoked when Finalize occurs
 - `OnQueryArchive()`: Event handler invoked when QueryArchive occurs
-- `ZipArchive()`: Executes ZipArchive operation as part of core functionality
+- `ZipArchive()`: Performs ZipArchive operation as part of the component's functionality
 - `OnOpenArchive()`: Event handler invoked when OpenArchive occurs
 - `OnCloseArchive()`: Event handler invoked when CloseArchive occurs
 - `OnFinalizeArchive()`: Event handler invoked when FinalizeArchive occurs
@@ -23,11 +23,11 @@ The `zip.cpp` file provides essential functionality for core functionality. and 
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `OnInitialize()`: Procedura obsługi zdarzeń wywoływana gdy Initialize występuje
-- `ZipModule()`: Wykonuje ZipModule operację jako część podstawowa funkcjonalność
+- `ZipModule()`: Performs ZipModule operation as part of the component's functionality
 - `OnGetArchivePluginInfo()`: Procedura obsługi zdarzeń wywoływana gdy GetArchivePluginInfo występuje
 - `OnFinalize()`: Procedura obsługi zdarzeń wywoływana gdy Finalize występuje
 - `OnQueryArchive()`: Procedura obsługi zdarzeń wywoływana gdy QueryArchive występuje
-- `ZipArchive()`: Wykonuje ZipArchive operację jako część podstawowa funkcjonalność
+- `ZipArchive()`: Performs ZipArchive operation as part of the component's functionality
 - `OnOpenArchive()`: Procedura obsługi zdarzeń wywoływana gdy OpenArchive występuje
 - `OnCloseArchive()`: Procedura obsługi zdarzeń wywoływana gdy CloseArchive występuje
 - `OnFinalizeArchive()`: Procedura obsługi zdarzeń wywoływana gdy FinalizeArchive występuje

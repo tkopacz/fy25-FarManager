@@ -4,10 +4,10 @@
 Main functional areas: string utilities
 ### Key Functions
 - `AddEndSlash()`: Adds new EndSlash to collection or list
-- `CutToSlash()`: Executes CutToSlash operation as part of string utilities
-- `CutTo()`: Executes CutTo operation as part of string utilities
+- `CutToSlash()`: Performs CutToSlash operation as part of the component's functionality
+- `CutTo()`: Performs CutTo operation as part of the component's functionality
 - `ConvertSlashes()`: Converts data from one format or type to another
-- `Quote()`: Executes Quote operation as part of string utilities
+- `Quote()`: Performs Quote operation as part of the component's functionality
 ### Summary
 The `strmix.hpp` file provides essential functionality for string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

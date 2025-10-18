@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: menu management
 ### Key Classes
-- `FarMenu`: Implements menu management
-- `UserDataStruct`: Implements menu management
+- `FarMenu`: Performs FarMenu operation as part of the component's functionality
+- `UserDataStruct`: Performs UserDataStruct operation as part of the component's functionality
 ### Key Functions
 - `Add()`: Adds new item to collection or list
-- `Run()`: Executes Run operation as part of menu management
+- `Run()`: Performs Run operation as part of the component's functionality
 - `GetData()`: Retrieves Data from internal state or data structure
-- `Done()`: Executes Done operation as part of menu management
+- `Done()`: Performs Done operation as part of the component's functionality
 ### Summary
 The `FarMenu.hpp` file provides essential functionality for menu management. It defines 2 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

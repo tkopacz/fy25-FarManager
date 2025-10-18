@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `StateElement`: Implements core functionality
-- `StateMatrix`: Implements core functionality
+- `StateElement`: Performs StateElement operation as part of the component's functionality
+- `StateMatrix`: Allocates memory and initializes resources for StateMatrix
 ### Key Functions
 - `at()`: Constructor that initializes at object with provided parameters
 ### Summary
@@ -16,8 +16,8 @@ The `msearch.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `StateElement`: Implementuje podstawowa funkcjonalność
-- `StateMatrix`: Implementuje podstawowa funkcjonalność
+- `StateElement`: Performs StateElement operation as part of the component's functionality
+- `StateMatrix`: Allocates memory and initializes resources for StateMatrix
 ### Kluczowe Funkcje
 - `at()`: Konstruktor inicjalizujący at obiekt z dostarczonymi parametrami
 ### Podsumowanie

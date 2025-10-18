@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `PluginSettings`: Implements plugin interface
+- `PluginSettings`: Performs PluginSettings operation as part of the component's functionality
 ### Key Functions
 - `CreateSubKey()`: Creates and initializes new SubKey instance
 - `OpenSubKey()`: Opens resource and prepares it for access operations

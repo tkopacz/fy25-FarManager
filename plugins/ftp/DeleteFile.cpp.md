@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Classes
-- `DeleteData`: Implements file system operations
+- `DeleteData`: Removes or deletes the specified resource or item
 ### Key Functions
-- `idDeleteCB()`: Executes idDeleteCB operation as part of file system operations
-- `FP_DeleteRegKeyAll()`: Executes FP_DeleteRegKeyAll operation as part of file system operations
-- `ExpandList()`: Executes ExpandList operation as part of file system operations
+- `idDeleteCB()`: Evaluates conditions and returns a boolean indicating success or validity of idDeleteCB
+- `FP_DeleteRegKeyAll()`: Performs FP_DeleteRegKeyAll operation as part of the component's functionality
+- `ExpandList()`: Performs ExpandList operation as part of the component's functionality
 ### Summary
 The `DeleteFile.cpp` file provides essential functionality for file system operations. It defines 1 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

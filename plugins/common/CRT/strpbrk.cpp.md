@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `strpbrk()`: Executes strpbrk operation as part of string utilities
-- `wcspbrk()`: Executes wcspbrk operation as part of string utilities
+- `strpbrk()`: Performs strpbrk operation as part of the component's functionality
+- `wcspbrk()`: Performs wcspbrk operation as part of the component's functionality
 ### Summary
 The `strpbrk.cpp` file provides essential functionality for string utilities. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

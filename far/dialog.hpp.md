@@ -4,16 +4,16 @@
 This file implements functionality related to: Класс диалога Dialog.
 Main functional areas: dialog handling
 ### Key Classes
-- `Dialog`: Implements dialog handling
-- `DialogItemAutomation`: Implements dialog handling
-- `DialogItemEx`: Implements dialog handling
-- `DlgEdit`: Implements dialog handling
-- `History`: Implements dialog handling
-- `InitDialogItem`: Implements dialog handling
-- `Plugin`: Implements dialog handling
-- `centered`: Implements dialog handling
-- `private_tag`: Implements dialog handling
-- `suppress_redraw`: Implements dialog handling
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `DialogItemAutomation`: Performs DialogItemAutomation operation as part of the component's functionality
+- `DialogItemEx`: Performs DialogItemEx operation as part of the component's functionality
+- `DlgEdit`: Performs DlgEdit operation as part of the component's functionality
+- `History`: Performs History operation as part of the component's functionality
+- `InitDialogItem`: Initializes the component or system with required setup and configuration
+- `Plugin`: Performs Plugin operation as part of the component's functionality
+- `centered`: Performs centered operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `suppress_redraw`: Performs suppress_redraw operation as part of the component's functionality
 ### Key Functions
 - `Indent()`: Adjusts indentation level for text formatting or display
 - `AddAutomation()`: Adds automation behavior to dialog items for dynamic interaction handling

@@ -5,9 +5,9 @@ Main functional areas: dialog handling
 ### Key Functions
 - `UpdateFormats()`: Updates existing data with new values while preserving structure
 - `UpdatePlugins()`: Updates existing data with new values while preserving structure
-- `hndFilterOneFormat()`: Executes hndFilterOneFormat operation as part of dialog handling
-- `dlgFilterOneFormat()`: Executes dlgFilterOneFormat operation as part of dialog handling
-- `D()`: Executes D operation as part of dialog handling
+- `hndFilterOneFormat()`: Evaluates conditions and returns a boolean indicating success or validity of hndFilterOneFormat
+- `dlgFilterOneFormat()`: Evaluates conditions and returns boolean indicating success or validity
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgFilterOneFormat.cpp` file provides essential functionality for dialog handling. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

@@ -4,11 +4,11 @@
 This file implements functionality related to: Таблица цветов
 Main functional areas: core functionality
 ### Key Classes
-- `ColorsInit`: Implements core functionality
+- `ColorsInit`: Performs ColorsInit operation as part of the component's functionality
 ### Key Functions
-- `index_color()`: Executes index_color operation as part of core functionality
-- `reset()`: Executes reset operation as part of core functionality
-- `CustomLabel()`: Executes CustomLabel operation as part of core functionality
+- `index_color()`: Performs index_color operation as part of the component's functionality
+- `reset()`: Performs reset operation as part of the component's functionality
+- `CustomLabel()`: Performs CustomLabel operation as part of the component's functionality
 ### Summary
 The `palette.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -19,10 +19,10 @@ The `palette.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Таблица цветов
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ColorsInit`: Implementuje podstawowa funkcjonalność
+- `ColorsInit`: Performs ColorsInit operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `index_color()`: Wykonuje index_color operację jako część podstawowa funkcjonalność
-- `reset()`: Wykonuje reset operację jako część podstawowa funkcjonalność
-- `CustomLabel()`: Wykonuje CustomLabel operację jako część podstawowa funkcjonalność
+- `index_color()`: Performs index_color operation as part of the component's functionality
+- `reset()`: Performs reset operation as part of the component's functionality
+- `CustomLabel()`: Performs CustomLabel operation as part of the component's functionality
 ### Podsumowanie
 Plik `palette.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

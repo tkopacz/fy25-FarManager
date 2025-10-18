@@ -4,27 +4,27 @@
 This file implements functionality related to: Tests for common library
 Main functional areas: testing, singleton implementation
 ### Key Classes
-- `c`: Implements testing, singleton implementation
-- `d`: Implements testing, singleton implementation
-- `e`: Implements testing, singleton implementation
-- `foo`: Implements testing, singleton implementation
-- `impl`: Implements testing, singleton implementation
-- `raii`: Implements testing, singleton implementation
-- `s`: Implements testing, singleton implementation
-- `scoped_flags`: Implements testing, singleton implementation
-- `square`: Implements testing, singleton implementation
-- `test`: Implements testing, singleton implementation
+- `c`: Performs c operation as part of the component's functionality
+- `d`: Performs d operation as part of the component's functionality
+- `e`: Evaluates conditions and returns a boolean indicating success or validity of e
+- `foo`: Performs foo operation as part of the component's functionality
+- `impl`: Validates conditions and throws exceptions when errors are detected during impl operation
+- `raii`: Performs raii operation as part of the component's functionality
+- `s`: Performs s operation as part of the component's functionality
+- `scoped_flags`: Performs scoped_flags operation as part of the component's functionality
+- `square`: Performs square operation as part of the component's functionality
+- `test`: Performs test operation as part of the component's functionality
 ### Key Functions
-- `Matrix()`: Executes Matrix operation as part of testing, singleton implementation
+- `Matrix()`: Performs Matrix operation as part of the component's functionality
 - `Copy()`: Copies data from source to destination location
-- `ConstView()`: Executes ConstView operation as part of testing, singleton implementation
-- `CharDist()`: Executes CharDist operation as part of testing, singleton implementation
-- `test_enum_tokens()`: Executes test_enum_tokens operation as part of testing, singleton implementation
-- `square()`: Executes square operation as part of testing, singleton implementation
-- `f()`: Executes f operation as part of testing, singleton implementation
-- `TestKeepAlive()`: Executes TestKeepAlive operation as part of testing, singleton implementation
-- `LazyValue()`: Executes LazyValue operation as part of testing, singleton implementation
-- `a()`: Executes a operation as part of testing, singleton implementation
+- `ConstView()`: Performs ConstView operation as part of the component's functionality
+- `CharDist()`: Performs CharDist operation as part of the component's functionality
+- `test_enum_tokens()`: Performs test_enum_tokens operation as part of the component's functionality
+- `square()`: Performs square operation as part of the component's functionality
+- `f()`: Evaluates conditions and returns boolean indicating success or validity
+- `TestKeepAlive()`: Performs TestKeepAlive operation as part of the component's functionality
+- `LazyValue()`: Performs LazyValue operation as part of the component's functionality
+- `a()`: Performs a operation as part of the component's functionality
 ### Namespaces
 - `detail`
 - `utility_integers_detail`

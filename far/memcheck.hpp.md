@@ -4,7 +4,7 @@
 This file implements functionality related to: Memory leak detector
 Main functional areas: core functionality
 ### Key Classes
-- `checker`: Implements core functionality
+- `checker`: Validates data integrity and checks correctness of input
 ### Namespaces
 - `memcheck`
 ### Summary
@@ -17,7 +17,7 @@ The `memcheck.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Memory leak detector
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `checker`: Implementuje podstawowa funkcjonalność
+- `checker`: Validates data integrity and checks correctness of input
 ### Przestrzenie nazw
 - `memcheck`
 ### Podsumowanie

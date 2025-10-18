@@ -6,9 +6,9 @@ Main functional areas: core functionality
 ### Key Functions
 - `CpMap()`: Constructor that initializes CpMap object with provided parameters
 - `GetCodePage()`: Retrieves CodePage from internal state or data structure
-- `Report()`: Executes Report operation as part of core functionality
-- `format_result()`: Executes format_result operation as part of core functionality
-- `Detector()`: Executes Detector operation as part of core functionality
+- `Report()`: Performs Report operation as part of the component's functionality
+- `format_result()`: Performs format_result operation as part of the component's functionality
+- `Detector()`: Performs Detector operation as part of the component's functionality
 ### Namespaces
 - `uchardet`
 ### Summary
@@ -23,9 +23,9 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `CpMap()`: Konstruktor inicjalizujący CpMap obiekt z dostarczonymi parametrami
 - `GetCodePage()`: Pobiera CodePage ze stanu wewnętrznego lub struktury danych
-- `Report()`: Wykonuje Report operację jako część podstawowa funkcjonalność
-- `format_result()`: Wykonuje format_wynik operację jako część podstawowa funkcjonalność
-- `Detector()`: Wykonuje Detector operację jako część podstawowa funkcjonalność
+- `Report()`: Performs Report operation as part of the component's functionality
+- `format_result()`: Performs format_result operation as part of the component's functionality
+- `Detector()`: Performs Detector operation as part of the component's functionality
 ### Przestrzenie nazw
 - `uchardet`
 ### Podsumowanie

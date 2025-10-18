@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `separator_t`: Implements core functionality
+- `separator_t`: Performs separator_t operation as part of the component's functionality
 ### Key Functions
-- `hex_to_int()`: Executes hex_to_int operation as part of core functionality
+- `hex_to_int()`: Validates conditions and throws exceptions when errors are detected during hex_to_int operation
 - `parse_impl()`: Parses input string or data into structured format
 - `parse()`: Parses input string or data into structured format
-- `int_to_hex()`: Executes int_to_hex operation as part of core functionality
-- `serialise_impl()`: Executes serialise_impl operation as part of core functionality
-- `serialise()`: Executes serialise operation as part of core functionality
-- `try_parse()`: Executes try_parse operation as part of core functionality
-- `str()`: Executes str operation as part of core functionality
+- `int_to_hex()`: Performs int_to_hex operation as part of the component's functionality
+- `serialise_impl()`: Performs serialise_impl operation as part of the component's functionality
+- `serialise()`: Performs serialise operation as part of the component's functionality
+- `try_parse()`: Performs try_parse operation as part of the component's functionality
+- `str()`: Performs str operation as part of the component's functionality
 ### Namespaces
 - `detail`
 - `literals`
@@ -27,16 +27,16 @@ The `uuid.hpp` file provides essential functionality for core functionality. It 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `separator_t`: Implementuje podstawowa funkcjonalność
+- `separator_t`: Performs separator_t operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `hex_to_int()`: Wykonuje hex_to_int operację jako część podstawowa funkcjonalność
+- `hex_to_int()`: Validates conditions and throws exceptions when errors are detected during hex_to_int operation
 - `parse_impl()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
 - `parse()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `int_to_hex()`: Wykonuje int_to_hex operację jako część podstawowa funkcjonalność
-- `serialise_impl()`: Wykonuje serialise_impl operację jako część podstawowa funkcjonalność
-- `serialise()`: Wykonuje serialise operację jako część podstawowa funkcjonalność
-- `try_parse()`: Wykonuje try_parse operację jako część podstawowa funkcjonalność
-- `str()`: Wykonuje str operację jako część podstawowa funkcjonalność
+- `int_to_hex()`: Performs int_to_hex operation as part of the component's functionality
+- `serialise_impl()`: Performs serialise_impl operation as part of the component's functionality
+- `serialise()`: Performs serialise operation as part of the component's functionality
+- `try_parse()`: Performs try_parse operation as part of the component's functionality
+- `str()`: Performs str operation as part of the component's functionality
 ### Przestrzenie nazw
 - `detail`
 - `literals`

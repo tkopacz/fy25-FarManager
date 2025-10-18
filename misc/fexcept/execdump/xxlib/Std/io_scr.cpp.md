@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: screen operations
 ### Key Functions
-- `MakePathString()`: Executes MakePathString operation as part of screen operations
-- `MakePatternStr()`: Executes MakePatternStr operation as part of screen operations
+- `MakePathString()`: Performs MakePathString operation as part of the component's functionality
+- `MakePatternStr()`: Performs MakePatternStr operation as part of the component's functionality
 ### Summary
 The `io_scr.cpp` file provides essential functionality for screen operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

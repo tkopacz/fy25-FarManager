@@ -4,10 +4,10 @@
 This file implements functionality related to: */
 Main functional areas: file system operations
 ### Key Classes
-- `file_walker`: Implements file system operations
-- `i_find_file_handle_impl`: Implements file system operations
+- `file_walker`: Performs file_walker operation as part of the component's functionality
+- `i_find_file_handle_impl`: Performs i_find_file_handle_impl operation as part of the component's functionality
 ### Key Functions
-- `SHErrorToWinError()`: Executes SHErrorToWinError operation as part of file system operations
+- `SHErrorToWinError()`: Performs SHErrorToWinError operation as part of the component's functionality
 - `set_current_directory_syncronisation()`: Updates _current_directory_syncronisation in internal state or configuration
 - `is_standard_letter()`: Tests whether _standard_letter condition is true or property exists
 - `get_number()`: Retrieves _number from internal state or data structure

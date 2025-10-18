@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AssertionPrinter`: Implements singleton implementation
-- `BySectionInfo`: Implements singleton implementation
-- `CerrStream`: Implements singleton implementation
-- `ColumnBreak`: Implements singleton implementation
-- `ColumnInfo`: Implements singleton implementation
-- `ConsoleAssertionPrinter`: Implements singleton implementation
-- `Duration`: Implements singleton implementation
-- `Endianness`: Implements singleton implementation
-- `FileRedirect`: Implements singleton implementation
-- `FloatingPointKind`: Implements singleton implementation
+- `AssertionPrinter`: Performs AssertionPrinter operation as part of the component's functionality
+- `BySectionInfo`: Performs BySectionInfo operation as part of the component's functionality
+- `CerrStream`: Performs CerrStream operation as part of the component's functionality
+- `ColumnBreak`: Performs ColumnBreak operation as part of the component's functionality
+- `ColumnInfo`: Performs ColumnInfo operation as part of the component's functionality
+- `ConsoleAssertionPrinter`: Validates conditions and throws exceptions when errors are detected during ConsoleAssertionPrinter operation
+- `Duration`: Performs Duration operation as part of the component's functionality
+- `Endianness`: Performs Endianness operation as part of the component's functionality
+- `FileRedirect`: Performs FileRedirect operation as part of the component's functionality
+- `FloatingPointKind`: Performs FloatingPointKind operation as part of the component's functionality
 ### Key Functions
-- `analyse()`: Executes analyse operation as part of singleton implementation
-- `throw_optimized_away_error()`: Executes throw_optimized_away_error operation as part of singleton implementation
-- `resample()`: Executes resample operation as part of singleton implementation
-- `outlier_variance()`: Executes outlier_variance operation as part of singleton implementation
-- `erf_inv()`: Executes erf_inv operation as part of singleton implementation
-- `standard_deviation()`: Executes standard_deviation operation as part of singleton implementation
-- `weighted_average_quantile()`: Executes weighted_average_quantile operation as part of singleton implementation
-- `classify_outliers()`: Executes classify_outliers operation as part of singleton implementation
-- `mean()`: Executes mean operation as part of singleton implementation
-- `normal_cdf()`: Executes normal_cdf operation as part of singleton implementation
+- `analyse()`: Iterates through items and collects results into a container
+- `throw_optimized_away_error()`: Validates conditions and throws exceptions when errors are detected during throw_optimized_away_error operation
+- `resample()`: Iterates through items and collects results into a container
+- `outlier_variance()`: Performs outlier_variance operation as part of the component's functionality
+- `erf_inv()`: Performs erf_inv operation as part of the component's functionality
+- `standard_deviation()`: Performs standard_deviation operation as part of the component's functionality
+- `weighted_average_quantile()`: Performs weighted_average_quantile operation as part of the component's functionality
+- `classify_outliers()`: Performs classify_outliers operation as part of the component's functionality
+- `mean()`: Performs mean operation as part of the component's functionality
+- `normal_cdf()`: Performs normal_cdf operation as part of the component's functionality
 ### Namespaces
 - `Benchmark`
 - `Catch`

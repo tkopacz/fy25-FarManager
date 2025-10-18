@@ -4,9 +4,9 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `HaHeader`: Implements core functionality
+- `HaHeader`: Performs HaHeader operation as part of the component's functionality
 ### Key Functions
-- `UnixTimeToFileTime()`: Executes UnixTimeToFileTime operation as part of core functionality
+- `UnixTimeToFileTime()`: Performs UnixTimeToFileTime operation as part of the component's functionality
 - `SetFarInfo()`: Updates FarInfo in internal state or configuration
 - `IsArchive()`: Tests whether Archive condition is true or property exists
 - `OpenArchive()`: Opens resource and prepares it for access operations
@@ -24,9 +24,9 @@ The `ha.cpp` file provides essential functionality for core functionality. It de
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `HaHeader`: Implementuje podstawowa funkcjonalność
+- `HaHeader`: Performs HaHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `UnixTimeToFileTime()`: Wykonuje UnixTimeToFileTime operację jako część podstawowa funkcjonalność
+- `UnixTimeToFileTime()`: Performs UnixTimeToFileTime operation as part of the component's functionality
 - `SetFarInfo()`: Aktualizuje FarInfo w stanie wewnętrznym lub konfiguracji
 - `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
 - `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu

@@ -4,20 +4,20 @@
 This file implements functionality related to: файловые панели
 Main functional areas: panel management, file system operations
 ### Key Classes
-- `CommandLine`: Implements panel management, file system operations
-- `MenuBar`: Implements panel management, file system operations
-- `panel_data`: Implements panel management, file system operations
-- `private_tag`: Implements panel management, file system operations
+- `CommandLine`: Performs CommandLine operation as part of the component's functionality
+- `MenuBar`: Performs MenuBar operation as part of the component's functionality
+- `panel_data`: Performs panel_data operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
-- `FilePanels()`: Executes FilePanels operation as part of panel management, file system operations
+- `FilePanels()`: Performs FilePanels operation as part of the component's functionality
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `VMProcess()`: Processes virtual machine operations or commands
 - `SetScreenPosition()`: Updates ScreenPosition in internal state or configuration
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
 - `GetType()`: Retrieves Type from internal state or data structure
-- `RedrawKeyBar()`: Executes RedrawKeyBar operation as part of panel management, file system operations
+- `RedrawKeyBar()`: Performs RedrawKeyBar operation as part of the component's functionality
 - `ShowConsoleTitle()`: Displays content or makes visual element visible on screen
 ### Summary
 The `filepanels.hpp` file provides essential functionality for panel management, file system operations. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

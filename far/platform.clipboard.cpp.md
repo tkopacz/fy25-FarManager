@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: clipboard operations
 ### Key Classes
-- `clip_ptr`: Implements clipboard operations
-- `clipboard_format`: Implements clipboard operations
-- `deleter`: Implements clipboard operations
-- `state`: Implements clipboard operations
-- `unlocker`: Implements clipboard operations
+- `clip_ptr`: Performs clip_ptr operation as part of the component's functionality
+- `clipboard_format`: Performs clipboard_format operation as part of the component's functionality
+- `deleter`: Removes or deletes the specified resource or item
+- `state`: Performs state operation as part of the component's functionality
+- `unlocker`: Performs unlocker operation as part of the component's functionality
 ### Key Functions
-- `alloc()`: Executes alloc operation as part of clipboard operations
-- `lock()`: Executes lock operation as part of clipboard operations
+- `alloc()`: Performs alloc operation as part of the component's functionality
+- `lock()`: Performs lock operation as part of the component's functionality
 - `copy()`: Copies data from source to destination location
-- `enable_ansi_to_unicode_conversion_workaround()`: Executes enable_ansi_to_unicode_conversion_workaround operation as part of clipboard operations
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation as part of the component's functionality
 - `open()`: Opens clipboard for exclusive access to perform read/write operations
 - `close()`: Closes clipboard and releases exclusive lock, making it available for other processes
 - `clear()`: Empties clipboard contents and releases associated memory
 - `set_data()`: Updates _data in internal state or configuration
-- `RegisterFormat()`: Executes RegisterFormat operation as part of clipboard operations
+- `RegisterFormat()`: Performs RegisterFormat operation as part of the component's functionality
 - `set_text()`: Places text content into the system or internal clipboard
 ### Namespaces
 - `detail`

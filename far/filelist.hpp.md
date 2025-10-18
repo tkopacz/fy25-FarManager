@@ -4,25 +4,25 @@
 This file implements functionality related to: Файловая панель - общие функции
 Main functional areas: file system operations
 ### Key Classes
-- `FileListItem`: Implements file system operations
-- `Plugin`: Implements file system operations
-- `PluginsListItem`: Implements file system operations
-- `PrevDataItem`: Implements file system operations
-- `background_updater`: Implements file system operations
-- `data_lock_ptr`: Implements file system operations
-- `element`: Implements file system operations
-- `list_data`: Implements file system operations
-- `list_data_lock`: Implements file system operations
-- `multifilter`: Implements file system operations
+- `FileListItem`: Performs FileListItem operation as part of the component's functionality
+- `Plugin`: Performs Plugin operation as part of the component's functionality
+- `PluginsListItem`: Performs PluginsListItem operation as part of the component's functionality
+- `PrevDataItem`: Performs PrevDataItem operation as part of the component's functionality
+- `background_updater`: Performs background_updater operation as part of the component's functionality
+- `data_lock_ptr`: Performs data_lock_ptr operation as part of the component's functionality
+- `element`: Performs element operation as part of the component's functionality
+- `list_data`: Performs list_data operation as part of the component's functionality
+- `list_data_lock`: Performs list_data_lock operation as part of the component's functionality
+- `multifilter`: Performs multifilter operation as part of the component's functionality
 ### Key Functions
-- `FileListItem()`: Executes FileListItem operation as part of file system operations
-- `AllocationSize()`: Executes AllocationSize operation as part of file system operations
+- `FileListItem()`: Performs FileListItem operation as part of the component's functionality
+- `AllocationSize()`: Performs AllocationSize operation as part of the component's functionality
 - `IsNumberOfLinksRead()`: Tests whether NumberOfLinksRead condition is true or property exists
-- `NumberOfLinks()`: Executes NumberOfLinks operation as part of file system operations
+- `NumberOfLinks()`: Performs NumberOfLinks operation as part of the component's functionality
 - `IsNumberOfStreamsRead()`: Tests whether NumberOfStreamsRead condition is true or property exists
-- `NumberOfStreams()`: Executes NumberOfStreams operation as part of file system operations
+- `NumberOfStreams()`: Performs NumberOfStreams operation as part of the component's functionality
 - `IsStreamsSizeRead()`: Tests whether StreamsSizeRead condition is true or property exists
-- `StreamsSize()`: Executes StreamsSize operation as part of file system operations
+- `StreamsSize()`: Performs StreamsSize operation as part of the component's functionality
 - `IsOwnerRead()`: Tests whether OwnerRead condition is true or property exists
 - `Owner()`: Constructor that initializes Owner object with provided parameters
 ### Namespaces

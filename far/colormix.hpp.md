@@ -4,23 +4,23 @@
 This file implements functionality related to: Работа с цветами
 Main functional areas: color management
 ### Key Classes
-- `FarColor`: Implements color management
-- `index_color_256`: Implements color management
-- `rgb6`: Implements color management
-- `rgba`: Implements color management
-- `single_color`: Implements color management
-- `std`: Implements color management
+- `FarColor`: Performs FarColor operation as part of the component's functionality
+- `index_color_256`: Performs index_color_256 operation as part of the component's functionality
+- `rgb6`: Performs rgb6 operation as part of the component's functionality
+- `rgba`: Performs rgba operation as part of the component's functionality
+- `single_color`: Performs single_color operation as part of the component's functionality
+- `std`: Performs std operation as part of the component's functionality
 ### Key Functions
-- `foreground()`: Executes foreground operation as part of color management
-- `background()`: Executes background operation as part of color management
-- `underline()`: Executes underline operation as part of color management
-- `default_color()`: Executes default_color operation as part of color management
-- `index_bits()`: Executes index_bits operation as part of color management
-- `color_bits()`: Executes color_bits operation as part of color management
-- `alpha_bits()`: Executes alpha_bits operation as part of color management
-- `index_value()`: Executes index_value operation as part of color management
-- `color_value()`: Executes color_value operation as part of color management
-- `alpha_value()`: Executes alpha_value operation as part of color management
+- `foreground()`: Performs foreground operation as part of the component's functionality
+- `background()`: Performs background operation as part of the component's functionality
+- `underline()`: Performs underline operation as part of the component's functionality
+- `default_color()`: Performs default_color operation as part of the component's functionality
+- `index_bits()`: Performs index_bits operation as part of the component's functionality
+- `color_bits()`: Performs color_bits operation as part of the component's functionality
+- `alpha_bits()`: Performs alpha_bits operation as part of the component's functionality
+- `index_value()`: Performs index_value operation as part of the component's functionality
+- `color_value()`: Performs color_value operation as part of the component's functionality
+- `alpha_value()`: Performs alpha_value operation as part of the component's functionality
 ### Namespaces
 - `colors`
 - `index`

@@ -4,18 +4,18 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `ModuleImports`: Implements core functionality
+- `ModuleImports`: Initializes COM (Component Object Model) interfaces for interoperability with Windows components
 ### Key Functions
-- `ModuleFile()`: Executes ModuleFile operation as part of core functionality
-- `StreamBuffer()`: Executes StreamBuffer operation as part of core functionality
-- `Stream()`: Executes Stream operation as part of core functionality
+- `ModuleFile()`: Performs ModuleFile operation as part of the component's functionality
+- `StreamBuffer()`: Performs StreamBuffer operation as part of the component's functionality
+- `Stream()`: Performs Stream operation as part of the component's functionality
 - `IsPlugin()`: Tests whether Plugin condition is true or property exists
-- `PrepareModulePath()`: Executes PrepareModulePath operation as part of core functionality
+- `PrepareModulePath()`: Performs PrepareModulePath operation as part of the component's functionality
 - `CreatePluginStartupInfo()`: Creates and initializes new PluginStartupInfo instance
 - `ShowMessageAboutIllegalPluginVersion()`: Displays content or makes visual element visible on screen
-- `MakeSignature()`: Executes MakeSignature operation as part of core functionality
+- `MakeSignature()`: Performs MakeSignature operation as part of the component's functionality
 - `SetUuid()`: Updates Uuid in internal state or configuration
-- `CheckFarVersion()`: Validates data integrity and checks for correctness
+- `CheckFarVersion()`: Validates conditions and returns boolean indicating whether validation passed
 ### Summary
 The `plclass.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,16 +26,16 @@ The `plclass.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ModuleImports`: Implementuje podstawowa funkcjonalność
+- `ModuleImports`: Initializes COM (Component Object Model) interfaces for interoperability with Windows components
 ### Kluczowe Funkcje
-- `ModuleFile()`: Wykonuje ModuleFile operację jako część podstawowa funkcjonalność
-- `StreamBuffer()`: Wykonuje StreamBuffer operację jako część podstawowa funkcjonalność
-- `Stream()`: Wykonuje Stream operację jako część podstawowa funkcjonalność
+- `ModuleFile()`: Performs ModuleFile operation as part of the component's functionality
+- `StreamBuffer()`: Performs StreamBuffer operation as part of the component's functionality
+- `Stream()`: Performs Stream operation as part of the component's functionality
 - `IsPlugin()`: Testuje czy Plugin warunek jest prawdziwy lub właściwość istnieje
-- `PrepareModulePath()`: Wykonuje PrepareModulePath operację jako część podstawowa funkcjonalność
+- `PrepareModulePath()`: Performs PrepareModulePath operation as part of the component's functionality
 - `CreatePluginStartupInfo()`: Tworzy i inicjalizuje nowy PluginStartupInfo instancję
 - `ShowMessageAboutIllegalPluginVersion()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `MakeSignature()`: Wykonuje MakeSignature operację jako część podstawowa funkcjonalność
+- `MakeSignature()`: Performs MakeSignature operation as part of the component's functionality
 - `SetUuid()`: Aktualizuje Uuid w stanie wewnętrznym lub konfiguracji
 - `CheckFarVersion()`: Waliduje integralność danych i sprawdza poprawność
 ### Podsumowanie

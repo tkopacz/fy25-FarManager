@@ -4,10 +4,10 @@
 This file implements functionality related to: static list of third-party components
 Main functional areas: core functionality
 ### Key Classes
-- `component`: Implements core functionality
-- `components_list`: Implements core functionality
+- `component`: Performs component operation as part of the component's functionality
+- `components_list`: Performs components_list operation as part of the component's functionality
 ### Key Functions
-- `component()`: Executes component operation as part of core functionality
+- `component()`: Performs component operation as part of the component's functionality
 - `GetComponentsInfo()`: Retrieves ComponentsInfo from internal state or data structure
 ### Namespaces
 - `components`
@@ -21,10 +21,10 @@ The `components.hpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: static list of third-party components
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `component`: Implementuje podstawowa funkcjonalność
-- `components_list`: Implementuje podstawowa funkcjonalność
+- `component`: Performs component operation as part of the component's functionality
+- `components_list`: Performs components_list operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `component()`: Wykonuje component operację jako część podstawowa funkcjonalność
+- `component()`: Performs component operation as part of the component's functionality
 - `GetComponentsInfo()`: Pobiera ComponentsInfo ze stanu wewnętrznego lub struktury danych
 ### Przestrzenie nazw
 - `components`

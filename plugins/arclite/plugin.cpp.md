@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `Plugin`: Implements plugin interface
-- `PluginPanelItemAccessor`: Implements plugin interface
-- `PluginPanelItems`: Implements plugin interface
+- `Plugin`: Allocates memory and initializes resources for Plugin
+- `PluginPanelItemAccessor`: Performs PluginPanelItemAccessor operation as part of the component's functionality
+- `PluginPanelItems`: Performs PluginPanelItems operation as part of the component's functionality
 ### Key Functions
 - `open()`: Opens resource and prepares it for access operations
 - `guess_fs_ext()`: Constructor that initializes guess_fs_ext object with provided parameters
-- `correct_part_root_name()`: Executes correct_part_root_name operation as part of plugin interface
-- `part_index_to_item()`: Executes part_index_to_item operation as part of plugin interface
+- `correct_part_root_name()`: Performs correct_part_root_name operation as part of the component's functionality
+- `part_index_to_item()`: Evaluates conditions and returns a boolean indicating success or validity of part_index_to_item
 - `set_partition()`: Updates _partition in internal state or configuration
-- `info()`: Executes info operation as part of plugin interface
+- `info()`: Iterates through items and collects results into a container
 - `set_dir()`: Updates _dir in internal state or configuration
-- `list()`: Executes list operation as part of plugin interface
+- `list()`: Opens and manages file access for reading or writing operations
 - `get_separate_dir_path()`: Retrieves _separate_dir_path from internal state or data structure
-- `extract()`: Executes extract operation as part of plugin interface
+- `extract()`: Iterates through items and collects results into a container
 ### Summary
 The `plugin.cpp` file provides essential functionality for plugin interface. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

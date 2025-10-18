@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `Options`: Implements file viewing
+- `Options`: Performs Options operation as part of the component's functionality
 ### Key Functions
 - `IsHlf()`: Tests whether Hlf condition is true or property exists
-- `RestorePosition()`: Executes RestorePosition operation as part of file viewing
+- `RestorePosition()`: Performs RestorePosition operation as part of the component's functionality
 - `ShowHelp()`: Displays content or makes visual element visible on screen
 - `ShowCurrentHelpTopic()`: Displays content or makes visual element visible on screen
 - `ShowHelpFromTempFile()`: Displays content or makes visual element visible on screen
 - `GetPluginConfig()`: Retrieves PluginConfig from internal state or data structure
-- `inputrecord_compare()`: Executes inputrecord_compare operation as part of file viewing
+- `inputrecord_compare()`: Evaluates conditions and returns a boolean indicating success or validity of inputrecord_compare
 - `FindPluginHelp()`: Searches for PluginHelp in collection and returns position or reference
-- `FileExists()`: Executes FileExists operation as part of file viewing
-- `StrToGuid()`: Executes StrToGuid operation as part of file viewing
+- `FileExists()`: Checks state or conditions and returns boolean indicating the result
+- `StrToGuid()`: Evaluates conditions and returns boolean indicating success or validity
 ### Summary
 The `HlfViewer.cpp` file provides essential functionality for file viewing. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

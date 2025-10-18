@@ -4,7 +4,7 @@
 This file implements functionality related to: User menu и есть
 Main functional areas: menu management
 ### Key Functions
-- `user_menu()`: Executes user_menu operation as part of menu management
+- `user_menu()`: Performs user_menu operation as part of the component's functionality
 ### Summary
 The `usermenu.hpp` file provides essential functionality for menu management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

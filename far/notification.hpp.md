@@ -4,24 +4,24 @@
 This file implements functionality related to: */
 Main functional areas: singleton implementation
 ### Key Classes
-- `event_handler`: Implements singleton implementation
-- `listener`: Implements singleton implementation
-- `message`: Implements singleton implementation
-- `message_manager`: Implements singleton implementation
-- `scope`: Implements singleton implementation
-- `update_devices_message`: Implements singleton implementation
-- `wm_listener`: Implements singleton implementation
+- `event_handler`: Callback function that handles specific events or notifications
+- `listener`: Performs listener operation as part of the component's functionality
+- `message`: Performs message operation as part of the component's functionality
+- `message_manager`: Performs message_manager operation as part of the component's functionality
+- `scope`: Performs scope operation as part of the component's functionality
+- `update_devices_message`: Updates the current state or data with new values
+- `wm_listener`: Performs wm_listener operation as part of the component's functionality
 ### Key Functions
-- `subscribe()`: Executes subscribe operation as part of singleton implementation
-- `unsubscribe()`: Executes unsubscribe operation as part of singleton implementation
-- `notify()`: Executes notify operation as part of singleton implementation
-- `dispatch()`: Executes dispatch operation as part of singleton implementation
-- `enable_power_notifications()`: Executes enable_power_notifications operation as part of singleton implementation
-- `disable_power_notifications()`: Executes disable_power_notifications operation as part of singleton implementation
-- `suppressor()`: Executes suppressor operation as part of singleton implementation
-- `commit_add()`: Executes commit_add operation as part of singleton implementation
-- `commit_remove()`: Executes commit_remove operation as part of singleton implementation
-- `suppress_dispatch()`: Executes suppress_dispatch operation as part of singleton implementation
+- `subscribe()`: Performs subscribe operation as part of the component's functionality
+- `unsubscribe()`: Performs unsubscribe operation as part of the component's functionality
+- `notify()`: Performs notify operation as part of the component's functionality
+- `dispatch()`: Performs dispatch operation as part of the component's functionality
+- `enable_power_notifications()`: Performs enable_power_notifications operation as part of the component's functionality
+- `disable_power_notifications()`: Performs disable_power_notifications operation as part of the component's functionality
+- `suppressor()`: Performs suppressor operation as part of the component's functionality
+- `commit_add()`: Performs commit_add operation as part of the component's functionality
+- `commit_remove()`: Performs commit_remove operation as part of the component's functionality
+- `suppress_dispatch()`: Performs suppress_dispatch operation as part of the component's functionality
 ### Namespaces
 - `detail`
 ### Summary

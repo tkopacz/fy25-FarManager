@@ -4,8 +4,8 @@
 Main functional areas: core functionality
 ### Key Functions
 - `source_location_to_string()`: Converts object to string representation for display or serialization
-- `with_exception_stacktrace()`: Executes with_exception_stacktrace operation as part of core functionality
-- `throw_far_exception()`: Executes throw_far_exception operation as part of core functionality
+- `with_exception_stacktrace()`: Validates conditions and throws exceptions when errors are detected during with_exception_stacktrace operation
+- `throw_far_exception()`: Validates conditions and throws exceptions when errors are detected during throw_far_exception operation
 ### Namespaces
 - `detail`
 ### Summary
@@ -18,8 +18,8 @@ The `exception.cpp` file provides essential functionality for core functionality
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `source_location_to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `with_exception_stacktrace()`: Wykonuje with_exception_stacktrace operację jako część podstawowa funkcjonalność
-- `throw_far_exception()`: Wykonuje throw_far_exception operację jako część podstawowa funkcjonalność
+- `with_exception_stacktrace()`: Validates conditions and throws exceptions when errors are detected during with_exception_stacktrace operation
+- `throw_far_exception()`: Validates conditions and throws exceptions when errors are detected during throw_far_exception operation
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

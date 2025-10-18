@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `from_string()`: Executes from_string operation as part of string utilities
-- `constexpr()`: Executes constexpr operation as part of string utilities
-- `Data()`: Executes Data operation as part of string utilities
-- `from_string_long()`: Executes from_string_long operation as part of string utilities
+- `from_string()`: Performs from_string operation as part of the component's functionality
+- `constexpr()`: Performs constexpr operation as part of the component's functionality
+- `Data()`: Performs Data operation as part of the component's functionality
+- `from_string_long()`: Performs from_string_long operation as part of the component's functionality
 ### Namespaces
 - `detail`
 - `std`

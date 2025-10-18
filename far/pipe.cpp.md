@@ -5,7 +5,7 @@ This file implements functionality related to: Pipe-based IPC
 Main functional areas: core functionality
 ### Key Functions
 - `read()`: Reads data from source into provided buffer
-- `far_exception()`: Executes far_exception operation as part of core functionality
+- `far_exception()`: Performs far_exception operation as part of the component's functionality
 - `write()`: Writes data from buffer to destination
 ### Namespaces
 - `pipe`
@@ -20,7 +20,7 @@ Ten plik implementuje funkcjonalność związaną z: Pipe-based IPC
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
 - `read()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `far_exception()`: Wykonuje far_exception operację jako część podstawowa funkcjonalność
+- `far_exception()`: Performs far_exception operation as part of the component's functionality
 - `write()`: Zapisuje dane z bufora do miejsca docelowego
 ### Przestrzenie nazw
 - `pipe`

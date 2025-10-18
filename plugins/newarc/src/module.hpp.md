@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `AddStruct`: Implements core functionality
-- `ArchiveFormatInfo`: Implements core functionality
-- `ArchiveItemInfo`: Implements core functionality
-- `ArchivePassword`: Implements core functionality
-- `ArchivePluginInfo`: Implements core functionality
-- `CloseArchiveStruct`: Implements core functionality
-- `ConfigureFormatStruct`: Implements core functionality
-- `CreateArchiveStruct`: Implements core functionality
-- `DeleteStruct`: Implements core functionality
-- `ExtractStruct`: Implements core functionality
+- `AddStruct`: Performs AddStruct operation as part of the component's functionality
+- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation as part of the component's functionality
+- `ArchiveItemInfo`: Performs ArchiveItemInfo operation as part of the component's functionality
+- `ArchivePassword`: Performs ArchivePassword operation as part of the component's functionality
+- `ArchivePluginInfo`: Performs ArchivePluginInfo operation as part of the component's functionality
+- `CloseArchiveStruct`: Closes an open resource or connection and releases associated resources
+- `ConfigureFormatStruct`: Performs ConfigureFormatStruct operation as part of the component's functionality
+- `CreateArchiveStruct`: Creates and initializes a new instance or resource
+- `DeleteStruct`: Removes or deletes the specified resource or item
+- `ExtractStruct`: Performs ExtractStruct operation as part of the component's functionality
 ### Key Functions
-- `PluginEntry()`: Executes PluginEntry operation as part of core functionality
+- `PluginEntry()`: Performs PluginEntry operation as part of the component's functionality
 ### Summary
 The `module.hpp` file provides essential functionality for core functionality. It defines 22 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `module.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `AddStruct`: Implementuje podstawowa funkcjonalność
-- `ArchiveFormatInfo`: Implementuje podstawowa funkcjonalność
-- `ArchiveItemInfo`: Implementuje podstawowa funkcjonalność
-- `ArchivePassword`: Implementuje podstawowa funkcjonalność
-- `ArchivePluginInfo`: Implementuje podstawowa funkcjonalność
-- `CloseArchiveStruct`: Implementuje podstawowa funkcjonalność
-- `ConfigureFormatStruct`: Implementuje podstawowa funkcjonalność
-- `CreateArchiveStruct`: Implementuje podstawowa funkcjonalność
-- `DeleteStruct`: Implementuje podstawowa funkcjonalność
-- `ExtractStruct`: Implementuje podstawowa funkcjonalność
+- `AddStruct`: Performs AddStruct operation as part of the component's functionality
+- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation as part of the component's functionality
+- `ArchiveItemInfo`: Performs ArchiveItemInfo operation as part of the component's functionality
+- `ArchivePassword`: Performs ArchivePassword operation as part of the component's functionality
+- `ArchivePluginInfo`: Performs ArchivePluginInfo operation as part of the component's functionality
+- `CloseArchiveStruct`: Closes an open resource or connection and releases associated resources
+- `ConfigureFormatStruct`: Performs ConfigureFormatStruct operation as part of the component's functionality
+- `CreateArchiveStruct`: Creates and initializes a new instance or resource
+- `DeleteStruct`: Removes or deletes the specified resource or item
+- `ExtractStruct`: Performs ExtractStruct operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `PluginEntry()`: Wykonuje PluginEntry operację jako część podstawowa funkcjonalność
+- `PluginEntry()`: Performs PluginEntry operation as part of the component's functionality
 ### Podsumowanie
 Plik `module.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 22 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

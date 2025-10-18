@@ -4,8 +4,8 @@
 This file implements functionality related to: Archive Support API for FAR Manager 1.70 and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ArcInfo`: Implements core functionality
-- `ArcItemInfo`: Implements core functionality
+- `ArcInfo`: Performs ArcInfo operation as part of the component's functionality
+- `ArcItemInfo`: Performs ArcItemInfo operation as part of the component's functionality
 ### Key Functions
 - `LoadFormatModule()`: Loads data or resources from storage into memory
 - `SetFarInfo()`: Updates FarInfo in internal state or configuration
@@ -26,8 +26,8 @@ The `fmt.hpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Archive Support API for FAR Manager 1.70 and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArcInfo`: Implementuje podstawowa funkcjonalność
-- `ArcItemInfo`: Implementuje podstawowa funkcjonalność
+- `ArcInfo`: Performs ArcInfo operation as part of the component's functionality
+- `ArcItemInfo`: Performs ArcItemInfo operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `LoadFormatModule()`: Ładuje dane lub zasoby z magazynu do pamięci
 - `SetFarInfo()`: Aktualizuje FarInfo w stanie wewnętrznym lub konfiguracji

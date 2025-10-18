@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: testing
 ### Key Classes
-- `ArchiveTester`: Implements testing
+- `ArchiveTester`: Performs ArchiveTester operation as part of the component's functionality
 ### Key Functions
-- `do_update_ui()`: Executes do_update_ui operation as part of testing
-- `ps()`: Executes ps operation as part of testing
+- `do_update_ui()`: Performs do_update_ui operation as part of the component's functionality
+- `ps()`: Performs ps operation as part of the component's functionality
 ### Summary
 The `test.cpp` file provides essential functionality for testing. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

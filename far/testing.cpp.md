@@ -4,9 +4,9 @@
 This file implements functionality related to: Testing framework wrapper
 Main functional areas: testing
 ### Key Functions
-- `m_Matcher()`: Executes m_Matcher operation as part of testing
+- `m_Matcher()`: Performs m_Matcher operation as part of the component's functionality
 - `is_ui_test_run()`: Tests whether _ui_test_run condition is true or property exists
-- `constexpr()`: Executes constexpr operation as part of testing
+- `constexpr()`: Performs constexpr operation as part of the component's functionality
 ### Summary
 The `testing.cpp` file provides essential functionality for testing. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

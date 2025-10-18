@@ -4,17 +4,17 @@
 This file implements functionality related to: Dynamic construction of dialogs for FAR Manager
 Main functional areas: dialog handling
 ### Key Classes
-- `DialogAPIBinding`: Implements dialog handling
-- `PluginCheckBoxBinding`: Implements dialog handling
-- `PluginDialogBuilder`: Implements dialog handling
-- `PluginEditFieldBinding`: Implements dialog handling
-- `PluginIntEditFieldBinding`: Implements dialog handling
-- `PluginListControlBinding`: Implements dialog handling
-- `PluginRadioButtonBinding`: Implements dialog handling
-- `PluginUIntEditFieldBinding`: Implements dialog handling
+- `DialogAPIBinding`: Performs DialogAPIBinding operation as part of the component's functionality
+- `PluginCheckBoxBinding`: Performs PluginCheckBoxBinding operation as part of the component's functionality
+- `PluginDialogBuilder`: Performs PluginDialogBuilder operation as part of the component's functionality
+- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation as part of the component's functionality
+- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation as part of the component's functionality
+- `PluginListControlBinding`: Performs PluginListControlBinding operation as part of the component's functionality
+- `PluginRadioButtonBinding`: Performs PluginRadioButtonBinding operation as part of the component's functionality
+- `PluginUIntEditFieldBinding`: Performs PluginUIntEditFieldBinding operation as part of the component's functionality
 ### Key Functions
 - `SaveValue()`: Saves current state or data to persistent storage
-- `lstrcpynW()`: Executes lstrcpynW operation as part of dialog handling
+- `lstrcpynW()`: Performs lstrcpynW operation as part of the component's functionality
 - `GetBuffer()`: Retrieves Buffer from internal state or data structure
 - `GetMask()`: Retrieves Mask from internal state or data structure
 - `GetLastID()`: Retrieves LastID from internal state or data structure

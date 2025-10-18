@@ -4,12 +4,12 @@
 This file implements functionality related to: */
 Main functional areas: panel management
 ### Key Classes
-- `FileList`: Implements panel management
-- `InfoList`: Implements panel management
-- `Panel`: Implements panel management
-- `QuickView`: Implements panel management
-- `TreeList`: Implements panel management
-- `panel_type`: Implements panel management
+- `FileList`: Performs FileList operation as part of the component's functionality
+- `InfoList`: Performs InfoList operation as part of the component's functionality
+- `Panel`: Performs Panel operation as part of the component's functionality
+- `QuickView`: Performs QuickView operation as part of the component's functionality
+- `TreeList`: Performs TreeList operation as part of the component's functionality
+- `panel_type`: Performs panel_type operation as part of the component's functionality
 ### Summary
 The `panelfwd.hpp` file provides essential functionality for panel management. It defines 6 class(es) to support the Far Manager file manager operations.
 

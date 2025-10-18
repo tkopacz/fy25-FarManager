@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: testing
 ### Key Functions
-- `main()`: Executes main operation as part of testing
-- `os()`: Executes os operation as part of testing
+- `main()`: Program entry point that initializes application and begins execution
+- `os()`: Performs os operation as part of the component's functionality
 ### Summary
 The `test.cpp` file provides essential functionality for testing. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

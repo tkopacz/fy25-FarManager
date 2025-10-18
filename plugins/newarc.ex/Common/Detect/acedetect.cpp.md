@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ACEHEADER`: Implements core functionality
+- `ACEHEADER`: Performs ACEHEADER operation as part of the component's functionality
 ### Key Functions
 - `IsAceHeader()`: Tests whether AceHeader condition is true or property exists
 ### Summary
@@ -15,7 +15,7 @@ The `acedetect.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ACEHEADER`: Implementuje podstawowa funkcjonalność
+- `ACEHEADER`: Performs ACEHEADER operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsAceHeader()`: Testuje czy AceHeader warunek jest prawdziwy lub właściwość istnieje
 ### Podsumowanie

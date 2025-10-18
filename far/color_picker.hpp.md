@@ -4,7 +4,7 @@
 This file implements functionality related to: Standard color picker
 Main functional areas: color management
 ### Key Classes
-- `FarColor`: Implements color management
+- `FarColor`: Performs FarColor operation as part of the component's functionality
 ### Key Functions
 - `GetColorDialog()`: Retrieves ColorDialog from internal state or data structure
 ### Summary

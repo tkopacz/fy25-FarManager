@@ -7,7 +7,7 @@ Main functional areas: singleton implementation
 - `add()`: Adds new item to collection or list
 - `get()`: Retrieves value from internal state or data structure
 - `GetComponentsInfo()`: Retrieves ComponentsInfo from internal state or data structure
-- `i()`: Executes i operation as part of singleton implementation
+- `i()`: Performs i operation as part of the component's functionality
 ### Namespaces
 - `components`
 ### Summary

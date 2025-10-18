@@ -4,16 +4,16 @@
 This file implements functionality related to: Обычное вертикальное меню
 Main functional areas: menu management
 ### Key Classes
-- `Dialog`: Implements menu management
-- `SaveScreen`: Implements menu management
-- `SortItemParam`: Implements menu management
-- `item_color_indices`: Implements menu management
-- `menu_item`: Implements menu management
-- `menu_item_ex`: Implements menu management
-- `menu_layout`: Implements menu management
-- `private_tag`: Implements menu management
-- `vmenu_fixed_column_t`: Implements menu management
-- `vmenu_horizontal_tracker`: Implements menu management
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `SaveScreen`: Writes or saves data to a destination
+- `SortItemParam`: Performs SortItemParam operation as part of the component's functionality
+- `item_color_indices`: Performs item_color_indices operation as part of the component's functionality
+- `menu_item`: Performs menu_item operation as part of the component's functionality
+- `menu_item_ex`: Performs menu_item_ex operation as part of the component's functionality
+- `menu_layout`: Performs menu_layout operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `vmenu_fixed_column_t`: Performs vmenu_fixed_column_t operation as part of the component's functionality
+- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation as part of the component's functionality
 ### Key Functions
 - `SetCheck()`: Updates Check in internal state or configuration
 - `SetCustomCheck()`: Updates CustomCheck in internal state or configuration
@@ -21,7 +21,7 @@ Main functional areas: menu management
 - `SetSelect()`: Updates Select in internal state or configuration
 - `SetDisable()`: Updates Disable in internal state or configuration
 - `SetGrayed()`: Updates Grayed in internal state or configuration
-- `SafeGetFirstAnnotation()`: Executes SafeGetFirstAnnotation operation as part of menu management
+- `SafeGetFirstAnnotation()`: Performs SafeGetFirstAnnotation operation as part of the component's functionality
 - `create()`: Creates and initializes new object instance
 - `Show()`: Displays content or makes visual element visible on screen
 - `Hide()`: Hides visual element from screen without destroying it

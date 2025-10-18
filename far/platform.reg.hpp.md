@@ -4,24 +4,24 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `enum_key`: Implements core functionality
-- `enum_value`: Implements core functionality
-- `error`: Implements core functionality
-- `exception`: Implements core functionality
-- `hkey_deleter`: Implements core functionality
-- `key`: Implements core functionality
-- `value`: Implements core functionality
+- `enum_key`: Performs enum_key operation as part of the component's functionality
+- `enum_value`: Performs enum_value operation as part of the component's functionality
+- `error`: Performs error operation as part of the component's functionality
+- `exception`: Performs exception operation as part of the component's functionality
+- `hkey_deleter`: Performs hkey_deleter operation as part of the component's functionality
+- `key`: Performs key operation as part of the component's functionality
+- `value`: Performs value operation as part of the component's functionality
 ### Key Functions
 - `close()`: Closes resource and performs cleanup operations
-- `native_handle()`: Executes native_handle operation as part of core functionality
-- `enum_keys()`: Executes enum_keys operation as part of core functionality
-- `enum_values()`: Executes enum_values operation as part of core functionality
-- `exits()`: Executes exits operation as part of core functionality
-- `key()`: Executes key operation as part of core functionality
-- `enum_keys_impl()`: Executes enum_keys_impl operation as part of core functionality
-- `enum_values_impl()`: Executes enum_values_impl operation as part of core functionality
+- `native_handle()`: Performs native_handle operation as part of the component's functionality
+- `enum_keys()`: Performs enum_keys operation as part of the component's functionality
+- `enum_values()`: Performs enum_values operation as part of the component's functionality
+- `exits()`: Performs exits operation as part of the component's functionality
+- `key()`: Performs key operation as part of the component's functionality
+- `enum_keys_impl()`: Performs enum_keys_impl operation as part of the component's functionality
+- `enum_values_impl()`: Performs enum_values_impl operation as part of the component's functionality
 - `name()`: Constructor that initializes name object with provided parameters
-- `type()`: Executes type operation as part of core functionality
+- `type()`: Performs type operation as part of the component's functionality
 ### Namespaces
 - `os`
 ### Summary
@@ -34,24 +34,24 @@ The `platform.reg.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `enum_key`: Implementuje podstawowa funkcjonalność
-- `enum_value`: Implementuje podstawowa funkcjonalność
-- `error`: Implementuje podstawowa funkcjonalność
-- `exception`: Implementuje podstawowa funkcjonalność
-- `hkey_deleter`: Implementuje podstawowa funkcjonalność
-- `key`: Implementuje podstawowa funkcjonalność
-- `value`: Implementuje podstawowa funkcjonalność
+- `enum_key`: Performs enum_key operation as part of the component's functionality
+- `enum_value`: Performs enum_value operation as part of the component's functionality
+- `error`: Performs error operation as part of the component's functionality
+- `exception`: Performs exception operation as part of the component's functionality
+- `hkey_deleter`: Performs hkey_deleter operation as part of the component's functionality
+- `key`: Performs key operation as part of the component's functionality
+- `value`: Performs value operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `close()`: Zamyka zasób i wykonuje operacje czyszczące
-- `native_handle()`: Wykonuje native_handle operację jako część podstawowa funkcjonalność
-- `enum_keys()`: Wykonuje enum_keys operację jako część podstawowa funkcjonalność
-- `enum_values()`: Wykonuje enum_wartośćs operację jako część podstawowa funkcjonalność
-- `exits()`: Wykonuje exits operację jako część podstawowa funkcjonalność
-- `key()`: Wykonuje key operację jako część podstawowa funkcjonalność
-- `enum_keys_impl()`: Wykonuje enum_keys_impl operację jako część podstawowa funkcjonalność
-- `enum_values_impl()`: Wykonuje enum_wartośćs_impl operację jako część podstawowa funkcjonalność
+- `native_handle()`: Performs native_handle operation as part of the component's functionality
+- `enum_keys()`: Performs enum_keys operation as part of the component's functionality
+- `enum_values()`: Performs enum_values operation as part of the component's functionality
+- `exits()`: Performs exits operation as part of the component's functionality
+- `key()`: Performs key operation as part of the component's functionality
+- `enum_keys_impl()`: Performs enum_keys_impl operation as part of the component's functionality
+- `enum_values_impl()`: Performs enum_values_impl operation as part of the component's functionality
 - `name()`: Konstruktor inicjalizujący name obiekt z dostarczonymi parametrami
-- `type()`: Wykonuje type operację jako część podstawowa funkcjonalność
+- `type()`: Performs type operation as part of the component's functionality
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -4,18 +4,18 @@
 This file implements functionality related to: Keybar
 Main functional areas: core functionality
 ### Key Classes
-- `KeyBarTitles`: Implements core functionality
-- `keybar_area`: Implements core functionality
-- `lng`: Implements core functionality
+- `KeyBarTitles`: Performs KeyBarTitles operation as part of the component's functionality
+- `keybar_area`: Performs keybar_area operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
 ### Key Functions
-- `KeyBar()`: Executes KeyBar operation as part of core functionality
+- `KeyBar()`: Performs KeyBar operation as part of the component's functionality
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `SetLabels()`: Updates Labels in internal state or configuration
 - `SetCustomLabels()`: Updates CustomLabels in internal state or configuration
-- `keybar_area()`: Executes keybar_area operation as part of core functionality
-- `Change()`: Executes Change operation as part of core functionality
-- `RedrawIfChanged()`: Executes RedrawIfChanged operation as part of core functionality
+- `keybar_area()`: Performs keybar_area operation as part of the component's functionality
+- `Change()`: Performs Change operation as part of the component's functionality
+- `RedrawIfChanged()`: Performs RedrawIfChanged operation as part of the component's functionality
 - `DisplayObject()`: Displays content or makes visual element visible on screen
 - `ClearKeyTitles()`: Clears all data and resets to initial empty state
 ### Summary
@@ -28,18 +28,18 @@ The `keybar.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: Keybar
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `KeyBarTitles`: Implementuje podstawowa funkcjonalność
-- `keybar_area`: Implementuje podstawowa funkcjonalność
-- `lng`: Implementuje podstawowa funkcjonalność
+- `KeyBarTitles`: Performs KeyBarTitles operation as part of the component's functionality
+- `keybar_area`: Performs keybar_area operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `KeyBar()`: Wykonuje KeyBar operację jako część podstawowa funkcjonalność
+- `KeyBar()`: Performs KeyBar operation as part of the component's functionality
 - `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
 - `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
 - `SetLabels()`: Aktualizuje Labels w stanie wewnętrznym lub konfiguracji
 - `SetCustomLabels()`: Aktualizuje CustomLabels w stanie wewnętrznym lub konfiguracji
-- `keybar_area()`: Wykonuje keybar_area operację jako część podstawowa funkcjonalność
-- `Change()`: Wykonuje Change operację jako część podstawowa funkcjonalność
-- `RedrawIfChanged()`: Wykonuje RedrawIfChanged operację jako część podstawowa funkcjonalność
+- `keybar_area()`: Performs keybar_area operation as part of the component's functionality
+- `Change()`: Performs Change operation as part of the component's functionality
+- `RedrawIfChanged()`: Performs RedrawIfChanged operation as part of the component's functionality
 - `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
 - `ClearKeyTitles()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
 ### Podsumowanie

@@ -3,25 +3,25 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `DebugToken`: Implements core functionality
-- `InitDialogItem`: Implements core functionality
-- `PerfThread`: Implements core functionality
-- `Plist`: Implements core functionality
-- `ProcessData`: Implements core functionality
-- `ProcessPerfData`: Implements core functionality
-- `WMIConnection`: Implements core functionality
-- `columns`: Implements core functionality
-- `free_deleter`: Implements core functionality
-- `handle_closer`: Implements core functionality
+- `DebugToken`: Performs DebugToken operation as part of the component's functionality
+- `InitDialogItem`: Initializes the component or system with required setup and configuration
+- `PerfThread`: Performs PerfThread operation as part of the component's functionality
+- `Plist`: Performs Plist operation as part of the component's functionality
+- `ProcessData`: Processes input data and performs the required operations
+- `ProcessPerfData`: Processes input data and performs the required operations
+- `WMIConnection`: Performs WMIConnection operation as part of the component's functionality
+- `columns`: Performs columns operation as part of the component's functionality
+- `free_deleter`: Performs free_deleter operation as part of the component's functionality
+- `handle_closer`: Performs handle_closer operation as part of the component's functionality
 ### Key Functions
-- `make_malloc()`: Executes make_malloc operation as part of core functionality
-- `normalise_handle()`: Executes normalise_handle operation as part of core functionality
+- `make_malloc()`: Allocates memory and initializes resources for make_malloc
+- `normalise_handle()`: Performs normalise_handle operation as part of the component's functionality
 - `Read()`: Reads data from source into provided buffer
 - `Write()`: Writes data from buffer to destination
-- `Message()`: Executes Message operation as part of core functionality
-- `Connect()`: Executes Connect operation as part of core functionality
+- `Message()`: Performs Message operation as part of the component's functionality
+- `Connect()`: Performs Connect operation as part of the component's functionality
 - `GetFindData()`: Retrieves FindData from internal state or data structure
-- `FreeFindData()`: Executes FreeFindData operation as part of core functionality
+- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
 - `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from internal state or data structure
 - `GetFiles()`: Retrieves Files from internal state or data structure
 ### Namespaces
@@ -36,25 +36,25 @@ The `Proclist.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `DebugToken`: Implementuje podstawowa funkcjonalność
-- `InitDialogItem`: Implementuje podstawowa funkcjonalność
-- `PerfThread`: Implementuje podstawowa funkcjonalność
-- `Plist`: Implementuje podstawowa funkcjonalność
-- `ProcessData`: Implementuje podstawowa funkcjonalność
-- `ProcessPerfData`: Implementuje podstawowa funkcjonalność
-- `WMIConnection`: Implementuje podstawowa funkcjonalność
-- `columns`: Implementuje podstawowa funkcjonalność
-- `free_deleter`: Implementuje podstawowa funkcjonalność
-- `handle_closer`: Implementuje podstawowa funkcjonalność
+- `DebugToken`: Performs DebugToken operation as part of the component's functionality
+- `InitDialogItem`: Initializes the component or system with required setup and configuration
+- `PerfThread`: Performs PerfThread operation as part of the component's functionality
+- `Plist`: Performs Plist operation as part of the component's functionality
+- `ProcessData`: Processes input data and performs the required operations
+- `ProcessPerfData`: Processes input data and performs the required operations
+- `WMIConnection`: Performs WMIConnection operation as part of the component's functionality
+- `columns`: Performs columns operation as part of the component's functionality
+- `free_deleter`: Performs free_deleter operation as part of the component's functionality
+- `handle_closer`: Performs handle_closer operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `make_malloc()`: Wykonuje make_malloc operację jako część podstawowa funkcjonalność
-- `normalise_handle()`: Wykonuje normalise_handle operację jako część podstawowa funkcjonalność
+- `make_malloc()`: Allocates memory and initializes resources for make_malloc
+- `normalise_handle()`: Performs normalise_handle operation as part of the component's functionality
 - `Read()`: Odczytuje dane ze źródła do dostarczonego bufora
 - `Write()`: Zapisuje dane z bufora do miejsca docelowego
-- `Message()`: Wykonuje Message operację jako część podstawowa funkcjonalność
-- `Connect()`: Wykonuje Connect operację jako część podstawowa funkcjonalność
+- `Message()`: Performs Message operation as part of the component's functionality
+- `Connect()`: Performs Connect operation as part of the component's functionality
 - `GetFindData()`: Pobiera FindData ze stanu wewnętrznego lub struktury danych
-- `FreeFindData()`: Wykonuje FreeFindData operację jako część podstawowa funkcjonalność
+- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
 - `GetOpenPanelInfo()`: Pobiera OpenPanelInfo ze stanu wewnętrznego lub struktury danych
 - `GetFiles()`: Pobiera Files ze stanu wewnętrznego lub struktury danych
 ### Przestrzenie nazw

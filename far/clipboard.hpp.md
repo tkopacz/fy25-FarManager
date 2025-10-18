@@ -4,11 +4,11 @@
 This file implements functionality related to: Работа с буфером обмена.
 Main functional areas: clipboard operations
 ### Key Classes
-- `clipboard`: Implements clipboard operations
-- `clipboard_accessor`: Implements clipboard operations
-- `clipboard_mode`: Implements clipboard operations
-- `clipboard_restorer`: Implements clipboard operations
-- `default_clipboard_mode`: Implements clipboard operations
+- `clipboard`: Performs clipboard operation as part of the component's functionality
+- `clipboard_accessor`: Performs clipboard_accessor operation as part of the component's functionality
+- `clipboard_mode`: Performs clipboard_mode operation as part of the component's functionality
+- `clipboard_restorer`: Performs clipboard_restorer operation as part of the component's functionality
+- `default_clipboard_mode`: Performs default_clipboard_mode operation as part of the component's functionality
 ### Key Functions
 - `set()`: Updates value in internal state or configuration
 - `get()`: Retrieves value from internal state or data structure

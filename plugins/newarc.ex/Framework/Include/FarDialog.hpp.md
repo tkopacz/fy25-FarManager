@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Classes
-- `FarDialog`: Implements dialog handling
+- `FarDialog`: Performs FarDialog operation as part of the component's functionality
 ### Key Functions
 - `GetDlg()`: Retrieves Dlg from internal state or data structure
 - `GetDlgData()`: Retrieves DlgData from internal state or data structure
@@ -11,9 +11,9 @@ Main functional areas: dialog handling
 - `SetFlags()`: Updates Flags in internal state or configuration
 - `SetDialogFlags()`: Updates DialogFlags in internal state or configuration
 - `GetDialogFlags()`: Retrieves DialogFlags from internal state or data structure
-- `FirstButton()`: Executes FirstButton operation as part of dialog handling
-- `Focus()`: Executes Focus operation as part of dialog handling
-- `DefaultButton()`: Executes DefaultButton operation as part of dialog handling
+- `FirstButton()`: Performs FirstButton operation as part of the component's functionality
+- `Focus()`: Performs Focus operation as part of the component's functionality
+- `DefaultButton()`: Performs DefaultButton operation as part of the component's functionality
 - `SetPosition()`: Updates Position in internal state or configuration
 ### Summary
 The `FarDialog.hpp` file provides essential functionality for dialog handling. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

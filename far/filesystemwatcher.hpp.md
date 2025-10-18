@@ -4,12 +4,12 @@
 This file implements functionality related to: Класс FileSystemWatcher
 Main functional areas: file system operations
 ### Key Classes
-- `FileSystemWatcher`: Implements file system operations
-- `background_watcher`: Implements file system operations
+- `FileSystemWatcher`: Performs FileSystemWatcher operation as part of the component's functionality
+- `background_watcher`: Performs background_watcher operation as part of the component's functionality
 ### Key Functions
 - `read_async()`: Reads data from source into provided buffer
 - `get_result()`: Retrieves _result from internal state or data structure
-- `callback_notify()`: Executes callback_notify operation as part of file system operations
+- `callback_notify()`: Callback function that handles specific events or notifications
 ### Summary
 The `filesystemwatcher.hpp` file provides essential functionality for file system operations. It defines 2 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

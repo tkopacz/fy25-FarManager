@@ -4,17 +4,17 @@
 This file implements functionality related to: Folder shortcuts
 Main functional areas: core functionality
 ### Key Classes
-- `Shortcuts`: Implements core functionality
-- `VMenu2`: Implements core functionality
-- `data`: Implements core functionality
-- `menu_item_ex`: Implements core functionality
-- `shortcut`: Implements core functionality
+- `Shortcuts`: Performs Shortcuts operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `data`: Performs data operation as part of the component's functionality
+- `menu_item_ex`: Performs menu_item_ex operation as part of the component's functionality
+- `shortcut`: Performs shortcut operation as part of the component's functionality
 ### Key Functions
-- `Shortcuts()`: Executes Shortcuts operation as part of core functionality
+- `Shortcuts()`: Performs Shortcuts operation as part of the component's functionality
 - `Get()`: Retrieves value from internal state or data structure
 - `Add()`: Adds new item to collection or list
-- `Configure()`: Executes Configure operation as part of core functionality
-- `Enumerator()`: Executes Enumerator operation as part of core functionality
+- `Configure()`: Performs Configure operation as part of the component's functionality
+- `Enumerator()`: Performs Enumerator operation as part of the component's functionality
 - `GetOne()`: Retrieves One from internal state or data structure
 - `Save()`: Saves current state or data to persistent storage
 ### Summary
@@ -27,17 +27,17 @@ The `shortcuts.hpp` file provides essential functionality for core functionality
 Ten plik implementuje funkcjonalność związaną z: Folder shortcuts
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Shortcuts`: Implementuje podstawowa funkcjonalność
-- `VMenu2`: Implementuje podstawowa funkcjonalność
-- `data`: Implementuje podstawowa funkcjonalność
-- `menu_item_ex`: Implementuje podstawowa funkcjonalność
-- `shortcut`: Implementuje podstawowa funkcjonalność
+- `Shortcuts`: Performs Shortcuts operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `data`: Performs data operation as part of the component's functionality
+- `menu_item_ex`: Performs menu_item_ex operation as part of the component's functionality
+- `shortcut`: Performs shortcut operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `Shortcuts()`: Wykonuje Shortcuts operację jako część podstawowa funkcjonalność
+- `Shortcuts()`: Performs Shortcuts operation as part of the component's functionality
 - `Get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
 - `Add()`: Dodaje nowy element do kolekcji lub listy
-- `Configure()`: Wykonuje Configure operację jako część podstawowa funkcjonalność
-- `Enumerator()`: Wykonuje Enumerator operację jako część podstawowa funkcjonalność
+- `Configure()`: Performs Configure operation as part of the component's functionality
+- `Enumerator()`: Performs Enumerator operation as part of the component's functionality
 - `GetOne()`: Pobiera One ze stanu wewnętrznego lub struktury danych
 - `Save()`: Zapisuje bieżący stan lub dane do trwałego magazynu
 ### Podsumowanie

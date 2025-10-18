@@ -4,9 +4,9 @@
 This file implements functionality related to: */
 Main functional areas: file system operations
 ### Key Functions
-- `far_exception()`: Executes far_exception operation as part of file system operations
-- `StreamBuffer()`: Executes StreamBuffer operation as part of file system operations
-- `Stream()`: Executes Stream operation as part of file system operations
+- `far_exception()`: Performs far_exception operation as part of the component's functionality
+- `StreamBuffer()`: Performs StreamBuffer operation as part of the component's functionality
+- `Stream()`: Performs Stream operation as part of the component's functionality
 ### Summary
 The `file_io.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

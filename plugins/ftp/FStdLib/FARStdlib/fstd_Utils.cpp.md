@@ -5,12 +5,12 @@ This file implements functionality related to: The digit allways 3+1+3+1 charact
 Main functional areas: file system operations
 ### Key Functions
 - `AddLastSlash()`: Adds new LastSlash to collection or list
-- `DelLastSlash()`: Executes DelLastSlash operation as part of file system operations
-- `FPath()`: Executes FPath operation as part of file system operations
-- `FName()`: Executes FName operation as part of file system operations
-- `FExtOnly()`: Executes FExtOnly operation as part of file system operations
-- `FCps()`: Executes FCps operation as part of file system operations
-- `sprintf()`: Executes sprintf operation as part of file system operations
+- `DelLastSlash()`: Performs DelLastSlash operation as part of the component's functionality
+- `FPath()`: Performs FPath operation as part of the component's functionality
+- `FName()`: Performs FName operation as part of the component's functionality
+- `FExtOnly()`: Performs FExtOnly operation as part of the component's functionality
+- `FCps()`: Performs FCps operation as part of the component's functionality
+- `sprintf()`: Performs sprintf operation as part of the component's functionality
 ### Summary
 The `fstd_Utils.cpp` file provides essential functionality for file system operations. and contains approximately 7 function(s) to support the Far Manager file manager operations.
 

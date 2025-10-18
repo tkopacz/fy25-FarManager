@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: configuration management, dialog handling
 ### Key Functions
-- `dlgConfigure()`: Executes dlgConfigure operation as part of configuration management, dialog handling
-- `D()`: Executes D operation as part of configuration management, dialog handling
+- `dlgConfigure()`: Displays dialog interface for user interaction and input collection
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgConfigure.cpp` file provides essential functionality for configuration management, dialog handling. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

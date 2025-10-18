@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `RegQueryStringArray()`: Executes RegQueryStringArray operation as part of string utilities
-- `RegSaveStringArray()`: Executes RegSaveStringArray operation as part of string utilities
-- `RegQueryLongValue()`: Executes RegQueryLongValue operation as part of string utilities
+- `RegQueryStringArray()`: Accesses Windows registry for reading or writing configuration settings
+- `RegSaveStringArray()`: Accesses Windows registry for reading or writing configuration settings
+- `RegQueryLongValue()`: Accesses Windows registry for reading or writing configuration settings
 ### Summary
 The `FarRegistry.cpp` file provides essential functionality for string utilities. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

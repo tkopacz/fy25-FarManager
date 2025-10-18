@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveModuleInformation`: Implements core functionality
+- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation as part of the component's functionality
 ### Key Functions
 - `OnInitialize()`: Event handler invoked when Initialize occurs
-- `RarModule()`: Executes RarModule operation as part of core functionality
+- `RarModule()`: Performs RarModule operation as part of the component's functionality
 - `OnFinalize()`: Event handler invoked when Finalize occurs
 - `OnQueryArchive()`: Event handler invoked when QueryArchive occurs
-- `RarArchive()`: Executes RarArchive operation as part of core functionality
+- `RarArchive()`: Performs RarArchive operation as part of the component's functionality
 - `OnOpenArchive()`: Event handler invoked when OpenArchive occurs
 - `OnCloseArchive()`: Event handler invoked when CloseArchive occurs
 - `OnFinalizeArchive()`: Event handler invoked when FinalizeArchive occurs
@@ -24,13 +24,13 @@ The `rar.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveModuleInformation`: Implementuje podstawowa funkcjonalność
+- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `OnInitialize()`: Procedura obsługi zdarzeń wywoływana gdy Initialize występuje
-- `RarModule()`: Wykonuje RarModule operację jako część podstawowa funkcjonalność
+- `RarModule()`: Performs RarModule operation as part of the component's functionality
 - `OnFinalize()`: Procedura obsługi zdarzeń wywoływana gdy Finalize występuje
 - `OnQueryArchive()`: Procedura obsługi zdarzeń wywoływana gdy QueryArchive występuje
-- `RarArchive()`: Wykonuje RarArchive operację jako część podstawowa funkcjonalność
+- `RarArchive()`: Performs RarArchive operation as part of the component's functionality
 - `OnOpenArchive()`: Procedura obsługi zdarzeń wywoływana gdy OpenArchive występuje
 - `OnCloseArchive()`: Procedura obsługi zdarzeń wywoływana gdy CloseArchive występuje
 - `OnFinalizeArchive()`: Procedura obsługi zdarzeń wywoływana gdy FinalizeArchive występuje

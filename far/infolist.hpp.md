@@ -4,10 +4,10 @@
 This file implements functionality related to: Информационная панель
 Main functional areas: core functionality
 ### Key Classes
-- `InfoListSectionState`: Implements core functionality
-- `lng`: Implements core functionality
-- `power_listener`: Implements core functionality
-- `private_tag`: Implements core functionality
+- `InfoListSectionState`: Performs InfoListSectionState operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `power_listener`: Performs power_listener operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
 - `DisplayObject()`: Displays content or makes visual element visible on screen
@@ -29,10 +29,10 @@ The `infolist.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Информационная панель
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `InfoListSectionState`: Implementuje podstawowa funkcjonalność
-- `lng`: Implementuje podstawowa funkcjonalność
-- `power_listener`: Implementuje podstawowa funkcjonalność
-- `private_tag`: Implementuje podstawowa funkcjonalność
+- `InfoListSectionState`: Performs InfoListSectionState operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `power_listener`: Performs power_listener operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `create()`: Tworzy i inicjalizuje nowy obiekt instancję
 - `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie

@@ -4,9 +4,9 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ARCHeader`: Implements core functionality
-- `PAKExtHeader`: Implements core functionality
-- `RecHeader`: Implements core functionality
+- `ARCHeader`: Performs ARCHeader operation as part of the component's functionality
+- `PAKExtHeader`: Performs PAKExtHeader operation as part of the component's functionality
+- `RecHeader`: Performs RecHeader operation as part of the component's functionality
 ### Key Functions
 - `IsArchive()`: Tests whether Archive condition is true or property exists
 - `GetSFXPos()`: Retrieves SFXPos from internal state or data structure
@@ -25,9 +25,9 @@ The `arc.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ARCHeader`: Implementuje podstawowa funkcjonalność
-- `PAKExtHeader`: Implementuje podstawowa funkcjonalność
-- `RecHeader`: Implementuje podstawowa funkcjonalność
+- `ARCHeader`: Performs ARCHeader operation as part of the component's functionality
+- `PAKExtHeader`: Performs PAKExtHeader operation as part of the component's functionality
+- `RecHeader`: Performs RecHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
 - `GetSFXPos()`: Pobiera SFXPos ze stanu wewnętrznego lub struktury danych

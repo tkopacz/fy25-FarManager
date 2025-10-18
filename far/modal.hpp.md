@@ -4,10 +4,10 @@
 This file implements functionality related to: Parent class для модальных объектов
 Main functional areas: core functionality
 ### Key Classes
-- `Modal`: Implements core functionality
+- `Modal`: Performs Modal operation as part of the component's functionality
 ### Key Functions
 - `SetExitCode()`: Updates ExitCode in internal state or configuration
-- `Done()`: Executes Done operation as part of core functionality
+- `Done()`: Performs Done operation as part of the component's functionality
 - `ClearDone()`: Clears all data and resets to initial empty state
 - `Process()`: Processes data through transformation or handling pipeline
 - `SetHelp()`: Updates Help in internal state or configuration
@@ -25,10 +25,10 @@ The `modal.hpp` file provides essential functionality for core functionality. It
 Ten plik implementuje funkcjonalność związaną z: Parent class для модальных объектов
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Modal`: Implementuje podstawowa funkcjonalność
+- `Modal`: Performs Modal operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `SetExitCode()`: Aktualizuje ExitCode w stanie wewnętrznym lub konfiguracji
-- `Done()`: Wykonuje Done operację jako część podstawowa funkcjonalność
+- `Done()`: Performs Done operation as part of the component's functionality
 - `ClearDone()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
 - `Process()`: Przetwarza dane przez potok transformacji lub obsługi
 - `SetHelp()`: Aktualizuje Help w stanie wewnętrznym lub konfiguracji

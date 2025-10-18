@@ -4,18 +4,18 @@
 This file implements functionality related to: 256 colors extension to the standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_256_state`: Implements color management
+- `color_256_state`: Performs color_256_state operation as part of the component's functionality
 ### Key Functions
-- `Console256ColorToFarColor()`: Executes Console256ColorToFarColor operation as part of color management
-- `cube_color()`: Executes cube_color operation as part of color management
-- `cube_index()`: Executes cube_index operation as part of color management
-- `grey_color()`: Executes grey_color operation as part of color management
-- `grey_index()`: Executes grey_index operation as part of color management
-- `foreground_inverse_mapping()`: Executes foreground_inverse_mapping operation as part of color management
+- `Console256ColorToFarColor()`: Performs Console256ColorToFarColor operation as part of the component's functionality
+- `cube_color()`: Performs cube_color operation as part of the component's functionality
+- `cube_index()`: Performs cube_index operation as part of the component's functionality
+- `grey_color()`: Performs grey_color operation as part of the component's functionality
+- `grey_index()`: Performs grey_index operation as part of the component's functionality
+- `foreground_inverse_mapping()`: Performs foreground_inverse_mapping operation as part of the component's functionality
 - `is_rgb()`: Tests whether _rgb condition is true or property exists
-- `in_closed_range()`: Executes in_closed_range operation as part of color management
+- `in_closed_range()`: Performs in_closed_range operation as part of the component's functionality
 - `is_grey()`: Tests whether _grey condition is true or property exists
-- `channel_value()`: Executes channel_value operation as part of color management
+- `channel_value()`: Performs channel_value operation as part of the component's functionality
 ### Namespaces
 - `color_picker_common`
 ### Summary

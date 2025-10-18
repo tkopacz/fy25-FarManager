@@ -4,16 +4,16 @@
 This file implements functionality related to: ScreenSaver
 Main functional areas: screen operations
 ### Key Classes
-- `star`: Implements screen operations
-- `starfield`: Implements screen operations
-- `steer_axis`: Implements screen operations
-- `steer_direction`: Implements screen operations
+- `star`: Performs star operation as part of the component's functionality
+- `starfield`: Performs starfield operation as part of the component's functionality
+- `steer_axis`: Performs steer_axis operation as part of the component's functionality
+- `steer_direction`: Performs steer_direction operation as part of the component's functionality
 ### Key Functions
 - `create_star()`: Creates and initializes new _star instance
 - `update()`: Updates existing data with new values while preserving structure
 - `factor()`: Constructor that initializes factor object with provided parameters
-- `rotate()`: Executes rotate operation as part of screen operations
-- `ScreenSaver()`: Executes ScreenSaver operation as part of screen operations
+- `rotate()`: Performs rotate operation as part of the component's functionality
+- `ScreenSaver()`: Performs ScreenSaver operation as part of the component's functionality
 ### Summary
 The `scrsaver.cpp` file provides essential functionality for screen operations. It defines 4 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
 

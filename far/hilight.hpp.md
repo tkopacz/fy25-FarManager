@@ -4,26 +4,26 @@
 This file implements functionality related to: Files highlighting
 Main functional areas: core functionality
 ### Key Classes
-- `FileFilterParams`: Implements core functionality
-- `FileList`: Implements core functionality
-- `FileListItem`: Implements core functionality
-- `HierarchicalConfig`: Implements core functionality
-- `VMenu2`: Implements core functionality
-- `color`: Implements core functionality
-- `colors`: Implements core functionality
-- `configuration`: Implements core functionality
-- `element`: Implements core functionality
-- `element_hash`: Implements core functionality
+- `FileFilterParams`: Performs FileFilterParams operation as part of the component's functionality
+- `FileList`: Performs FileList operation as part of the component's functionality
+- `FileListItem`: Performs FileListItem operation as part of the component's functionality
+- `HierarchicalConfig`: Performs HierarchicalConfig operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `color`: Performs color operation as part of the component's functionality
+- `colors`: Performs colors operation as part of the component's functionality
+- `configuration`: Performs configuration operation as part of the component's functionality
+- `element`: Performs element operation as part of the component's functionality
+- `element_hash`: Performs element_hash operation as part of the component's functionality
 ### Key Functions
 - `ToFarColor()`: Constructor that initializes ToFarColor object with provided parameters
 - `UpdateCurrentTime()`: Updates existing data with new values while preserving structure
 - `GetHiColor()`: Retrieves HiColor from internal state or data structure
 - `GetGroup()`: Retrieves Group from internal state or data structure
-- `HiEdit()`: Executes HiEdit operation as part of core functionality
+- `HiEdit()`: Performs HiEdit operation as part of the component's functionality
 - `UpdateHighlighting()`: Updates existing data with new values while preserving structure
 - `Save()`: Saves current state or data to persistent storage
-- `InheritPaletteColor()`: Executes InheritPaletteColor operation as part of core functionality
-- `ApplyFinalColor()`: Executes ApplyFinalColor operation as part of core functionality
+- `InheritPaletteColor()`: Performs InheritPaletteColor operation as part of the component's functionality
+- `ApplyFinalColor()`: Performs ApplyFinalColor operation as part of the component's functionality
 - `Load()`: Loads data or resources from storage into memory
 ### Namespaces
 - `highlight`
@@ -37,26 +37,26 @@ The `hilight.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Files highlighting
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FileFilterParams`: Implementuje podstawowa funkcjonalność
-- `FileList`: Implementuje podstawowa funkcjonalność
-- `FileListItem`: Implementuje podstawowa funkcjonalność
-- `HierarchicalConfig`: Implementuje podstawowa funkcjonalność
-- `VMenu2`: Implementuje podstawowa funkcjonalność
-- `color`: Implementuje podstawowa funkcjonalność
-- `colors`: Implementuje podstawowa funkcjonalność
-- `configuration`: Implementuje podstawowa funkcjonalność
-- `element`: Implementuje podstawowa funkcjonalność
-- `element_hash`: Implementuje podstawowa funkcjonalność
+- `FileFilterParams`: Performs FileFilterParams operation as part of the component's functionality
+- `FileList`: Performs FileList operation as part of the component's functionality
+- `FileListItem`: Performs FileListItem operation as part of the component's functionality
+- `HierarchicalConfig`: Performs HierarchicalConfig operation as part of the component's functionality
+- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `color`: Performs color operation as part of the component's functionality
+- `colors`: Performs colors operation as part of the component's functionality
+- `configuration`: Performs configuration operation as part of the component's functionality
+- `element`: Performs element operation as part of the component's functionality
+- `element_hash`: Performs element_hash operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `ToFarColor()`: Konstruktor inicjalizujący ToFarColor obiekt z dostarczonymi parametrami
 - `UpdateCurrentTime()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
 - `GetHiColor()`: Pobiera HiColor ze stanu wewnętrznego lub struktury danych
 - `GetGroup()`: Pobiera Group ze stanu wewnętrznego lub struktury danych
-- `HiEdit()`: Wykonuje HiEdit operację jako część podstawowa funkcjonalność
+- `HiEdit()`: Performs HiEdit operation as part of the component's functionality
 - `UpdateHighlighting()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
 - `Save()`: Zapisuje bieżący stan lub dane do trwałego magazynu
-- `InheritPaletteColor()`: Wykonuje InheritPaletteColor operację jako część podstawowa funkcjonalność
-- `ApplyFinalColor()`: Wykonuje ApplyFinalColor operację jako część podstawowa funkcjonalność
+- `InheritPaletteColor()`: Performs InheritPaletteColor operation as part of the component's functionality
+- `ApplyFinalColor()`: Performs ApplyFinalColor operation as part of the component's functionality
 - `Load()`: Ładuje dane lub zasoby z magazynu do pamięci
 ### Przestrzenie nazw
 - `highlight`

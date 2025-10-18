@@ -5,7 +5,7 @@ Main functional areas: file system operations
 ### Key Functions
 - `IsCaseMixed()`: Tests whether CaseMixed condition is true or property exists
 - `IsWordDiv()`: Tests whether WordDiv condition is true or property exists
-- `CaseWord()`: Executes CaseWord operation as part of file system operations
+- `CaseWord()`: Performs CaseWord operation as part of the component's functionality
 ### Summary
 The `FileMix.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 

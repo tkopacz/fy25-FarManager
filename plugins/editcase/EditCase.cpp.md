@@ -6,12 +6,12 @@ Main functional areas: text editing
 - `FindBounds()`: Searches for Bounds in collection and returns position or reference
 - `FindEnd()`: Searches for End in collection and returns position or reference
 - `FindStart()`: Searches for Start in collection and returns position or reference
-- `MyIsAlpha()`: Executes MyIsAlpha operation as part of text editing
+- `MyIsAlpha()`: Checks state or conditions and returns boolean indicating the result
 - `GetNextCCType()`: Retrieves NextCCType from internal state or data structure
-- `ChangeCase()`: Executes ChangeCase operation as part of text editing
+- `ChangeCase()`: Performs ChangeCase operation as part of the component's functionality
 - `GetGlobalInfoW()`: Retrieves GlobalInfoW from internal state or data structure
 - `SetStartupInfoW()`: Updates StartupInfoW in internal state or configuration
-- `plugSettings()`: Executes plugSettings operation as part of text editing
+- `plugSettings()`: Performs plugSettings operation as part of the component's functionality
 - `OpenW()`: Opens resource and prepares it for access operations
 ### Summary
 The `EditCase.cpp` file provides essential functionality for text editing. and contains approximately 10 function(s) to support the Far Manager file manager operations.

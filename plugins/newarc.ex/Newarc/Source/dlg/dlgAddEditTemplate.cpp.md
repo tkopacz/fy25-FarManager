@@ -4,9 +4,9 @@
 Main functional areas: dialog handling, text editing
 ### Key Functions
 - `SetVisibility()`: Updates Visibility in internal state or configuration
-- `hndAddEditTemplate()`: Executes hndAddEditTemplate operation as part of dialog handling, text editing
-- `dlgAddEditTemplate()`: Executes dlgAddEditTemplate operation as part of dialog handling, text editing
-- `D()`: Executes D operation as part of dialog handling, text editing
+- `hndAddEditTemplate()`: Evaluates conditions and returns a boolean indicating success or validity of hndAddEditTemplate
+- `dlgAddEditTemplate()`: Evaluates conditions and returns a boolean indicating success or validity of dlgAddEditTemplate
+- `D()`: Performs D operation as part of the component's functionality
 ### Summary
 The `dlgAddEditTemplate.cpp` file provides essential functionality for dialog handling, text editing. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

@@ -4,11 +4,11 @@
 This file implements functionality related to: Просмотр файла - надстройка над viewer.cpp
 Main functional areas: file viewing, file system operations
 ### Key Classes
-- `FileViewer`: Implements file viewing, file system operations
+- `FileViewer`: Performs FileViewer operation as part of the component's functionality
 ### Key Functions
-- `expired()`: Executes expired operation as part of file viewing, file system operations
-- `start()`: Executes start operation as part of file viewing, file system operations
-- `stop()`: Executes stop operation as part of file viewing, file system operations
+- `expired()`: Evaluates conditions and returns boolean indicating success or validity
+- `start()`: Performs start operation as part of the component's functionality
+- `stop()`: Performs stop operation as part of the component's functionality
 - `SetTempViewName()`: Updates TempViewName in internal state or configuration
 ### Summary
 The `fileview.cpp` file provides essential functionality for file viewing, file system operations. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.

@@ -4,12 +4,12 @@
 This file implements functionality related to: Редактирование файла - надстройка над editor.cpp
 Main functional areas: text editing, file system operations
 ### Key Classes
-- `error_state_ex`: Implements text editing, file system operations
-- `f4_key_timer`: Implements text editing, file system operations
-- `private_tag`: Implements text editing, file system operations
+- `error_state_ex`: Performs error_state_ex operation as part of the component's functionality
+- `f4_key_timer`: Performs f4_key_timer operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
 ### Key Functions
 - `create()`: Creates and initializes new object instance
-- `FileEditor()`: Executes FileEditor operation as part of text editing, file system operations
+- `FileEditor()`: Performs FileEditor operation as part of the component's functionality
 - `GetCanLoseFocus()`: Retrieves CanLoseFocus from internal state or data structure
 - `IsFileModified()`: Tests whether FileModified condition is true or property exists
 - `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure

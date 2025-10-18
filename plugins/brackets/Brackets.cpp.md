@@ -7,9 +7,9 @@ Main functional areas: core functionality
 - `SetStartupInfoW()`: Updates StartupInfoW in internal state or configuration
 - `settings()`: Updates tings in internal state or configuration
 - `GetPluginInfoW()`: Retrieves PluginInfoW from internal state or data structure
-- `Config()`: Executes Config operation as part of core functionality
-- `Builder()`: Executes Builder operation as part of core functionality
-- `ConfigureW()`: Executes ConfigureW operation as part of core functionality
+- `Config()`: Evaluates conditions and returns a boolean indicating success or validity of Config
+- `Builder()`: Performs Builder operation as part of the component's functionality
+- `ConfigureW()`: Performs ConfigureW operation as part of the component's functionality
 - `ShowMenu()`: Displays content or makes visual element visible on screen
 - `OpenW()`: Opens resource and prepares it for access operations
 ### Summary
@@ -25,9 +25,9 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `SetStartupInfoW()`: Aktualizuje StartupInfoW w stanie wewnętrznym lub konfiguracji
 - `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
 - `GetPluginInfoW()`: Pobiera PluginInfoW ze stanu wewnętrznego lub struktury danych
-- `Config()`: Wykonuje Config operację jako część podstawowa funkcjonalność
-- `Builder()`: Wykonuje Builder operację jako część podstawowa funkcjonalność
-- `ConfigureW()`: Wykonuje ConfigureW operację jako część podstawowa funkcjonalność
+- `Config()`: Evaluates conditions and returns a boolean indicating success or validity of Config
+- `Builder()`: Performs Builder operation as part of the component's functionality
+- `ConfigureW()`: Performs ConfigureW operation as part of the component's functionality
 - `ShowMenu()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
 - `OpenW()`: Otwiera zasób i przygotowuje go do operacji dostępu
 ### Podsumowanie

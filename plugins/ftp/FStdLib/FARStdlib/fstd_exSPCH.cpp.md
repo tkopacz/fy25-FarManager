@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `StrPosChr()`: Executes StrPosChr operation as part of file system operations
+- `StrPosChr()`: Performs StrPosChr operation as part of the component's functionality
 ### Summary
 The `fstd_exSPCH.cpp` file provides essential functionality for file system operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Functions
-- `strFileName()`: Executes strFileName operation as part of plugin interface
-- `MultiExArchive()`: Executes MultiExArchive operation as part of plugin interface
+- `strFileName()`: Performs strFileName operation as part of the component's functionality
+- `MultiExArchive()`: Performs MultiExArchive operation as part of the component's functionality
 ### Summary
 The `multiex.Plugin.cpp` file provides essential functionality for plugin interface. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 

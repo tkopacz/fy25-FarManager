@@ -4,21 +4,21 @@
 This file implements functionality related to: API, доступное плагинам (диалоги, меню, ...)
 Main functional areas: core functionality
 ### Key Classes
-- `plugin_dialog`: Implements core functionality
-- `pluginapi_sort_accessor`: Implements core functionality
-- `private_tag`: Implements core functionality
-- `regex_handle`: Implements core functionality
+- `plugin_dialog`: Performs plugin_dialog operation as part of the component's functionality
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `regex_handle`: Performs regex_handle operation as part of the component's functionality
 ### Key Functions
 - `UuidToPlugin()`: Constructor that initializes UuidToPlugin object with provided parameters
 - `GetHostPanel()`: Retrieves HostPanel from internal state or data structure
-- `bsearch_comparer_wrapper()`: Executes bsearch_comparer_wrapper operation as part of core functionality
-- `bsearch_comparer()`: Executes bsearch_comparer operation as part of core functionality
+- `bsearch_comparer_wrapper()`: Performs bsearch_comparer_wrapper operation as part of the component's functionality
+- `bsearch_comparer()`: Performs bsearch_comparer operation as part of the component's functionality
 - `bsearchex()`: Constructor that initializes bsearchex object with provided parameters
-- `qsort_comparer_wrapper()`: Executes qsort_comparer_wrapper operation as part of core functionality
-- `qsort_comparer()`: Executes qsort_comparer operation as part of core functionality
-- `qsortex()`: Executes qsortex operation as part of core functionality
-- `compare_ordinal_icase()`: Executes compare_ordinal_icase operation as part of core functionality
-- `_vsnwprintf()`: Executes _vsnwprintf operation as part of core functionality
+- `qsort_comparer_wrapper()`: Performs qsort_comparer_wrapper operation as part of the component's functionality
+- `qsort_comparer()`: Performs qsort_comparer operation as part of the component's functionality
+- `qsortex()`: Performs qsortex operation as part of the component's functionality
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation as part of the component's functionality
+- `_vsnwprintf()`: Performs _vsnwprintf operation as part of the component's functionality
 ### Namespaces
 - `cfunctions`
 - `magic`
@@ -33,21 +33,21 @@ The `plugapi.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: API, доступное плагинам (диалоги, меню, ...)
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `plugin_dialog`: Implementuje podstawowa funkcjonalność
-- `pluginapi_sort_accessor`: Implementuje podstawowa funkcjonalność
-- `private_tag`: Implementuje podstawowa funkcjonalność
-- `regex_handle`: Implementuje podstawowa funkcjonalność
+- `plugin_dialog`: Performs plugin_dialog operation as part of the component's functionality
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation as part of the component's functionality
+- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `regex_handle`: Performs regex_handle operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `UuidToPlugin()`: Konstruktor inicjalizujący UuidToPlugin obiekt z dostarczonymi parametrami
 - `GetHostPanel()`: Pobiera HostPanel ze stanu wewnętrznego lub struktury danych
-- `bsearch_comparer_wrapper()`: Wykonuje bsearch_comparer_wrapper operację jako część podstawowa funkcjonalność
-- `bsearch_comparer()`: Wykonuje bsearch_comparer operację jako część podstawowa funkcjonalność
+- `bsearch_comparer_wrapper()`: Performs bsearch_comparer_wrapper operation as part of the component's functionality
+- `bsearch_comparer()`: Performs bsearch_comparer operation as part of the component's functionality
 - `bsearchex()`: Konstruktor inicjalizujący bsearchex obiekt z dostarczonymi parametrami
-- `qsort_comparer_wrapper()`: Wykonuje qsort_comparer_wrapper operację jako część podstawowa funkcjonalność
-- `qsort_comparer()`: Wykonuje qsort_comparer operację jako część podstawowa funkcjonalność
-- `qsortex()`: Wykonuje qsortex operację jako część podstawowa funkcjonalność
-- `compare_ordinal_icase()`: Wykonuje compare_ordinal_icase operację jako część podstawowa funkcjonalność
-- `_vsnwprintf()`: Wykonuje _vsnwprintf operację jako część podstawowa funkcjonalność
+- `qsort_comparer_wrapper()`: Performs qsort_comparer_wrapper operation as part of the component's functionality
+- `qsort_comparer()`: Performs qsort_comparer operation as part of the component's functionality
+- `qsortex()`: Performs qsortex operation as part of the component's functionality
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation as part of the component's functionality
+- `_vsnwprintf()`: Performs _vsnwprintf operation as part of the component's functionality
 ### Przestrzenie nazw
 - `cfunctions`
 - `magic`

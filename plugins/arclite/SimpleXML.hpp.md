@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `IParseCallback`: Implements core functionality
-- `cbRet`: Implements core functionality
-- `parseRet`: Implements core functionality
-- `str_view`: Implements core functionality
+- `IParseCallback`: Callback function that handles specific events or notifications
+- `cbRet`: Performs cbRet operation as part of the component's functionality
+- `parseRet`: Performs parseRet operation as part of the component's functionality
+- `str_view`: Performs str_view operation as part of the component's functionality
 ### Key Functions
-- `empty()`: Executes empty operation as part of core functionality
-- `size()`: Executes size operation as part of core functionality
+- `empty()`: Performs empty operation as part of the component's functionality
+- `size()`: Performs size operation as part of the component's functionality
 - `parse()`: Parses input string or data into structured format
 ### Namespaces
 - `SimpleXML`
@@ -22,13 +22,13 @@ The `SimpleXML.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `IParseCallback`: Implementuje podstawowa funkcjonalność
-- `cbRet`: Implementuje podstawowa funkcjonalność
-- `parseRet`: Implementuje podstawowa funkcjonalność
-- `str_view`: Implementuje podstawowa funkcjonalność
+- `IParseCallback`: Callback function that handles specific events or notifications
+- `cbRet`: Performs cbRet operation as part of the component's functionality
+- `parseRet`: Performs parseRet operation as part of the component's functionality
+- `str_view`: Performs str_view operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `empty()`: Wykonuje empty operację jako część podstawowa funkcjonalność
-- `size()`: Wykonuje size operację jako część podstawowa funkcjonalność
+- `empty()`: Performs empty operation as part of the component's functionality
+- `size()`: Performs size operation as part of the component's functionality
 - `parse()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
 ### Przestrzenie nazw
 - `SimpleXML`

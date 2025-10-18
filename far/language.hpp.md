@@ -4,22 +4,22 @@
 This file implements functionality related to: Работа с LNG-файлами
 Main functional areas: singleton implementation
 ### Key Classes
-- `i_language_data`: Implements singleton implementation
-- `lang_file`: Implements singleton implementation
-- `language`: Implements singleton implementation
-- `lng`: Implements singleton implementation
-- `plugin_language`: Implements singleton implementation
+- `i_language_data`: Performs i_language_data operation as part of the component's functionality
+- `lang_file`: Performs lang_file operation as part of the component's functionality
+- `language`: Performs language operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `plugin_language`: Performs plugin_language operation as part of the component's functionality
 ### Key Functions
-- `validate()`: Validates data integrity and checks for correctness
-- `Msg()`: Executes Msg operation as part of singleton implementation
+- `validate()`: Validates data integrity and checks correctness of input
+- `Msg()`: Performs Msg operation as part of the component's functionality
 - `load()`: Loads data or resources from storage into memory
-- `plugin_language()`: Executes plugin_language operation as part of singleton implementation
+- `plugin_language()`: Performs plugin_language operation as part of the component's functionality
 - `is_loaded()`: Tests whether _loaded condition is true or property exists
-- `bool()`: Executes bool operation as part of singleton implementation
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
 - `OpenLangFile()`: Opens resource and prepares it for access operations
 - `OpenHelpFile()`: Opens resource and prepares it for access operations
 - `GetLangParam()`: Retrieves LangParam from internal state or data structure
-- `SelectInterfaceLanguage()`: Executes SelectInterfaceLanguage operation as part of singleton implementation
+- `SelectInterfaceLanguage()`: Performs SelectInterfaceLanguage operation as part of the component's functionality
 ### Summary
 The `language.hpp` file provides essential functionality for singleton implementation. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

@@ -7,13 +7,13 @@ Main functional areas: file system operations, string utilities
 - `GetString()`: Retrieves String from internal state or data structure
 - `GetUnicodeCpUsingBOM()`: Retrieves UnicodeCpUsingBOM from internal state or data structure
 - `IsCodepageAcceptable()`: Tests whether CodepageAcceptable condition is true or property exists
-- `Scores()`: Executes Scores operation as part of file system operations, string utilities
+- `Scores()`: Performs Scores operation as part of the component's functionality
 - `GetCpUsingHeuristicsWithExceptions()`: Retrieves CpUsingHeuristicsWithExceptions from internal state or data structure
 - `GetCpUsingML()`: Retrieves CpUsingML from internal state or data structure
 - `GetFileCodepage()`: Retrieves FileCodepage from internal state or data structure
-- `Buffer()`: Executes Buffer operation as part of file system operations, string utilities
-- `Stream()`: Executes Stream operation as part of file system operations, string utilities
-- `Enumerator()`: Executes Enumerator operation as part of file system operations, string utilities
+- `Buffer()`: Performs Buffer operation as part of the component's functionality
+- `Stream()`: Performs Stream operation as part of the component's functionality
+- `Enumerator()`: Performs Enumerator operation as part of the component's functionality
 ### Summary
 The `filestr.cpp` file provides essential functionality for file system operations, string utilities. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

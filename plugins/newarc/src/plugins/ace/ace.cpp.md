@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveModuleInformation`: Implements core functionality
+- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation as part of the component's functionality
 ### Key Functions
 - `OnInitialize()`: Event handler invoked when Initialize occurs
 - `OnFinalize()`: Event handler invoked when Finalize occurs
 - `OnQueryArchive()`: Event handler invoked when QueryArchive occurs
-- `AceArchive()`: Executes AceArchive operation as part of core functionality
+- `AceArchive()`: Performs AceArchive operation as part of the component's functionality
 - `OnCreateArchive()`: Event handler invoked when CreateArchive occurs
 - `OnOpenArchive()`: Event handler invoked when OpenArchive occurs
 - `OnCloseArchive()`: Event handler invoked when CloseArchive occurs
@@ -24,12 +24,12 @@ The `ace.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveModuleInformation`: Implementuje podstawowa funkcjonalność
+- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `OnInitialize()`: Procedura obsługi zdarzeń wywoływana gdy Initialize występuje
 - `OnFinalize()`: Procedura obsługi zdarzeń wywoływana gdy Finalize występuje
 - `OnQueryArchive()`: Procedura obsługi zdarzeń wywoływana gdy QueryArchive występuje
-- `AceArchive()`: Wykonuje AceArchive operację jako część podstawowa funkcjonalność
+- `AceArchive()`: Performs AceArchive operation as part of the component's functionality
 - `OnCreateArchive()`: Procedura obsługi zdarzeń wywoływana gdy CreateArchive występuje
 - `OnOpenArchive()`: Procedura obsługi zdarzeń wywoływana gdy OpenArchive występuje
 - `OnCloseArchive()`: Procedura obsługi zdarzeń wywoływana gdy CloseArchive występuje

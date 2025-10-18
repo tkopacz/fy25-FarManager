@@ -4,18 +4,18 @@
 This file implements functionality related to: Internal viewer
 Main functional areas: file viewing
 ### Key Classes
-- `Dialog`: Implements file viewing
-- `FileViewer`: Implements file viewing
-- `KeyBar`: Implements file viewing
-- `SearchDisposition`: Implements file viewing
-- `Viewer`: Implements file viewing
-- `ViewerContainer`: Implements file viewing
-- `ViewerString`: Implements file viewing
-- `ViewerUndoData`: Implements file viewing
-- `search_data`: Implements file viewing
-- `vgetc_cache`: Implements file viewing
+- `Dialog`: Performs Dialog operation as part of the component's functionality
+- `FileViewer`: Performs FileViewer operation as part of the component's functionality
+- `KeyBar`: Performs KeyBar operation as part of the component's functionality
+- `SearchDisposition`: Performs SearchDisposition operation as part of the component's functionality
+- `Viewer`: Performs Viewer operation as part of the component's functionality
+- `ViewerContainer`: Performs ViewerContainer operation as part of the component's functionality
+- `ViewerString`: Performs ViewerString operation as part of the component's functionality
+- `ViewerUndoData`: Performs ViewerUndoData operation as part of the component's functionality
+- `search_data`: Performs search_data operation as part of the component's functionality
+- `vgetc_cache`: Performs vgetc_cache operation as part of the component's functionality
 ### Key Functions
-- `Viewer()`: Executes Viewer operation as part of file viewing
+- `Viewer()`: Performs Viewer operation as part of the component's functionality
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `VMProcess()`: Processes virtual machine operations or commands
@@ -23,7 +23,7 @@ Main functional areas: file viewing
 - `SetViewKeyBar()`: Updates ViewKeyBar in internal state or configuration
 - `UpdateViewKeyBar()`: Updates existing data with new values while preserving structure
 - `SetStatusMode()`: Updates StatusMode in internal state or configuration
-- `EnableHideCursor()`: Executes EnableHideCursor operation as part of file viewing
+- `EnableHideCursor()`: Performs EnableHideCursor operation as part of the component's functionality
 - `GetWrapMode()`: Retrieves WrapMode from internal state or data structure
 ### Summary
 The `viewer.hpp` file provides essential functionality for file viewing. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

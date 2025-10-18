@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Buffer`: Implements core functionality
-- `ComInit`: Implements core functionality
-- `Error`: Implements core functionality
-- `NonCopyable`: Implements core functionality
+- `Buffer`: Allocates memory and initializes resources for Buffer
+- `ComInit`: Manages COM (Component Object Model) initialization and interface operations
+- `Error`: Performs Error operation as part of the component's functionality
+- `NonCopyable`: Performs NonCopyable operation as part of the component's functionality
 ### Key Functions
-- `DllMain()`: Executes DllMain operation as part of core functionality
-- `FAIL()`: Executes FAIL operation as part of core functionality
-- `FAIL_MSG()`: Executes FAIL_MSG operation as part of core functionality
-- `CHECK_SYS()`: Validates data integrity and checks for correctness
-- `CHECK_ADVSYS()`: Validates data integrity and checks for correctness
-- `CHECK_COM()`: Validates data integrity and checks for correctness
-- `CHECK()`: Validates data integrity and checks for correctness
-- `resize()`: Changes size dimensions while preserving content when possible
-- `data()`: Constructor that initializes data object with provided parameters
-- `size()`: Executes size operation as part of core functionality
+- `DllMain()`: Evaluates conditions and returns a boolean indicating success or validity of DllMain
+- `FAIL()`: Validates conditions and throws exceptions when errors are detected during FAIL operation
+- `FAIL_MSG()`: Validates conditions and throws exceptions when errors are detected during FAIL_MSG operation
+- `CHECK_SYS()`: Validates data integrity and checks correctness of input
+- `CHECK_ADVSYS()`: Validates data integrity and checks correctness of input
+- `CHECK_COM()`: Validates data integrity and checks correctness of input
+- `CHECK()`: Validates data integrity and checks correctness of input
+- `resize()`: Allocates memory and initializes resources for resize
+- `data()`: Returns pointer or reference to internal data buffer
+- `size()`: Performs size operation as part of the component's functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -29,21 +29,21 @@ The `customact.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Buffer`: Implementuje podstawowa funkcjonalność
-- `ComInit`: Implementuje podstawowa funkcjonalność
-- `Error`: Implementuje podstawowa funkcjonalność
-- `NonCopyable`: Implementuje podstawowa funkcjonalność
+- `Buffer`: Allocates memory and initializes resources for Buffer
+- `ComInit`: Manages COM (Component Object Model) initialization and interface operations
+- `Error`: Performs Error operation as part of the component's functionality
+- `NonCopyable`: Performs NonCopyable operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `DllMain()`: Wykonuje DllMain operację jako część podstawowa funkcjonalność
-- `FAIL()`: Wykonuje FAIL operację jako część podstawowa funkcjonalność
-- `FAIL_MSG()`: Wykonuje FAIL_MSG operację jako część podstawowa funkcjonalność
+- `DllMain()`: Evaluates conditions and returns a boolean indicating success or validity of DllMain
+- `FAIL()`: Validates conditions and throws exceptions when errors are detected during FAIL operation
+- `FAIL_MSG()`: Validates conditions and throws exceptions when errors are detected during FAIL_MSG operation
 - `CHECK_SYS()`: Waliduje integralność danych i sprawdza poprawność
 - `CHECK_ADVSYS()`: Waliduje integralność danych i sprawdza poprawność
 - `CHECK_COM()`: Waliduje integralność danych i sprawdza poprawność
 - `CHECK()`: Waliduje integralność danych i sprawdza poprawność
 - `resize()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
 - `data()`: Konstruktor inicjalizujący dane obiekt z dostarczonymi parametrami
-- `size()`: Wykonuje size operację jako część podstawowa funkcjonalność
+- `size()`: Performs size operation as part of the component's functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

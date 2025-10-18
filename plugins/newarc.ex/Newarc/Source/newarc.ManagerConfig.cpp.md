@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: configuration management
 ### Key Functions
-- `ArchiveFilter()`: Executes ArchiveFilter operation as part of configuration management
-- `TiXmlElement()`: Executes TiXmlElement operation as part of configuration management
+- `ArchiveFilter()`: Performs ArchiveFilter operation as part of the component's functionality
+- `TiXmlElement()`: Performs TiXmlElement operation as part of the component's functionality
 - `handle()`: Handles event by executing appropriate response logic
 ### Summary
 The `newarc.ManagerConfig.cpp` file provides essential functionality for configuration management. and contains approximately 3 function(s) to support the Far Manager file manager operations.

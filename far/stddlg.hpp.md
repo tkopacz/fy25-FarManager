@@ -4,16 +4,16 @@
 This file implements functionality related to: Куча разных стандартных диалогов
 Main functional areas: dialog handling
 ### Key Classes
-- `SearchReplaceDlgParams`: Implements dialog handling
-- `SearchReplaceDlgResult`: Implements dialog handling
-- `SharedGroup`: Implements dialog handling
-- `dirinfo_progress`: Implements dialog handling
-- `error_state_ex`: Implements dialog handling
-- `goto_coord`: Implements dialog handling
-- `lng`: Implements dialog handling
-- `operation`: Implements dialog handling
-- `progress_impl`: Implements dialog handling
-- `single_progress`: Implements dialog handling
+- `SearchReplaceDlgParams`: Performs SearchReplaceDlgParams operation as part of the component's functionality
+- `SearchReplaceDlgResult`: Performs SearchReplaceDlgResult operation as part of the component's functionality
+- `SharedGroup`: Performs SharedGroup operation as part of the component's functionality
+- `dirinfo_progress`: Performs dirinfo_progress operation as part of the component's functionality
+- `error_state_ex`: Performs error_state_ex operation as part of the component's functionality
+- `goto_coord`: Performs goto_coord operation as part of the component's functionality
+- `lng`: Performs lng operation as part of the component's functionality
+- `operation`: Validates conditions and throws exceptions when errors are detected during operation operation
+- `progress_impl`: Performs progress_impl operation as part of the component's functionality
+- `single_progress`: Performs single_progress operation as part of the component's functionality
 ### Key Functions
 - `GetShared()`: Retrieves Shared from internal state or data structure
 - `SaveToShared()`: Saves current state or data to persistent storage
@@ -21,10 +21,10 @@ Main functional areas: dialog handling
 - `IsSearchPatternEmpty()`: Tests whether SearchPatternEmpty condition is true or property exists
 - `GetString()`: Retrieves String from internal state or data structure
 - `GetNameAndPassword()`: Retrieves NameAndPassword from internal state or data structure
-- `OperationFailed()`: Executes OperationFailed operation as part of dialog handling
-- `cancel_operation()`: Executes cancel_operation operation as part of dialog handling
-- `ReCompileErrorMessage()`: Executes ReCompileErrorMessage operation as part of dialog handling
-- `GoToRowCol()`: Executes GoToRowCol operation as part of dialog handling
+- `OperationFailed()`: Performs OperationFailed operation as part of the component's functionality
+- `cancel_operation()`: Validates conditions and throws exceptions when errors are detected during cancel_operation operation
+- `ReCompileErrorMessage()`: Performs ReCompileErrorMessage operation as part of the component's functionality
+- `GoToRowCol()`: Performs GoToRowCol operation as part of the component's functionality
 ### Summary
 The `stddlg.hpp` file provides essential functionality for dialog handling. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

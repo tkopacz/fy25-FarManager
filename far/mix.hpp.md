@@ -4,17 +4,17 @@
 This file implements functionality related to: Mix
 Main functional areas: core functionality
 ### Key Classes
-- `PluginPanelItemHolder`: Implements core functionality
-- `PluginPanelItemHolderHeap`: Implements core functionality
-- `SetAutocomplete`: Implements core functionality
-- `plugin_item_list`: Implements core functionality
-- `std`: Implements core functionality
+- `PluginPanelItemHolder`: Performs PluginPanelItemHolder operation as part of the component's functionality
+- `PluginPanelItemHolderHeap`: Performs PluginPanelItemHolderHeap operation as part of the component's functionality
+- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
+- `plugin_item_list`: Performs plugin_item_list operation as part of the component's functionality
+- `std`: Performs std operation as part of the component's functionality
 ### Key Functions
-- `ToPercent()`: Executes ToPercent operation as part of core functionality
-- `FromPercent()`: Executes FromPercent operation as part of core functionality
-- `MakeTemp()`: Executes MakeTemp operation as part of core functionality
-- `MakeTempInSameDir()`: Executes MakeTempInSameDir operation as part of core functionality
-- `PluginPanelItemToFindDataEx()`: Executes PluginPanelItemToFindDataEx operation as part of core functionality
+- `ToPercent()`: Performs ToPercent operation as part of the component's functionality
+- `FromPercent()`: Performs FromPercent operation as part of the component's functionality
+- `MakeTemp()`: Performs MakeTemp operation as part of the component's functionality
+- `MakeTempInSameDir()`: Performs MakeTempInSameDir operation as part of the component's functionality
+- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation as part of the component's functionality
 - `set_name()`: Updates _name in internal state or configuration
 - `set_alt_name()`: Updates _alt_name in internal state or configuration
 - `set_description()`: Updates _description in internal state or configuration
@@ -30,17 +30,17 @@ The `mix.hpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Mix
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PluginPanelItemHolder`: Implementuje podstawowa funkcjonalność
-- `PluginPanelItemHolderHeap`: Implementuje podstawowa funkcjonalność
-- `SetAutocomplete`: Implementuje podstawowa funkcjonalność
-- `plugin_item_list`: Implementuje podstawowa funkcjonalność
-- `std`: Implementuje podstawowa funkcjonalność
+- `PluginPanelItemHolder`: Performs PluginPanelItemHolder operation as part of the component's functionality
+- `PluginPanelItemHolderHeap`: Performs PluginPanelItemHolderHeap operation as part of the component's functionality
+- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
+- `plugin_item_list`: Performs plugin_item_list operation as part of the component's functionality
+- `std`: Performs std operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `ToPercent()`: Wykonuje ToPercent operację jako część podstawowa funkcjonalność
-- `FromPercent()`: Wykonuje FromPercent operację jako część podstawowa funkcjonalność
-- `MakeTemp()`: Wykonuje MakeTemp operację jako część podstawowa funkcjonalność
-- `MakeTempInSameDir()`: Wykonuje MakeTempInSameDir operację jako część podstawowa funkcjonalność
-- `PluginPanelItemToFindDataEx()`: Wykonuje PluginPanelItemToFindDataEx operację jako część podstawowa funkcjonalność
+- `ToPercent()`: Performs ToPercent operation as part of the component's functionality
+- `FromPercent()`: Performs FromPercent operation as part of the component's functionality
+- `MakeTemp()`: Performs MakeTemp operation as part of the component's functionality
+- `MakeTempInSameDir()`: Performs MakeTempInSameDir operation as part of the component's functionality
+- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation as part of the component's functionality
 - `set_name()`: Aktualizuje _name w stanie wewnętrznym lub konfiguracji
 - `set_alt_name()`: Aktualizuje _alt_name w stanie wewnętrznym lub konfiguracji
 - `set_description()`: Aktualizuje _description w stanie wewnętrznym lub konfiguracji

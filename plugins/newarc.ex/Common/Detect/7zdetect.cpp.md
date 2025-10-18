@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `SevenZipHeader`: Implements core functionality
+- `SevenZipHeader`: Performs SevenZipHeader operation as part of the component's functionality
 ### Key Functions
 - `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
 - `Is7zHeader()`: Tests whether 7zHeader condition is true or property exists
@@ -16,7 +16,7 @@ The `7zdetect.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SevenZipHeader`: Implementuje podstawowa funkcjonalność
+- `SevenZipHeader`: Performs SevenZipHeader operation as part of the component's functionality
 ### Kluczowe Funkcje
 - `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
 - `Is7zHeader()`: Testuje czy 7zHeader warunek jest prawdziwy lub właściwość istnieje

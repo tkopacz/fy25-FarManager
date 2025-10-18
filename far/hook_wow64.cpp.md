@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `hook_error`: Implements core functionality
-- `remove_protection`: Implements core functionality
-- `wow`: Implements core functionality
+- `hook_error`: Performs hook_error operation as part of the component's functionality
+- `remove_protection`: Removes or deletes the specified item or resource
+- `wow`: Performs wow operation as part of the component's functionality
 ### Key Functions
-- `e_disable()`: Executes e_disable operation as part of core functionality
-- `e_revert()`: Executes e_revert operation as part of core functionality
-- `wow_restore()`: Executes wow_restore operation as part of core functionality
+- `e_disable()`: Performs e_disable operation as part of the component's functionality
+- `e_revert()`: Performs e_revert operation as part of the component's functionality
+- `wow_restore()`: Performs wow_restore operation as part of the component's functionality
 - `wow_disable()`: Constructor that initializes wow_disable object with provided parameters
-- `__asm__()`: Executes __asm__ operation as part of core functionality
-- `hook_ldr()`: Executes hook_ldr operation as part of core functionality
+- `__asm__()`: Performs __asm__ operation as part of the component's functionality
+- `hook_ldr()`: Performs hook_ldr operation as part of the component's functionality
 - `GetProcAddressImpl()`: Retrieves ProcAddressImpl from internal state or data structure
-- `bool()`: Executes bool operation as part of core functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
 - `init_hook()`: Initializes data structures and sets up initial state for operation
-- `HookProc()`: Executes HookProc operation as part of core functionality
+- `HookProc()`: Performs HookProc operation as part of the component's functionality
 ### Summary
 The `hook_wow64.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,19 +26,19 @@ The `hook_wow64.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `hook_error`: Implementuje podstawowa funkcjonalność
-- `remove_protection`: Implementuje podstawowa funkcjonalność
-- `wow`: Implementuje podstawowa funkcjonalność
+- `hook_error`: Performs hook_error operation as part of the component's functionality
+- `remove_protection`: Removes or deletes the specified item or resource
+- `wow`: Performs wow operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `e_disable()`: Wykonuje e_disable operację jako część podstawowa funkcjonalność
-- `e_revert()`: Wykonuje e_revert operację jako część podstawowa funkcjonalność
-- `wow_restore()`: Wykonuje wow_restore operację jako część podstawowa funkcjonalność
+- `e_disable()`: Performs e_disable operation as part of the component's functionality
+- `e_revert()`: Performs e_revert operation as part of the component's functionality
+- `wow_restore()`: Performs wow_restore operation as part of the component's functionality
 - `wow_disable()`: Konstruktor inicjalizujący wow_disable obiekt z dostarczonymi parametrami
-- `__asm__()`: Wykonuje __asm__ operację jako część podstawowa funkcjonalność
-- `hook_ldr()`: Wykonuje hook_ldr operację jako część podstawowa funkcjonalność
+- `__asm__()`: Performs __asm__ operation as part of the component's functionality
+- `hook_ldr()`: Performs hook_ldr operation as part of the component's functionality
 - `GetProcAddressImpl()`: Pobiera ProcAddressImpl ze stanu wewnętrznego lub struktury danych
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
 - `init_hook()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `HookProc()`: Wykonuje HookProc operację jako część podstawowa funkcjonalność
+- `HookProc()`: Performs HookProc operation as part of the component's functionality
 ### Podsumowanie
 Plik `hook_wow64.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

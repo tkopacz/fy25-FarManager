@@ -4,26 +4,26 @@
 This file implements functionality related to: Строка редактора
 Main functional areas: text editing
 ### Key Classes
-- `ColorItem`: Implements text editing
-- `DlgEdit`: Implements text editing
-- `Edit`: Implements text editing
-- `Editor`: Implements text editing
-- `FarColor`: Implements text editing
-- `FileEditor`: Implements text editing
-- `RegExp`: Implements text editing
-- `RegExpMatch`: Implements text editing
-- `ShowInfo`: Implements text editing
-- `edit_string`: Implements text editing
+- `ColorItem`: Performs ColorItem operation as part of the component's functionality
+- `DlgEdit`: Performs DlgEdit operation as part of the component's functionality
+- `Edit`: Performs Edit operation as part of the component's functionality
+- `Editor`: Performs Editor operation as part of the component's functionality
+- `FarColor`: Performs FarColor operation as part of the component's functionality
+- `FileEditor`: Performs FileEditor operation as part of the component's functionality
+- `RegExp`: Performs RegExp operation as part of the component's functionality
+- `RegExpMatch`: Performs RegExpMatch operation as part of the component's functionality
+- `ShowInfo`: Performs ShowInfo operation as part of the component's functionality
+- `edit_string`: Performs edit_string operation as part of the component's functionality
 ### Key Functions
 - `GetOwner()`: Retrieves Owner from internal state or data structure
 - `SetOwner()`: Updates Owner in internal state or configuration
 - `GetColor()`: Retrieves Color from internal state or data structure
 - `SetColor()`: Updates Color in internal state or configuration
-- `Edit()`: Executes Edit operation as part of text editing
+- `Edit()`: Performs Edit operation as part of the component's functionality
 - `ProcessKey()`: Processes Key through transformation or handling pipeline
 - `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
 - `VMProcess()`: Processes virtual machine operations or commands
-- `Changed()`: Executes Changed operation as part of text editing
+- `Changed()`: Performs Changed operation as part of the component's functionality
 - `GetMaxLength()`: Retrieves MaxLength from internal state or data structure
 ### Summary
 The `edit.hpp` file provides essential functionality for text editing. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

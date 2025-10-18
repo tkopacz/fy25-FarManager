@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Classes
-- `Options`: Implements file system operations
+- `Options`: Performs Options operation as part of the component's functionality
 ### Key Functions
 - `IsCaseMixed()`: Tests whether CaseMixed condition is true or property exists
-- `CaseWord()`: Executes CaseWord operation as part of file system operations
+- `CaseWord()`: Performs CaseWord operation as part of the component's functionality
 - `ProcessName()`: Processes Name through transformation or handling pipeline
-- `CaseConvertion()`: Executes CaseConvertion operation as part of file system operations
+- `CaseConvertion()`: Performs CaseConvertion operation as part of the component's functionality
 ### Summary
 The `FileCase.hpp` file provides essential functionality for file system operations. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 

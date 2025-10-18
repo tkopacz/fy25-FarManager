@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `StrCmp()`: Executes StrCmp operation as part of file system operations
+- `StrCmp()`: Performs StrCmp operation as part of the component's functionality
 ### Summary
 The `fstd_exSCMP.cpp` file provides essential functionality for file system operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 

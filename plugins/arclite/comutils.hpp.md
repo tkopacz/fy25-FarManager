@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `BStr`: Implements core functionality
-- `ComBase`: Implements core functionality
-- `ComObject`: Implements core functionality
-- `PropVariant`: Implements core functionality
+- `BStr`: Performs BStr operation as part of the component's functionality
+- `ComBase`: Performs ComBase operation as part of the component's functionality
+- `ComObject`: Performs ComObject operation as part of the component's functionality
+- `PropVariant`: Performs PropVariant operation as part of the component's functionality
 ### Key Functions
-- `Release()`: Executes Release operation as part of core functionality
-- `bool()`: Executes bool operation as part of core functionality
-- `detach()`: Executes detach operation as part of core functionality
+- `Release()`: Performs Release operation as part of the component's functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `detach()`: Performs detach operation as part of the component's functionality
 - `clear()`: Clears all data and resets to initial empty state
 - `ref()`: Constructor that initializes ref object with provided parameters
 - `is_int()`: Tests whether _int condition is true or property exists
@@ -27,14 +27,14 @@ The `comutils.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `BStr`: Implementuje podstawowa funkcjonalność
-- `ComBase`: Implementuje podstawowa funkcjonalność
-- `ComObject`: Implementuje podstawowa funkcjonalność
-- `PropVariant`: Implementuje podstawowa funkcjonalność
+- `BStr`: Performs BStr operation as part of the component's functionality
+- `ComBase`: Performs ComBase operation as part of the component's functionality
+- `ComObject`: Performs ComObject operation as part of the component's functionality
+- `PropVariant`: Performs PropVariant operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `Release()`: Wykonuje Release operację jako część podstawowa funkcjonalność
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `detach()`: Wykonuje detach operację jako część podstawowa funkcjonalność
+- `Release()`: Performs Release operation as part of the component's functionality
+- `bool()`: Evaluates conditions and returns boolean indicating success or validity
+- `detach()`: Performs detach operation as part of the component's functionality
 - `clear()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
 - `ref()`: Konstruktor inicjalizujący ref obiekt z dostarczonymi parametrami
 - `is_int()`: Testuje czy _int warunek jest prawdziwy lub właściwość istnieje

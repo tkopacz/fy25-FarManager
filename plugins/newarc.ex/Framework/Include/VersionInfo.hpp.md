@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `LANGANDCODEPAGE`: Implements core functionality
-- `VersionInfo`: Implements core functionality
+- `LANGANDCODEPAGE`: Performs LANGANDCODEPAGE operation as part of the component's functionality
+- `VersionInfo`: Allocates memory and initializes resources for VersionInfo
 ### Key Functions
 - `GetValue()`: Retrieves Value from internal state or data structure
 ### Summary
@@ -16,8 +16,8 @@ The `VersionInfo.hpp` file provides essential functionality for core functionali
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `LANGANDCODEPAGE`: Implementuje podstawowa funkcjonalność
-- `VersionInfo`: Implementuje podstawowa funkcjonalność
+- `LANGANDCODEPAGE`: Performs LANGANDCODEPAGE operation as part of the component's functionality
+- `VersionInfo`: Allocates memory and initializes resources for VersionInfo
 ### Kluczowe Funkcje
 - `GetValue()`: Pobiera Value ze stanu wewnętrznego lub struktury danych
 ### Podsumowanie

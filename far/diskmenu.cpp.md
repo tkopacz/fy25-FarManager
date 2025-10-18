@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: menu management
 ### Key Classes
-- `DiskMenuItem`: Implements menu management
-- `DiskMenuParam`: Implements menu management
-- `disk_item`: Implements menu management
-- `menu_init_item`: Implements menu management
-- `plugin_item`: Implements menu management
-- `separator`: Implements menu management
+- `DiskMenuItem`: Performs DiskMenuItem operation as part of the component's functionality
+- `DiskMenuParam`: Performs DiskMenuParam operation as part of the component's functionality
+- `disk_item`: Performs disk_item operation as part of the component's functionality
+- `menu_init_item`: Performs menu_init_item operation as part of the component's functionality
+- `plugin_item`: Performs plugin_item operation as part of the component's functionality
+- `separator`: Performs separator operation as part of the component's functionality
 ### Key Functions
 - `is_disk()`: Tests whether _disk condition is true or property exists
-- `dos_drive_name()`: Executes dos_drive_name operation as part of menu management
-- `dos_drive_root_directory()`: Executes dos_drive_root_directory operation as part of menu management
-- `EjectFailed()`: Executes EjectFailed operation as part of menu management
+- `dos_drive_name()`: Performs dos_drive_name operation as part of the component's functionality
+- `dos_drive_root_directory()`: Performs dos_drive_root_directory operation as part of the component's functionality
+- `EjectFailed()`: Performs EjectFailed operation as part of the component's functionality
 - `AddPluginItems()`: Adds new PluginItems to collection or list
-- `ConfigureChangeDriveMode()`: Executes ConfigureChangeDriveMode operation as part of menu management
-- `Builder()`: Executes Builder operation as part of menu management
-- `MessageRemoveConnection()`: Executes MessageRemoveConnection operation as part of menu management
-- `DriveLocalToRemoteName()`: Executes DriveLocalToRemoteName operation as part of menu management
+- `ConfigureChangeDriveMode()`: Displays dialog interface for user interaction and input collection
+- `Builder()`: Performs Builder operation as part of the component's functionality
+- `MessageRemoveConnection()`: Opens and manages file access for reading or writing operations
+- `DriveLocalToRemoteName()`: Performs DriveLocalToRemoteName operation as part of the component's functionality
 - `ProcessDelDisk()`: Processes DelDisk through transformation or handling pipeline
 ### Summary
 The `diskmenu.cpp` file provides essential functionality for menu management. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.

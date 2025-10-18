@@ -8,8 +8,8 @@ Main functional areas: core functionality
 - `msg_ptr()`: Constructor that initializes msg_ptr object with provided parameters
 - `get_msg()`: Retrieves _msg from internal state or data structure
 - `get_optimal_msg_width()`: Retrieves _optimal_msg_width from internal state or data structure
-- `message()`: Executes message operation as part of core functionality
-- `menu()`: Executes menu operation as part of core functionality
+- `message()`: Performs message operation as part of the component's functionality
+- `menu()`: Iterates through items and collects results into a container
 - `get_progress_bar_str()`: Retrieves _progress_bar_str from internal state or data structure
 - `set_progress_state()`: Updates _progress_state in internal state or configuration
 - `set_progress_value()`: Updates _progress_value in internal state or configuration
@@ -29,8 +29,8 @@ Główne obszary funkcjonalne: podstawowa funkcjonalność
 - `msg_ptr()`: Konstruktor inicjalizujący msg_ptr obiekt z dostarczonymi parametrami
 - `get_msg()`: Pobiera _msg ze stanu wewnętrznego lub struktury danych
 - `get_optimal_msg_width()`: Pobiera _optimal_msg_width ze stanu wewnętrznego lub struktury danych
-- `message()`: Wykonuje message operację jako część podstawowa funkcjonalność
-- `menu()`: Wykonuje menu operację jako część podstawowa funkcjonalność
+- `message()`: Performs message operation as part of the component's functionality
+- `menu()`: Iterates through items and collects results into a container
 - `get_progress_bar_str()`: Pobiera _progress_bar_str ze stanu wewnętrznego lub struktury danych
 - `set_progress_state()`: Aktualizuje _progress_state w stanie wewnętrznym lub konfiguracji
 - `set_progress_value()`: Aktualizuje _progress_wartość w stanie wewnętrznym lub konfiguracji

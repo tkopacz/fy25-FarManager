@@ -4,18 +4,18 @@
 This file implements functionality related to: Работа с ассоциациями файлов
 Main functional areas: file system operations
 ### Key Classes
-- `data_item`: Implements file system operations
-- `menu_data`: Implements file system operations
+- `data_item`: Performs data_item operation as part of the component's functionality
+- `menu_data`: Performs menu_data operation as part of the component's functionality
 ### Key Functions
-- `Context()`: Executes Context operation as part of file system operations
+- `Context()`: Performs Context operation as part of the component's functionality
 - `GetFiletypeOpenMode()`: Retrieves FiletypeOpenMode from internal state or data structure
 - `ProcessExternal()`: Processes External through transformation or handling pipeline
-- `strExecStr()`: Executes strExecStr operation as part of file system operations
-- `FillFileTypesMenu()`: Executes FillFileTypesMenu operation as part of file system operations
-- `EditTypeRecordDlgProc()`: Executes EditTypeRecordDlgProc operation as part of file system operations
-- `EditTypeRecord()`: Executes EditTypeRecord operation as part of file system operations
+- `strExecStr()`: Performs strExecStr operation as part of the component's functionality
+- `FillFileTypesMenu()`: Performs FillFileTypesMenu operation as part of the component's functionality
+- `EditTypeRecordDlgProc()`: Displays dialog interface for user interaction and input collection
+- `EditTypeRecord()`: Evaluates conditions and returns a boolean indicating success or validity of EditTypeRecord
 - `DeleteTypeRecord()`: Removes TypeRecord from collection and frees associated resources
-- `EditFileTypes()`: Executes EditFileTypes operation as part of file system operations
+- `EditFileTypes()`: Performs EditFileTypes operation as part of the component's functionality
 ### Summary
 The `filetype.cpp` file provides essential functionality for file system operations. It defines 2 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 

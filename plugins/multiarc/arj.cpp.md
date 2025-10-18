@@ -4,11 +4,11 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ARJHd1`: Implements core functionality
-- `ARJHd2`: Implements core functionality
+- `ARJHd1`: Performs ARJHd1 operation as part of the component's functionality
+- `ARJHd2`: Performs ARJHd2 operation as part of the component's functionality
 ### Key Functions
-- `make_crctable()`: Executes make_crctable operation as part of core functionality
-- `crc_buf()`: Executes crc_buf operation as part of core functionality
+- `make_crctable()`: Performs make_crctable operation as part of the component's functionality
+- `crc_buf()`: Performs crc_buf operation as part of the component's functionality
 - `IsArchive()`: Tests whether Archive condition is true or property exists
 - `OpenArchive()`: Opens resource and prepares it for access operations
 - `GetArcItem()`: Retrieves ArcItem from internal state or data structure
@@ -26,11 +26,11 @@ The `arj.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ARJHd1`: Implementuje podstawowa funkcjonalność
-- `ARJHd2`: Implementuje podstawowa funkcjonalność
+- `ARJHd1`: Performs ARJHd1 operation as part of the component's functionality
+- `ARJHd2`: Performs ARJHd2 operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `make_crctable()`: Wykonuje make_crctable operację jako część podstawowa funkcjonalność
-- `crc_buf()`: Wykonuje crc_buf operację jako część podstawowa funkcjonalność
+- `make_crctable()`: Performs make_crctable operation as part of the component's functionality
+- `crc_buf()`: Performs crc_buf operation as part of the component's functionality
 - `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
 - `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
 - `GetArcItem()`: Pobiera ArcItem ze stanu wewnętrznego lub struktury danych

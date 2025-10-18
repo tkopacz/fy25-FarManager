@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `split_duration`: Implements core functionality
+- `split_duration`: Performs split_duration operation as part of the component's functionality
 ### Key Functions
-- `split_duration()`: Executes split_duration operation as part of core functionality
+- `split_duration()`: Performs split_duration operation as part of the component's functionality
 - `get()`: Retrieves value from internal state or data structure
 - `set_and_chop()`: Updates _and_chop in internal state or configuration
 ### Namespaces
@@ -19,9 +19,9 @@ The `chrono.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `split_duration`: Implementuje podstawowa funkcjonalność
+- `split_duration`: Performs split_duration operation as part of the component's functionality
 ### Kluczowe Funkcje
-- `split_duration()`: Wykonuje split_duration operację jako część podstawowa funkcjonalność
+- `split_duration()`: Performs split_duration operation as part of the component's functionality
 - `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
 - `set_and_chop()`: Aktualizuje _and_chop w stanie wewnętrznym lub konfiguracji
 ### Przestrzenie nazw

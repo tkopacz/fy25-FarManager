@@ -4,23 +4,23 @@
 This file implements functionality related to: Редактор
 Main functional areas: text editing
 ### Key Classes
-- `Editor`: Implements text editing
-- `EditorBlockGuard`: Implements text editing
-- `FindCoord`: Implements text editing
-- `find_all_list`: Implements text editing
-- `save_to_new_editor`: Implements text editing
-- `undo_block`: Implements text editing
+- `Editor`: Allocates memory and initializes resources for Editor
+- `EditorBlockGuard`: Performs EditorBlockGuard operation as part of the component's functionality
+- `FindCoord`: Performs FindCoord operation as part of the component's functionality
+- `find_all_list`: Performs find_all_list operation as part of the component's functionality
+- `save_to_new_editor`: Writes or saves data to a destination
+- `undo_block`: Performs undo_block operation as part of the component's functionality
 ### Key Functions
 - `SetNeedCheckUnmark()`: Updates NeedCheckUnmark in internal state or configuration
 - `IsAnySelection()`: Tests whether AnySelection condition is true or property exists
-- `NextSessionBookmark()`: Executes NextSessionBookmark operation as part of text editing
-- `PrevSessionBookmark()`: Executes PrevSessionBookmark operation as part of text editing
-- `BackSessionBookmark()`: Executes BackSessionBookmark operation as part of text editing
+- `NextSessionBookmark()`: Evaluates conditions and returns a boolean indicating success or validity of NextSessionBookmark
+- `PrevSessionBookmark()`: Evaluates conditions and returns a boolean indicating success or validity of PrevSessionBookmark
+- `BackSessionBookmark()`: Evaluates conditions and returns a boolean indicating success or validity of BackSessionBookmark
 - `GetSessionBookmarks()`: Retrieves SessionBookmarks from internal state or data structure
-- `PushSessionBookMark()`: Executes PushSessionBookMark operation as part of text editing
-- `PopSessionBookMark()`: Executes PopSessionBookMark operation as part of text editing
-- `индексом()`: Executes индексом operation as part of text editing
-- `type()`: Executes type operation as part of text editing
+- `PushSessionBookMark()`: Performs PushSessionBookMark operation as part of the component's functionality
+- `PopSessionBookMark()`: Performs PopSessionBookMark operation as part of the component's functionality
+- `индексом()`: Performs индексом operation as part of the component's functionality
+- `type()`: Performs type operation as part of the component's functionality
 ### Summary
 The `editor.cpp` file provides essential functionality for text editing. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 

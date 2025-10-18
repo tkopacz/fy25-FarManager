@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Config()`: Executes Config operation as part of core functionality
-- `Builder()`: Executes Builder operation as part of core functionality
+- `Config()`: Evaluates conditions and returns a boolean indicating success or validity of Config
+- `Builder()`: Performs Builder operation as part of the component's functionality
 - `settings()`: Updates tings in internal state or configuration
 - `GetSetting()`: Retrieves Setting from internal state or data structure
 ### Summary
@@ -16,8 +16,8 @@ The `NetCfg.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Config()`: Wykonuje Config operację jako część podstawowa funkcjonalność
-- `Builder()`: Wykonuje Builder operację jako część podstawowa funkcjonalność
+- `Config()`: Evaluates conditions and returns a boolean indicating success or validity of Config
+- `Builder()`: Performs Builder operation as part of the component's functionality
 - `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
 - `GetSetting()`: Pobiera Setting ze stanu wewnętrznego lub struktury danych
 ### Podsumowanie

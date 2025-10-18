@@ -4,20 +4,20 @@
 This file implements functionality related to: Помощь
 Main functional areas: core functionality
 ### Key Classes
-- `HelpRecord`: Индекс плагинов значение маски
-- `StackHelpData`: Implements StackHelpData functionality
-- `private_tag`: Implements private_tag functionality
+- `HelpRecord`: Performs HelpRecord operation in help.cpp
+- `StackHelpData`: Performs StackHelpData operation in help.cpp
+- `private_tag`: Performs private_tag operation in help.cpp
 ### Key Functions
-- `is_generated_topic()`: Checks condition and returns boolean indicating state
-- `equal_icase()`: Implements equal_icase functionality
-- `OpenURL()`: значение маски путь к хелпам текущий топик выделенный топик (???) флаги номер верхней видимой строки темы координаты (
-- `create()`: Creates and initializes new object or resource instance
-- `Help()`: Implements Help functionality
-- `ProcessKey()`: Processes input data through core business logic pipeline
-- `ProcessMouse()`: Processes input data through core business logic pipeline
-- `InitKeyBar()`: Initializes component with required configuration and state
-- `SetScreenPosition()`: Updates ScreenPosition with provided value and validates constraints
-- `ResizeConsole()`: Implements ResizeConsole functionality
+- `is_generated_topic()`: Checks a condition in help.cpp and returns the result
+- `equal_icase()`: Performs equal_icase operation in help.cpp
+- `OpenURL()`: Checks a condition in help.cpp and returns true or false based on the result
+- `create()`: Creates and initializes a new object or resource in help.cpp
+- `Help()`: Performs Help operation in help.cpp
+- `ProcessKey()`: Processes input data in help.cpp
+- `ProcessMouse()`: Checks a condition in help.cpp and returns true or false based on the result
+- `InitKeyBar()`: Initializes data structures and prepares for operation in help.cpp
+- `SetScreenPosition()`: Sets or updates ScreenPosition value in help.cpp
+- `ResizeConsole()`: skip plugin prefixes processing
 ### Namespaces
 - `help`
 ### Summary
@@ -30,20 +30,20 @@ The `help.cpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Помощь
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `HelpRecord`: Индекс плагинов значение маски
-- `StackHelpData`: Implements StackHelpData functionality
-- `private_tag`: Implements private_tag functionality
+- `HelpRecord`: Performs HelpRecord operation in help.cpp
+- `StackHelpData`: Performs StackHelpData operation in help.cpp
+- `private_tag`: Performs private_tag operation in help.cpp
 ### Kluczowe Funkcje
-- `is_generated_topic()`: Checks condition and returns boolean indicating state
-- `equal_icase()`: Implements equal_icase functionality
-- `OpenURL()`: значение маски путь к хелпам текущий топик выделенный топик (???) флаги номер верхней видимой строки темы координаты (
-- `create()`: Creates and initializes new object or resource instance
-- `Help()`: Implements Help functionality
-- `ProcessKey()`: Processes input data through core business logic pipeline
-- `ProcessMouse()`: Processes input data through core business logic pipeline
-- `InitKeyBar()`: Initializes component with required configuration and state
-- `SetScreenPosition()`: Updates ScreenPosition with provided value and validates constraints
-- `ResizeConsole()`: Implements ResizeConsole functionality
+- `is_generated_topic()`: Checks a condition in help.cpp and returns the result
+- `equal_icase()`: Performs equal_icase operation in help.cpp
+- `OpenURL()`: Checks a condition in help.cpp and returns true or false based on the result
+- `create()`: Creates and initializes a new object or resource in help.cpp
+- `Help()`: Performs Help operation in help.cpp
+- `ProcessKey()`: Processes input data in help.cpp
+- `ProcessMouse()`: Checks a condition in help.cpp and returns true or false based on the result
+- `InitKeyBar()`: Initializes data structures and prepares for operation in help.cpp
+- `SetScreenPosition()`: Sets or updates ScreenPosition value in help.cpp
+- `ResizeConsole()`: skip plugin prefixes processing
 ### Przestrzenie nazw
 - `help`
 ### Podsumowanie

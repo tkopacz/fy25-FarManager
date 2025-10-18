@@ -4,10 +4,10 @@
 This file implements functionality related to: Макросы
 Main functional areas: core functionality
 ### Key Classes
-- `DlgParam`: Implements DlgParam functionality
-- `GetMacroData`: Retrieves MacroData from current context or object state
+- `DlgParam`: Performs DlgParam operation in macro.cpp
+- `GetMacroData`: Retrieves MacroData value in macro.cpp
 ### Key Functions
-- `static_assert()`: Implements static_assert functionality
+- `static_assert()`: Performs static_assert operation in macro.cpp
 ### Summary
 The `macro.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -18,9 +18,9 @@ The `macro.cpp` file provides essential functionality for core functionality. It
 Ten plik implementuje funkcjonalność związaną z: Макросы
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `DlgParam`: Implements DlgParam functionality
-- `GetMacroData`: Retrieves MacroData from current context or object state
+- `DlgParam`: Performs DlgParam operation in macro.cpp
+- `GetMacroData`: Retrieves MacroData value in macro.cpp
 ### Kluczowe Funkcje
-- `static_assert()`: Implements static_assert functionality
+- `static_assert()`: Performs static_assert operation in macro.cpp
 ### Podsumowanie
 Plik `macro.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

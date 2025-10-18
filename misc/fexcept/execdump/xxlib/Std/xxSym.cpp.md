@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FuncAddr`: Implements FuncAddr functionality
+- `FuncAddr`: Performs FuncAddr operation in xxSym.cpp
 ### Key Functions
-- `PSymbols()`: Implements PSymbols functionality
-- `idRVA()`: Implements idRVA functionality
-- `idFuncSort()`: Implements idFuncSort functionality
-- `InitSysPath()`: Initializes component with required configuration and state
-- `_isstring()`: Implements _isstring functionality
-- `_isprint()`: Implements _isprint functionality
-- `_IsBadStringPtr()`: Implements _IsBadStringPtr functionality
-- `Find()`: Implements Find functionality
-- `FindBase()`: Implements FindBase functionality
-- `idExit()`: Implements idExit functionality
+- `PSymbols()`: Performs PSymbols operation in xxSym.cpp
+- `idRVA()`: Performs idRVA operation in xxSym.cpp
+- `idFuncSort()`: Performs idFuncSort operation in xxSym.cpp
+- `InitSysPath()`: Initializes data structures and prepares for operation in xxSym.cpp
+- `_isstring()`: Performs _isstring operation in xxSym.cpp
+- `_isprint()`: Performs _isprint operation in xxSym.cpp
+- `_IsBadStringPtr()`: Checks a condition in xxSym.cpp and returns true or false based on the result
+- `Find()`: Performs Find operation in xxSym.cpp
+- `FindBase()`: Performs FindBase operation in xxSym.cpp
+- `idExit()`: Checks a condition in xxSym.cpp and returns true or false based on the result
 ### Summary
 The `xxSym.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `xxSym.cpp` file provides essential functionality for core functionality. It
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FuncAddr`: Implements FuncAddr functionality
+- `FuncAddr`: Performs FuncAddr operation in xxSym.cpp
 ### Kluczowe Funkcje
-- `PSymbols()`: Implements PSymbols functionality
-- `idRVA()`: Implements idRVA functionality
-- `idFuncSort()`: Implements idFuncSort functionality
-- `InitSysPath()`: Initializes component with required configuration and state
-- `_isstring()`: Implements _isstring functionality
-- `_isprint()`: Implements _isprint functionality
-- `_IsBadStringPtr()`: Implements _IsBadStringPtr functionality
-- `Find()`: Implements Find functionality
-- `FindBase()`: Implements FindBase functionality
-- `idExit()`: Implements idExit functionality
+- `PSymbols()`: Performs PSymbols operation in xxSym.cpp
+- `idRVA()`: Performs idRVA operation in xxSym.cpp
+- `idFuncSort()`: Performs idFuncSort operation in xxSym.cpp
+- `InitSysPath()`: Initializes data structures and prepares for operation in xxSym.cpp
+- `_isstring()`: Performs _isstring operation in xxSym.cpp
+- `_isprint()`: Performs _isprint operation in xxSym.cpp
+- `_IsBadStringPtr()`: Checks a condition in xxSym.cpp and returns true or false based on the result
+- `Find()`: Performs Find operation in xxSym.cpp
+- `FindBase()`: Performs FindBase operation in xxSym.cpp
+- `idExit()`: Checks a condition in xxSym.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `xxSym.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

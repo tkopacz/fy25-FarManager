@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `OpenProcessForced()`: Implements OpenProcessForced functionality
-- `OpenProcess()`: Implements OpenProcess functionality
-- `GetPData()`: Retrieves PData from current context or object state
-- `FreeUserData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `GetList()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `l()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `ProcessData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `KillProcess()`: If access denied, try to assign debug privileges
-- `PrintNTCurDirAndEnv()`: Implements PrintNTCurDirAndEnv functionality
-- `PrintModuleVersion()`: Implements PrintModuleVersion functionality
+- `OpenProcessForced()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `OpenProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `GetPData()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `FreeUserData()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `GetList()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `l()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `ProcessData()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `KillProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `PrintNTCurDirAndEnv()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `PrintModuleVersion()`: Checks a condition in Plist.cpp and returns true or false based on the result
 ### Namespaces
 - `std`
 ### Summary
@@ -24,16 +24,16 @@ The `Plist.cpp` file provides essential functionality for core functionality. an
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `OpenProcessForced()`: Implements OpenProcessForced functionality
-- `OpenProcess()`: Implements OpenProcess functionality
-- `GetPData()`: Retrieves PData from current context or object state
-- `FreeUserData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `GetList()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `l()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `ProcessData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
-- `KillProcess()`: If access denied, try to assign debug privileges
-- `PrintNTCurDirAndEnv()`: Implements PrintNTCurDirAndEnv functionality
-- `PrintModuleVersion()`: Implements PrintModuleVersion functionality
+- `OpenProcessForced()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `OpenProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `GetPData()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `FreeUserData()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `GetList()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `l()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `ProcessData()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `KillProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `PrintNTCurDirAndEnv()`: Checks a condition in Plist.cpp and returns true or false based on the result
+- `PrintModuleVersion()`: Checks a condition in Plist.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

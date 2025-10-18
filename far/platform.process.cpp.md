@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `bitness`: Implements bitness functionality
-- `ipc_t`: Implements ipc_t functionality
-- `peb`: Implements peb functionality
-- `process_basic_information`: Processes input data through core business logic pipeline
+- `bitness`: Performs bitness operation in platform.process.cpp
+- `ipc_t`: Performs ipc_t operation in platform.process.cpp
+- `peb`: Performs peb operation in platform.process.cpp
+- `process_basic_information`: Processes input data in platform.process.cpp
 ### Key Functions
-- `query_information_process()`: Implements query_information_process functionality
-- `read_process_memory()`: Implements read_process_memory functionality
-- `subsystem_to_type()`: Processes input by dispatching to different code paths based on type or value
-- `get_process_subsystem_from_memory()`: Retrieves _process_subsystem_from_memory from current context or object state
-- `get_process_subsystem_from_module_impl()`: Retrieves _process_subsystem_from_module_impl from current context or object state
-- `get_process_subsystem_from_module()`: Retrieves _process_subsystem_from_module from current context or object state
-- `ModuleFile()`: Implements ModuleFile functionality
-- `StreamBuffer()`: Implements StreamBuffer functionality
-- `Stream()`: Implements Stream functionality
-- `get_process_subsystem_from_handle()`: Retrieves _process_subsystem_from_handle from current context or object state
+- `query_information_process()`: Performs query_information_process operation in platform.process.cpp
+- `read_process_memory()`: Performs read_process_memory operation in platform.process.cpp
+- `subsystem_to_type()`: Checks a condition in platform.process.cpp and returns true or false based on the result
+- `get_process_subsystem_from_memory()`: Retrieves _process_subsystem_from_memory value in platform.process.cpp
+- `get_process_subsystem_from_module_impl()`: Retrieves _process_subsystem_from_module_impl value in platform.process.cpp
+- `get_process_subsystem_from_module()`: Retrieves _process_subsystem_from_module value in platform.process.cpp
+- `ModuleFile()`: Performs ModuleFile operation in platform.process.cpp
+- `StreamBuffer()`: Performs StreamBuffer operation in platform.process.cpp
+- `Stream()`: Performs Stream operation in platform.process.cpp
+- `get_process_subsystem_from_handle()`: Retrieves _process_subsystem_from_handle value in platform.process.cpp
 ### Namespaces
 - `os`
 ### Summary
@@ -31,21 +31,21 @@ The `platform.process.cpp` file provides essential functionality for core functi
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `bitness`: Implements bitness functionality
-- `ipc_t`: Implements ipc_t functionality
-- `peb`: Implements peb functionality
-- `process_basic_information`: Processes input data through core business logic pipeline
+- `bitness`: Performs bitness operation in platform.process.cpp
+- `ipc_t`: Performs ipc_t operation in platform.process.cpp
+- `peb`: Performs peb operation in platform.process.cpp
+- `process_basic_information`: Processes input data in platform.process.cpp
 ### Kluczowe Funkcje
-- `query_information_process()`: Implements query_information_process functionality
-- `read_process_memory()`: Implements read_process_memory functionality
-- `subsystem_to_type()`: Processes input by dispatching to different code paths based on type or value
-- `get_process_subsystem_from_memory()`: Retrieves _process_subsystem_from_memory from current context or object state
-- `get_process_subsystem_from_module_impl()`: Retrieves _process_subsystem_from_module_impl from current context or object state
-- `get_process_subsystem_from_module()`: Retrieves _process_subsystem_from_module from current context or object state
-- `ModuleFile()`: Implements ModuleFile functionality
-- `StreamBuffer()`: Implements StreamBuffer functionality
-- `Stream()`: Implements Stream functionality
-- `get_process_subsystem_from_handle()`: Retrieves _process_subsystem_from_handle from current context or object state
+- `query_information_process()`: Performs query_information_process operation in platform.process.cpp
+- `read_process_memory()`: Performs read_process_memory operation in platform.process.cpp
+- `subsystem_to_type()`: Checks a condition in platform.process.cpp and returns true or false based on the result
+- `get_process_subsystem_from_memory()`: Retrieves _process_subsystem_from_memory value in platform.process.cpp
+- `get_process_subsystem_from_module_impl()`: Retrieves _process_subsystem_from_module_impl value in platform.process.cpp
+- `get_process_subsystem_from_module()`: Retrieves _process_subsystem_from_module value in platform.process.cpp
+- `ModuleFile()`: Performs ModuleFile operation in platform.process.cpp
+- `StreamBuffer()`: Performs StreamBuffer operation in platform.process.cpp
+- `Stream()`: Performs Stream operation in platform.process.cpp
+- `get_process_subsystem_from_handle()`: Retrieves _process_subsystem_from_handle value in platform.process.cpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

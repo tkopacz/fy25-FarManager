@@ -4,13 +4,13 @@
 This file implements functionality related to: импортируемые функции
 Main functional areas: core functionality
 ### Key Classes
-- `imports`: Implements imports functionality
-- `unique_function_pointer`: Implements unique_function_pointer functionality
+- `imports`: Performs imports operation in imports.hpp
+- `unique_function_pointer`: Performs unique_function_pointer operation in imports.hpp
 ### Key Functions
-- `function_type()`: Implements function_type functionality
-- `get_pointer()`: Retrieves _pointer from current context or object state
-- `bool()`: Implements bool functionality
-- `DEFINE_IMPORT_FUNCTION()`: NT4 < 2k < XP < 2k3 < Vista < 7 < 8 < 10 Rock bottom is 2k
+- `function_type()`: Performs function_type operation in imports.hpp
+- `get_pointer()`: Retrieves _pointer value in imports.hpp
+- `bool()`: Performs bool operation in imports.hpp
+- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation in imports.hpp
 ### Namespaces
 - `imports_detail`
 ### Summary
@@ -23,13 +23,13 @@ The `imports.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: импортируемые функции
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `imports`: Implements imports functionality
-- `unique_function_pointer`: Implements unique_function_pointer functionality
+- `imports`: Performs imports operation in imports.hpp
+- `unique_function_pointer`: Performs unique_function_pointer operation in imports.hpp
 ### Kluczowe Funkcje
-- `function_type()`: Implements function_type functionality
-- `get_pointer()`: Retrieves _pointer from current context or object state
-- `bool()`: Implements bool functionality
-- `DEFINE_IMPORT_FUNCTION()`: NT4 < 2k < XP < 2k3 < Vista < 7 < 8 < 10 Rock bottom is 2k
+- `function_type()`: Performs function_type operation in imports.hpp
+- `get_pointer()`: Retrieves _pointer value in imports.hpp
+- `bool()`: Performs bool operation in imports.hpp
+- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation in imports.hpp
 ### Przestrzenie nazw
 - `imports_detail`
 ### Podsumowanie

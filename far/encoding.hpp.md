@@ -4,23 +4,23 @@
 This file implements functionality related to: Работа с кодовыми страницами
 Main functional areas: core functionality
 ### Key Classes
-- `MultibyteCodepageDecoder`: Implements MultibyteCodepageDecoder functionality
-- `ascii`: Implements ascii functionality
-- `codepage`: Implements codepage functionality
-- `diagnostics`: Implements diagnostics functionality
-- `is_utf8`: Checks condition and returns boolean indicating state
-- `utf8_or_ansi`: Implements utf8_or_ansi functionality
-- `writer`: Zero Length Space Replacement
+- `MultibyteCodepageDecoder`: #############################################################################
+- `ascii`: Performs ascii operation in encoding.hpp
+- `codepage`: Performs codepage operation in encoding.hpp
+- `diagnostics`: Performs diagnostics operation in encoding.hpp
+- `is_utf8`: Checks a condition in encoding.hpp and returns the result
+- `utf8_or_ansi`: Performs utf8_or_ansi operation in encoding.hpp
+- `writer`: Performs writer operation in encoding.hpp
 ### Key Functions
-- `diagnostics()`: Implements diagnostics functionality
-- `clear()`: Implements clear functionality
-- `set_is_utf8()`: Updates _is_utf8 with provided value and validates constraints
-- `get_is_utf8()`: Retrieves _is_utf8 from current context or object state
-- `error_data()`: Implements error_data functionality
-- `get_bytes()`: Retrieves _bytes from current context or object state
-- `get_bytes_count()`: Retrieves _bytes_count from current context or object state
-- `get_chars()`: Retrieves _chars from current context or object state
-- `get_chars_count()`: Retrieves _chars_count from current context or object state
+- `diagnostics()`: Performs diagnostics operation in encoding.hpp
+- `clear()`: Performs clear operation in encoding.hpp
+- `set_is_utf8()`: Sets or updates _is_utf8 value in encoding.hpp
+- `get_is_utf8()`: Retrieves _is_utf8 value in encoding.hpp
+- `error_data()`: Performs error_data operation in encoding.hpp
+- `get_bytes()`: Retrieves _bytes value in encoding.hpp
+- `get_bytes_count()`: Retrieves _bytes_count value in encoding.hpp
+- `get_chars()`: Retrieves _chars value in encoding.hpp
+- `get_chars_count()`: Retrieves _chars_count value in encoding.hpp
 ### Namespaces
 - `Utf8`
 - `detail`
@@ -36,23 +36,23 @@ The `encoding.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Работа с кодовыми страницами
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `MultibyteCodepageDecoder`: Implements MultibyteCodepageDecoder functionality
-- `ascii`: Implements ascii functionality
-- `codepage`: Implements codepage functionality
-- `diagnostics`: Implements diagnostics functionality
-- `is_utf8`: Checks condition and returns boolean indicating state
-- `utf8_or_ansi`: Implements utf8_or_ansi functionality
-- `writer`: Zero Length Space Replacement
+- `MultibyteCodepageDecoder`: #############################################################################
+- `ascii`: Performs ascii operation in encoding.hpp
+- `codepage`: Performs codepage operation in encoding.hpp
+- `diagnostics`: Performs diagnostics operation in encoding.hpp
+- `is_utf8`: Checks a condition in encoding.hpp and returns the result
+- `utf8_or_ansi`: Performs utf8_or_ansi operation in encoding.hpp
+- `writer`: Performs writer operation in encoding.hpp
 ### Kluczowe Funkcje
-- `diagnostics()`: Implements diagnostics functionality
-- `clear()`: Implements clear functionality
-- `set_is_utf8()`: Updates _is_utf8 with provided value and validates constraints
-- `get_is_utf8()`: Retrieves _is_utf8 from current context or object state
-- `error_data()`: Implements error_data functionality
-- `get_bytes()`: Retrieves _bytes from current context or object state
-- `get_bytes_count()`: Retrieves _bytes_count from current context or object state
-- `get_chars()`: Retrieves _chars from current context or object state
-- `get_chars_count()`: Retrieves _chars_count from current context or object state
+- `diagnostics()`: Performs diagnostics operation in encoding.hpp
+- `clear()`: Performs clear operation in encoding.hpp
+- `set_is_utf8()`: Sets or updates _is_utf8 value in encoding.hpp
+- `get_is_utf8()`: Retrieves _is_utf8 value in encoding.hpp
+- `error_data()`: Performs error_data operation in encoding.hpp
+- `get_bytes()`: Retrieves _bytes value in encoding.hpp
+- `get_bytes_count()`: Retrieves _bytes_count value in encoding.hpp
+- `get_chars()`: Retrieves _chars value in encoding.hpp
+- `get_chars_count()`: Retrieves _chars_count value in encoding.hpp
 ### Przestrzenie nazw
 - `Utf8`
 - `detail`

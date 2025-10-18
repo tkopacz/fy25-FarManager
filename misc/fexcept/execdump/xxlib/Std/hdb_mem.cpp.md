@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `DeleteAll()`: Removes or deletes specified item and releases associated resources
-- `AddNew()`: Implements AddNew functionality
-- `AddINT()`: Implements AddINT functionality
-- `DeleteNum()`: Removes or deletes specified item and releases associated resources
-- `Item()`: Implements Item functionality
-- `Init()`: Initializes component with required configuration and state
-- `Sort()`: Implements Sort functionality
-- `Search()`: Implements Search functionality
-- `SearchINT()`: Implements SearchINT functionality
-- `LSearch()`: Implements LSearch functionality
+- `DeleteAll()`: Deletes or removes an item or resource in hdb_mem.cpp
+- `AddNew()`: Performs AddNew operation in hdb_mem.cpp
+- `AddINT()`: Performs AddINT operation in hdb_mem.cpp
+- `DeleteNum()`: Deletes or removes an item or resource in hdb_mem.cpp
+- `Item()`: Performs Item operation in hdb_mem.cpp
+- `Init()`: Initializes data structures and prepares for operation in hdb_mem.cpp
+- `Sort()`: Performs Sort operation in hdb_mem.cpp
+- `Search()`: Performs Search operation in hdb_mem.cpp
+- `SearchINT()`: Performs SearchINT operation in hdb_mem.cpp
+- `LSearch()`: Performs LSearch operation in hdb_mem.cpp
 ### Summary
 The `hdb_mem.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `hdb_mem.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `DeleteAll()`: Removes or deletes specified item and releases associated resources
-- `AddNew()`: Implements AddNew functionality
-- `AddINT()`: Implements AddINT functionality
-- `DeleteNum()`: Removes or deletes specified item and releases associated resources
-- `Item()`: Implements Item functionality
-- `Init()`: Initializes component with required configuration and state
-- `Sort()`: Implements Sort functionality
-- `Search()`: Implements Search functionality
-- `SearchINT()`: Implements SearchINT functionality
-- `LSearch()`: Implements LSearch functionality
+- `DeleteAll()`: Deletes or removes an item or resource in hdb_mem.cpp
+- `AddNew()`: Performs AddNew operation in hdb_mem.cpp
+- `AddINT()`: Performs AddINT operation in hdb_mem.cpp
+- `DeleteNum()`: Deletes or removes an item or resource in hdb_mem.cpp
+- `Item()`: Performs Item operation in hdb_mem.cpp
+- `Init()`: Initializes data structures and prepares for operation in hdb_mem.cpp
+- `Sort()`: Performs Sort operation in hdb_mem.cpp
+- `Search()`: Performs Search operation in hdb_mem.cpp
+- `SearchINT()`: Performs SearchINT operation in hdb_mem.cpp
+- `LSearch()`: Performs LSearch operation in hdb_mem.cpp
 ### Podsumowanie
 Plik `hdb_mem.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

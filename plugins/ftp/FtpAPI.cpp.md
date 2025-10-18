@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `ParseDirLine()`: Implements ParseDirLine functionality
-- `FtpKeepAlive()`: Implements FtpKeepAlive functionality
-- `FtpIsResume()`: Implements FtpIsResume functionality
-- `FtpCmdLineAlive()`: Implements FtpCmdLineAlive functionality
-- `FtpSetRetryCount()`: Implements FtpSetRetryCount functionality
-- `FtpSetBreakable()`: Implements FtpSetBreakable functionality
-- `FtpGetRetryCount()`: Implements FtpGetRetryCount functionality
-- `FtpConnectMessage()`: Implements FtpConnectMessage functionality
-- `FtpCmdBlock()`: Implements FtpCmdBlock functionality
-- `FtpFindFirstFile()`: Implements FtpFindFirstFile functionality
+- `ParseDirLine()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpKeepAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpIsResume()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpCmdLineAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpSetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpSetBreakable()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpGetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpConnectMessage()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpCmdBlock()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpFindFirstFile()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
 ### Summary
 The `FtpAPI.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `FtpAPI.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `ParseDirLine()`: Implements ParseDirLine functionality
-- `FtpKeepAlive()`: Implements FtpKeepAlive functionality
-- `FtpIsResume()`: Implements FtpIsResume functionality
-- `FtpCmdLineAlive()`: Implements FtpCmdLineAlive functionality
-- `FtpSetRetryCount()`: Implements FtpSetRetryCount functionality
-- `FtpSetBreakable()`: Implements FtpSetBreakable functionality
-- `FtpGetRetryCount()`: Implements FtpGetRetryCount functionality
-- `FtpConnectMessage()`: Implements FtpConnectMessage functionality
-- `FtpCmdBlock()`: Implements FtpCmdBlock functionality
-- `FtpFindFirstFile()`: Implements FtpFindFirstFile functionality
+- `ParseDirLine()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpKeepAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpIsResume()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpCmdLineAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpSetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpSetBreakable()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpGetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpConnectMessage()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpCmdBlock()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- `FtpFindFirstFile()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `FtpAPI.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

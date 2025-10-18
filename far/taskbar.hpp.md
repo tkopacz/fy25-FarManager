@@ -4,14 +4,14 @@
 This file implements functionality related to: Windows 7 taskbar support
 Main functional areas: core functionality
 ### Key Classes
-- `indeterminate`: Implements indeterminate functionality
-- `state`: Implements state functionality
+- `indeterminate`: Performs indeterminate operation in taskbar.hpp
+- `state`: Performs state operation in taskbar.hpp
 ### Key Functions
-- `set_state()`: Updates _state with provided value and validates constraints
-- `set_value()`: Common: External: ---------------------------------------------------------------------------- TASKBAR_HPP_2522B9DF_D677_4AA9_8777_B5A1F588D4C1
-- `flash()`: Implements flash functionality
-- `indeterminate()`: Implements indeterminate functionality
-- `state()`: Implements state functionality
+- `set_state()`: Sets or updates _state value in taskbar.hpp
+- `set_value()`: Sets or updates _value value in taskbar.hpp
+- `flash()`: Performs flash operation in taskbar.hpp
+- `indeterminate()`: Performs indeterminate operation in taskbar.hpp
+- `state()`: Performs state operation in taskbar.hpp
 ### Namespaces
 - `taskbar`
 ### Summary
@@ -24,14 +24,14 @@ The `taskbar.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Windows 7 taskbar support
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `indeterminate`: Implements indeterminate functionality
-- `state`: Implements state functionality
+- `indeterminate`: Performs indeterminate operation in taskbar.hpp
+- `state`: Performs state operation in taskbar.hpp
 ### Kluczowe Funkcje
-- `set_state()`: Updates _state with provided value and validates constraints
-- `set_value()`: Common: External: ---------------------------------------------------------------------------- TASKBAR_HPP_2522B9DF_D677_4AA9_8777_B5A1F588D4C1
-- `flash()`: Implements flash functionality
-- `indeterminate()`: Implements indeterminate functionality
-- `state()`: Implements state functionality
+- `set_state()`: Sets or updates _state value in taskbar.hpp
+- `set_value()`: Sets or updates _value value in taskbar.hpp
+- `flash()`: Performs flash operation in taskbar.hpp
+- `indeterminate()`: Performs indeterminate operation in taskbar.hpp
+- `state()`: Performs state operation in taskbar.hpp
 ### Przestrzenie nazw
 - `taskbar`
 ### Podsumowanie

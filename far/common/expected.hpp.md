@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `expected`: Implements expected functionality
-- `unexpected`: Implements unexpected functionality
+- `expected`: Performs expected operation in expected.hpp
+- `unexpected`: Performs unexpected operation in expected.hpp
 ### Key Functions
-- `has_value()`: Checks condition and returns boolean indicating state
-- `bool()`: Implements bool functionality
-- `value()`: Implements value functionality
-- `error()`: Implements error functionality
+- `has_value()`: Checks a condition in expected.hpp and returns the result
+- `bool()`: Performs bool operation in expected.hpp
+- `value()`: Performs value operation in expected.hpp
+- `error()`: Validates a condition in expected.hpp and throws an exception if the validation fails
 ### Namespaces
 - `std`
 ### Summary
@@ -21,13 +21,13 @@ The `expected.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `expected`: Implements expected functionality
-- `unexpected`: Implements unexpected functionality
+- `expected`: Performs expected operation in expected.hpp
+- `unexpected`: Performs unexpected operation in expected.hpp
 ### Kluczowe Funkcje
-- `has_value()`: Checks condition and returns boolean indicating state
-- `bool()`: Implements bool functionality
-- `value()`: Implements value functionality
-- `error()`: Implements error functionality
+- `has_value()`: Checks a condition in expected.hpp and returns the result
+- `bool()`: Performs bool operation in expected.hpp
+- `value()`: Performs value operation in expected.hpp
+- `error()`: Validates a condition in expected.hpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

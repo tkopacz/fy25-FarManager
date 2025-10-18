@@ -4,21 +4,21 @@
 This file implements functionality related to: Misc functions for processing of path names
 Main functional areas: core functionality
 ### Key Classes
-- `FileListItem`: Implements FileListItem functionality
-- `PluginPanelItem`: Implements PluginPanelItem functionality
-- `append_arg`: Implements append_arg functionality
-- `root_type`: Implements root_type functionality
+- `FileListItem`: Performs FileListItem operation in pathmix.hpp
+- `PluginPanelItem`: Performs PluginPanelItem operation in pathmix.hpp
+- `append_arg`: Performs append_arg operation in pathmix.hpp
+- `root_type`: Performs root_type operation in pathmix.hpp
 ### Key Functions
-- `is_nt_separator()`: Checks condition and returns boolean indicating state
-- `is_separator()`: Checks condition and returns boolean indicating state
-- `contains()`: Implements contains functionality
-- `append_arg()`: Implements append_arg functionality
-- `append_impl()`: Implements append_impl functionality
-- `append()`: Implements append functionality
-- `join()`: Implements join functionality
-- `normalize_separators()`: Implements normalize_separators functionality
-- `nt_path()`: Implements nt_path functionality
-- `kernel_path()`: Implements kernel_path functionality
+- `is_nt_separator()`: Checks a condition in pathmix.hpp and returns the result
+- `is_separator()`: Checks a condition in pathmix.hpp and returns the result
+- `contains()`: Performs contains operation in pathmix.hpp
+- `append_arg()`: Performs append_arg operation in pathmix.hpp
+- `append_impl()`: Performs append_impl operation in pathmix.hpp
+- `append()`: Performs append operation in pathmix.hpp
+- `join()`: Performs join operation in pathmix.hpp
+- `normalize_separators()`: Performs normalize_separators operation in pathmix.hpp
+- `nt_path()`: Performs nt_path operation in pathmix.hpp
+- `kernel_path()`: Performs kernel_path operation in pathmix.hpp
 ### Namespaces
 - `detail`
 - `inplace`
@@ -34,21 +34,21 @@ The `pathmix.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Misc functions for processing of path names
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FileListItem`: Implements FileListItem functionality
-- `PluginPanelItem`: Implements PluginPanelItem functionality
-- `append_arg`: Implements append_arg functionality
-- `root_type`: Implements root_type functionality
+- `FileListItem`: Performs FileListItem operation in pathmix.hpp
+- `PluginPanelItem`: Performs PluginPanelItem operation in pathmix.hpp
+- `append_arg`: Performs append_arg operation in pathmix.hpp
+- `root_type`: Performs root_type operation in pathmix.hpp
 ### Kluczowe Funkcje
-- `is_nt_separator()`: Checks condition and returns boolean indicating state
-- `is_separator()`: Checks condition and returns boolean indicating state
-- `contains()`: Implements contains functionality
-- `append_arg()`: Implements append_arg functionality
-- `append_impl()`: Implements append_impl functionality
-- `append()`: Implements append functionality
-- `join()`: Implements join functionality
-- `normalize_separators()`: Implements normalize_separators functionality
-- `nt_path()`: Implements nt_path functionality
-- `kernel_path()`: Implements kernel_path functionality
+- `is_nt_separator()`: Checks a condition in pathmix.hpp and returns the result
+- `is_separator()`: Checks a condition in pathmix.hpp and returns the result
+- `contains()`: Performs contains operation in pathmix.hpp
+- `append_arg()`: Performs append_arg operation in pathmix.hpp
+- `append_impl()`: Performs append_impl operation in pathmix.hpp
+- `append()`: Performs append operation in pathmix.hpp
+- `join()`: Performs join operation in pathmix.hpp
+- `normalize_separators()`: Performs normalize_separators operation in pathmix.hpp
+- `nt_path()`: Performs nt_path operation in pathmix.hpp
+- `kernel_path()`: Performs kernel_path operation in pathmix.hpp
 ### Przestrzenie nazw
 - `detail`
 - `inplace`

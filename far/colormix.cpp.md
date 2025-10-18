@@ -4,22 +4,22 @@
 This file implements functionality related to: Работа с цветами
 Main functional areas: color management
 ### Key Classes
-- `color_mapping`: Implements color_mapping functionality
-- `colors_cache`: Implements colors_cache functionality
-- `colors_mapping`: Implements colors_mapping functionality
-- `index_color_16`: Implements index_color_16 functionality
-- `palette_type`: Implements palette_type functionality
+- `color_mapping`: Performs color_mapping operation in colormix.cpp
+- `colors_cache`: Performs colors_cache operation in colormix.cpp
+- `colors_mapping`: Performs colors_mapping operation in colormix.cpp
+- `index_color_16`: Performs index_color_16 operation in colormix.cpp
+- `palette_type`: Performs palette_type operation in colormix.cpp
 ### Key Functions
-- `palette()`: Implements palette functionality
-- `closest_index_16()`: Implements closest_index_16 functionality
-- `closest_index_256()`: Implements closest_index_256 functionality
-- `last_16()`: Implements last_16 functionality
-- `last_256()`: Implements last_256 functionality
-- `invalidate()`: Implements invalidate functionality
-- `index_bits()`: Implements index_bits functionality
-- `color_bits()`: Implements color_bits functionality
-- `alpha_bits()`: Implements alpha_bits functionality
-- `index_value()`: Implements index_value functionality
+- `palette()`: Performs palette operation in colormix.cpp
+- `closest_index_16()`: Performs closest_index_16 operation in colormix.cpp
+- `closest_index_256()`: Performs closest_index_256 operation in colormix.cpp
+- `last_16()`: Performs last_16 operation in colormix.cpp
+- `last_256()`: Performs last_256 operation in colormix.cpp
+- `invalidate()`: Performs invalidate operation in colormix.cpp
+- `index_bits()`: Performs index_bits operation in colormix.cpp
+- `color_bits()`: Performs color_bits operation in colormix.cpp
+- `alpha_bits()`: Performs alpha_bits operation in colormix.cpp
+- `index_value()`: Performs index_value operation in colormix.cpp
 ### Namespaces
 - `colors`
 ### Summary
@@ -32,22 +32,22 @@ The `colormix.cpp` file provides essential functionality for color management. I
 Ten plik implementuje funkcjonalność związaną z: Работа с цветами
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_mapping`: Implements color_mapping functionality
-- `colors_cache`: Implements colors_cache functionality
-- `colors_mapping`: Implements colors_mapping functionality
-- `index_color_16`: Implements index_color_16 functionality
-- `palette_type`: Implements palette_type functionality
+- `color_mapping`: Performs color_mapping operation in colormix.cpp
+- `colors_cache`: Performs colors_cache operation in colormix.cpp
+- `colors_mapping`: Performs colors_mapping operation in colormix.cpp
+- `index_color_16`: Performs index_color_16 operation in colormix.cpp
+- `palette_type`: Performs palette_type operation in colormix.cpp
 ### Kluczowe Funkcje
-- `palette()`: Implements palette functionality
-- `closest_index_16()`: Implements closest_index_16 functionality
-- `closest_index_256()`: Implements closest_index_256 functionality
-- `last_16()`: Implements last_16 functionality
-- `last_256()`: Implements last_256 functionality
-- `invalidate()`: Implements invalidate functionality
-- `index_bits()`: Implements index_bits functionality
-- `color_bits()`: Implements color_bits functionality
-- `alpha_bits()`: Implements alpha_bits functionality
-- `index_value()`: Implements index_value functionality
+- `palette()`: Performs palette operation in colormix.cpp
+- `closest_index_16()`: Performs closest_index_16 operation in colormix.cpp
+- `closest_index_256()`: Performs closest_index_256 operation in colormix.cpp
+- `last_16()`: Performs last_16 operation in colormix.cpp
+- `last_256()`: Performs last_256 operation in colormix.cpp
+- `invalidate()`: Performs invalidate operation in colormix.cpp
+- `index_bits()`: Performs index_bits operation in colormix.cpp
+- `color_bits()`: Performs color_bits operation in colormix.cpp
+- `alpha_bits()`: Performs alpha_bits operation in colormix.cpp
+- `index_value()`: Performs index_value operation in colormix.cpp
 ### Przestrzenie nazw
 - `colors`
 ### Podsumowanie

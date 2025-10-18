@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `DialogData`: Implements DialogData functionality
-- `FAR_SEARCH_A_CALLBACK_PARAM`: Implements FAR_SEARCH_A_CALLBACK_PARAM functionality
-- `comparer_helper`: Implements comparer_helper functionality
-- `oldPanelInfoContainer`: Implements oldPanelInfoContainer functionality
+- `DialogData`: Performs DialogData operation in PluginA.cpp
+- `FAR_SEARCH_A_CALLBACK_PARAM`: Performs FAR_SEARCH_A_CALLBACK_PARAM operation in PluginA.cpp
+- `comparer_helper`: Performs comparer_helper operation in PluginA.cpp
+- `oldPanelInfoContainer`: Performs oldPanelInfoContainer operation in PluginA.cpp
 ### Key Functions
-- `old_palette_to_palette()`: Implements old_palette_to_palette functionality
-- `Create()`: FreeContentData not used
-- `PluginsRootKey()`: Implements PluginsRootKey functionality
-- `FindExport()`: Implements FindExport functionality
-- `kind()`: Implements kind functionality
-- `CreateOemPluginFactory()`: Creates and initializes new object or resource instance
-- `IsSpaceA()`: Checks condition and returns boolean indicating state
-- `IsEolA()`: Checks condition and returns boolean indicating state
-- `IsSlashA()`: Checks condition and returns boolean indicating state
-- `LocalUpperInit()`: Implements LocalUpperInit functionality
+- `old_palette_to_palette()`: This was removed in 3.x and the enums don't match anymore :(
+- `Create()`: ProcessSynchroEvent not used
+- `PluginsRootKey()`: Performs PluginsRootKey operation in PluginA.cpp
+- `FindExport()`: Performs FindExport operation in PluginA.cpp
+- `kind()`: module with ANY known export can be OEM plugin
+- `CreateOemPluginFactory()`: module with ANY known export can be OEM plugin
+- `IsSpaceA()`: module with ANY known export can be OEM plugin
+- `IsEolA()`: module with ANY known export can be OEM plugin
+- `IsSlashA()`: module with ANY known export can be OEM plugin
+- `LocalUpperInit()`: Performs LocalUpperInit operation in PluginA.cpp
 ### Namespaces
 - `oldfar`
 - `oldpluginapi`
@@ -30,21 +30,21 @@ The `PluginA.cpp` file provides essential functionality for plugin interface. It
 ### Cel
 Główne obszary funkcjonalne: interfejs wtyczek
 ### Kluczowe Klasy
-- `DialogData`: Implements DialogData functionality
-- `FAR_SEARCH_A_CALLBACK_PARAM`: Implements FAR_SEARCH_A_CALLBACK_PARAM functionality
-- `comparer_helper`: Implements comparer_helper functionality
-- `oldPanelInfoContainer`: Implements oldPanelInfoContainer functionality
+- `DialogData`: Performs DialogData operation in PluginA.cpp
+- `FAR_SEARCH_A_CALLBACK_PARAM`: Performs FAR_SEARCH_A_CALLBACK_PARAM operation in PluginA.cpp
+- `comparer_helper`: Performs comparer_helper operation in PluginA.cpp
+- `oldPanelInfoContainer`: Performs oldPanelInfoContainer operation in PluginA.cpp
 ### Kluczowe Funkcje
-- `old_palette_to_palette()`: Implements old_palette_to_palette functionality
-- `Create()`: FreeContentData not used
-- `PluginsRootKey()`: Implements PluginsRootKey functionality
-- `FindExport()`: Implements FindExport functionality
-- `kind()`: Implements kind functionality
-- `CreateOemPluginFactory()`: Creates and initializes new object or resource instance
-- `IsSpaceA()`: Checks condition and returns boolean indicating state
-- `IsEolA()`: Checks condition and returns boolean indicating state
-- `IsSlashA()`: Checks condition and returns boolean indicating state
-- `LocalUpperInit()`: Implements LocalUpperInit functionality
+- `old_palette_to_palette()`: This was removed in 3.x and the enums don't match anymore :(
+- `Create()`: ProcessSynchroEvent not used
+- `PluginsRootKey()`: Performs PluginsRootKey operation in PluginA.cpp
+- `FindExport()`: Performs FindExport operation in PluginA.cpp
+- `kind()`: module with ANY known export can be OEM plugin
+- `CreateOemPluginFactory()`: module with ANY known export can be OEM plugin
+- `IsSpaceA()`: module with ANY known export can be OEM plugin
+- `IsEolA()`: module with ANY known export can be OEM plugin
+- `IsSlashA()`: module with ANY known export can be OEM plugin
+- `LocalUpperInit()`: Performs LocalUpperInit operation in PluginA.cpp
 ### Przestrzenie nazw
 - `oldfar`
 - `oldpluginapi`

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `BasePath()`: Implements BasePath functionality
-- `PossibleFChar()`: Implements PossibleFChar functionality
-- `CheckExist()`: Implements CheckExist functionality
-- `DeleteFile()`: Removes or deletes specified item and releases associated resources
-- `DeleteDir()`: Removes or deletes specified item and releases associated resources
-- `RenameFile()`: Implements RenameFile functionality
-- `SetCurDir()`: Updates CurDir with provided value and validates constraints
-- `GetCurDir()`: #else fill string with form of response: X:\ replace X with current drive letter fill rest of string with current directory
-- `AddLastSlash()`: Implements AddLastSlash functionality
-- `MakeDir()`: Implements MakeDir functionality
+- `BasePath()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `PossibleFChar()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `CheckExist()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `DeleteFile()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `DeleteDir()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `RenameFile()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `SetCurDir()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `GetCurDir()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `AddLastSlash()`: fill string with form of response: X:\
+- `MakeDir()`: fill string with form of response: X:\
 ### Summary
 The `disk_io.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `disk_io.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `BasePath()`: Implements BasePath functionality
-- `PossibleFChar()`: Implements PossibleFChar functionality
-- `CheckExist()`: Implements CheckExist functionality
-- `DeleteFile()`: Removes or deletes specified item and releases associated resources
-- `DeleteDir()`: Removes or deletes specified item and releases associated resources
-- `RenameFile()`: Implements RenameFile functionality
-- `SetCurDir()`: Updates CurDir with provided value and validates constraints
-- `GetCurDir()`: #else fill string with form of response: X:\ replace X with current drive letter fill rest of string with current directory
-- `AddLastSlash()`: Implements AddLastSlash functionality
-- `MakeDir()`: Implements MakeDir functionality
+- `BasePath()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `PossibleFChar()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `CheckExist()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `DeleteFile()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `DeleteDir()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `RenameFile()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `SetCurDir()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `GetCurDir()`: Checks a condition in disk_io.cpp and returns true or false based on the result
+- `AddLastSlash()`: fill string with form of response: X:\
+- `MakeDir()`: fill string with form of response: X:\
 ### Podsumowanie
 Plik `disk_io.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

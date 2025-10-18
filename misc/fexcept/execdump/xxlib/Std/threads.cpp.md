@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Cvt()`: Implements Cvt functionality
-- `PRThreadCreate()`: Implements PRThreadCreate functionality
-- `PRThreadTerminate()`: Implements PRThreadTerminate functionality
-- `PRThreadSuspend()`: Implements PRThreadSuspend functionality
-- `PRThreadResume()`: Implements PRThreadResume functionality
-- `PRThreadExit()`: Implements PRThreadExit functionality
-- `PRThreadValid()`: Implements PRThreadValid functionality
-- `PRThreadID()`: Implements PRThreadID functionality
-- `PRThreadCurrentID()`: Implements PRThreadCurrentID functionality
-- `GetCurrentThreadId()`: Retrieves CurrentThreadId from current context or object state
+- `Cvt()`: - WIN32 -
+- `PRThreadCreate()`: - WIN32 -
+- `PRThreadTerminate()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadSuspend()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadResume()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadExit()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadValid()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadID()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadCurrentID()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `GetCurrentThreadId()`: Checks a condition in threads.cpp and returns true or false based on the result
 ### Summary
 The `threads.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `threads.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Cvt()`: Implements Cvt functionality
-- `PRThreadCreate()`: Implements PRThreadCreate functionality
-- `PRThreadTerminate()`: Implements PRThreadTerminate functionality
-- `PRThreadSuspend()`: Implements PRThreadSuspend functionality
-- `PRThreadResume()`: Implements PRThreadResume functionality
-- `PRThreadExit()`: Implements PRThreadExit functionality
-- `PRThreadValid()`: Implements PRThreadValid functionality
-- `PRThreadID()`: Implements PRThreadID functionality
-- `PRThreadCurrentID()`: Implements PRThreadCurrentID functionality
-- `GetCurrentThreadId()`: Retrieves CurrentThreadId from current context or object state
+- `Cvt()`: - WIN32 -
+- `PRThreadCreate()`: - WIN32 -
+- `PRThreadTerminate()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadSuspend()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadResume()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadExit()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadValid()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadID()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `PRThreadCurrentID()`: Checks a condition in threads.cpp and returns true or false based on the result
+- `GetCurrentThreadId()`: Checks a condition in threads.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `threads.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

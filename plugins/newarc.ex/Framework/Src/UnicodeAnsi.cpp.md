@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `AnsiToUnicode()`: Implements AnsiToUnicode functionality
-- `UnicodeToAnsi()`: Implements UnicodeToAnsi functionality
-- `UnicodeToUTF8()`: Implements UnicodeToUTF8 functionality
-- `AnsiToUTF8()`: Implements AnsiToUTF8 functionality
-- `UTF8ToUnicode()`: Implements UTF8ToUnicode functionality
-- `UTF8ToAnsi()`: Implements UTF8ToAnsi functionality
+- `AnsiToUnicode()`: как-то ANSI тут неумно звучит
+- `UnicodeToAnsi()`: как-то ANSI тут неумно звучит
+- `UnicodeToUTF8()`: Performs UnicodeToUTF8 operation in UnicodeAnsi.cpp
+- `AnsiToUTF8()`: Performs AnsiToUTF8 operation in UnicodeAnsi.cpp
+- `UTF8ToUnicode()`: Performs UTF8ToUnicode operation in UnicodeAnsi.cpp
+- `UTF8ToAnsi()`: Performs UTF8ToAnsi operation in UnicodeAnsi.cpp
 ### Summary
 The `UnicodeAnsi.cpp` file provides essential functionality for core functionality. and contains approximately 6 function(s) to support the Far Manager file manager operations.
 
@@ -18,11 +18,11 @@ The `UnicodeAnsi.cpp` file provides essential functionality for core functionali
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `AnsiToUnicode()`: Implements AnsiToUnicode functionality
-- `UnicodeToAnsi()`: Implements UnicodeToAnsi functionality
-- `UnicodeToUTF8()`: Implements UnicodeToUTF8 functionality
-- `AnsiToUTF8()`: Implements AnsiToUTF8 functionality
-- `UTF8ToUnicode()`: Implements UTF8ToUnicode functionality
-- `UTF8ToAnsi()`: Implements UTF8ToAnsi functionality
+- `AnsiToUnicode()`: как-то ANSI тут неумно звучит
+- `UnicodeToAnsi()`: как-то ANSI тут неумно звучит
+- `UnicodeToUTF8()`: Performs UnicodeToUTF8 operation in UnicodeAnsi.cpp
+- `AnsiToUTF8()`: Performs AnsiToUTF8 operation in UnicodeAnsi.cpp
+- `UTF8ToUnicode()`: Performs UTF8ToUnicode operation in UnicodeAnsi.cpp
+- `UTF8ToAnsi()`: Performs UTF8ToAnsi operation in UnicodeAnsi.cpp
 ### Podsumowanie
 Plik `UnicodeAnsi.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.

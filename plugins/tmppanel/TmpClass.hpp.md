@@ -4,18 +4,18 @@
 This file implements functionality related to: Temporary panel plugin class header file
 Main functional areas: core functionality
 ### Key Classes
-- `TmpPanel`: Implements TmpPanel functionality
+- `TmpPanel`: Temporary panel plugin class header file
 ### Key Functions
-- `TmpPanel()`: Implements TmpPanel functionality
-- `GetFindData()`: Retrieves FindData from current context or object state
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from current context or object state
-- `SetDirectory()`: Updates Directory with provided value and validates constraints
-- `PutFiles()`: Implements PutFiles functionality
-- `BeginPutFiles()`: Implements BeginPutFiles functionality
-- `CommitPutFiles()`: Implements CommitPutFiles functionality
-- `PutDirectoryContents()`: Implements PutDirectoryContents functionality
-- `PutOneFile()`: Implements PutOneFile functionality
-- `SetFindList()`: Updates FindList with provided value and validates constraints
+- `TmpPanel()`: Temporary panel plugin class header file
+- `GetFindData()`: Temporary panel plugin class header file
+- `GetOpenPanelInfo()`: Temporary panel plugin class header file
+- `SetDirectory()`: Temporary panel plugin class header file
+- `PutFiles()`: Temporary panel plugin class header file
+- `BeginPutFiles()`: Performs BeginPutFiles operation in TmpClass.hpp
+- `CommitPutFiles()`: Performs CommitPutFiles operation in TmpClass.hpp
+- `PutDirectoryContents()`: Performs PutDirectoryContents operation in TmpClass.hpp
+- `PutOneFile()`: Performs PutOneFile operation in TmpClass.hpp
+- `SetFindList()`: Sets or updates FindList value in TmpClass.hpp
 ### Summary
 The `TmpClass.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,17 +26,17 @@ The `TmpClass.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Temporary panel plugin class header file
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `TmpPanel`: Implements TmpPanel functionality
+- `TmpPanel`: Temporary panel plugin class header file
 ### Kluczowe Funkcje
-- `TmpPanel()`: Implements TmpPanel functionality
-- `GetFindData()`: Retrieves FindData from current context or object state
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from current context or object state
-- `SetDirectory()`: Updates Directory with provided value and validates constraints
-- `PutFiles()`: Implements PutFiles functionality
-- `BeginPutFiles()`: Implements BeginPutFiles functionality
-- `CommitPutFiles()`: Implements CommitPutFiles functionality
-- `PutDirectoryContents()`: Implements PutDirectoryContents functionality
-- `PutOneFile()`: Implements PutOneFile functionality
-- `SetFindList()`: Updates FindList with provided value and validates constraints
+- `TmpPanel()`: Temporary panel plugin class header file
+- `GetFindData()`: Temporary panel plugin class header file
+- `GetOpenPanelInfo()`: Temporary panel plugin class header file
+- `SetDirectory()`: Temporary panel plugin class header file
+- `PutFiles()`: Temporary panel plugin class header file
+- `BeginPutFiles()`: Performs BeginPutFiles operation in TmpClass.hpp
+- `CommitPutFiles()`: Performs CommitPutFiles operation in TmpClass.hpp
+- `PutDirectoryContents()`: Performs PutDirectoryContents operation in TmpClass.hpp
+- `PutOneFile()`: Performs PutOneFile operation in TmpClass.hpp
+- `SetFindList()`: Sets or updates FindList value in TmpClass.hpp
 ### Podsumowanie
 Plik `TmpClass.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Classes
-- `FarDialog`: Implements FarDialog functionality
-- `FarDialogHandler`: Implements FarDialogHandler functionality
-- `FarPagedDialog`: Implements FarPagedDialog functionality
-- `FarPagedDialogHandler`: Implements FarPagedDialogHandler functionality
-- `PageInfo`: Implements PageInfo functionality
+- `FarDialog`: Performs FarDialog operation in FarDialogs.hpp
+- `FarDialogHandler`: Performs FarDialogHandler operation in FarDialogs.hpp
+- `FarPagedDialog`: PAGED FAR DIALOG (remove, if not used!)
+- `FarPagedDialogHandler`: Performs FarPagedDialogHandler operation in FarDialogs.hpp
+- `PageInfo`: Performs PageInfo operation in FarDialogs.hpp
 ### Key Functions
-- `SetFlags()`: Updates Flags with provided value and validates constraints
-- `SetDialogFlags()`: Updates DialogFlags with provided value and validates constraints
-- `GetDialogFlags()`: Retrieves DialogFlags from current context or object state
-- `FirstButton()`: Implements FirstButton functionality
-- `SetFocus()`: Updates Focus with provided value and validates constraints
-- `DefaultButton()`: Implements DefaultButton functionality
-- `Control()`: Implements Control functionality
-- `SingleBox()`: Implements SingleBox functionality
-- `DoubleBox()`: Implements DoubleBox functionality
-- `Edit()`: Implements Edit functionality
+- `SetFlags()`: Sets or updates Flags value in FarDialogs.hpp
+- `SetDialogFlags()`: Sets or updates DialogFlags value in FarDialogs.hpp
+- `GetDialogFlags()`: Retrieves DialogFlags value in FarDialogs.hpp
+- `FirstButton()`: Performs FirstButton operation in FarDialogs.hpp
+- `SetFocus()`: Sets or updates Focus value in FarDialogs.hpp
+- `DefaultButton()`: Performs DefaultButton operation in FarDialogs.hpp
+- `Control()`: Performs Control operation in FarDialogs.hpp
+- `SingleBox()`: Performs SingleBox operation in FarDialogs.hpp
+- `DoubleBox()`: Performs DoubleBox operation in FarDialogs.hpp
+- `Edit()`: Performs Edit operation in FarDialogs.hpp
 ### Summary
 The `FarDialogs.hpp` file provides essential functionality for dialog handling. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,21 +28,21 @@ The `FarDialogs.hpp` file provides essential functionality for dialog handling. 
 ### Cel
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `FarDialog`: Implements FarDialog functionality
-- `FarDialogHandler`: Implements FarDialogHandler functionality
-- `FarPagedDialog`: Implements FarPagedDialog functionality
-- `FarPagedDialogHandler`: Implements FarPagedDialogHandler functionality
-- `PageInfo`: Implements PageInfo functionality
+- `FarDialog`: Performs FarDialog operation in FarDialogs.hpp
+- `FarDialogHandler`: Performs FarDialogHandler operation in FarDialogs.hpp
+- `FarPagedDialog`: PAGED FAR DIALOG (remove, if not used!)
+- `FarPagedDialogHandler`: Performs FarPagedDialogHandler operation in FarDialogs.hpp
+- `PageInfo`: Performs PageInfo operation in FarDialogs.hpp
 ### Kluczowe Funkcje
-- `SetFlags()`: Updates Flags with provided value and validates constraints
-- `SetDialogFlags()`: Updates DialogFlags with provided value and validates constraints
-- `GetDialogFlags()`: Retrieves DialogFlags from current context or object state
-- `FirstButton()`: Implements FirstButton functionality
-- `SetFocus()`: Updates Focus with provided value and validates constraints
-- `DefaultButton()`: Implements DefaultButton functionality
-- `Control()`: Implements Control functionality
-- `SingleBox()`: Implements SingleBox functionality
-- `DoubleBox()`: Implements DoubleBox functionality
-- `Edit()`: Implements Edit functionality
+- `SetFlags()`: Sets or updates Flags value in FarDialogs.hpp
+- `SetDialogFlags()`: Sets or updates DialogFlags value in FarDialogs.hpp
+- `GetDialogFlags()`: Retrieves DialogFlags value in FarDialogs.hpp
+- `FirstButton()`: Performs FirstButton operation in FarDialogs.hpp
+- `SetFocus()`: Sets or updates Focus value in FarDialogs.hpp
+- `DefaultButton()`: Performs DefaultButton operation in FarDialogs.hpp
+- `Control()`: Performs Control operation in FarDialogs.hpp
+- `SingleBox()`: Performs SingleBox operation in FarDialogs.hpp
+- `DoubleBox()`: Performs DoubleBox operation in FarDialogs.hpp
+- `Edit()`: Performs Edit operation in FarDialogs.hpp
 ### Podsumowanie
 Plik `FarDialogs.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

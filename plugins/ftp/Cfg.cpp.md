@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FLngColorDialog`: Implements FLngColorDialog functionality
+- `FLngColorDialog`: Performs FLngColorDialog operation in Cfg.cpp
 ### Key Functions
-- `TrimLen()`: Implements TrimLen functionality
-- `ReadCfg()`: Implements ReadCfg functionality
-- `WriteCfg()`: Implements WriteCfg functionality
-- `FP_SetRegKey()`: Implements FP_SetRegKey functionality
-- `ExtendedConfig()`: Implements ExtendedConfig functionality
-- `CDLG_WndProc()`: Processes input by dispatching to different code paths based on type or value
-- `FAR_COLOR()`: Implements FAR_COLOR functionality
-- `FP_GetColorDialog()`: Implements FP_GetColorDialog functionality
-- `Config()`: Implements Config functionality
-- `timeout()`: Long operation beep s Server reply timeout (s) Digits grouping symbol Show FTP command log Log window size
+- `TrimLen()`: Performs TrimLen operation in Cfg.cpp
+- `ReadCfg()`: Performs ReadCfg operation in Cfg.cpp
+- `WriteCfg()`: Performs WriteCfg operation in Cfg.cpp
+- `FP_SetRegKey()`: Performs FP_SetRegKey operation in Cfg.cpp
+- `ExtendedConfig()`: Performs ExtendedConfig operation in Cfg.cpp
+- `CDLG_WndProc()`: Performs CDLG_WndProc operation in Cfg.cpp
+- `FAR_COLOR()`: Performs FAR_COLOR operation in Cfg.cpp
+- `FP_GetColorDialog()`: Performs FP_GetColorDialog operation in Cfg.cpp
+- `Config()`: Performs Config operation in Cfg.cpp
+- `timeout()`: Performs timeout operation in Cfg.cpp
 ### Summary
 The `Cfg.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `Cfg.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FLngColorDialog`: Implements FLngColorDialog functionality
+- `FLngColorDialog`: Performs FLngColorDialog operation in Cfg.cpp
 ### Kluczowe Funkcje
-- `TrimLen()`: Implements TrimLen functionality
-- `ReadCfg()`: Implements ReadCfg functionality
-- `WriteCfg()`: Implements WriteCfg functionality
-- `FP_SetRegKey()`: Implements FP_SetRegKey functionality
-- `ExtendedConfig()`: Implements ExtendedConfig functionality
-- `CDLG_WndProc()`: Processes input by dispatching to different code paths based on type or value
-- `FAR_COLOR()`: Implements FAR_COLOR functionality
-- `FP_GetColorDialog()`: Implements FP_GetColorDialog functionality
-- `Config()`: Implements Config functionality
-- `timeout()`: Long operation beep s Server reply timeout (s) Digits grouping symbol Show FTP command log Log window size
+- `TrimLen()`: Performs TrimLen operation in Cfg.cpp
+- `ReadCfg()`: Performs ReadCfg operation in Cfg.cpp
+- `WriteCfg()`: Performs WriteCfg operation in Cfg.cpp
+- `FP_SetRegKey()`: Performs FP_SetRegKey operation in Cfg.cpp
+- `ExtendedConfig()`: Performs ExtendedConfig operation in Cfg.cpp
+- `CDLG_WndProc()`: Performs CDLG_WndProc operation in Cfg.cpp
+- `FAR_COLOR()`: Performs FAR_COLOR operation in Cfg.cpp
+- `FP_GetColorDialog()`: Performs FP_GetColorDialog operation in Cfg.cpp
+- `Config()`: Performs Config operation in Cfg.cpp
+- `timeout()`: Performs timeout operation in Cfg.cpp
 ### Podsumowanie
 Plik `Cfg.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

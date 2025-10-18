@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FileIndex`: Implements FileIndex functionality
-- `FileName`: Implements FileName functionality
-- `InitDialogItem`: Initializes component with required configuration and state
-- `Options`: Implements Options functionality
-- `OwnPanelInfo`: Implements OwnPanelInfo functionality
+- `FileIndex`: Performs FileIndex operation in Compare.cpp
+- `FileName`: Performs FileName operation in Compare.cpp
+- `InitDialogItem`: Initializes data structures and prepares for operation in Compare.cpp
+- `Options`: Performs Options operation in Compare.cpp
+- `OwnPanelInfo`: Performs OwnPanelInfo operation in Compare.cpp
 ### Key Functions
-- `WFD2FFD()`: Implements WFD2FFD functionality
-- `GetSetting()`: Retrieves Setting from current context or object state
-- `SplitCopy()`: skip '\\?\' Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowMessageRaw()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowMessage()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowMessageWhenComparingContents()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowDialogProc()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowDialog()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `settings()`: Updates tings with provided value and validates constraints
-- `CheckForEsc()`: skip '\\?\' ------- Опциональное под Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
+- `WFD2FFD()`: Performs WFD2FFD operation in Compare.cpp
+- `GetSetting()`: Retrieves Setting value in Compare.cpp
+- `SplitCopy()`: Performs SplitCopy operation in Compare.cpp
+- `ShowMessageRaw()`: Performs ShowMessageRaw operation in Compare.cpp
+- `ShowMessage()`: Performs ShowMessage operation in Compare.cpp
+- `ShowMessageWhenComparingContents()`: Performs ShowMessageWhenComparingContents operation in Compare.cpp
+- `ShowDialogProc()`: Performs ShowDialogProc operation in Compare.cpp
+- `ShowDialog()`: Performs ShowDialog operation in Compare.cpp
+- `settings()`: Sets or updates tings value in Compare.cpp
+- `CheckForEsc()`: Checks a condition in Compare.cpp and returns true or false based on the result
 ### Summary
 The `Compare.cpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,21 +28,21 @@ The `Compare.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FileIndex`: Implements FileIndex functionality
-- `FileName`: Implements FileName functionality
-- `InitDialogItem`: Initializes component with required configuration and state
-- `Options`: Implements Options functionality
-- `OwnPanelInfo`: Implements OwnPanelInfo functionality
+- `FileIndex`: Performs FileIndex operation in Compare.cpp
+- `FileName`: Performs FileName operation in Compare.cpp
+- `InitDialogItem`: Initializes data structures and prepares for operation in Compare.cpp
+- `Options`: Performs Options operation in Compare.cpp
+- `OwnPanelInfo`: Performs OwnPanelInfo operation in Compare.cpp
 ### Kluczowe Funkcje
-- `WFD2FFD()`: Implements WFD2FFD functionality
-- `GetSetting()`: Retrieves Setting from current context or object state
-- `SplitCopy()`: skip '\\?\' Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowMessageRaw()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowMessage()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowMessageWhenComparingContents()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowDialogProc()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `ShowDialog()`: skip '\\?\' ------- Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
-- `settings()`: Updates tings with provided value and validates constraints
-- `CheckForEsc()`: skip '\\?\' ------- Опциональное под Текущие настройки плагина Копии стандартных структур FAR Обёртка сервисной функции FAR: получение строки из
+- `WFD2FFD()`: Performs WFD2FFD operation in Compare.cpp
+- `GetSetting()`: Retrieves Setting value in Compare.cpp
+- `SplitCopy()`: Performs SplitCopy operation in Compare.cpp
+- `ShowMessageRaw()`: Performs ShowMessageRaw operation in Compare.cpp
+- `ShowMessage()`: Performs ShowMessage operation in Compare.cpp
+- `ShowMessageWhenComparingContents()`: Performs ShowMessageWhenComparingContents operation in Compare.cpp
+- `ShowDialogProc()`: Performs ShowDialogProc operation in Compare.cpp
+- `ShowDialog()`: Performs ShowDialog operation in Compare.cpp
+- `settings()`: Sets or updates tings value in Compare.cpp
+- `CheckForEsc()`: Checks a condition in Compare.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `Compare.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

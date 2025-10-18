@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `OnInitialize()`: Implements OnInitialize functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: Implements OnCloseArchive functionality
-- `OnGetArchiveModuleInfo()`: Implements OnGetArchiveModuleInfo functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
-- `OnFreeArchiveItem()`: Implements OnFreeArchiveItem functionality
-- `OnExtract()`: Implements OnExtract functionality
-- `OnStartOperation()`: Processes input by dispatching to different code paths based on type or value
+- `OnInitialize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+- `OnFinalize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+- `OnQueryArchive()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+- `OnOpenArchive()`: Performs OnOpenArchive operation in d5d.cpp
+- `OnCloseArchive()`: Performs OnCloseArchive operation in d5d.cpp
+- `OnGetArchiveModuleInfo()`: Performs OnGetArchiveModuleInfo operation in d5d.cpp
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in d5d.cpp
+- `OnFreeArchiveItem()`: Performs OnFreeArchiveItem operation in d5d.cpp
+- `OnExtract()`: Performs OnExtract operation in d5d.cpp
+- `OnStartOperation()`: Performs OnStartOperation operation in d5d.cpp
 ### Summary
 The `d5d.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `d5d.cpp` file provides essential functionality for core functionality. and 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `OnInitialize()`: Implements OnInitialize functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: Implements OnCloseArchive functionality
-- `OnGetArchiveModuleInfo()`: Implements OnGetArchiveModuleInfo functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
-- `OnFreeArchiveItem()`: Implements OnFreeArchiveItem functionality
-- `OnExtract()`: Implements OnExtract functionality
-- `OnStartOperation()`: Processes input by dispatching to different code paths based on type or value
+- `OnInitialize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+- `OnFinalize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+- `OnQueryArchive()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+- `OnOpenArchive()`: Performs OnOpenArchive operation in d5d.cpp
+- `OnCloseArchive()`: Performs OnCloseArchive operation in d5d.cpp
+- `OnGetArchiveModuleInfo()`: Performs OnGetArchiveModuleInfo operation in d5d.cpp
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in d5d.cpp
+- `OnFreeArchiveItem()`: Performs OnFreeArchiveItem operation in d5d.cpp
+- `OnExtract()`: Performs OnExtract operation in d5d.cpp
+- `OnStartOperation()`: Performs OnStartOperation operation in d5d.cpp
 ### Podsumowanie
 Plik `d5d.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

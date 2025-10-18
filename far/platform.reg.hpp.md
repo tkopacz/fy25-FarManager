@@ -4,24 +4,24 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `enum_key`: Implements enum_key functionality
-- `enum_value`: Implements enum_value functionality
-- `error`: Implements error functionality
-- `exception`: Implements exception functionality
-- `hkey_deleter`: Implements hkey_deleter functionality
-- `key`: Implements key functionality
-- `value`: Implements value functionality
+- `enum_key`: Performs enum_key operation in platform.reg.hpp
+- `enum_value`: Performs enum_value operation in platform.reg.hpp
+- `error`: Performs error operation in platform.reg.hpp
+- `exception`: Performs exception operation in platform.reg.hpp
+- `hkey_deleter`: Performs hkey_deleter operation in platform.reg.hpp
+- `key`: Performs key operation in platform.reg.hpp
+- `value`: Performs value operation in platform.reg.hpp
 ### Key Functions
-- `close()`: Implements close functionality
-- `native_handle()`: Implements native_handle functionality
-- `enum_keys()`: Implements enum_keys functionality
-- `enum_values()`: Implements enum_values functionality
-- `exits()`: Implements exits functionality
-- `key()`: Implements key functionality
-- `enum_keys_impl()`: Implements enum_keys_impl functionality
-- `enum_values_impl()`: Implements enum_values_impl functionality
-- `name()`: Implements name functionality
-- `type()`: Implements type functionality
+- `close()`: Performs close operation in platform.reg.hpp
+- `native_handle()`: Performs native_handle operation in platform.reg.hpp
+- `enum_keys()`: Performs enum_keys operation in platform.reg.hpp
+- `enum_values()`: Performs enum_values operation in platform.reg.hpp
+- `exits()`: Performs exits operation in platform.reg.hpp
+- `key()`: Performs key operation in platform.reg.hpp
+- `enum_keys_impl()`: Performs enum_keys_impl operation in platform.reg.hpp
+- `enum_values_impl()`: Performs enum_values_impl operation in platform.reg.hpp
+- `name()`: Performs name operation in platform.reg.hpp
+- `type()`: Performs type operation in platform.reg.hpp
 ### Namespaces
 - `os`
 ### Summary
@@ -34,24 +34,24 @@ The `platform.reg.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `enum_key`: Implements enum_key functionality
-- `enum_value`: Implements enum_value functionality
-- `error`: Implements error functionality
-- `exception`: Implements exception functionality
-- `hkey_deleter`: Implements hkey_deleter functionality
-- `key`: Implements key functionality
-- `value`: Implements value functionality
+- `enum_key`: Performs enum_key operation in platform.reg.hpp
+- `enum_value`: Performs enum_value operation in platform.reg.hpp
+- `error`: Performs error operation in platform.reg.hpp
+- `exception`: Performs exception operation in platform.reg.hpp
+- `hkey_deleter`: Performs hkey_deleter operation in platform.reg.hpp
+- `key`: Performs key operation in platform.reg.hpp
+- `value`: Performs value operation in platform.reg.hpp
 ### Kluczowe Funkcje
-- `close()`: Implements close functionality
-- `native_handle()`: Implements native_handle functionality
-- `enum_keys()`: Implements enum_keys functionality
-- `enum_values()`: Implements enum_values functionality
-- `exits()`: Implements exits functionality
-- `key()`: Implements key functionality
-- `enum_keys_impl()`: Implements enum_keys_impl functionality
-- `enum_values_impl()`: Implements enum_values_impl functionality
-- `name()`: Implements name functionality
-- `type()`: Implements type functionality
+- `close()`: Performs close operation in platform.reg.hpp
+- `native_handle()`: Performs native_handle operation in platform.reg.hpp
+- `enum_keys()`: Performs enum_keys operation in platform.reg.hpp
+- `enum_values()`: Performs enum_values operation in platform.reg.hpp
+- `exits()`: Performs exits operation in platform.reg.hpp
+- `key()`: Performs key operation in platform.reg.hpp
+- `enum_keys_impl()`: Performs enum_keys_impl operation in platform.reg.hpp
+- `enum_values_impl()`: Performs enum_values_impl operation in platform.reg.hpp
+- `name()`: Performs name operation in platform.reg.hpp
+- `type()`: Performs type operation in platform.reg.hpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -4,16 +4,16 @@
 This file implements functionality related to: Files highlighting
 Main functional areas: core functionality
 ### Key Functions
-- `file_color()`: Implements file_color functionality
-- `mark_color()`: Implements mark_color functionality
-- `SetHighlighting()`: Updates Highlighting with provided value and validates constraints
-- `LoadHighlight()`: Implements LoadHighlight functionality
-- `ApplyBlackOnBlackColor()`: Implements ApplyBlackOnBlackColor functionality
-- `ApplyBlackOnBlackColors()`: Обработаем black on black чтоб наследовать правильные цвета и чтоб после наследования были правильные цвета
-- `ApplyColors()`: Обработаем black on black чтоб наследовать правильные цвета и чтоб после наследования были правильные цвета
-- `merge()`: Implements merge functionality
-- `inherit_color()`: Processes input by dispatching to different code paths based on type or value
-- `HighlightDlgUpdateUserControl()`: Implements HighlightDlgUpdateUserControl functionality
+- `file_color()`: Performs file_color operation in hilight.cpp
+- `mark_color()`: Performs mark_color operation in hilight.cpp
+- `SetHighlighting()`: Sets or updates Highlighting value in hilight.cpp
+- `LoadHighlight()`: Performs LoadHighlight operation in hilight.cpp
+- `ApplyBlackOnBlackColor()`: Performs ApplyBlackOnBlackColor operation in hilight.cpp
+- `ApplyBlackOnBlackColors()`: Performs ApplyBlackOnBlackColors operation in hilight.cpp
+- `ApplyColors()`: Performs ApplyColors operation in hilight.cpp
+- `merge()`: Унаследуем пометку из Src если она не прозрачная
+- `inherit_color()`: Selected cursor lies on top of selection and can inherit its color
+- `HighlightDlgUpdateUserControl()`: Performs HighlightDlgUpdateUserControl operation in hilight.cpp
 ### Namespaces
 - `colors`
 - `names`
@@ -27,16 +27,16 @@ The `hilight.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Files highlighting
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `file_color()`: Implements file_color functionality
-- `mark_color()`: Implements mark_color functionality
-- `SetHighlighting()`: Updates Highlighting with provided value and validates constraints
-- `LoadHighlight()`: Implements LoadHighlight functionality
-- `ApplyBlackOnBlackColor()`: Implements ApplyBlackOnBlackColor functionality
-- `ApplyBlackOnBlackColors()`: Обработаем black on black чтоб наследовать правильные цвета и чтоб после наследования были правильные цвета
-- `ApplyColors()`: Обработаем black on black чтоб наследовать правильные цвета и чтоб после наследования были правильные цвета
-- `merge()`: Implements merge functionality
-- `inherit_color()`: Processes input by dispatching to different code paths based on type or value
-- `HighlightDlgUpdateUserControl()`: Implements HighlightDlgUpdateUserControl functionality
+- `file_color()`: Performs file_color operation in hilight.cpp
+- `mark_color()`: Performs mark_color operation in hilight.cpp
+- `SetHighlighting()`: Sets or updates Highlighting value in hilight.cpp
+- `LoadHighlight()`: Performs LoadHighlight operation in hilight.cpp
+- `ApplyBlackOnBlackColor()`: Performs ApplyBlackOnBlackColor operation in hilight.cpp
+- `ApplyBlackOnBlackColors()`: Performs ApplyBlackOnBlackColors operation in hilight.cpp
+- `ApplyColors()`: Performs ApplyColors operation in hilight.cpp
+- `merge()`: Унаследуем пометку из Src если она не прозрачная
+- `inherit_color()`: Selected cursor lies on top of selection and can inherit its color
+- `HighlightDlgUpdateUserControl()`: Performs HighlightDlgUpdateUserControl operation in hilight.cpp
 ### Przestrzenie nazw
 - `colors`
 - `names`

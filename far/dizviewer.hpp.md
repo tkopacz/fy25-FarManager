@@ -4,8 +4,8 @@
 This file implements functionality related to: Отображение файла описания папок
 Main functional areas: file viewing
 ### Key Functions
-- `ProcessKey()`: ---------------------------------------------------------------------------- DIZVIEWER_HPP_689FBC27_88B8_4A44_966E_7EAE71EE7B25
-- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `ProcessKey()`: Processes input data in dizviewer.hpp
+- `ProcessMouse()`: Processes input data in dizviewer.hpp
 ### Summary
 The `dizviewer.hpp` file provides essential functionality for file viewing. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,7 +16,7 @@ The `dizviewer.hpp` file provides essential functionality for file viewing. and 
 Ten plik implementuje funkcjonalność związaną z: Отображение файла описания папок
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Funkcje
-- `ProcessKey()`: ---------------------------------------------------------------------------- DIZVIEWER_HPP_689FBC27_88B8_4A44_966E_7EAE71EE7B25
-- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `ProcessKey()`: Processes input data in dizviewer.hpp
+- `ProcessMouse()`: Processes input data in dizviewer.hpp
 ### Podsumowanie
 Plik `dizviewer.hpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

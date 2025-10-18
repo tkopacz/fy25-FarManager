@@ -4,14 +4,14 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `succeeded()`: Implements succeeded functionality
-- `failed()`: Implements failed functionality
-- `is_string_type()`: Checks condition and returns boolean indicating state
-- `query_value()`: Implements query_value functionality
-- `enum_key()`: Processes input by dispatching to different code paths based on type or value
-- `enum_value()`: We don't know how much
-- `exception()`: Implements exception functionality
-- `string()`: Implements string functionality
+- `succeeded()`: Performs succeeded operation in platform.reg.cpp
+- `failed()`: Performs failed operation in platform.reg.cpp
+- `is_string_type()`: Checks a condition in platform.reg.cpp and returns the result
+- `query_value()`: Performs query_value operation in platform.reg.cpp
+- `enum_key()`: Performs enum_key operation in platform.reg.cpp
+- `enum_value()`: Performs enum_value operation in platform.reg.cpp
+- `exception()`: Performs exception operation in platform.reg.cpp
+- `string()`: Validates a condition in platform.reg.cpp and throws an exception if the validation fails
 ### Namespaces
 - `os`
 ### Summary
@@ -24,14 +24,14 @@ The `platform.reg.cpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `succeeded()`: Implements succeeded functionality
-- `failed()`: Implements failed functionality
-- `is_string_type()`: Checks condition and returns boolean indicating state
-- `query_value()`: Implements query_value functionality
-- `enum_key()`: Processes input by dispatching to different code paths based on type or value
-- `enum_value()`: We don't know how much
-- `exception()`: Implements exception functionality
-- `string()`: Implements string functionality
+- `succeeded()`: Performs succeeded operation in platform.reg.cpp
+- `failed()`: Performs failed operation in platform.reg.cpp
+- `is_string_type()`: Checks a condition in platform.reg.cpp and returns the result
+- `query_value()`: Performs query_value operation in platform.reg.cpp
+- `enum_key()`: Performs enum_key operation in platform.reg.cpp
+- `enum_value()`: Performs enum_value operation in platform.reg.cpp
+- `exception()`: Performs exception operation in platform.reg.cpp
+- `string()`: Validates a condition in platform.reg.cpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

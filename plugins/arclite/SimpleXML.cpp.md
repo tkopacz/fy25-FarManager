@@ -3,19 +3,19 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ParseException`: Implements ParseException functionality
-- `View`: Implements View functionality
+- `ParseException`: Performs ParseException operation in SimpleXML.cpp
+- `View`: Performs View operation in SimpleXML.cpp
 ### Key Functions
-- `save_start()`: Implements save_start functionality
-- `save_end()`: Implements save_end functionality
-- `get_saved()`: Retrieves _saved from current context or object state
-- `move()`: Implements move functionality
-- `space()`: Implements space functionality
-- `Name()`: Implements Name functionality
-- `name()`: Implements name functionality
-- `skip_spaces()`: Implements skip_spaces functionality
-- `check_end()`: Implements check_end functionality
-- `ParseException()`: Implements ParseException functionality
+- `save_start()`: Performs save_start operation in SimpleXML.cpp
+- `save_end()`: Performs save_end operation in SimpleXML.cpp
+- `get_saved()`: Retrieves _saved value in SimpleXML.cpp
+- `move()`: Performs move operation in SimpleXML.cpp
+- `space()`: Performs space operation in SimpleXML.cpp
+- `Name()`: Performs Name operation in SimpleXML.cpp
+- `name()`: Performs name operation in SimpleXML.cpp
+- `skip_spaces()`: Performs skip_spaces operation in SimpleXML.cpp
+- `check_end()`: Performs check_end operation in SimpleXML.cpp
+- `ParseException()`: Performs ParseException operation in SimpleXML.cpp
 ### Namespaces
 - `SimpleXML`
 ### Summary
@@ -27,19 +27,19 @@ The `SimpleXML.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ParseException`: Implements ParseException functionality
-- `View`: Implements View functionality
+- `ParseException`: Performs ParseException operation in SimpleXML.cpp
+- `View`: Performs View operation in SimpleXML.cpp
 ### Kluczowe Funkcje
-- `save_start()`: Implements save_start functionality
-- `save_end()`: Implements save_end functionality
-- `get_saved()`: Retrieves _saved from current context or object state
-- `move()`: Implements move functionality
-- `space()`: Implements space functionality
-- `Name()`: Implements Name functionality
-- `name()`: Implements name functionality
-- `skip_spaces()`: Implements skip_spaces functionality
-- `check_end()`: Implements check_end functionality
-- `ParseException()`: Implements ParseException functionality
+- `save_start()`: Performs save_start operation in SimpleXML.cpp
+- `save_end()`: Performs save_end operation in SimpleXML.cpp
+- `get_saved()`: Retrieves _saved value in SimpleXML.cpp
+- `move()`: Performs move operation in SimpleXML.cpp
+- `space()`: Performs space operation in SimpleXML.cpp
+- `Name()`: Performs Name operation in SimpleXML.cpp
+- `name()`: Performs name operation in SimpleXML.cpp
+- `skip_spaces()`: Performs skip_spaces operation in SimpleXML.cpp
+- `check_end()`: Performs check_end operation in SimpleXML.cpp
+- `ParseException()`: Performs ParseException operation in SimpleXML.cpp
 ### Przestrzenie nazw
 - `SimpleXML`
 ### Podsumowanie

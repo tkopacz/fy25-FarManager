@@ -4,27 +4,27 @@
 This file implements functionality related to: хранение настроек в базе sqlite.
 Main functional areas: configuration management
 ### Key Classes
-- `AssociationsConfig`: Implements AssociationsConfig functionality
-- `ColorsConfig`: Implements ColorsConfig functionality
-- `FarColor`: Implements FarColor functionality
-- `GeneralConfig`: Implements GeneralConfig functionality
-- `HierarchicalConfig`: Implements HierarchicalConfig functionality
-- `HistoryConfig`: command,view,edit,folder,dialog history
-- `PluginsCacheConfig`: Implements PluginsCacheConfig functionality
-- `PluginsHotkeysConfig`: command,view,edit,folder,dialog history
-- `VersionInfo`: Implements VersionInfo functionality
-- `async_delete`: Implements async_delete functionality
+- `AssociationsConfig`: Performs AssociationsConfig operation in configdb.hpp
+- `ColorsConfig`: Performs ColorsConfig operation in configdb.hpp
+- `FarColor`: Performs FarColor operation in configdb.hpp
+- `GeneralConfig`: Performs GeneralConfig operation in configdb.hpp
+- `HierarchicalConfig`: Performs HierarchicalConfig operation in configdb.hpp
+- `HistoryConfig`: Performs HistoryConfig operation in configdb.hpp
+- `PluginsCacheConfig`: Performs PluginsCacheConfig operation in configdb.hpp
+- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation in configdb.hpp
+- `VersionInfo`: Performs VersionInfo operation in configdb.hpp
+- `async_delete`: Performs async_delete operation in configdb.hpp
 ### Key Functions
-- `GetValue()`: Retrieves Value from current context or object state
-- `ValuesEnumerator()`: Implements ValuesEnumerator functionality
-- `get()`: Implements get functionality
-- `bool()`: Implements bool functionality
-- `KeysEnumerator()`: Implements KeysEnumerator functionality
-- `EnumKeys()`: Implements EnumKeys functionality
-- `EnumValues()`: Implements EnumValues functionality
-- `ToSettingsType()`: Implements ToSettingsType functionality
-- `MasksEnumerator()`: Implements MasksEnumerator functionality
-- `EnumMasks()`: Implements EnumMasks functionality
+- `GetValue()`: Retrieves Value value in configdb.hpp
+- `ValuesEnumerator()`: Performs ValuesEnumerator operation in configdb.hpp
+- `get()`: Retrieves  value in configdb.hpp
+- `bool()`: Performs bool operation in configdb.hpp
+- `KeysEnumerator()`: Performs KeysEnumerator operation in configdb.hpp
+- `EnumKeys()`: Performs EnumKeys operation in configdb.hpp
+- `EnumValues()`: Performs EnumValues operation in configdb.hpp
+- `ToSettingsType()`: Performs ToSettingsType operation in configdb.hpp
+- `MasksEnumerator()`: Performs MasksEnumerator operation in configdb.hpp
+- `EnumMasks()`: Performs EnumMasks operation in configdb.hpp
 ### Namespaces
 - `concurrency`
 - `detail`
@@ -39,27 +39,27 @@ The `configdb.hpp` file provides essential functionality for configuration manag
 Ten plik implementuje funkcjonalność związaną z: хранение настроек в базе sqlite.
 Główne obszary funkcjonalne: zarządzanie konfiguracją
 ### Kluczowe Klasy
-- `AssociationsConfig`: Implements AssociationsConfig functionality
-- `ColorsConfig`: Implements ColorsConfig functionality
-- `FarColor`: Implements FarColor functionality
-- `GeneralConfig`: Implements GeneralConfig functionality
-- `HierarchicalConfig`: Implements HierarchicalConfig functionality
-- `HistoryConfig`: command,view,edit,folder,dialog history
-- `PluginsCacheConfig`: Implements PluginsCacheConfig functionality
-- `PluginsHotkeysConfig`: command,view,edit,folder,dialog history
-- `VersionInfo`: Implements VersionInfo functionality
-- `async_delete`: Implements async_delete functionality
+- `AssociationsConfig`: Performs AssociationsConfig operation in configdb.hpp
+- `ColorsConfig`: Performs ColorsConfig operation in configdb.hpp
+- `FarColor`: Performs FarColor operation in configdb.hpp
+- `GeneralConfig`: Performs GeneralConfig operation in configdb.hpp
+- `HierarchicalConfig`: Performs HierarchicalConfig operation in configdb.hpp
+- `HistoryConfig`: Performs HistoryConfig operation in configdb.hpp
+- `PluginsCacheConfig`: Performs PluginsCacheConfig operation in configdb.hpp
+- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation in configdb.hpp
+- `VersionInfo`: Performs VersionInfo operation in configdb.hpp
+- `async_delete`: Performs async_delete operation in configdb.hpp
 ### Kluczowe Funkcje
-- `GetValue()`: Retrieves Value from current context or object state
-- `ValuesEnumerator()`: Implements ValuesEnumerator functionality
-- `get()`: Implements get functionality
-- `bool()`: Implements bool functionality
-- `KeysEnumerator()`: Implements KeysEnumerator functionality
-- `EnumKeys()`: Implements EnumKeys functionality
-- `EnumValues()`: Implements EnumValues functionality
-- `ToSettingsType()`: Implements ToSettingsType functionality
-- `MasksEnumerator()`: Implements MasksEnumerator functionality
-- `EnumMasks()`: Implements EnumMasks functionality
+- `GetValue()`: Retrieves Value value in configdb.hpp
+- `ValuesEnumerator()`: Performs ValuesEnumerator operation in configdb.hpp
+- `get()`: Retrieves  value in configdb.hpp
+- `bool()`: Performs bool operation in configdb.hpp
+- `KeysEnumerator()`: Performs KeysEnumerator operation in configdb.hpp
+- `EnumKeys()`: Performs EnumKeys operation in configdb.hpp
+- `EnumValues()`: Performs EnumValues operation in configdb.hpp
+- `ToSettingsType()`: Performs ToSettingsType operation in configdb.hpp
+- `MasksEnumerator()`: Performs MasksEnumerator operation in configdb.hpp
+- `EnumMasks()`: Performs EnumMasks operation in configdb.hpp
 ### Przestrzenie nazw
 - `concurrency`
 - `detail`

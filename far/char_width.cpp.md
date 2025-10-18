@@ -4,20 +4,20 @@
 This file implements functionality related to: Fullwidth support
 Main functional areas: core functionality
 ### Key Classes
-- `codepoint_width`: Implements codepoint_width functionality
-- `full_width`: Implements full_width functionality
-- `unicode_range`: Implements unicode_range functionality
+- `codepoint_width`: Performs codepoint_width operation in char_width.cpp
+- `full_width`: Performs full_width operation in char_width.cpp
+- `unicode_range`: Performs unicode_range operation in char_width.cpp
 ### Key Functions
-- `quick_width()`: Implements quick_width functionality
-- `lookup_width()`: Implements lookup_width functionality
-- `is_bmp()`: Checks condition and returns boolean indicating state
-- `device_width()`: Implements device_width functionality
-- `is_fullwidth_needed()`: Checks condition and returns boolean indicating state
-- `get_width()`: Retrieves _width from current context or object state
-- `get()`: Processes input by dispatching to different code paths based on type or value
-- `is_wide()`: Processes input by dispatching to different code paths based on type or value
-- `enable()`: Processes input by dispatching to different code paths based on type or value
-- `is_enabled()`: As of 23 Jun 2022 conhost and WT render half-width surrogates as half-width, but advance the cursor position as if they were full-width
+- `quick_width()`: Performs quick_width operation in char_width.cpp
+- `lookup_width()`: Performs lookup_width operation in char_width.cpp
+- `is_bmp()`: Checks a condition in char_width.cpp and returns the result
+- `device_width()`: Performs device_width operation in char_width.cpp
+- `is_fullwidth_needed()`: Checks a condition in char_width.cpp and returns the result
+- `get_width()`: Retrieves _width value in char_width.cpp
+- `get()`: Retrieves  value in char_width.cpp
+- `is_wide()`: Checks a condition in char_width.cpp and returns the result
+- `enable()`: Performs enable operation in char_width.cpp
+- `is_enabled()`: Checks a condition in char_width.cpp and returns the result
 ### Namespaces
 - `char_width`
 ### Summary
@@ -30,20 +30,20 @@ The `char_width.cpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Fullwidth support
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `codepoint_width`: Implements codepoint_width functionality
-- `full_width`: Implements full_width functionality
-- `unicode_range`: Implements unicode_range functionality
+- `codepoint_width`: Performs codepoint_width operation in char_width.cpp
+- `full_width`: Performs full_width operation in char_width.cpp
+- `unicode_range`: Performs unicode_range operation in char_width.cpp
 ### Kluczowe Funkcje
-- `quick_width()`: Implements quick_width functionality
-- `lookup_width()`: Implements lookup_width functionality
-- `is_bmp()`: Checks condition and returns boolean indicating state
-- `device_width()`: Implements device_width functionality
-- `is_fullwidth_needed()`: Checks condition and returns boolean indicating state
-- `get_width()`: Retrieves _width from current context or object state
-- `get()`: Processes input by dispatching to different code paths based on type or value
-- `is_wide()`: Processes input by dispatching to different code paths based on type or value
-- `enable()`: Processes input by dispatching to different code paths based on type or value
-- `is_enabled()`: As of 23 Jun 2022 conhost and WT render half-width surrogates as half-width, but advance the cursor position as if they were full-width
+- `quick_width()`: Performs quick_width operation in char_width.cpp
+- `lookup_width()`: Performs lookup_width operation in char_width.cpp
+- `is_bmp()`: Checks a condition in char_width.cpp and returns the result
+- `device_width()`: Performs device_width operation in char_width.cpp
+- `is_fullwidth_needed()`: Checks a condition in char_width.cpp and returns the result
+- `get_width()`: Retrieves _width value in char_width.cpp
+- `get()`: Retrieves  value in char_width.cpp
+- `is_wide()`: Checks a condition in char_width.cpp and returns the result
+- `enable()`: Performs enable operation in char_width.cpp
+- `is_enabled()`: Checks a condition in char_width.cpp and returns the result
 ### Przestrzenie nazw
 - `char_width`
 ### Podsumowanie

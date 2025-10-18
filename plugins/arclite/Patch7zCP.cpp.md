@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `patched`: Implements patched functionality
+- `patched`: Performs patched operation in Patch7zCP.cpp
 ### Key Functions
 - `GetOEMCP()`: #############################################################################
 - `GetACP()`: #############################################################################
-- `MultiByteToWideChar()`: Implements MultiByteToWideChar functionality
-- `WideCharToMultiByte()`: Implements WideCharToMultiByte functionality
-- `PinhFromImageBase()`: Implements PinhFromImageBase functionality
+- `MultiByteToWideChar()`: #############################################################################
+- `WideCharToMultiByte()`: Performs WideCharToMultiByte operation in Patch7zCP.cpp
+- `PinhFromImageBase()`: #############################################################################
 - `PFromRva()`: #############################################################################
 - `CountOfImports()`: #############################################################################
-- `patch_IAT()`: ############################################################################# PAGE_EXECUTE, PAGE_EXECUTE_READ
-- `patch_7z_dll()`: #############################################################################
-- `is_valid_cp()`: Checks condition and returns boolean indicating state
+- `patch_IAT()`: #############################################################################
+- `patch_7z_dll()`: PAGE_EXECUTE, PAGE_EXECUTE_READ
+- `is_valid_cp()`: #############################################################################
 ### Summary
 The `Patch7zCP.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `Patch7zCP.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `patched`: Implements patched functionality
+- `patched`: Performs patched operation in Patch7zCP.cpp
 ### Kluczowe Funkcje
 - `GetOEMCP()`: #############################################################################
 - `GetACP()`: #############################################################################
-- `MultiByteToWideChar()`: Implements MultiByteToWideChar functionality
-- `WideCharToMultiByte()`: Implements WideCharToMultiByte functionality
-- `PinhFromImageBase()`: Implements PinhFromImageBase functionality
+- `MultiByteToWideChar()`: #############################################################################
+- `WideCharToMultiByte()`: Performs WideCharToMultiByte operation in Patch7zCP.cpp
+- `PinhFromImageBase()`: #############################################################################
 - `PFromRva()`: #############################################################################
 - `CountOfImports()`: #############################################################################
-- `patch_IAT()`: ############################################################################# PAGE_EXECUTE, PAGE_EXECUTE_READ
-- `patch_7z_dll()`: #############################################################################
-- `is_valid_cp()`: Checks condition and returns boolean indicating state
+- `patch_IAT()`: #############################################################################
+- `patch_7z_dll()`: PAGE_EXECUTE, PAGE_EXECUTE_READ
+- `is_valid_cp()`: #############################################################################
 ### Podsumowanie
 Plik `Patch7zCP.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

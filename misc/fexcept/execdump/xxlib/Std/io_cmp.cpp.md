@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `PathCmp()`: Implements PathCmp functionality
-- `MakeFullPathName()`: Implements MakeFullPathName functionality
-- `IsSameFile()`: Get result path + name Both path exist
-- `QnxCmpFile()`: CCurrent machine name %ld",oi
+- `PathCmp()`: Performs PathCmp operation in io_cmp.cpp
+- `MakeFullPathName()`: Performs MakeFullPathName operation in io_cmp.cpp
+- `IsSameFile()`: Go fname path in case it relative
+- `QnxCmpFile()`: Performs QnxCmpFile operation in io_cmp.cpp
 ### Summary
 The `io_cmp.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `io_cmp.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `PathCmp()`: Implements PathCmp functionality
-- `MakeFullPathName()`: Implements MakeFullPathName functionality
-- `IsSameFile()`: Get result path + name Both path exist
-- `QnxCmpFile()`: CCurrent machine name %ld",oi
+- `PathCmp()`: Performs PathCmp operation in io_cmp.cpp
+- `MakeFullPathName()`: Performs MakeFullPathName operation in io_cmp.cpp
+- `IsSameFile()`: Go fname path in case it relative
+- `QnxCmpFile()`: Performs QnxCmpFile operation in io_cmp.cpp
 ### Podsumowanie
 Plik `io_cmp.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

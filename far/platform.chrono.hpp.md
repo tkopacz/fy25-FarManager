@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `local_tag`: Implements local_tag functionality
-- `nt_clock`: Implements nt_clock functionality
-- `time`: Implements time functionality
-- `typed_time`: Implements typed_time functionality
-- `utc_tag`: Implements utc_tag functionality
+- `local_tag`: Performs local_tag operation in platform.chrono.hpp
+- `nt_clock`: Performs nt_clock operation in platform.chrono.hpp
+- `time`: Performs time operation in platform.chrono.hpp
+- `typed_time`: Performs typed_time operation in platform.chrono.hpp
+- `utc_tag`: Performs utc_tag operation in platform.chrono.hpp
 ### Key Functions
-- `now()`: Implements now functionality
-- `to_time_t()`: Implements to_time_t functionality
-- `from_time_t()`: Implements from_time_t functionality
-- `to_filetime()`: Implements to_filetime functionality
-- `from_filetime()`: Implements from_filetime functionality
-- `from_hectonanoseconds()`: Implements from_hectonanoseconds functionality
-- `to_hectonanoseconds()`: Implements to_hectonanoseconds functionality
-- `milliseconds()`: Implements milliseconds functionality
-- `now_utc()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
-- `now_local()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
+- `now()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `from_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_filetime()`: Performs to_filetime operation in platform.chrono.hpp
+- `from_filetime()`: Performs from_filetime operation in platform.chrono.hpp
+- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation in platform.chrono.hpp
+- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation in platform.chrono.hpp
+- `milliseconds()`: Performs milliseconds operation in platform.chrono.hpp
+- `now_utc()`: Performs now_utc operation in platform.chrono.hpp
+- `now_local()`: Performs now_local operation in platform.chrono.hpp
 ### Namespaces
 - `detail`
 - `literals`
@@ -34,22 +34,22 @@ The `platform.chrono.hpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `local_tag`: Implements local_tag functionality
-- `nt_clock`: Implements nt_clock functionality
-- `time`: Implements time functionality
-- `typed_time`: Implements typed_time functionality
-- `utc_tag`: Implements utc_tag functionality
+- `local_tag`: Performs local_tag operation in platform.chrono.hpp
+- `nt_clock`: Performs nt_clock operation in platform.chrono.hpp
+- `time`: Performs time operation in platform.chrono.hpp
+- `typed_time`: Performs typed_time operation in platform.chrono.hpp
+- `utc_tag`: Performs utc_tag operation in platform.chrono.hpp
 ### Kluczowe Funkcje
-- `now()`: Implements now functionality
-- `to_time_t()`: Implements to_time_t functionality
-- `from_time_t()`: Implements from_time_t functionality
-- `to_filetime()`: Implements to_filetime functionality
-- `from_filetime()`: Implements from_filetime functionality
-- `from_hectonanoseconds()`: Implements from_hectonanoseconds functionality
-- `to_hectonanoseconds()`: Implements to_hectonanoseconds functionality
-- `milliseconds()`: Implements milliseconds functionality
-- `now_utc()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
-- `now_local()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
+- `now()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `from_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_filetime()`: Performs to_filetime operation in platform.chrono.hpp
+- `from_filetime()`: Performs from_filetime operation in platform.chrono.hpp
+- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation in platform.chrono.hpp
+- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation in platform.chrono.hpp
+- `milliseconds()`: Performs milliseconds operation in platform.chrono.hpp
+- `now_utc()`: Performs now_utc operation in platform.chrono.hpp
+- `now_local()`: Performs now_local operation in platform.chrono.hpp
 ### Przestrzenie nazw
 - `detail`
 - `literals`

@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Buffer`: Implements Buffer functionality
-- `ComInit`: wFillAttribute wPopupFillAttribute dwScreenBufferSize dwWindowSize dwWindowOrigin nFont nInputBufferSize dwFontSize uFo
-- `Error`: Implements Error functionality
-- `NonCopyable`: Implements NonCopyable functionality
+- `Buffer`: Template class that manages a dynamically allocated array with automatic cleanup
+- `ComInit`: RAII wrapper that calls CoInitialize on construction and CoUninitialize on destruction to manage COM library initialization
+- `Error`: Structure that holds error information including code, message, file, and line number for exception handling
+- `NonCopyable`: Base class that prevents copying by making copy constructor and assignment operator private
 ### Key Functions
-- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications
-- `FAIL()`: Throws error exception with error code when condition fails
-- `FAIL_MSG()`: Throws error exception with custom message when condition fails
-- `CHECK_SYS()`: Validates system call result and throws exception with Win32 error code on failure
-- `CHECK_ADVSYS()`: Validates Windows advanced API call and throws exception with error code on failure
-- `CHECK_COM()`: Validates COM HRESULT and throws exception on failure
-- `CHECK()`: Validates boolean condition and throws exception with condition text on failure
-- `resize()`: Resizes buffer by deallocating old memory and allocating new buffer with specified size
-- `data()`: Returns pointer to internal buffer for direct access to stored data
-- `size()`: Returns current allocated size of the buffer in elements
+- `DllMain()`: Stores the module handle when the DLL is loaded by the system for later use in finding resources
+- `FAIL()`: Creates and throws an Error structure with a code to abort execution on failure conditions
+- `FAIL_MSG()`: Creates and throws an Error structure with a custom message to abort execution with specific error details
+- `CHECK_SYS()`: Verifies a Windows system call succeeded, throwing an error with the Win32 error code if it failed
+- `CHECK_ADVSYS()`: Verifies a Windows advanced API call returned ERROR_SUCCESS, throwing an HRESULT error if it failed
+- `CHECK_COM()`: Verifies a COM method call succeeded by checking the HRESULT, throwing an error if it failed
+- `CHECK()`: Verifies a boolean condition is true, throwing an error with the condition text if it is false
+- `resize()`: Reallocates the internal buffer to a new size, deleting the old buffer first
+- `data()`: Returns a pointer to the internal buffer array for direct access
+- `size()`: Returns the current size of the buffer in number of elements
 ### Namespaces
 - `std`
 ### Summary
@@ -29,21 +29,21 @@ The `customact.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Buffer`: Implements Buffer functionality
-- `ComInit`: wFillAttribute wPopupFillAttribute dwScreenBufferSize dwWindowSize dwWindowOrigin nFont nInputBufferSize dwFontSize uFo
-- `Error`: Implements Error functionality
-- `NonCopyable`: Implements NonCopyable functionality
+- `Buffer`: Template class that manages a dynamically allocated array with automatic cleanup
+- `ComInit`: RAII wrapper that calls CoInitialize on construction and CoUninitialize on destruction to manage COM library initialization
+- `Error`: Structure that holds error information including code, message, file, and line number for exception handling
+- `NonCopyable`: Base class that prevents copying by making copy constructor and assignment operator private
 ### Kluczowe Funkcje
-- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications
-- `FAIL()`: Throws error exception with error code when condition fails
-- `FAIL_MSG()`: Throws error exception with custom message when condition fails
-- `CHECK_SYS()`: Validates system call result and throws exception with Win32 error code on failure
-- `CHECK_ADVSYS()`: Validates Windows advanced API call and throws exception with error code on failure
-- `CHECK_COM()`: Validates COM HRESULT and throws exception on failure
-- `CHECK()`: Validates boolean condition and throws exception with condition text on failure
-- `resize()`: Resizes buffer by deallocating old memory and allocating new buffer with specified size
-- `data()`: Returns pointer to internal buffer for direct access to stored data
-- `size()`: Returns current allocated size of the buffer in elements
+- `DllMain()`: Stores the module handle when the DLL is loaded by the system for later use in finding resources
+- `FAIL()`: Creates and throws an Error structure with a code to abort execution on failure conditions
+- `FAIL_MSG()`: Creates and throws an Error structure with a custom message to abort execution with specific error details
+- `CHECK_SYS()`: Verifies a Windows system call succeeded, throwing an error with the Win32 error code if it failed
+- `CHECK_ADVSYS()`: Verifies a Windows advanced API call returned ERROR_SUCCESS, throwing an HRESULT error if it failed
+- `CHECK_COM()`: Verifies a COM method call succeeded by checking the HRESULT, throwing an error if it failed
+- `CHECK()`: Verifies a boolean condition is true, throwing an error with the condition text if it is false
+- `resize()`: Reallocates the internal buffer to a new size, deleting the old buffer first
+- `data()`: Returns a pointer to the internal buffer array for direct access
+- `size()`: Returns the current size of the buffer in number of elements
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

@@ -3,25 +3,25 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `break_into_debugger`: Represents a non-continuable failure: - logic errors, which shouldn't happen
-- `error_state_ex`: Implements error_state_ex functionality
-- `far_base_exception`: Implements far_base_exception functionality
-- `far_exception`: Implements far_exception functionality
-- `far_known_exception`: For common EXCEPTION_HPP_2CD5B7D1_D39C_4CAF_858A_62496C9221DF For the cases where it is pretty clear what is wrong, no need to show the stack etc
-- `far_std_exception`: Implements far_std_exception functionality
-- `formattable`: Implements formattable functionality
-- `unknown_exception_t`: Implements unknown_exception_t functionality
+- `break_into_debugger`: Performs break_into_debugger operation in exception.hpp
+- `error_state_ex`: Performs error_state_ex operation in exception.hpp
+- `far_base_exception`: Performs far_base_exception operation in exception.hpp
+- `far_exception`: Represents all other failures, potentially continuable.
+- `far_known_exception`: Represents all other failures, potentially continuable.
+- `far_std_exception`: Performs far_std_exception operation in exception.hpp
+- `formattable`: Performs formattable operation in exception.hpp
+- `unknown_exception_t`: Performs unknown_exception_t operation in exception.hpp
 ### Key Functions
-- `any()`: Implements any functionality
-- `ErrnoStr()`: Implements ErrnoStr functionality
-- `system_error()`: Implements system_error functionality
-- `to_string()`: Implements to_string functionality
-- `source_location_to_string()`: Implements source_location_to_string functionality
-- `message()`: Implements message functionality
-- `location()`: Implements location functionality
-- `far_base_exception()`: Implements far_base_exception functionality
-- `far_std_exception()`: Implements far_std_exception functionality
-- `convert_message()`: Represents a non-continuable failure: - logic errors, which shouldn't happen
+- `any()`: Performs any operation in exception.hpp
+- `ErrnoStr()`: Performs ErrnoStr operation in exception.hpp
+- `system_error()`: Performs system_error operation in exception.hpp
+- `to_string()`: Performs to_string operation in exception.hpp
+- `source_location_to_string()`: Performs source_location_to_string operation in exception.hpp
+- `message()`: Performs message operation in exception.hpp
+- `location()`: Performs location operation in exception.hpp
+- `far_base_exception()`: Performs far_base_exception operation in exception.hpp
+- `far_std_exception()`: Performs far_std_exception operation in exception.hpp
+- `convert_message()`: Performs convert_message operation in exception.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -33,25 +33,25 @@ The `exception.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `break_into_debugger`: Represents a non-continuable failure: - logic errors, which shouldn't happen
-- `error_state_ex`: Implements error_state_ex functionality
-- `far_base_exception`: Implements far_base_exception functionality
-- `far_exception`: Implements far_exception functionality
-- `far_known_exception`: For common EXCEPTION_HPP_2CD5B7D1_D39C_4CAF_858A_62496C9221DF For the cases where it is pretty clear what is wrong, no need to show the stack etc
-- `far_std_exception`: Implements far_std_exception functionality
-- `formattable`: Implements formattable functionality
-- `unknown_exception_t`: Implements unknown_exception_t functionality
+- `break_into_debugger`: Performs break_into_debugger operation in exception.hpp
+- `error_state_ex`: Performs error_state_ex operation in exception.hpp
+- `far_base_exception`: Performs far_base_exception operation in exception.hpp
+- `far_exception`: Represents all other failures, potentially continuable.
+- `far_known_exception`: Represents all other failures, potentially continuable.
+- `far_std_exception`: Performs far_std_exception operation in exception.hpp
+- `formattable`: Performs formattable operation in exception.hpp
+- `unknown_exception_t`: Performs unknown_exception_t operation in exception.hpp
 ### Kluczowe Funkcje
-- `any()`: Implements any functionality
-- `ErrnoStr()`: Implements ErrnoStr functionality
-- `system_error()`: Implements system_error functionality
-- `to_string()`: Implements to_string functionality
-- `source_location_to_string()`: Implements source_location_to_string functionality
-- `message()`: Implements message functionality
-- `location()`: Implements location functionality
-- `far_base_exception()`: Implements far_base_exception functionality
-- `far_std_exception()`: Implements far_std_exception functionality
-- `convert_message()`: Represents a non-continuable failure: - logic errors, which shouldn't happen
+- `any()`: Performs any operation in exception.hpp
+- `ErrnoStr()`: Performs ErrnoStr operation in exception.hpp
+- `system_error()`: Performs system_error operation in exception.hpp
+- `to_string()`: Performs to_string operation in exception.hpp
+- `source_location_to_string()`: Performs source_location_to_string operation in exception.hpp
+- `message()`: Performs message operation in exception.hpp
+- `location()`: Performs location operation in exception.hpp
+- `far_base_exception()`: Performs far_base_exception operation in exception.hpp
+- `far_std_exception()`: Performs far_std_exception operation in exception.hpp
+- `convert_message()`: Performs convert_message operation in exception.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

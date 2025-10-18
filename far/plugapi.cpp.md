@@ -4,21 +4,21 @@
 This file implements functionality related to: API, доступное плагинам (диалоги, меню, ...)
 Main functional areas: core functionality
 ### Key Classes
-- `plugin_dialog`: Implements plugin_dialog functionality
-- `pluginapi_sort_accessor`: Implements pluginapi_sort_accessor functionality
-- `private_tag`: Implements private_tag functionality
-- `regex_handle`: Implements regex_handle functionality
+- `plugin_dialog`: Performs plugin_dialog operation in plugapi.cpp
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation in plugapi.cpp
+- `private_tag`: Checks a condition in plugapi.cpp and returns true or false based on the result
+- `regex_handle`: Performs regex_handle operation in plugapi.cpp
 ### Key Functions
-- `UuidToPlugin()`: Platform: Common: External: ----------------------------------------------------------------------------
-- `GetHostPanel()`: Retrieves HostPanel from current context or object state
-- `bsearch_comparer_wrapper()`: Implements bsearch_comparer_wrapper functionality
-- `bsearch_comparer()`: Implements bsearch_comparer functionality
-- `bsearchex()`: Implements bsearchex functionality
-- `qsort_comparer_wrapper()`: Implements qsort_comparer_wrapper functionality
-- `qsort_comparer()`: Implements qsort_comparer functionality
-- `qsortex()`: Implements qsortex functionality
-- `compare_ordinal_icase()`: Implements compare_ordinal_icase functionality
-- `_vsnwprintf()`: Implements _vsnwprintf functionality
+- `UuidToPlugin()`: Performs UuidToPlugin operation in plugapi.cpp
+- `GetHostPanel()`: Retrieves HostPanel value in plugapi.cpp
+- `bsearch_comparer_wrapper()`: Performs bsearch_comparer_wrapper operation in plugapi.cpp
+- `bsearch_comparer()`: Performs bsearch_comparer operation in plugapi.cpp
+- `bsearchex()`: Performs bsearchex operation in plugapi.cpp
+- `qsort_comparer_wrapper()`: Performs qsort_comparer_wrapper operation in plugapi.cpp
+- `qsort_comparer()`: Performs qsort_comparer operation in plugapi.cpp
+- `qsortex()`: Performs qsortex operation in plugapi.cpp
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in plugapi.cpp
+- `_vsnwprintf()`: BUGBUG, do not use vswprintf here, %
 ### Namespaces
 - `cfunctions`
 - `magic`
@@ -33,21 +33,21 @@ The `plugapi.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: API, доступное плагинам (диалоги, меню, ...)
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `plugin_dialog`: Implements plugin_dialog functionality
-- `pluginapi_sort_accessor`: Implements pluginapi_sort_accessor functionality
-- `private_tag`: Implements private_tag functionality
-- `regex_handle`: Implements regex_handle functionality
+- `plugin_dialog`: Performs plugin_dialog operation in plugapi.cpp
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation in plugapi.cpp
+- `private_tag`: Checks a condition in plugapi.cpp and returns true or false based on the result
+- `regex_handle`: Performs regex_handle operation in plugapi.cpp
 ### Kluczowe Funkcje
-- `UuidToPlugin()`: Platform: Common: External: ----------------------------------------------------------------------------
-- `GetHostPanel()`: Retrieves HostPanel from current context or object state
-- `bsearch_comparer_wrapper()`: Implements bsearch_comparer_wrapper functionality
-- `bsearch_comparer()`: Implements bsearch_comparer functionality
-- `bsearchex()`: Implements bsearchex functionality
-- `qsort_comparer_wrapper()`: Implements qsort_comparer_wrapper functionality
-- `qsort_comparer()`: Implements qsort_comparer functionality
-- `qsortex()`: Implements qsortex functionality
-- `compare_ordinal_icase()`: Implements compare_ordinal_icase functionality
-- `_vsnwprintf()`: Implements _vsnwprintf functionality
+- `UuidToPlugin()`: Performs UuidToPlugin operation in plugapi.cpp
+- `GetHostPanel()`: Retrieves HostPanel value in plugapi.cpp
+- `bsearch_comparer_wrapper()`: Performs bsearch_comparer_wrapper operation in plugapi.cpp
+- `bsearch_comparer()`: Performs bsearch_comparer operation in plugapi.cpp
+- `bsearchex()`: Performs bsearchex operation in plugapi.cpp
+- `qsort_comparer_wrapper()`: Performs qsort_comparer_wrapper operation in plugapi.cpp
+- `qsort_comparer()`: Performs qsort_comparer operation in plugapi.cpp
+- `qsortex()`: Performs qsortex operation in plugapi.cpp
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in plugapi.cpp
+- `_vsnwprintf()`: BUGBUG, do not use vswprintf here, %
 ### Przestrzenie nazw
 - `cfunctions`
 - `magic`

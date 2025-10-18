@@ -4,15 +4,15 @@
 This file implements functionality related to: Версия Far Manager
 Main functional areas: core functionality
 ### Key Classes
-- `VersionInfo`: Implements VersionInfo functionality
+- `VersionInfo`: Performs VersionInfo operation in farversion.hpp
 ### Key Functions
-- `version_string()`: Implements version_string functionality
-- `copyright()`: Implements copyright functionality
-- `scm_revision()`: External: ---------------------------------------------------------------------------- FARVERSION_HPP_2DFC77DA_8558_4EF9_9F2E_3B8B848F7C84
-- `platform()`: Implements platform functionality
-- `version()`: Implements version functionality
-- `compiler()`: Implements compiler functionality
-- `library()`: Implements library functionality
+- `version_string()`: Performs version_string operation in farversion.hpp
+- `copyright()`: Performs copyright operation in farversion.hpp
+- `scm_revision()`: Performs scm_revision operation in farversion.hpp
+- `platform()`: Performs platform operation in farversion.hpp
+- `version()`: Performs version operation in farversion.hpp
+- `compiler()`: Performs compiler operation in farversion.hpp
+- `library()`: Performs library operation in farversion.hpp
 ### Namespaces
 - `build`
 ### Summary
@@ -25,15 +25,15 @@ The `farversion.hpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Версия Far Manager
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `VersionInfo`: Implements VersionInfo functionality
+- `VersionInfo`: Performs VersionInfo operation in farversion.hpp
 ### Kluczowe Funkcje
-- `version_string()`: Implements version_string functionality
-- `copyright()`: Implements copyright functionality
-- `scm_revision()`: External: ---------------------------------------------------------------------------- FARVERSION_HPP_2DFC77DA_8558_4EF9_9F2E_3B8B848F7C84
-- `platform()`: Implements platform functionality
-- `version()`: Implements version functionality
-- `compiler()`: Implements compiler functionality
-- `library()`: Implements library functionality
+- `version_string()`: Performs version_string operation in farversion.hpp
+- `copyright()`: Performs copyright operation in farversion.hpp
+- `scm_revision()`: Performs scm_revision operation in farversion.hpp
+- `platform()`: Performs platform operation in farversion.hpp
+- `version()`: Performs version operation in farversion.hpp
+- `compiler()`: Performs compiler operation in farversion.hpp
+- `library()`: Performs library operation in farversion.hpp
 ### Przestrzenie nazw
 - `build`
 ### Podsumowanie

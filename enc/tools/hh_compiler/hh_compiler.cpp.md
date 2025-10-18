@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GetACP_hook()`: Retrieves ACP_hook from current context or object state
-- `MultiByteToWideChar_hook()`: Implements MultiByteToWideChar_hook functionality
-- `MultiByteToWideChar()`: Implements MultiByteToWideChar functionality
-- `WideCharToMultiByte_hook()`: Implements WideCharToMultiByte_hook functionality
-- `WideCharToMultiByte()`: Implements WideCharToMultiByte functionality
-- `FindByName()`: Implements FindByName functionality
-- `FromRva()`: Processes input by dispatching to different code paths based on type or value
-- `write_memory()`: Processes input by dispatching to different code paths based on type or value
-- `VirtualProtect()`: Implements VirtualProtect functionality
-- `patch()`: Implements patch functionality
+- `GetACP_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `MultiByteToWideChar_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `MultiByteToWideChar()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `WideCharToMultiByte_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `WideCharToMultiByte()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `FindByName()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `FromRva()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `write_memory()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `VirtualProtect()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `patch()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
 ### Namespaces
 - `replacement`
 ### Summary
@@ -24,16 +24,16 @@ The `hh_compiler.cpp` file provides essential functionality for core functionali
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GetACP_hook()`: Retrieves ACP_hook from current context or object state
-- `MultiByteToWideChar_hook()`: Implements MultiByteToWideChar_hook functionality
-- `MultiByteToWideChar()`: Implements MultiByteToWideChar functionality
-- `WideCharToMultiByte_hook()`: Implements WideCharToMultiByte_hook functionality
-- `WideCharToMultiByte()`: Implements WideCharToMultiByte functionality
-- `FindByName()`: Implements FindByName functionality
-- `FromRva()`: Processes input by dispatching to different code paths based on type or value
-- `write_memory()`: Processes input by dispatching to different code paths based on type or value
-- `VirtualProtect()`: Implements VirtualProtect functionality
-- `patch()`: Implements patch functionality
+- `GetACP_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `MultiByteToWideChar_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `MultiByteToWideChar()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `WideCharToMultiByte_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `WideCharToMultiByte()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `FindByName()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `FromRva()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `write_memory()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `VirtualProtect()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- `patch()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `replacement`
 ### Podsumowanie

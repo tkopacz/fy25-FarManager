@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `callable`: Implements callable functionality
-- `callable_base`: Implements callable_base functionality
-- `icallable`: Implements icallable functionality
-- `icallable_base`: Implements icallable_base functionality
-- `multifunction`: Implements multifunction functionality
+- `callable`: Performs callable operation in multifunction.hpp
+- `callable_base`: Performs callable_base operation in multifunction.hpp
+- `icallable`: Performs icallable operation in multifunction.hpp
+- `icallable_base`: Performs icallable_base operation in multifunction.hpp
+- `multifunction`: Performs multifunction operation in multifunction.hpp
 ### Key Functions
-- `bool()`: Implements bool functionality
+- `bool()`: Performs bool operation in multifunction.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -21,13 +21,13 @@ The `multifunction.hpp` file provides essential functionality for core functiona
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `callable`: Implements callable functionality
-- `callable_base`: Implements callable_base functionality
-- `icallable`: Implements icallable functionality
-- `icallable_base`: Implements icallable_base functionality
-- `multifunction`: Implements multifunction functionality
+- `callable`: Performs callable operation in multifunction.hpp
+- `callable_base`: Performs callable_base operation in multifunction.hpp
+- `icallable`: Performs icallable operation in multifunction.hpp
+- `icallable_base`: Performs icallable_base operation in multifunction.hpp
+- `multifunction`: Performs multifunction operation in multifunction.hpp
 ### Kluczowe Funkcje
-- `bool()`: Implements bool functionality
+- `bool()`: Performs bool operation in multifunction.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

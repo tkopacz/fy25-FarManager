@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `same_traits`: Implements same_traits functionality
+- `same_traits`: Performs same_traits operation in bytes_view.hpp
 ### Key Functions
-- `to()`: Implements to functionality
-- `from()`: Implements from functionality
-- `assign()`: Implements assign functionality
-- `eq()`: Implements eq functionality
-- `lt()`: Implements lt functionality
-- `compare()`: Implements compare functionality
-- `length()`: Implements length functionality
-- `find()`: Implements find functionality
-- `move()`: Implements move functionality
-- `copy()`: Implements copy functionality
+- `to()`: Performs to operation in bytes_view.hpp
+- `from()`: Performs from operation in bytes_view.hpp
+- `assign()`: Performs assign operation in bytes_view.hpp
+- `eq()`: Performs eq operation in bytes_view.hpp
+- `lt()`: Performs lt operation in bytes_view.hpp
+- `compare()`: Performs compare operation in bytes_view.hpp
+- `length()`: Performs length operation in bytes_view.hpp
+- `find()`: Performs find operation in bytes_view.hpp
+- `move()`: Performs move operation in bytes_view.hpp
+- `copy()`: Performs copy operation in bytes_view.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -26,18 +26,18 @@ The `bytes_view.hpp` file provides essential functionality for file viewing. It 
 ### Cel
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `same_traits`: Implements same_traits functionality
+- `same_traits`: Performs same_traits operation in bytes_view.hpp
 ### Kluczowe Funkcje
-- `to()`: Implements to functionality
-- `from()`: Implements from functionality
-- `assign()`: Implements assign functionality
-- `eq()`: Implements eq functionality
-- `lt()`: Implements lt functionality
-- `compare()`: Implements compare functionality
-- `length()`: Implements length functionality
-- `find()`: Implements find functionality
-- `move()`: Implements move functionality
-- `copy()`: Implements copy functionality
+- `to()`: Performs to operation in bytes_view.hpp
+- `from()`: Performs from operation in bytes_view.hpp
+- `assign()`: Performs assign operation in bytes_view.hpp
+- `eq()`: Performs eq operation in bytes_view.hpp
+- `lt()`: Performs lt operation in bytes_view.hpp
+- `compare()`: Performs compare operation in bytes_view.hpp
+- `length()`: Performs length operation in bytes_view.hpp
+- `find()`: Performs find operation in bytes_view.hpp
+- `move()`: Performs move operation in bytes_view.hpp
+- `copy()`: Performs copy operation in bytes_view.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

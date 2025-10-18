@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `ActlKeyMacro`: Implements ActlKeyMacro functionality
-- `CharTableSet`: Implements CharTableSet functionality
-- `CmdLineSelect`: Implements CmdLineSelect functionality
-- `EditorBookMarks`: Implements EditorBookMarks functionality
-- `EditorColor`: Implements EditorColor functionality
-- `EditorConvertPos`: Implements EditorConvertPos functionality
-- `EditorConvertText`: Implements EditorConvertText functionality
-- `EditorGetString`: Implements EditorGetString functionality
-- `EditorInfo`: Implements EditorInfo functionality
-- `EditorSaveFile`: Implements EditorSaveFile functionality
+- `ActlKeyMacro`: Performs ActlKeyMacro operation in pluginold.hpp
+- `CharTableSet`: Performs CharTableSet operation in pluginold.hpp
+- `CmdLineSelect`: Performs CmdLineSelect operation in pluginold.hpp
+- `EditorBookMarks`: Performs EditorBookMarks operation in pluginold.hpp
+- `EditorColor`: Performs EditorColor operation in pluginold.hpp
+- `EditorConvertPos`: Performs EditorConvertPos operation in pluginold.hpp
+- `EditorConvertText`: Performs EditorConvertText operation in pluginold.hpp
+- `EditorGetString`: Performs EditorGetString operation in pluginold.hpp
+- `EditorInfo`: Performs EditorInfo operation in pluginold.hpp
+- `EditorSaveFile`: Performs EditorSaveFile operation in pluginold.hpp
 ### Namespaces
 - `oldfar`
 ### Summary
@@ -24,16 +24,16 @@ The `pluginold.hpp` file provides essential functionality for plugin interface. 
 ### Cel
 Główne obszary funkcjonalne: interfejs wtyczek
 ### Kluczowe Klasy
-- `ActlKeyMacro`: Implements ActlKeyMacro functionality
-- `CharTableSet`: Implements CharTableSet functionality
-- `CmdLineSelect`: Implements CmdLineSelect functionality
-- `EditorBookMarks`: Implements EditorBookMarks functionality
-- `EditorColor`: Implements EditorColor functionality
-- `EditorConvertPos`: Implements EditorConvertPos functionality
-- `EditorConvertText`: Implements EditorConvertText functionality
-- `EditorGetString`: Implements EditorGetString functionality
-- `EditorInfo`: Implements EditorInfo functionality
-- `EditorSaveFile`: Implements EditorSaveFile functionality
+- `ActlKeyMacro`: Performs ActlKeyMacro operation in pluginold.hpp
+- `CharTableSet`: Performs CharTableSet operation in pluginold.hpp
+- `CmdLineSelect`: Performs CmdLineSelect operation in pluginold.hpp
+- `EditorBookMarks`: Performs EditorBookMarks operation in pluginold.hpp
+- `EditorColor`: Performs EditorColor operation in pluginold.hpp
+- `EditorConvertPos`: Performs EditorConvertPos operation in pluginold.hpp
+- `EditorConvertText`: Performs EditorConvertText operation in pluginold.hpp
+- `EditorGetString`: Performs EditorGetString operation in pluginold.hpp
+- `EditorInfo`: Performs EditorInfo operation in pluginold.hpp
+- `EditorSaveFile`: Performs EditorSaveFile operation in pluginold.hpp
 ### Przestrzenie nazw
 - `oldfar`
 ### Podsumowanie

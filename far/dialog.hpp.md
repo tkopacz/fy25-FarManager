@@ -4,27 +4,27 @@
 This file implements functionality related to: Класс диалога Dialog.
 Main functional areas: dialog handling
 ### Key Classes
-- `Dialog`: Implements Dialog functionality
-- `DialogItemAutomation`: Implements DialogItemAutomation functionality
-- `DialogItemEx`: Implements DialogItemEx functionality
-- `DlgEdit`: Implements DlgEdit functionality
-- `History`: Implements History functionality
-- `InitDialogItem`: Initializes component with required configuration and state
-- `Plugin`: Implements Plugin functionality
-- `centered`: Implements centered functionality
-- `private_tag`: Implements private_tag functionality
-- `suppress_redraw`: Implements suppress_redraw functionality
+- `Dialog`: Performs Dialog operation in dialog.hpp
+- `DialogItemAutomation`: Performs DialogItemAutomation operation in dialog.hpp
+- `DialogItemEx`: Диалог в старом (до 1.70) стиле
+- `DlgEdit`: Performs DlgEdit operation in dialog.hpp
+- `History`: ID=-1 - отрисовать весь диалог
+- `InitDialogItem`: Initializes data structures and prepares for operation in dialog.hpp
+- `Plugin`: Performs Plugin operation in dialog.hpp
+- `centered`: Performs centered operation in dialog.hpp
+- `private_tag`: Performs private_tag operation in dialog.hpp
+- `suppress_redraw`: Performs suppress_redraw operation in dialog.hpp
 ### Key Functions
-- `Indent()`: Implements Indent functionality
-- `AddAutomation()`: Implements AddAutomation functionality
-- `IsKeyHighlighted()`: Checks condition and returns boolean indicating state
-- `ItemsToItemsEx()`: Implements ItemsToItemsEx functionality
-- `MakeDialogItems()`: Implements MakeDialogItems functionality
-- `create()`: Creates and initializes new object or resource instance
-- `ProcessKey()`: Processes input data through core business logic pipeline
-- `ProcessMouse()`: Processes input data through core business logic pipeline
-- `VMProcess()`: Implements VMProcess functionality
-- `Show()`: Implements Show functionality
+- `Indent()`: Структура, описывающая автоматизацию для DIF_AUTOMATION
+- `AddAutomation()`: Performs AddAutomation operation in dialog.hpp
+- `IsKeyHighlighted()`: Checks a condition in dialog.hpp and returns the result
+- `ItemsToItemsEx()`: Performs ItemsToItemsEx operation in dialog.hpp
+- `MakeDialogItems()`: Performs MakeDialogItems operation in dialog.hpp
+- `create()`: Creates and initializes a new object or resource in dialog.hpp
+- `ProcessKey()`: Processes input data in dialog.hpp
+- `ProcessMouse()`: Processes input data in dialog.hpp
+- `VMProcess()`: Performs VMProcess operation in dialog.hpp
+- `Show()`: Performs Show operation in dialog.hpp
 ### Summary
 The `dialog.hpp` file provides essential functionality for dialog handling. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `dialog.hpp` file provides essential functionality for dialog handling. It d
 Ten plik implementuje funkcjonalność związaną z: Класс диалога Dialog.
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `Dialog`: Implements Dialog functionality
-- `DialogItemAutomation`: Implements DialogItemAutomation functionality
-- `DialogItemEx`: Implements DialogItemEx functionality
-- `DlgEdit`: Implements DlgEdit functionality
-- `History`: Implements History functionality
-- `InitDialogItem`: Initializes component with required configuration and state
-- `Plugin`: Implements Plugin functionality
-- `centered`: Implements centered functionality
-- `private_tag`: Implements private_tag functionality
-- `suppress_redraw`: Implements suppress_redraw functionality
+- `Dialog`: Performs Dialog operation in dialog.hpp
+- `DialogItemAutomation`: Performs DialogItemAutomation operation in dialog.hpp
+- `DialogItemEx`: Диалог в старом (до 1.70) стиле
+- `DlgEdit`: Performs DlgEdit operation in dialog.hpp
+- `History`: ID=-1 - отрисовать весь диалог
+- `InitDialogItem`: Initializes data structures and prepares for operation in dialog.hpp
+- `Plugin`: Performs Plugin operation in dialog.hpp
+- `centered`: Performs centered operation in dialog.hpp
+- `private_tag`: Performs private_tag operation in dialog.hpp
+- `suppress_redraw`: Performs suppress_redraw operation in dialog.hpp
 ### Kluczowe Funkcje
-- `Indent()`: Implements Indent functionality
-- `AddAutomation()`: Implements AddAutomation functionality
-- `IsKeyHighlighted()`: Checks condition and returns boolean indicating state
-- `ItemsToItemsEx()`: Implements ItemsToItemsEx functionality
-- `MakeDialogItems()`: Implements MakeDialogItems functionality
-- `create()`: Creates and initializes new object or resource instance
-- `ProcessKey()`: Processes input data through core business logic pipeline
-- `ProcessMouse()`: Processes input data through core business logic pipeline
-- `VMProcess()`: Implements VMProcess functionality
-- `Show()`: Implements Show functionality
+- `Indent()`: Структура, описывающая автоматизацию для DIF_AUTOMATION
+- `AddAutomation()`: Performs AddAutomation operation in dialog.hpp
+- `IsKeyHighlighted()`: Checks a condition in dialog.hpp and returns the result
+- `ItemsToItemsEx()`: Performs ItemsToItemsEx operation in dialog.hpp
+- `MakeDialogItems()`: Performs MakeDialogItems operation in dialog.hpp
+- `create()`: Creates and initializes a new object or resource in dialog.hpp
+- `ProcessKey()`: Processes input data in dialog.hpp
+- `ProcessMouse()`: Processes input data in dialog.hpp
+- `VMProcess()`: Performs VMProcess operation in dialog.hpp
+- `Show()`: Performs Show operation in dialog.hpp
 ### Podsumowanie
 Plik `dialog.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

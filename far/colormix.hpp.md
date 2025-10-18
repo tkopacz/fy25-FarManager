@@ -4,23 +4,23 @@
 This file implements functionality related to: Работа с цветами
 Main functional areas: color management
 ### Key Classes
-- `FarColor`: Implements FarColor functionality
-- `index_color_256`: Implements index_color_256 functionality
-- `rgb6`: Implements rgb6 functionality
-- `rgba`: Implements rgba functionality
-- `single_color`: Implements single_color functionality
-- `std`: Implements std functionality
+- `FarColor`: Performs FarColor operation in colormix.hpp
+- `index_color_256`: Performs index_color_256 operation in colormix.hpp
+- `rgb6`: ([[T]FFFFFFFF][:[T]BBBBBBBB])
+- `rgba`: Performs rgba operation in colormix.hpp
+- `single_color`: Performs single_color operation in colormix.hpp
+- `std`: Performs std operation in colormix.hpp
 ### Key Functions
-- `foreground()`: Implements foreground functionality
-- `background()`: Implements background functionality
-- `underline()`: Implements underline functionality
-- `default_color()`: Implements default_color functionality
-- `index_bits()`: Implements index_bits functionality
-- `color_bits()`: Implements color_bits functionality
-- `alpha_bits()`: Implements alpha_bits functionality
-- `index_value()`: Implements index_value functionality
-- `color_value()`: Implements color_value functionality
-- `alpha_value()`: Implements alpha_value functionality
+- `foreground()`: Performs foreground operation in colormix.hpp
+- `background()`: Performs background operation in colormix.hpp
+- `underline()`: Performs underline operation in colormix.hpp
+- `default_color()`: Performs default_color operation in colormix.hpp
+- `index_bits()`: Performs index_bits operation in colormix.hpp
+- `color_bits()`: Performs color_bits operation in colormix.hpp
+- `alpha_bits()`: Performs alpha_bits operation in colormix.hpp
+- `index_value()`: Performs index_value operation in colormix.hpp
+- `color_value()`: Performs color_value operation in colormix.hpp
+- `alpha_value()`: Performs alpha_value operation in colormix.hpp
 ### Namespaces
 - `colors`
 - `index`
@@ -34,23 +34,23 @@ The `colormix.hpp` file provides essential functionality for color management. I
 Ten plik implementuje funkcjonalność związaną z: Работа с цветами
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `FarColor`: Implements FarColor functionality
-- `index_color_256`: Implements index_color_256 functionality
-- `rgb6`: Implements rgb6 functionality
-- `rgba`: Implements rgba functionality
-- `single_color`: Implements single_color functionality
-- `std`: Implements std functionality
+- `FarColor`: Performs FarColor operation in colormix.hpp
+- `index_color_256`: Performs index_color_256 operation in colormix.hpp
+- `rgb6`: ([[T]FFFFFFFF][:[T]BBBBBBBB])
+- `rgba`: Performs rgba operation in colormix.hpp
+- `single_color`: Performs single_color operation in colormix.hpp
+- `std`: Performs std operation in colormix.hpp
 ### Kluczowe Funkcje
-- `foreground()`: Implements foreground functionality
-- `background()`: Implements background functionality
-- `underline()`: Implements underline functionality
-- `default_color()`: Implements default_color functionality
-- `index_bits()`: Implements index_bits functionality
-- `color_bits()`: Implements color_bits functionality
-- `alpha_bits()`: Implements alpha_bits functionality
-- `index_value()`: Implements index_value functionality
-- `color_value()`: Implements color_value functionality
-- `alpha_value()`: Implements alpha_value functionality
+- `foreground()`: Performs foreground operation in colormix.hpp
+- `background()`: Performs background operation in colormix.hpp
+- `underline()`: Performs underline operation in colormix.hpp
+- `default_color()`: Performs default_color operation in colormix.hpp
+- `index_bits()`: Performs index_bits operation in colormix.hpp
+- `color_bits()`: Performs color_bits operation in colormix.hpp
+- `alpha_bits()`: Performs alpha_bits operation in colormix.hpp
+- `index_value()`: Performs index_value operation in colormix.hpp
+- `color_value()`: Performs color_value operation in colormix.hpp
+- `alpha_value()`: Performs alpha_value operation in colormix.hpp
 ### Przestrzenie nazw
 - `colors`
 - `index`

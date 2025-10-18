@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: configuration management, dialog handling
 ### Key Functions
-- `dlgConfigure()`: Implements dlgConfigure functionality
-- `D()`: Implements D functionality
+- `dlgConfigure()`: Performs dlgConfigure operation in dlgConfigure.cpp
+- `D()`: Performs D operation in dlgConfigure.cpp
 ### Summary
 The `dlgConfigure.cpp` file provides essential functionality for configuration management, dialog handling. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `dlgConfigure.cpp` file provides essential functionality for configuration m
 ### Cel
 Główne obszary funkcjonalne: zarządzanie konfiguracją, obsługa dialogów
 ### Kluczowe Funkcje
-- `dlgConfigure()`: Implements dlgConfigure functionality
-- `D()`: Implements D functionality
+- `dlgConfigure()`: Performs dlgConfigure operation in dlgConfigure.cpp
+- `D()`: Performs D operation in dlgConfigure.cpp
 ### Podsumowanie
 Plik `dlgConfigure.cpp` zapewnia podstawową funkcjonalność dla zarządzanie konfiguracją, obsługa dialogów. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

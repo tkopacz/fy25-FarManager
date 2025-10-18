@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `OnInitialize()`: Implements OnInitialize functionality
-- `ZipModule()`: Implements ZipModule functionality
-- `OnGetArchivePluginInfo()`: Implements OnGetArchivePluginInfo functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `ZipArchive()`: Implements ZipArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: ZipArchive *pArchive = (ZipArchive*)pGA
-- `OnFinalizeArchive()`: Implements OnFinalizeArchive functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
+- `OnInitialize()`: Performs OnInitialize operation in zip.cpp
+- `ZipModule()`: Performs ZipModule operation in zip.cpp
+- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in zip.cpp
+- `OnFinalize()`: Performs OnFinalize operation in zip.cpp
+- `OnQueryArchive()`: Performs OnQueryArchive operation in zip.cpp
+- `ZipArchive()`: Performs ZipArchive operation in zip.cpp
+- `OnOpenArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
+- `OnCloseArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
+- `OnFinalizeArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in zip.cpp
 ### Summary
 The `zip.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `zip.cpp` file provides essential functionality for core functionality. and 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `OnInitialize()`: Implements OnInitialize functionality
-- `ZipModule()`: Implements ZipModule functionality
-- `OnGetArchivePluginInfo()`: Implements OnGetArchivePluginInfo functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `ZipArchive()`: Implements ZipArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: ZipArchive *pArchive = (ZipArchive*)pGA
-- `OnFinalizeArchive()`: Implements OnFinalizeArchive functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
+- `OnInitialize()`: Performs OnInitialize operation in zip.cpp
+- `ZipModule()`: Performs ZipModule operation in zip.cpp
+- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in zip.cpp
+- `OnFinalize()`: Performs OnFinalize operation in zip.cpp
+- `OnQueryArchive()`: Performs OnQueryArchive operation in zip.cpp
+- `ZipArchive()`: Performs ZipArchive operation in zip.cpp
+- `OnOpenArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
+- `OnCloseArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
+- `OnFinalizeArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in zip.cpp
 ### Podsumowanie
 Plik `zip.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `OnInitialize()`: Implements OnInitialize functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `MaArchive()`: Implements MaArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: Implements OnCloseArchive functionality
-- `OnFinalizeArchive()`: Implements OnFinalizeArchive functionality
-- `OnGetArchivePluginInfo()`: Implements OnGetArchivePluginInfo functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
-- `OnGetArchiveFormat()`: Processes input by dispatching to different code paths based on type or value
+- `OnInitialize()`: Performs OnInitialize operation in ma.cpp
+- `OnFinalize()`: Performs OnFinalize operation in ma.cpp
+- `OnQueryArchive()`: Performs OnQueryArchive operation in ma.cpp
+- `MaArchive()`: Performs MaArchive operation in ma.cpp
+- `OnOpenArchive()`: BUGBUG надо сделать поддержку попадания под несколько форматок
+- `OnCloseArchive()`: BUGBUG надо сделать поддержку попадания под несколько форматок
+- `OnFinalizeArchive()`: BUGBUG надо сделать поддержку попадания под несколько форматок
+- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in ma.cpp
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in ma.cpp
+- `OnGetArchiveFormat()`: Performs OnGetArchiveFormat operation in ma.cpp
 ### Summary
 The `ma.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `ma.cpp` file provides essential functionality for core functionality. and c
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `OnInitialize()`: Implements OnInitialize functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `MaArchive()`: Implements MaArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: Implements OnCloseArchive functionality
-- `OnFinalizeArchive()`: Implements OnFinalizeArchive functionality
-- `OnGetArchivePluginInfo()`: Implements OnGetArchivePluginInfo functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
-- `OnGetArchiveFormat()`: Processes input by dispatching to different code paths based on type or value
+- `OnInitialize()`: Performs OnInitialize operation in ma.cpp
+- `OnFinalize()`: Performs OnFinalize operation in ma.cpp
+- `OnQueryArchive()`: Performs OnQueryArchive operation in ma.cpp
+- `MaArchive()`: Performs MaArchive operation in ma.cpp
+- `OnOpenArchive()`: BUGBUG надо сделать поддержку попадания под несколько форматок
+- `OnCloseArchive()`: BUGBUG надо сделать поддержку попадания под несколько форматок
+- `OnFinalizeArchive()`: BUGBUG надо сделать поддержку попадания под несколько форматок
+- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in ma.cpp
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in ma.cpp
+- `OnGetArchiveFormat()`: Performs OnGetArchiveFormat operation in ma.cpp
 ### Podsumowanie
 Plik `ma.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

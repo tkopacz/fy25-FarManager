@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `CHeader`: Iterates through collection and processes each element, storing results
+- `CHeader`: Performs CHeader operation in lzmadetect.cpp
 ### Key Functions
-- `HasUnpackSize()`: Iterates through collection and processes each element, storing results
-- `CheckDictSize()`: Iterates through collection and processes each element, storing results
-- `IsLzmaHeader()`: Iterates through collection and processes each element, storing results
+- `HasUnpackSize()`: Checks a condition in lzmadetect.cpp and returns true or false based on the result
+- `CheckDictSize()`: Checks a condition in lzmadetect.cpp and returns true or false based on the result
+- `IsLzmaHeader()`: Checks a condition in lzmadetect.cpp and returns true or false based on the result
 ### Summary
 The `lzmadetect.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -17,10 +17,10 @@ The `lzmadetect.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CHeader`: Iterates through collection and processes each element, storing results
+- `CHeader`: Performs CHeader operation in lzmadetect.cpp
 ### Kluczowe Funkcje
-- `HasUnpackSize()`: Iterates through collection and processes each element, storing results
-- `CheckDictSize()`: Iterates through collection and processes each element, storing results
-- `IsLzmaHeader()`: Iterates through collection and processes each element, storing results
+- `HasUnpackSize()`: Checks a condition in lzmadetect.cpp and returns true or false based on the result
+- `CheckDictSize()`: Checks a condition in lzmadetect.cpp and returns true or false based on the result
+- `IsLzmaHeader()`: Checks a condition in lzmadetect.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `lzmadetect.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

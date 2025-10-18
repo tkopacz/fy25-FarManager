@@ -4,9 +4,9 @@
 This file implements functionality related to: "Запускатель" программ.
 Main functional areas: core functionality
 ### Key Functions
-- `OpenFolderInShell()`: Implements OpenFolderInShell functionality
-- `ExpandOSAliases()`: Implements ExpandOSAliases functionality
-- `ExtractIfExistCommand()`: Implements ExtractIfExistCommand functionality
+- `OpenFolderInShell()`: Performs OpenFolderInShell operation in execute.hpp
+- `ExpandOSAliases()`: Performs ExpandOSAliases operation in execute.hpp
+- `ExtractIfExistCommand()`: Performs ExtractIfExistCommand operation in execute.hpp
 ### Summary
 The `execute.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -17,8 +17,8 @@ The `execute.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: "Запускатель" программ.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `OpenFolderInShell()`: Implements OpenFolderInShell functionality
-- `ExpandOSAliases()`: Implements ExpandOSAliases functionality
-- `ExtractIfExistCommand()`: Implements ExtractIfExistCommand functionality
+- `OpenFolderInShell()`: Performs OpenFolderInShell operation in execute.hpp
+- `ExpandOSAliases()`: Performs ExpandOSAliases operation in execute.hpp
+- `ExtractIfExistCommand()`: Performs ExtractIfExistCommand operation in execute.hpp
 ### Podsumowanie
 Plik `execute.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

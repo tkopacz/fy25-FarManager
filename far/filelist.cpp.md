@@ -4,26 +4,26 @@
 This file implements functionality related to: Файловая панель
 Main functional areas: file system operations
 ### Key Classes
-- `CustomSort`: Implements CustomSort functionality
-- `FileList`: Implements FileList functionality
-- `arg`: Implements arg functionality
-- `file_state`: Implements file_state functionality
-- `hash_less`: Checks condition and returns boolean indicating state
-- `list_less`: Implements list_less functionality
-- `ps_action`: Implements ps_action functionality
-- `ps_mode`: Implements ps_mode functionality
-- `sort_mode`: Implements sort_mode functionality
+- `CustomSort`: Performs CustomSort operation in filelist.cpp
+- `FileList`: Checks a condition in filelist.cpp and returns true or false based on the result
+- `arg`: Performs arg operation in filelist.cpp
+- `file_state`: Performs file_state operation in filelist.cpp
+- `hash_less`: Checks a condition in filelist.cpp and returns the result
+- `list_less`: Performs list_less operation in filelist.cpp
+- `ps_action`: Performs ps_action operation in filelist.cpp
+- `ps_mode`: Performs ps_mode operation in filelist.cpp
+- `sort_mode`: Performs sort_mode operation in filelist.cpp
 ### Key Functions
-- `order_indicator()`: Processes input by dispatching to different code paths based on type or value
-- `to_fat_write_time()`: Implements to_fat_write_time functionality
-- `to_whole_seconds()`: Implements to_whole_seconds functionality
-- `compare_fat_write_time()`: Implements compare_fat_write_time functionality
-- `FileListToSortingPanelItem()`: Implements FileListToSortingPanelItem functionality
-- `SortFileList()`: Implements SortFileList functionality
-- `CanSort()`: Implements CanSort functionality
-- `GetItemFullName()`: Retrieves ItemFullName from current context or object state
-- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize from current context or object state
-- `event_id()`: Implements event_id functionality
+- `order_indicator()`: Performs order_indicator operation in filelist.cpp
+- `to_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -
+- `to_whole_seconds()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
+- `compare_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
+- `FileListToSortingPanelItem()`: Performs FileListToSortingPanelItem operation in filelist.cpp
+- `SortFileList()`: Checks a condition in filelist.cpp and returns true or false based on the result
+- `CanSort()`: Checks a condition in filelist.cpp and returns true or false based on the result
+- `GetItemFullName()`: Retrieves ItemFullName value in filelist.cpp
+- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize value in filelist.cpp
+- `event_id()`: Performs event_id operation in filelist.cpp
 ### Namespaces
 - `custom_sort`
 - `std`
@@ -37,26 +37,26 @@ The `filelist.cpp` file provides essential functionality for file system operati
 Ten plik implementuje funkcjonalność związaną z: Файловая панель
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `CustomSort`: Implements CustomSort functionality
-- `FileList`: Implements FileList functionality
-- `arg`: Implements arg functionality
-- `file_state`: Implements file_state functionality
-- `hash_less`: Checks condition and returns boolean indicating state
-- `list_less`: Implements list_less functionality
-- `ps_action`: Implements ps_action functionality
-- `ps_mode`: Implements ps_mode functionality
-- `sort_mode`: Implements sort_mode functionality
+- `CustomSort`: Performs CustomSort operation in filelist.cpp
+- `FileList`: Checks a condition in filelist.cpp and returns true or false based on the result
+- `arg`: Performs arg operation in filelist.cpp
+- `file_state`: Performs file_state operation in filelist.cpp
+- `hash_less`: Checks a condition in filelist.cpp and returns the result
+- `list_less`: Performs list_less operation in filelist.cpp
+- `ps_action`: Performs ps_action operation in filelist.cpp
+- `ps_mode`: Performs ps_mode operation in filelist.cpp
+- `sort_mode`: Performs sort_mode operation in filelist.cpp
 ### Kluczowe Funkcje
-- `order_indicator()`: Processes input by dispatching to different code paths based on type or value
-- `to_fat_write_time()`: Implements to_fat_write_time functionality
-- `to_whole_seconds()`: Implements to_whole_seconds functionality
-- `compare_fat_write_time()`: Implements compare_fat_write_time functionality
-- `FileListToSortingPanelItem()`: Implements FileListToSortingPanelItem functionality
-- `SortFileList()`: Implements SortFileList functionality
-- `CanSort()`: Implements CanSort functionality
-- `GetItemFullName()`: Retrieves ItemFullName from current context or object state
-- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize from current context or object state
-- `event_id()`: Implements event_id functionality
+- `order_indicator()`: Performs order_indicator operation in filelist.cpp
+- `to_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -
+- `to_whole_seconds()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
+- `compare_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
+- `FileListToSortingPanelItem()`: Performs FileListToSortingPanelItem operation in filelist.cpp
+- `SortFileList()`: Checks a condition in filelist.cpp and returns true or false based on the result
+- `CanSort()`: Checks a condition in filelist.cpp and returns true or false based on the result
+- `GetItemFullName()`: Retrieves ItemFullName value in filelist.cpp
+- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize value in filelist.cpp
+- `event_id()`: Performs event_id operation in filelist.cpp
 ### Przestrzenie nazw
 - `custom_sort`
 - `std`

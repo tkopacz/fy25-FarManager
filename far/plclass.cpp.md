@@ -4,18 +4,18 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `ModuleImports`: Implements ModuleImports functionality
+- `ModuleImports`: Performs ModuleImports operation in plclass.cpp
 ### Key Functions
-- `ModuleFile()`: Implements ModuleFile functionality
-- `StreamBuffer()`: Implements StreamBuffer functionality
-- `Stream()`: Implements Stream functionality
-- `IsPlugin()`: Checks condition and returns boolean indicating state
-- `PrepareModulePath()`: Implements PrepareModulePath functionality
-- `CreatePluginStartupInfo()`: Creates and initializes new object or resource instance
-- `ShowMessageAboutIllegalPluginVersion()`: Implements ShowMessageAboutIllegalPluginVersion functionality
-- `MakeSignature()`: Implements MakeSignature functionality
-- `SetUuid()`: Updates Uuid with provided value and validates constraints
-- `CheckFarVersion()`: Implements CheckFarVersion functionality
+- `ModuleFile()`: only module with GetGlobalInfoW can be native plugin
+- `StreamBuffer()`: only module with GetGlobalInfoW can be native plugin
+- `Stream()`: Performs Stream operation in plclass.cpp
+- `IsPlugin()`: only module with GetGlobalInfoW can be native plugin
+- `PrepareModulePath()`: Checks a condition in plclass.cpp and returns true or false based on the result
+- `CreatePluginStartupInfo()`: Opens a file or creates a file handle in plclass.cpp
+- `ShowMessageAboutIllegalPluginVersion()`: Performs ShowMessageAboutIllegalPluginVersion operation in plclass.cpp
+- `MakeSignature()`: Performs MakeSignature operation in plclass.cpp
+- `SetUuid()`: Sets or updates Uuid value in plclass.cpp
+- `CheckFarVersion()`: Performs CheckFarVersion operation in plclass.cpp
 ### Summary
 The `plclass.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,17 +26,17 @@ The `plclass.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ModuleImports`: Implements ModuleImports functionality
+- `ModuleImports`: Performs ModuleImports operation in plclass.cpp
 ### Kluczowe Funkcje
-- `ModuleFile()`: Implements ModuleFile functionality
-- `StreamBuffer()`: Implements StreamBuffer functionality
-- `Stream()`: Implements Stream functionality
-- `IsPlugin()`: Checks condition and returns boolean indicating state
-- `PrepareModulePath()`: Implements PrepareModulePath functionality
-- `CreatePluginStartupInfo()`: Creates and initializes new object or resource instance
-- `ShowMessageAboutIllegalPluginVersion()`: Implements ShowMessageAboutIllegalPluginVersion functionality
-- `MakeSignature()`: Implements MakeSignature functionality
-- `SetUuid()`: Updates Uuid with provided value and validates constraints
-- `CheckFarVersion()`: Implements CheckFarVersion functionality
+- `ModuleFile()`: only module with GetGlobalInfoW can be native plugin
+- `StreamBuffer()`: only module with GetGlobalInfoW can be native plugin
+- `Stream()`: Performs Stream operation in plclass.cpp
+- `IsPlugin()`: only module with GetGlobalInfoW can be native plugin
+- `PrepareModulePath()`: Checks a condition in plclass.cpp and returns true or false based on the result
+- `CreatePluginStartupInfo()`: Opens a file or creates a file handle in plclass.cpp
+- `ShowMessageAboutIllegalPluginVersion()`: Performs ShowMessageAboutIllegalPluginVersion operation in plclass.cpp
+- `MakeSignature()`: Performs MakeSignature operation in plclass.cpp
+- `SetUuid()`: Sets or updates Uuid value in plclass.cpp
+- `CheckFarVersion()`: Performs CheckFarVersion operation in plclass.cpp
 ### Podsumowanie
 Plik `plclass.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

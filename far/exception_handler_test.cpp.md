@@ -3,23 +3,23 @@
 ### Purpose
 Main functional areas: testing
 ### Key Classes
-- `base`: Implements base functionality
-- `c`: Implements c functionality
-- `data`: Implements data functionality
-- `derived1`: Implements derived1 functionality
-- `derived2`: Implements derived2 functionality
-- `test`: Implements test functionality
+- `base`: Performs base operation in exception_handler_test.cpp
+- `c`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `data`: Performs data operation in exception_handler_test.cpp
+- `derived1`: Performs derived1 operation in exception_handler_test.cpp
+- `derived2`: Performs derived2 operation in exception_handler_test.cpp
+- `test`: Performs test operation in exception_handler_test.cpp
 ### Key Functions
-- `cpp_far()`: Implements cpp_far functionality
-- `far_exception()`: External: ---------------------------------------------------------------------------- TODO: remove and
-- `cpp_far_rethrow()`: ---------------------------------------------------------------------------- TODO: remove and mark the lambda as [[noreturn]] once we have cl >=
-- `cpp_far_fatal()`: Implements cpp_far_fatal functionality
-- `far_fatal_exception()`: Implements far_fatal_exception functionality
-- `cpp_std()`: Implements cpp_std functionality
-- `cpp_std_lib()`: Implements cpp_std_lib functionality
-- `cpp_std_nested()`: Implements cpp_std_nested functionality
-- `cpp_std_nested_thread()`: Validates conditions and throws exceptions when errors are detected during cpp_std_nested_thread operation
-- `cpp_std_bad_alloc()`: Implements cpp_std_bad_alloc functionality
+- `cpp_far()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `far_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_far_rethrow()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_far_fatal()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `far_fatal_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_lib()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_nested()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_nested_thread()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_bad_alloc()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
 ### Namespaces
 - `tests`
 ### Summary
@@ -31,23 +31,23 @@ The `exception_handler_test.cpp` file provides essential functionality for testi
 ### Cel
 Główne obszary funkcjonalne: testowanie
 ### Kluczowe Klasy
-- `base`: Implements base functionality
-- `c`: Implements c functionality
-- `data`: Implements data functionality
-- `derived1`: Implements derived1 functionality
-- `derived2`: Implements derived2 functionality
-- `test`: Implements test functionality
+- `base`: Performs base operation in exception_handler_test.cpp
+- `c`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `data`: Performs data operation in exception_handler_test.cpp
+- `derived1`: Performs derived1 operation in exception_handler_test.cpp
+- `derived2`: Performs derived2 operation in exception_handler_test.cpp
+- `test`: Performs test operation in exception_handler_test.cpp
 ### Kluczowe Funkcje
-- `cpp_far()`: Implements cpp_far functionality
-- `far_exception()`: External: ---------------------------------------------------------------------------- TODO: remove and
-- `cpp_far_rethrow()`: ---------------------------------------------------------------------------- TODO: remove and mark the lambda as [[noreturn]] once we have cl >=
-- `cpp_far_fatal()`: Implements cpp_far_fatal functionality
-- `far_fatal_exception()`: Implements far_fatal_exception functionality
-- `cpp_std()`: Implements cpp_std functionality
-- `cpp_std_lib()`: Implements cpp_std_lib functionality
-- `cpp_std_nested()`: Implements cpp_std_nested functionality
-- `cpp_std_nested_thread()`: Implements cpp_std_nested_thread functionality
-- `cpp_std_bad_alloc()`: Implements cpp_std_bad_alloc functionality
+- `cpp_far()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `far_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_far_rethrow()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_far_fatal()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `far_fatal_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_lib()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_nested()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_nested_thread()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- `cpp_std_bad_alloc()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `tests`
 ### Podsumowanie

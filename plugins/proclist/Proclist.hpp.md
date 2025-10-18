@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `DebugToken`: Saved impersonation token
-- `InitDialogItem`: Initializes component with required configuration and state
-- `PerfThread`: Implements PerfThread functionality
-- `Plist`: Implements Plist functionality
-- `ProcessData`: Processes input data through core business logic pipeline
-- `ProcessPerfData`: Processes input data through core business logic pipeline
-- `WMIConnection`: Implements WMIConnection functionality
-- `columns`: Implements columns functionality
-- `free_deleter`: Implements free_deleter functionality
-- `handle_closer`: Implements handle_closer functionality
+- `DebugToken`: Performs DebugToken operation in Proclist.hpp
+- `InitDialogItem`: Initializes data structures and prepares for operation in Proclist.hpp
+- `PerfThread`: Performs PerfThread operation in Proclist.hpp
+- `Plist`: Performs Plist operation in Proclist.hpp
+- `ProcessData`: Processes input data in Proclist.hpp
+- `ProcessPerfData`: Processes input data in Proclist.hpp
+- `WMIConnection`: Performs WMIConnection operation in Proclist.hpp
+- `columns`: Performs columns operation in Proclist.hpp
+- `free_deleter`: Performs free_deleter operation in Proclist.hpp
+- `handle_closer`: Performs handle_closer operation in Proclist.hpp
 ### Key Functions
-- `make_malloc()`: Implements make_malloc functionality
-- `normalise_handle()`: Implements normalise_handle functionality
-- `Read()`: Implements Read functionality
-- `Write()`: Implements Write functionality
-- `Message()`: Implements Message functionality
-- `Connect()`: Implements Connect functionality
-- `GetFindData()`: Retrieves FindData from current context or object state
-- `FreeFindData()`: Implements FreeFindData functionality
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from current context or object state
-- `GetFiles()`: Retrieves Files from current context or object state
+- `make_malloc()`: Performs make_malloc operation in Proclist.hpp
+- `normalise_handle()`: Performs normalise_handle operation in Proclist.hpp
+- `Read()`: Performs Read operation in Proclist.hpp
+- `Write()`: Max number of custom cols in any panel mode
+- `Message()`: Max number of custom cols in any panel mode
+- `Connect()`: Performs Connect operation in Proclist.hpp
+- `GetFindData()`: Retrieves FindData value in Proclist.hpp
+- `FreeFindData()`: Performs FreeFindData operation in Proclist.hpp
+- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo value in Proclist.hpp
+- `GetFiles()`: Retrieves Files value in Proclist.hpp
 ### Namespaces
 - `literals`
 - `std`
@@ -36,27 +36,27 @@ The `Proclist.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `DebugToken`: Saved impersonation token
-- `InitDialogItem`: Initializes component with required configuration and state
-- `PerfThread`: Implements PerfThread functionality
-- `Plist`: Implements Plist functionality
-- `ProcessData`: Processes input data through core business logic pipeline
-- `ProcessPerfData`: Processes input data through core business logic pipeline
-- `WMIConnection`: Implements WMIConnection functionality
-- `columns`: Implements columns functionality
-- `free_deleter`: Implements free_deleter functionality
-- `handle_closer`: Implements handle_closer functionality
+- `DebugToken`: Performs DebugToken operation in Proclist.hpp
+- `InitDialogItem`: Initializes data structures and prepares for operation in Proclist.hpp
+- `PerfThread`: Performs PerfThread operation in Proclist.hpp
+- `Plist`: Performs Plist operation in Proclist.hpp
+- `ProcessData`: Processes input data in Proclist.hpp
+- `ProcessPerfData`: Processes input data in Proclist.hpp
+- `WMIConnection`: Performs WMIConnection operation in Proclist.hpp
+- `columns`: Performs columns operation in Proclist.hpp
+- `free_deleter`: Performs free_deleter operation in Proclist.hpp
+- `handle_closer`: Performs handle_closer operation in Proclist.hpp
 ### Kluczowe Funkcje
-- `make_malloc()`: Implements make_malloc functionality
-- `normalise_handle()`: Implements normalise_handle functionality
-- `Read()`: Implements Read functionality
-- `Write()`: Implements Write functionality
-- `Message()`: Implements Message functionality
-- `Connect()`: Implements Connect functionality
-- `GetFindData()`: Retrieves FindData from current context or object state
-- `FreeFindData()`: Implements FreeFindData functionality
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from current context or object state
-- `GetFiles()`: Retrieves Files from current context or object state
+- `make_malloc()`: Performs make_malloc operation in Proclist.hpp
+- `normalise_handle()`: Performs normalise_handle operation in Proclist.hpp
+- `Read()`: Performs Read operation in Proclist.hpp
+- `Write()`: Max number of custom cols in any panel mode
+- `Message()`: Max number of custom cols in any panel mode
+- `Connect()`: Performs Connect operation in Proclist.hpp
+- `GetFindData()`: Retrieves FindData value in Proclist.hpp
+- `FreeFindData()`: Performs FreeFindData operation in Proclist.hpp
+- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo value in Proclist.hpp
+- `GetFiles()`: Retrieves Files value in Proclist.hpp
 ### Przestrzenie nazw
 - `literals`
 - `std`

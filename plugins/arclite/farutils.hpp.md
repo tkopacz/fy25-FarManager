@@ -3,26 +3,26 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Dialog`: create different controls
-- `DialogItem`: Implements DialogItem functionality
-- `DisableEvents`: Implements DisableEvents functionality
-- `FileFilter`: Implements FileFilter functionality
-- `MenuItems`: Implements MenuItems functionality
-- `PanelItem`: Implements PanelItem functionality
-- `Regex`: Implements Regex functionality
-- `Selection`: Implements Selection functionality
-- `Settings`: Updates tings with provided value and validates constraints
+- `Dialog`: Performs Dialog operation in farutils.hpp
+- `DialogItem`: Performs DialogItem operation in farutils.hpp
+- `DisableEvents`: Performs DisableEvents operation in farutils.hpp
+- `FileFilter`: Performs FileFilter operation in farutils.hpp
+- `MenuItems`: Performs MenuItems operation in farutils.hpp
+- `PanelItem`: Performs PanelItem operation in farutils.hpp
+- `Regex`: Performs Regex operation in farutils.hpp
+- `Selection`: Performs Selection operation in farutils.hpp
+- `Settings`: Sets or updates tings value in farutils.hpp
 ### Key Functions
-- `get_error_dlg_title()`: Retrieves _error_dlg_title from current context or object state
-- `init()`: Initializes component with required configuration and state
-- `get_plugin_module_path()`: Retrieves _plugin_module_path from current context or object state
-- `msg_ptr()`: Implements msg_ptr functionality
-- `get_msg()`: Retrieves _msg from current context or object state
-- `get_optimal_msg_width()`: Retrieves _optimal_msg_width from current context or object state
-- `message()`: Implements message functionality
-- `add()`: Implements add functionality
-- `menu()`: Implements menu functionality
-- `get_progress_bar_str()`: Retrieves _progress_bar_str from current context or object state
+- `get_error_dlg_title()`: Retrieves _error_dlg_title value in farutils.hpp
+- `init()`: Initializes data structures and prepares for operation in farutils.hpp
+- `get_plugin_module_path()`: Retrieves _plugin_module_path value in farutils.hpp
+- `msg_ptr()`: Performs msg_ptr operation in farutils.hpp
+- `get_msg()`: Retrieves _msg value in farutils.hpp
+- `get_optimal_msg_width()`: Retrieves _optimal_msg_width value in farutils.hpp
+- `message()`: Performs message operation in farutils.hpp
+- `add()`: Performs add operation in farutils.hpp
+- `menu()`: Performs menu operation in farutils.hpp
+- `get_progress_bar_str()`: Retrieves _progress_bar_str value in farutils.hpp
 ### Namespaces
 - `Far`
 ### Summary
@@ -34,26 +34,26 @@ The `farutils.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Dialog`: create different controls
-- `DialogItem`: Implements DialogItem functionality
-- `DisableEvents`: Implements DisableEvents functionality
-- `FileFilter`: Implements FileFilter functionality
-- `MenuItems`: Implements MenuItems functionality
-- `PanelItem`: Implements PanelItem functionality
-- `Regex`: Implements Regex functionality
-- `Selection`: Implements Selection functionality
-- `Settings`: Updates tings with provided value and validates constraints
+- `Dialog`: Performs Dialog operation in farutils.hpp
+- `DialogItem`: Performs DialogItem operation in farutils.hpp
+- `DisableEvents`: Performs DisableEvents operation in farutils.hpp
+- `FileFilter`: Performs FileFilter operation in farutils.hpp
+- `MenuItems`: Performs MenuItems operation in farutils.hpp
+- `PanelItem`: Performs PanelItem operation in farutils.hpp
+- `Regex`: Performs Regex operation in farutils.hpp
+- `Selection`: Performs Selection operation in farutils.hpp
+- `Settings`: Sets or updates tings value in farutils.hpp
 ### Kluczowe Funkcje
-- `get_error_dlg_title()`: Retrieves _error_dlg_title from current context or object state
-- `init()`: Initializes component with required configuration and state
-- `get_plugin_module_path()`: Retrieves _plugin_module_path from current context or object state
-- `msg_ptr()`: Implements msg_ptr functionality
-- `get_msg()`: Retrieves _msg from current context or object state
-- `get_optimal_msg_width()`: Retrieves _optimal_msg_width from current context or object state
-- `message()`: Implements message functionality
-- `add()`: Implements add functionality
-- `menu()`: Implements menu functionality
-- `get_progress_bar_str()`: Retrieves _progress_bar_str from current context or object state
+- `get_error_dlg_title()`: Retrieves _error_dlg_title value in farutils.hpp
+- `init()`: Initializes data structures and prepares for operation in farutils.hpp
+- `get_plugin_module_path()`: Retrieves _plugin_module_path value in farutils.hpp
+- `msg_ptr()`: Performs msg_ptr operation in farutils.hpp
+- `get_msg()`: Retrieves _msg value in farutils.hpp
+- `get_optimal_msg_width()`: Retrieves _optimal_msg_width value in farutils.hpp
+- `message()`: Performs message operation in farutils.hpp
+- `add()`: Performs add operation in farutils.hpp
+- `menu()`: Performs menu operation in farutils.hpp
+- `get_progress_bar_str()`: Retrieves _progress_bar_str value in farutils.hpp
 ### Przestrzenie nazw
 - `Far`
 ### Podsumowanie

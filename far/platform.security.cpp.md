@@ -4,12 +4,12 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `lookup_privilege_value()`: Implements lookup_privilege_value functionality
-- `make_sid()`: Implements make_sid functionality
-- `is_admin()`: Checks condition and returns boolean indicating state
-- `elevation_type()`: Implements elevation_type functionality
-- `open_current_process_token()`: Implements open_current_process_token functionality
-- `handle()`: Implements handle functionality
+- `lookup_privilege_value()`: Performs lookup_privilege_value operation in platform.security.cpp
+- `make_sid()`: Performs make_sid operation in platform.security.cpp
+- `is_admin()`: Checks a condition in platform.security.cpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.cpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.cpp
+- `handle()`: Performs handle operation in platform.security.cpp
 ### Namespaces
 - `os`
 ### Summary
@@ -22,12 +22,12 @@ The `platform.security.cpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `lookup_privilege_value()`: Implements lookup_privilege_value functionality
-- `make_sid()`: Implements make_sid functionality
-- `is_admin()`: Checks condition and returns boolean indicating state
-- `elevation_type()`: Implements elevation_type functionality
-- `open_current_process_token()`: Implements open_current_process_token functionality
-- `handle()`: Implements handle functionality
+- `lookup_privilege_value()`: Performs lookup_privilege_value operation in platform.security.cpp
+- `make_sid()`: Performs make_sid operation in platform.security.cpp
+- `is_admin()`: Checks a condition in platform.security.cpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.cpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.cpp
+- `handle()`: Performs handle operation in platform.security.cpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -4,15 +4,15 @@
 This file implements functionality related to: Privileges
 Main functional areas: core functionality
 ### Key Classes
-- `privilege`: Implements privilege functionality
-- `sid_deleter`: Implements sid_deleter functionality
+- `privilege`: Performs privilege operation in platform.security.hpp
+- `sid_deleter`: Performs sid_deleter operation in platform.security.hpp
 ### Key Functions
-- `make_sid()`: Implements make_sid functionality
-- `is_admin()`: Checks condition and returns boolean indicating state
-- `elevation_type()`: Implements elevation_type functionality
-- `open_current_process_token()`: Implements open_current_process_token functionality
-- `privilege()`: Implements privilege functionality
-- `check()`: Implements check functionality
+- `make_sid()`: Performs make_sid operation in platform.security.hpp
+- `is_admin()`: Checks a condition in platform.security.hpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.hpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.hpp
+- `privilege()`: Performs privilege operation in platform.security.hpp
+- `check()`: Performs check operation in platform.security.hpp
 ### Namespaces
 - `detail`
 - `os`
@@ -26,15 +26,15 @@ The `platform.security.hpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: Privileges
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `privilege`: Implements privilege functionality
-- `sid_deleter`: Implements sid_deleter functionality
+- `privilege`: Performs privilege operation in platform.security.hpp
+- `sid_deleter`: Performs sid_deleter operation in platform.security.hpp
 ### Kluczowe Funkcje
-- `make_sid()`: Implements make_sid functionality
-- `is_admin()`: Checks condition and returns boolean indicating state
-- `elevation_type()`: Implements elevation_type functionality
-- `open_current_process_token()`: Implements open_current_process_token functionality
-- `privilege()`: Implements privilege functionality
-- `check()`: Implements check functionality
+- `make_sid()`: Performs make_sid operation in platform.security.hpp
+- `is_admin()`: Checks a condition in platform.security.hpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.hpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.hpp
+- `privilege()`: Performs privilege operation in platform.security.hpp
+- `check()`: Performs check operation in platform.security.hpp
 ### Przestrzenie nazw
 - `detail`
 - `os`

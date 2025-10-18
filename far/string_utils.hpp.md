@@ -4,20 +4,20 @@
 This file implements functionality related to: Сравнение без учета регистра, преобразование регистра
 Main functional areas: string utilities
 ### Key Classes
-- `fuzzy_searcher_impl`: Implements fuzzy_searcher_impl functionality
-- `i_searcher`: Implements i_searcher functionality
-- `search_replace_string_options`: Implements search_replace_string_options functionality
+- `fuzzy_searcher_impl`: Performs fuzzy_searcher_impl operation in string_utils.hpp
+- `i_searcher`: Performs i_searcher operation in string_utils.hpp
+- `search_replace_string_options`: Performs search_replace_string_options operation in string_utils.hpp
 ### Key Functions
-- `IsEol()`: Internal: Platform: Common: External: ----------------------------------------------------------------------------
-- `IsBlankOrEos()`: Checks condition and returns boolean indicating state
-- `GetBlanks()`: Retrieves Blanks from current context or object state
-- `GetEols()`: Retrieves Eols from current context or object state
-- `is_alpha()`: Checks condition and returns boolean indicating state
-- `is_alphanumeric()`: Checks condition and returns boolean indicating state
-- `is_upper()`: Checks condition and returns boolean indicating state
-- `is_lower()`: Checks condition and returns boolean indicating state
-- `upper()`: Implements upper functionality
-- `lower()`: Implements lower functionality
+- `IsEol()`: Checks a condition in string_utils.hpp and returns the result
+- `IsBlankOrEos()`: Checks a condition in string_utils.hpp and returns the result
+- `GetBlanks()`: Retrieves Blanks value in string_utils.hpp
+- `GetEols()`: Retrieves Eols value in string_utils.hpp
+- `is_alpha()`: Checks a condition in string_utils.hpp and returns the result
+- `is_alphanumeric()`: Checks a condition in string_utils.hpp and returns the result
+- `is_upper()`: Checks a condition in string_utils.hpp and returns the result
+- `is_lower()`: Checks a condition in string_utils.hpp and returns the result
+- `upper()`: Performs upper operation in string_utils.hpp
+- `lower()`: Performs lower operation in string_utils.hpp
 ### Namespaces
 - `detail`
 - `inplace`
@@ -31,20 +31,20 @@ The `string_utils.hpp` file provides essential functionality for string utilitie
 Ten plik implementuje funkcjonalność związaną z: Сравнение без учета регистра, преобразование регистра
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `fuzzy_searcher_impl`: Implements fuzzy_searcher_impl functionality
-- `i_searcher`: Implements i_searcher functionality
-- `search_replace_string_options`: Implements search_replace_string_options functionality
+- `fuzzy_searcher_impl`: Performs fuzzy_searcher_impl operation in string_utils.hpp
+- `i_searcher`: Performs i_searcher operation in string_utils.hpp
+- `search_replace_string_options`: Performs search_replace_string_options operation in string_utils.hpp
 ### Kluczowe Funkcje
-- `IsEol()`: Internal: Platform: Common: External: ----------------------------------------------------------------------------
-- `IsBlankOrEos()`: Checks condition and returns boolean indicating state
-- `GetBlanks()`: Retrieves Blanks from current context or object state
-- `GetEols()`: Retrieves Eols from current context or object state
-- `is_alpha()`: Checks condition and returns boolean indicating state
-- `is_alphanumeric()`: Checks condition and returns boolean indicating state
-- `is_upper()`: Checks condition and returns boolean indicating state
-- `is_lower()`: Checks condition and returns boolean indicating state
-- `upper()`: Implements upper functionality
-- `lower()`: Implements lower functionality
+- `IsEol()`: Checks a condition in string_utils.hpp and returns the result
+- `IsBlankOrEos()`: Checks a condition in string_utils.hpp and returns the result
+- `GetBlanks()`: Retrieves Blanks value in string_utils.hpp
+- `GetEols()`: Retrieves Eols value in string_utils.hpp
+- `is_alpha()`: Checks a condition in string_utils.hpp and returns the result
+- `is_alphanumeric()`: Checks a condition in string_utils.hpp and returns the result
+- `is_upper()`: Checks a condition in string_utils.hpp and returns the result
+- `is_lower()`: Checks a condition in string_utils.hpp and returns the result
+- `upper()`: Performs upper operation in string_utils.hpp
+- `lower()`: Performs lower operation in string_utils.hpp
 ### Przestrzenie nazw
 - `detail`
 - `inplace`

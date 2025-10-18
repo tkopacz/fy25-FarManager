@@ -4,16 +4,16 @@
 This file implements functionality related to: Работа с кодовыми страницами
 Main functional areas: core functionality
 ### Key Functions
-- `is_retarded_error()`: Checks condition and returns boolean indicating state
-- `IsNoFlagsCodepage()`: Checks condition and returns boolean indicating state
-- `widechar_to_multibyte_with_validation()`: Implements widechar_to_multibyte_with_validation functionality
-- `multibyte_to_widechar_with_validation()`: Implements multibyte_to_widechar_with_validation functionality
-- `IsValid()`: Checks condition and returns boolean indicating state
-- `utf8_get_bytes()`: Processes input by dispatching to different code paths based on type or value
-- `get_bytes_impl()`: Processes input by dispatching to different code paths based on type or value
-- `get_bytes()`: Retrieves _bytes from current context or object state
-- `utf8_get_chars()`: Implements utf8_get_chars functionality
-- `utf7_get_chars()`: Implements utf7_get_chars functionality
+- `is_retarded_error()`: Checks a condition in encoding.cpp and returns the result
+- `IsNoFlagsCodepage()`: Checks a condition in encoding.cpp and returns the result
+- `widechar_to_multibyte_with_validation()`: Performs widechar_to_multibyte_with_validation operation in encoding.cpp
+- `multibyte_to_widechar_with_validation()`: They don't care, no point to go deeper
+- `IsValid()`: Checks a condition in encoding.cpp and returns the result
+- `utf8_get_bytes()`: Performs utf8_get_bytes operation in encoding.cpp
+- `get_bytes_impl()`: Retrieves _bytes_impl value in encoding.cpp
+- `get_bytes()`: Retrieves _bytes value in encoding.cpp
+- `utf8_get_chars()`: Checks a condition in encoding.cpp and returns true or false based on the result
+- `utf7_get_chars()`: Performs utf7_get_chars operation in encoding.cpp
 ### Namespaces
 - `detail`
 - `utf16`
@@ -28,16 +28,16 @@ The `encoding.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Работа с кодовыми страницами
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `is_retarded_error()`: Checks condition and returns boolean indicating state
-- `IsNoFlagsCodepage()`: Checks condition and returns boolean indicating state
-- `widechar_to_multibyte_with_validation()`: Implements widechar_to_multibyte_with_validation functionality
-- `multibyte_to_widechar_with_validation()`: Implements multibyte_to_widechar_with_validation functionality
-- `IsValid()`: Checks condition and returns boolean indicating state
-- `utf8_get_bytes()`: Processes input by dispatching to different code paths based on type or value
-- `get_bytes_impl()`: Processes input by dispatching to different code paths based on type or value
-- `get_bytes()`: Retrieves _bytes from current context or object state
-- `utf8_get_chars()`: Implements utf8_get_chars functionality
-- `utf7_get_chars()`: Implements utf7_get_chars functionality
+- `is_retarded_error()`: Checks a condition in encoding.cpp and returns the result
+- `IsNoFlagsCodepage()`: Checks a condition in encoding.cpp and returns the result
+- `widechar_to_multibyte_with_validation()`: Performs widechar_to_multibyte_with_validation operation in encoding.cpp
+- `multibyte_to_widechar_with_validation()`: They don't care, no point to go deeper
+- `IsValid()`: Checks a condition in encoding.cpp and returns the result
+- `utf8_get_bytes()`: Performs utf8_get_bytes operation in encoding.cpp
+- `get_bytes_impl()`: Retrieves _bytes_impl value in encoding.cpp
+- `get_bytes()`: Retrieves _bytes value in encoding.cpp
+- `utf8_get_chars()`: Checks a condition in encoding.cpp and returns true or false based on the result
+- `utf7_get_chars()`: Performs utf7_get_chars operation in encoding.cpp
 ### Przestrzenie nazw
 - `detail`
 - `utf16`

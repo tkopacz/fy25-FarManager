@@ -4,18 +4,18 @@
 This file implements functionality related to: This software is provided 'as-is', without any express or implied
 Main functional areas: core functionality
 ### Key Classes
-- `Entity`: Implements Entity functionality
+- `Entity`: Performs Entity operation in tinyxml2.cpp
 ### Key Functions
-- `_snprintf_s()`: Microsoft Visual Studio, version 2005 and higher
-- `TIXML_SNPRINTF()`: Implements TIXML_SNPRINTF functionality
-- `TIXML_VSNPRINTF()`: Implements TIXML_VSNPRINTF functionality
-- `TIXML_VSCPRINTF()`: Implements TIXML_VSCPRINTF functionality
-- `ConvertUTF32ToUTF8()`: This code won't convert this correctly anyway
-- `InsertEndChild()`: Iterates through collection and processes each element, storing results
-- `tracker()`: Implements tracker functionality
-- `ClearError()`: Implements ClearError functionality
-- `callfopen()`: Implements callfopen functionality
-- `SetError()`: Declarations are only allowed at document level // Multiple declarations are allowed but all declarations must occur before anything else
+- `_snprintf_s()`: yes, this one new style header, is in the Android SDK.
+- `TIXML_SNPRINTF()`: yes, this one new style header, is in the Android SDK.
+- `TIXML_VSNPRINTF()`: Microsoft Visual Studio, version 2005 and higher. Not WinCE.
+- `TIXML_VSCPRINTF()`: Microsoft Visual Studio 2003 and earlier or WinCE
+- `ConvertUTF32ToUTF8()`: Performs ConvertUTF32ToUTF8 operation in tinyxml2.cpp
+- `InsertEndChild()`: Iterates through elements in tinyxml2.cpp and adds them to a collection
+- `tracker()`: Iterates through elements in tinyxml2.cpp and adds them to a collection
+- `ClearError()`: pools that are dead and inaccessible.
+- `callfopen()`: Opens a file or creates a file handle in tinyxml2.cpp
+- `SetError()`: Sets or updates Error value in tinyxml2.cpp
 ### Namespaces
 - `tinyxml2`
 ### Summary
@@ -28,18 +28,18 @@ The `tinyxml2.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: This software is provided 'as-is', without any express or implied
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Entity`: Implements Entity functionality
+- `Entity`: Performs Entity operation in tinyxml2.cpp
 ### Kluczowe Funkcje
-- `_snprintf_s()`: Microsoft Visual Studio, version 2005 and higher
-- `TIXML_SNPRINTF()`: Implements TIXML_SNPRINTF functionality
-- `TIXML_VSNPRINTF()`: Implements TIXML_VSNPRINTF functionality
-- `TIXML_VSCPRINTF()`: Implements TIXML_VSCPRINTF functionality
-- `ConvertUTF32ToUTF8()`: This code won't convert this correctly anyway
-- `InsertEndChild()`: Iterates through collection and processes each element, storing results
-- `tracker()`: Implements tracker functionality
-- `ClearError()`: Implements ClearError functionality
-- `callfopen()`: Implements callfopen functionality
-- `SetError()`: Declarations are only allowed at document level // Multiple declarations are allowed but all declarations must occur before anything else
+- `_snprintf_s()`: yes, this one new style header, is in the Android SDK.
+- `TIXML_SNPRINTF()`: yes, this one new style header, is in the Android SDK.
+- `TIXML_VSNPRINTF()`: Microsoft Visual Studio, version 2005 and higher. Not WinCE.
+- `TIXML_VSCPRINTF()`: Microsoft Visual Studio 2003 and earlier or WinCE
+- `ConvertUTF32ToUTF8()`: Performs ConvertUTF32ToUTF8 operation in tinyxml2.cpp
+- `InsertEndChild()`: Iterates through elements in tinyxml2.cpp and adds them to a collection
+- `tracker()`: Iterates through elements in tinyxml2.cpp and adds them to a collection
+- `ClearError()`: pools that are dead and inaccessible.
+- `callfopen()`: Opens a file or creates a file handle in tinyxml2.cpp
+- `SetError()`: Sets or updates Error value in tinyxml2.cpp
 ### Przestrzenie nazw
 - `tinyxml2`
 ### Podsumowanie

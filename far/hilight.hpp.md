@@ -4,27 +4,27 @@
 This file implements functionality related to: Files highlighting
 Main functional areas: core functionality
 ### Key Classes
-- `FileFilterParams`: Implements FileFilterParams functionality
-- `FileList`: Implements FileList functionality
-- `FileListItem`: Implements FileListItem functionality
-- `HierarchicalConfig`: Implements HierarchicalConfig functionality
-- `VMenu2`: Implements VMenu2 functionality
-- `color`: Implements color functionality
-- `colors`: Implements colors functionality
-- `configuration`: Implements configuration functionality
-- `element`: Implements element functionality
-- `element_hash`: Implements element_hash functionality
+- `FileFilterParams`: Performs FileFilterParams operation in hilight.hpp
+- `FileList`: Performs FileList operation in hilight.hpp
+- `FileListItem`: Performs FileListItem operation in hilight.hpp
+- `HierarchicalConfig`: Performs HierarchicalConfig operation in hilight.hpp
+- `VMenu2`: Performs VMenu2 operation in hilight.hpp
+- `color`: Performs color operation in hilight.hpp
+- `colors`: Performs colors operation in hilight.hpp
+- `configuration`: Iterates through elements in hilight.hpp and adds them to a collection
+- `element`: Performs element operation in hilight.hpp
+- `element_hash`: Performs element_hash operation in hilight.hpp
 ### Key Functions
-- `ToFarColor()`: Implements ToFarColor functionality
-- `UpdateCurrentTime()`: Updates existing state with new values
-- `GetHiColor()`: Iterates through collection and processes each element, storing results
-- `GetGroup()`: Iterates through collection and processes each element, storing results
-- `HiEdit()`: Iterates through collection and processes each element, storing results
-- `UpdateHighlighting()`: Iterates through collection and processes each element, storing results
-- `Save()`: Iterates through collection and processes each element, storing results
-- `InheritPaletteColor()`: Iterates through collection and processes each element, storing results
-- `ApplyFinalColor()`: Iterates through collection and processes each element, storing results
-- `Load()`: Iterates through collection and processes each element, storing results
+- `ToFarColor()`: Performs ToFarColor operation in hilight.hpp
+- `UpdateCurrentTime()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `GetHiColor()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `GetGroup()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `HiEdit()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `UpdateHighlighting()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `Save()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `InheritPaletteColor()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `ApplyFinalColor()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `Load()`: Iterates through elements in hilight.hpp and adds them to a collection
 ### Namespaces
 - `highlight`
 ### Summary
@@ -37,27 +37,27 @@ The `hilight.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Files highlighting
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FileFilterParams`: Implements FileFilterParams functionality
-- `FileList`: Implements FileList functionality
-- `FileListItem`: Implements FileListItem functionality
-- `HierarchicalConfig`: Implements HierarchicalConfig functionality
-- `VMenu2`: Implements VMenu2 functionality
-- `color`: Implements color functionality
-- `colors`: Implements colors functionality
-- `configuration`: Implements configuration functionality
-- `element`: Implements element functionality
-- `element_hash`: Implements element_hash functionality
+- `FileFilterParams`: Performs FileFilterParams operation in hilight.hpp
+- `FileList`: Performs FileList operation in hilight.hpp
+- `FileListItem`: Performs FileListItem operation in hilight.hpp
+- `HierarchicalConfig`: Performs HierarchicalConfig operation in hilight.hpp
+- `VMenu2`: Performs VMenu2 operation in hilight.hpp
+- `color`: Performs color operation in hilight.hpp
+- `colors`: Performs colors operation in hilight.hpp
+- `configuration`: Iterates through elements in hilight.hpp and adds them to a collection
+- `element`: Performs element operation in hilight.hpp
+- `element_hash`: Performs element_hash operation in hilight.hpp
 ### Kluczowe Funkcje
-- `ToFarColor()`: Implements ToFarColor functionality
-- `UpdateCurrentTime()`: Updates existing state with new values
-- `GetHiColor()`: Iterates through collection and processes each element, storing results
-- `GetGroup()`: Iterates through collection and processes each element, storing results
-- `HiEdit()`: Iterates through collection and processes each element, storing results
-- `UpdateHighlighting()`: Iterates through collection and processes each element, storing results
-- `Save()`: Iterates through collection and processes each element, storing results
-- `InheritPaletteColor()`: Iterates through collection and processes each element, storing results
-- `ApplyFinalColor()`: Iterates through collection and processes each element, storing results
-- `Load()`: Iterates through collection and processes each element, storing results
+- `ToFarColor()`: Performs ToFarColor operation in hilight.hpp
+- `UpdateCurrentTime()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `GetHiColor()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `GetGroup()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `HiEdit()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `UpdateHighlighting()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `Save()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `InheritPaletteColor()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `ApplyFinalColor()`: Iterates through elements in hilight.hpp and adds them to a collection
+- `Load()`: Iterates through elements in hilight.hpp and adds them to a collection
 ### Przestrzenie nazw
 - `highlight`
 ### Podsumowanie

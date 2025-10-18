@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `HeapAlloc()`: Implements HeapAlloc functionality
-- `HeapReAlloc()`: Implements HeapReAlloc functionality
-- `free()`: Implements free functionality
-- `new()`: Implements new functionality
-- `malloc()`: Implements malloc functionality
-- `delete()`: Removes or deletes specified item and releases associated resources
-- `__cxa_pure_virtual()`: void * operator new(size_t size) { return RtlAllocateMemory (size); } void operator delete(void *block) { RtlFreeMemory (block); }
-- `RtlFreeMemory()`: void * operator new(size_t size) { return RtlAllocateMemory (size); } void operator delete(void *block) { RtlFreeMemory (block); }
-- `realloc()`: Implements realloc functionality
-- `RtlAllocateMemory()`: void * operator new(size_t size) { return RtlAllocateMemory (size); } void operator delete(void *block) { RtlFreeMemory (block); }
+- `HeapAlloc()`: Performs HeapAlloc operation in Rtl.Memory.cpp
+- `HeapReAlloc()`: Performs HeapReAlloc operation in Rtl.Memory.cpp
+- `free()`: Performs free operation in Rtl.Memory.cpp
+- `new()`: Performs new operation in Rtl.Memory.cpp
+- `malloc()`: Performs malloc operation in Rtl.Memory.cpp
+- `delete()`: Deletes or removes an item or resource in Rtl.Memory.cpp
+- `__cxa_pure_virtual()`: Performs __cxa_pure_virtual operation in Rtl.Memory.cpp
+- `RtlFreeMemory()`: Performs RtlFreeMemory operation in Rtl.Memory.cpp
+- `realloc()`: Performs realloc operation in Rtl.Memory.cpp
+- `RtlAllocateMemory()`: Performs RtlAllocateMemory operation in Rtl.Memory.cpp
 ### Summary
 The `Rtl.Memory.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `Rtl.Memory.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `HeapAlloc()`: Implements HeapAlloc functionality
-- `HeapReAlloc()`: Implements HeapReAlloc functionality
-- `free()`: Implements free functionality
-- `new()`: Implements new functionality
-- `malloc()`: Implements malloc functionality
-- `delete()`: Removes or deletes specified item and releases associated resources
-- `__cxa_pure_virtual()`: void * operator new(size_t size) { return RtlAllocateMemory (size); } void operator delete(void *block) { RtlFreeMemory (block); }
-- `RtlFreeMemory()`: void * operator new(size_t size) { return RtlAllocateMemory (size); } void operator delete(void *block) { RtlFreeMemory (block); }
-- `realloc()`: Implements realloc functionality
-- `RtlAllocateMemory()`: void * operator new(size_t size) { return RtlAllocateMemory (size); } void operator delete(void *block) { RtlFreeMemory (block); }
+- `HeapAlloc()`: Performs HeapAlloc operation in Rtl.Memory.cpp
+- `HeapReAlloc()`: Performs HeapReAlloc operation in Rtl.Memory.cpp
+- `free()`: Performs free operation in Rtl.Memory.cpp
+- `new()`: Performs new operation in Rtl.Memory.cpp
+- `malloc()`: Performs malloc operation in Rtl.Memory.cpp
+- `delete()`: Deletes or removes an item or resource in Rtl.Memory.cpp
+- `__cxa_pure_virtual()`: Performs __cxa_pure_virtual operation in Rtl.Memory.cpp
+- `RtlFreeMemory()`: Performs RtlFreeMemory operation in Rtl.Memory.cpp
+- `realloc()`: Performs realloc operation in Rtl.Memory.cpp
+- `RtlAllocateMemory()`: Performs RtlAllocateMemory operation in Rtl.Memory.cpp
 ### Podsumowanie
 Plik `Rtl.Memory.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

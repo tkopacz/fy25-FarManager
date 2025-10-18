@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `STR2GUID()`: Implements STR2GUID functionality
-- `OpenFilePlugin()`: Implements OpenFilePlugin functionality
-- `ArchivePanel()`: remove without delete
-- `LoadAndInitializePlugins()`: Implements LoadAndInitializePlugins functionality
-- `GetFindData()`: Retrieves FindData from current context or object state
-- `FreeFindData()`: Implements FreeFindData functionality
-- `ClosePlugin()`: Implements ClosePlugin functionality
-- `GetOpenPluginInfo()`: Retrieves OpenPluginInfo from current context or object state
-- `GetFiles()`: Retrieves Files from current context or object state
-- `PutFiles()`: Implements PutFiles functionality
+- `STR2GUID()`: int length = wcslen (string)+1;
+- `OpenFilePlugin()`: Performs OpenFilePlugin operation in newarc.cpp
+- `ArchivePanel()`: Performs ArchivePanel operation in newarc.cpp
+- `LoadAndInitializePlugins()`: Performs LoadAndInitializePlugins operation in newarc.cpp
+- `GetFindData()`: Retrieves FindData value in newarc.cpp
+- `FreeFindData()`: Performs FreeFindData operation in newarc.cpp
+- `ClosePlugin()`: Performs ClosePlugin operation in newarc.cpp
+- `GetOpenPluginInfo()`: Retrieves OpenPluginInfo value in newarc.cpp
+- `GetFiles()`: Retrieves Files value in newarc.cpp
+- `PutFiles()`: Performs PutFiles operation in newarc.cpp
 ### Summary
 The `newarc.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `newarc.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `STR2GUID()`: Implements STR2GUID functionality
-- `OpenFilePlugin()`: Implements OpenFilePlugin functionality
-- `ArchivePanel()`: remove without delete
-- `LoadAndInitializePlugins()`: Implements LoadAndInitializePlugins functionality
-- `GetFindData()`: Retrieves FindData from current context or object state
-- `FreeFindData()`: Implements FreeFindData functionality
-- `ClosePlugin()`: Implements ClosePlugin functionality
-- `GetOpenPluginInfo()`: Retrieves OpenPluginInfo from current context or object state
-- `GetFiles()`: Retrieves Files from current context or object state
-- `PutFiles()`: Implements PutFiles functionality
+- `STR2GUID()`: int length = wcslen (string)+1;
+- `OpenFilePlugin()`: Performs OpenFilePlugin operation in newarc.cpp
+- `ArchivePanel()`: Performs ArchivePanel operation in newarc.cpp
+- `LoadAndInitializePlugins()`: Performs LoadAndInitializePlugins operation in newarc.cpp
+- `GetFindData()`: Retrieves FindData value in newarc.cpp
+- `FreeFindData()`: Performs FreeFindData operation in newarc.cpp
+- `ClosePlugin()`: Performs ClosePlugin operation in newarc.cpp
+- `GetOpenPluginInfo()`: Retrieves OpenPluginInfo value in newarc.cpp
+- `GetFiles()`: Retrieves Files value in newarc.cpp
+- `PutFiles()`: Performs PutFiles operation in newarc.cpp
 ### Podsumowanie
 Plik `newarc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `MenuDialogProc()`: -----------------------------------------------------------------// Сообщение обработано, больше не обрабатывать ег
-- `MacroDialogProc()`: Processes input by dispatching to different code paths based on type or value
-- `lstrcpy()`: Processes input by dispatching to different code paths based on type or value
-- `DefKeyDialogProc()`: Processes input by dispatching to different code paths based on type or value
-- `CopyDialogProc()`: Processes input by dispatching to different code paths based on type or value
-- `myReadConsoleInputA()`: Processes input by dispatching to different code paths based on type or value
-- `myReadConsoleInputW()`: Processes input by dispatching to different code paths based on type or value
-- `myPeekConsoleInputA()`: Processes input by dispatching to different code paths based on type or value
-- `myPeekConsoleInputW()`: Processes input by dispatching to different code paths based on type or value
-- `ProcessKey()`: Processes input by dispatching to different code paths based on type or value
+- `MenuDialogProc()`: Performs MenuDialogProc operation in MacroDiff.cpp
+- `MacroDialogProc()`: Performs MacroDialogProc operation in MacroDiff.cpp
+- `lstrcpy()`: Macro->SaveBar=Info.SaveScreen(0,0,-1,-1);
+- `DefKeyDialogProc()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `CopyDialogProc()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `myReadConsoleInputA()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `myReadConsoleInputW()`: if (lResult && ir->EventType==KEY_EVENT)
+- `myPeekConsoleInputA()`: if (lResult && ir->EventType==KEY_EVENT)
+- `myPeekConsoleInputW()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `ProcessKey()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
 ### Summary
 The `MacroDiff.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `MacroDiff.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `MenuDialogProc()`: -----------------------------------------------------------------// Сообщение обработано, больше не обрабатывать ег
-- `MacroDialogProc()`: Processes input by dispatching to different code paths based on type or value
-- `lstrcpy()`: Processes input by dispatching to different code paths based on type or value
-- `DefKeyDialogProc()`: Processes input by dispatching to different code paths based on type or value
-- `CopyDialogProc()`: Processes input by dispatching to different code paths based on type or value
-- `myReadConsoleInputA()`: Processes input by dispatching to different code paths based on type or value
-- `myReadConsoleInputW()`: Processes input by dispatching to different code paths based on type or value
-- `myPeekConsoleInputA()`: Processes input by dispatching to different code paths based on type or value
-- `myPeekConsoleInputW()`: Processes input by dispatching to different code paths based on type or value
-- `ProcessKey()`: Processes input by dispatching to different code paths based on type or value
+- `MenuDialogProc()`: Performs MenuDialogProc operation in MacroDiff.cpp
+- `MacroDialogProc()`: Performs MacroDialogProc operation in MacroDiff.cpp
+- `lstrcpy()`: Macro->SaveBar=Info.SaveScreen(0,0,-1,-1);
+- `DefKeyDialogProc()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `CopyDialogProc()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `myReadConsoleInputA()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `myReadConsoleInputW()`: if (lResult && ir->EventType==KEY_EVENT)
+- `myPeekConsoleInputA()`: if (lResult && ir->EventType==KEY_EVENT)
+- `myPeekConsoleInputW()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
+- `ProcessKey()`: Checks a condition in MacroDiff.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `MacroDiff.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

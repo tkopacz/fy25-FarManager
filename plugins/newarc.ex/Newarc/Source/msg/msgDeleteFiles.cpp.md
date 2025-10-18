@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `msgDeleteFiles()`: Implements msgDeleteFiles functionality
-- `message()`: Implements message functionality
+- `msgDeleteFiles()`: Performs msgDeleteFiles operation in msgDeleteFiles.cpp
+- `message()`: Performs message operation in msgDeleteFiles.cpp
 ### Summary
 The `msgDeleteFiles.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `msgDeleteFiles.cpp` file provides essential functionality for file system o
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `msgDeleteFiles()`: Implements msgDeleteFiles functionality
-- `message()`: Implements message functionality
+- `msgDeleteFiles()`: Performs msgDeleteFiles operation in msgDeleteFiles.cpp
+- `message()`: Performs message operation in msgDeleteFiles.cpp
 ### Podsumowanie
 Plik `msgDeleteFiles.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

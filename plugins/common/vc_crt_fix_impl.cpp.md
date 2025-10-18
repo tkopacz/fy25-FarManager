@@ -4,13 +4,13 @@
 This file implements functionality related to: Workaround for Visual C++ CRT incompatibility with old Windows versions
 Main functional areas: core functionality
 ### Key Classes
-- `implementation`: Implements implementation functionality
+- `implementation`: Performs implementation operation in vc_crt_fix_impl.cpp
 ### Key Functions
-- `GetFunctionPointer()`: Retrieves FunctionPointer from current context or object state
-- `XorPointer()`: EncodePointer (VC2010)
-- `impl()`: EncodePointer (VC2010) DecodePointer(VC2010)
-- `atomic_assign()`: The oldest x64 OS (XP) already has SList, so this shall never be called
-- `locale_name_to_lcid()`: Implements locale_name_to_lcid functionality
+- `GetFunctionPointer()`: Retrieves FunctionPointer value in vc_crt_fix_impl.cpp
+- `XorPointer()`: Performs XorPointer operation in vc_crt_fix_impl.cpp
+- `impl()`: Performs impl operation in vc_crt_fix_impl.cpp
+- `atomic_assign()`: Checks a condition in vc_crt_fix_impl.cpp and returns true or false based on the result
+- `locale_name_to_lcid()`: Performs locale_name_to_lcid operation in vc_crt_fix_impl.cpp
 ### Namespaces
 - `modules`
 ### Summary
@@ -23,13 +23,13 @@ The `vc_crt_fix_impl.cpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: Workaround for Visual C++ CRT incompatibility with old Windows versions
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `implementation`: Implements implementation functionality
+- `implementation`: Performs implementation operation in vc_crt_fix_impl.cpp
 ### Kluczowe Funkcje
-- `GetFunctionPointer()`: Retrieves FunctionPointer from current context or object state
-- `XorPointer()`: EncodePointer (VC2010)
-- `impl()`: EncodePointer (VC2010) DecodePointer(VC2010)
-- `atomic_assign()`: The oldest x64 OS (XP) already has SList, so this shall never be called
-- `locale_name_to_lcid()`: Implements locale_name_to_lcid functionality
+- `GetFunctionPointer()`: Retrieves FunctionPointer value in vc_crt_fix_impl.cpp
+- `XorPointer()`: Performs XorPointer operation in vc_crt_fix_impl.cpp
+- `impl()`: Performs impl operation in vc_crt_fix_impl.cpp
+- `atomic_assign()`: Checks a condition in vc_crt_fix_impl.cpp and returns true or false based on the result
+- `locale_name_to_lcid()`: Performs locale_name_to_lcid operation in vc_crt_fix_impl.cpp
 ### Przestrzenie nazw
 - `modules`
 ### Podsumowanie

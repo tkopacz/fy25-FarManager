@@ -4,17 +4,17 @@
 This file implements functionality related to: */
 Main functional areas: string utilities
 ### Key Classes
-- `SQLiteDb`: Implements SQLiteDb functionality
-- `keyhole`: Implements keyhole functionality
-- `less_icase_t`: Implements less_icase_t functionality
-- `less_t`: Implements less_t functionality
-- `pluginapi_sort_accessor`: Implements pluginapi_sort_accessor functionality
+- `SQLiteDb`: Performs SQLiteDb operation in string_sort.hpp
+- `keyhole`: Performs keyhole operation in string_sort.hpp
+- `less_icase_t`: Performs less_icase_t operation in string_sort.hpp
+- `less_t`: Performs less_t operation in string_sort.hpp
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation in string_sort.hpp
 ### Key Functions
-- `compare()`: Default comparison entry point
-- `adjust_comparer()`: Default comparison entry point
-- `compare_ordinal_icase()`: Implements compare_ordinal_icase functionality
-- `compare_ordinal_numeric()`: Implements compare_ordinal_numeric functionality
-- `ordering_as_int()`: Implements ordering_as_int functionality
+- `compare()`: Default comparison entry point.
+- `adjust_comparer()`: Default comparison entry point.
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in string_sort.hpp
+- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation in string_sort.hpp
+- `ordering_as_int()`: Performs ordering_as_int operation in string_sort.hpp
 ### Namespaces
 - `detail`
 - `string_sort`
@@ -28,17 +28,17 @@ The `string_sort.hpp` file provides essential functionality for string utilities
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `SQLiteDb`: Implements SQLiteDb functionality
-- `keyhole`: Implements keyhole functionality
-- `less_icase_t`: Implements less_icase_t functionality
-- `less_t`: Implements less_t functionality
-- `pluginapi_sort_accessor`: Implements pluginapi_sort_accessor functionality
+- `SQLiteDb`: Performs SQLiteDb operation in string_sort.hpp
+- `keyhole`: Performs keyhole operation in string_sort.hpp
+- `less_icase_t`: Performs less_icase_t operation in string_sort.hpp
+- `less_t`: Performs less_t operation in string_sort.hpp
+- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation in string_sort.hpp
 ### Kluczowe Funkcje
-- `compare()`: Default comparison entry point
-- `adjust_comparer()`: Default comparison entry point
-- `compare_ordinal_icase()`: Implements compare_ordinal_icase functionality
-- `compare_ordinal_numeric()`: Implements compare_ordinal_numeric functionality
-- `ordering_as_int()`: Implements ordering_as_int functionality
+- `compare()`: Default comparison entry point.
+- `adjust_comparer()`: Default comparison entry point.
+- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in string_sort.hpp
+- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation in string_sort.hpp
+- `ordering_as_int()`: Performs ordering_as_int operation in string_sort.hpp
 ### Przestrzenie nazw
 - `detail`
 - `string_sort`

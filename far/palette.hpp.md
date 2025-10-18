@@ -4,19 +4,19 @@
 This file implements functionality related to: Таблица цветов
 Main functional areas: core functionality
 ### Key Classes
-- `FarColor`: Implements FarColor functionality
-- `palette`: Implements palette functionality
+- `FarColor`: Performs FarColor operation in palette.hpp
+- `palette`: Performs palette operation in palette.hpp
 ### Key Functions
-- `fg()`: Use C_* notation in FarColor and other types where Foreground and Background are different fields
-- `bg()`: Use C_* notation in FarColor and other types where Foreground and Background are different fields
-- `Load()`: Implements Load functionality
-- `Save()`: Implements Save functionality
-- `ResetToDefaultIndex()`: Implements ResetToDefaultIndex functionality
-- `ResetToDefaultRGB()`: Implements ResetToDefaultRGB functionality
-- `Default()`: Implements Default functionality
-- `Set()`: Implements Set functionality
-- `CopyTo()`: Implements CopyTo functionality
-- `size()`: Implements size functionality
+- `fg()`: Performs fg operation in palette.hpp
+- `bg()`: Performs bg operation in palette.hpp
+- `Load()`: Performs Load operation in palette.hpp
+- `Save()`: Performs Save operation in palette.hpp
+- `ResetToDefaultIndex()`: Performs ResetToDefaultIndex operation in palette.hpp
+- `ResetToDefaultRGB()`: Performs ResetToDefaultRGB operation in palette.hpp
+- `Default()`: Performs Default operation in palette.hpp
+- `Set()`: Sets or updates  value in palette.hpp
+- `CopyTo()`: Performs CopyTo operation in palette.hpp
+- `size()`: Performs size operation in palette.hpp
 ### Namespaces
 - `channel`
 - `detail`
@@ -30,19 +30,19 @@ The `palette.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Таблица цветов
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FarColor`: Implements FarColor functionality
-- `palette`: Implements palette functionality
+- `FarColor`: Performs FarColor operation in palette.hpp
+- `palette`: Performs palette operation in palette.hpp
 ### Kluczowe Funkcje
-- `fg()`: Use C_* notation in FarColor and other types where Foreground and Background are different fields
-- `bg()`: Use C_* notation in FarColor and other types where Foreground and Background are different fields
-- `Load()`: Implements Load functionality
-- `Save()`: Implements Save functionality
-- `ResetToDefaultIndex()`: Implements ResetToDefaultIndex functionality
-- `ResetToDefaultRGB()`: Implements ResetToDefaultRGB functionality
-- `Default()`: Implements Default functionality
-- `Set()`: Implements Set functionality
-- `CopyTo()`: Implements CopyTo functionality
-- `size()`: Implements size functionality
+- `fg()`: Performs fg operation in palette.hpp
+- `bg()`: Performs bg operation in palette.hpp
+- `Load()`: Performs Load operation in palette.hpp
+- `Save()`: Performs Save operation in palette.hpp
+- `ResetToDefaultIndex()`: Performs ResetToDefaultIndex operation in palette.hpp
+- `ResetToDefaultRGB()`: Performs ResetToDefaultRGB operation in palette.hpp
+- `Default()`: Performs Default operation in palette.hpp
+- `Set()`: Sets or updates  value in palette.hpp
+- `CopyTo()`: Performs CopyTo operation in palette.hpp
+- `size()`: Performs size operation in palette.hpp
 ### Przestrzenie nazw
 - `channel`
 - `detail`

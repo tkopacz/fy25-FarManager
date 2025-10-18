@@ -4,26 +4,26 @@
 This file implements functionality related to: Обычное вертикальное меню
 Main functional areas: menu management
 ### Key Classes
-- `alignment`: Processes input by dispatching to different code paths based on type or value
-- `bulk_update_scope_guard`: Implements bulk_update_scope_guard functionality
-- `color_indices`: Implements color_indices functionality
-- `item_color_indices`: Implements item_color_indices functionality
-- `item_hscroll_policy`: Implements item_hscroll_policy functionality
-- `menu_layout`: Implements menu_layout functionality
-- `test_data`: Implements test_data functionality
-- `test_segment`: Implements test_segment functionality
-- `vmenu_horizontal_tracker`: Implements vmenu_horizontal_tracker functionality
+- `alignment`: Performs alignment operation in vmenu.cpp
+- `bulk_update_scope_guard`: Keeps track of the horizontal state of all items.
+- `color_indices`: Performs color_indices operation in vmenu.cpp
+- `item_color_indices`: Performs item_color_indices operation in vmenu.cpp
+- `item_hscroll_policy`: Performs item_hscroll_policy operation in vmenu.cpp
+- `menu_layout`: Performs menu_layout operation in vmenu.cpp
+- `test_data`: Performs test_data operation in vmenu.cpp
+- `test_segment`: Performs test_segment operation in vmenu.cpp
+- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation in vmenu.cpp
 ### Key Functions
-- `item_color_indices()`: Implements item_color_indices functionality
-- `need_box()`: Implements need_box functionality
-- `get_box_type()`: Retrieves _box_type from current context or object state
-- `get_service_area_size()`: Retrieves _service_area_size from current context or object state
-- `fixed_columns_width()`: Implements fixed_columns_width functionality
-- `get_title_service_area_size()`: ╚═ Ctrl+Enter F5 Gray + Ctrl+Up Ctrl+Down ══╝ ?^^                   ^ ^?
-- `get_client_rect()`: Retrieves _client_rect from current context or object state
-- `need_check_mark()`: Implements need_check_mark functionality
-- `need_left_hscroll()`: Implements need_left_hscroll functionality
-- `need_right_hscroll()`: Implements need_right_hscroll functionality
+- `item_color_indices()`: Performs item_color_indices operation in vmenu.cpp
+- `need_box()`: Performs need_box operation in vmenu.cpp
+- `get_box_type()`: Retrieves _box_type value in vmenu.cpp
+- `get_service_area_size()`: Retrieves _service_area_size value in vmenu.cpp
+- `fixed_columns_width()`: Performs fixed_columns_width operation in vmenu.cpp
+- `get_title_service_area_size()`: Plus one position for separator
+- `get_client_rect()`: Retrieves _client_rect value in vmenu.cpp
+- `need_check_mark()`: Performs need_check_mark operation in vmenu.cpp
+- `need_left_hscroll()`: Performs need_left_hscroll operation in vmenu.cpp
+- `need_right_hscroll()`: Performs need_right_hscroll operation in vmenu.cpp
 ### Namespaces
 - `std`
 ### Summary
@@ -36,26 +36,26 @@ The `vmenu.cpp` file provides essential functionality for menu management. It de
 Ten plik implementuje funkcjonalność związaną z: Обычное вертикальное меню
 Główne obszary funkcjonalne: zarządzanie menu
 ### Kluczowe Klasy
-- `alignment`: Processes input by dispatching to different code paths based on type or value
-- `bulk_update_scope_guard`: Implements bulk_update_scope_guard functionality
-- `color_indices`: Implements color_indices functionality
-- `item_color_indices`: Implements item_color_indices functionality
-- `item_hscroll_policy`: Implements item_hscroll_policy functionality
-- `menu_layout`: Implements menu_layout functionality
-- `test_data`: Implements test_data functionality
-- `test_segment`: Implements test_segment functionality
-- `vmenu_horizontal_tracker`: Implements vmenu_horizontal_tracker functionality
+- `alignment`: Performs alignment operation in vmenu.cpp
+- `bulk_update_scope_guard`: Keeps track of the horizontal state of all items.
+- `color_indices`: Performs color_indices operation in vmenu.cpp
+- `item_color_indices`: Performs item_color_indices operation in vmenu.cpp
+- `item_hscroll_policy`: Performs item_hscroll_policy operation in vmenu.cpp
+- `menu_layout`: Performs menu_layout operation in vmenu.cpp
+- `test_data`: Performs test_data operation in vmenu.cpp
+- `test_segment`: Performs test_segment operation in vmenu.cpp
+- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation in vmenu.cpp
 ### Kluczowe Funkcje
-- `item_color_indices()`: Implements item_color_indices functionality
-- `need_box()`: Implements need_box functionality
-- `get_box_type()`: Retrieves _box_type from current context or object state
-- `get_service_area_size()`: Retrieves _service_area_size from current context or object state
-- `fixed_columns_width()`: Implements fixed_columns_width functionality
-- `get_title_service_area_size()`: ╚═ Ctrl+Enter F5 Gray + Ctrl+Up Ctrl+Down ══╝ ?^^                   ^ ^?
-- `get_client_rect()`: Retrieves _client_rect from current context or object state
-- `need_check_mark()`: Implements need_check_mark functionality
-- `need_left_hscroll()`: Implements need_left_hscroll functionality
-- `need_right_hscroll()`: Implements need_right_hscroll functionality
+- `item_color_indices()`: Performs item_color_indices operation in vmenu.cpp
+- `need_box()`: Performs need_box operation in vmenu.cpp
+- `get_box_type()`: Retrieves _box_type value in vmenu.cpp
+- `get_service_area_size()`: Retrieves _service_area_size value in vmenu.cpp
+- `fixed_columns_width()`: Performs fixed_columns_width operation in vmenu.cpp
+- `get_title_service_area_size()`: Plus one position for separator
+- `get_client_rect()`: Retrieves _client_rect value in vmenu.cpp
+- `need_check_mark()`: Performs need_check_mark operation in vmenu.cpp
+- `need_left_hscroll()`: Performs need_left_hscroll operation in vmenu.cpp
+- `need_right_hscroll()`: Performs need_right_hscroll operation in vmenu.cpp
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

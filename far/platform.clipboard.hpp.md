@@ -4,18 +4,18 @@
 This file implements functionality related to: */
 Main functional areas: clipboard operations
 ### Key Classes
-- `state`: Implements state functionality
+- `state`: Performs state operation in platform.clipboard.hpp
 ### Key Functions
-- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation as part of the component's functionality
-- `open()`: Implements open functionality
-- `close()`: External: ---------------------------------------------------------------------------- PLATFORM_CLIPBOARD_HPP_49E6F44B_4F91_46FB_BDAA_CB8DF4D4764D
-- `clear()`: ---------------------------------------------------------------------------- PLATFORM_CLIPBOARD_HPP_49E6F44B_4F91_46FB_BDAA_CB8DF4D4764D
-- `set_text()`: Updates _text with provided value
-- `set_vtext()`: Updates _vtext with provided value
-- `set_files()`: Updates _files with provided value
-- `get_text()`: Retrieves _text from current context or object state
-- `get_vtext()`: Retrieves _vtext from current context or object state
-- `capture()`: Implements capture functionality
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation in platform.clipboard.hpp
+- `open()`: Performs open operation in platform.clipboard.hpp
+- `close()`: Performs close operation in platform.clipboard.hpp
+- `clear()`: Performs clear operation in platform.clipboard.hpp
+- `set_text()`: Sets or updates _text value in platform.clipboard.hpp
+- `set_vtext()`: Sets or updates _vtext value in platform.clipboard.hpp
+- `set_files()`: Sets or updates _files value in platform.clipboard.hpp
+- `get_text()`: Retrieves _text value in platform.clipboard.hpp
+- `get_vtext()`: Retrieves _vtext value in platform.clipboard.hpp
+- `capture()`: Performs capture operation in platform.clipboard.hpp
 ### Namespaces
 - `os`
 - `testing`
@@ -29,18 +29,18 @@ The `platform.clipboard.hpp` file provides essential functionality for clipboard
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: operacje schowka
 ### Kluczowe Klasy
-- `state`: Implements state functionality
+- `state`: Performs state operation in platform.clipboard.hpp
 ### Kluczowe Funkcje
-- `enable_ansi_to_unicode_conversion_workaround()`: Implements enable_ansi_to_unicode_conversion_workaround functionality
-- `open()`: Implements open functionality
-- `close()`: External: ---------------------------------------------------------------------------- PLATFORM_CLIPBOARD_HPP_49E6F44B_4F91_46FB_BDAA_CB8DF4D4764D
-- `clear()`: ---------------------------------------------------------------------------- PLATFORM_CLIPBOARD_HPP_49E6F44B_4F91_46FB_BDAA_CB8DF4D4764D
-- `set_text()`: Updates _text with provided value
-- `set_vtext()`: Updates _vtext with provided value
-- `set_files()`: Updates _files with provided value
-- `get_text()`: Retrieves _text from current context or object state
-- `get_vtext()`: Retrieves _vtext from current context or object state
-- `capture()`: Implements capture functionality
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation in platform.clipboard.hpp
+- `open()`: Performs open operation in platform.clipboard.hpp
+- `close()`: Performs close operation in platform.clipboard.hpp
+- `clear()`: Performs clear operation in platform.clipboard.hpp
+- `set_text()`: Sets or updates _text value in platform.clipboard.hpp
+- `set_vtext()`: Sets or updates _vtext value in platform.clipboard.hpp
+- `set_files()`: Sets or updates _files value in platform.clipboard.hpp
+- `get_text()`: Retrieves _text value in platform.clipboard.hpp
+- `get_vtext()`: Retrieves _vtext value in platform.clipboard.hpp
+- `capture()`: Performs capture operation in platform.clipboard.hpp
 ### Przestrzenie nazw
 - `os`
 - `testing`

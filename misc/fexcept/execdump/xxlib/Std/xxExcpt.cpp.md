@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `DoAbort()`: Implements DoAbort functionality
-- `idPrint()`: Implements idPrint functionality
-- `UnhandledException()`: Validates conditions and throws exceptions when errors are detected during UnhandledException operation
-- `idExceptionFilter()`: Validates conditions and throws exceptions when errors are detected during idExceptionFilter operation
-- `MakeExceptionInfo()`: Implements MakeExceptionInfo functionality
-- `OldHandler()`: Implements OldHandler functionality
-- `FILELog()`: Implements FILELog functionality
-- `SetExceptionHandlerCPP()`: Updates ExceptionHandlerCPP with provided value and validates constraints
+- `DoAbort()`: BCB 5.5.1 console|WIN32 app`s
+- `idPrint()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `UnhandledException()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `idExceptionFilter()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `MakeExceptionInfo()`: protect agains recurse exceptions
+- `OldHandler()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `FILELog()`: BCB 5.5.1 console|WIN32 app`s
+- `SetExceptionHandlerCPP()`: Swap old handler, return to caller current handler
 ### Summary
 The `xxExcpt.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `xxExcpt.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `DoAbort()`: Implements DoAbort functionality
-- `idPrint()`: Implements idPrint functionality
-- `UnhandledException()`: Validates conditions and throws exceptions when errors are detected during UnhandledException operation
-- `idExceptionFilter()`: Validates conditions and throws exceptions when errors are detected during idExceptionFilter operation
-- `MakeExceptionInfo()`: Implements MakeExceptionInfo functionality
-- `OldHandler()`: Implements OldHandler functionality
-- `FILELog()`: Implements FILELog functionality
-- `SetExceptionHandlerCPP()`: Updates ExceptionHandlerCPP with provided value and validates constraints
+- `DoAbort()`: BCB 5.5.1 console|WIN32 app`s
+- `idPrint()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `UnhandledException()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `idExceptionFilter()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `MakeExceptionInfo()`: protect agains recurse exceptions
+- `OldHandler()`: Opens and manages a file in xxExcpt.cpp, handling resource cleanup
+- `FILELog()`: BCB 5.5.1 console|WIN32 app`s
+- `SetExceptionHandlerCPP()`: Swap old handler, return to caller current handler
 ### Podsumowanie
 Plik `xxExcpt.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

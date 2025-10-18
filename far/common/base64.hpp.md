@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `byte_to_bits()`: Implements byte_to_bits functionality
-- `bytes_to_bits()`: Implements bytes_to_bits functionality
-- `bits_to_char()`: Iterates through collection and processes each element, storing results
-- `bits_to_chars()`: Iterates through collection and processes each element, storing results
-- `encode()`: Iterates through collection and processes each element, storing results
-- `char_to_bits()`: Implements char_to_bits functionality
-- `chars_to_bits()`: Iterates through collection and processes each element, storing results
-- `bits_to_bytes()`: Iterates through collection and processes each element, storing results
-- `decode()`: Iterates through collection and processes each element, storing results
+- `byte_to_bits()`: Performs byte_to_bits operation in base64.hpp
+- `bytes_to_bits()`: Performs bytes_to_bits operation in base64.hpp
+- `bits_to_char()`: Performs bits_to_char operation in base64.hpp
+- `bits_to_chars()`: Iterates through elements in base64.hpp and adds them to a collection
+- `encode()`: Iterates through elements in base64.hpp and adds them to a collection
+- `char_to_bits()`: Iterates through elements in base64.hpp and adds them to a collection
+- `chars_to_bits()`: Performs chars_to_bits operation in base64.hpp
+- `bits_to_bytes()`: Iterates through elements in base64.hpp and adds them to a collection
+- `decode()`: Iterates through elements in base64.hpp and adds them to a collection
 ### Namespaces
 - `base64`
 - `detail`
@@ -25,15 +25,15 @@ The `base64.hpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `byte_to_bits()`: Implements byte_to_bits functionality
-- `bytes_to_bits()`: Implements bytes_to_bits functionality
-- `bits_to_char()`: Iterates through collection and processes each element, storing results
-- `bits_to_chars()`: Iterates through collection and processes each element, storing results
-- `encode()`: Iterates through collection and processes each element, storing results
-- `char_to_bits()`: Implements char_to_bits functionality
-- `chars_to_bits()`: Iterates through collection and processes each element, storing results
-- `bits_to_bytes()`: Iterates through collection and processes each element, storing results
-- `decode()`: Iterates through collection and processes each element, storing results
+- `byte_to_bits()`: Performs byte_to_bits operation in base64.hpp
+- `bytes_to_bits()`: Performs bytes_to_bits operation in base64.hpp
+- `bits_to_char()`: Performs bits_to_char operation in base64.hpp
+- `bits_to_chars()`: Iterates through elements in base64.hpp and adds them to a collection
+- `encode()`: Iterates through elements in base64.hpp and adds them to a collection
+- `char_to_bits()`: Iterates through elements in base64.hpp and adds them to a collection
+- `chars_to_bits()`: Performs chars_to_bits operation in base64.hpp
+- `bits_to_bytes()`: Iterates through elements in base64.hpp and adds them to a collection
+- `decode()`: Iterates through elements in base64.hpp and adds them to a collection
 ### Przestrzenie nazw
 - `base64`
 - `detail`

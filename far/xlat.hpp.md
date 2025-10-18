@@ -4,8 +4,8 @@
 This file implements functionality related to: XLat - перекодировка
 Main functional areas: core functionality
 ### Key Functions
-- `xlat_initialize()`: Implements xlat_initialize functionality
-- `Xlat()`: Implements Xlat functionality
+- `xlat_initialize()`: Performs xlat_initialize operation in xlat.hpp
+- `Xlat()`: Performs Xlat operation in xlat.hpp
 ### Summary
 The `xlat.hpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,7 +16,7 @@ The `xlat.hpp` file provides essential functionality for core functionality. and
 Ten plik implementuje funkcjonalność związaną z: XLat - перекодировка
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `xlat_initialize()`: Implements xlat_initialize functionality
-- `Xlat()`: Implements Xlat functionality
+- `xlat_initialize()`: Performs xlat_initialize operation in xlat.hpp
+- `Xlat()`: Performs Xlat operation in xlat.hpp
 ### Podsumowanie
 Plik `xlat.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

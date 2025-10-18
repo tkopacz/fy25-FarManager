@@ -4,11 +4,11 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `rectangle_t`: assert(left <= right); assert(top <= bottom);
+- `rectangle_t`: Performs rectangle_t operation in rectangle.hpp
 ### Key Functions
-- `width()`: Implements width functionality
-- `height()`: Implements height functionality
-- `contains()`: Implements contains functionality
+- `width()`: Performs width operation in rectangle.hpp
+- `height()`: Performs height operation in rectangle.hpp
+- `contains()`: Performs contains operation in rectangle.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -21,11 +21,11 @@ The `rectangle.hpp` file provides essential functionality for core functionality
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `rectangle_t`: assert(left <= right); assert(top <= bottom);
+- `rectangle_t`: Performs rectangle_t operation in rectangle.hpp
 ### Kluczowe Funkcje
-- `width()`: Implements width functionality
-- `height()`: Implements height functionality
-- `contains()`: Implements contains functionality
+- `width()`: Performs width operation in rectangle.hpp
+- `height()`: Performs height operation in rectangle.hpp
+- `contains()`: Performs contains operation in rectangle.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

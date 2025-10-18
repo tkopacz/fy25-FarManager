@@ -4,11 +4,11 @@
 This file implements functionality related to: UCD wrapper
 Main functional areas: core functionality
 ### Key Functions
-- `CpMap()`: Implements CpMap functionality
-- `GetCodePage()`: Retrieves CodePage from current context or object state
-- `Report()`: Implements Report functionality
-- `format_result()`: Implements format_result functionality
-- `Detector()`: Implements Detector functionality
+- `CpMap()`: BUGBUG, update manually when needed
+- `GetCodePage()`: Checks a condition in uchardet.cpp and returns true or false based on the result
+- `Report()`: Checks a condition in uchardet.cpp and returns true or false based on the result
+- `format_result()`: Iterates through elements in uchardet.cpp and adds them to a collection
+- `Detector()`: No direct mapping, the closest one
 ### Namespaces
 - `uchardet`
 ### Summary
@@ -21,11 +21,11 @@ The `uchardet.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: UCD wrapper
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `CpMap()`: Implements CpMap functionality
-- `GetCodePage()`: Retrieves CodePage from current context or object state
-- `Report()`: Implements Report functionality
-- `format_result()`: Implements format_result functionality
-- `Detector()`: Implements Detector functionality
+- `CpMap()`: BUGBUG, update manually when needed
+- `GetCodePage()`: Checks a condition in uchardet.cpp and returns true or false based on the result
+- `Report()`: Checks a condition in uchardet.cpp and returns true or false based on the result
+- `format_result()`: Iterates through elements in uchardet.cpp and adds them to a collection
+- `Detector()`: No direct mapping, the closest one
 ### Przestrzenie nazw
 - `uchardet`
 ### Podsumowanie

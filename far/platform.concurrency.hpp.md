@@ -4,27 +4,27 @@
 This file implements functionality related to: Threads, mutexes, events, critical sections etc.
 Main functional areas: core functionality
 ### Key Classes
-- `critical_section`: Implements critical_section functionality
-- `event`: Implements event functionality
-- `i_shared_mutex`: Implements i_shared_mutex functionality
-- `mutex`: Implements mutex functionality
-- `shared_mutex`: Implements shared_mutex functionality
-- `state`: Implements state functionality
-- `synced_queue`: Implements synced_queue functionality
-- `thread`: Implements thread functionality
-- `timer`: Implements timer functionality
-- `timer_closer`: Implements timer_closer functionality
+- `critical_section`: Performs critical_section operation in platform.concurrency.hpp
+- `event`: Performs event operation in platform.concurrency.hpp
+- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.hpp
+- `mutex`: Performs mutex operation in platform.concurrency.hpp
+- `shared_mutex`: Q: WTF is this, it's in the standard!
+- `state`: Performs state operation in platform.concurrency.hpp
+- `synced_queue`: Performs synced_queue operation in platform.concurrency.hpp
+- `thread`: Performs thread operation in platform.concurrency.hpp
+- `timer`: Performs timer operation in platform.concurrency.hpp
+- `timer_closer`: Performs timer_closer operation in platform.concurrency.hpp
 ### Key Functions
-- `make_name()`: Implements make_name functionality
-- `lock()`: Implements lock functionality
-- `unlock()`: Implements unlock functionality
-- `thread()`: Implements thread functionality
-- `get_id()`: Retrieves _id from current context or object state
-- `joinable()`: Implements joinable functionality
-- `detach()`: Implements detach functionality
-- `join()`: Implements join functionality
-- `check_joinable()`: Implements check_joinable functionality
-- `finalise()`: Implements finalise functionality
+- `make_name()`: Performs make_name operation in platform.concurrency.hpp
+- `lock()`: Checks a condition in platform.concurrency.hpp and returns true or false based on the result
+- `unlock()`: Performs unlock operation in platform.concurrency.hpp
+- `thread()`: Performs thread operation in platform.concurrency.hpp
+- `get_id()`: Retrieves _id value in platform.concurrency.hpp
+- `joinable()`: Performs joinable operation in platform.concurrency.hpp
+- `detach()`: Performs detach operation in platform.concurrency.hpp
+- `join()`: Performs join operation in platform.concurrency.hpp
+- `check_joinable()`: Performs check_joinable operation in platform.concurrency.hpp
+- `finalise()`: Performs finalise operation in platform.concurrency.hpp
 ### Namespaces
 - `detail`
 - `os`
@@ -38,27 +38,27 @@ The `platform.concurrency.hpp` file provides essential functionality for core fu
 Ten plik implementuje funkcjonalność związaną z: Threads, mutexes, events, critical sections etc.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `critical_section`: Implements critical_section functionality
-- `event`: Implements event functionality
-- `i_shared_mutex`: Implements i_shared_mutex functionality
-- `mutex`: Implements mutex functionality
-- `shared_mutex`: Implements shared_mutex functionality
-- `state`: Implements state functionality
-- `synced_queue`: Implements synced_queue functionality
-- `thread`: Implements thread functionality
-- `timer`: Implements timer functionality
-- `timer_closer`: Implements timer_closer functionality
+- `critical_section`: Performs critical_section operation in platform.concurrency.hpp
+- `event`: Performs event operation in platform.concurrency.hpp
+- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.hpp
+- `mutex`: Performs mutex operation in platform.concurrency.hpp
+- `shared_mutex`: Q: WTF is this, it's in the standard!
+- `state`: Performs state operation in platform.concurrency.hpp
+- `synced_queue`: Performs synced_queue operation in platform.concurrency.hpp
+- `thread`: Performs thread operation in platform.concurrency.hpp
+- `timer`: Performs timer operation in platform.concurrency.hpp
+- `timer_closer`: Performs timer_closer operation in platform.concurrency.hpp
 ### Kluczowe Funkcje
-- `make_name()`: Implements make_name functionality
-- `lock()`: Implements lock functionality
-- `unlock()`: Implements unlock functionality
-- `thread()`: Implements thread functionality
-- `get_id()`: Retrieves _id from current context or object state
-- `joinable()`: Implements joinable functionality
-- `detach()`: Implements detach functionality
-- `join()`: Implements join functionality
-- `check_joinable()`: Implements check_joinable functionality
-- `finalise()`: Implements finalise functionality
+- `make_name()`: Performs make_name operation in platform.concurrency.hpp
+- `lock()`: Checks a condition in platform.concurrency.hpp and returns true or false based on the result
+- `unlock()`: Performs unlock operation in platform.concurrency.hpp
+- `thread()`: Performs thread operation in platform.concurrency.hpp
+- `get_id()`: Retrieves _id value in platform.concurrency.hpp
+- `joinable()`: Performs joinable operation in platform.concurrency.hpp
+- `detach()`: Performs detach operation in platform.concurrency.hpp
+- `join()`: Performs join operation in platform.concurrency.hpp
+- `check_joinable()`: Performs check_joinable operation in platform.concurrency.hpp
+- `finalise()`: Performs finalise operation in platform.concurrency.hpp
 ### Przestrzenie nazw
 - `detail`
 - `os`

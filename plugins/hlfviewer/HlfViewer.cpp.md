@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `Options`: Implements Options functionality
+- `Options`: Performs Options operation in HlfViewer.cpp
 ### Key Functions
-- `IsHlf()`: Checks condition and returns boolean indicating state
-- `RestorePosition()`: Implements RestorePosition functionality
-- `ShowHelp()`: Implements ShowHelp functionality
-- `ShowCurrentHelpTopic()`: Implements ShowCurrentHelpTopic functionality
-- `ShowHelpFromTempFile()`: Implements ShowHelpFromTempFile functionality
-- `GetPluginConfig()`: Retrieves PluginConfig from current context or object state
-- `inputrecord_compare()`: Implements inputrecord_compare functionality
-- `FindPluginHelp()`: Implements FindPluginHelp functionality
-- `FileExists()`: Implements FileExists functionality
-- `StrToGuid()`: Implements StrToGuid functionality
+- `IsHlf()`: первая строка hlf всегда начинается с ".Language="
+- `RestorePosition()`: Performs RestorePosition operation in HlfViewer.cpp
+- `ShowHelp()`: Performs ShowHelp operation in HlfViewer.cpp
+- `ShowCurrentHelpTopic()`: Performs ShowCurrentHelpTopic operation in HlfViewer.cpp
+- `ShowHelpFromTempFile()`: Opens and manages a file in HlfViewer.cpp, handling resource cleanup
+- `GetPluginConfig()`: Checks a condition in HlfViewer.cpp and returns true or false based on the result
+- `inputrecord_compare()`: "Тема": начинается '@', дальше букво-цифры, не содержит '='
+- `FindPluginHelp()`: поиск hlf-файла Name в каталогах плагинов (первый найденный!)
+- `FileExists()`: Performs FileExists operation in HlfViewer.cpp
+- `StrToGuid()`: Performs StrToGuid operation in HlfViewer.cpp
 ### Summary
 The `HlfViewer.cpp` file provides essential functionality for file viewing. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `HlfViewer.cpp` file provides essential functionality for file viewing. It d
 ### Cel
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `Options`: Implements Options functionality
+- `Options`: Performs Options operation in HlfViewer.cpp
 ### Kluczowe Funkcje
-- `IsHlf()`: Checks condition and returns boolean indicating state
-- `RestorePosition()`: Implements RestorePosition functionality
-- `ShowHelp()`: Implements ShowHelp functionality
-- `ShowCurrentHelpTopic()`: Implements ShowCurrentHelpTopic functionality
-- `ShowHelpFromTempFile()`: Implements ShowHelpFromTempFile functionality
-- `GetPluginConfig()`: Retrieves PluginConfig from current context or object state
-- `inputrecord_compare()`: Implements inputrecord_compare functionality
-- `FindPluginHelp()`: Implements FindPluginHelp functionality
-- `FileExists()`: Implements FileExists functionality
-- `StrToGuid()`: Implements StrToGuid functionality
+- `IsHlf()`: первая строка hlf всегда начинается с ".Language="
+- `RestorePosition()`: Performs RestorePosition operation in HlfViewer.cpp
+- `ShowHelp()`: Performs ShowHelp operation in HlfViewer.cpp
+- `ShowCurrentHelpTopic()`: Performs ShowCurrentHelpTopic operation in HlfViewer.cpp
+- `ShowHelpFromTempFile()`: Opens and manages a file in HlfViewer.cpp, handling resource cleanup
+- `GetPluginConfig()`: Checks a condition in HlfViewer.cpp and returns true or false based on the result
+- `inputrecord_compare()`: "Тема": начинается '@', дальше букво-цифры, не содержит '='
+- `FindPluginHelp()`: поиск hlf-файла Name в каталогах плагинов (первый найденный!)
+- `FileExists()`: Performs FileExists operation in HlfViewer.cpp
+- `StrToGuid()`: Performs StrToGuid operation in HlfViewer.cpp
 ### Podsumowanie
 Plik `HlfViewer.cpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

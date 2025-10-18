@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `doAssigned()`: Implements doAssigned functionality
+- `doAssigned()`: Checks a condition in hstream.cpp and returns true or false based on the result
 ### Summary
 The `hstream.cpp` file provides essential functionality for string utilities. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -13,6 +13,6 @@ The `hstream.cpp` file provides essential functionality for string utilities. an
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Funkcje
-- `doAssigned()`: Implements doAssigned functionality
+- `doAssigned()`: Checks a condition in hstream.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `hstream.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

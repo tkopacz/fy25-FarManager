@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `LZHMemCompress`: Implements LZHMemCompress functionality
+- `LZHMemCompress`: Performs LZHMemCompress operation in lzh.cpp
 ### Key Functions
-- `InitTree()`: Initializes component with required configuration and state
-- `InsertNode()`: Implements InsertNode functionality
-- `DeleteNode()`: Removes or deletes specified item and releases associated resources
-- `GetBit()`: initialize trees insert to tree remove from tree get one bit get one byte output c bits of code compression
-- `GetByte()`: Retrieves Byte from current context or object state
-- `Putcode()`: Iterates through collection and processes each element, storing results
-- `StartHuff()`: Implements StartHuff functionality
-- `reconst()`: Implements reconst functionality
-- `update()`: Updates existing state with new values
-- `EncodeChar()`: Implements EncodeChar functionality
+- `InitTree()`: elements [lzhT..lzhT + lzhN_CHAR - 1] which are used to get
+- `InsertNode()`: the positions of leaves corresponding to the codes.
+- `DeleteNode()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `GetBit()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `GetByte()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `Putcode()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `StartHuff()`: Checks a condition in lzh.cpp and returns true or false based on the result
+- `reconst()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `update()`: increment frequency of given code by one, and update tree
+- `EncodeChar()`: Checks a condition in lzh.cpp and returns true or false based on the result
 ### Summary
 The `lzh.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `lzh.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `LZHMemCompress`: Implements LZHMemCompress functionality
+- `LZHMemCompress`: Performs LZHMemCompress operation in lzh.cpp
 ### Kluczowe Funkcje
-- `InitTree()`: Initializes component with required configuration and state
-- `InsertNode()`: Implements InsertNode functionality
-- `DeleteNode()`: Removes or deletes specified item and releases associated resources
-- `GetBit()`: initialize trees insert to tree remove from tree get one bit get one byte output c bits of code compression
-- `GetByte()`: Retrieves Byte from current context or object state
-- `Putcode()`: Iterates through collection and processes each element, storing results
-- `StartHuff()`: Implements StartHuff functionality
-- `reconst()`: Implements reconst functionality
-- `update()`: Updates existing state with new values
-- `EncodeChar()`: Implements EncodeChar functionality
+- `InitTree()`: elements [lzhT..lzhT + lzhN_CHAR - 1] which are used to get
+- `InsertNode()`: the positions of leaves corresponding to the codes.
+- `DeleteNode()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `GetBit()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `GetByte()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `Putcode()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `StartHuff()`: Checks a condition in lzh.cpp and returns true or false based on the result
+- `reconst()`: Iterates through elements in lzh.cpp and adds them to a collection
+- `update()`: increment frequency of given code by one, and update tree
+- `EncodeChar()`: Checks a condition in lzh.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `lzh.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `location`: Implements location functionality
-- `map_file`: Implements map_file functionality
-- `stack_frame`: Implements stack_frame functionality
-- `symbol`: Implements symbol functionality
+- `location`: Performs location operation in platform.debug.hpp
+- `map_file`: Performs map_file operation in platform.debug.hpp
+- `stack_frame`: Performs stack_frame operation in platform.debug.hpp
+- `symbol`: Performs symbol operation in platform.debug.hpp
 ### Key Functions
-- `is_debugger_present()`: Platform: Common: External: ---------------------------------------------------------------------------- TODO: std 'msc'
-- `breakpoint()`: External: ---------------------------------------------------------------------------- TODO: std 'msc'
-- `breakpoint_if_debugging()`: External: ---------------------------------------------------------------------------- TODO: std 'msc' Symbols should be initi
-- `print()`: Implements print functionality
-- `set_thread_name()`: Updates _thread_name with provided value and validates constraints
-- `get_thread_name()`: Retrieves _thread_name from current context or object state
-- `exception_information()`: Implements exception_information functionality
-- `fake_exception_information()`: Implements fake_exception_information functionality
-- `is_inline_frame()`: Checks condition and returns boolean indicating state
-- `initialize()`: Initializes component with required configuration and state
+- `is_debugger_present()`: Checks a condition in platform.debug.hpp and returns the result
+- `breakpoint()`: Performs breakpoint operation in platform.debug.hpp
+- `breakpoint_if_debugging()`: Performs breakpoint_if_debugging operation in platform.debug.hpp
+- `print()`: Performs print operation in platform.debug.hpp
+- `set_thread_name()`: Sets or updates _thread_name value in platform.debug.hpp
+- `get_thread_name()`: Retrieves _thread_name value in platform.debug.hpp
+- `exception_information()`: Performs exception_information operation in platform.debug.hpp
+- `fake_exception_information()`: Performs fake_exception_information operation in platform.debug.hpp
+- `is_inline_frame()`: Symbols should be initialized before calling these.
+- `initialize()`: Initializes data structures and prepares for operation in platform.debug.hpp
 ### Namespaces
 - `os`
 - `symbols`
@@ -32,21 +32,21 @@ The `platform.debug.hpp` file provides essential functionality for core function
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `location`: Implements location functionality
-- `map_file`: Implements map_file functionality
-- `stack_frame`: Implements stack_frame functionality
-- `symbol`: Implements symbol functionality
+- `location`: Performs location operation in platform.debug.hpp
+- `map_file`: Performs map_file operation in platform.debug.hpp
+- `stack_frame`: Performs stack_frame operation in platform.debug.hpp
+- `symbol`: Performs symbol operation in platform.debug.hpp
 ### Kluczowe Funkcje
-- `is_debugger_present()`: Platform: Common: External: ---------------------------------------------------------------------------- TODO: std 'msc'
-- `breakpoint()`: External: ---------------------------------------------------------------------------- TODO: std 'msc'
-- `breakpoint_if_debugging()`: External: ---------------------------------------------------------------------------- TODO: std 'msc' Symbols should be initi
-- `print()`: Implements print functionality
-- `set_thread_name()`: Updates _thread_name with provided value and validates constraints
-- `get_thread_name()`: Retrieves _thread_name from current context or object state
-- `exception_information()`: Implements exception_information functionality
-- `fake_exception_information()`: Implements fake_exception_information functionality
-- `is_inline_frame()`: Checks condition and returns boolean indicating state
-- `initialize()`: Initializes component with required configuration and state
+- `is_debugger_present()`: Checks a condition in platform.debug.hpp and returns the result
+- `breakpoint()`: Performs breakpoint operation in platform.debug.hpp
+- `breakpoint_if_debugging()`: Performs breakpoint_if_debugging operation in platform.debug.hpp
+- `print()`: Performs print operation in platform.debug.hpp
+- `set_thread_name()`: Sets or updates _thread_name value in platform.debug.hpp
+- `get_thread_name()`: Retrieves _thread_name value in platform.debug.hpp
+- `exception_information()`: Performs exception_information operation in platform.debug.hpp
+- `fake_exception_information()`: Performs fake_exception_information operation in platform.debug.hpp
+- `is_inline_frame()`: Symbols should be initialized before calling these.
+- `initialize()`: Initializes data structures and prepares for operation in platform.debug.hpp
 ### Przestrzenie nazw
 - `os`
 - `symbols`

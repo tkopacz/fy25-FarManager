@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Classes
-- `FTPPluginsInfo`: Implements FTPPluginsInfo functionality
+- `FTPPluginsInfo`: Performs FTPPluginsInfo operation in Plugin.cpp
 ### Key Functions
-- `idProcStart()`: Implements idProcStart functionality
-- `idProcEnd()`: Implements idProcEnd functionality
-- `idGetOpt()`: Implements idGetOpt functionality
-- `idFtpCmdBlock()`: Implements idFtpCmdBlock functionality
-- `FtpCmdBlock()`: Implements FtpCmdBlock functionality
-- `idFtpGetRetryCount()`: Implements idFtpGetRetryCount functionality
-- `FtpGetRetryCount()`: Implements FtpGetRetryCount functionality
-- `idGetHostOpt()`: Implements idGetHostOpt functionality
-- `CreateFTPInterface()`: Creates and initializes new object or resource instance
-- `StdCreator()`: Implements StdCreator functionality
+- `idProcStart()`: Performs idProcStart operation in Plugin.cpp
+- `idProcEnd()`: Performs idProcEnd operation in Plugin.cpp
+- `idGetOpt()`: Performs idGetOpt operation in Plugin.cpp
+- `idFtpCmdBlock()`: Performs idFtpCmdBlock operation in Plugin.cpp
+- `FtpCmdBlock()`: Performs FtpCmdBlock operation in Plugin.cpp
+- `idFtpGetRetryCount()`: Performs idFtpGetRetryCount operation in Plugin.cpp
+- `FtpGetRetryCount()`: Performs FtpGetRetryCount operation in Plugin.cpp
+- `idGetHostOpt()`: Performs idGetHostOpt operation in Plugin.cpp
+- `CreateFTPInterface()`: Creates and initializes a new object or resource in Plugin.cpp
+- `StdCreator()`: Performs StdCreator operation in Plugin.cpp
 ### Summary
 The `Plugin.cpp` file provides essential functionality for plugin interface. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `Plugin.cpp` file provides essential functionality for plugin interface. It 
 ### Cel
 Główne obszary funkcjonalne: interfejs wtyczek
 ### Kluczowe Klasy
-- `FTPPluginsInfo`: Implements FTPPluginsInfo functionality
+- `FTPPluginsInfo`: Performs FTPPluginsInfo operation in Plugin.cpp
 ### Kluczowe Funkcje
-- `idProcStart()`: Implements idProcStart functionality
-- `idProcEnd()`: Implements idProcEnd functionality
-- `idGetOpt()`: Implements idGetOpt functionality
-- `idFtpCmdBlock()`: Implements idFtpCmdBlock functionality
-- `FtpCmdBlock()`: Implements FtpCmdBlock functionality
-- `idFtpGetRetryCount()`: Implements idFtpGetRetryCount functionality
-- `FtpGetRetryCount()`: Implements FtpGetRetryCount functionality
-- `idGetHostOpt()`: Implements idGetHostOpt functionality
-- `CreateFTPInterface()`: Creates and initializes new object or resource instance
-- `StdCreator()`: Implements StdCreator functionality
+- `idProcStart()`: Performs idProcStart operation in Plugin.cpp
+- `idProcEnd()`: Performs idProcEnd operation in Plugin.cpp
+- `idGetOpt()`: Performs idGetOpt operation in Plugin.cpp
+- `idFtpCmdBlock()`: Performs idFtpCmdBlock operation in Plugin.cpp
+- `FtpCmdBlock()`: Performs FtpCmdBlock operation in Plugin.cpp
+- `idFtpGetRetryCount()`: Performs idFtpGetRetryCount operation in Plugin.cpp
+- `FtpGetRetryCount()`: Performs FtpGetRetryCount operation in Plugin.cpp
+- `idGetHostOpt()`: Performs idGetHostOpt operation in Plugin.cpp
+- `CreateFTPInterface()`: Creates and initializes a new object or resource in Plugin.cpp
+- `StdCreator()`: Performs StdCreator operation in Plugin.cpp
 ### Podsumowanie
 Plik `Plugin.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

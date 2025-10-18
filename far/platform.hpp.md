@@ -4,27 +4,27 @@
 This file implements functionality related to: Враперы вокруг некоторых WinAPI функций
 Main functional areas: core functionality
 ### Key Classes
-- `deleter`: Removes or deletes specified item and releases associated resources
-- `error_state`: Implements error_state functionality
-- `function_pointer`: Implements function_pointer functionality
-- `handle_closer`: Implements handle_closer functionality
-- `handle_implementation`: Implements handle_implementation functionality
-- `handle_t`: Implements handle_t functionality
-- `last_error_guard`: Implements last_error_guard functionality
-- `module`: Run-Time Dynamic Linking
-- `module_deleter`: Implements module_deleter functionality
-- `nt_handle_closer`: Implements nt_handle_closer functionality
+- `deleter`: Deletes or removes an item or resource in platform.hpp
+- `error_state`: Performs error_state operation in platform.hpp
+- `function_pointer`: Performs function_pointer operation in platform.hpp
+- `handle_closer`: Performs handle_closer operation in platform.hpp
+- `handle_implementation`: Performs handle_implementation operation in platform.hpp
+- `handle_t`: Performs handle_t operation in platform.hpp
+- `last_error_guard`: Performs last_error_guard operation in platform.hpp
+- `module`: Performs module operation in platform.hpp
+- `module_deleter`: Performs module_deleter operation in platform.hpp
+- `nt_handle_closer`: Performs nt_handle_closer operation in platform.hpp
 ### Key Functions
-- `buffer()`: Implements buffer functionality
-- `wait()`: Implements wait functionality
-- `is_signaled()`: Checks condition and returns boolean indicating state
-- `wait_any()`: Implements wait_any functionality
-- `wait_all()`: Implements wait_all functionality
-- `normalise()`: Implements normalise functionality
-- `native_handle()`: Implements native_handle functionality
-- `reset()`: Implements reset functionality
-- `close()`: Implements close functionality
-- `set_error_mode()`: Updates _error_mode with provided value and validates constraints
+- `buffer()`: Performs buffer operation in platform.hpp
+- `wait()`: Performs wait operation in platform.hpp
+- `is_signaled()`: Checks a condition in platform.hpp and returns the result
+- `wait_any()`: Performs wait_any operation in platform.hpp
+- `wait_all()`: Performs wait_all operation in platform.hpp
+- `normalise()`: Performs normalise operation in platform.hpp
+- `native_handle()`: Performs native_handle operation in platform.hpp
+- `reset()`: Performs reset operation in platform.hpp
+- `close()`: Performs close operation in platform.hpp
+- `set_error_mode()`: Sets or updates _error_mode value in platform.hpp
 ### Namespaces
 - `detail`
 - `netapi`
@@ -41,27 +41,27 @@ The `platform.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Враперы вокруг некоторых WinAPI функций
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `deleter`: Removes or deletes specified item and releases associated resources
-- `error_state`: Implements error_state functionality
-- `function_pointer`: Implements function_pointer functionality
-- `handle_closer`: Implements handle_closer functionality
-- `handle_implementation`: Implements handle_implementation functionality
-- `handle_t`: Implements handle_t functionality
-- `last_error_guard`: Implements last_error_guard functionality
-- `module`: Run-Time Dynamic Linking
-- `module_deleter`: Implements module_deleter functionality
-- `nt_handle_closer`: Implements nt_handle_closer functionality
+- `deleter`: Deletes or removes an item or resource in platform.hpp
+- `error_state`: Performs error_state operation in platform.hpp
+- `function_pointer`: Performs function_pointer operation in platform.hpp
+- `handle_closer`: Performs handle_closer operation in platform.hpp
+- `handle_implementation`: Performs handle_implementation operation in platform.hpp
+- `handle_t`: Performs handle_t operation in platform.hpp
+- `last_error_guard`: Performs last_error_guard operation in platform.hpp
+- `module`: Performs module operation in platform.hpp
+- `module_deleter`: Performs module_deleter operation in platform.hpp
+- `nt_handle_closer`: Performs nt_handle_closer operation in platform.hpp
 ### Kluczowe Funkcje
-- `buffer()`: Implements buffer functionality
-- `wait()`: Implements wait functionality
-- `is_signaled()`: Checks condition and returns boolean indicating state
-- `wait_any()`: Implements wait_any functionality
-- `wait_all()`: Implements wait_all functionality
-- `normalise()`: Implements normalise functionality
-- `native_handle()`: Implements native_handle functionality
-- `reset()`: Implements reset functionality
-- `close()`: Implements close functionality
-- `set_error_mode()`: Updates _error_mode with provided value and validates constraints
+- `buffer()`: Performs buffer operation in platform.hpp
+- `wait()`: Performs wait operation in platform.hpp
+- `is_signaled()`: Checks a condition in platform.hpp and returns the result
+- `wait_any()`: Performs wait_any operation in platform.hpp
+- `wait_all()`: Performs wait_all operation in platform.hpp
+- `normalise()`: Performs normalise operation in platform.hpp
+- `native_handle()`: Performs native_handle operation in platform.hpp
+- `reset()`: Performs reset operation in platform.hpp
+- `close()`: Performs close operation in platform.hpp
+- `set_error_mode()`: Sets or updates _error_mode value in platform.hpp
 ### Przestrzenie nazw
 - `detail`
 - `netapi`

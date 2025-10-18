@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `engine`: Implements engine functionality
-- `level`: Implements level functionality
-- `suppressor`: Implements suppressor functionality
+- `engine`: Performs engine operation in log.hpp
+- `level`: Performs level operation in log.hpp
+- `suppressor`: Performs suppressor operation in log.hpp
 ### Key Functions
-- `filter()`: Implements filter functionality
-- `show()`: Implements show functionality
-- `configure()`: Implements configure functionality
-- `is_log_argument()`: Checks condition and returns boolean indicating state
-- `main()`: Program entry point that parses arguments and coordinates main execution flow
+- `filter()`: Performs filter operation in log.hpp
+- `show()`: Performs show operation in log.hpp
+- `configure()`: Performs configure operation in log.hpp
+- `is_log_argument()`: Checks a condition in log.hpp and returns the result
+- `main()`: Main entry point in log.hpp that starts program execution
 ### Namespaces
 - `detail`
 - `logging`
@@ -24,15 +24,15 @@ The `log.hpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `engine`: Implements engine functionality
-- `level`: Implements level functionality
-- `suppressor`: Implements suppressor functionality
+- `engine`: Performs engine operation in log.hpp
+- `level`: Performs level operation in log.hpp
+- `suppressor`: Performs suppressor operation in log.hpp
 ### Kluczowe Funkcje
-- `filter()`: Implements filter functionality
-- `show()`: Implements show functionality
-- `configure()`: Implements configure functionality
-- `is_log_argument()`: Checks condition and returns boolean indicating state
-- `main()`: Program entry point that parses arguments and coordinates main execution flow
+- `filter()`: Performs filter operation in log.hpp
+- `show()`: Performs show operation in log.hpp
+- `configure()`: Performs configure operation in log.hpp
+- `is_log_argument()`: Checks a condition in log.hpp and returns the result
+- `main()`: Main entry point in log.hpp that starts program execution
 ### Przestrzenie nazw
 - `detail`
 - `logging`

@@ -4,18 +4,18 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ARJHd1`: Implements ARJHd1 functionality
-- `ARJHd2`: Implements ARJHd2 functionality
+- `ARJHd1`: Performs ARJHd1 operation in arj.cpp
+- `ARJHd2`: Performs ARJHd2 operation in arj.cpp
 ### Key Functions
-- `make_crctable()`: indicates file starting position field (for split files) indicates filename translated ("\" changed to "/") obsolete
-- `crc_buf()`: Implements crc_buf functionality
-- `IsArchive()`: Checks condition and returns boolean indicating state
-- `OpenArchive()`: header id (main and local file) = 0x60 0xEA basic header size (from 'first_hdr_size' thru 'comment' below)
-- `GetArcItem()`: header id (main and local file) = 0x60 0xEA basic header size
-- `CloseArchive()`: Implements CloseArchive functionality
-- `GetSFXPos()`: Correct Arj/Win32 commands Extract without paths
-- `GetFormatName()`: Correct Arj/Win32 commands Extract without paths
-- `GetDefaultCommands()`: Correct Arj/Win32 commands Extract without paths
+- `make_crctable()`: indicates dual-name archive
+- `crc_buf()`: indicates file starting position field (for split files)
+- `IsArchive()`: indicates filename translated ("\" changed to "/")
+- `OpenArchive()`: Opens a file or creates a file handle in arj.cpp
+- `GetArcItem()`: Retrieves ArcItem value in arj.cpp
+- `CloseArchive()`: Performs CloseArchive operation in arj.cpp
+- `GetSFXPos()`: Retrieves SFXPos value in arj.cpp
+- `GetFormatName()`: Retrieves FormatName value in arj.cpp
+- `GetDefaultCommands()`: Retrieves DefaultCommands value in arj.cpp
 ### Summary
 The `arj.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -26,17 +26,17 @@ The `arj.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ARJHd1`: Implements ARJHd1 functionality
-- `ARJHd2`: Implements ARJHd2 functionality
+- `ARJHd1`: Performs ARJHd1 operation in arj.cpp
+- `ARJHd2`: Performs ARJHd2 operation in arj.cpp
 ### Kluczowe Funkcje
-- `make_crctable()`: indicates file starting position field (for split files) indicates filename translated ("\" changed to "/") obsolete
-- `crc_buf()`: Implements crc_buf functionality
-- `IsArchive()`: Checks condition and returns boolean indicating state
-- `OpenArchive()`: header id (main and local file) = 0x60 0xEA basic header size (from 'first_hdr_size' thru 'comment' below)
-- `GetArcItem()`: header id (main and local file) = 0x60 0xEA basic header size
-- `CloseArchive()`: Implements CloseArchive functionality
-- `GetSFXPos()`: Correct Arj/Win32 commands Extract without paths
-- `GetFormatName()`: Correct Arj/Win32 commands Extract without paths
-- `GetDefaultCommands()`: Correct Arj/Win32 commands Extract without paths
+- `make_crctable()`: indicates dual-name archive
+- `crc_buf()`: indicates file starting position field (for split files)
+- `IsArchive()`: indicates filename translated ("\" changed to "/")
+- `OpenArchive()`: Opens a file or creates a file handle in arj.cpp
+- `GetArcItem()`: Retrieves ArcItem value in arj.cpp
+- `CloseArchive()`: Performs CloseArchive operation in arj.cpp
+- `GetSFXPos()`: Retrieves SFXPos value in arj.cpp
+- `GetFormatName()`: Retrieves FormatName value in arj.cpp
+- `GetDefaultCommands()`: Retrieves DefaultCommands value in arj.cpp
 ### Podsumowanie
 Plik `arj.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

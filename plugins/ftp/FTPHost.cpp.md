@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `WarnOldFormat()`: Implements WarnOldFormat functionality
-- `PasswordToHex()`: Implements PasswordToHex functionality
-- `HexToNum()`: Implements HexToNum functionality
-- `HexToPassword_OLD()`: Implements HexToPassword_OLD functionality
-- `HexToPassword_2740()`: Implements HexToPassword_2740 functionality
-- `HexToPassword_CUR()`: Implements HexToPassword_CUR functionality
-- `strcpy()`: Implements strcpy functionality
-- `AddPath()`: Implements AddPath functionality
-- `WritePrivateProfileString()`: Implements WritePrivateProfileString functionality
+- `WarnOldFormat()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `PasswordToHex()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToNum()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToPassword_OLD()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToPassword_2740()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToPassword_CUR()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `strcpy()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `AddPath()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `WritePrivateProfileString()`: Performs WritePrivateProfileString operation in FTPHost.cpp
 ### Summary
 The `FTPHost.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `FTPHost.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `WarnOldFormat()`: Implements WarnOldFormat functionality
-- `PasswordToHex()`: Implements PasswordToHex functionality
-- `HexToNum()`: Implements HexToNum functionality
-- `HexToPassword_OLD()`: Implements HexToPassword_OLD functionality
-- `HexToPassword_2740()`: Implements HexToPassword_2740 functionality
-- `HexToPassword_CUR()`: Implements HexToPassword_CUR functionality
-- `strcpy()`: Implements strcpy functionality
-- `AddPath()`: Implements AddPath functionality
-- `WritePrivateProfileString()`: Implements WritePrivateProfileString functionality
+- `WarnOldFormat()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `PasswordToHex()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToNum()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToPassword_OLD()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToPassword_2740()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `HexToPassword_CUR()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `strcpy()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `AddPath()`: Checks a condition in FTPHost.cpp and returns true or false based on the result
+- `WritePrivateProfileString()`: Performs WritePrivateProfileString operation in FTPHost.cpp
 ### Podsumowanie
 Plik `FTPHost.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

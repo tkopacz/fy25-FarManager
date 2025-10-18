@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `IsEOL()`: inline bool IsEOL(char c) { return c == '\n' || c == '\r'; } inline bool IsEmpty (char c) { return c == ' ' || c == '\t'; }
-- `IsEmpty()`: inline bool IsEOL(char c) { return c == '\n' || c == '\r'; } inline bool IsEmpty (char c) { return c == ' ' || c == '\t'; }
-- `GetLngHlfParam()`: Retrieves LngHlfParam from current context or object state
-- `FindStrEnd()`: Implements FindStrEnd functionality
-- `FindNextStr()`: Implements FindNextStr functionality
-- `FindQuotedSubstr()`: Processes input by dispatching to different code paths based on type or value
-- `TranslateMessage()`: Processes input by dispatching to different code paths based on type or value
-- `ScanMsgsBuf()`: Implements ScanMsgsBuf functionality
-- `LoadLanguageFile()`: Implements LoadLanguageFile functionality
-- `SearchAndLoadLanguageFile()`: Implements SearchAndLoadLanguageFile functionality
+- `IsEOL()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `IsEmpty()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `GetLngHlfParam()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `FindStrEnd()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `FindNextStr()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `FindQuotedSubstr()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `TranslateMessage()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `ScanMsgsBuf()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `LoadLanguageFile()`: Opens and manages a file in farlng.cpp, handling resource cleanup
+- `SearchAndLoadLanguageFile()`: Checks a condition in farlng.cpp and returns true or false based on the result
 ### Summary
 The `farlng.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `farlng.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `IsEOL()`: inline bool IsEOL(char c) { return c == '\n' || c == '\r'; } inline bool IsEmpty (char c) { return c == ' ' || c == '\t'; }
-- `IsEmpty()`: inline bool IsEOL(char c) { return c == '\n' || c == '\r'; } inline bool IsEmpty (char c) { return c == ' ' || c == '\t'; }
-- `GetLngHlfParam()`: Retrieves LngHlfParam from current context or object state
-- `FindStrEnd()`: Implements FindStrEnd functionality
-- `FindNextStr()`: Implements FindNextStr functionality
-- `FindQuotedSubstr()`: Processes input by dispatching to different code paths based on type or value
-- `TranslateMessage()`: Processes input by dispatching to different code paths based on type or value
-- `ScanMsgsBuf()`: Implements ScanMsgsBuf functionality
-- `LoadLanguageFile()`: Implements LoadLanguageFile functionality
-- `SearchAndLoadLanguageFile()`: Implements SearchAndLoadLanguageFile functionality
+- `IsEOL()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `IsEmpty()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `GetLngHlfParam()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `FindStrEnd()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `FindNextStr()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `FindQuotedSubstr()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `TranslateMessage()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `ScanMsgsBuf()`: Checks a condition in farlng.cpp and returns true or false based on the result
+- `LoadLanguageFile()`: Opens and manages a file in farlng.cpp, handling resource cleanup
+- `SearchAndLoadLanguageFile()`: Checks a condition in farlng.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `farlng.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

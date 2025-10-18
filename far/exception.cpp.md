@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `source_location_to_string()`: Platform: Common: External: ----------------------------------------------------------------------------
-- `with_exception_stacktrace()`: Validates conditions and throws exceptions when errors are detected during with_exception_stacktrace operation
-- `throw_far_exception()`: Validates conditions and throws exceptions when errors are detected during throw_far_exception operation
+- `source_location_to_string()`: Performs source_location_to_string operation in exception.cpp
+- `with_exception_stacktrace()`: Performs with_exception_stacktrace operation in exception.cpp
+- `throw_far_exception()`: Performs throw_far_exception operation in exception.cpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -17,9 +17,9 @@ The `exception.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `source_location_to_string()`: Platform: Common: External: ----------------------------------------------------------------------------
-- `with_exception_stacktrace()`: Validates conditions and throws exceptions when errors are detected during with_exception_stacktrace operation
-- `throw_far_exception()`: Validates conditions and throws exceptions when errors are detected during throw_far_exception operation
+- `source_location_to_string()`: Performs source_location_to_string operation in exception.cpp
+- `with_exception_stacktrace()`: Performs with_exception_stacktrace operation in exception.cpp
+- `throw_far_exception()`: Performs throw_far_exception operation in exception.cpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

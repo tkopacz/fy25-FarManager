@@ -4,21 +4,21 @@
 This file implements functionality related to: Надстройка над Edit.
 Main functional areas: text editing
 ### Key Classes
-- `Callback`: Implements Callback functionality
-- `DlgEdit`: Implements DlgEdit functionality
-- `History`: Implements History functionality
-- `VMenu2`: Implements VMenu2 functionality
+- `Callback`: Performs Callback operation in editcontrol.hpp
+- `DlgEdit`: Performs DlgEdit operation in editcontrol.hpp
+- `History`: Performs History operation in editcontrol.hpp
+- `VMenu2`: Performs VMenu2 operation in editcontrol.hpp
 ### Key Functions
-- `ProcessKey()`: Processes input data through core business logic pipeline
-- `ProcessMouse()`: Processes input data through core business logic pipeline
-- `Show()`: Implements Show functionality
-- `Changed()`: Implements Changed functionality
-- `GetMaxLength()`: Retrieves MaxLength from current context or object state
-- `ResizeConsole()`: Implements ResizeConsole functionality
-- `AutoComplete()`: Implements AutoComplete functionality
-- `SetAutocomplete()`: Updates Autocomplete with provided value and validates constraints
-- `GetAutocomplete()`: Retrieves Autocomplete from current context or object state
-- `SetMacroAreaAC()`: Updates MacroAreaAC with provided value and validates constraints
+- `ProcessKey()`: Processes input data in editcontrol.hpp
+- `ProcessMouse()`: Processes input data in editcontrol.hpp
+- `Show()`: Performs Show operation in editcontrol.hpp
+- `Changed()`: Performs Changed operation in editcontrol.hpp
+- `GetMaxLength()`: Retrieves MaxLength value in editcontrol.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in editcontrol.hpp
+- `AutoComplete()`: Performs AutoComplete operation in editcontrol.hpp
+- `SetAutocomplete()`: Sets or updates Autocomplete value in editcontrol.hpp
+- `GetAutocomplete()`: Retrieves Autocomplete value in editcontrol.hpp
+- `SetMacroAreaAC()`: Sets or updates MacroAreaAC value in editcontrol.hpp
 ### Summary
 The `editcontrol.hpp` file provides essential functionality for text editing. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -29,20 +29,20 @@ The `editcontrol.hpp` file provides essential functionality for text editing. It
 Ten plik implementuje funkcjonalność związaną z: Надстройка над Edit.
 Główne obszary funkcjonalne: edycja tekstu
 ### Kluczowe Klasy
-- `Callback`: Implements Callback functionality
-- `DlgEdit`: Implements DlgEdit functionality
-- `History`: Implements History functionality
-- `VMenu2`: Implements VMenu2 functionality
+- `Callback`: Performs Callback operation in editcontrol.hpp
+- `DlgEdit`: Performs DlgEdit operation in editcontrol.hpp
+- `History`: Performs History operation in editcontrol.hpp
+- `VMenu2`: Performs VMenu2 operation in editcontrol.hpp
 ### Kluczowe Funkcje
-- `ProcessKey()`: Processes input data through core business logic pipeline
-- `ProcessMouse()`: Processes input data through core business logic pipeline
-- `Show()`: Implements Show functionality
-- `Changed()`: Implements Changed functionality
-- `GetMaxLength()`: Retrieves MaxLength from current context or object state
-- `ResizeConsole()`: Implements ResizeConsole functionality
-- `AutoComplete()`: Implements AutoComplete functionality
-- `SetAutocomplete()`: Updates Autocomplete with provided value and validates constraints
-- `GetAutocomplete()`: Retrieves Autocomplete from current context or object state
-- `SetMacroAreaAC()`: Updates MacroAreaAC with provided value and validates constraints
+- `ProcessKey()`: Processes input data in editcontrol.hpp
+- `ProcessMouse()`: Processes input data in editcontrol.hpp
+- `Show()`: Performs Show operation in editcontrol.hpp
+- `Changed()`: Performs Changed operation in editcontrol.hpp
+- `GetMaxLength()`: Retrieves MaxLength value in editcontrol.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in editcontrol.hpp
+- `AutoComplete()`: Performs AutoComplete operation in editcontrol.hpp
+- `SetAutocomplete()`: Sets or updates Autocomplete value in editcontrol.hpp
+- `GetAutocomplete()`: Retrieves Autocomplete value in editcontrol.hpp
+- `SetMacroAreaAC()`: Sets or updates MacroAreaAC value in editcontrol.hpp
 ### Podsumowanie
 Plik `editcontrol.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

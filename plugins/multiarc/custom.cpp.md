@@ -4,20 +4,20 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `Meta`: Implements Meta functionality
-- `MetaReplacer`: Implements MetaReplacer functionality
-- `StringList`: ///////////////////////////////// Constants ///////////////////////////////////////////////////////////////////////////// Class StringList
+- `Meta`: Performs Meta operation in custom.cpp
+- `MetaReplacer`: Performs MetaReplacer operation in custom.cpp
+- `StringList`: Performs StringList operation in custom.cpp
 ### Key Functions
-- `OpenArchivePipe()`: Implements OpenArchivePipe functionality
-- `GetString()`: Retrieves String from current context or object state
-- `HexCharToNum()`: Implements HexCharToNum functionality
-- `GetSectionName()`: Retrieves SectionName from current context or object state
-- `GetIniString()`: Retrieves IniString from current context or object state
-- `GetIniInt()`: Retrieves IniInt from current context or object state
-- `FillFormat()`: Implements FillFormat functionality
-- `MakeFiletime()`: Implements MakeFiletime functionality
-- `StringToInt()`: Implements StringToInt functionality
-- `StringToInt64()`: Implements StringToInt64 functionality
+- `OpenArchivePipe()`: Performs OpenArchivePipe operation in custom.cpp
+- `GetString()`: Retrieves String value in custom.cpp
+- `HexCharToNum()`: Performs HexCharToNum operation in custom.cpp
+- `GetSectionName()`: Checks a condition in custom.cpp and returns true or false based on the result
+- `GetIniString()`: Checks a condition in custom.cpp and returns true or false based on the result
+- `GetIniInt()`: Checks a condition in custom.cpp and returns true or false based on the result
+- `FillFormat()`: Performs FillFormat operation in custom.cpp
+- `MakeFiletime()`: Performs MakeFiletime operation in custom.cpp
+- `StringToInt()`: Performs StringToInt operation in custom.cpp
+- `StringToInt64()`: Performs StringToInt64 operation in custom.cpp
 ### Namespaces
 - `PCRE`
 ### Summary
@@ -30,20 +30,20 @@ The `custom.cpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Meta`: Implements Meta functionality
-- `MetaReplacer`: Implements MetaReplacer functionality
-- `StringList`: ///////////////////////////////// Constants ///////////////////////////////////////////////////////////////////////////// Class StringList
+- `Meta`: Performs Meta operation in custom.cpp
+- `MetaReplacer`: Performs MetaReplacer operation in custom.cpp
+- `StringList`: Performs StringList operation in custom.cpp
 ### Kluczowe Funkcje
-- `OpenArchivePipe()`: Implements OpenArchivePipe functionality
-- `GetString()`: Retrieves String from current context or object state
-- `HexCharToNum()`: Implements HexCharToNum functionality
-- `GetSectionName()`: Retrieves SectionName from current context or object state
-- `GetIniString()`: Retrieves IniString from current context or object state
-- `GetIniInt()`: Retrieves IniInt from current context or object state
-- `FillFormat()`: Implements FillFormat functionality
-- `MakeFiletime()`: Implements MakeFiletime functionality
-- `StringToInt()`: Implements StringToInt functionality
-- `StringToInt64()`: Implements StringToInt64 functionality
+- `OpenArchivePipe()`: Performs OpenArchivePipe operation in custom.cpp
+- `GetString()`: Retrieves String value in custom.cpp
+- `HexCharToNum()`: Performs HexCharToNum operation in custom.cpp
+- `GetSectionName()`: Checks a condition in custom.cpp and returns true or false based on the result
+- `GetIniString()`: Checks a condition in custom.cpp and returns true or false based on the result
+- `GetIniInt()`: Checks a condition in custom.cpp and returns true or false based on the result
+- `FillFormat()`: Performs FillFormat operation in custom.cpp
+- `MakeFiletime()`: Performs MakeFiletime operation in custom.cpp
+- `StringToInt()`: Performs StringToInt operation in custom.cpp
+- `StringToInt64()`: Performs StringToInt64 operation in custom.cpp
 ### Przestrzenie nazw
 - `PCRE`
 ### Podsumowanie

@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveModuleInformation`: Implements ArchiveModuleInformation functionality
+- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation in rar.cpp
 ### Key Functions
-- `OnInitialize()`: Implements OnInitialize functionality
-- `RarModule()`: Implements RarModule functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `RarArchive()`: Implements RarArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: Implements OnCloseArchive functionality
-- `OnFinalizeArchive()`: Implements OnFinalizeArchive functionality
-- `OnGetArchivePluginInfo()`: Implements OnGetArchivePluginInfo functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
+- `OnInitialize()`: Performs OnInitialize operation in rar.cpp
+- `RarModule()`: Performs RarModule operation in rar.cpp
+- `OnFinalize()`: Performs OnFinalize operation in rar.cpp
+- `OnQueryArchive()`: Performs OnQueryArchive operation in rar.cpp
+- `RarArchive()`: Performs RarArchive operation in rar.cpp
+- `OnOpenArchive()`: Performs OnOpenArchive operation in rar.cpp
+- `OnCloseArchive()`: Performs OnCloseArchive operation in rar.cpp
+- `OnFinalizeArchive()`: Performs OnFinalizeArchive operation in rar.cpp
+- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in rar.cpp
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in rar.cpp
 ### Summary
 The `rar.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `rar.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveModuleInformation`: Implements ArchiveModuleInformation functionality
+- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation in rar.cpp
 ### Kluczowe Funkcje
-- `OnInitialize()`: Implements OnInitialize functionality
-- `RarModule()`: Implements RarModule functionality
-- `OnFinalize()`: Implements OnFinalize functionality
-- `OnQueryArchive()`: Implements OnQueryArchive functionality
-- `RarArchive()`: Implements RarArchive functionality
-- `OnOpenArchive()`: Implements OnOpenArchive functionality
-- `OnCloseArchive()`: Implements OnCloseArchive functionality
-- `OnFinalizeArchive()`: Implements OnFinalizeArchive functionality
-- `OnGetArchivePluginInfo()`: Implements OnGetArchivePluginInfo functionality
-- `OnGetArchiveItem()`: Implements OnGetArchiveItem functionality
+- `OnInitialize()`: Performs OnInitialize operation in rar.cpp
+- `RarModule()`: Performs RarModule operation in rar.cpp
+- `OnFinalize()`: Performs OnFinalize operation in rar.cpp
+- `OnQueryArchive()`: Performs OnQueryArchive operation in rar.cpp
+- `RarArchive()`: Performs RarArchive operation in rar.cpp
+- `OnOpenArchive()`: Performs OnOpenArchive operation in rar.cpp
+- `OnCloseArchive()`: Performs OnCloseArchive operation in rar.cpp
+- `OnFinalizeArchive()`: Performs OnFinalizeArchive operation in rar.cpp
+- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in rar.cpp
+- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in rar.cpp
 ### Podsumowanie
 Plik `rar.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

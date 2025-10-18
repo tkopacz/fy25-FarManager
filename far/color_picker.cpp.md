@@ -4,19 +4,19 @@
 This file implements functionality related to: Standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_state`: Implements color_state functionality
-- `single_color_state`: Implements single_color_state functionality
+- `color_state`: Performs color_state operation in color_picker.cpp
+- `single_color_state`: Performs single_color_state operation in color_picker.cpp
 ### Key Functions
-- `color_code()`: Implements color_code functionality
-- `fg_item()`: Implements fg_item functionality
-- `bg_item()`: Implements bg_item functionality
-- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from current context or object state
-- `refresh_fg()`: Implements refresh_fg functionality
-- `refresh_bg()`: Implements refresh_bg functionality
-- `GetColorDlgProc()`: Retrieves ColorDlgProc from current context or object state
-- `scd_item()`: Implements scd_item functionality
-- `activate_control()`: Implements activate_control functionality
-- `disable_if_needed()`: Implements disable_if_needed functionality
+- `color_code()`: Performs color_code operation in color_picker.cpp
+- `fg_item()`: Performs fg_item operation in color_picker.cpp
+- `bg_item()`: Performs bg_item operation in color_picker.cpp
+- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc value in color_picker.cpp
+- `refresh_fg()`: Performs refresh_fg operation in color_picker.cpp
+- `refresh_bg()`: Performs refresh_bg operation in color_picker.cpp
+- `GetColorDlgProc()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `scd_item()`: Performs scd_item operation in color_picker.cpp
+- `activate_control()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `disable_if_needed()`: Checks a condition in color_picker.cpp and returns true or false based on the result
 ### Namespaces
 - `cb`
 - `cd`
@@ -34,19 +34,19 @@ The `color_picker.cpp` file provides essential functionality for color managemen
 Ten plik implementuje funkcjonalność związaną z: Standard color picker
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_state`: Implements color_state functionality
-- `single_color_state`: Implements single_color_state functionality
+- `color_state`: Performs color_state operation in color_picker.cpp
+- `single_color_state`: Performs single_color_state operation in color_picker.cpp
 ### Kluczowe Funkcje
-- `color_code()`: Implements color_code functionality
-- `fg_item()`: Implements fg_item functionality
-- `bg_item()`: Implements bg_item functionality
-- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from current context or object state
-- `refresh_fg()`: Implements refresh_fg functionality
-- `refresh_bg()`: Implements refresh_bg functionality
-- `GetColorDlgProc()`: Retrieves ColorDlgProc from current context or object state
-- `scd_item()`: Implements scd_item functionality
-- `activate_control()`: Implements activate_control functionality
-- `disable_if_needed()`: Implements disable_if_needed functionality
+- `color_code()`: Performs color_code operation in color_picker.cpp
+- `fg_item()`: Performs fg_item operation in color_picker.cpp
+- `bg_item()`: Performs bg_item operation in color_picker.cpp
+- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc value in color_picker.cpp
+- `refresh_fg()`: Performs refresh_fg operation in color_picker.cpp
+- `refresh_bg()`: Performs refresh_bg operation in color_picker.cpp
+- `GetColorDlgProc()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `scd_item()`: Performs scd_item operation in color_picker.cpp
+- `activate_control()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `disable_if_needed()`: Checks a condition in color_picker.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `cb`
 - `cd`

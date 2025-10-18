@@ -4,17 +4,17 @@
 This file implements functionality related to: Threads, mutexes, events, critical sections etc.
 Main functional areas: core functionality
 ### Key Classes
-- `i_shared_mutex`: Implements i_shared_mutex functionality
-- `s`: Implements s functionality
+- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.cpp
+- `s`: Performs s operation in platform.concurrency.cpp
 ### Key Functions
-- `far_fatal_exception()`: Implements far_fatal_exception functionality
-- `lock()`: Implements lock functionality
-- `try_lock()`: Implements try_lock functionality
-- `unlock()`: Implements unlock functionality
-- `lock_shared()`: Implements lock_shared functionality
-- `try_lock_shared()`: Implements try_lock_shared functionality
-- `unlock_shared()`: Implements unlock_shared functionality
-- `wrapper()`: Implements wrapper functionality
+- `far_fatal_exception()`: Performs far_fatal_exception operation in platform.concurrency.cpp
+- `lock()`: Performs lock operation in platform.concurrency.cpp
+- `try_lock()`: Performs try_lock operation in platform.concurrency.cpp
+- `unlock()`: Performs unlock operation in platform.concurrency.cpp
+- `lock_shared()`: Performs lock_shared operation in platform.concurrency.cpp
+- `try_lock_shared()`: Performs try_lock_shared operation in platform.concurrency.cpp
+- `unlock_shared()`: Performs unlock_shared operation in platform.concurrency.cpp
+- `wrapper()`: Performs wrapper operation in platform.concurrency.cpp
 ### Namespaces
 - `detail`
 - `os`
@@ -28,17 +28,17 @@ The `platform.concurrency.cpp` file provides essential functionality for core fu
 Ten plik implementuje funkcjonalność związaną z: Threads, mutexes, events, critical sections etc.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `i_shared_mutex`: Implements i_shared_mutex functionality
-- `s`: Implements s functionality
+- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.cpp
+- `s`: Performs s operation in platform.concurrency.cpp
 ### Kluczowe Funkcje
-- `far_fatal_exception()`: Implements far_fatal_exception functionality
-- `lock()`: Implements lock functionality
-- `try_lock()`: Implements try_lock functionality
-- `unlock()`: Implements unlock functionality
-- `lock_shared()`: Implements lock_shared functionality
-- `try_lock_shared()`: Implements try_lock_shared functionality
-- `unlock_shared()`: Implements unlock_shared functionality
-- `wrapper()`: Implements wrapper functionality
+- `far_fatal_exception()`: Performs far_fatal_exception operation in platform.concurrency.cpp
+- `lock()`: Performs lock operation in platform.concurrency.cpp
+- `try_lock()`: Performs try_lock operation in platform.concurrency.cpp
+- `unlock()`: Performs unlock operation in platform.concurrency.cpp
+- `lock_shared()`: Performs lock_shared operation in platform.concurrency.cpp
+- `try_lock_shared()`: Performs try_lock_shared operation in platform.concurrency.cpp
+- `unlock_shared()`: Performs unlock_shared operation in platform.concurrency.cpp
+- `wrapper()`: Performs wrapper operation in platform.concurrency.cpp
 ### Przestrzenie nazw
 - `detail`
 - `os`

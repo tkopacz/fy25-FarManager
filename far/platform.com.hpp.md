@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `initialize`: Initializes component with required configuration and state
-- `memory_releaser`: Implements memory_releaser functionality
-- `releaser`: Implements releaser functionality
+- `initialize`: Initializes data structures and prepares for operation in platform.com.hpp
+- `memory_releaser`: Performs memory_releaser operation in platform.com.hpp
+- `releaser`: Performs releaser operation in platform.com.hpp
 ### Key Functions
-- `get_shell_name()`: Retrieves _shell_name from current context or object state
-- `get_shell_filetype_description()`: Retrieves _shell_filetype_description from current context or object state
+- `get_shell_name()`: Retrieves _shell_name value in platform.com.hpp
+- `get_shell_filetype_description()`: Retrieves _shell_filetype_description value in platform.com.hpp
 ### Namespaces
 - `detail`
 - `os`
@@ -21,12 +21,12 @@ The `platform.com.hpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `initialize`: Initializes component with required configuration and state
-- `memory_releaser`: Implements memory_releaser functionality
-- `releaser`: Implements releaser functionality
+- `initialize`: Initializes data structures and prepares for operation in platform.com.hpp
+- `memory_releaser`: Performs memory_releaser operation in platform.com.hpp
+- `releaser`: Performs releaser operation in platform.com.hpp
 ### Kluczowe Funkcje
-- `get_shell_name()`: Retrieves _shell_name from current context or object state
-- `get_shell_filetype_description()`: Retrieves _shell_filetype_description from current context or object state
+- `get_shell_name()`: Retrieves _shell_name value in platform.com.hpp
+- `get_shell_filetype_description()`: Retrieves _shell_filetype_description value in platform.com.hpp
 ### Przestrzenie nazw
 - `detail`
 - `os`

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `IsEOL()`: Checks condition and returns boolean indicating state
-- `IsEmpty()`: Checks condition and returns boolean indicating state
-- `CutTo()`: void CutTo (char *s, char symbol, bool bInclude) for (int i = strlen (s)-1; i >= 0; i--)
-- `CutToSlash()`: void CutTo (char *s, char symbol, bool bInclude) for (int i = strlen (s)-1; i >= 0; i--)
-- `GetLngHlfParam()`: Retrieves LngHlfParam from current context or object state
-- `FindQuotedSubstr()`: Processes input by dispatching to different code paths based on type or value
-- `TranslateMessage()`: Processes input by dispatching to different code paths based on type or value
-- `ScanMsgsBuf()`: Implements ScanMsgsBuf functionality
-- `LoadLanguageFile()`: Implements LoadLanguageFile functionality
-- `SearchAndLoadLanguageFile()`: we already know, this file has a correct language
+- `IsEOL()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `IsEmpty()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `CutTo()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `CutToSlash()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `GetLngHlfParam()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `FindQuotedSubstr()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `TranslateMessage()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `ScanMsgsBuf()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `LoadLanguageFile()`: Opens and manages a file in FarLNG.cpp, handling resource cleanup
+- `SearchAndLoadLanguageFile()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
 ### Summary
 The `FarLNG.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `FarLNG.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `IsEOL()`: Checks condition and returns boolean indicating state
-- `IsEmpty()`: Checks condition and returns boolean indicating state
-- `CutTo()`: void CutTo (char *s, char symbol, bool bInclude) for (int i = strlen (s)-1; i >= 0; i--)
-- `CutToSlash()`: void CutTo (char *s, char symbol, bool bInclude) for (int i = strlen (s)-1; i >= 0; i--)
-- `GetLngHlfParam()`: Retrieves LngHlfParam from current context or object state
-- `FindQuotedSubstr()`: Processes input by dispatching to different code paths based on type or value
-- `TranslateMessage()`: Processes input by dispatching to different code paths based on type or value
-- `ScanMsgsBuf()`: Implements ScanMsgsBuf functionality
-- `LoadLanguageFile()`: Implements LoadLanguageFile functionality
-- `SearchAndLoadLanguageFile()`: we already know, this file has a correct language
+- `IsEOL()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `IsEmpty()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `CutTo()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `CutToSlash()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `GetLngHlfParam()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `FindQuotedSubstr()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `TranslateMessage()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `ScanMsgsBuf()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- `LoadLanguageFile()`: Opens and manages a file in FarLNG.cpp, handling resource cleanup
+- `SearchAndLoadLanguageFile()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `FarLNG.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

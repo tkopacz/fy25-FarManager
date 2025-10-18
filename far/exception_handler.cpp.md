@@ -4,27 +4,27 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `CatchableType`: Implements CatchableType functionality
-- `CatchableTypeArray`: Implements CatchableTypeArray functionality
-- `DelayLoadInfo`: Implements DelayLoadInfo functionality
-- `DelayLoadProc`: Implements DelayLoadProc functionality
-- `EXCEPTION_ASAN_ERROR`: Implements EXCEPTION_ASAN_ERROR functionality
-- `EXCEPTION_SANITIZER_ERROR`: Implements EXCEPTION_SANITIZER_ERROR functionality
-- `PMD`: Implements PMD functionality
-- `THREAD_BASIC_INFORMATION`: Implements THREAD_BASIC_INFORMATION functionality
-- `ThrowInfo`: Implements ThrowInfo functionality
-- `debug_client`: Implements debug_client functionality
+- `CatchableType`: Performs CatchableType operation in exception_handler.cpp
+- `CatchableTypeArray`: Performs CatchableTypeArray operation in exception_handler.cpp
+- `DelayLoadInfo`: Performs DelayLoadInfo operation in exception_handler.cpp
+- `DelayLoadProc`: Performs DelayLoadProc operation in exception_handler.cpp
+- `EXCEPTION_ASAN_ERROR`: Performs EXCEPTION_ASAN_ERROR operation in exception_handler.cpp
+- `EXCEPTION_SANITIZER_ERROR`: Performs EXCEPTION_SANITIZER_ERROR operation in exception_handler.cpp
+- `PMD`: Performs PMD operation in exception_handler.cpp
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in exception_handler.cpp
+- `ThrowInfo`: Performs ThrowInfo operation in exception_handler.cpp
+- `debug_client`: Performs debug_client operation in exception_handler.cpp
 ### Key Functions
-- `code()`: Implements code functionality
-- `exception_record()`: Implements exception_record functionality
-- `context_record()`: Implements context_record functionality
-- `thread_handle()`: Implements thread_handle functionality
-- `thread_id()`: Implements thread_id functionality
-- `report_to_stderr()`: On CI we can't access the filesystem, so just drop everything to stderr
-- `set_report_location()`: On CI we can't access the filesystem, so just drop everything to stderr
-- `disable_exception_handling()`: Validates conditions and throws exceptions when errors are detected during disable_exception_handling operation
-- `exception_handling_in_progress()`: Validates conditions and throws exceptions when errors are detected during exception_handling_in_progress operation
-- `force_stderr_exception_ui()`: Validates conditions and throws exceptions when errors are detected during force_stderr_exception_ui operation
+- `code()`: Performs code operation in exception_handler.cpp
+- `exception_record()`: Performs exception_record operation in exception_handler.cpp
+- `context_record()`: Performs context_record operation in exception_handler.cpp
+- `thread_handle()`: Performs thread_handle operation in exception_handler.cpp
+- `thread_id()`: Performs thread_id operation in exception_handler.cpp
+- `report_to_stderr()`: On CI we can't access the filesystem, so just drop everything to stderr.
+- `set_report_location()`: On CI we can't access the filesystem, so just drop everything to stderr.
+- `disable_exception_handling()`: We can crash in the cleanup phase when profile paths are already destroyed.
+- `exception_handling_in_progress()`: Performs exception_handling_in_progress operation in exception_handler.cpp
+- `force_stderr_exception_ui()`: Performs force_stderr_exception_ui operation in exception_handler.cpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -37,27 +37,27 @@ The `exception_handler.cpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CatchableType`: Implements CatchableType functionality
-- `CatchableTypeArray`: Implements CatchableTypeArray functionality
-- `DelayLoadInfo`: Implements DelayLoadInfo functionality
-- `DelayLoadProc`: Implements DelayLoadProc functionality
-- `EXCEPTION_ASAN_ERROR`: Implements EXCEPTION_ASAN_ERROR functionality
-- `EXCEPTION_SANITIZER_ERROR`: Implements EXCEPTION_SANITIZER_ERROR functionality
-- `PMD`: Implements PMD functionality
-- `THREAD_BASIC_INFORMATION`: Implements THREAD_BASIC_INFORMATION functionality
-- `ThrowInfo`: Implements ThrowInfo functionality
-- `debug_client`: Implements debug_client functionality
+- `CatchableType`: Performs CatchableType operation in exception_handler.cpp
+- `CatchableTypeArray`: Performs CatchableTypeArray operation in exception_handler.cpp
+- `DelayLoadInfo`: Performs DelayLoadInfo operation in exception_handler.cpp
+- `DelayLoadProc`: Performs DelayLoadProc operation in exception_handler.cpp
+- `EXCEPTION_ASAN_ERROR`: Performs EXCEPTION_ASAN_ERROR operation in exception_handler.cpp
+- `EXCEPTION_SANITIZER_ERROR`: Performs EXCEPTION_SANITIZER_ERROR operation in exception_handler.cpp
+- `PMD`: Performs PMD operation in exception_handler.cpp
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in exception_handler.cpp
+- `ThrowInfo`: Performs ThrowInfo operation in exception_handler.cpp
+- `debug_client`: Performs debug_client operation in exception_handler.cpp
 ### Kluczowe Funkcje
-- `code()`: Implements code functionality
-- `exception_record()`: Implements exception_record functionality
-- `context_record()`: Implements context_record functionality
-- `thread_handle()`: Implements thread_handle functionality
-- `thread_id()`: Implements thread_id functionality
-- `report_to_stderr()`: On CI we can't access the filesystem, so just drop everything to stderr
-- `set_report_location()`: On CI we can't access the filesystem, so just drop everything to stderr
-- `disable_exception_handling()`: Validates conditions and throws exceptions when errors are detected during disable_exception_handling operation
-- `exception_handling_in_progress()`: Validates conditions and throws exceptions when errors are detected during exception_handling_in_progress operation
-- `force_stderr_exception_ui()`: Validates conditions and throws exceptions when errors are detected during force_stderr_exception_ui operation
+- `code()`: Performs code operation in exception_handler.cpp
+- `exception_record()`: Performs exception_record operation in exception_handler.cpp
+- `context_record()`: Performs context_record operation in exception_handler.cpp
+- `thread_handle()`: Performs thread_handle operation in exception_handler.cpp
+- `thread_id()`: Performs thread_id operation in exception_handler.cpp
+- `report_to_stderr()`: On CI we can't access the filesystem, so just drop everything to stderr.
+- `set_report_location()`: On CI we can't access the filesystem, so just drop everything to stderr.
+- `disable_exception_handling()`: We can crash in the cleanup phase when profile paths are already destroyed.
+- `exception_handling_in_progress()`: Performs exception_handling_in_progress operation in exception_handler.cpp
+- `force_stderr_exception_ui()`: Performs force_stderr_exception_ui operation in exception_handler.cpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

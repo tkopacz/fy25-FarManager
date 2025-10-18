@@ -4,18 +4,18 @@
 This file implements functionality related to: 256 colors extension to the standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_256_state`: Implements color_256_state functionality
+- `color_256_state`: Performs color_256_state operation in color_picker_256.cpp
 ### Key Functions
-- `Console256ColorToFarColor()`: Implements Console256ColorToFarColor functionality
-- `cube_color()`: Implements cube_color functionality
-- `cube_index()`: Naive inversion doesn't work n
-- `grey_color()`: Naive inversion doesn't work nicely in the middle of the spectre
-- `grey_index()`: Naive inversion doesn't work nicely in the middle of the spectre
-- `foreground_inverse_mapping()`: Naive inversion doesn't work nicely in the middle of the spectre
-- `is_rgb()`: Checks condition and returns boolean indicating state
-- `in_closed_range()`: Implements in_closed_range functionality
-- `is_grey()`: Checks condition and returns boolean indicating state
-- `channel_value()`: Implements channel_value functionality
+- `Console256ColorToFarColor()`: Performs Console256ColorToFarColor operation in color_picker_256.cpp
+- `cube_color()`: Performs cube_color operation in color_picker_256.cpp
+- `cube_index()`: Performs cube_index operation in color_picker_256.cpp
+- `grey_color()`: Performs grey_color operation in color_picker_256.cpp
+- `grey_index()`: Performs grey_index operation in color_picker_256.cpp
+- `foreground_inverse_mapping()`: Naive inversion doesn't work nicely in the middle of the spectre.
+- `is_rgb()`: Checks a condition in color_picker_256.cpp and returns the result
+- `in_closed_range()`: Performs in_closed_range operation in color_picker_256.cpp
+- `is_grey()`: Checks a condition in color_picker_256.cpp and returns the result
+- `channel_value()`: Performs channel_value operation in color_picker_256.cpp
 ### Namespaces
 - `color_picker_common`
 ### Summary
@@ -28,18 +28,18 @@ The `color_picker_256.cpp` file provides essential functionality for color manag
 Ten plik implementuje funkcjonalność związaną z: 256 colors extension to the standard color picker
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_256_state`: Implements color_256_state functionality
+- `color_256_state`: Performs color_256_state operation in color_picker_256.cpp
 ### Kluczowe Funkcje
-- `Console256ColorToFarColor()`: Implements Console256ColorToFarColor functionality
-- `cube_color()`: Implements cube_color functionality
-- `cube_index()`: Naive inversion doesn't work n
-- `grey_color()`: Naive inversion doesn't work nicely in the middle of the spectre
-- `grey_index()`: Naive inversion doesn't work nicely in the middle of the spectre
-- `foreground_inverse_mapping()`: Naive inversion doesn't work nicely in the middle of the spectre
-- `is_rgb()`: Checks condition and returns boolean indicating state
-- `in_closed_range()`: Implements in_closed_range functionality
-- `is_grey()`: Checks condition and returns boolean indicating state
-- `channel_value()`: Implements channel_value functionality
+- `Console256ColorToFarColor()`: Performs Console256ColorToFarColor operation in color_picker_256.cpp
+- `cube_color()`: Performs cube_color operation in color_picker_256.cpp
+- `cube_index()`: Performs cube_index operation in color_picker_256.cpp
+- `grey_color()`: Performs grey_color operation in color_picker_256.cpp
+- `grey_index()`: Performs grey_index operation in color_picker_256.cpp
+- `foreground_inverse_mapping()`: Naive inversion doesn't work nicely in the middle of the spectre.
+- `is_rgb()`: Checks a condition in color_picker_256.cpp and returns the result
+- `in_closed_range()`: Performs in_closed_range operation in color_picker_256.cpp
+- `is_grey()`: Checks a condition in color_picker_256.cpp and returns the result
+- `channel_value()`: Performs channel_value operation in color_picker_256.cpp
 ### Przestrzenie nazw
 - `color_picker_common`
 ### Podsumowanie

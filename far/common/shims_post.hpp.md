@@ -4,11 +4,11 @@
 This file implements functionality related to: Workarounds for supported compilers & libraries
 Main functional areas: core functionality
 ### Key Functions
-- `wcschr()`: Implements wcschr functionality
-- `wcspbrk()`: Implements wcspbrk functionality
-- `wcsrchr()`: Implements wcsrchr functionality
-- `wcsstr()`: ---------------------------------------------------------------------------- -----------------------------------------------------
-- `wmemchr()`: Implements wmemchr functionality
+- `wcschr()`: These inline implementations in gcc/cwchar are wrong and non-compilable if _CONST_RETURN is defined.
+- `wcspbrk()`: These inline implementations in gcc/cwchar are wrong and non-compilable if _CONST_RETURN is defined.
+- `wcsrchr()`: These inline implementations in gcc/cwchar are wrong and non-compilable if _CONST_RETURN is defined.
+- `wcsstr()`: Performs wcsstr operation in shims_post.hpp
+- `wmemchr()`: Performs wmemchr operation in shims_post.hpp
 ### Namespaces
 - `std`
 ### Summary
@@ -21,11 +21,11 @@ The `shims_post.hpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Workarounds for supported compilers & libraries
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `wcschr()`: Implements wcschr functionality
-- `wcspbrk()`: Implements wcspbrk functionality
-- `wcsrchr()`: Implements wcsrchr functionality
-- `wcsstr()`: ---------------------------------------------------------------------------- -----------------------------------------------------
-- `wmemchr()`: Implements wmemchr functionality
+- `wcschr()`: These inline implementations in gcc/cwchar are wrong and non-compilable if _CONST_RETURN is defined.
+- `wcspbrk()`: These inline implementations in gcc/cwchar are wrong and non-compilable if _CONST_RETURN is defined.
+- `wcsrchr()`: These inline implementations in gcc/cwchar are wrong and non-compilable if _CONST_RETURN is defined.
+- `wcsstr()`: Performs wcsstr operation in shims_post.hpp
+- `wmemchr()`: Performs wmemchr operation in shims_post.hpp
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

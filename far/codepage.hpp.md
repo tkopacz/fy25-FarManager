@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ansi`: Implements ansi functionality
-- `cp_info`: Implements cp_info functionality
-- `oem`: Implements oem functionality
-- `utf8`: Implements utf8 functionality
+- `ansi`: Performs ansi operation in codepage.hpp
+- `cp_info`: Performs cp_info operation in codepage.hpp
+- `oem`: Performs oem operation in codepage.hpp
+- `utf8`: Performs utf8 operation in codepage.hpp
 ### Key Functions
-- `id()`: Common: External: ---------------------------------------------------------------------------- TODO: namespace
-- `utf8()`: Implements utf8 functionality
-- `ansi()`: Implements ansi functionality
-- `oem()`: Implements oem functionality
-- `normalise()`: Implements normalise functionality
-- `InstalledCodepages()`: Implements InstalledCodepages functionality
-- `GetCodePageInfo()`: Retrieves CodePageInfo from current context or object state
-- `IsVirtualCodePage()`: Checks condition and returns boolean indicating state
-- `IsUtf16CodePage()`: Checks condition and returns boolean indicating state
-- `IsStandardCodePage()`: Checks condition and returns boolean indicating state
+- `id()`: Performs id operation in codepage.hpp
+- `utf8()`: Performs utf8 operation in codepage.hpp
+- `ansi()`: Performs ansi operation in codepage.hpp
+- `oem()`: Performs oem operation in codepage.hpp
+- `normalise()`: Performs normalise operation in codepage.hpp
+- `InstalledCodepages()`: Performs InstalledCodepages operation in codepage.hpp
+- `GetCodePageInfo()`: Retrieves CodePageInfo value in codepage.hpp
+- `IsVirtualCodePage()`: Checks a condition in codepage.hpp and returns the result
+- `IsUtf16CodePage()`: Checks a condition in codepage.hpp and returns the result
+- `IsStandardCodePage()`: Checks a condition in codepage.hpp and returns the result
 ### Namespaces
 - `detail`
 - `encoding`
@@ -31,21 +31,21 @@ The `codepage.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ansi`: Implements ansi functionality
-- `cp_info`: Implements cp_info functionality
-- `oem`: Implements oem functionality
-- `utf8`: Implements utf8 functionality
+- `ansi`: Performs ansi operation in codepage.hpp
+- `cp_info`: Performs cp_info operation in codepage.hpp
+- `oem`: Performs oem operation in codepage.hpp
+- `utf8`: Performs utf8 operation in codepage.hpp
 ### Kluczowe Funkcje
-- `id()`: Common: External: ---------------------------------------------------------------------------- TODO: namespace
-- `utf8()`: Implements utf8 functionality
-- `ansi()`: Implements ansi functionality
-- `oem()`: Implements oem functionality
-- `normalise()`: Implements normalise functionality
-- `InstalledCodepages()`: Implements InstalledCodepages functionality
-- `GetCodePageInfo()`: Retrieves CodePageInfo from current context or object state
-- `IsVirtualCodePage()`: Checks condition and returns boolean indicating state
-- `IsUtf16CodePage()`: Checks condition and returns boolean indicating state
-- `IsStandardCodePage()`: Checks condition and returns boolean indicating state
+- `id()`: Performs id operation in codepage.hpp
+- `utf8()`: Performs utf8 operation in codepage.hpp
+- `ansi()`: Performs ansi operation in codepage.hpp
+- `oem()`: Performs oem operation in codepage.hpp
+- `normalise()`: Performs normalise operation in codepage.hpp
+- `InstalledCodepages()`: Performs InstalledCodepages operation in codepage.hpp
+- `GetCodePageInfo()`: Retrieves CodePageInfo value in codepage.hpp
+- `IsVirtualCodePage()`: Checks a condition in codepage.hpp and returns the result
+- `IsUtf16CodePage()`: Checks a condition in codepage.hpp and returns the result
+- `IsStandardCodePage()`: Checks a condition in codepage.hpp and returns the result
 ### Przestrzenie nazw
 - `detail`
 - `encoding`

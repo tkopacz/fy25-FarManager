@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: panel management
 ### Key Classes
-- `FarPanelInfo`: Implements FarPanelInfo functionality
+- `FarPanelInfo`: Performs FarPanelInfo operation in FarPanelInfo.hpp
 ### Key Functions
-- `Reset()`: Implements Reset functionality
-- `Redraw()`: Implements Redraw functionality
-- `Update()`: Updates existing state with new values
-- `GetPanelItem()`: Retrieves PanelItem from current context or object state
-- `UpdatePanelInfo()`: Updates existing state with new values
-- `GetSelectedItem()`: Retrieves SelectedItem from current context or object state
-- `GetCurrentItem()`: Retrieves CurrentItem from current context or object state
-- `FreePanelItem()`: Implements FreePanelItem functionality
-- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount from current context or object state
-- `GetItemsCount()`: Retrieves ItemsCount from current context or object state
+- `Reset()`: Performs Reset operation in FarPanelInfo.hpp
+- `Redraw()`: Performs Redraw operation in FarPanelInfo.hpp
+- `Update()`: Updates existing data or state in FarPanelInfo.hpp
+- `GetPanelItem()`: Retrieves PanelItem value in FarPanelInfo.hpp
+- `UpdatePanelInfo()`: Updates existing data or state in FarPanelInfo.hpp
+- `GetSelectedItem()`: Retrieves SelectedItem value in FarPanelInfo.hpp
+- `GetCurrentItem()`: Retrieves CurrentItem value in FarPanelInfo.hpp
+- `FreePanelItem()`: Performs FreePanelItem operation in FarPanelInfo.hpp
+- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount value in FarPanelInfo.hpp
+- `GetItemsCount()`: Retrieves ItemsCount value in FarPanelInfo.hpp
 ### Summary
 The `FarPanelInfo.hpp` file provides essential functionality for panel management. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `FarPanelInfo.hpp` file provides essential functionality for panel managemen
 ### Cel
 Główne obszary funkcjonalne: zarządzanie panelami
 ### Kluczowe Klasy
-- `FarPanelInfo`: Implements FarPanelInfo functionality
+- `FarPanelInfo`: Performs FarPanelInfo operation in FarPanelInfo.hpp
 ### Kluczowe Funkcje
-- `Reset()`: Implements Reset functionality
-- `Redraw()`: Implements Redraw functionality
-- `Update()`: Updates existing state with new values
-- `GetPanelItem()`: Retrieves PanelItem from current context or object state
-- `UpdatePanelInfo()`: Updates existing state with new values
-- `GetSelectedItem()`: Retrieves SelectedItem from current context or object state
-- `GetCurrentItem()`: Retrieves CurrentItem from current context or object state
-- `FreePanelItem()`: Implements FreePanelItem functionality
-- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount from current context or object state
-- `GetItemsCount()`: Retrieves ItemsCount from current context or object state
+- `Reset()`: Performs Reset operation in FarPanelInfo.hpp
+- `Redraw()`: Performs Redraw operation in FarPanelInfo.hpp
+- `Update()`: Updates existing data or state in FarPanelInfo.hpp
+- `GetPanelItem()`: Retrieves PanelItem value in FarPanelInfo.hpp
+- `UpdatePanelInfo()`: Updates existing data or state in FarPanelInfo.hpp
+- `GetSelectedItem()`: Retrieves SelectedItem value in FarPanelInfo.hpp
+- `GetCurrentItem()`: Retrieves CurrentItem value in FarPanelInfo.hpp
+- `FreePanelItem()`: Performs FreePanelItem operation in FarPanelInfo.hpp
+- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount value in FarPanelInfo.hpp
+- `GetItemsCount()`: Retrieves ItemsCount value in FarPanelInfo.hpp
 ### Podsumowanie
 Plik `FarPanelInfo.hpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

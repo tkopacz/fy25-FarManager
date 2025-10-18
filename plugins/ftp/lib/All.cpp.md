@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `FTPQueryInterface()`: Implements FTPQueryInterface functionality
-- `FTPPluginGetInterface()`: Implements FTPPluginGetInterface functionality
-- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications
-- `_RTLCheck()`: Implements _RTLCheck functionality
-- `StrCmp()`: Implements StrCmp functionality
-- `StrCpy()`: Implements StrCpy functionality
-- `strlen()`: Implements strlen functionality
-- `strcpy()`: Implements strcpy functionality
+- `FTPQueryInterface()`: Performs FTPQueryInterface operation in All.cpp
+- `FTPPluginGetInterface()`: Performs FTPPluginGetInterface operation in All.cpp
+- `DllMain()`: Main entry point in All.cpp that starts program execution
+- `_RTLCheck()`: Performs _RTLCheck operation in All.cpp
+- `StrCmp()`: Performs StrCmp operation in All.cpp
+- `StrCpy()`: Performs StrCpy operation in All.cpp
+- `strlen()`: Performs strlen operation in All.cpp
+- `strcpy()`: Performs strcpy operation in All.cpp
 ### Summary
 The `All.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `All.cpp` file provides essential functionality for core functionality. and 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `FTPQueryInterface()`: Implements FTPQueryInterface functionality
-- `FTPPluginGetInterface()`: Implements FTPPluginGetInterface functionality
-- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications
-- `_RTLCheck()`: Implements _RTLCheck functionality
-- `StrCmp()`: Implements StrCmp functionality
-- `StrCpy()`: Implements StrCpy functionality
-- `strlen()`: Implements strlen functionality
-- `strcpy()`: Implements strcpy functionality
+- `FTPQueryInterface()`: Performs FTPQueryInterface operation in All.cpp
+- `FTPPluginGetInterface()`: Performs FTPPluginGetInterface operation in All.cpp
+- `DllMain()`: Main entry point in All.cpp that starts program execution
+- `_RTLCheck()`: Performs _RTLCheck operation in All.cpp
+- `StrCmp()`: Performs StrCmp operation in All.cpp
+- `StrCpy()`: Performs StrCpy operation in All.cpp
+- `strlen()`: Performs strlen operation in All.cpp
+- `strcpy()`: Performs strcpy operation in All.cpp
 ### Podsumowanie
 Plik `All.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

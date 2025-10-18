@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Type2Name()`: Processes input by dispatching to different code paths based on type or value
-- `Option2Name()`: Processes input by dispatching to different code paths based on type or value
+- `Type2Name()`: Performs Type2Name operation in SQLTypes.cpp
+- `Option2Name()`: Performs Option2Name operation in SQLTypes.cpp
 ### Summary
 The `SQLTypes.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `SQLTypes.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Type2Name()`: Processes input by dispatching to different code paths based on type or value
-- `Option2Name()`: Processes input by dispatching to different code paths based on type or value
+- `Type2Name()`: Performs Type2Name operation in SQLTypes.cpp
+- `Option2Name()`: Performs Option2Name operation in SQLTypes.cpp
 ### Podsumowanie
 Plik `SQLTypes.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

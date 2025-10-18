@@ -4,27 +4,27 @@
 This file implements functionality related to: Конфигурация
 Main functional areas: configuration management
 ### Key Classes
-- `AutoCompleteOptions`: Implements AutoCompleteOptions functionality
-- `CodeXLAT`: Implements CodeXLAT functionality
-- `CommandLineOptions`: Implements CommandLineOptions functionality
-- `Confirmation`: Implements Confirmation functionality
-- `CopyMoveOptions`: Implements CopyMoveOptions functionality
-- `DeleteOptions`: Removes or deletes specified item and releases associated resources
-- `DialogBuilder`: Implements DialogBuilder functionality
-- `DialogsOptions`: Implements DialogsOptions functionality
-- `DizOptions`: Implements DizOptions functionality
-- `EditorOptions`: Implements EditorOptions functionality
+- `AutoCompleteOptions`: Performs AutoCompleteOptions operation in config.hpp
+- `CodeXLAT`: Performs CodeXLAT operation in config.hpp
+- `CommandLineOptions`: Performs CommandLineOptions operation in config.hpp
+- `Confirmation`: Performs Confirmation operation in config.hpp
+- `CopyMoveOptions`: Performs CopyMoveOptions operation in config.hpp
+- `DeleteOptions`: Deletes or removes an item or resource in config.hpp
+- `DialogBuilder`: Performs DialogBuilder operation in config.hpp
+- `DialogsOptions`: Performs DialogsOptions operation in config.hpp
+- `DizOptions`: Performs DizOptions operation in config.hpp
+- `EditorOptions`: Performs EditorOptions operation in config.hpp
 ### Key Functions
-- `Changed()`: Implements Changed functionality
-- `GetT()`: Retrieves T from current context or object state
-- `SetT()`: Updates T with provided value and validates constraints
-- `MakeUnchanged()`: Implements MakeUnchanged functionality
-- `validator()`: Implements validator functionality
-- `Callable()`: Implements Callable functionality
-- `notifier()`: Implements notifier functionality
-- `SetCallback()`: Updates Callback with provided value and validates constraints
-- `Get()`: Implements Get functionality
-- `Set()`: Implements Set functionality
+- `Changed()`: Performs Changed operation in config.hpp
+- `GetT()`: Retrieves T value in config.hpp
+- `SetT()`: Sets or updates T value in config.hpp
+- `MakeUnchanged()`: Performs MakeUnchanged operation in config.hpp
+- `validator()`: Performs validator operation in config.hpp
+- `Callable()`: Performs Callable operation in config.hpp
+- `notifier()`: Performs notifier operation in config.hpp
+- `SetCallback()`: Sets or updates Callback value in config.hpp
+- `Get()`: Retrieves  value in config.hpp
+- `Set()`: Sets or updates  value in config.hpp
 ### Namespaces
 - `detail`
 - `option`
@@ -38,27 +38,27 @@ The `config.hpp` file provides essential functionality for configuration managem
 Ten plik implementuje funkcjonalność związaną z: Конфигурация
 Główne obszary funkcjonalne: zarządzanie konfiguracją
 ### Kluczowe Klasy
-- `AutoCompleteOptions`: Implements AutoCompleteOptions functionality
-- `CodeXLAT`: Implements CodeXLAT functionality
-- `CommandLineOptions`: Implements CommandLineOptions functionality
-- `Confirmation`: Implements Confirmation functionality
-- `CopyMoveOptions`: Implements CopyMoveOptions functionality
-- `DeleteOptions`: Removes or deletes specified item and releases associated resources
-- `DialogBuilder`: Implements DialogBuilder functionality
-- `DialogsOptions`: Implements DialogsOptions functionality
-- `DizOptions`: Implements DizOptions functionality
-- `EditorOptions`: Implements EditorOptions functionality
+- `AutoCompleteOptions`: Performs AutoCompleteOptions operation in config.hpp
+- `CodeXLAT`: Performs CodeXLAT operation in config.hpp
+- `CommandLineOptions`: Performs CommandLineOptions operation in config.hpp
+- `Confirmation`: Performs Confirmation operation in config.hpp
+- `CopyMoveOptions`: Performs CopyMoveOptions operation in config.hpp
+- `DeleteOptions`: Deletes or removes an item or resource in config.hpp
+- `DialogBuilder`: Performs DialogBuilder operation in config.hpp
+- `DialogsOptions`: Performs DialogsOptions operation in config.hpp
+- `DizOptions`: Performs DizOptions operation in config.hpp
+- `EditorOptions`: Performs EditorOptions operation in config.hpp
 ### Kluczowe Funkcje
-- `Changed()`: Implements Changed functionality
-- `GetT()`: Retrieves T from current context or object state
-- `SetT()`: Updates T with provided value and validates constraints
-- `MakeUnchanged()`: Implements MakeUnchanged functionality
-- `validator()`: Implements validator functionality
-- `Callable()`: Implements Callable functionality
-- `notifier()`: Implements notifier functionality
-- `SetCallback()`: Updates Callback with provided value and validates constraints
-- `Get()`: Implements Get functionality
-- `Set()`: Implements Set functionality
+- `Changed()`: Performs Changed operation in config.hpp
+- `GetT()`: Retrieves T value in config.hpp
+- `SetT()`: Sets or updates T value in config.hpp
+- `MakeUnchanged()`: Performs MakeUnchanged operation in config.hpp
+- `validator()`: Performs validator operation in config.hpp
+- `Callable()`: Performs Callable operation in config.hpp
+- `notifier()`: Performs notifier operation in config.hpp
+- `SetCallback()`: Sets or updates Callback value in config.hpp
+- `Get()`: Retrieves  value in config.hpp
+- `Set()`: Sets or updates  value in config.hpp
 ### Przestrzenie nazw
 - `detail`
 - `option`

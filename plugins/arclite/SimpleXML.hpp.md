@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `IParseCallback`: Implements IParseCallback functionality
-- `cbRet`: Implements cbRet functionality
-- `parseRet`: Implements parseRet functionality
-- `str_view`: ################################################################################################# BUGBUG remove & use string_view
+- `IParseCallback`: #################################################################################################
+- `cbRet`: Performs cbRet operation in SimpleXML.hpp
+- `parseRet`: Performs parseRet operation in SimpleXML.hpp
+- `str_view`: ################################################################################################
 ### Key Functions
-- `empty()`: Implements empty functionality
-- `size()`: Implements size functionality
-- `parse()`: Implements parse functionality
+- `empty()`: #################################################################################################
+- `size()`: BUGBUG remove & use string_view
+- `parse()`: Performs parse operation in SimpleXML.hpp
 ### Namespaces
 - `SimpleXML`
 ### Summary
@@ -22,14 +22,14 @@ The `SimpleXML.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `IParseCallback`: Implements IParseCallback functionality
-- `cbRet`: Implements cbRet functionality
-- `parseRet`: Implements parseRet functionality
-- `str_view`: ################################################################################################# BUGBUG remove & use string_view
+- `IParseCallback`: #################################################################################################
+- `cbRet`: Performs cbRet operation in SimpleXML.hpp
+- `parseRet`: Performs parseRet operation in SimpleXML.hpp
+- `str_view`: ################################################################################################
 ### Kluczowe Funkcje
-- `empty()`: Implements empty functionality
-- `size()`: Implements size functionality
-- `parse()`: Implements parse functionality
+- `empty()`: #################################################################################################
+- `size()`: BUGBUG remove & use string_view
+- `parse()`: Performs parse operation in SimpleXML.hpp
 ### Przestrzenie nazw
 - `SimpleXML`
 ### Podsumowanie

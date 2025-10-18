@@ -4,9 +4,9 @@
 This file implements functionality related to: Pipe-based IPC
 Main functional areas: core functionality
 ### Key Functions
-- `read()`: Internal: Platform: Common: External: ----------------------------------------------------------------------------
-- `far_exception()`: Implements far_exception functionality
-- `write()`: Implements write functionality
+- `read()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
+- `far_exception()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
+- `write()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
 ### Namespaces
 - `pipe`
 ### Summary
@@ -19,9 +19,9 @@ The `pipe.cpp` file provides essential functionality for core functionality. and
 Ten plik implementuje funkcjonalność związaną z: Pipe-based IPC
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `read()`: Internal: Platform: Common: External: ----------------------------------------------------------------------------
-- `far_exception()`: Implements far_exception functionality
-- `write()`: Implements write functionality
+- `read()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
+- `far_exception()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
+- `write()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `pipe`
 ### Podsumowanie

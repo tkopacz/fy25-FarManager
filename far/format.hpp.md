@@ -4,19 +4,19 @@
 This file implements functionality related to: Форматирование строк
 Main functional areas: core functionality
 ### Key Classes
-- `fmt`: Implements fmt functionality
-- `format_no_spec`: Implements format_no_spec functionality
-- `formattable`: Implements formattable functionality
-- `no_spec`: Implements no_spec functionality
-- `parse_no_spec`: Implements parse_no_spec functionality
+- `fmt`: Performs fmt operation in format.hpp
+- `format_no_spec`: Performs format_no_spec operation in format.hpp
+- `formattable`: Performs formattable operation in format.hpp
+- `no_spec`: Performs no_spec operation in format.hpp
+- `parse_no_spec`: Performs parse_no_spec operation in format.hpp
 ### Key Functions
-- `format()`: Implements format functionality
-- `vformat()`: Implements vformat functionality
-- `format_to()`: Iterates through collection and processes each element, storing results
-- `str()`: Iterates through collection and processes each element, storing results
-- `parse()`: Implements parse functionality
-- `to_string()`: Implements to_string functionality
-- `format_as()`: Implements format_as functionality
+- `format()`: Iterates through elements in format.hpp and adds them to a collection
+- `vformat()`: Don't "auto" it yet, ICE in VS2019
+- `format_to()`: Don't "auto" it yet, ICE in VS2019
+- `str()`: Iterates through elements in format.hpp and adds them to a collection
+- `parse()`: Iterates through elements in format.hpp and adds them to a collection
+- `to_string()`: Iterates through elements in format.hpp and adds them to a collection
+- `format_as()`: fmt 9 deprecated implicit enums formatting :(
 ### Namespaces
 - `detail`
 - `far`
@@ -31,19 +31,19 @@ The `format.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: Форматирование строк
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `fmt`: Implements fmt functionality
-- `format_no_spec`: Implements format_no_spec functionality
-- `formattable`: Implements formattable functionality
-- `no_spec`: Implements no_spec functionality
-- `parse_no_spec`: Implements parse_no_spec functionality
+- `fmt`: Performs fmt operation in format.hpp
+- `format_no_spec`: Performs format_no_spec operation in format.hpp
+- `formattable`: Performs formattable operation in format.hpp
+- `no_spec`: Performs no_spec operation in format.hpp
+- `parse_no_spec`: Performs parse_no_spec operation in format.hpp
 ### Kluczowe Funkcje
-- `format()`: Implements format functionality
-- `vformat()`: Implements vformat functionality
-- `format_to()`: Iterates through collection and processes each element, storing results
-- `str()`: Iterates through collection and processes each element, storing results
-- `parse()`: Implements parse functionality
-- `to_string()`: Implements to_string functionality
-- `format_as()`: Implements format_as functionality
+- `format()`: Iterates through elements in format.hpp and adds them to a collection
+- `vformat()`: Don't "auto" it yet, ICE in VS2019
+- `format_to()`: Don't "auto" it yet, ICE in VS2019
+- `str()`: Iterates through elements in format.hpp and adds them to a collection
+- `parse()`: Iterates through elements in format.hpp and adds them to a collection
+- `to_string()`: Iterates through elements in format.hpp and adds them to a collection
+- `format_as()`: fmt 9 deprecated implicit enums formatting :(
 ### Przestrzenie nazw
 - `detail`
 - `far`

@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FILE_BASIC_INFORMATION`: Iterates through collection and processes each element, storing results
+- `FILE_BASIC_INFORMATION`: Performs FILE_BASIC_INFORMATION operation in sysutils.cpp
 ### Key Functions
-- `GetSync()`: Iterates through collection and processes each element, storing results
-- `GetExportSync()`: Iterates through collection and processes each element, storing results
-- `get_system_message()`: Iterates through collection and processes each element, storing results
-- `get_console_title()`: Iterates through collection and processes each element, storing results
-- `wait_for_single_object()`: Iterates through collection and processes each element, storing results
-- `FAIL()`: Throws error exception with error code when condition fails
-- `ansi_to_unicode()`: Iterates through collection and processes each element, storing results
-- `unicode_to_ansi()`: Iterates through collection and processes each element, storing results
-- `expand_env_vars()`: Iterates through collection and processes each element, storing results
-- `get_full_path_name()`: Iterates through collection and processes each element, storing results
+- `GetSync()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `GetExportSync()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `get_system_message()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `get_console_title()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `wait_for_single_object()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `FAIL()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `ansi_to_unicode()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `unicode_to_ansi()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `expand_env_vars()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `get_full_path_name()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
 ### Summary
 The `sysutils.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `sysutils.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FILE_BASIC_INFORMATION`: Iterates through collection and processes each element, storing results
+- `FILE_BASIC_INFORMATION`: Performs FILE_BASIC_INFORMATION operation in sysutils.cpp
 ### Kluczowe Funkcje
-- `GetSync()`: Iterates through collection and processes each element, storing results
-- `GetExportSync()`: Iterates through collection and processes each element, storing results
-- `get_system_message()`: Iterates through collection and processes each element, storing results
-- `get_console_title()`: Iterates through collection and processes each element, storing results
-- `wait_for_single_object()`: Iterates through collection and processes each element, storing results
-- `FAIL()`: Throws error exception with error code when condition fails
-- `ansi_to_unicode()`: Iterates through collection and processes each element, storing results
-- `unicode_to_ansi()`: Iterates through collection and processes each element, storing results
-- `expand_env_vars()`: Iterates through collection and processes each element, storing results
-- `get_full_path_name()`: Iterates through collection and processes each element, storing results
+- `GetSync()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `GetExportSync()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `get_system_message()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `get_console_title()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `wait_for_single_object()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `FAIL()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `ansi_to_unicode()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `unicode_to_ansi()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `expand_env_vars()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
+- `get_full_path_name()`: Validates a condition in sysutils.cpp and throws an exception if the validation fails
 ### Podsumowanie
 Plik `sysutils.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

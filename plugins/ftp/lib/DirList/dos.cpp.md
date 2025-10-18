@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `net_parse_dos_date_time()`: Implements net_parse_dos_date_time functionality
-- `idPRParceDos()`: Implements idPRParceDos functionality
-- `ConvertEntry()`: Implements ConvertEntry functionality
+- `net_parse_dos_date_time()`: Performs net_parse_dos_date_time operation in dos.cpp
+- `idPRParceDos()`: Performs idPRParceDos operation in dos.cpp
+- `ConvertEntry()`: Performs ConvertEntry operation in dos.cpp
 ### Summary
 The `dos.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -15,8 +15,8 @@ The `dos.cpp` file provides essential functionality for core functionality. and 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `net_parse_dos_date_time()`: Implements net_parse_dos_date_time functionality
-- `idPRParceDos()`: Implements idPRParceDos functionality
-- `ConvertEntry()`: Implements ConvertEntry functionality
+- `net_parse_dos_date_time()`: Performs net_parse_dos_date_time operation in dos.cpp
+- `idPRParceDos()`: Performs idPRParceDos operation in dos.cpp
+- `ConvertEntry()`: Performs ConvertEntry operation in dos.cpp
 ### Podsumowanie
 Plik `dos.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,16 +4,16 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Functions
-- `UtfToWide()`: Implements UtfToWide functionality
-- `DecodeFileName()`: Implements DecodeFileName functionality
-- `SetFarInfo()`: Processes input by dispatching to different code paths based on type or value
-- `CallbackProc()`: Processes input by dispatching to different code paths based on type or value
-- `IsArchive()`: Checks condition and returns boolean indicating state
-- `OpenArchive()`: Implements OpenArchive functionality
-- `FreeLibrary()`: Implements FreeLibrary functionality
-- `GetArcItem()`: lstrcpyn(Item->FindData
-- `CloseArchive()`: Implements CloseArchive functionality
-- `pRARCloseArchive()`: Plugin "Save settings" does not work well if we return different format names
+- `UtfToWide()`: Performs UtfToWide operation in rar.cpp
+- `DecodeFileName()`: Performs DecodeFileName operation in rar.cpp
+- `SetFarInfo()`: Sets or updates FarInfo value in rar.cpp
+- `CallbackProc()`: Performs CallbackProc operation in rar.cpp
+- `IsArchive()`: Do not hang if volume is missing.
+- `OpenArchive()`: RAR 1.5 signature followed by main archive header (Header type: 0x73)
+- `FreeLibrary()`: Performs FreeLibrary operation in rar.cpp
+- `GetArcItem()`: Checks a condition in rar.cpp and returns true or false based on the result
+- `CloseArchive()`: Performs CloseArchive operation in rar.cpp
+- `pRARCloseArchive()`: Performs pRARCloseArchive operation in rar.cpp
 ### Summary
 The `rar.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `rar.cpp` file provides essential functionality for core functionality. and 
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `UtfToWide()`: Implements UtfToWide functionality
-- `DecodeFileName()`: Implements DecodeFileName functionality
-- `SetFarInfo()`: Processes input by dispatching to different code paths based on type or value
-- `CallbackProc()`: Processes input by dispatching to different code paths based on type or value
-- `IsArchive()`: Checks condition and returns boolean indicating state
-- `OpenArchive()`: Implements OpenArchive functionality
-- `FreeLibrary()`: Implements FreeLibrary functionality
-- `GetArcItem()`: lstrcpyn(Item->FindData
-- `CloseArchive()`: Implements CloseArchive functionality
-- `pRARCloseArchive()`: Plugin "Save settings" does not work well if we return different format names
+- `UtfToWide()`: Performs UtfToWide operation in rar.cpp
+- `DecodeFileName()`: Performs DecodeFileName operation in rar.cpp
+- `SetFarInfo()`: Sets or updates FarInfo value in rar.cpp
+- `CallbackProc()`: Performs CallbackProc operation in rar.cpp
+- `IsArchive()`: Do not hang if volume is missing.
+- `OpenArchive()`: RAR 1.5 signature followed by main archive header (Header type: 0x73)
+- `FreeLibrary()`: Performs FreeLibrary operation in rar.cpp
+- `GetArcItem()`: Checks a condition in rar.cpp and returns true or false based on the result
+- `CloseArchive()`: Performs CloseArchive operation in rar.cpp
+- `pRARCloseArchive()`: Performs pRARCloseArchive operation in rar.cpp
 ### Podsumowanie
 Plik `rar.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

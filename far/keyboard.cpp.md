@@ -4,24 +4,24 @@
 This file implements functionality related to: Функции, имеющие отношение к клавиатуре
 Main functional areas: core functionality
 ### Key Classes
-- `KeysData`: Implements KeysData functionality
-- `TFKey`: Implements TFKey functionality
-- `keyboard_repeat_emulation`: Implements keyboard_repeat_emulation functionality
-- `numpad_mapping`: Implements numpad_mapping functionality
-- `state`: Implements state functionality
-- `wake_event`: Implements wake_event functionality
-- `window_state`: Implements window_state functionality
+- `KeysData`: Performs KeysData operation in keyboard.cpp
+- `TFKey`: Performs TFKey operation in keyboard.cpp
+- `keyboard_repeat_emulation`: Checks a condition in keyboard.cpp and returns true or false based on the result
+- `numpad_mapping`: Performs numpad_mapping operation in keyboard.cpp
+- `state`: Performs state operation in keyboard.cpp
+- `wake_event`: Performs wake_event operation in keyboard.cpp
+- `window_state`: Performs window_state operation in keyboard.cpp
 ### Key Functions
-- `is_restored()`: Checks condition and returns boolean indicating state
-- `update()`: Updates existing state with new values
-- `wakeup_for_clock()`: Implements wakeup_for_clock functionality
-- `wakeup_for_screensaver()`: Implements wakeup_for_screensaver functionality
-- `wakeup_for_screensaver_time()`: Implements wakeup_for_screensaver_time functionality
-- `Layouts()`: Implements Layouts functionality
-- `InitKeysArray()`: Basic Latin     0020 - 007F Latin-1 Supplement 00A0 - 00FF
-- `xlat_observe_tables()`: Implements xlat_observe_tables functionality
-- `KeyToKeyLayoutCompare()`: Implements KeyToKeyLayoutCompare functionality
-- `KeyToKeyLayout()`: Processes input by dispatching to different code paths based on type or value
+- `is_restored()`: Checks a condition in keyboard.cpp and returns the result
+- `update()`: Updates existing data or state in keyboard.cpp
+- `wakeup_for_clock()`: Performs wakeup_for_clock operation in keyboard.cpp
+- `wakeup_for_screensaver()`: Performs wakeup_for_screensaver operation in keyboard.cpp
+- `wakeup_for_screensaver_time()`: Performs wakeup_for_screensaver_time operation in keyboard.cpp
+- `Layouts()`: The order matters - this is how we expect them in key names like CtrlAltWhatever
+- `InitKeysArray()`: Инициализация массива клавиш.
+- `xlat_observe_tables()`: VKeyToLatin - используется вместе с KeyToVKey чтоб подменить нац. символ на Latin
+- `KeyToKeyLayoutCompare()`: VK -> символы с кодом меньше latin_end
+- `KeyToKeyLayout()`: this would allow to map that language via user-defined XLat tables
 ### Summary
 The `keyboard.cpp` file provides essential functionality for core functionality. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -32,23 +32,23 @@ The `keyboard.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Функции, имеющие отношение к клавиатуре
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `KeysData`: Implements KeysData functionality
-- `TFKey`: Implements TFKey functionality
-- `keyboard_repeat_emulation`: Implements keyboard_repeat_emulation functionality
-- `numpad_mapping`: Implements numpad_mapping functionality
-- `state`: Implements state functionality
-- `wake_event`: Implements wake_event functionality
-- `window_state`: Implements window_state functionality
+- `KeysData`: Performs KeysData operation in keyboard.cpp
+- `TFKey`: Performs TFKey operation in keyboard.cpp
+- `keyboard_repeat_emulation`: Checks a condition in keyboard.cpp and returns true or false based on the result
+- `numpad_mapping`: Performs numpad_mapping operation in keyboard.cpp
+- `state`: Performs state operation in keyboard.cpp
+- `wake_event`: Performs wake_event operation in keyboard.cpp
+- `window_state`: Performs window_state operation in keyboard.cpp
 ### Kluczowe Funkcje
-- `is_restored()`: Checks condition and returns boolean indicating state
-- `update()`: Updates existing state with new values
-- `wakeup_for_clock()`: Implements wakeup_for_clock functionality
-- `wakeup_for_screensaver()`: Implements wakeup_for_screensaver functionality
-- `wakeup_for_screensaver_time()`: Implements wakeup_for_screensaver_time functionality
-- `Layouts()`: Implements Layouts functionality
-- `InitKeysArray()`: Basic Latin     0020 - 007F Latin-1 Supplement 00A0 - 00FF
-- `xlat_observe_tables()`: Implements xlat_observe_tables functionality
-- `KeyToKeyLayoutCompare()`: Implements KeyToKeyLayoutCompare functionality
-- `KeyToKeyLayout()`: Processes input by dispatching to different code paths based on type or value
+- `is_restored()`: Checks a condition in keyboard.cpp and returns the result
+- `update()`: Updates existing data or state in keyboard.cpp
+- `wakeup_for_clock()`: Performs wakeup_for_clock operation in keyboard.cpp
+- `wakeup_for_screensaver()`: Performs wakeup_for_screensaver operation in keyboard.cpp
+- `wakeup_for_screensaver_time()`: Performs wakeup_for_screensaver_time operation in keyboard.cpp
+- `Layouts()`: The order matters - this is how we expect them in key names like CtrlAltWhatever
+- `InitKeysArray()`: Инициализация массива клавиш.
+- `xlat_observe_tables()`: VKeyToLatin - используется вместе с KeyToVKey чтоб подменить нац. символ на Latin
+- `KeyToKeyLayoutCompare()`: VK -> символы с кодом меньше latin_end
+- `KeyToKeyLayout()`: this would allow to map that language via user-defined XLat tables
 ### Podsumowanie
 Plik `keyboard.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `_OSErrorS()`: Implements _OSErrorS functionality
-- `__FIO_ERRORN()`: EZERO   0   Error 0 EINVFNC  1   Invalid function number ENOENT   2   No such file or directory ENOPATH  3   Path not f
-- `strerror()`: Implements strerror functionality
-- `GetIOErrorS_()`: Retrieves IOErrorS_ from current context or object state
-- `GetIOErrorN()`: Retrieves IOErrorN from current context or object state
-- `SetErrorN()`: Updates ErrorN with provided value and validates constraints
-- `SetError()`: Updates Error with provided value and validates constraints
-- `SetErrorV()`: Updates ErrorV with provided value and validates constraints
+- `_OSErrorS()`: Performs _OSErrorS operation in io_err.cpp
+- `__FIO_ERRORN()`: Performs __FIO_ERRORN operation in io_err.cpp
+- `strerror()`: Performs strerror operation in io_err.cpp
+- `GetIOErrorS_()`: Retrieves IOErrorS_ value in io_err.cpp
+- `GetIOErrorN()`: Retrieves IOErrorN value in io_err.cpp
+- `SetErrorN()`: Sets or updates ErrorN value in io_err.cpp
+- `SetError()`: Ignore set already setted value
+- `SetErrorV()`: Sets or updates ErrorV value in io_err.cpp
 ### Summary
 The `io_err.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `io_err.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `_OSErrorS()`: Implements _OSErrorS functionality
-- `__FIO_ERRORN()`: EZERO   0   Error 0 EINVFNC  1   Invalid function number ENOENT   2   No such file or directory ENOPATH  3   Path not f
-- `strerror()`: Implements strerror functionality
-- `GetIOErrorS_()`: Retrieves IOErrorS_ from current context or object state
-- `GetIOErrorN()`: Retrieves IOErrorN from current context or object state
-- `SetErrorN()`: Updates ErrorN with provided value and validates constraints
-- `SetError()`: Updates Error with provided value and validates constraints
-- `SetErrorV()`: Updates ErrorV with provided value and validates constraints
+- `_OSErrorS()`: Performs _OSErrorS operation in io_err.cpp
+- `__FIO_ERRORN()`: Performs __FIO_ERRORN operation in io_err.cpp
+- `strerror()`: Performs strerror operation in io_err.cpp
+- `GetIOErrorS_()`: Retrieves IOErrorS_ value in io_err.cpp
+- `GetIOErrorN()`: Retrieves IOErrorN value in io_err.cpp
+- `SetErrorN()`: Sets or updates ErrorN value in io_err.cpp
+- `SetError()`: Ignore set already setted value
+- `SetErrorV()`: Sets or updates ErrorV value in io_err.cpp
 ### Podsumowanie
 Plik `io_err.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

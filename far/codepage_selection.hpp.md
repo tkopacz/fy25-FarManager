@@ -3,24 +3,24 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `Dialog`: Implements Dialog functionality
-- `DialogBuilderListItem`: Implements DialogBuilderListItem functionality
-- `F8CP`: Implements F8CP functionality
-- `VMenu2`: Implements VMenu2 functionality
-- `cp_info`: Implements cp_info functionality
-- `lng`: Implements lng functionality
-- `system_codepages_enumerator`: Implements system_codepages_enumerator functionality
+- `Dialog`: Performs Dialog operation in codepage_selection.hpp
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in codepage_selection.hpp
+- `F8CP`: Performs F8CP operation in codepage_selection.hpp
+- `VMenu2`: Performs VMenu2 operation in codepage_selection.hpp
+- `cp_info`: Performs cp_info operation in codepage_selection.hpp
+- `lng`: Performs lng operation in codepage_selection.hpp
+- `system_codepages_enumerator`: Performs system_codepages_enumerator operation in codepage_selection.hpp
 ### Key Functions
-- `SelectCodePage()`: Implements SelectCodePage functionality
-- `FillCodePagesList()`: Implements FillCodePagesList functionality
-- `FormatName()`: Implements FormatName functionality
-- `UnsupportedDataMessageFull()`: Implements UnsupportedDataMessageFull functionality
-- `GetFavorite()`: Retrieves Favorite from current context or object state
-- `SetFavorite()`: Updates Favorite with provided value and validates constraints
-- `DeleteFavorite()`: Removes or deletes specified item and releases associated resources
-- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator from current context or object state
-- `GetCodePageCustomName()`: Retrieves CodePageCustomName from current context or object state
-- `GetMenuItemCodePage()`: Retrieves MenuItemCodePage from current context or object state
+- `SelectCodePage()`: Избранная таблица символов
+- `FillCodePagesList()`: Таблица символов участвующая в поиске по всем таблицам символов
+- `FormatName()`: Performs FormatName operation in codepage_selection.hpp
+- `UnsupportedDataMessageFull()`: Performs UnsupportedDataMessageFull operation in codepage_selection.hpp
+- `GetFavorite()`: Retrieves Favorite value in codepage_selection.hpp
+- `SetFavorite()`: Sets or updates Favorite value in codepage_selection.hpp
+- `DeleteFavorite()`: Deletes or removes an item or resource in codepage_selection.hpp
+- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator value in codepage_selection.hpp
+- `GetCodePageCustomName()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
+- `GetMenuItemCodePage()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
 ### Summary
 The `codepage_selection.hpp` file provides essential functionality for singleton implementation. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -30,23 +30,23 @@ The `codepage_selection.hpp` file provides essential functionality for singleton
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `Dialog`: Implements Dialog functionality
-- `DialogBuilderListItem`: Implements DialogBuilderListItem functionality
-- `F8CP`: Implements F8CP functionality
-- `VMenu2`: Implements VMenu2 functionality
-- `cp_info`: Implements cp_info functionality
-- `lng`: Implements lng functionality
-- `system_codepages_enumerator`: Implements system_codepages_enumerator functionality
+- `Dialog`: Performs Dialog operation in codepage_selection.hpp
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in codepage_selection.hpp
+- `F8CP`: Performs F8CP operation in codepage_selection.hpp
+- `VMenu2`: Performs VMenu2 operation in codepage_selection.hpp
+- `cp_info`: Performs cp_info operation in codepage_selection.hpp
+- `lng`: Performs lng operation in codepage_selection.hpp
+- `system_codepages_enumerator`: Performs system_codepages_enumerator operation in codepage_selection.hpp
 ### Kluczowe Funkcje
-- `SelectCodePage()`: Implements SelectCodePage functionality
-- `FillCodePagesList()`: Implements FillCodePagesList functionality
-- `FormatName()`: Implements FormatName functionality
-- `UnsupportedDataMessageFull()`: Implements UnsupportedDataMessageFull functionality
-- `GetFavorite()`: Retrieves Favorite from current context or object state
-- `SetFavorite()`: Updates Favorite with provided value and validates constraints
-- `DeleteFavorite()`: Removes or deletes specified item and releases associated resources
-- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator from current context or object state
-- `GetCodePageCustomName()`: Retrieves CodePageCustomName from current context or object state
-- `GetMenuItemCodePage()`: Retrieves MenuItemCodePage from current context or object state
+- `SelectCodePage()`: Избранная таблица символов
+- `FillCodePagesList()`: Таблица символов участвующая в поиске по всем таблицам символов
+- `FormatName()`: Performs FormatName operation in codepage_selection.hpp
+- `UnsupportedDataMessageFull()`: Performs UnsupportedDataMessageFull operation in codepage_selection.hpp
+- `GetFavorite()`: Retrieves Favorite value in codepage_selection.hpp
+- `SetFavorite()`: Sets or updates Favorite value in codepage_selection.hpp
+- `DeleteFavorite()`: Deletes or removes an item or resource in codepage_selection.hpp
+- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator value in codepage_selection.hpp
+- `GetCodePageCustomName()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
+- `GetMenuItemCodePage()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
 ### Podsumowanie
 Plik `codepage_selection.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

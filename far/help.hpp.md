@@ -4,11 +4,11 @@
 This file implements functionality related to: Помощь
 Main functional areas: core functionality
 ### Key Classes
-- `Plugin`: Implements Plugin functionality
+- `Plugin`: Performs Plugin operation in help.hpp
 ### Key Functions
-- `show()`: Implements show functionality
-- `make_link()`: ---------------------------------------------------------------------------- HELP_HPP_B6683B98_B047_4D77_AD11_1AB7392B9A2E
-- `make_topic()`: Implements make_topic functionality
+- `show()`: Performs show operation in help.hpp
+- `make_link()`: Performs make_link operation in help.hpp
+- `make_topic()`: Performs make_topic operation in help.hpp
 ### Namespaces
 - `help`
 ### Summary
@@ -21,11 +21,11 @@ The `help.hpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Помощь
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Plugin`: Implements Plugin functionality
+- `Plugin`: Performs Plugin operation in help.hpp
 ### Kluczowe Funkcje
-- `show()`: Implements show functionality
-- `make_link()`: ---------------------------------------------------------------------------- HELP_HPP_B6683B98_B047_4D77_AD11_1AB7392B9A2E
-- `make_topic()`: Implements make_topic functionality
+- `show()`: Performs show operation in help.hpp
+- `make_link()`: Performs make_link operation in help.hpp
+- `make_topic()`: Performs make_topic operation in help.hpp
 ### Przestrzenie nazw
 - `help`
 ### Podsumowanie

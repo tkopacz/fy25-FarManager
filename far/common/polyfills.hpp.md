@@ -4,12 +4,12 @@
 This file implements functionality related to: Emulation of C++ features missing in supported compilers & libraries
 Main functional areas: core functionality
 ### Key Classes
-- `fold_left_fn`: Implements fold_left_fn functionality
+- `fold_left_fn`: Performs fold_left_fn operation in polyfills.hpp
 ### Key Functions
-- `yield()`: Implements yield functionality
-- `to_underlying()`: ---------------------------------------------------------------------------- as of March 2025 libc++ doesn't define __cpp_lib_ranges_fo
-- `unreachable()`: Implements unreachable functionality
-- `__builtin_unreachable()`: Implements __builtin_unreachable functionality
+- `yield()`: Performs yield operation in polyfills.hpp
+- `to_underlying()`: Performs to_underlying operation in polyfills.hpp
+- `unreachable()`: Performs unreachable operation in polyfills.hpp
+- `__builtin_unreachable()`: Performs __builtin_unreachable operation in polyfills.hpp
 ### Namespaces
 - `std`
 ### Summary
@@ -22,12 +22,12 @@ The `polyfills.hpp` file provides essential functionality for core functionality
 Ten plik implementuje funkcjonalność związaną z: Emulation of C++ features missing in supported compilers & libraries
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `fold_left_fn`: Implements fold_left_fn functionality
+- `fold_left_fn`: Performs fold_left_fn operation in polyfills.hpp
 ### Kluczowe Funkcje
-- `yield()`: Implements yield functionality
-- `to_underlying()`: ---------------------------------------------------------------------------- as of March 2025 libc++ doesn't define __cpp_lib_ranges_fo
-- `unreachable()`: Implements unreachable functionality
-- `__builtin_unreachable()`: Implements __builtin_unreachable functionality
+- `yield()`: Performs yield operation in polyfills.hpp
+- `to_underlying()`: Performs to_underlying operation in polyfills.hpp
+- `unreachable()`: Performs unreachable operation in polyfills.hpp
+- `__builtin_unreachable()`: Performs __builtin_unreachable operation in polyfills.hpp
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

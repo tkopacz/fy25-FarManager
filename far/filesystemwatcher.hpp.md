@@ -4,12 +4,12 @@
 This file implements functionality related to: Класс FileSystemWatcher
 Main functional areas: file system operations
 ### Key Classes
-- `FileSystemWatcher`: Implements FileSystemWatcher functionality
-- `background_watcher`: Implements background_watcher functionality
+- `FileSystemWatcher`: Performs FileSystemWatcher operation in filesystemwatcher.hpp
+- `background_watcher`: Performs background_watcher operation in filesystemwatcher.hpp
 ### Key Functions
-- `read_async()`: Implements read_async functionality
-- `get_result()`: Retrieves _result from current context or object state
-- `callback_notify()`: Implements callback_notify functionality
+- `read_async()`: Performs read_async operation in filesystemwatcher.hpp
+- `get_result()`: Retrieves _result value in filesystemwatcher.hpp
+- `callback_notify()`: Performs callback_notify operation in filesystemwatcher.hpp
 ### Summary
 The `filesystemwatcher.hpp` file provides essential functionality for file system operations. It defines 2 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -20,11 +20,11 @@ The `filesystemwatcher.hpp` file provides essential functionality for file syste
 Ten plik implementuje funkcjonalność związaną z: Класс FileSystemWatcher
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `FileSystemWatcher`: Implements FileSystemWatcher functionality
-- `background_watcher`: Implements background_watcher functionality
+- `FileSystemWatcher`: Performs FileSystemWatcher operation in filesystemwatcher.hpp
+- `background_watcher`: Performs background_watcher operation in filesystemwatcher.hpp
 ### Kluczowe Funkcje
-- `read_async()`: Implements read_async functionality
-- `get_result()`: Retrieves _result from current context or object state
-- `callback_notify()`: Implements callback_notify functionality
+- `read_async()`: Performs read_async operation in filesystemwatcher.hpp
+- `get_result()`: Retrieves _result value in filesystemwatcher.hpp
+- `callback_notify()`: Performs callback_notify operation in filesystemwatcher.hpp
 ### Podsumowanie
 Plik `filesystemwatcher.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 2 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

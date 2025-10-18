@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `separator_t`: Implements separator_t functionality
+- `separator_t`: Performs separator_t operation in uuid.hpp
 ### Key Functions
-- `hex_to_int()`: Implements hex_to_int functionality
-- `parse_impl()`: Implements parse_impl functionality
-- `parse()`: Implements parse functionality
-- `int_to_hex()`: Implements int_to_hex functionality
-- `serialise_impl()`: Implements serialise_impl functionality
-- `serialise()`: Implements serialise functionality
-- `try_parse()`: Implements try_parse functionality
-- `str()`: Iterates through collection and processes each element, storing results
+- `hex_to_int()`: Performs hex_to_int operation in uuid.hpp
+- `parse_impl()`: Performs parse_impl operation in uuid.hpp
+- `parse()`: Performs parse operation in uuid.hpp
+- `int_to_hex()`: Performs int_to_hex operation in uuid.hpp
+- `serialise_impl()`: Performs serialise_impl operation in uuid.hpp
+- `serialise()`: Performs serialise operation in uuid.hpp
+- `try_parse()`: Performs try_parse operation in uuid.hpp
+- `str()`: Iterates through elements in uuid.hpp and adds them to a collection
 ### Namespaces
 - `detail`
 - `literals`
@@ -27,16 +27,16 @@ The `uuid.hpp` file provides essential functionality for core functionality. It 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `separator_t`: Implements separator_t functionality
+- `separator_t`: Performs separator_t operation in uuid.hpp
 ### Kluczowe Funkcje
-- `hex_to_int()`: Implements hex_to_int functionality
-- `parse_impl()`: Implements parse_impl functionality
-- `parse()`: Implements parse functionality
-- `int_to_hex()`: Implements int_to_hex functionality
-- `serialise_impl()`: Implements serialise_impl functionality
-- `serialise()`: Implements serialise functionality
-- `try_parse()`: Implements try_parse functionality
-- `str()`: Iterates through collection and processes each element, storing results
+- `hex_to_int()`: Performs hex_to_int operation in uuid.hpp
+- `parse_impl()`: Performs parse_impl operation in uuid.hpp
+- `parse()`: Performs parse operation in uuid.hpp
+- `int_to_hex()`: Performs int_to_hex operation in uuid.hpp
+- `serialise_impl()`: Performs serialise_impl operation in uuid.hpp
+- `serialise()`: Performs serialise operation in uuid.hpp
+- `try_parse()`: Performs try_parse operation in uuid.hpp
+- `str()`: Iterates through elements in uuid.hpp and adds them to a collection
 ### Przestrzenie nazw
 - `detail`
 - `literals`

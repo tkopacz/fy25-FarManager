@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `format()`: Iterates through collection and processes each element, storing results
-- `vformat()`: Iterates through collection and processes each element, storing results
-- `str()`: Iterates through collection and processes each element, storing results
+- `format()`: 'var' : conversion from 'size_t' to 'type', possible loss of data
+- `vformat()`: Iterates through elements in format.hpp and adds them to a collection
+- `str()`: Iterates through elements in format.hpp and adds them to a collection
 ### Namespaces
 - `far`
 ### Summary
@@ -17,9 +17,9 @@ The `format.hpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `format()`: Iterates through collection and processes each element, storing results
-- `vformat()`: Iterates through collection and processes each element, storing results
-- `str()`: Iterates through collection and processes each element, storing results
+- `format()`: 'var' : conversion from 'size_t' to 'type', possible loss of data
+- `vformat()`: Iterates through elements in format.hpp and adds them to a collection
+- `str()`: Iterates through elements in format.hpp and adds them to a collection
 ### Przestrzenie nazw
 - `far`
 ### Podsumowanie

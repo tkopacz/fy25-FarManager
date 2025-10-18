@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `exception_monitor`: Implements exception_monitor functionality
-- `make_scope_guard`: Implements make_scope_guard functionality
-- `scope_guard`: Implements scope_guard functionality
-- `scope_type`: Implements scope_type functionality
+- `exception_monitor`: Performs exception_monitor operation in scope_exit.hpp
+- `make_scope_guard`: Performs make_scope_guard operation in scope_exit.hpp
+- `scope_guard`: int... "a camel is a horse designed by a committee" :(
+- `scope_type`: Performs scope_type operation in scope_exit.hpp
 ### Key Functions
-- `invoke_handler()`: Implements invoke_handler functionality
+- `invoke_handler()`: Performs invoke_handler operation in scope_exit.hpp
 ### Namespaces
 - `scope_exit`
 ### Summary
@@ -20,12 +20,12 @@ The `scope_exit.hpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `exception_monitor`: Implements exception_monitor functionality
-- `make_scope_guard`: Implements make_scope_guard functionality
-- `scope_guard`: Implements scope_guard functionality
-- `scope_type`: Implements scope_type functionality
+- `exception_monitor`: Performs exception_monitor operation in scope_exit.hpp
+- `make_scope_guard`: Performs make_scope_guard operation in scope_exit.hpp
+- `scope_guard`: int... "a camel is a horse designed by a committee" :(
+- `scope_type`: Performs scope_type operation in scope_exit.hpp
 ### Kluczowe Funkcje
-- `invoke_handler()`: Implements invoke_handler functionality
+- `invoke_handler()`: Performs invoke_handler operation in scope_exit.hpp
 ### Przestrzenie nazw
 - `scope_exit`
 ### Podsumowanie

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `FP_CheckRegKey()`: Implements FP_CheckRegKey functionality
-- `FP_CreateRegKey()`: Implements FP_CreateRegKey functionality
-- `sprintf()`: Implements sprintf functionality
-- `FP_DeleteRegKey()`: Implements FP_DeleteRegKey functionality
-- `FP_DeleteRegKeyFull()`: Implements FP_DeleteRegKeyFull functionality
-- `FP_DeleteRegKeyAll()`: Implements FP_DeleteRegKeyAll functionality
-- `FP_GetRegKey()`: Implements FP_GetRegKey functionality
-- `memset()`: Implements memset functionality
-- `FP_OpenRegKey()`: Implements FP_OpenRegKey functionality
-- `FP_SetRegKey()`: Implements FP_SetRegKey functionality
+- `FP_CheckRegKey()`: Performs FP_CheckRegKey operation in fstd_Reg.cpp
+- `FP_CreateRegKey()`: Performs FP_CreateRegKey operation in fstd_Reg.cpp
+- `sprintf()`: Performs sprintf operation in fstd_Reg.cpp
+- `FP_DeleteRegKey()`: Performs FP_DeleteRegKey operation in fstd_Reg.cpp
+- `FP_DeleteRegKeyFull()`: Performs FP_DeleteRegKeyFull operation in fstd_Reg.cpp
+- `FP_DeleteRegKeyAll()`: Performs FP_DeleteRegKeyAll operation in fstd_Reg.cpp
+- `FP_GetRegKey()`: Log(( "enum [%s] rc: %s",szSubKey,__WINError() ));
+- `memset()`: Performs memset operation in fstd_Reg.cpp
+- `FP_OpenRegKey()`: Performs FP_OpenRegKey operation in fstd_Reg.cpp
+- `FP_SetRegKey()`: Performs FP_SetRegKey operation in fstd_Reg.cpp
 ### Summary
 The `fstd_Reg.cpp` file provides essential functionality for file system operations. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `fstd_Reg.cpp` file provides essential functionality for file system operati
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `FP_CheckRegKey()`: Implements FP_CheckRegKey functionality
-- `FP_CreateRegKey()`: Implements FP_CreateRegKey functionality
-- `sprintf()`: Implements sprintf functionality
-- `FP_DeleteRegKey()`: Implements FP_DeleteRegKey functionality
-- `FP_DeleteRegKeyFull()`: Implements FP_DeleteRegKeyFull functionality
-- `FP_DeleteRegKeyAll()`: Implements FP_DeleteRegKeyAll functionality
-- `FP_GetRegKey()`: Implements FP_GetRegKey functionality
-- `memset()`: Implements memset functionality
-- `FP_OpenRegKey()`: Implements FP_OpenRegKey functionality
-- `FP_SetRegKey()`: Implements FP_SetRegKey functionality
+- `FP_CheckRegKey()`: Performs FP_CheckRegKey operation in fstd_Reg.cpp
+- `FP_CreateRegKey()`: Performs FP_CreateRegKey operation in fstd_Reg.cpp
+- `sprintf()`: Performs sprintf operation in fstd_Reg.cpp
+- `FP_DeleteRegKey()`: Performs FP_DeleteRegKey operation in fstd_Reg.cpp
+- `FP_DeleteRegKeyFull()`: Performs FP_DeleteRegKeyFull operation in fstd_Reg.cpp
+- `FP_DeleteRegKeyAll()`: Performs FP_DeleteRegKeyAll operation in fstd_Reg.cpp
+- `FP_GetRegKey()`: Log(( "enum [%s] rc: %s",szSubKey,__WINError() ));
+- `memset()`: Performs memset operation in fstd_Reg.cpp
+- `FP_OpenRegKey()`: Performs FP_OpenRegKey operation in fstd_Reg.cpp
+- `FP_SetRegKey()`: Performs FP_SetRegKey operation in fstd_Reg.cpp
 ### Podsumowanie
 Plik `fstd_Reg.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

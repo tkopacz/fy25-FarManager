@@ -4,18 +4,18 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `peb_version`: Implements peb_version functionality
+- `peb_version`: Performs peb_version operation in platform.version.cpp
 ### Key Functions
-- `get_value()`: Retrieves _value from current context or object state
-- `c_Name()`: Implements c_Name functionality
-- `string()`: Implements string functionality
-- `condition_mask()`: Implements condition_mask functionality
-- `is_win10_build_or_later()`: Checks condition and returns boolean indicating state
-- `is_win10_1607_or_later()`: Checks condition and returns boolean indicating state
-- `is_win10_1703_or_later()`: Checks condition and returns boolean indicating state
-- `get_file_version()`: 'GetVersionExW': was de
-- `get_os_version()`: 'GetVersionExW': was declared deprecated
-- `windows_platform()`: Processes input by dispatching to different code paths based on type or value
+- `get_value()`: Retrieves _value value in platform.version.cpp
+- `c_Name()`: Performs c_Name operation in platform.version.cpp
+- `string()`: Checks a condition in platform.version.cpp and returns true or false based on the result
+- `condition_mask()`: Performs condition_mask operation in platform.version.cpp
+- `is_win10_build_or_later()`: Checks a condition in platform.version.cpp and returns the result
+- `is_win10_1607_or_later()`: Checks a condition in platform.version.cpp and returns the result
+- `is_win10_1703_or_later()`: Checks a condition in platform.version.cpp and returns the result
+- `get_file_version()`: Retrieves _file_version value in platform.version.cpp
+- `get_os_version()`: Iterates through elements in platform.version.cpp and adds them to a collection
+- `windows_platform()`: Performs windows_platform operation in platform.version.cpp
 ### Namespaces
 - `os`
 ### Summary
@@ -28,18 +28,18 @@ The `platform.version.cpp` file provides essential functionality for core functi
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `peb_version`: Implements peb_version functionality
+- `peb_version`: Performs peb_version operation in platform.version.cpp
 ### Kluczowe Funkcje
-- `get_value()`: Retrieves _value from current context or object state
-- `c_Name()`: Implements c_Name functionality
-- `string()`: Implements string functionality
-- `condition_mask()`: Implements condition_mask functionality
-- `is_win10_build_or_later()`: Checks condition and returns boolean indicating state
-- `is_win10_1607_or_later()`: Checks condition and returns boolean indicating state
-- `is_win10_1703_or_later()`: Checks condition and returns boolean indicating state
-- `get_file_version()`: 'GetVersionExW': was de
-- `get_os_version()`: 'GetVersionExW': was declared deprecated
-- `windows_platform()`: Processes input by dispatching to different code paths based on type or value
+- `get_value()`: Retrieves _value value in platform.version.cpp
+- `c_Name()`: Performs c_Name operation in platform.version.cpp
+- `string()`: Checks a condition in platform.version.cpp and returns true or false based on the result
+- `condition_mask()`: Performs condition_mask operation in platform.version.cpp
+- `is_win10_build_or_later()`: Checks a condition in platform.version.cpp and returns the result
+- `is_win10_1607_or_later()`: Checks a condition in platform.version.cpp and returns the result
+- `is_win10_1703_or_later()`: Checks a condition in platform.version.cpp and returns the result
+- `get_file_version()`: Retrieves _file_version value in platform.version.cpp
+- `get_os_version()`: Iterates through elements in platform.version.cpp and adds them to a collection
+- `windows_platform()`: Performs windows_platform operation in platform.version.cpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

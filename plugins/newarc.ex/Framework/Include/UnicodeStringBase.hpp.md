@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `UnicodeStringBase`: Implements UnicodeStringBase functionality
+- `UnicodeStringBase`: Performs UnicodeStringBase operation in UnicodeStringBase.hpp
 ### Key Functions
-- `SetData()`: Updates Data with provided value and validates constraints
-- `Append()`: Implements Append functionality
+- `SetData()`: Sets or updates Data value in UnicodeStringBase.hpp
+- `Append()`: Performs Append operation in UnicodeStringBase.hpp
 ### Summary
 The `UnicodeStringBase.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `UnicodeStringBase.hpp` file provides essential functionality for string uti
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `UnicodeStringBase`: Implements UnicodeStringBase functionality
+- `UnicodeStringBase`: Performs UnicodeStringBase operation in UnicodeStringBase.hpp
 ### Kluczowe Funkcje
-- `SetData()`: Updates Data with provided value and validates constraints
-- `Append()`: Implements Append functionality
+- `SetData()`: Sets or updates Data value in UnicodeStringBase.hpp
+- `Append()`: Performs Append operation in UnicodeStringBase.hpp
 ### Podsumowanie
 Plik `UnicodeStringBase.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

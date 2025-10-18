@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Zero()`: Implements Zero functionality
-- `TDateTime()`: Implements TDateTime functionality
-- `Time2Str()`: Mask `unused` warning Mask `unused` warning
-- `Sec2Str()`: Implements Sec2Str functionality
-- `FillStartTime()`: Implements FillStartTime functionality
-- `DoubleToDate()`: Implements DoubleToDate functionality
-- `DateToDouble()`: Implements DateToDouble functionality
-- `TimeDiff2TimeStr()`: Implements TimeDiff2TimeStr functionality
+- `Zero()`: --------------------------------------------------------------
+- `TDateTime()`: Performs TDateTime operation in htime.cpp
+- `Time2Str()`: --------------------------------------------------------------
+- `Sec2Str()`: Performs Sec2Str operation in htime.cpp
+- `FillStartTime()`: Performs FillStartTime operation in htime.cpp
+- `DoubleToDate()`: Performs DoubleToDate operation in htime.cpp
+- `DateToDouble()`: Performs DateToDouble operation in htime.cpp
+- `TimeDiff2TimeStr()`: Performs TimeDiff2TimeStr operation in htime.cpp
 ### Summary
 The `htime.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `htime.cpp` file provides essential functionality for core functionality. an
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Zero()`: Implements Zero functionality
-- `TDateTime()`: Implements TDateTime functionality
-- `Time2Str()`: Mask `unused` warning Mask `unused` warning
-- `Sec2Str()`: Implements Sec2Str functionality
-- `FillStartTime()`: Implements FillStartTime functionality
-- `DoubleToDate()`: Implements DoubleToDate functionality
-- `DateToDouble()`: Implements DateToDouble functionality
-- `TimeDiff2TimeStr()`: Implements TimeDiff2TimeStr functionality
+- `Zero()`: --------------------------------------------------------------
+- `TDateTime()`: Performs TDateTime operation in htime.cpp
+- `Time2Str()`: --------------------------------------------------------------
+- `Sec2Str()`: Performs Sec2Str operation in htime.cpp
+- `FillStartTime()`: Performs FillStartTime operation in htime.cpp
+- `DoubleToDate()`: Performs DoubleToDate operation in htime.cpp
+- `DateToDouble()`: Performs DateToDouble operation in htime.cpp
+- `TimeDiff2TimeStr()`: Performs TimeDiff2TimeStr operation in htime.cpp
 ### Podsumowanie
 Plik `htime.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

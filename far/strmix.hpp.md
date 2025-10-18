@@ -4,20 +4,20 @@
 This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
 Main functional areas: string utilities
 ### Key Classes
-- `RegExp`: Implements RegExp functionality
-- `RegExpMatch`: Implements RegExpMatch functionality
-- `regex_match`: Implements regex_match functionality
+- `RegExp`: Performs RegExp operation in strmix.hpp
+- `RegExpMatch`: Performs RegExpMatch operation in strmix.hpp
+- `regex_match`: Performs regex_match operation in strmix.hpp
 ### Key Functions
-- `QuoteSpaceOnly()`: Iterates through collection and processes each element, storing results
-- `InsertRegexpQuote()`: Iterates through collection and processes each element, storing results
-- `QuoteSpace()`: Iterates through collection and processes each element, storing results
-- `QuoteOuterSpace()`: Iterates through collection and processes each element, storing results
-- `ReplaceStrings()`: Implements ReplaceStrings functionality
-- `replace()`: Implements replace functionality
-- `Copy()`: Implements Copy functionality
-- `replace_icase()`: Implements replace_icase functionality
-- `remove_duplicates()`: Removes or deletes specified item and releases associated resources
-- `get()`: Implements get functionality
+- `QuoteSpaceOnly()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `InsertRegexpQuote()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `QuoteSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `QuoteOuterSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `ReplaceStrings()`: Performs ReplaceStrings operation in strmix.hpp
+- `replace()`: Performs replace operation in strmix.hpp
+- `Copy()`: Performs Copy operation in strmix.hpp
+- `replace_icase()`: Performs replace_icase operation in strmix.hpp
+- `remove_duplicates()`: Deletes or removes an item or resource in strmix.hpp
+- `get()`: Retrieves  value in strmix.hpp
 ### Namespaces
 - `detail`
 - `inplace`
@@ -32,20 +32,20 @@ The `strmix.hpp` file provides essential functionality for string utilities. It 
 Ten plik implementuje funkcjonalność związaną z: Куча разных вспомогательных функций по работе со строками
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `RegExp`: Implements RegExp functionality
-- `RegExpMatch`: Implements RegExpMatch functionality
-- `regex_match`: Implements regex_match functionality
+- `RegExp`: Performs RegExp operation in strmix.hpp
+- `RegExpMatch`: Performs RegExpMatch operation in strmix.hpp
+- `regex_match`: Performs regex_match operation in strmix.hpp
 ### Kluczowe Funkcje
-- `QuoteSpaceOnly()`: Iterates through collection and processes each element, storing results
-- `InsertRegexpQuote()`: Iterates through collection and processes each element, storing results
-- `QuoteSpace()`: Iterates through collection and processes each element, storing results
-- `QuoteOuterSpace()`: Iterates through collection and processes each element, storing results
-- `ReplaceStrings()`: Implements ReplaceStrings functionality
-- `replace()`: Implements replace functionality
-- `Copy()`: Implements Copy functionality
-- `replace_icase()`: Implements replace_icase functionality
-- `remove_duplicates()`: Removes or deletes specified item and releases associated resources
-- `get()`: Implements get functionality
+- `QuoteSpaceOnly()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `InsertRegexpQuote()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `QuoteSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `QuoteOuterSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
+- `ReplaceStrings()`: Performs ReplaceStrings operation in strmix.hpp
+- `replace()`: Performs replace operation in strmix.hpp
+- `Copy()`: Performs Copy operation in strmix.hpp
+- `replace_icase()`: Performs replace_icase operation in strmix.hpp
+- `remove_duplicates()`: Deletes or removes an item or resource in strmix.hpp
+- `get()`: Retrieves  value in strmix.hpp
 ### Przestrzenie nazw
 - `detail`
 - `inplace`

@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: testing
 ### Key Functions
-- `main()`: Program entry point that parses arguments and coordinates main execution flow
+- `main()`: Main entry point in test.cpp that starts program execution
 ### Namespaces
 - `PCRE`
 - `std`
@@ -16,7 +16,7 @@ The `test.cpp` file provides essential functionality for testing. and contains a
 ### Cel
 Główne obszary funkcjonalne: testowanie
 ### Kluczowe Funkcje
-- `main()`: Program entry point that parses arguments and coordinates main execution flow
+- `main()`: Main entry point in test.cpp that starts program execution
 ### Przestrzenie nazw
 - `PCRE`
 - `std`

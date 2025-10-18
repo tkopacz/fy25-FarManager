@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `TwoDigits()`: Implements TwoDigits functionality
-- `NET_MonthNo()`: Implements NET_MonthNo functionality
-- `CorrectTime()`: Implements CorrectTime functionality
-- `ConvertEntry()`: Implements ConvertEntry functionality
-- `StartsWith()`: Implements StartsWith functionality
-- `is_unix_start()`: Checks condition and returns boolean indicating state
-- `ParseSystemInfo()`: Implements ParseSystemInfo functionality
-- `idPRSDetectString()`: ------------------------------------------------------------------------ INTERFACE Functions user by master plugin
-- `idDetectDirStringType()`: Implements idDetectDirStringType functionality
-- `idPRSTypesCount()`: Implements idPRSTypesCount functionality
+- `TwoDigits()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `NET_MonthNo()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `CorrectTime()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `ConvertEntry()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `StartsWith()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `is_unix_start()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `ParseSystemInfo()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `idPRSDetectString()`: Functions user by master plugin.
+- `idDetectDirStringType()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `idPRSTypesCount()`: Checks a condition in Main.cpp and returns true or false based on the result
 ### Summary
 The `Main.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `Main.cpp` file provides essential functionality for core functionality. and
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `TwoDigits()`: Implements TwoDigits functionality
-- `NET_MonthNo()`: Implements NET_MonthNo functionality
-- `CorrectTime()`: Implements CorrectTime functionality
-- `ConvertEntry()`: Implements ConvertEntry functionality
-- `StartsWith()`: Implements StartsWith functionality
-- `is_unix_start()`: Checks condition and returns boolean indicating state
-- `ParseSystemInfo()`: Implements ParseSystemInfo functionality
-- `idPRSDetectString()`: ------------------------------------------------------------------------ INTERFACE Functions user by master plugin
-- `idDetectDirStringType()`: Implements idDetectDirStringType functionality
-- `idPRSTypesCount()`: Implements idPRSTypesCount functionality
+- `TwoDigits()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `NET_MonthNo()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `CorrectTime()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `ConvertEntry()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `StartsWith()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `is_unix_start()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `ParseSystemInfo()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `idPRSDetectString()`: Functions user by master plugin.
+- `idDetectDirStringType()`: Checks a condition in Main.cpp and returns true or false based on the result
+- `idPRSTypesCount()`: Checks a condition in Main.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `Main.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

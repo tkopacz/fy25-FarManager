@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: clipboard operations
 ### Key Classes
-- `clip_ptr`: Implements clip_ptr functionality
-- `clipboard_format`: Implements clipboard_format functionality
-- `deleter`: Removes or deletes specified item and releases associated resources
-- `state`: Implements state functionality
-- `unlocker`: Implements unlocker functionality
+- `clip_ptr`: Performs clip_ptr operation in platform.clipboard.cpp
+- `clipboard_format`: Performs clipboard_format operation in platform.clipboard.cpp
+- `deleter`: Deletes or removes an item or resource in platform.clipboard.cpp
+- `state`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `unlocker`: Performs unlocker operation in platform.clipboard.cpp
 ### Key Functions
-- `alloc()`: Implements alloc functionality
-- `lock()`: Implements lock functionality
-- `copy()`: Implements copy functionality
-- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation as part of the component's functionality
-- `open()`: Implements open functionality
-- `close()`: Implements close functionality
-- `clear()`: Implements clear functionality
-- `set_data()`: Updates _data with provided value
-- `RegisterFormat()`: Implements RegisterFormat functionality
-- `set_text()`: Updates _text with provided value
+- `alloc()`: Moved from platform.memory. It is only used with clipboard, no point to share it.
+- `lock()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `copy()`: Performs copy operation in platform.clipboard.cpp
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation in platform.clipboard.cpp
+- `open()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `close()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `clear()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_data()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `RegisterFormat()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_text()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
 ### Namespaces
 - `detail`
 - `os`
@@ -34,22 +34,22 @@ The `platform.clipboard.cpp` file provides essential functionality for clipboard
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: operacje schowka
 ### Kluczowe Klasy
-- `clip_ptr`: Implements clip_ptr functionality
-- `clipboard_format`: Implements clipboard_format functionality
-- `deleter`: Removes or deletes specified item and releases associated resources
-- `state`: Implements state functionality
-- `unlocker`: Implements unlocker functionality
+- `clip_ptr`: Performs clip_ptr operation in platform.clipboard.cpp
+- `clipboard_format`: Performs clipboard_format operation in platform.clipboard.cpp
+- `deleter`: Deletes or removes an item or resource in platform.clipboard.cpp
+- `state`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `unlocker`: Performs unlocker operation in platform.clipboard.cpp
 ### Kluczowe Funkcje
-- `alloc()`: Implements alloc functionality
-- `lock()`: Implements lock functionality
-- `copy()`: Implements copy functionality
-- `enable_ansi_to_unicode_conversion_workaround()`: Implements enable_ansi_to_unicode_conversion_workaround functionality
-- `open()`: Implements open functionality
-- `close()`: Implements close functionality
-- `clear()`: Implements clear functionality
-- `set_data()`: Updates _data with provided value
-- `RegisterFormat()`: Implements RegisterFormat functionality
-- `set_text()`: Updates _text with provided value
+- `alloc()`: Moved from platform.memory. It is only used with clipboard, no point to share it.
+- `lock()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `copy()`: Performs copy operation in platform.clipboard.cpp
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation in platform.clipboard.cpp
+- `open()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `close()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `clear()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_data()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `RegisterFormat()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_text()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `detail`
 - `os`

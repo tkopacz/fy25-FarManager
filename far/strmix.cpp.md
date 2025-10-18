@@ -4,20 +4,20 @@
 This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
 Main functional areas: string utilities
 ### Key Classes
-- `size`: Returns current allocated size of the buffer in elements
-- `tests`: Implements tests functionality
-- `units`: Implements units functionality
+- `size`: Don't care - can't be negative
+- `tests`: Performs tests operation in strmix.cpp
+- `units`: Performs units operation in strmix.cpp
 ### Key Functions
-- `GroupDigitsImpl()`: Not needed - can't be decimal Don't care - can't be decimal
-- `GroupDigits()`: Iterates through collection and processes each element, storing results
-- `GroupDigitsInvariant()`: Iterates through collection and processes each element, storing results
-- `legacy_InsertQuotes()`: выражение вида /regexp/i не дополняем слешами
-- `InsertRegexpQuote()`: выражение вида /regexp/i не дополняем слешами
-- `truncate_right()`: Implements truncate_right functionality
-- `legacy_operation()`: Implements legacy_operation functionality
-- `truncate_left()`: Implements truncate_left functionality
-- `truncate_center()`: Implements truncate_center functionality
-- `StartOffset()`: Implements StartOffset functionality
+- `GroupDigitsImpl()`: Performs GroupDigitsImpl operation in strmix.cpp
+- `GroupDigits()`: Don't care - can't be negative
+- `GroupDigitsInvariant()`: Performs GroupDigitsInvariant operation in strmix.cpp
+- `legacy_InsertQuotes()`: Iterates through elements in strmix.cpp and adds them to a collection
+- `InsertRegexpQuote()`: Iterates through elements in strmix.cpp and adds them to a collection
+- `truncate_right()`: Performs truncate_right operation in strmix.cpp
+- `legacy_operation()`: Performs legacy_operation operation in strmix.cpp
+- `truncate_left()`: Performs truncate_left operation in strmix.cpp
+- `truncate_center()`: Performs truncate_center operation in strmix.cpp
+- `StartOffset()`: Performs StartOffset operation in strmix.cpp
 ### Namespaces
 - `id`
 ### Summary
@@ -30,20 +30,20 @@ The `strmix.cpp` file provides essential functionality for string utilities. It 
 Ten plik implementuje funkcjonalność związaną z: Куча разных вспомогательных функций по работе со строками
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `size`: Returns current allocated size of the buffer in elements
-- `tests`: Implements tests functionality
-- `units`: Implements units functionality
+- `size`: Don't care - can't be negative
+- `tests`: Performs tests operation in strmix.cpp
+- `units`: Performs units operation in strmix.cpp
 ### Kluczowe Funkcje
-- `GroupDigitsImpl()`: Not needed - can't be decimal Don't care - can't be decimal
-- `GroupDigits()`: Iterates through collection and processes each element, storing results
-- `GroupDigitsInvariant()`: Iterates through collection and processes each element, storing results
-- `legacy_InsertQuotes()`: выражение вида /regexp/i не дополняем слешами
-- `InsertRegexpQuote()`: выражение вида /regexp/i не дополняем слешами
-- `truncate_right()`: Implements truncate_right functionality
-- `legacy_operation()`: Implements legacy_operation functionality
-- `truncate_left()`: Implements truncate_left functionality
-- `truncate_center()`: Implements truncate_center functionality
-- `StartOffset()`: Implements StartOffset functionality
+- `GroupDigitsImpl()`: Performs GroupDigitsImpl operation in strmix.cpp
+- `GroupDigits()`: Don't care - can't be negative
+- `GroupDigitsInvariant()`: Performs GroupDigitsInvariant operation in strmix.cpp
+- `legacy_InsertQuotes()`: Iterates through elements in strmix.cpp and adds them to a collection
+- `InsertRegexpQuote()`: Iterates through elements in strmix.cpp and adds them to a collection
+- `truncate_right()`: Performs truncate_right operation in strmix.cpp
+- `legacy_operation()`: Performs legacy_operation operation in strmix.cpp
+- `truncate_left()`: Performs truncate_left operation in strmix.cpp
+- `truncate_center()`: Performs truncate_center operation in strmix.cpp
+- `StartOffset()`: Performs StartOffset operation in strmix.cpp
 ### Przestrzenie nazw
 - `id`
 ### Podsumowanie

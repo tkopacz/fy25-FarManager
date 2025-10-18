@@ -4,21 +4,21 @@
 This file implements functionality related to: Memory leak detector
 Main functional areas: core functionality
 ### Key Classes
-- `allocation_type`: Implements allocation_type functionality
-- `blocks_list`: Implements blocks_list functionality
-- `checker`: Implements checker functionality
-- `memory_block`: Implements memory_block functionality
+- `allocation_type`: Performs allocation_type operation in memcheck.cpp
+- `blocks_list`: Performs blocks_list operation in memcheck.cpp
+- `checker`: Performs checker operation in memcheck.cpp
+- `memory_block`: Performs memory_block operation in memcheck.cpp
 ### Key Functions
-- `from_data()`: Processes input by dispatching to different code paths based on type or value
-- `data()`: Processes input by dispatching to different code paths based on type or value
-- `end_marker()`: Processes input by dispatching to different code paths based on type or value
-- `format_type()`: Processes input by dispatching to different code paths based on type or value
-- `far_fatal_exception()`: Processes input by dispatching to different code paths based on type or value
-- `__asan_poison_memory_region()`: Implements __asan_poison_memory_region functionality
-- `__asan_unpoison_memory_region()`: Implements __asan_unpoison_memory_region functionality
-- `printable_string()`: Iterates through collection and processes each element, storing results
-- `printable_wide_string()`: Iterates through collection and processes each element, storing results
-- `printable_ansi_string()`: Implements printable_ansi_string functionality
+- `from_data()`: Initializers aren't really needed here, just to stop GCC from complaining about them.
+- `data()`: Initializers aren't really needed here, just to stop GCC from complaining about them.
+- `end_marker()`: Initializers aren't really needed here, just to stop GCC from complaining about them.
+- `format_type()`: Performs format_type operation in memcheck.cpp
+- `far_fatal_exception()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `__asan_poison_memory_region()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `__asan_unpoison_memory_region()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `printable_string()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `printable_wide_string()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `printable_ansi_string()`: Iterates through elements in memcheck.cpp and adds them to a collection
 ### Namespaces
 - `memcheck`
 ### Summary
@@ -31,21 +31,21 @@ The `memcheck.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Memory leak detector
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `allocation_type`: Implements allocation_type functionality
-- `blocks_list`: Implements blocks_list functionality
-- `checker`: Implements checker functionality
-- `memory_block`: Implements memory_block functionality
+- `allocation_type`: Performs allocation_type operation in memcheck.cpp
+- `blocks_list`: Performs blocks_list operation in memcheck.cpp
+- `checker`: Performs checker operation in memcheck.cpp
+- `memory_block`: Performs memory_block operation in memcheck.cpp
 ### Kluczowe Funkcje
-- `from_data()`: Processes input by dispatching to different code paths based on type or value
-- `data()`: Processes input by dispatching to different code paths based on type or value
-- `end_marker()`: Processes input by dispatching to different code paths based on type or value
-- `format_type()`: Processes input by dispatching to different code paths based on type or value
-- `far_fatal_exception()`: Processes input by dispatching to different code paths based on type or value
-- `__asan_poison_memory_region()`: Implements __asan_poison_memory_region functionality
-- `__asan_unpoison_memory_region()`: Implements __asan_unpoison_memory_region functionality
-- `printable_string()`: Iterates through collection and processes each element, storing results
-- `printable_wide_string()`: Iterates through collection and processes each element, storing results
-- `printable_ansi_string()`: Implements printable_ansi_string functionality
+- `from_data()`: Initializers aren't really needed here, just to stop GCC from complaining about them.
+- `data()`: Initializers aren't really needed here, just to stop GCC from complaining about them.
+- `end_marker()`: Initializers aren't really needed here, just to stop GCC from complaining about them.
+- `format_type()`: Performs format_type operation in memcheck.cpp
+- `far_fatal_exception()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `__asan_poison_memory_region()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `__asan_unpoison_memory_region()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `printable_string()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `printable_wide_string()`: Iterates through elements in memcheck.cpp and adds them to a collection
+- `printable_ansi_string()`: Iterates through elements in memcheck.cpp and adds them to a collection
 ### Przestrzenie nazw
 - `memcheck`
 ### Podsumowanie

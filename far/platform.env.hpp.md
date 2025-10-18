@@ -4,15 +4,15 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `block`: Implements block functionality
-- `strings`: Implements strings functionality
+- `block`: Performs block operation in platform.env.hpp
+- `strings`: Performs strings operation in platform.env.hpp
 ### Key Functions
-- `data()`: Implements data functionality
-- `get()`: Implements get functionality
-- `set()`: Implements set functionality
-- `del()`: Implements del functionality
-- `expand()`: Implements expand functionality
-- `get_pathext()`: Retrieves _pathext from current context or object state
+- `data()`: Performs data operation in platform.env.hpp
+- `get()`: Retrieves  value in platform.env.hpp
+- `set()`: Sets or updates  value in platform.env.hpp
+- `del()`: Performs del operation in platform.env.hpp
+- `expand()`: Performs expand operation in platform.env.hpp
+- `get_pathext()`: Retrieves _pathext value in platform.env.hpp
 ### Namespaces
 - `os`
 - `provider`
@@ -26,15 +26,15 @@ The `platform.env.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `block`: Implements block functionality
-- `strings`: Implements strings functionality
+- `block`: Performs block operation in platform.env.hpp
+- `strings`: Performs strings operation in platform.env.hpp
 ### Kluczowe Funkcje
-- `data()`: Implements data functionality
-- `get()`: Implements get functionality
-- `set()`: Implements set functionality
-- `del()`: Implements del functionality
-- `expand()`: Implements expand functionality
-- `get_pathext()`: Retrieves _pathext from current context or object state
+- `data()`: Performs data operation in platform.env.hpp
+- `get()`: Retrieves  value in platform.env.hpp
+- `set()`: Sets or updates  value in platform.env.hpp
+- `del()`: Performs del operation in platform.env.hpp
+- `expand()`: Performs expand operation in platform.env.hpp
+- `get_pathext()`: Retrieves _pathext value in platform.env.hpp
 ### Przestrzenie nazw
 - `os`
 - `provider`

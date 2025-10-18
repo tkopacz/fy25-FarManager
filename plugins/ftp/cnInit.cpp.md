@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `ConnectMessage()`: Implements ConnectMessage functionality
+- `ConnectMessage()`: Checks a condition in cnInit.cpp and returns true or false based on the result
 ### Summary
 The `cnInit.cpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -13,6 +13,6 @@ The `cnInit.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `ConnectMessage()`: Implements ConnectMessage functionality
+- `ConnectMessage()`: Checks a condition in cnInit.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `cnInit.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

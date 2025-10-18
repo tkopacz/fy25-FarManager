@@ -4,13 +4,13 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `get()`: Implements get functionality
-- `C_Name()`: Implements C_Name functionality
-- `set()`: Implements set functionality
-- `del()`: Implements del functionality
-- `expand()`: Implements expand functionality
-- `C_Str()`: Implements C_Str functionality
-- `get_pathext()`: Retrieves _pathext from current context or object state
+- `get()`: Checks a condition in platform.env.cpp and returns true or false based on the result
+- `C_Name()`: Performs C_Name operation in platform.env.cpp
+- `set()`: Something went wrong, it's better to leave the last error as is
+- `del()`: Something went wrong, it's better to leave the last error as is
+- `expand()`: Performs expand operation in platform.env.cpp
+- `C_Str()`: Performs C_Str operation in platform.env.cpp
+- `get_pathext()`: Retrieves _pathext value in platform.env.cpp
 ### Namespaces
 - `os`
 ### Summary
@@ -23,13 +23,13 @@ The `platform.env.cpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `get()`: Implements get functionality
-- `C_Name()`: Implements C_Name functionality
-- `set()`: Implements set functionality
-- `del()`: Implements del functionality
-- `expand()`: Implements expand functionality
-- `C_Str()`: Implements C_Str functionality
-- `get_pathext()`: Retrieves _pathext from current context or object state
+- `get()`: Checks a condition in platform.env.cpp and returns true or false based on the result
+- `C_Name()`: Performs C_Name operation in platform.env.cpp
+- `set()`: Something went wrong, it's better to leave the last error as is
+- `del()`: Something went wrong, it's better to leave the last error as is
+- `expand()`: Performs expand operation in platform.env.cpp
+- `C_Str()`: Performs C_Str operation in platform.env.cpp
+- `get_pathext()`: Retrieves _pathext value in platform.env.cpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

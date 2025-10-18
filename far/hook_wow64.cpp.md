@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `hook_error`: Implements hook_error functionality
-- `remove_protection`: Removes or deletes specified item and releases associated resources
-- `wow`: Implements wow functionality
+- `hook_error`: Performs hook_error operation in hook_wow64.cpp
+- `remove_protection`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `wow`: Performs wow operation in hook_wow64.cpp
 ### Key Functions
-- `e_disable()`: Implements e_disable functionality
-- `e_revert()`: Implements e_revert functionality
-- `wow_restore()`: Implements wow_restore functionality
-- `wow_disable()`: Implements wow_disable functionality
-- `__asm__()`: Implements __asm__ functionality
-- `hook_ldr()`: real call           // 1 real return          // 1
-- `GetProcAddressImpl()`: Iterates through collection and processes each element, storing results
-- `bool()`: Implements bool functionality
-- `init_hook()`: Initializes component with required configuration and state
-- `HookProc()`: Iterates through collection and processes each element, storing results
+- `e_disable()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `e_revert()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `wow_restore()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `wow_disable()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `__asm__()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `hook_ldr()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `GetProcAddressImpl()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `bool()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `init_hook()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `HookProc()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
 ### Summary
 The `hook_wow64.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,19 +26,19 @@ The `hook_wow64.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `hook_error`: Implements hook_error functionality
-- `remove_protection`: Removes or deletes specified item and releases associated resources
-- `wow`: Implements wow functionality
+- `hook_error`: Performs hook_error operation in hook_wow64.cpp
+- `remove_protection`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `wow`: Performs wow operation in hook_wow64.cpp
 ### Kluczowe Funkcje
-- `e_disable()`: Implements e_disable functionality
-- `e_revert()`: Implements e_revert functionality
-- `wow_restore()`: Implements wow_restore functionality
-- `wow_disable()`: Implements wow_disable functionality
-- `__asm__()`: Implements __asm__ functionality
-- `hook_ldr()`: real call           // 1 real return          // 1
-- `GetProcAddressImpl()`: Iterates through collection and processes each element, storing results
-- `bool()`: Implements bool functionality
-- `init_hook()`: Initializes component with required configuration and state
-- `HookProc()`: Iterates through collection and processes each element, storing results
+- `e_disable()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `e_revert()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `wow_restore()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `wow_disable()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `__asm__()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `hook_ldr()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `GetProcAddressImpl()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `bool()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `init_hook()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
+- `HookProc()`: Iterates through elements in hook_wow64.cpp and adds them to a collection
 ### Podsumowanie
 Plik `hook_wow64.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

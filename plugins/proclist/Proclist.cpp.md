@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `fNtQueryInformationProcess()`: Implements fNtQueryInformationProcess functionality
-- `fNtQueryInformationThread()`: Implements fNtQueryInformationThread functionality
-- `fNtQueryObject()`: Implements fNtQueryObject functionality
-- `fNtQuerySystemInformation()`: Implements fNtQuerySystemInformation functionality
-- `fNtQueryInformationFile()`: Implements fNtQueryInformationFile functionality
-- `fNtWow64ReadVirtualMemory64()`: Implements fNtWow64ReadVirtualMemory64 functionality
-- `fNtWow64QueryInformationProcess64()`: Implements fNtWow64QueryInformationProcess64 functionality
-- `fIsWow64Process()`: Implements fIsWow64Process functionality
-- `fGetLogicalProcessorInformationEx()`: Evaluates conditions and returns a boolean indicating success or validity of fGetLogicalProcessorInformationEx
-- `fGetThreadDescription()`: Implements fGetThreadDescription functionality
+- `fNtQueryInformationProcess()`: Performs fNtQueryInformationProcess operation in Proclist.cpp
+- `fNtQueryInformationThread()`: Performs fNtQueryInformationThread operation in Proclist.cpp
+- `fNtQueryObject()`: Performs fNtQueryObject operation in Proclist.cpp
+- `fNtQuerySystemInformation()`: Performs fNtQuerySystemInformation operation in Proclist.cpp
+- `fNtQueryInformationFile()`: Performs fNtQueryInformationFile operation in Proclist.cpp
+- `fNtWow64ReadVirtualMemory64()`: Performs fNtWow64ReadVirtualMemory64 operation in Proclist.cpp
+- `fNtWow64QueryInformationProcess64()`: Performs fNtWow64QueryInformationProcess64 operation in Proclist.cpp
+- `fIsWow64Process()`: Performs fIsWow64Process operation in Proclist.cpp
+- `fGetLogicalProcessorInformationEx()`: Performs fGetLogicalProcessorInformationEx operation in Proclist.cpp
+- `fGetThreadDescription()`: Performs fGetThreadDescription operation in Proclist.cpp
 ### Summary
 The `Proclist.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `Proclist.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `fNtQueryInformationProcess()`: Implements fNtQueryInformationProcess functionality
-- `fNtQueryInformationThread()`: Implements fNtQueryInformationThread functionality
-- `fNtQueryObject()`: Implements fNtQueryObject functionality
-- `fNtQuerySystemInformation()`: Implements fNtQuerySystemInformation functionality
-- `fNtQueryInformationFile()`: Implements fNtQueryInformationFile functionality
-- `fNtWow64ReadVirtualMemory64()`: Implements fNtWow64ReadVirtualMemory64 functionality
-- `fNtWow64QueryInformationProcess64()`: Implements fNtWow64QueryInformationProcess64 functionality
-- `fIsWow64Process()`: Implements fIsWow64Process functionality
-- `fGetLogicalProcessorInformationEx()`: Evaluates conditions and returns a boolean indicating success or validity of fGetLogicalProcessorInformationEx
-- `fGetThreadDescription()`: Implements fGetThreadDescription functionality
+- `fNtQueryInformationProcess()`: Performs fNtQueryInformationProcess operation in Proclist.cpp
+- `fNtQueryInformationThread()`: Performs fNtQueryInformationThread operation in Proclist.cpp
+- `fNtQueryObject()`: Performs fNtQueryObject operation in Proclist.cpp
+- `fNtQuerySystemInformation()`: Performs fNtQuerySystemInformation operation in Proclist.cpp
+- `fNtQueryInformationFile()`: Performs fNtQueryInformationFile operation in Proclist.cpp
+- `fNtWow64ReadVirtualMemory64()`: Performs fNtWow64ReadVirtualMemory64 operation in Proclist.cpp
+- `fNtWow64QueryInformationProcess64()`: Performs fNtWow64QueryInformationProcess64 operation in Proclist.cpp
+- `fIsWow64Process()`: Performs fIsWow64Process operation in Proclist.cpp
+- `fGetLogicalProcessorInformationEx()`: Performs fGetLogicalProcessorInformationEx operation in Proclist.cpp
+- `fGetThreadDescription()`: Performs fGetThreadDescription operation in Proclist.cpp
 ### Podsumowanie
 Plik `Proclist.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

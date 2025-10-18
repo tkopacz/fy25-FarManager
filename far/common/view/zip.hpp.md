@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `traits`: Implements traits functionality
-- `zip_iterator`: Implements zip_iterator functionality
-- `zip_sentinel`: Implements zip_sentinel functionality
+- `traits`: Performs traits operation in zip.hpp
+- `zip_iterator`: Performs zip_iterator operation in zip.hpp
+- `zip_sentinel`: Performs zip_sentinel operation in zip.hpp
 ### Key Functions
-- `dereference_impl()`: Implements dereference_impl functionality
-- `dereference()`: Implements dereference functionality
-- `binary_any_of_impl()`: Implements binary_any_of_impl functionality
-- `binary_any_of()`: Implements binary_any_of functionality
-- `binary_all_of_impl()`: Implements binary_all_of_impl functionality
-- `binary_all_of()`: Implements binary_all_of functionality
-- `tuple_difference()`: Implements tuple_difference functionality
-- `begin()`: Implements begin functionality
-- `end()`: Implements end functionality
-- `cbegin()`: Implements cbegin functionality
+- `dereference_impl()`: Performs dereference_impl operation in zip.hpp
+- `dereference()`: Performs dereference operation in zip.hpp
+- `binary_any_of_impl()`: Performs binary_any_of_impl operation in zip.hpp
+- `binary_any_of()`: Performs binary_any_of operation in zip.hpp
+- `binary_all_of_impl()`: Performs binary_all_of_impl operation in zip.hpp
+- `binary_all_of()`: Performs binary_all_of operation in zip.hpp
+- `tuple_difference()`: Performs tuple_difference operation in zip.hpp
+- `begin()`: Performs begin operation in zip.hpp
+- `end()`: Performs end operation in zip.hpp
+- `cbegin()`: Performs cbegin operation in zip.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -28,20 +28,20 @@ The `zip.hpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `traits`: Implements traits functionality
-- `zip_iterator`: Implements zip_iterator functionality
-- `zip_sentinel`: Implements zip_sentinel functionality
+- `traits`: Performs traits operation in zip.hpp
+- `zip_iterator`: Performs zip_iterator operation in zip.hpp
+- `zip_sentinel`: Performs zip_sentinel operation in zip.hpp
 ### Kluczowe Funkcje
-- `dereference_impl()`: Implements dereference_impl functionality
-- `dereference()`: Implements dereference functionality
-- `binary_any_of_impl()`: Implements binary_any_of_impl functionality
-- `binary_any_of()`: Implements binary_any_of functionality
-- `binary_all_of_impl()`: Implements binary_all_of_impl functionality
-- `binary_all_of()`: Implements binary_all_of functionality
-- `tuple_difference()`: Implements tuple_difference functionality
-- `begin()`: Implements begin functionality
-- `end()`: Implements end functionality
-- `cbegin()`: Implements cbegin functionality
+- `dereference_impl()`: Performs dereference_impl operation in zip.hpp
+- `dereference()`: Performs dereference operation in zip.hpp
+- `binary_any_of_impl()`: Performs binary_any_of_impl operation in zip.hpp
+- `binary_any_of()`: Performs binary_any_of operation in zip.hpp
+- `binary_all_of_impl()`: Performs binary_all_of_impl operation in zip.hpp
+- `binary_all_of()`: Performs binary_all_of operation in zip.hpp
+- `tuple_difference()`: Performs tuple_difference operation in zip.hpp
+- `begin()`: Performs begin operation in zip.hpp
+- `end()`: Performs end operation in zip.hpp
+- `cbegin()`: Performs cbegin operation in zip.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

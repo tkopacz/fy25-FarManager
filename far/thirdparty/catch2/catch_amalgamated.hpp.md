@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AnsiSkippingString`: Implements AnsiSkippingString functionality
-- `Approx`: Implements Approx functionality
-- `Arg`: Implements Arg functionality
-- `Args`: Helper constructor for testing Convenience wrapper for option parser that specifies the help option Result type for parser operation
-- `AssertionHandler`: ////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////
-- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED AssertionInfo() = delete; end namespace Catch CATCH_ASSERTION_INFO_HPP_INCLUDED
-- `AssertionOrBenchmarkResult`: Implements AssertionOrBenchmarkResult functionality
-- `AssertionReaction`: Implements AssertionReaction functionality
-- `AssertionResult`: Implements AssertionResult functionality
-- `AssertionResultData`: Implements AssertionResultData functionality
+- `AnsiSkippingString`: perform 0xff replacement and calculate m_size
+- `Approx`: ! Creates a matcher that matches vectors that `comparator` as an element
+- `Arg`: Performs Arg operation in catch_amalgamated.hpp
+- `Args`: Performs Args operation in catch_amalgamated.hpp
+- `AssertionHandler`: Performs AssertionHandler operation in catch_amalgamated.hpp
+- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED
+- `AssertionOrBenchmarkResult`: ! Represents either an assertion or a benchmark result to be handled by cumulative reporter later
+- `AssertionReaction`: Performs AssertionReaction operation in catch_amalgamated.hpp
+- `AssertionResult`: CATCH_LAZY_EXPR_HPP_INCLUDED
+- `AssertionResultData`: Iterates through elements in catch_amalgamated.hpp and adds them to a collection
 ### Key Functions
-- `getCurrentMutableContext()`: Retrieves CurrentMutableContext from current context or object state
-- `getCurrentContext()`: Retrieves CurrentContext from current context or object state
-- `createContext()`: Creates and initializes new object or resource instance
-- `cleanUpContext()`: Implements cleanUpContext functionality
-- `getResultCapture()`: Retrieves ResultCapture from current context or object state
-- `getConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
-- `setResultCapture()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
-- `setConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
-- `sharedRng()`: Implements sharedRng functionality
-- `throw_test_failure_exception()`: Implements throw_test_failure_exception functionality
+- `getCurrentMutableContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getCurrentContext()`: Retrieves CurrentContext value in catch_amalgamated.hpp
+- `createContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `cleanUpContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getResultCapture()`: Retrieves ResultCapture value in catch_amalgamated.hpp
+- `getConfig()`: Retrieves Config value in catch_amalgamated.hpp
+- `setResultCapture()`: Sets or updates ResultCapture value in catch_amalgamated.hpp
+- `setConfig()`: Sets or updates Config value in catch_amalgamated.hpp
+- `sharedRng()`: We duplicate the logic from `getCurrentMutableContext` here,
+- `throw_test_failure_exception()`: Performs throw_test_failure_exception operation in catch_amalgamated.hpp
 ### Namespaces
 - `Benchmark`
 - `Catch`
@@ -49,27 +49,27 @@ The `catch_amalgamated.hpp` file provides essential functionality for singleton 
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `AnsiSkippingString`: Implements AnsiSkippingString functionality
-- `Approx`: Implements Approx functionality
-- `Arg`: Implements Arg functionality
-- `Args`: Helper constructor for testing Convenience wrapper for option parser that specifies the help option Result type for parser operation
-- `AssertionHandler`: ////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////
-- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED AssertionInfo() = delete; end namespace Catch CATCH_ASSERTION_INFO_HPP_INCLUDED
-- `AssertionOrBenchmarkResult`: Implements AssertionOrBenchmarkResult functionality
-- `AssertionReaction`: Implements AssertionReaction functionality
-- `AssertionResult`: Implements AssertionResult functionality
-- `AssertionResultData`: Implements AssertionResultData functionality
+- `AnsiSkippingString`: perform 0xff replacement and calculate m_size
+- `Approx`: ! Creates a matcher that matches vectors that `comparator` as an element
+- `Arg`: Performs Arg operation in catch_amalgamated.hpp
+- `Args`: Performs Args operation in catch_amalgamated.hpp
+- `AssertionHandler`: Performs AssertionHandler operation in catch_amalgamated.hpp
+- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED
+- `AssertionOrBenchmarkResult`: ! Represents either an assertion or a benchmark result to be handled by cumulative reporter later
+- `AssertionReaction`: Performs AssertionReaction operation in catch_amalgamated.hpp
+- `AssertionResult`: CATCH_LAZY_EXPR_HPP_INCLUDED
+- `AssertionResultData`: Iterates through elements in catch_amalgamated.hpp and adds them to a collection
 ### Kluczowe Funkcje
-- `getCurrentMutableContext()`: Retrieves CurrentMutableContext from current context or object state
-- `getCurrentContext()`: Retrieves CurrentContext from current context or object state
-- `createContext()`: Creates and initializes new object or resource instance
-- `cleanUpContext()`: Implements cleanUpContext functionality
-- `getResultCapture()`: Retrieves ResultCapture from current context or object state
-- `getConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
-- `setResultCapture()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
-- `setConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
-- `sharedRng()`: Implements sharedRng functionality
-- `throw_test_failure_exception()`: Implements throw_test_failure_exception functionality
+- `getCurrentMutableContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getCurrentContext()`: Retrieves CurrentContext value in catch_amalgamated.hpp
+- `createContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `cleanUpContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getResultCapture()`: Retrieves ResultCapture value in catch_amalgamated.hpp
+- `getConfig()`: Retrieves Config value in catch_amalgamated.hpp
+- `setResultCapture()`: Sets or updates ResultCapture value in catch_amalgamated.hpp
+- `setConfig()`: Sets or updates Config value in catch_amalgamated.hpp
+- `sharedRng()`: We duplicate the logic from `getCurrentMutableContext` here,
+- `throw_test_failure_exception()`: Performs throw_test_failure_exception operation in catch_amalgamated.hpp
 ### Przestrzenie nazw
 - `Benchmark`
 - `Catch`

@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `initialize_impl()`: Initializes component with required configuration and state
-- `exception()`: Implements exception functionality
-- `get_shell_name()`: Retrieves _shell_name from current context or object state
-- `C_Path()`: Implements C_Path functionality
-- `is_proper_progid()`: Checks condition and returns boolean indicating state
-- `get_shell_type()`: Retrieves _shell_type from current context or object state
-- `LOGDEBUG()`: This is informational, debug will do fine
+- `initialize_impl()`: Checks a condition in platform.com.cpp and returns true or false based on the result
+- `exception()`: Validates a condition in platform.com.cpp and throws an exception if the validation fails
+- `get_shell_name()`: Manages COM library initialization and cleanup in platform.com.cpp using RAII pattern
+- `C_Path()`: Q: Why not SHCreateItemFromParsingName + IShellItem::GetDisplayName?
+- `is_proper_progid()`: Checks a condition in platform.com.cpp and returns the result
+- `get_shell_type()`: Retrieves _shell_type value in platform.com.cpp
+- `LOGDEBUG()`: Performs LOGDEBUG operation in platform.com.cpp
 - `get_shell_filetype_description()`: This is informational, debug will do fine
 ### Namespaces
 - `os`
@@ -22,13 +22,13 @@ The `platform.com.cpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `initialize_impl()`: Initializes component with required configuration and state
-- `exception()`: Implements exception functionality
-- `get_shell_name()`: Retrieves _shell_name from current context or object state
-- `C_Path()`: Implements C_Path functionality
-- `is_proper_progid()`: Checks condition and returns boolean indicating state
-- `get_shell_type()`: Retrieves _shell_type from current context or object state
-- `LOGDEBUG()`: This is informational, debug will do fine
+- `initialize_impl()`: Checks a condition in platform.com.cpp and returns true or false based on the result
+- `exception()`: Validates a condition in platform.com.cpp and throws an exception if the validation fails
+- `get_shell_name()`: Manages COM library initialization and cleanup in platform.com.cpp using RAII pattern
+- `C_Path()`: Q: Why not SHCreateItemFromParsingName + IShellItem::GetDisplayName?
+- `is_proper_progid()`: Checks a condition in platform.com.cpp and returns the result
+- `get_shell_type()`: Retrieves _shell_type value in platform.com.cpp
+- `LOGDEBUG()`: Performs LOGDEBUG operation in platform.com.cpp
 - `get_shell_filetype_description()`: This is informational, debug will do fine
 ### Przestrzenie nazw
 - `os`

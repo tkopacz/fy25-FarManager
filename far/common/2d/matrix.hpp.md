@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `matrix`: Implements matrix functionality
-- `matrix_data`: Implements matrix_data functionality
-- `matrix_iterator`: Implements matrix_iterator functionality
-- `matrix_row`: Implements matrix_row functionality
-- `matrix_view`: Implements matrix_view functionality
+- `matrix`: Performs matrix operation in matrix.hpp
+- `matrix_data`: Performs matrix_data operation in matrix.hpp
+- `matrix_iterator`: GCC isn't smart enough to deduce this
+- `matrix_row`: Performs matrix_row operation in matrix.hpp
+- `matrix_view`: Performs matrix_view operation in matrix.hpp
 ### Key Functions
-- `matrix_row()`: Implements matrix_row functionality
-- `matrix_iterator()`: Implements matrix_iterator functionality
-- `begin()`: Implements begin functionality
-- `iterator()`: Implements iterator functionality
-- `end()`: Implements end functionality
-- `cbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `cend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `rbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `rend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `crbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `matrix_row()`: Performs matrix_row operation in matrix.hpp
+- `matrix_iterator()`: GCC isn't smart enough to deduce this
+- `begin()`: Performs begin operation in matrix.hpp
+- `iterator()`: GCC isn't smart enough to deduce this
+- `end()`: Performs end operation in matrix.hpp
+- `cbegin()`: Performs cbegin operation in matrix.hpp
+- `cend()`: Performs cend operation in matrix.hpp
+- `rbegin()`: Performs rbegin operation in matrix.hpp
+- `rend()`: Performs rend operation in matrix.hpp
+- `crbegin()`: Performs crbegin operation in matrix.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -32,22 +32,22 @@ The `matrix.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `matrix`: Implements matrix functionality
-- `matrix_data`: Implements matrix_data functionality
-- `matrix_iterator`: Implements matrix_iterator functionality
-- `matrix_row`: Implements matrix_row functionality
-- `matrix_view`: Implements matrix_view functionality
+- `matrix`: Performs matrix operation in matrix.hpp
+- `matrix_data`: Performs matrix_data operation in matrix.hpp
+- `matrix_iterator`: GCC isn't smart enough to deduce this
+- `matrix_row`: Performs matrix_row operation in matrix.hpp
+- `matrix_view`: Performs matrix_view operation in matrix.hpp
 ### Kluczowe Funkcje
-- `matrix_row()`: Implements matrix_row functionality
-- `matrix_iterator()`: Implements matrix_iterator functionality
-- `begin()`: Implements begin functionality
-- `iterator()`: Implements iterator functionality
-- `end()`: Implements end functionality
-- `cbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `cend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `rbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `rend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
-- `crbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `matrix_row()`: Performs matrix_row operation in matrix.hpp
+- `matrix_iterator()`: GCC isn't smart enough to deduce this
+- `begin()`: Performs begin operation in matrix.hpp
+- `iterator()`: GCC isn't smart enough to deduce this
+- `end()`: Performs end operation in matrix.hpp
+- `cbegin()`: Performs cbegin operation in matrix.hpp
+- `cend()`: Performs cend operation in matrix.hpp
+- `rbegin()`: Performs rbegin operation in matrix.hpp
+- `rend()`: Performs rend operation in matrix.hpp
+- `crbegin()`: Performs crbegin operation in matrix.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

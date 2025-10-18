@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `date_type`: Implements date_type functionality
-- `locale`: Implements locale functionality
-- `locale_names`: Implements locale_names functionality
-- `name`: Implements name functionality
+- `date_type`: Performs date_type operation in locale.hpp
+- `locale`: Performs locale operation in locale.hpp
+- `locale_names`: Performs locale_names operation in locale.hpp
+- `name`: Performs name operation in locale.hpp
 ### Key Functions
-- `locale()`: Implements locale functionality
-- `is_invariant()`: Checks condition and returns boolean indicating state
-- `is_cjk()`: Checks condition and returns boolean indicating state
-- `date_format()`: Implements date_format functionality
-- `digits_grouping()`: Implements digits_grouping functionality
-- `date_separator()`: Implements date_separator functionality
-- `time_separator()`: Implements time_separator functionality
-- `decimal_separator()`: Implements decimal_separator functionality
-- `thousand_separator()`: Implements thousand_separator functionality
-- `LocalNames()`: Implements LocalNames functionality
+- `locale()`: Performs locale operation in locale.hpp
+- `is_invariant()`: Checks a condition in locale.hpp and returns the result
+- `is_cjk()`: Checks a condition in locale.hpp and returns the result
+- `date_format()`: Performs date_format operation in locale.hpp
+- `digits_grouping()`: Performs digits_grouping operation in locale.hpp
+- `date_separator()`: Performs date_separator operation in locale.hpp
+- `time_separator()`: Performs time_separator operation in locale.hpp
+- `decimal_separator()`: Performs decimal_separator operation in locale.hpp
+- `thousand_separator()`: Performs thousand_separator operation in locale.hpp
+- `LocalNames()`: Performs LocalNames operation in locale.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -31,21 +31,21 @@ The `locale.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `date_type`: Implements date_type functionality
-- `locale`: Implements locale functionality
-- `locale_names`: Implements locale_names functionality
-- `name`: Implements name functionality
+- `date_type`: Performs date_type operation in locale.hpp
+- `locale`: Performs locale operation in locale.hpp
+- `locale_names`: Performs locale_names operation in locale.hpp
+- `name`: Performs name operation in locale.hpp
 ### Kluczowe Funkcje
-- `locale()`: Implements locale functionality
-- `is_invariant()`: Checks condition and returns boolean indicating state
-- `is_cjk()`: Checks condition and returns boolean indicating state
-- `date_format()`: Implements date_format functionality
-- `digits_grouping()`: Implements digits_grouping functionality
-- `date_separator()`: Implements date_separator functionality
-- `time_separator()`: Implements time_separator functionality
-- `decimal_separator()`: Implements decimal_separator functionality
-- `thousand_separator()`: Implements thousand_separator functionality
-- `LocalNames()`: Implements LocalNames functionality
+- `locale()`: Performs locale operation in locale.hpp
+- `is_invariant()`: Checks a condition in locale.hpp and returns the result
+- `is_cjk()`: Checks a condition in locale.hpp and returns the result
+- `date_format()`: Performs date_format operation in locale.hpp
+- `digits_grouping()`: Performs digits_grouping operation in locale.hpp
+- `date_separator()`: Performs date_separator operation in locale.hpp
+- `time_separator()`: Performs time_separator operation in locale.hpp
+- `decimal_separator()`: Performs decimal_separator operation in locale.hpp
+- `thousand_separator()`: Performs thousand_separator operation in locale.hpp
+- `LocalNames()`: Performs LocalNames operation in locale.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

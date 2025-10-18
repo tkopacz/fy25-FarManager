@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `map_file`: Implements map_file functionality
-- `tracer`: External: ---------------------------------------------------------------------------- Same as os::debug::*, but with symbols initialized
-- `with_symbols`: Implements with_symbols functionality
+- `map_file`: Performs map_file operation in tracer.hpp
+- `tracer`: Performs tracer operation in tracer.hpp
+- `with_symbols`: Performs with_symbols operation in tracer.hpp
 ### Key Functions
-- `get_symbol()`: Same as os::debug::*, but with symbols initialized
-- `with_symbols()`: Implements with_symbols functionality
-- `sym_initialise()`: Implements sym_initialise functionality
-- `sym_cleanup()`: Implements sym_cleanup functionality
+- `get_symbol()`: Retrieves _symbol value in tracer.hpp
+- `with_symbols()`: Performs with_symbols operation in tracer.hpp
+- `sym_initialise()`: Performs sym_initialise operation in tracer.hpp
+- `sym_cleanup()`: Performs sym_cleanup operation in tracer.hpp
 ### Namespaces
 - `tracer_detail`
 ### Summary
@@ -22,14 +22,14 @@ The `tracer.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `map_file`: Implements map_file functionality
-- `tracer`: External: ---------------------------------------------------------------------------- Same as os::debug::*, but with symbols initialized
-- `with_symbols`: Implements with_symbols functionality
+- `map_file`: Performs map_file operation in tracer.hpp
+- `tracer`: Performs tracer operation in tracer.hpp
+- `with_symbols`: Performs with_symbols operation in tracer.hpp
 ### Kluczowe Funkcje
-- `get_symbol()`: Same as os::debug::*, but with symbols initialized
-- `with_symbols()`: Implements with_symbols functionality
-- `sym_initialise()`: Implements sym_initialise functionality
-- `sym_cleanup()`: Implements sym_cleanup functionality
+- `get_symbol()`: Retrieves _symbol value in tracer.hpp
+- `with_symbols()`: Performs with_symbols operation in tracer.hpp
+- `sym_initialise()`: Performs sym_initialise operation in tracer.hpp
+- `sym_cleanup()`: Performs sym_cleanup operation in tracer.hpp
 ### Przestrzenie nazw
 - `tracer_detail`
 ### Podsumowanie

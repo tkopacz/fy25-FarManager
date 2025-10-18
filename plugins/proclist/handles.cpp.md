@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Implements PROCLIST_SYSTEM_HANDLE_INFORMATION functionality
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Implements SYSTEM_HANDLE_TABLE_ENTRY_INFO functionality
-- `THREAD_BASIC_INFORMATION`: Implements THREAD_BASIC_INFORMATION functionality
-- `test`: Implements test functionality
+- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation in handles.cpp
+- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation in handles.cpp
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in handles.cpp
+- `test`: Performs test operation in handles.cpp
 ### Key Functions
-- `GetProcessId()`: Retrieves ProcessId from current context or object state
-- `GetThreadId()`: Retrieves ThreadId from current context or object state
-- `to_string()`: Implements to_string functionality
-- `GetFileName()`: Check if it's possible to get the file name info
-- `GetFileNameThread()`: Check if it's possible to get the file name info Wait for finishing the thread
-- `GetTypeToken()`: Retrieves TypeToken from current context or object state
-- `GetTypeFromTypeToken()`: L"Port", L"OB_TYPE_WAITABLE_PORT", L"Adapter", L"Controller", L"Device", L"Driver", L"IoCompletion", L"WmiGuid",
-- `GetUserAccountID()`: Retrieves UserAccountID from current context or object state
-- `GetNameByType()`: Processes input by dispatching to different code paths based on type or value
-- `l()`: Processes input by dispatching to different code paths based on type or value
+- `GetProcessId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `GetThreadId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `to_string()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileName()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileNameThread()`: Check if it's possible to get the file name info
+- `GetTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetTypeFromTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetUserAccountID()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetNameByType()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `l()`: Checks a condition in handles.cpp and returns true or false based on the result
 ### Namespaces
 - `std`
 ### Summary
@@ -29,21 +29,21 @@ The `handles.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Implements PROCLIST_SYSTEM_HANDLE_INFORMATION functionality
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Implements SYSTEM_HANDLE_TABLE_ENTRY_INFO functionality
-- `THREAD_BASIC_INFORMATION`: Implements THREAD_BASIC_INFORMATION functionality
-- `test`: Implements test functionality
+- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation in handles.cpp
+- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation in handles.cpp
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in handles.cpp
+- `test`: Performs test operation in handles.cpp
 ### Kluczowe Funkcje
-- `GetProcessId()`: Retrieves ProcessId from current context or object state
-- `GetThreadId()`: Retrieves ThreadId from current context or object state
-- `to_string()`: Implements to_string functionality
-- `GetFileName()`: Check if it's possible to get the file name info
-- `GetFileNameThread()`: Check if it's possible to get the file name info Wait for finishing the thread
-- `GetTypeToken()`: Retrieves TypeToken from current context or object state
-- `GetTypeFromTypeToken()`: L"Port", L"OB_TYPE_WAITABLE_PORT", L"Adapter", L"Controller", L"Device", L"Driver", L"IoCompletion", L"WmiGuid",
-- `GetUserAccountID()`: Retrieves UserAccountID from current context or object state
-- `GetNameByType()`: Processes input by dispatching to different code paths based on type or value
-- `l()`: Processes input by dispatching to different code paths based on type or value
+- `GetProcessId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `GetThreadId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `to_string()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileName()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileNameThread()`: Check if it's possible to get the file name info
+- `GetTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetTypeFromTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetUserAccountID()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetNameByType()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `l()`: Checks a condition in handles.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

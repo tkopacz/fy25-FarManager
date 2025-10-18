@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `repeat()`: Implements repeat functionality
-- `apply_permutation()`: Validates conditions and throws exceptions when errors are detected during apply_permutation operation
-- `emplace()`: Unified container emplace uniform "contains"
-- `contains()`: uniform "contains" everything else
-- `in_closed_range()`: Implements in_closed_range functionality
-- `any_of()`: Implements any_of functionality
-- `none_of()`: Implements none_of functionality
-- `intersect()`: Implements intersect functionality
+- `repeat()`: Performs repeat operation in algorithm.hpp
+- `apply_permutation()`: Performs apply_permutation operation in algorithm.hpp
+- `emplace()`: Performs emplace operation in algorithm.hpp
+- `contains()`: Performs contains operation in algorithm.hpp
+- `in_closed_range()`: Performs in_closed_range operation in algorithm.hpp
+- `any_of()`: Performs any_of operation in algorithm.hpp
+- `none_of()`: Performs none_of operation in algorithm.hpp
+- `intersect()`: Performs intersect operation in algorithm.hpp
 ### Namespaces
 - `std`
 ### Summary
@@ -22,14 +22,14 @@ The `algorithm.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `repeat()`: Implements repeat functionality
-- `apply_permutation()`: Validates conditions and throws exceptions when errors are detected during apply_permutation operation
-- `emplace()`: Unified container emplace uniform "contains"
-- `contains()`: uniform "contains" everything else
-- `in_closed_range()`: Implements in_closed_range functionality
-- `any_of()`: Implements any_of functionality
-- `none_of()`: Implements none_of functionality
-- `intersect()`: Implements intersect functionality
+- `repeat()`: Performs repeat operation in algorithm.hpp
+- `apply_permutation()`: Performs apply_permutation operation in algorithm.hpp
+- `emplace()`: Performs emplace operation in algorithm.hpp
+- `contains()`: Performs contains operation in algorithm.hpp
+- `in_closed_range()`: Performs in_closed_range operation in algorithm.hpp
+- `any_of()`: Performs any_of operation in algorithm.hpp
+- `none_of()`: Performs none_of operation in algorithm.hpp
+- `intersect()`: Performs intersect operation in algorithm.hpp
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

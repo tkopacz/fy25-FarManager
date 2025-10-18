@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `expected`: Implements core functionality
-- `unexpected`: Implements core functionality
+- `expected`: Performs expected operation in expected.hpp
+- `unexpected`: Performs unexpected operation in expected.hpp
 ### Key Functions
-- `has_value()`: Tests whether _value condition is true or property exists
-- `bool()`: Executes bool operation as part of core functionality
-- `value()`: Executes value operation as part of core functionality
-- `error()`: Executes error operation as part of core functionality
+- `has_value()`: Checks a condition in expected.hpp and returns the result
+- `bool()`: Performs bool operation in expected.hpp
+- `value()`: Performs value operation in expected.hpp
+- `error()`: Validates a condition in expected.hpp and throws an exception if the validation fails
 ### Namespaces
 - `std`
 ### Summary
@@ -21,13 +21,13 @@ The `expected.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `expected`: Implementuje podstawowa funkcjonalność
-- `unexpected`: Implementuje podstawowa funkcjonalność
+- `expected`: Performs expected operation in expected.hpp
+- `unexpected`: Performs unexpected operation in expected.hpp
 ### Kluczowe Funkcje
-- `has_value()`: Testuje czy _wartość warunek jest prawdziwy lub właściwość istnieje
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `value()`: Wykonuje wartość operację jako część podstawowa funkcjonalność
-- `error()`: Wykonuje error operację jako część podstawowa funkcjonalność
+- `has_value()`: Checks a condition in expected.hpp and returns the result
+- `bool()`: Performs bool operation in expected.hpp
+- `value()`: Performs value operation in expected.hpp
+- `error()`: Validates a condition in expected.hpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

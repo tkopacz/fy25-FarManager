@@ -4,19 +4,19 @@
 This file implements functionality related to: Standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_state`: Implements color management
-- `single_color_state`: Implements color management
+- `color_state`: Performs color_state operation in color_picker.cpp
+- `single_color_state`: Performs single_color_state operation in color_picker.cpp
 ### Key Functions
-- `color_code()`: Executes color_code operation as part of color management
-- `fg_item()`: Executes fg_item operation as part of color management
-- `bg_item()`: Executes bg_item operation as part of color management
-- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from internal state or data structure
-- `refresh_fg()`: Refreshes data by reloading from source or recalculating
-- `refresh_bg()`: Refreshes data by reloading from source or recalculating
-- `GetColorDlgProc()`: Retrieves ColorDlgProc from internal state or data structure
-- `scd_item()`: Executes scd_item operation as part of color management
-- `activate_control()`: Executes activate_control operation as part of color management
-- `disable_if_needed()`: Executes disable_if_needed operation as part of color management
+- `color_code()`: Performs color_code operation in color_picker.cpp
+- `fg_item()`: Performs fg_item operation in color_picker.cpp
+- `bg_item()`: Performs bg_item operation in color_picker.cpp
+- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc value in color_picker.cpp
+- `refresh_fg()`: Performs refresh_fg operation in color_picker.cpp
+- `refresh_bg()`: Performs refresh_bg operation in color_picker.cpp
+- `GetColorDlgProc()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `scd_item()`: Performs scd_item operation in color_picker.cpp
+- `activate_control()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `disable_if_needed()`: Checks a condition in color_picker.cpp and returns true or false based on the result
 ### Namespaces
 - `cb`
 - `cd`
@@ -34,19 +34,19 @@ The `color_picker.cpp` file provides essential functionality for color managemen
 Ten plik implementuje funkcjonalność związaną z: Standard color picker
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_state`: Implementuje zarządzanie kolorami
-- `single_color_state`: Implementuje zarządzanie kolorami
+- `color_state`: Performs color_state operation in color_picker.cpp
+- `single_color_state`: Performs single_color_state operation in color_picker.cpp
 ### Kluczowe Funkcje
-- `color_code()`: Wykonuje color_code operację jako część zarządzanie kolorami
-- `fg_item()`: Wykonuje fg_element operację jako część zarządzanie kolorami
-- `bg_item()`: Wykonuje bg_element operację jako część zarządzanie kolorami
-- `GetSingleColorDlgProc()`: Pobiera SingleColorDlgProc ze stanu wewnętrznego lub struktury danych
-- `refresh_fg()`: Odświeża dane przeładowując ze źródła lub przeliczając
-- `refresh_bg()`: Odświeża dane przeładowując ze źródła lub przeliczając
-- `GetColorDlgProc()`: Pobiera ColorDlgProc ze stanu wewnętrznego lub struktury danych
-- `scd_item()`: Wykonuje scd_element operację jako część zarządzanie kolorami
-- `activate_control()`: Wykonuje activate_control operację jako część zarządzanie kolorami
-- `disable_if_needed()`: Wykonuje disable_if_needed operację jako część zarządzanie kolorami
+- `color_code()`: Performs color_code operation in color_picker.cpp
+- `fg_item()`: Performs fg_item operation in color_picker.cpp
+- `bg_item()`: Performs bg_item operation in color_picker.cpp
+- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc value in color_picker.cpp
+- `refresh_fg()`: Performs refresh_fg operation in color_picker.cpp
+- `refresh_bg()`: Performs refresh_bg operation in color_picker.cpp
+- `GetColorDlgProc()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `scd_item()`: Performs scd_item operation in color_picker.cpp
+- `activate_control()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- `disable_if_needed()`: Checks a condition in color_picker.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `cb`
 - `cd`

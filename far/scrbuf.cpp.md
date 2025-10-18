@@ -4,16 +4,16 @@
 This file implements functionality related to: Буферизация вывода на экран, весь вывод идет через этот буфер
 Main functional areas: screen operations
 ### Key Classes
-- `border`: Implements screen operations
+- `border`: Performs border operation in scrbuf.cpp
 ### Key Functions
-- `is_visible()`: Tests whether _visible condition is true or property exists
-- `invalidate_broken_pairs_in_cache()`: Executes invalidate_broken_pairs_in_cache operation as part of screen operations
-- `apply_nt_index_shadow()`: Executes apply_nt_index_shadow operation as part of screen operations
-- `apply_index_shadow()`: Executes apply_index_shadow operation as part of screen operations
-- `apply_shadow()`: Executes apply_shadow operation as part of screen operations
-- `bake_shadows()`: Executes bake_shadows operation as part of screen operations
-- `expand_write_region_if_needed()`: Executes expand_write_region_if_needed operation as part of screen operations
-- `Flush()`: Executes Flush operation as part of screen operations
+- `is_visible()`: Checks a condition in scrbuf.cpp and returns the result
+- `invalidate_broken_pairs_in_cache()`: Performs invalidate_broken_pairs_in_cache operation in scrbuf.cpp
+- `apply_nt_index_shadow()`: Читать блок из виртуального буфера.
+- `apply_index_shadow()`: If it's intense then remove the intensity.
+- `apply_shadow()`: Performs apply_shadow operation in scrbuf.cpp
+- `bake_shadows()`: Apply half-transparent black and hope that the approximation will yield something sensible.
+- `expand_write_region_if_needed()`: Performs expand_write_region_if_needed operation in scrbuf.cpp
+- `Flush()`: Performs Flush operation in scrbuf.cpp
 ### Namespaces
 - `colors`
 ### Summary
@@ -26,16 +26,16 @@ The `scrbuf.cpp` file provides essential functionality for screen operations. It
 Ten plik implementuje funkcjonalność związaną z: Буферизация вывода на экран, весь вывод идет через этот буфер
 Główne obszary funkcjonalne: operacje ekranowe
 ### Kluczowe Klasy
-- `border`: Implementuje operacje ekranowe
+- `border`: Performs border operation in scrbuf.cpp
 ### Kluczowe Funkcje
-- `is_visible()`: Testuje czy _visible warunek jest prawdziwy lub właściwość istnieje
-- `invalidate_broken_pairs_in_cache()`: Wykonuje invalidate_broken_pairs_in_cache operację jako część operacje ekranowe
-- `apply_nt_index_shadow()`: Wykonuje apply_nt_index_shadow operację jako część operacje ekranowe
-- `apply_index_shadow()`: Wykonuje apply_index_shadow operację jako część operacje ekranowe
-- `apply_shadow()`: Wykonuje apply_shadow operację jako część operacje ekranowe
-- `bake_shadows()`: Wykonuje bake_shadows operację jako część operacje ekranowe
-- `expand_write_region_if_needed()`: Wykonuje expand_write_region_if_needed operację jako część operacje ekranowe
-- `Flush()`: Wykonuje Flush operację jako część operacje ekranowe
+- `is_visible()`: Checks a condition in scrbuf.cpp and returns the result
+- `invalidate_broken_pairs_in_cache()`: Performs invalidate_broken_pairs_in_cache operation in scrbuf.cpp
+- `apply_nt_index_shadow()`: Читать блок из виртуального буфера.
+- `apply_index_shadow()`: If it's intense then remove the intensity.
+- `apply_shadow()`: Performs apply_shadow operation in scrbuf.cpp
+- `bake_shadows()`: Apply half-transparent black and hope that the approximation will yield something sensible.
+- `expand_write_region_if_needed()`: Performs expand_write_region_if_needed operation in scrbuf.cpp
+- `Flush()`: Performs Flush operation in scrbuf.cpp
 ### Przestrzenie nazw
 - `colors`
 ### Podsumowanie

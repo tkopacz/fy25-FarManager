@@ -4,23 +4,23 @@
 This file implements functionality related to: Копирование файлов
 Main functional areas: core functionality
 ### Key Classes
-- `ShellCopy`: Implements core functionality
-- `created_folders`: Implements core functionality
-- `file_names_for_overwrite_dialog`: Implements core functionality
-- `overwrite`: Implements core functionality
-- `security`: Implements core functionality
-- `total_info`: Implements core functionality
+- `ShellCopy`: Performs ShellCopy operation in copy.cpp
+- `created_folders`: При копировании/переносе выставляем FILE_ATTRIBUTE_ENCRYPTED
+- `file_names_for_overwrite_dialog`: Performs file_names_for_overwrite_dialog operation in copy.cpp
+- `overwrite`: Performs overwrite operation in copy.cpp
+- `security`: Performs security operation in copy.cpp
+- `total_info`: Performs total_info operation in copy.cpp
 ### Key Functions
-- `copy_selected_items()`: Copies data from source to destination location
-- `ShellCopyOneFile()`: Executes ShellCopyOneFile operation as part of core functionality
-- `CheckStreams()`: Validates data integrity and checks for correctness
-- `ShellCopyFile()`: Executes ShellCopyFile operation as part of core functionality
-- `ShellSystemCopy()`: Executes ShellSystemCopy operation as part of core functionality
-- `DeleteAfterMove()`: Removes AfterMove from collection and frees associated resources
-- `AskOverwrite()`: Executes AskOverwrite operation as part of core functionality
-- `GetSecurity()`: Retrieves Security from internal state or data structure
-- `SetSecurity()`: Updates Security in internal state or configuration
-- `ResetSecurity()`: Executes ResetSecurity operation as part of core functionality
+- `copy_selected_items()`: Performs copy_selected_items operation in copy.cpp
+- `ShellCopyOneFile()`: Performs ShellCopyOneFile operation in copy.cpp
+- `CheckStreams()`: Performs CheckStreams operation in copy.cpp
+- `ShellCopyFile()`: Performs ShellCopyFile operation in copy.cpp
+- `ShellSystemCopy()`: Validates a condition in copy.cpp and throws an exception if the validation fails
+- `DeleteAfterMove()`: Checks a condition in copy.cpp and returns true or false based on the result
+- `AskOverwrite()`: called by ShellCopyOneFile
+- `GetSecurity()`: Checks a condition in copy.cpp and returns true or false based on the result
+- `SetSecurity()`: Sets or updates Security value in copy.cpp
+- `ResetSecurity()`: Performs ResetSecurity operation in copy.cpp
 ### Summary
 The `copy.cpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -31,22 +31,22 @@ The `copy.cpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Копирование файлов
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ShellCopy`: Implementuje podstawowa funkcjonalność
-- `created_folders`: Implementuje podstawowa funkcjonalność
-- `file_names_for_overwrite_dialog`: Implementuje podstawowa funkcjonalność
-- `overwrite`: Implementuje podstawowa funkcjonalność
-- `security`: Implementuje podstawowa funkcjonalność
-- `total_info`: Implementuje podstawowa funkcjonalność
+- `ShellCopy`: Performs ShellCopy operation in copy.cpp
+- `created_folders`: При копировании/переносе выставляем FILE_ATTRIBUTE_ENCRYPTED
+- `file_names_for_overwrite_dialog`: Performs file_names_for_overwrite_dialog operation in copy.cpp
+- `overwrite`: Performs overwrite operation in copy.cpp
+- `security`: Performs security operation in copy.cpp
+- `total_info`: Performs total_info operation in copy.cpp
 ### Kluczowe Funkcje
-- `copy_selected_items()`: Kopiuje dane ze źródła do miejsca docelowego
-- `ShellCopyOneFile()`: Wykonuje ShellCopyOneFile operację jako część podstawowa funkcjonalność
-- `CheckStreams()`: Waliduje integralność danych i sprawdza poprawność
-- `ShellCopyFile()`: Wykonuje ShellCopyFile operację jako część podstawowa funkcjonalność
-- `ShellSystemCopy()`: Wykonuje ShellSystemCopy operację jako część podstawowa funkcjonalność
-- `DeleteAfterMove()`: Usuwa AfterMove z kolekcji i zwalnia powiązane zasoby
-- `AskOverwrite()`: Wykonuje AskOverwrite operację jako część podstawowa funkcjonalność
-- `GetSecurity()`: Pobiera Security ze stanu wewnętrznego lub struktury danych
-- `SetSecurity()`: Aktualizuje Security w stanie wewnętrznym lub konfiguracji
-- `ResetSecurity()`: Wykonuje ResetSecurity operację jako część podstawowa funkcjonalność
+- `copy_selected_items()`: Performs copy_selected_items operation in copy.cpp
+- `ShellCopyOneFile()`: Performs ShellCopyOneFile operation in copy.cpp
+- `CheckStreams()`: Performs CheckStreams operation in copy.cpp
+- `ShellCopyFile()`: Performs ShellCopyFile operation in copy.cpp
+- `ShellSystemCopy()`: Validates a condition in copy.cpp and throws an exception if the validation fails
+- `DeleteAfterMove()`: Checks a condition in copy.cpp and returns true or false based on the result
+- `AskOverwrite()`: called by ShellCopyOneFile
+- `GetSecurity()`: Checks a condition in copy.cpp and returns true or false based on the result
+- `SetSecurity()`: Sets or updates Security value in copy.cpp
+- `ResetSecurity()`: Performs ResetSecurity operation in copy.cpp
 ### Podsumowanie
 Plik `copy.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

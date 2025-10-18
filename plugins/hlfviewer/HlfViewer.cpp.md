@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `Options`: Implements file viewing
+- `Options`: Performs Options operation in HlfViewer.cpp
 ### Key Functions
-- `IsHlf()`: Tests whether Hlf condition is true or property exists
-- `RestorePosition()`: Executes RestorePosition operation as part of file viewing
-- `ShowHelp()`: Displays content or makes visual element visible on screen
-- `ShowCurrentHelpTopic()`: Displays content or makes visual element visible on screen
-- `ShowHelpFromTempFile()`: Displays content or makes visual element visible on screen
-- `GetPluginConfig()`: Retrieves PluginConfig from internal state or data structure
-- `inputrecord_compare()`: Executes inputrecord_compare operation as part of file viewing
-- `FindPluginHelp()`: Searches for PluginHelp in collection and returns position or reference
-- `FileExists()`: Executes FileExists operation as part of file viewing
-- `StrToGuid()`: Executes StrToGuid operation as part of file viewing
+- `IsHlf()`: первая строка hlf всегда начинается с ".Language="
+- `RestorePosition()`: Performs RestorePosition operation in HlfViewer.cpp
+- `ShowHelp()`: Performs ShowHelp operation in HlfViewer.cpp
+- `ShowCurrentHelpTopic()`: Performs ShowCurrentHelpTopic operation in HlfViewer.cpp
+- `ShowHelpFromTempFile()`: Opens and manages a file in HlfViewer.cpp, handling resource cleanup
+- `GetPluginConfig()`: Checks a condition in HlfViewer.cpp and returns true or false based on the result
+- `inputrecord_compare()`: "Тема": начинается '@', дальше букво-цифры, не содержит '='
+- `FindPluginHelp()`: поиск hlf-файла Name в каталогах плагинов (первый найденный!)
+- `FileExists()`: Performs FileExists operation in HlfViewer.cpp
+- `StrToGuid()`: Performs StrToGuid operation in HlfViewer.cpp
 ### Summary
 The `HlfViewer.cpp` file provides essential functionality for file viewing. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `HlfViewer.cpp` file provides essential functionality for file viewing. It d
 ### Cel
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `Options`: Implementuje przeglądanie plików
+- `Options`: Performs Options operation in HlfViewer.cpp
 ### Kluczowe Funkcje
-- `IsHlf()`: Testuje czy Hlf warunek jest prawdziwy lub właściwość istnieje
-- `RestorePosition()`: Wykonuje RestorePosition operację jako część przeglądanie plików
-- `ShowHelp()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `ShowCurrentHelpTopic()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `ShowHelpFromTempFile()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `GetPluginConfig()`: Pobiera PluginConfig ze stanu wewnętrznego lub struktury danych
-- `inputrecord_compare()`: Wykonuje inputrecord_compare operację jako część przeglądanie plików
-- `FindPluginHelp()`: Wyszukuje PluginHelp w kolekcji i zwraca pozycję lub referencję
-- `FileExists()`: Wykonuje FileExists operację jako część przeglądanie plików
-- `StrToGuid()`: Wykonuje StrToGuid operację jako część przeglądanie plików
+- `IsHlf()`: первая строка hlf всегда начинается с ".Language="
+- `RestorePosition()`: Performs RestorePosition operation in HlfViewer.cpp
+- `ShowHelp()`: Performs ShowHelp operation in HlfViewer.cpp
+- `ShowCurrentHelpTopic()`: Performs ShowCurrentHelpTopic operation in HlfViewer.cpp
+- `ShowHelpFromTempFile()`: Opens and manages a file in HlfViewer.cpp, handling resource cleanup
+- `GetPluginConfig()`: Checks a condition in HlfViewer.cpp and returns true or false based on the result
+- `inputrecord_compare()`: "Тема": начинается '@', дальше букво-цифры, не содержит '='
+- `FindPluginHelp()`: поиск hlf-файла Name в каталогах плагинов (первый найденный!)
+- `FileExists()`: Performs FileExists operation in HlfViewer.cpp
+- `StrToGuid()`: Performs StrToGuid operation in HlfViewer.cpp
 ### Podsumowanie
 Plik `HlfViewer.cpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `LanguageEntry`: Implements core functionality
+- `LanguageEntry`: Performs LanguageEntry operation in lng.generator.cpp
 ### Key Functions
-- `UnquoteIfNeeded()`: Executes UnquoteIfNeeded operation as part of core functionality
-- `ReadFromBuffer()`: Reads data from source into provided buffer
-- `ReadFromBufferEx()`: Reads data from source into provided buffer
-- `ReadComments()`: Reads data from source into provided buffer
-- `SmartWrite()`: Executes SmartWrite operation as part of core functionality
-- `ReadInteger()`: Reads data from source into provided buffer
-- `WriteSignatureIfNeeded()`: Writes data from buffer to destination
-- `main()`: Executes main operation as part of core functionality
-- `SetFilePointer()`: Updates FilePointer in internal state or configuration
-- `printf()`: Executes printf operation as part of core functionality
+- `UnquoteIfNeeded()`: Performs UnquoteIfNeeded operation in lng.generator.cpp
+- `ReadFromBuffer()`: Checks a condition in lng.generator.cpp and returns true or false based on the result
+- `ReadFromBufferEx()`: Checks a condition in lng.generator.cpp and returns true or false based on the result
+- `ReadComments()`: Checks a condition in lng.generator.cpp and returns true or false based on the result
+- `SmartWrite()`: Performs SmartWrite operation in lng.generator.cpp
+- `ReadInteger()`: Performs ReadInteger operation in lng.generator.cpp
+- `WriteSignatureIfNeeded()`: Performs WriteSignatureIfNeeded operation in lng.generator.cpp
+- `main()`: Main entry point in lng.generator.cpp that starts program execution
+- `SetFilePointer()`: Sets or updates FilePointer value in lng.generator.cpp
+- `printf()`: Performs printf operation in lng.generator.cpp
 ### Summary
 The `lng.generator.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `lng.generator.cpp` file provides essential functionality for core functiona
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `LanguageEntry`: Implementuje podstawowa funkcjonalność
+- `LanguageEntry`: Performs LanguageEntry operation in lng.generator.cpp
 ### Kluczowe Funkcje
-- `UnquoteIfNeeded()`: Wykonuje UnquoteIfNeeded operację jako część podstawowa funkcjonalność
-- `ReadFromBuffer()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `ReadFromBufferEx()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `ReadComments()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `SmartWrite()`: Wykonuje SmartWrite operację jako część podstawowa funkcjonalność
-- `ReadInteger()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `WriteSignatureIfNeeded()`: Zapisuje dane z bufora do miejsca docelowego
-- `main()`: Wykonuje main operację jako część podstawowa funkcjonalność
-- `SetFilePointer()`: Aktualizuje FilePointer w stanie wewnętrznym lub konfiguracji
-- `printf()`: Wykonuje printf operację jako część podstawowa funkcjonalność
+- `UnquoteIfNeeded()`: Performs UnquoteIfNeeded operation in lng.generator.cpp
+- `ReadFromBuffer()`: Checks a condition in lng.generator.cpp and returns true or false based on the result
+- `ReadFromBufferEx()`: Checks a condition in lng.generator.cpp and returns true or false based on the result
+- `ReadComments()`: Checks a condition in lng.generator.cpp and returns true or false based on the result
+- `SmartWrite()`: Performs SmartWrite operation in lng.generator.cpp
+- `ReadInteger()`: Performs ReadInteger operation in lng.generator.cpp
+- `WriteSignatureIfNeeded()`: Performs WriteSignatureIfNeeded operation in lng.generator.cpp
+- `main()`: Main entry point in lng.generator.cpp that starts program execution
+- `SetFilePointer()`: Sets or updates FilePointer value in lng.generator.cpp
+- `printf()`: Performs printf operation in lng.generator.cpp
 ### Podsumowanie
 Plik `lng.generator.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

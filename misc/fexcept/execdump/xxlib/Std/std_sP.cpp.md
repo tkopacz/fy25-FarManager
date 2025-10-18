@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `Register()`: Executes Register operation as part of core functionality
-- `DllEntryPoint()`: Executes DllEntryPoint operation as part of core functionality
+- `Register()`: Performs Register operation in std_sP.cpp
+- `DllEntryPoint()`: DLL entry point in std_sP.cpp that handles process/thread attach and detach notifications
 ### Namespaces
 - `Std_sp`
 ### Summary
@@ -16,8 +16,8 @@ The `std_sP.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `Register()`: Wykonuje Register operację jako część podstawowa funkcjonalność
-- `DllEntryPoint()`: Wykonuje DllEntryPoint operację jako część podstawowa funkcjonalność
+- `Register()`: Performs Register operation in std_sP.cpp
+- `DllEntryPoint()`: DLL entry point in std_sP.cpp that handles process/thread attach and detach notifications
 ### Przestrzenie nazw
 - `Std_sp`
 ### Podsumowanie

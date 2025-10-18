@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `PPwd()`: Executes PPwd operation as part of core functionality
-- `HexDigit()`: Executes HexDigit operation as part of core functionality
-- `ReadHEXPwd()`: Reads data from source into provided buffer
-- `ReadDUMPPwd()`: Reads data from source into provided buffer
-- `ReadPwd()`: Reads data from source into provided buffer
-- `main()`: Executes main operation as part of core functionality
-- `printf()`: Executes printf operation as part of core functionality
+- `PPwd()`: Performs PPwd operation in ftpu.cpp
+- `HexDigit()`: Performs HexDigit operation in ftpu.cpp
+- `ReadHEXPwd()`: Performs ReadHEXPwd operation in ftpu.cpp
+- `ReadDUMPPwd()`: Performs ReadDUMPPwd operation in ftpu.cpp
+- `ReadPwd()`: Performs ReadPwd operation in ftpu.cpp
+- `main()`: Main entry point in ftpu.cpp that starts program execution
+- `printf()`: Performs printf operation in ftpu.cpp
 ### Summary
 The `ftpu.cpp` file provides essential functionality for core functionality. and contains approximately 7 function(s) to support the Far Manager file manager operations.
 
@@ -19,12 +19,12 @@ The `ftpu.cpp` file provides essential functionality for core functionality. and
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `PPwd()`: Wykonuje PPwd operację jako część podstawowa funkcjonalność
-- `HexDigit()`: Wykonuje HexDigit operację jako część podstawowa funkcjonalność
-- `ReadHEXPwd()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `ReadDUMPPwd()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `ReadPwd()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `main()`: Wykonuje main operację jako część podstawowa funkcjonalność
-- `printf()`: Wykonuje printf operację jako część podstawowa funkcjonalność
+- `PPwd()`: Performs PPwd operation in ftpu.cpp
+- `HexDigit()`: Performs HexDigit operation in ftpu.cpp
+- `ReadHEXPwd()`: Performs ReadHEXPwd operation in ftpu.cpp
+- `ReadDUMPPwd()`: Performs ReadDUMPPwd operation in ftpu.cpp
+- `ReadPwd()`: Performs ReadPwd operation in ftpu.cpp
+- `main()`: Main entry point in ftpu.cpp that starts program execution
+- `printf()`: Performs printf operation in ftpu.cpp
 ### Podsumowanie
 Plik `ftpu.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.

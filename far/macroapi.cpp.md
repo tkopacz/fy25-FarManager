@@ -4,20 +4,20 @@
 This file implements functionality related to: Macro API
 Main functional areas: core functionality
 ### Key Classes
-- `FarMacroApi`: Implements core functionality
-- `LockOutput`: Implements core functionality
-- `editor_options`: Implements core functionality
+- `FarMacroApi`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `LockOutput`: Performs LockOutput operation in macroapi.cpp
+- `editor_options`: Performs editor_options operation in macroapi.cpp
 ### Key Functions
-- `ToDouble()`: Executes ToDouble operation as part of core functionality
-- `SelectPanel()`: Executes SelectPanel operation as part of core functionality
-- `PushBoolean()`: Executes PushBoolean operation as part of core functionality
-- `PushPointer()`: Executes PushPointer operation as part of core functionality
-- `PushValue()`: Executes PushValue operation as part of core functionality
-- `PushNil()`: Executes PushNil operation as part of core functionality
-- `PushTable()`: Executes PushTable operation as part of core functionality
-- `SetTable()`: Updates Table in internal state or configuration
-- `PushError()`: Executes PushError operation as part of core functionality
-- `SetField()`: Updates Field in internal state or configuration
+- `ToDouble()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `SelectPanel()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `PushBoolean()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `PushPointer()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `PushValue()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `PushNil()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `PushTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `SetTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `PushError()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `SetField()`: Iterates through elements in macroapi.cpp and adds them to a collection
 ### Summary
 The `macroapi.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `macroapi.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Macro API
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FarMacroApi`: Implementuje podstawowa funkcjonalność
-- `LockOutput`: Implementuje podstawowa funkcjonalność
-- `editor_options`: Implementuje podstawowa funkcjonalność
+- `FarMacroApi`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `LockOutput`: Performs LockOutput operation in macroapi.cpp
+- `editor_options`: Performs editor_options operation in macroapi.cpp
 ### Kluczowe Funkcje
-- `ToDouble()`: Wykonuje ToDouble operację jako część podstawowa funkcjonalność
-- `SelectPanel()`: Wykonuje SelectPanel operację jako część podstawowa funkcjonalność
-- `PushBoolean()`: Wykonuje PushBoolean operację jako część podstawowa funkcjonalność
-- `PushPointer()`: Wykonuje PushPointer operację jako część podstawowa funkcjonalność
-- `PushValue()`: Wykonuje PushValue operację jako część podstawowa funkcjonalność
-- `PushNil()`: Wykonuje PushNil operację jako część podstawowa funkcjonalność
-- `PushTable()`: Wykonuje PushTable operację jako część podstawowa funkcjonalność
-- `SetTable()`: Aktualizuje Table w stanie wewnętrznym lub konfiguracji
-- `PushError()`: Wykonuje PushError operację jako część podstawowa funkcjonalność
-- `SetField()`: Aktualizuje Field w stanie wewnętrznym lub konfiguracji
+- `ToDouble()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `SelectPanel()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `PushBoolean()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `PushPointer()`: Checks a condition in macroapi.cpp and returns true or false based on the result
+- `PushValue()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `PushNil()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `PushTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `SetTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `PushError()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- `SetField()`: Iterates through elements in macroapi.cpp and adds them to a collection
 ### Podsumowanie
 Plik `macroapi.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

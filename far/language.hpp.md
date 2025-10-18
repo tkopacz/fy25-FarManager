@@ -4,22 +4,22 @@
 This file implements functionality related to: Работа с LNG-файлами
 Main functional areas: singleton implementation
 ### Key Classes
-- `i_language_data`: Implements singleton implementation
-- `lang_file`: Implements singleton implementation
-- `language`: Implements singleton implementation
-- `lng`: Implements singleton implementation
-- `plugin_language`: Implements singleton implementation
+- `i_language_data`: Performs i_language_data operation in language.hpp
+- `lang_file`: Performs lang_file operation in language.hpp
+- `language`: Performs language operation in language.hpp
+- `lng`: Performs lng operation in language.hpp
+- `plugin_language`: Throws on failure, strong exception safety guarantee
 ### Key Functions
-- `validate()`: Validates data integrity and checks for correctness
-- `Msg()`: Executes Msg operation as part of singleton implementation
-- `load()`: Loads data or resources from storage into memory
-- `plugin_language()`: Executes plugin_language operation as part of singleton implementation
-- `is_loaded()`: Tests whether _loaded condition is true or property exists
-- `bool()`: Executes bool operation as part of singleton implementation
-- `OpenLangFile()`: Opens resource and prepares it for access operations
-- `OpenHelpFile()`: Opens resource and prepares it for access operations
-- `GetLangParam()`: Retrieves LangParam from internal state or data structure
-- `SelectInterfaceLanguage()`: Executes SelectInterfaceLanguage operation as part of singleton implementation
+- `validate()`: Performs validate operation in language.hpp
+- `Msg()`: Performs Msg operation in language.hpp
+- `load()`: Performs load operation in language.hpp
+- `plugin_language()`: Throws on failure, strong exception safety guarantee
+- `is_loaded()`: Throws on failure, strong exception safety guarantee
+- `bool()`: Performs bool operation in language.hpp
+- `OpenLangFile()`: Performs OpenLangFile operation in language.hpp
+- `OpenHelpFile()`: Performs OpenHelpFile operation in language.hpp
+- `GetLangParam()`: Retrieves LangParam value in language.hpp
+- `SelectInterfaceLanguage()`: Performs SelectInterfaceLanguage operation in language.hpp
 ### Summary
 The `language.hpp` file provides essential functionality for singleton implementation. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -30,21 +30,21 @@ The `language.hpp` file provides essential functionality for singleton implement
 Ten plik implementuje funkcjonalność związaną z: Работа с LNG-файлами
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `i_language_data`: Implementuje implementacja singletona
-- `lang_file`: Implementuje implementacja singletona
-- `language`: Implementuje implementacja singletona
-- `lng`: Implementuje implementacja singletona
-- `plugin_language`: Implementuje implementacja singletona
+- `i_language_data`: Performs i_language_data operation in language.hpp
+- `lang_file`: Performs lang_file operation in language.hpp
+- `language`: Performs language operation in language.hpp
+- `lng`: Performs lng operation in language.hpp
+- `plugin_language`: Throws on failure, strong exception safety guarantee
 ### Kluczowe Funkcje
-- `validate()`: Waliduje integralność danych i sprawdza poprawność
-- `Msg()`: Wykonuje Msg operację jako część implementacja singletona
-- `load()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `plugin_language()`: Wykonuje plugin_language operację jako część implementacja singletona
-- `is_loaded()`: Testuje czy _loaded warunek jest prawdziwy lub właściwość istnieje
-- `bool()`: Wykonuje bool operację jako część implementacja singletona
-- `OpenLangFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `OpenHelpFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `GetLangParam()`: Pobiera LangParam ze stanu wewnętrznego lub struktury danych
-- `SelectInterfaceLanguage()`: Wykonuje SelectInterfaceLanguage operację jako część implementacja singletona
+- `validate()`: Performs validate operation in language.hpp
+- `Msg()`: Performs Msg operation in language.hpp
+- `load()`: Performs load operation in language.hpp
+- `plugin_language()`: Throws on failure, strong exception safety guarantee
+- `is_loaded()`: Throws on failure, strong exception safety guarantee
+- `bool()`: Performs bool operation in language.hpp
+- `OpenLangFile()`: Performs OpenLangFile operation in language.hpp
+- `OpenHelpFile()`: Performs OpenHelpFile operation in language.hpp
+- `GetLangParam()`: Retrieves LangParam value in language.hpp
+- `SelectInterfaceLanguage()`: Performs SelectInterfaceLanguage operation in language.hpp
 ### Podsumowanie
 Plik `language.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

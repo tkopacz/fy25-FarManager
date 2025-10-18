@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `AttachSfxModuleProgress`: Implements core functionality
-- `SfxOptionsDialog`: Implements core functionality
-- `SfxProfile`: Implements core functionality
+- `AttachSfxModuleProgress`: Performs AttachSfxModuleProgress operation in sfx.cpp
+- `SfxOptionsDialog`: Iterates through elements in sfx.cpp and adds them to a collection
+- `SfxProfile`: Performs SfxProfile operation in sfx.cpp
 ### Key Functions
-- `do_update_ui()`: Executes do_update_ui operation as part of core functionality
-- `set_total()`: Updates _total in internal state or configuration
-- `update_completed()`: Updates existing data with new values while preserving structure
-- `generate_install_config()`: Executes generate_install_config operation as part of core functionality
-- `create_sfx_module()`: Creates and initializes new _sfx_module instance
-- `sfx_file()`: Executes sfx_file operation as part of core functionality
-- `attach_sfx_module()`: Executes attach_sfx_module operation as part of core functionality
-- `progress()`: Executes progress operation as part of core functionality
-- `dst_file()`: Executes dst_file operation as part of core functionality
-- `src_file()`: Executes src_file operation as part of core functionality
+- `do_update_ui()`: Performs do_update_ui operation in sfx.cpp
+- `set_total()`: Sets or updates _total value in sfx.cpp
+- `update_completed()`: Updates existing data or state in sfx.cpp
+- `generate_install_config()`: Performs generate_install_config operation in sfx.cpp
+- `create_sfx_module()`: Creates and initializes a new object or resource in sfx.cpp
+- `sfx_file()`: Performs sfx_file operation in sfx.cpp
+- `attach_sfx_module()`: Validates a condition in sfx.cpp and throws an exception if the validation fails
+- `progress()`: Performs progress operation in sfx.cpp
+- `dst_file()`: Iterates through elements in sfx.cpp and adds them to a collection
+- `src_file()`: Performs src_file operation in sfx.cpp
 ### Summary
 The `sfx.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,19 +26,19 @@ The `sfx.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `AttachSfxModuleProgress`: Implementuje podstawowa funkcjonalność
-- `SfxOptionsDialog`: Implementuje podstawowa funkcjonalność
-- `SfxProfile`: Implementuje podstawowa funkcjonalność
+- `AttachSfxModuleProgress`: Performs AttachSfxModuleProgress operation in sfx.cpp
+- `SfxOptionsDialog`: Iterates through elements in sfx.cpp and adds them to a collection
+- `SfxProfile`: Performs SfxProfile operation in sfx.cpp
 ### Kluczowe Funkcje
-- `do_update_ui()`: Wykonuje do_update_ui operację jako część podstawowa funkcjonalność
-- `set_total()`: Aktualizuje _total w stanie wewnętrznym lub konfiguracji
-- `update_completed()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `generate_install_config()`: Wykonuje generate_install_config operację jako część podstawowa funkcjonalność
-- `create_sfx_module()`: Tworzy i inicjalizuje nowy _sfx_module instancję
-- `sfx_file()`: Wykonuje sfx_file operację jako część podstawowa funkcjonalność
-- `attach_sfx_module()`: Wykonuje attach_sfx_module operację jako część podstawowa funkcjonalność
-- `progress()`: Wykonuje progress operację jako część podstawowa funkcjonalność
-- `dst_file()`: Wykonuje dst_file operację jako część podstawowa funkcjonalność
-- `src_file()`: Wykonuje src_file operację jako część podstawowa funkcjonalność
+- `do_update_ui()`: Performs do_update_ui operation in sfx.cpp
+- `set_total()`: Sets or updates _total value in sfx.cpp
+- `update_completed()`: Updates existing data or state in sfx.cpp
+- `generate_install_config()`: Performs generate_install_config operation in sfx.cpp
+- `create_sfx_module()`: Creates and initializes a new object or resource in sfx.cpp
+- `sfx_file()`: Performs sfx_file operation in sfx.cpp
+- `attach_sfx_module()`: Validates a condition in sfx.cpp and throws an exception if the validation fails
+- `progress()`: Performs progress operation in sfx.cpp
+- `dst_file()`: Iterates through elements in sfx.cpp and adds them to a collection
+- `src_file()`: Performs src_file operation in sfx.cpp
 ### Podsumowanie
 Plik `sfx.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

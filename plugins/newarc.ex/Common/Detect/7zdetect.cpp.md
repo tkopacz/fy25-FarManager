@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `SevenZipHeader`: Implements core functionality
+- `SevenZipHeader`: Performs SevenZipHeader operation in 7zdetect.cpp
 ### Key Functions
-- `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
-- `Is7zHeader()`: Tests whether 7zHeader condition is true or property exists
+- `IsValidHeader()`: Iterates through elements in 7zdetect.cpp and adds them to a collection
+- `Is7zHeader()`: Iterates through elements in 7zdetect.cpp and adds them to a collection
 ### Summary
 The `7zdetect.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `7zdetect.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SevenZipHeader`: Implementuje podstawowa funkcjonalność
+- `SevenZipHeader`: Performs SevenZipHeader operation in 7zdetect.cpp
 ### Kluczowe Funkcje
-- `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
-- `Is7zHeader()`: Testuje czy 7zHeader warunek jest prawdziwy lub właściwość istnieje
+- `IsValidHeader()`: Iterates through elements in 7zdetect.cpp and adds them to a collection
+- `Is7zHeader()`: Iterates through elements in 7zdetect.cpp and adds them to a collection
 ### Podsumowanie
 Plik `7zdetect.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

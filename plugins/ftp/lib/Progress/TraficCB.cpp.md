@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `DrawInfo()`: Executes DrawInfo operation as part of core functionality
+- `DrawInfo()`: Performs DrawInfo operation in TraficCB.cpp
 ### Summary
 The `TraficCB.cpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -13,6 +13,6 @@ The `TraficCB.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `DrawInfo()`: Wykonuje DrawInfo operację jako część podstawowa funkcjonalność
+- `DrawInfo()`: Performs DrawInfo operation in TraficCB.cpp
 ### Podsumowanie
 Plik `TraficCB.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

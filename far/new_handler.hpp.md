@@ -4,10 +4,10 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `new_handler`: Implements core functionality
+- `new_handler`: Performs new_handler operation in new_handler.hpp
 ### Key Functions
-- `retry()`: Executes retry operation as part of core functionality
-- `initialize_ui()`: Initializes data structures and sets up initial state for operation
+- `retry()`: Performs retry operation in new_handler.hpp
+- `initialize_ui()`: Initializes data structures and prepares for operation in new_handler.hpp
 ### Summary
 The `new_handler.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -18,9 +18,9 @@ The `new_handler.hpp` file provides essential functionality for core functionali
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `new_handler`: Implementuje podstawowa funkcjonalność
+- `new_handler`: Performs new_handler operation in new_handler.hpp
 ### Kluczowe Funkcje
-- `retry()`: Wykonuje retry operację jako część podstawowa funkcjonalność
-- `initialize_ui()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `retry()`: Performs retry operation in new_handler.hpp
+- `initialize_ui()`: Initializes data structures and prepares for operation in new_handler.hpp
 ### Podsumowanie
 Plik `new_handler.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

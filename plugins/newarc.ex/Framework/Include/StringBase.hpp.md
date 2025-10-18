@@ -3,17 +3,17 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `StringData`: Implements string utilities
+- `StringData`: Performs StringData operation in StringBase.hpp
 ### Key Functions
-- `AllocData()`: Constructor that initializes AllocData object with provided parameters
-- `FreeData()`: Executes FreeData operation as part of string utilities
-- `SetLength()`: Updates Length in internal state or configuration
-- `GetData()`: Retrieves Data from internal state or data structure
-- `GetLength()`: Retrieves Length from internal state or data structure
-- `GetSize()`: Retrieves Size from internal state or data structure
-- `Unique()`: Executes Unique operation as part of string utilities
-- `AddRef()`: Adds new Ref to collection or list
-- `DecRef()`: Executes DecRef operation as part of string utilities
+- `AllocData()`: Performs AllocData operation in StringBase.hpp
+- `FreeData()`: Performs FreeData operation in StringBase.hpp
+- `SetLength()`: Sets or updates Length value in StringBase.hpp
+- `GetData()`: Retrieves Data value in StringBase.hpp
+- `GetLength()`: Retrieves Length value in StringBase.hpp
+- `GetSize()`: Retrieves Size value in StringBase.hpp
+- `Unique()`: Performs Unique operation in StringBase.hpp
+- `AddRef()`: Performs AddRef operation in StringBase.hpp
+- `DecRef()`: Performs DecRef operation in StringBase.hpp
 ### Summary
 The `StringBase.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -23,16 +23,16 @@ The `StringBase.hpp` file provides essential functionality for string utilities.
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `StringData`: Implementuje narzędzia łańcuchowe
+- `StringData`: Performs StringData operation in StringBase.hpp
 ### Kluczowe Funkcje
-- `AllocData()`: Konstruktor inicjalizujący AllocData obiekt z dostarczonymi parametrami
-- `FreeData()`: Wykonuje FreeData operację jako część narzędzia łańcuchowe
-- `SetLength()`: Aktualizuje Length w stanie wewnętrznym lub konfiguracji
-- `GetData()`: Pobiera Data ze stanu wewnętrznego lub struktury danych
-- `GetLength()`: Pobiera Length ze stanu wewnętrznego lub struktury danych
-- `GetSize()`: Pobiera Size ze stanu wewnętrznego lub struktury danych
-- `Unique()`: Wykonuje Unique operację jako część narzędzia łańcuchowe
-- `AddRef()`: Dodaje nowy Ref do kolekcji lub listy
-- `DecRef()`: Wykonuje DecRef operację jako część narzędzia łańcuchowe
+- `AllocData()`: Performs AllocData operation in StringBase.hpp
+- `FreeData()`: Performs FreeData operation in StringBase.hpp
+- `SetLength()`: Sets or updates Length value in StringBase.hpp
+- `GetData()`: Retrieves Data value in StringBase.hpp
+- `GetLength()`: Retrieves Length value in StringBase.hpp
+- `GetSize()`: Retrieves Size value in StringBase.hpp
+- `Unique()`: Performs Unique operation in StringBase.hpp
+- `AddRef()`: Performs AddRef operation in StringBase.hpp
+- `DecRef()`: Performs DecRef operation in StringBase.hpp
 ### Podsumowanie
 Plik `StringBase.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 1 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

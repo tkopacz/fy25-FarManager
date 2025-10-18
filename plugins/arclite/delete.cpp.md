@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveFileDeleter`: Implements core functionality
-- `ArchiveFileDeleterProgress`: Implements core functionality
-- `ArchiveFileDeleterStream`: Implements core functionality
+- `ArchiveFileDeleter`: Performs ArchiveFileDeleter operation in delete.cpp
+- `ArchiveFileDeleterProgress`: Performs ArchiveFileDeleterProgress operation in delete.cpp
+- `ArchiveFileDeleterStream`: Performs ArchiveFileDeleterStream operation in delete.cpp
 ### Key Functions
-- `do_update_ui()`: Executes do_update_ui operation as part of core functionality
-- `update_total()`: Updates existing data with new values while preserving structure
-- `update_completed()`: Updates existing data with new values while preserving structure
-- `open()`: Opens resource and prepares it for access operations
-- `set_pos()`: Updates _pos in internal state or configuration
+- `do_update_ui()`: Performs do_update_ui operation in delete.cpp
+- `update_total()`: Updates existing data or state in delete.cpp
+- `update_completed()`: Updates existing data or state in delete.cpp
+- `open()`: Iterates through elements in delete.cpp and adds them to a collection
+- `set_pos()`: Iterates through elements in delete.cpp and adds them to a collection
 ### Summary
 The `delete.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `delete.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveFileDeleter`: Implementuje podstawowa funkcjonalność
-- `ArchiveFileDeleterProgress`: Implementuje podstawowa funkcjonalność
-- `ArchiveFileDeleterStream`: Implementuje podstawowa funkcjonalność
+- `ArchiveFileDeleter`: Performs ArchiveFileDeleter operation in delete.cpp
+- `ArchiveFileDeleterProgress`: Performs ArchiveFileDeleterProgress operation in delete.cpp
+- `ArchiveFileDeleterStream`: Performs ArchiveFileDeleterStream operation in delete.cpp
 ### Kluczowe Funkcje
-- `do_update_ui()`: Wykonuje do_update_ui operację jako część podstawowa funkcjonalność
-- `update_total()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `update_completed()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `open()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `set_pos()`: Aktualizuje _pos w stanie wewnętrznym lub konfiguracji
+- `do_update_ui()`: Performs do_update_ui operation in delete.cpp
+- `update_total()`: Updates existing data or state in delete.cpp
+- `update_completed()`: Updates existing data or state in delete.cpp
+- `open()`: Iterates through elements in delete.cpp and adds them to a collection
+- `set_pos()`: Iterates through elements in delete.cpp and adds them to a collection
 ### Podsumowanie
 Plik `delete.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.

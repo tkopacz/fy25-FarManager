@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: clipboard operations
 ### Key Classes
-- `clip_ptr`: Implements clipboard operations
-- `clipboard_format`: Implements clipboard operations
-- `deleter`: Implements clipboard operations
-- `state`: Implements clipboard operations
-- `unlocker`: Implements clipboard operations
+- `clip_ptr`: Performs clip_ptr operation in platform.clipboard.cpp
+- `clipboard_format`: Performs clipboard_format operation in platform.clipboard.cpp
+- `deleter`: Deletes or removes an item or resource in platform.clipboard.cpp
+- `state`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `unlocker`: Performs unlocker operation in platform.clipboard.cpp
 ### Key Functions
-- `alloc()`: Executes alloc operation as part of clipboard operations
-- `lock()`: Executes lock operation as part of clipboard operations
-- `copy()`: Copies data from source to destination location
-- `enable_ansi_to_unicode_conversion_workaround()`: Executes enable_ansi_to_unicode_conversion_workaround operation as part of clipboard operations
-- `open()`: Opens clipboard for exclusive access to perform read/write operations
-- `close()`: Closes clipboard and releases exclusive lock, making it available for other processes
-- `clear()`: Empties clipboard contents and releases associated memory
-- `set_data()`: Updates _data in internal state or configuration
-- `RegisterFormat()`: Executes RegisterFormat operation as part of clipboard operations
-- `set_text()`: Places text content into the system or internal clipboard
+- `alloc()`: Moved from platform.memory. It is only used with clipboard, no point to share it.
+- `lock()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `copy()`: Performs copy operation in platform.clipboard.cpp
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation in platform.clipboard.cpp
+- `open()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `close()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `clear()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_data()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `RegisterFormat()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_text()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
 ### Namespaces
 - `detail`
 - `os`
@@ -34,22 +34,22 @@ The `platform.clipboard.cpp` file provides essential functionality for clipboard
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: operacje schowka
 ### Kluczowe Klasy
-- `clip_ptr`: Implementuje operacje schowka
-- `clipboard_format`: Implementuje operacje schowka
-- `deleter`: Implementuje operacje schowka
-- `state`: Implementuje operacje schowka
-- `unlocker`: Implementuje operacje schowka
+- `clip_ptr`: Performs clip_ptr operation in platform.clipboard.cpp
+- `clipboard_format`: Performs clipboard_format operation in platform.clipboard.cpp
+- `deleter`: Deletes or removes an item or resource in platform.clipboard.cpp
+- `state`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `unlocker`: Performs unlocker operation in platform.clipboard.cpp
 ### Kluczowe Funkcje
-- `alloc()`: Wykonuje alloc operację jako część operacje schowka
-- `lock()`: Wykonuje lock operację jako część operacje schowka
-- `copy()`: Kopiuje dane ze źródła do miejsca docelowego
-- `enable_ansi_to_unicode_conversion_workaround()`: Wykonuje enable_ansi_to_unicode_conversion_workaround operację jako część operacje schowka
-- `open()`: Otwiera schowek dla wyłącznego dostępu aby wykonać operacje odczytu/zapisu
-- `close()`: Zamyka schowek i zwalnia wyłączną blokadę, udostępniając go innym procesom
-- `clear()`: Opróżnia zawartość schowka i zwalnia powiązaną pamięć
-- `set_data()`: Aktualizuje _dane w stanie wewnętrznym lub konfiguracji
-- `RegisterFormat()`: Wykonuje RegisterFormat operację jako część operacje schowka
-- `set_text()`: Umieszcza zawartość tekstową w schowku systemowym lub wewnętrznym
+- `alloc()`: Moved from platform.memory. It is only used with clipboard, no point to share it.
+- `lock()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `copy()`: Performs copy operation in platform.clipboard.cpp
+- `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation in platform.clipboard.cpp
+- `open()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `close()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `clear()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_data()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `RegisterFormat()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
+- `set_text()`: Checks a condition in platform.clipboard.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `detail`
 - `os`

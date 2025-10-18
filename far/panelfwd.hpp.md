@@ -4,12 +4,12 @@
 This file implements functionality related to: */
 Main functional areas: panel management
 ### Key Classes
-- `FileList`: Implements panel management
-- `InfoList`: Implements panel management
-- `Panel`: Implements panel management
-- `QuickView`: Implements panel management
-- `TreeList`: Implements panel management
-- `panel_type`: Implements panel management
+- `FileList`: Performs FileList operation in panelfwd.hpp
+- `InfoList`: Performs InfoList operation in panelfwd.hpp
+- `Panel`: Performs Panel operation in panelfwd.hpp
+- `QuickView`: Performs QuickView operation in panelfwd.hpp
+- `TreeList`: Performs TreeList operation in panelfwd.hpp
+- `panel_type`: Performs panel_type operation in panelfwd.hpp
 ### Summary
 The `panelfwd.hpp` file provides essential functionality for panel management. It defines 6 class(es) to support the Far Manager file manager operations.
 
@@ -20,11 +20,11 @@ The `panelfwd.hpp` file provides essential functionality for panel management. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: zarządzanie panelami
 ### Kluczowe Klasy
-- `FileList`: Implementuje zarządzanie panelami
-- `InfoList`: Implementuje zarządzanie panelami
-- `Panel`: Implementuje zarządzanie panelami
-- `QuickView`: Implementuje zarządzanie panelami
-- `TreeList`: Implementuje zarządzanie panelami
-- `panel_type`: Implementuje zarządzanie panelami
+- `FileList`: Performs FileList operation in panelfwd.hpp
+- `InfoList`: Performs InfoList operation in panelfwd.hpp
+- `Panel`: Performs Panel operation in panelfwd.hpp
+- `QuickView`: Performs QuickView operation in panelfwd.hpp
+- `TreeList`: Performs TreeList operation in panelfwd.hpp
+- `panel_type`: Performs panel_type operation in panelfwd.hpp
 ### Podsumowanie
 Plik `panelfwd.hpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 6 klas(y) wspierających operacje menedżera plików Far Manager.

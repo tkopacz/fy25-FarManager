@@ -4,15 +4,15 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `block`: Implements core functionality
-- `strings`: Implements core functionality
+- `block`: Performs block operation in platform.env.hpp
+- `strings`: Performs strings operation in platform.env.hpp
 ### Key Functions
-- `data()`: Constructor that initializes data object with provided parameters
-- `get()`: Retrieves value from internal state or data structure
-- `set()`: Updates value in internal state or configuration
-- `del()`: Executes del operation as part of core functionality
-- `expand()`: Executes expand operation as part of core functionality
-- `get_pathext()`: Retrieves _pathext from internal state or data structure
+- `data()`: Performs data operation in platform.env.hpp
+- `get()`: Retrieves  value in platform.env.hpp
+- `set()`: Sets or updates  value in platform.env.hpp
+- `del()`: Performs del operation in platform.env.hpp
+- `expand()`: Performs expand operation in platform.env.hpp
+- `get_pathext()`: Retrieves _pathext value in platform.env.hpp
 ### Namespaces
 - `os`
 - `provider`
@@ -26,15 +26,15 @@ The `platform.env.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `block`: Implementuje podstawowa funkcjonalność
-- `strings`: Implementuje podstawowa funkcjonalność
+- `block`: Performs block operation in platform.env.hpp
+- `strings`: Performs strings operation in platform.env.hpp
 ### Kluczowe Funkcje
-- `data()`: Konstruktor inicjalizujący dane obiekt z dostarczonymi parametrami
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `del()`: Wykonuje del operację jako część podstawowa funkcjonalność
-- `expand()`: Wykonuje expand operację jako część podstawowa funkcjonalność
-- `get_pathext()`: Pobiera _pathext ze stanu wewnętrznego lub struktury danych
+- `data()`: Performs data operation in platform.env.hpp
+- `get()`: Retrieves  value in platform.env.hpp
+- `set()`: Sets or updates  value in platform.env.hpp
+- `del()`: Performs del operation in platform.env.hpp
+- `expand()`: Performs expand operation in platform.env.hpp
+- `get_pathext()`: Retrieves _pathext value in platform.env.hpp
 ### Przestrzenie nazw
 - `os`
 - `provider`

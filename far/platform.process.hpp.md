@@ -4,17 +4,17 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `enum_process_entry`: Implements core functionality
-- `image_type`: Implements core functionality
+- `enum_process_entry`: Performs enum_process_entry operation in platform.process.hpp
+- `image_type`: Performs image_type operation in platform.process.hpp
 ### Key Functions
-- `get_process_subsystem()`: Retrieves _process_subsystem from internal state or data structure
-- `get_process_name()`: Retrieves _process_name from internal state or data structure
-- `enumerate_locking_processes_rm()`: Executes enumerate_locking_processes_rm operation as part of core functionality
-- `enumerate_locking_processes_nt()`: Executes enumerate_locking_processes_nt operation as part of core functionality
-- `enum_processes()`: Executes enum_processes operation as part of core functionality
-- `get()`: Retrieves value from internal state or data structure
-- `terminate_other()`: Executes terminate_other operation as part of core functionality
-- `terminate()`: Executes terminate operation as part of core functionality
+- `get_process_subsystem()`: Retrieves _process_subsystem value in platform.process.hpp
+- `get_process_name()`: Retrieves _process_name value in platform.process.hpp
+- `enumerate_locking_processes_rm()`: Performs enumerate_locking_processes_rm operation in platform.process.hpp
+- `enumerate_locking_processes_nt()`: Performs enumerate_locking_processes_nt operation in platform.process.hpp
+- `enum_processes()`: Performs enum_processes operation in platform.process.hpp
+- `get()`: Retrieves  value in platform.process.hpp
+- `terminate_other()`: Performs terminate_other operation in platform.process.hpp
+- `terminate()`: Performs terminate operation in platform.process.hpp
 ### Namespaces
 - `os`
 ### Summary
@@ -27,17 +27,17 @@ The `platform.process.hpp` file provides essential functionality for core functi
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `enum_process_entry`: Implementuje podstawowa funkcjonalność
-- `image_type`: Implementuje podstawowa funkcjonalność
+- `enum_process_entry`: Performs enum_process_entry operation in platform.process.hpp
+- `image_type`: Performs image_type operation in platform.process.hpp
 ### Kluczowe Funkcje
-- `get_process_subsystem()`: Pobiera _process_subsystem ze stanu wewnętrznego lub struktury danych
-- `get_process_name()`: Pobiera _process_name ze stanu wewnętrznego lub struktury danych
-- `enumerate_locking_processes_rm()`: Wykonuje enumerate_locking_processes_rm operację jako część podstawowa funkcjonalność
-- `enumerate_locking_processes_nt()`: Wykonuje enumerate_locking_processes_nt operację jako część podstawowa funkcjonalność
-- `enum_processes()`: Wykonuje enum_processes operację jako część podstawowa funkcjonalność
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `terminate_other()`: Wykonuje terminate_other operację jako część podstawowa funkcjonalność
-- `terminate()`: Wykonuje terminate operację jako część podstawowa funkcjonalność
+- `get_process_subsystem()`: Retrieves _process_subsystem value in platform.process.hpp
+- `get_process_name()`: Retrieves _process_name value in platform.process.hpp
+- `enumerate_locking_processes_rm()`: Performs enumerate_locking_processes_rm operation in platform.process.hpp
+- `enumerate_locking_processes_nt()`: Performs enumerate_locking_processes_nt operation in platform.process.hpp
+- `enum_processes()`: Performs enum_processes operation in platform.process.hpp
+- `get()`: Retrieves  value in platform.process.hpp
+- `terminate_other()`: Performs terminate_other operation in platform.process.hpp
+- `terminate()`: Performs terminate operation in platform.process.hpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

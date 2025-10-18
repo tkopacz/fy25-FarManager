@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `_strncat()`: Executes _strncat operation as part of file system operations
-- `StrCat()`: Executes StrCat operation as part of file system operations
-- `strcat()`: Executes strcat operation as part of file system operations
+- `_strncat()`: Performs _strncat operation in fstd_exSCAT.cpp
+- `StrCat()`: Performs StrCat operation in fstd_exSCAT.cpp
+- `strcat()`: Performs strcat operation in fstd_exSCAT.cpp
 ### Summary
 The `fstd_exSCAT.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -15,8 +15,8 @@ The `fstd_exSCAT.cpp` file provides essential functionality for file system oper
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `_strncat()`: Wykonuje _strncat operację jako część operacje systemu plików
-- `StrCat()`: Wykonuje StrCat operację jako część operacje systemu plików
-- `strcat()`: Wykonuje strcat operację jako część operacje systemu plików
+- `_strncat()`: Performs _strncat operation in fstd_exSCAT.cpp
+- `StrCat()`: Performs StrCat operation in fstd_exSCAT.cpp
+- `strcat()`: Performs strcat operation in fstd_exSCAT.cpp
 ### Podsumowanie
 Plik `fstd_exSCAT.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

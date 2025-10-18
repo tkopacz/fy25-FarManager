@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `AnsiTraits`: Implements string utilities
-- `BaseTraits`: Implements string utilities
-- `StringBase`: Implements string utilities
-- `StringData`: Implements string utilities
-- `UnicodeTraits`: Implements string utilities
+- `AnsiTraits`: Performs AnsiTraits operation in StringBase2.hpp
+- `BaseTraits`: Performs BaseTraits operation in StringBase2.hpp
+- `StringBase`: для оптимизации создания пустых String
+- `StringData`: Performs StringData operation in StringBase2.hpp
+- `UnicodeTraits`: Performs UnicodeTraits operation in StringBase2.hpp
 ### Key Functions
-- `StrLengthW()`: Executes StrLengthW operation as part of string utilities
-- `StrLengthA()`: Executes StrLengthA operation as part of string utilities
-- `ConvertString()`: Converts data from one format or type to another
-- `Free()`: Executes Free operation as part of string utilities
-- `GetDefaultEncoding()`: Retrieves DefaultEncoding from internal state or data structure
-- `StrLength()`: Executes StrLength operation as part of string utilities
-- `GetAnsiDataLength()`: Retrieves AnsiDataLength from internal state or data structure
-- `MultiByteToWideChar()`: Executes MultiByteToWideChar operation as part of string utilities
-- `CopyAnsiData()`: Copies data from source to destination location
-- `GetUnicodeDataLength()`: Retrieves UnicodeDataLength from internal state or data structure
+- `StrLengthW()`: Performs StrLengthW operation in StringBase2.hpp
+- `StrLengthA()`: Performs StrLengthA operation in StringBase2.hpp
+- `ConvertString()`: Performs ConvertString operation in StringBase2.hpp
+- `Free()`: Performs Free operation in StringBase2.hpp
+- `GetDefaultEncoding()`: Retrieves DefaultEncoding value in StringBase2.hpp
+- `StrLength()`: Performs StrLength operation in StringBase2.hpp
+- `GetAnsiDataLength()`: Retrieves AnsiDataLength value in StringBase2.hpp
+- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation in StringBase2.hpp
+- `CopyAnsiData()`: Performs CopyAnsiData operation in StringBase2.hpp
+- `GetUnicodeDataLength()`: Retrieves UnicodeDataLength value in StringBase2.hpp
 ### Summary
 The `StringBase2.hpp` file provides essential functionality for string utilities. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,21 +28,21 @@ The `StringBase2.hpp` file provides essential functionality for string utilities
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `AnsiTraits`: Implementuje narzędzia łańcuchowe
-- `BaseTraits`: Implementuje narzędzia łańcuchowe
-- `StringBase`: Implementuje narzędzia łańcuchowe
-- `StringData`: Implementuje narzędzia łańcuchowe
-- `UnicodeTraits`: Implementuje narzędzia łańcuchowe
+- `AnsiTraits`: Performs AnsiTraits operation in StringBase2.hpp
+- `BaseTraits`: Performs BaseTraits operation in StringBase2.hpp
+- `StringBase`: для оптимизации создания пустых String
+- `StringData`: Performs StringData operation in StringBase2.hpp
+- `UnicodeTraits`: Performs UnicodeTraits operation in StringBase2.hpp
 ### Kluczowe Funkcje
-- `StrLengthW()`: Wykonuje StrLengthW operację jako część narzędzia łańcuchowe
-- `StrLengthA()`: Wykonuje StrLengthA operację jako część narzędzia łańcuchowe
-- `ConvertString()`: Konwertuje dane z jednego formatu lub typu do innego
-- `Free()`: Wykonuje Free operację jako część narzędzia łańcuchowe
-- `GetDefaultEncoding()`: Pobiera DefaultEncoding ze stanu wewnętrznego lub struktury danych
-- `StrLength()`: Wykonuje StrLength operację jako część narzędzia łańcuchowe
-- `GetAnsiDataLength()`: Pobiera AnsiDataLength ze stanu wewnętrznego lub struktury danych
-- `MultiByteToWideChar()`: Wykonuje MultiByteToWideChar operację jako część narzędzia łańcuchowe
-- `CopyAnsiData()`: Kopiuje dane ze źródła do miejsca docelowego
-- `GetUnicodeDataLength()`: Pobiera UnicodeDataLength ze stanu wewnętrznego lub struktury danych
+- `StrLengthW()`: Performs StrLengthW operation in StringBase2.hpp
+- `StrLengthA()`: Performs StrLengthA operation in StringBase2.hpp
+- `ConvertString()`: Performs ConvertString operation in StringBase2.hpp
+- `Free()`: Performs Free operation in StringBase2.hpp
+- `GetDefaultEncoding()`: Retrieves DefaultEncoding value in StringBase2.hpp
+- `StrLength()`: Performs StrLength operation in StringBase2.hpp
+- `GetAnsiDataLength()`: Retrieves AnsiDataLength value in StringBase2.hpp
+- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation in StringBase2.hpp
+- `CopyAnsiData()`: Performs CopyAnsiData operation in StringBase2.hpp
+- `GetUnicodeDataLength()`: Retrieves UnicodeDataLength value in StringBase2.hpp
 ### Podsumowanie
 Plik `StringBase2.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

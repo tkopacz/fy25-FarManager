@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `MakeIntString()`: Executes MakeIntString operation as part of core functionality
-- `FormatCps()`: Executes FormatCps operation as part of core functionality
-- `Sprintf()`: Executes Sprintf operation as part of core functionality
-- `FormatDouble()`: Executes FormatDouble operation as part of core functionality
-- `Size2StrT()`: Executes Size2StrT operation as part of core functionality
-- `Str2SizeT()`: Executes Str2SizeT operation as part of core functionality
-- `IsSizeStr()`: Tests whether SizeStr condition is true or property exists
-- `Size2Str()`: Executes Size2Str operation as part of core functionality
-- `Str2Size()`: Executes Str2Size operation as part of core functionality
+- `MakeIntString()`: Performs MakeIntString operation in mu_itoa.cpp
+- `FormatCps()`: Performs FormatCps operation in mu_itoa.cpp
+- `Sprintf()`: Performs Sprintf operation in mu_itoa.cpp
+- `FormatDouble()`: Performs FormatDouble operation in mu_itoa.cpp
+- `Size2StrT()`: Performs Size2StrT operation in mu_itoa.cpp
+- `Str2SizeT()`: Performs Str2SizeT operation in mu_itoa.cpp
+- `IsSizeStr()`: Checks a condition in mu_itoa.cpp and returns the result
+- `Size2Str()`: Performs Size2Str operation in mu_itoa.cpp
+- `Str2Size()`: Performs Str2Size operation in mu_itoa.cpp
 ### Summary
 The `mu_itoa.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `mu_itoa.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `MakeIntString()`: Wykonuje MakeIntString operację jako część podstawowa funkcjonalność
-- `FormatCps()`: Wykonuje FormatCps operację jako część podstawowa funkcjonalność
-- `Sprintf()`: Wykonuje Sprintf operację jako część podstawowa funkcjonalność
-- `FormatDouble()`: Wykonuje FormatDouble operację jako część podstawowa funkcjonalność
-- `Size2StrT()`: Wykonuje Size2StrT operację jako część podstawowa funkcjonalność
-- `Str2SizeT()`: Wykonuje Str2SizeT operację jako część podstawowa funkcjonalność
-- `IsSizeStr()`: Testuje czy SizeStr warunek jest prawdziwy lub właściwość istnieje
-- `Size2Str()`: Wykonuje Size2Str operację jako część podstawowa funkcjonalność
-- `Str2Size()`: Wykonuje Str2Size operację jako część podstawowa funkcjonalność
+- `MakeIntString()`: Performs MakeIntString operation in mu_itoa.cpp
+- `FormatCps()`: Performs FormatCps operation in mu_itoa.cpp
+- `Sprintf()`: Performs Sprintf operation in mu_itoa.cpp
+- `FormatDouble()`: Performs FormatDouble operation in mu_itoa.cpp
+- `Size2StrT()`: Performs Size2StrT operation in mu_itoa.cpp
+- `Str2SizeT()`: Performs Str2SizeT operation in mu_itoa.cpp
+- `IsSizeStr()`: Checks a condition in mu_itoa.cpp and returns the result
+- `Size2Str()`: Performs Size2Str operation in mu_itoa.cpp
+- `Str2Size()`: Performs Str2Size operation in mu_itoa.cpp
 ### Podsumowanie
 Plik `mu_itoa.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

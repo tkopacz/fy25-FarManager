@@ -4,18 +4,18 @@
 This file implements functionality related to: Функция main.
 Main functional areas: core functionality
 ### Key Classes
-- `args_context`: Implements core functionality
+- `args_context`: Performs args_context operation in main.cpp
 ### Key Functions
-- `show_help()`: Displays content or makes visual element visible on screen
-- `MainProcess()`: Executes MainProcess operation as part of core functionality
-- `full_path_expanded()`: Executes full_path_expanded operation as part of core functionality
-- `InitTemplateProfile()`: Initializes data structures and sets up initial state for operation
-- `InitProfile()`: Initializes data structures and sets up initial state for operation
-- `GetShellProfilePath()`: Retrieves ShellProfilePath from internal state or data structure
-- `is_arg()`: Tests whether _arg condition is true or property exists
-- `ShowVersion()`: Displays content or makes visual element visible on screen
-- `log_hook_wow64_status()`: Executes log_hook_wow64_status operation as part of core functionality
-- `parse_argument()`: Parses input string or data into structured format
+- `show_help()`: Performs show_help operation in main.cpp
+- `MainProcess()`: Main entry point in main.cpp that starts program execution
+- `full_path_expanded()`: Performs full_path_expanded operation in main.cpp
+- `InitTemplateProfile()`: Initializes data structures and prepares for operation in main.cpp
+- `InitProfile()`: Initializes data structures and prepares for operation in main.cpp
+- `GetShellProfilePath()`: roaming data default path: %APPDATA%\Far Manager\Profile
+- `is_arg()`: Checks a condition in main.cpp and returns the result
+- `ShowVersion()`: Performs ShowVersion operation in main.cpp
+- `log_hook_wow64_status()`: Performs log_hook_wow64_status operation in main.cpp
+- `parse_argument()`: Validates a condition in main.cpp and throws an exception if the validation fails
 ### Namespaces
 - `args`
 ### Summary
@@ -28,18 +28,18 @@ The `main.cpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Функция main.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `args_context`: Implementuje podstawowa funkcjonalność
+- `args_context`: Performs args_context operation in main.cpp
 ### Kluczowe Funkcje
-- `show_help()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `MainProcess()`: Wykonuje MainProcess operację jako część podstawowa funkcjonalność
-- `full_path_expanded()`: Wykonuje full_path_expanded operację jako część podstawowa funkcjonalność
-- `InitTemplateProfile()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `InitProfile()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `GetShellProfilePath()`: Pobiera ShellProfilePath ze stanu wewnętrznego lub struktury danych
-- `is_arg()`: Testuje czy _arg warunek jest prawdziwy lub właściwość istnieje
-- `ShowVersion()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `log_hook_wow64_status()`: Wykonuje log_hook_wow64_status operację jako część podstawowa funkcjonalność
-- `parse_argument()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
+- `show_help()`: Performs show_help operation in main.cpp
+- `MainProcess()`: Main entry point in main.cpp that starts program execution
+- `full_path_expanded()`: Performs full_path_expanded operation in main.cpp
+- `InitTemplateProfile()`: Initializes data structures and prepares for operation in main.cpp
+- `InitProfile()`: Initializes data structures and prepares for operation in main.cpp
+- `GetShellProfilePath()`: roaming data default path: %APPDATA%\Far Manager\Profile
+- `is_arg()`: Checks a condition in main.cpp and returns the result
+- `ShowVersion()`: Performs ShowVersion operation in main.cpp
+- `log_hook_wow64_status()`: Performs log_hook_wow64_status operation in main.cpp
+- `parse_argument()`: Validates a condition in main.cpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `args`
 ### Podsumowanie

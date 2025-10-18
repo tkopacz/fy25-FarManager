@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ExecuteStruct`: Implements core functionality
-- `Plugin`: Implements core functionality
-- `PluginManager`: Implements core functionality
-- `export_name`: Implements core functionality
-- `export_type`: Implements core functionality
-- `i_plugin_module`: Implements core functionality
-- `lng`: Implements core functionality
-- `native_plugin_factory`: Implements core functionality
-- `native_plugin_module`: Implements core functionality
-- `plugin_factory`: Implements core functionality
+- `ExecuteStruct`: Performs ExecuteStruct operation in plclass.hpp
+- `Plugin`: Performs Plugin operation in plclass.hpp
+- `PluginManager`: Performs PluginManager operation in plclass.hpp
+- `export_name`: Performs export_name operation in plclass.hpp
+- `export_type`: Performs export_type operation in plclass.hpp
+- `i_plugin_module`: LoadData успешно выполнилась
+- `lng`: Performs lng operation in plclass.hpp
+- `native_plugin_factory`: Performs native_plugin_factory operation in plclass.hpp
+- `native_plugin_module`: Performs native_plugin_module operation in plclass.hpp
+- `plugin_factory`: LoadData успешно выполнилась
 ### Key Functions
-- `plugin_factory()`: Executes plugin_factory operation as part of core functionality
-- `ProcessError()`: Processes Error through transformation or handling pipeline
-- `IsExternal()`: Tests whether External condition is true or property exists
-- `Title()`: Executes Title operation as part of core functionality
-- `version()`: Executes version operation as part of core functionality
-- `Id()`: Constructor that initializes Id object with provided parameters
-- `Owner()`: Executes Owner operation as part of core functionality
-- `ExportsNames()`: Executes ExportsNames operation as part of core functionality
-- `opaque()`: Constructor that initializes opaque object with provided parameters
-- `GetProcAddress()`: Retrieves ProcAddress from internal state or data structure
+- `plugin_factory()`: LoadData успешно выполнилась
+- `ProcessError()`: Processes input data in plclass.hpp
+- `IsExternal()`: Checks a condition in plclass.hpp and returns the result
+- `Title()`: Performs Title operation in plclass.hpp
+- `version()`: Performs version operation in plclass.hpp
+- `Id()`: Performs Id operation in plclass.hpp
+- `Owner()`: Performs Owner operation in plclass.hpp
+- `ExportsNames()`: Performs ExportsNames operation in plclass.hpp
+- `opaque()`: Performs opaque operation in plclass.hpp
+- `GetProcAddress()`: Retrieves ProcAddress value in plclass.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -35,27 +35,27 @@ The `plclass.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ExecuteStruct`: Implementuje podstawowa funkcjonalność
-- `Plugin`: Implementuje podstawowa funkcjonalność
-- `PluginManager`: Implementuje podstawowa funkcjonalność
-- `export_name`: Implementuje podstawowa funkcjonalność
-- `export_type`: Implementuje podstawowa funkcjonalność
-- `i_plugin_module`: Implementuje podstawowa funkcjonalność
-- `lng`: Implementuje podstawowa funkcjonalność
-- `native_plugin_factory`: Implementuje podstawowa funkcjonalność
-- `native_plugin_module`: Implementuje podstawowa funkcjonalność
-- `plugin_factory`: Implementuje podstawowa funkcjonalność
+- `ExecuteStruct`: Performs ExecuteStruct operation in plclass.hpp
+- `Plugin`: Performs Plugin operation in plclass.hpp
+- `PluginManager`: Performs PluginManager operation in plclass.hpp
+- `export_name`: Performs export_name operation in plclass.hpp
+- `export_type`: Performs export_type operation in plclass.hpp
+- `i_plugin_module`: LoadData успешно выполнилась
+- `lng`: Performs lng operation in plclass.hpp
+- `native_plugin_factory`: Performs native_plugin_factory operation in plclass.hpp
+- `native_plugin_module`: Performs native_plugin_module operation in plclass.hpp
+- `plugin_factory`: LoadData успешно выполнилась
 ### Kluczowe Funkcje
-- `plugin_factory()`: Wykonuje plugin_factory operację jako część podstawowa funkcjonalność
-- `ProcessError()`: Przetwarza Error przez potok transformacji lub obsługi
-- `IsExternal()`: Testuje czy External warunek jest prawdziwy lub właściwość istnieje
-- `Title()`: Wykonuje Title operację jako część podstawowa funkcjonalność
-- `version()`: Wykonuje version operację jako część podstawowa funkcjonalność
-- `Id()`: Konstruktor inicjalizujący Id obiekt z dostarczonymi parametrami
-- `Owner()`: Wykonuje Owner operację jako część podstawowa funkcjonalność
-- `ExportsNames()`: Wykonuje ExportsNames operację jako część podstawowa funkcjonalność
-- `opaque()`: Konstruktor inicjalizujący opaque obiekt z dostarczonymi parametrami
-- `GetProcAddress()`: Pobiera ProcAddress ze stanu wewnętrznego lub struktury danych
+- `plugin_factory()`: LoadData успешно выполнилась
+- `ProcessError()`: Processes input data in plclass.hpp
+- `IsExternal()`: Checks a condition in plclass.hpp and returns the result
+- `Title()`: Performs Title operation in plclass.hpp
+- `version()`: Performs version operation in plclass.hpp
+- `Id()`: Performs Id operation in plclass.hpp
+- `Owner()`: Performs Owner operation in plclass.hpp
+- `ExportsNames()`: Performs ExportsNames operation in plclass.hpp
+- `opaque()`: Performs opaque operation in plclass.hpp
+- `GetProcAddress()`: Retrieves ProcAddress value in plclass.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

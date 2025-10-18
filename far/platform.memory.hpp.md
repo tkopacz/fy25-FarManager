@@ -4,10 +4,10 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `deleter`: Implements core functionality
+- `deleter`: Deletes or removes an item or resource in platform.memory.hpp
 ### Key Functions
-- `is_pointer()`: Tests whether _pointer condition is true or property exists
-- `enable_low_fragmentation_heap()`: Executes enable_low_fragmentation_heap operation as part of core functionality
+- `is_pointer()`: Checks a condition in platform.memory.hpp and returns the result
+- `enable_low_fragmentation_heap()`: Performs enable_low_fragmentation_heap operation in platform.memory.hpp
 ### Namespaces
 - `detail`
 - `local`
@@ -22,10 +22,10 @@ The `platform.memory.hpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `deleter`: Implementuje podstawowa funkcjonalność
+- `deleter`: Deletes or removes an item or resource in platform.memory.hpp
 ### Kluczowe Funkcje
-- `is_pointer()`: Testuje czy _pointer warunek jest prawdziwy lub właściwość istnieje
-- `enable_low_fragmentation_heap()`: Wykonuje enable_low_fragmentation_heap operację jako część podstawowa funkcjonalność
+- `is_pointer()`: Checks a condition in platform.memory.hpp and returns the result
+- `enable_low_fragmentation_heap()`: Performs enable_low_fragmentation_heap operation in platform.memory.hpp
 ### Przestrzenie nazw
 - `detail`
 - `local`

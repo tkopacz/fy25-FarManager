@@ -4,13 +4,13 @@
 This file implements functionality related to: импортируемые функции
 Main functional areas: core functionality
 ### Key Classes
-- `imports`: Implements core functionality
-- `unique_function_pointer`: Implements core functionality
+- `imports`: Performs imports operation in imports.hpp
+- `unique_function_pointer`: Performs unique_function_pointer operation in imports.hpp
 ### Key Functions
-- `function_type()`: Executes function_type operation as part of core functionality
-- `get_pointer()`: Retrieves _pointer from internal state or data structure
-- `bool()`: Executes bool operation as part of core functionality
-- `DEFINE_IMPORT_FUNCTION()`: Executes DEFINE_IMPORT_FUNCTION operation as part of core functionality
+- `function_type()`: Performs function_type operation in imports.hpp
+- `get_pointer()`: Retrieves _pointer value in imports.hpp
+- `bool()`: Performs bool operation in imports.hpp
+- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation in imports.hpp
 ### Namespaces
 - `imports_detail`
 ### Summary
@@ -23,13 +23,13 @@ The `imports.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: импортируемые функции
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `imports`: Implementuje podstawowa funkcjonalność
-- `unique_function_pointer`: Implementuje podstawowa funkcjonalność
+- `imports`: Performs imports operation in imports.hpp
+- `unique_function_pointer`: Performs unique_function_pointer operation in imports.hpp
 ### Kluczowe Funkcje
-- `function_type()`: Wykonuje function_type operację jako część podstawowa funkcjonalność
-- `get_pointer()`: Pobiera _pointer ze stanu wewnętrznego lub struktury danych
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `DEFINE_IMPORT_FUNCTION()`: Wykonuje DEFINE_IMPORT_FUNCTION operację jako część podstawowa funkcjonalność
+- `function_type()`: Performs function_type operation in imports.hpp
+- `get_pointer()`: Retrieves _pointer value in imports.hpp
+- `bool()`: Performs bool operation in imports.hpp
+- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation in imports.hpp
 ### Przestrzenie nazw
 - `imports_detail`
 ### Podsumowanie

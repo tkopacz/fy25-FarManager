@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `AsciiStringBase`: Implements string utilities
-- `AsciiStringBaseEx`: Implements string utilities
+- `AsciiStringBase`: Performs AsciiStringBase operation in AsciiStringBase.hpp
+- `AsciiStringBaseEx`: Checks a condition in AsciiStringBase.hpp and returns true or false based on the result
 ### Key Functions
-- `SetData()`: Updates Data in internal state or configuration
-- `GetEncoding()`: Retrieves Encoding from internal state or data structure
-- `Append()`: Executes Append operation as part of string utilities
+- `SetData()`: Sets or updates Data value in AsciiStringBase.hpp
+- `GetEncoding()`: Retrieves Encoding value in AsciiStringBase.hpp
+- `Append()`: Performs Append operation in AsciiStringBase.hpp
 ### Summary
 The `AsciiStringBase.hpp` file provides essential functionality for string utilities. It defines 2 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -18,11 +18,11 @@ The `AsciiStringBase.hpp` file provides essential functionality for string utili
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `AsciiStringBase`: Implementuje narzędzia łańcuchowe
-- `AsciiStringBaseEx`: Implementuje narzędzia łańcuchowe
+- `AsciiStringBase`: Performs AsciiStringBase operation in AsciiStringBase.hpp
+- `AsciiStringBaseEx`: Checks a condition in AsciiStringBase.hpp and returns true or false based on the result
 ### Kluczowe Funkcje
-- `SetData()`: Aktualizuje Data w stanie wewnętrznym lub konfiguracji
-- `GetEncoding()`: Pobiera Encoding ze stanu wewnętrznego lub struktury danych
-- `Append()`: Wykonuje Append operację jako część narzędzia łańcuchowe
+- `SetData()`: Sets or updates Data value in AsciiStringBase.hpp
+- `GetEncoding()`: Retrieves Encoding value in AsciiStringBase.hpp
+- `Append()`: Performs Append operation in AsciiStringBase.hpp
 ### Podsumowanie
 Plik `AsciiStringBase.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 2 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

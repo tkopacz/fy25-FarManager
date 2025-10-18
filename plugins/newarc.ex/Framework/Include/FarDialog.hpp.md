@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: dialog handling
 ### Key Classes
-- `FarDialog`: Implements dialog handling
+- `FarDialog`: Performs FarDialog operation in FarDialog.hpp
 ### Key Functions
-- `GetDlg()`: Retrieves Dlg from internal state or data structure
-- `GetDlgData()`: Retrieves DlgData from internal state or data structure
-- `SetDlg()`: Updates Dlg in internal state or configuration
-- `SetFlags()`: Updates Flags in internal state or configuration
-- `SetDialogFlags()`: Updates DialogFlags in internal state or configuration
-- `GetDialogFlags()`: Retrieves DialogFlags from internal state or data structure
-- `FirstButton()`: Executes FirstButton operation as part of dialog handling
-- `Focus()`: Executes Focus operation as part of dialog handling
-- `DefaultButton()`: Executes DefaultButton operation as part of dialog handling
-- `SetPosition()`: Updates Position in internal state or configuration
+- `GetDlg()`: Retrieves Dlg value in FarDialog.hpp
+- `GetDlgData()`: Retrieves DlgData value in FarDialog.hpp
+- `SetDlg()`: Sets or updates Dlg value in FarDialog.hpp
+- `SetFlags()`: Sets or updates Flags value in FarDialog.hpp
+- `SetDialogFlags()`: Sets or updates DialogFlags value in FarDialog.hpp
+- `GetDialogFlags()`: Retrieves DialogFlags value in FarDialog.hpp
+- `FirstButton()`: Performs FirstButton operation in FarDialog.hpp
+- `Focus()`: Performs Focus operation in FarDialog.hpp
+- `DefaultButton()`: Performs DefaultButton operation in FarDialog.hpp
+- `SetPosition()`: Sets or updates Position value in FarDialog.hpp
 ### Summary
 The `FarDialog.hpp` file provides essential functionality for dialog handling. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `FarDialog.hpp` file provides essential functionality for dialog handling. I
 ### Cel
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `FarDialog`: Implementuje obsługa dialogów
+- `FarDialog`: Performs FarDialog operation in FarDialog.hpp
 ### Kluczowe Funkcje
-- `GetDlg()`: Pobiera Dlg ze stanu wewnętrznego lub struktury danych
-- `GetDlgData()`: Pobiera DlgData ze stanu wewnętrznego lub struktury danych
-- `SetDlg()`: Aktualizuje Dlg w stanie wewnętrznym lub konfiguracji
-- `SetFlags()`: Aktualizuje Flags w stanie wewnętrznym lub konfiguracji
-- `SetDialogFlags()`: Aktualizuje DialogFlags w stanie wewnętrznym lub konfiguracji
-- `GetDialogFlags()`: Pobiera DialogFlags ze stanu wewnętrznego lub struktury danych
-- `FirstButton()`: Wykonuje FirstButton operację jako część obsługa dialogów
-- `Focus()`: Wykonuje Focus operację jako część obsługa dialogów
-- `DefaultButton()`: Wykonuje DefaultButton operację jako część obsługa dialogów
-- `SetPosition()`: Aktualizuje Position w stanie wewnętrznym lub konfiguracji
+- `GetDlg()`: Retrieves Dlg value in FarDialog.hpp
+- `GetDlgData()`: Retrieves DlgData value in FarDialog.hpp
+- `SetDlg()`: Sets or updates Dlg value in FarDialog.hpp
+- `SetFlags()`: Sets or updates Flags value in FarDialog.hpp
+- `SetDialogFlags()`: Sets or updates DialogFlags value in FarDialog.hpp
+- `GetDialogFlags()`: Retrieves DialogFlags value in FarDialog.hpp
+- `FirstButton()`: Performs FirstButton operation in FarDialog.hpp
+- `Focus()`: Performs Focus operation in FarDialog.hpp
+- `DefaultButton()`: Performs DefaultButton operation in FarDialog.hpp
+- `SetPosition()`: Sets or updates Position value in FarDialog.hpp
 ### Podsumowanie
 Plik `FarDialog.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

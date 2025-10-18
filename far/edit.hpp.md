@@ -4,27 +4,27 @@
 This file implements functionality related to: Строка редактора
 Main functional areas: text editing
 ### Key Classes
-- `ColorItem`: Implements text editing
-- `DlgEdit`: Implements text editing
-- `Edit`: Implements text editing
-- `Editor`: Implements text editing
-- `FarColor`: Implements text editing
-- `FileEditor`: Implements text editing
-- `RegExp`: Implements text editing
-- `RegExpMatch`: Implements text editing
-- `ShowInfo`: Implements text editing
-- `edit_string`: Implements text editing
+- `ColorItem`: Performs ColorItem operation in edit.hpp
+- `DlgEdit`: Performs DlgEdit operation in edit.hpp
+- `Edit`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
+- `Editor`: Performs Editor operation in edit.hpp
+- `FarColor`: Performs FarColor operation in edit.hpp
+- `FileEditor`: Performs FileEditor operation in edit.hpp
+- `RegExp`: Performs RegExp operation in edit.hpp
+- `RegExpMatch`: Performs RegExpMatch operation in edit.hpp
+- `ShowInfo`: Performs ShowInfo operation in edit.hpp
+- `edit_string`: Performs edit_string operation in edit.hpp
 ### Key Functions
-- `GetOwner()`: Retrieves Owner from internal state or data structure
-- `SetOwner()`: Updates Owner in internal state or configuration
-- `GetColor()`: Retrieves Color from internal state or data structure
-- `SetColor()`: Updates Color in internal state or configuration
-- `Edit()`: Executes Edit operation as part of text editing
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `Changed()`: Executes Changed operation as part of text editing
-- `GetMaxLength()`: Retrieves MaxLength from internal state or data structure
+- `GetOwner()`: so UUIDs are stored in a separate set and here is only a pointer.
+- `SetOwner()`: Usually we have only 5-10 unique colors.
+- `GetColor()`: Usually we have only 5-10 unique colors.
+- `SetColor()`: Keeping a copy of FarColor in each of thousands of color items is a giant waste of memory,
+- `Edit()`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
+- `ProcessKey()`: Processes input data in edit.hpp
+- `ProcessMouse()`: Processes input data in edit.hpp
+- `VMProcess()`: Performs VMProcess operation in edit.hpp
+- `Changed()`: Performs Changed operation in edit.hpp
+- `GetMaxLength()`: Retrieves MaxLength value in edit.hpp
 ### Summary
 The `edit.hpp` file provides essential functionality for text editing. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `edit.hpp` file provides essential functionality for text editing. It define
 Ten plik implementuje funkcjonalność związaną z: Строка редактора
 Główne obszary funkcjonalne: edycja tekstu
 ### Kluczowe Klasy
-- `ColorItem`: Implementuje edycja tekstu
-- `DlgEdit`: Implementuje edycja tekstu
-- `Edit`: Implementuje edycja tekstu
-- `Editor`: Implementuje edycja tekstu
-- `FarColor`: Implementuje edycja tekstu
-- `FileEditor`: Implementuje edycja tekstu
-- `RegExp`: Implementuje edycja tekstu
-- `RegExpMatch`: Implementuje edycja tekstu
-- `ShowInfo`: Implementuje edycja tekstu
-- `edit_string`: Implementuje edycja tekstu
+- `ColorItem`: Performs ColorItem operation in edit.hpp
+- `DlgEdit`: Performs DlgEdit operation in edit.hpp
+- `Edit`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
+- `Editor`: Performs Editor operation in edit.hpp
+- `FarColor`: Performs FarColor operation in edit.hpp
+- `FileEditor`: Performs FileEditor operation in edit.hpp
+- `RegExp`: Performs RegExp operation in edit.hpp
+- `RegExpMatch`: Performs RegExpMatch operation in edit.hpp
+- `ShowInfo`: Performs ShowInfo operation in edit.hpp
+- `edit_string`: Performs edit_string operation in edit.hpp
 ### Kluczowe Funkcje
-- `GetOwner()`: Pobiera Owner ze stanu wewnętrznego lub struktury danych
-- `SetOwner()`: Aktualizuje Owner w stanie wewnętrznym lub konfiguracji
-- `GetColor()`: Pobiera Color ze stanu wewnętrznego lub struktury danych
-- `SetColor()`: Aktualizuje Color w stanie wewnętrznym lub konfiguracji
-- `Edit()`: Wykonuje Edit operację jako część edycja tekstu
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `Changed()`: Wykonuje Changed operację jako część edycja tekstu
-- `GetMaxLength()`: Pobiera MaxLength ze stanu wewnętrznego lub struktury danych
+- `GetOwner()`: so UUIDs are stored in a separate set and here is only a pointer.
+- `SetOwner()`: Usually we have only 5-10 unique colors.
+- `GetColor()`: Usually we have only 5-10 unique colors.
+- `SetColor()`: Keeping a copy of FarColor in each of thousands of color items is a giant waste of memory,
+- `Edit()`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
+- `ProcessKey()`: Processes input data in edit.hpp
+- `ProcessMouse()`: Processes input data in edit.hpp
+- `VMProcess()`: Performs VMProcess operation in edit.hpp
+- `Changed()`: Performs Changed operation in edit.hpp
+- `GetMaxLength()`: Retrieves MaxLength value in edit.hpp
 ### Podsumowanie
 Plik `edit.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 11 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

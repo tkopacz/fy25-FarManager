@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveUpdateProgress`: Implements core functionality
-- `ArchiveUpdater`: Implements core functionality
-- `DeleteSrcFiles`: Implements core functionality
-- `FileIndexInfo`: Implements core functionality
-- `FileReadStream`: Implements core functionality
-- `MultiVolumeUpdateStream`: Implements core functionality
-- `PrepareUpdate`: Implements core functionality
-- `SfxUpdateStream`: Implements core functionality
-- `SimpleUpdateStream`: Implements core functionality
-- `UpdateStream`: Implements core functionality
+- `ArchiveUpdateProgress`: Performs ArchiveUpdateProgress operation in update.cpp
+- `ArchiveUpdater`: Performs ArchiveUpdater operation in update.cpp
+- `DeleteSrcFiles`: Validates a condition in update.cpp and throws an exception if the validation fails
+- `FileIndexInfo`: Performs FileIndexInfo operation in update.cpp
+- `FileReadStream`: Performs FileReadStream operation in update.cpp
+- `MultiVolumeUpdateStream`: Iterates through elements in update.cpp and adds them to a collection
+- `PrepareUpdate`: Performs PrepareUpdate operation in update.cpp
+- `SfxUpdateStream`: Validates a condition in update.cpp and throws an exception if the validation fails
+- `SimpleUpdateStream`: Performs SimpleUpdateStream operation in update.cpp
+- `UpdateStream`: Updates existing data or state in update.cpp
 ### Key Functions
-- `format_time()`: Executes format_time operation as part of core functionality
-- `do_update_ui()`: Executes do_update_ui operation as part of core functionality
-- `on_open_file()`: Event handler invoked when _open_file occurs
-- `on_read_file()`: Event handler invoked when _read_file occurs
-- `on_write_archive()`: Event handler invoked when _write_archive occurs
-- `on_total_update()`: Event handler invoked when _total_update occurs
-- `on_completed_update()`: Event handler invoked when _completed_update occurs
-- `translate_seek_method()`: Executes translate_seek_method operation as part of core functionality
-- `open()`: Opens resource and prepares it for access operations
-- `set_pos()`: Updates _pos in internal state or configuration
+- `format_time()`: Performs format_time operation in update.cpp
+- `do_update_ui()`: Performs do_update_ui operation in update.cpp
+- `on_open_file()`: Performs on_open_file operation in update.cpp
+- `on_read_file()`: Performs on_read_file operation in update.cpp
+- `on_write_archive()`: Performs on_write_archive operation in update.cpp
+- `on_total_update()`: Performs on_total_update operation in update.cpp
+- `on_completed_update()`: Performs on_completed_update operation in update.cpp
+- `translate_seek_method()`: Performs translate_seek_method operation in update.cpp
+- `open()`: Performs open operation in update.cpp
+- `set_pos()`: Sets or updates _pos value in update.cpp
 ### Summary
 The `update.cpp` file provides essential functionality for core functionality. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -33,26 +33,26 @@ The `update.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveUpdateProgress`: Implementuje podstawowa funkcjonalność
-- `ArchiveUpdater`: Implementuje podstawowa funkcjonalność
-- `DeleteSrcFiles`: Implementuje podstawowa funkcjonalność
-- `FileIndexInfo`: Implementuje podstawowa funkcjonalność
-- `FileReadStream`: Implementuje podstawowa funkcjonalność
-- `MultiVolumeUpdateStream`: Implementuje podstawowa funkcjonalność
-- `PrepareUpdate`: Implementuje podstawowa funkcjonalność
-- `SfxUpdateStream`: Implementuje podstawowa funkcjonalność
-- `SimpleUpdateStream`: Implementuje podstawowa funkcjonalność
-- `UpdateStream`: Implementuje podstawowa funkcjonalność
+- `ArchiveUpdateProgress`: Performs ArchiveUpdateProgress operation in update.cpp
+- `ArchiveUpdater`: Performs ArchiveUpdater operation in update.cpp
+- `DeleteSrcFiles`: Validates a condition in update.cpp and throws an exception if the validation fails
+- `FileIndexInfo`: Performs FileIndexInfo operation in update.cpp
+- `FileReadStream`: Performs FileReadStream operation in update.cpp
+- `MultiVolumeUpdateStream`: Iterates through elements in update.cpp and adds them to a collection
+- `PrepareUpdate`: Performs PrepareUpdate operation in update.cpp
+- `SfxUpdateStream`: Validates a condition in update.cpp and throws an exception if the validation fails
+- `SimpleUpdateStream`: Performs SimpleUpdateStream operation in update.cpp
+- `UpdateStream`: Updates existing data or state in update.cpp
 ### Kluczowe Funkcje
-- `format_time()`: Wykonuje format_time operację jako część podstawowa funkcjonalność
-- `do_update_ui()`: Wykonuje do_update_ui operację jako część podstawowa funkcjonalność
-- `on_open_file()`: Procedura obsługi zdarzeń wywoływana gdy _open_file występuje
-- `on_read_file()`: Procedura obsługi zdarzeń wywoływana gdy _read_file występuje
-- `on_write_archive()`: Procedura obsługi zdarzeń wywoływana gdy _write_archive występuje
-- `on_total_update()`: Procedura obsługi zdarzeń wywoływana gdy _total_update występuje
-- `on_completed_update()`: Procedura obsługi zdarzeń wywoływana gdy _completed_update występuje
-- `translate_seek_method()`: Wykonuje translate_seek_method operację jako część podstawowa funkcjonalność
-- `open()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `set_pos()`: Aktualizuje _pos w stanie wewnętrznym lub konfiguracji
+- `format_time()`: Performs format_time operation in update.cpp
+- `do_update_ui()`: Performs do_update_ui operation in update.cpp
+- `on_open_file()`: Performs on_open_file operation in update.cpp
+- `on_read_file()`: Performs on_read_file operation in update.cpp
+- `on_write_archive()`: Performs on_write_archive operation in update.cpp
+- `on_total_update()`: Performs on_total_update operation in update.cpp
+- `on_completed_update()`: Performs on_completed_update operation in update.cpp
+- `translate_seek_method()`: Performs translate_seek_method operation in update.cpp
+- `open()`: Performs open operation in update.cpp
+- `set_pos()`: Sets or updates _pos value in update.cpp
 ### Podsumowanie
 Plik `update.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

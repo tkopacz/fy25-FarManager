@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `local_tag`: Implements core functionality
-- `nt_clock`: Implements core functionality
-- `time`: Implements core functionality
-- `typed_time`: Implements core functionality
-- `utc_tag`: Implements core functionality
+- `local_tag`: Performs local_tag operation in platform.chrono.hpp
+- `nt_clock`: Performs nt_clock operation in platform.chrono.hpp
+- `time`: Performs time operation in platform.chrono.hpp
+- `typed_time`: Performs typed_time operation in platform.chrono.hpp
+- `utc_tag`: Performs utc_tag operation in platform.chrono.hpp
 ### Key Functions
-- `now()`: Executes now operation as part of core functionality
-- `to_time_t()`: Executes to_time_t operation as part of core functionality
-- `from_time_t()`: Executes from_time_t operation as part of core functionality
-- `to_filetime()`: Executes to_filetime operation as part of core functionality
-- `from_filetime()`: Executes from_filetime operation as part of core functionality
-- `from_hectonanoseconds()`: Executes from_hectonanoseconds operation as part of core functionality
-- `to_hectonanoseconds()`: Executes to_hectonanoseconds operation as part of core functionality
-- `milliseconds()`: Executes milliseconds operation as part of core functionality
-- `now_utc()`: Executes now_utc operation as part of core functionality
-- `now_local()`: Executes now_local operation as part of core functionality
+- `now()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `from_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_filetime()`: Performs to_filetime operation in platform.chrono.hpp
+- `from_filetime()`: Performs from_filetime operation in platform.chrono.hpp
+- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation in platform.chrono.hpp
+- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation in platform.chrono.hpp
+- `milliseconds()`: Performs milliseconds operation in platform.chrono.hpp
+- `now_utc()`: Performs now_utc operation in platform.chrono.hpp
+- `now_local()`: Performs now_local operation in platform.chrono.hpp
 ### Namespaces
 - `detail`
 - `literals`
@@ -34,22 +34,22 @@ The `platform.chrono.hpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `local_tag`: Implementuje podstawowa funkcjonalność
-- `nt_clock`: Implementuje podstawowa funkcjonalność
-- `time`: Implementuje podstawowa funkcjonalność
-- `typed_time`: Implementuje podstawowa funkcjonalność
-- `utc_tag`: Implementuje podstawowa funkcjonalność
+- `local_tag`: Performs local_tag operation in platform.chrono.hpp
+- `nt_clock`: Performs nt_clock operation in platform.chrono.hpp
+- `time`: Performs time operation in platform.chrono.hpp
+- `typed_time`: Performs typed_time operation in platform.chrono.hpp
+- `utc_tag`: Performs utc_tag operation in platform.chrono.hpp
 ### Kluczowe Funkcje
-- `now()`: Wykonuje now operację jako część podstawowa funkcjonalność
-- `to_time_t()`: Wykonuje to_time_t operację jako część podstawowa funkcjonalność
-- `from_time_t()`: Wykonuje from_time_t operację jako część podstawowa funkcjonalność
-- `to_filetime()`: Wykonuje to_filetime operację jako część podstawowa funkcjonalność
-- `from_filetime()`: Wykonuje from_filetime operację jako część podstawowa funkcjonalność
-- `from_hectonanoseconds()`: Wykonuje from_hectonanoseconds operację jako część podstawowa funkcjonalność
-- `to_hectonanoseconds()`: Wykonuje to_hectonanoseconds operację jako część podstawowa funkcjonalność
-- `milliseconds()`: Wykonuje milliseconds operację jako część podstawowa funkcjonalność
-- `now_utc()`: Wykonuje now_utc operację jako część podstawowa funkcjonalność
-- `now_local()`: Wykonuje now_local operację jako część podstawowa funkcjonalność
+- `now()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `from_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
+- `to_filetime()`: Performs to_filetime operation in platform.chrono.hpp
+- `from_filetime()`: Performs from_filetime operation in platform.chrono.hpp
+- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation in platform.chrono.hpp
+- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation in platform.chrono.hpp
+- `milliseconds()`: Performs milliseconds operation in platform.chrono.hpp
+- `now_utc()`: Performs now_utc operation in platform.chrono.hpp
+- `now_local()`: Performs now_local operation in platform.chrono.hpp
 ### Przestrzenie nazw
 - `detail`
 - `literals`

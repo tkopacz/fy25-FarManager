@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `ThreadProc()`: Executes ThreadProc operation as part of core functionality
-- `EnsureThreadStarted()`: Executes EnsureThreadStarted operation as part of core functionality
-- `OpenPlugin()`: Opens resource and prepares it for access operations
-- `ShowMenu()`: Displays content or makes visual element visible on screen
-- `Stop()`: Executes Stop operation as part of core functionality
-- `Startup()`: Executes Startup operation as part of core functionality
-- `Cleanup()`: Executes Cleanup operation as part of core functionality
+- `ThreadProc()`: Performs ThreadProc operation in OleThread.cpp
+- `EnsureThreadStarted()`: В Build950 вызывает падение
+- `OpenPlugin()`: Checks a condition in OleThread.cpp and returns true or false based on the result
+- `ShowMenu()`: Performs ShowMenu operation in OleThread.cpp
+- `Stop()`: Performs Stop operation in OleThread.cpp
+- `Startup()`: Performs Startup operation in OleThread.cpp
+- `Cleanup()`: Performs Cleanup operation in OleThread.cpp
 ### Namespaces
 - `OleThread`
 - `OpenPluginArgs`
@@ -23,13 +23,13 @@ The `OleThread.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `ThreadProc()`: Wykonuje ThreadProc operację jako część podstawowa funkcjonalność
-- `EnsureThreadStarted()`: Wykonuje EnsureThreadStarted operację jako część podstawowa funkcjonalność
-- `OpenPlugin()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `ShowMenu()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `Stop()`: Wykonuje Stop operację jako część podstawowa funkcjonalność
-- `Startup()`: Wykonuje Startup operację jako część podstawowa funkcjonalność
-- `Cleanup()`: Wykonuje Cleanup operację jako część podstawowa funkcjonalność
+- `ThreadProc()`: Performs ThreadProc operation in OleThread.cpp
+- `EnsureThreadStarted()`: В Build950 вызывает падение
+- `OpenPlugin()`: Checks a condition in OleThread.cpp and returns true or false based on the result
+- `ShowMenu()`: Performs ShowMenu operation in OleThread.cpp
+- `Stop()`: Performs Stop operation in OleThread.cpp
+- `Startup()`: Performs Startup operation in OleThread.cpp
+- `Cleanup()`: Performs Cleanup operation in OleThread.cpp
 ### Przestrzenie nazw
 - `OleThread`
 - `OpenPluginArgs`

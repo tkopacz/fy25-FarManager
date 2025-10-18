@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GetMenuItemCodePage()`: Retrieves MenuItemCodePage from internal state or data structure
-- `GetListItemCodePage()`: Retrieves ListItemCodePage from internal state or data structure
-- `unicode_codepage_name()`: Executes unicode_codepage_name operation as part of core functionality
-- `str()`: Executes str operation as part of core functionality
-- `concat()`: Executes concat operation as part of core functionality
-- `DeleteFavorite()`: Removes Favorite from collection and frees associated resources
-- `FillCodePagesVMenu()`: Executes FillCodePagesVMenu operation as part of core functionality
-- `string()`: Executes string operation as part of core functionality
-- `character_name()`: Executes character_name operation as part of core functionality
+- `GetMenuItemCodePage()`: Стандартные элементы меню кодовых страниц
+- `GetListItemCodePage()`: show only viewer-supported codepages
+- `unicode_codepage_name()`: Performs unicode_codepage_name operation in codepage_selection.cpp
+- `str()`: Формируем строку для визуального представления таблицы символов
+- `concat()`: Формируем строку для визуального представления таблицы символов
+- `DeleteFavorite()`: Deletes or removes an item or resource in codepage_selection.cpp
+- `FillCodePagesVMenu()`: Устанавливаем позицию в меню
+- `string()`: Проверяем попадает или нет позиция в диапазон обыкновенных кодовых страниц (правильность работы для разделителей не гарантируется)
+- `character_name()`: Performs character_name operation in codepage_selection.cpp
 ### Summary
 The `codepage_selection.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `codepage_selection.cpp` file provides essential functionality for core func
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GetMenuItemCodePage()`: Pobiera MenuItemCodePage ze stanu wewnętrznego lub struktury danych
-- `GetListItemCodePage()`: Pobiera ListItemCodePage ze stanu wewnętrznego lub struktury danych
-- `unicode_codepage_name()`: Wykonuje unicode_codepage_name operację jako część podstawowa funkcjonalność
-- `str()`: Wykonuje str operację jako część podstawowa funkcjonalność
-- `concat()`: Wykonuje concat operację jako część podstawowa funkcjonalność
-- `DeleteFavorite()`: Usuwa Favorite z kolekcji i zwalnia powiązane zasoby
-- `FillCodePagesVMenu()`: Wykonuje FillCodePagesVMenu operację jako część podstawowa funkcjonalność
-- `string()`: Wykonuje string operację jako część podstawowa funkcjonalność
-- `character_name()`: Wykonuje character_name operację jako część podstawowa funkcjonalność
+- `GetMenuItemCodePage()`: Стандартные элементы меню кодовых страниц
+- `GetListItemCodePage()`: show only viewer-supported codepages
+- `unicode_codepage_name()`: Performs unicode_codepage_name operation in codepage_selection.cpp
+- `str()`: Формируем строку для визуального представления таблицы символов
+- `concat()`: Формируем строку для визуального представления таблицы символов
+- `DeleteFavorite()`: Deletes or removes an item or resource in codepage_selection.cpp
+- `FillCodePagesVMenu()`: Устанавливаем позицию в меню
+- `string()`: Проверяем попадает или нет позиция в диапазон обыкновенных кодовых страниц (правильность работы для разделителей не гарантируется)
+- `character_name()`: Performs character_name operation in codepage_selection.cpp
 ### Podsumowanie
 Plik `codepage_selection.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `SimpleString`: Implements string utilities
+- `SimpleString`: Performs SimpleString operation in SimpleString.hpp
 ### Key Functions
-- `Alloc()`: Executes Alloc operation as part of string utilities
-- `SimpleString()`: Executes SimpleString operation as part of string utilities
-- `Inflate()`: Executes Inflate operation as part of string utilities
-- `Len()`: Executes Len operation as part of string utilities
-- `SetLen()`: Updates Len in internal state or configuration
-- `Size()`: Executes Size operation as part of string utilities
-- `At()`: Executes At operation as part of string utilities
-- `IsEmpty()`: Tests whether Empty condition is true or property exists
-- `Format()`: Executes Format operation as part of string utilities
-- `Replace()`: Constructor that initializes Replace object with provided parameters
+- `Alloc()`: Performs Alloc operation in SimpleString.hpp
+- `SimpleString()`: Performs SimpleString operation in SimpleString.hpp
+- `Inflate()`: Performs Inflate operation in SimpleString.hpp
+- `Len()`: Performs Len operation in SimpleString.hpp
+- `SetLen()`: Sets or updates Len value in SimpleString.hpp
+- `Size()`: Performs Size operation in SimpleString.hpp
+- `At()`: Performs At operation in SimpleString.hpp
+- `IsEmpty()`: Checks a condition in SimpleString.hpp and returns the result
+- `Format()`: Performs Format operation in SimpleString.hpp
+- `Replace()`: _vsnwprintf не всегда ставит '\0' вконце.
 ### Summary
 The `SimpleString.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `SimpleString.hpp` file provides essential functionality for string utilitie
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `SimpleString`: Implementuje narzędzia łańcuchowe
+- `SimpleString`: Performs SimpleString operation in SimpleString.hpp
 ### Kluczowe Funkcje
-- `Alloc()`: Wykonuje Alloc operację jako część narzędzia łańcuchowe
-- `SimpleString()`: Wykonuje SimpleString operację jako część narzędzia łańcuchowe
-- `Inflate()`: Wykonuje Inflate operację jako część narzędzia łańcuchowe
-- `Len()`: Wykonuje Len operację jako część narzędzia łańcuchowe
-- `SetLen()`: Aktualizuje Len w stanie wewnętrznym lub konfiguracji
-- `Size()`: Wykonuje Size operację jako część narzędzia łańcuchowe
-- `At()`: Wykonuje At operację jako część narzędzia łańcuchowe
-- `IsEmpty()`: Testuje czy Empty warunek jest prawdziwy lub właściwość istnieje
-- `Format()`: Wykonuje Format operację jako część narzędzia łańcuchowe
-- `Replace()`: Konstruktor inicjalizujący Replace obiekt z dostarczonymi parametrami
+- `Alloc()`: Performs Alloc operation in SimpleString.hpp
+- `SimpleString()`: Performs SimpleString operation in SimpleString.hpp
+- `Inflate()`: Performs Inflate operation in SimpleString.hpp
+- `Len()`: Performs Len operation in SimpleString.hpp
+- `SetLen()`: Sets or updates Len value in SimpleString.hpp
+- `Size()`: Performs Size operation in SimpleString.hpp
+- `At()`: Performs At operation in SimpleString.hpp
+- `IsEmpty()`: Checks a condition in SimpleString.hpp and returns the result
+- `Format()`: Performs Format operation in SimpleString.hpp
+- `Replace()`: _vsnwprintf не всегда ставит '\0' вконце.
 ### Podsumowanie
 Plik `SimpleString.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,14 +4,14 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `succeeded()`: Executes succeeded operation as part of core functionality
-- `failed()`: Executes failed operation as part of core functionality
-- `is_string_type()`: Tests whether _string_type condition is true or property exists
-- `query_value()`: Executes query_value operation as part of core functionality
-- `enum_key()`: Executes enum_key operation as part of core functionality
-- `enum_value()`: Executes enum_value operation as part of core functionality
-- `exception()`: Executes exception operation as part of core functionality
-- `string()`: Executes string operation as part of core functionality
+- `succeeded()`: Performs succeeded operation in platform.reg.cpp
+- `failed()`: Performs failed operation in platform.reg.cpp
+- `is_string_type()`: Checks a condition in platform.reg.cpp and returns the result
+- `query_value()`: Performs query_value operation in platform.reg.cpp
+- `enum_key()`: Performs enum_key operation in platform.reg.cpp
+- `enum_value()`: Performs enum_value operation in platform.reg.cpp
+- `exception()`: Performs exception operation in platform.reg.cpp
+- `string()`: Validates a condition in platform.reg.cpp and throws an exception if the validation fails
 ### Namespaces
 - `os`
 ### Summary
@@ -24,14 +24,14 @@ The `platform.reg.cpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `succeeded()`: Wykonuje succeeded operację jako część podstawowa funkcjonalność
-- `failed()`: Wykonuje failed operację jako część podstawowa funkcjonalność
-- `is_string_type()`: Testuje czy _string_type warunek jest prawdziwy lub właściwość istnieje
-- `query_value()`: Wykonuje query_wartość operację jako część podstawowa funkcjonalność
-- `enum_key()`: Wykonuje enum_key operację jako część podstawowa funkcjonalność
-- `enum_value()`: Wykonuje enum_wartość operację jako część podstawowa funkcjonalność
-- `exception()`: Wykonuje exception operację jako część podstawowa funkcjonalność
-- `string()`: Wykonuje string operację jako część podstawowa funkcjonalność
+- `succeeded()`: Performs succeeded operation in platform.reg.cpp
+- `failed()`: Performs failed operation in platform.reg.cpp
+- `is_string_type()`: Checks a condition in platform.reg.cpp and returns the result
+- `query_value()`: Performs query_value operation in platform.reg.cpp
+- `enum_key()`: Performs enum_key operation in platform.reg.cpp
+- `enum_value()`: Performs enum_value operation in platform.reg.cpp
+- `exception()`: Performs exception operation in platform.reg.cpp
+- `string()`: Validates a condition in platform.reg.cpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

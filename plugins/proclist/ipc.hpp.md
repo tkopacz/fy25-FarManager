@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `DRIVE_LETTER_CURDIR`: Implements core functionality
-- `LDR_MODULE`: Implements core functionality
-- `LIST_ENTRY`: Implements core functionality
-- `PEB`: Implements core functionality
-- `PEB_LDR_DATA`: Implements core functionality
-- `PROCESS_BASIC_INFORMATION`: Implements core functionality
-- `PROCESS_PARAMETERS`: Implements core functionality
-- `UNICODE_STRING`: Implements core functionality
-- `bitness`: Implements core functionality
-- `ipc_t`: Implements core functionality
+- `DRIVE_LETTER_CURDIR`: Performs DRIVE_LETTER_CURDIR operation in ipc.hpp
+- `LDR_MODULE`: Performs LDR_MODULE operation in ipc.hpp
+- `LIST_ENTRY`: Performs LIST_ENTRY operation in ipc.hpp
+- `PEB`: Performs PEB operation in ipc.hpp
+- `PEB_LDR_DATA`: Performs PEB_LDR_DATA operation in ipc.hpp
+- `PROCESS_BASIC_INFORMATION`: Performs PROCESS_BASIC_INFORMATION operation in ipc.hpp
+- `PROCESS_PARAMETERS`: Performs PROCESS_PARAMETERS operation in ipc.hpp
+- `UNICODE_STRING`: Performs UNICODE_STRING operation in ipc.hpp
+- `bitness`: Performs bitness operation in ipc.hpp
+- `ipc_t`: Performs ipc_t operation in ipc.hpp
 ### Key Functions
-- `read_process_memory()`: Reads data from source into provided buffer
-- `constexpr()`: Executes constexpr operation as part of core functionality
-- `NT_SUCCESS()`: Executes NT_SUCCESS operation as part of core functionality
-- `read_string()`: Reads data from source into provided buffer
-- `query_information_process()`: Executes query_information_process operation as part of core functionality
-- `get_internal_process_data()`: Retrieves _internal_process_data from internal state or data structure
-- `find_terminator()`: Searches for _terminator in collection and returns position or reference
-- `get_open_process_data()`: Retrieves _open_process_data from internal state or data structure
-- `print_modules()`: Executes print_modules operation as part of core functionality
-- `get_bitness()`: Retrieves _bitness from internal state or data structure
+- `read_process_memory()`: Performs read_process_memory operation in ipc.hpp
+- `constexpr()`: Performs constexpr operation in ipc.hpp
+- `NT_SUCCESS()`: Performs NT_SUCCESS operation in ipc.hpp
+- `read_string()`: Performs read_string operation in ipc.hpp
+- `query_information_process()`: Performs query_information_process operation in ipc.hpp
+- `get_internal_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
+- `find_terminator()`: Checks a condition in ipc.hpp and returns true or false based on the result
+- `get_open_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
+- `print_modules()`: Performs print_modules operation in ipc.hpp
+- `get_bitness()`: Retrieves _bitness value in ipc.hpp
 ### Summary
 The `ipc.hpp` file provides essential functionality for core functionality. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -33,26 +33,26 @@ The `ipc.hpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `DRIVE_LETTER_CURDIR`: Implementuje podstawowa funkcjonalność
-- `LDR_MODULE`: Implementuje podstawowa funkcjonalność
-- `LIST_ENTRY`: Implementuje podstawowa funkcjonalność
-- `PEB`: Implementuje podstawowa funkcjonalność
-- `PEB_LDR_DATA`: Implementuje podstawowa funkcjonalność
-- `PROCESS_BASIC_INFORMATION`: Implementuje podstawowa funkcjonalność
-- `PROCESS_PARAMETERS`: Implementuje podstawowa funkcjonalność
-- `UNICODE_STRING`: Implementuje podstawowa funkcjonalność
-- `bitness`: Implementuje podstawowa funkcjonalność
-- `ipc_t`: Implementuje podstawowa funkcjonalność
+- `DRIVE_LETTER_CURDIR`: Performs DRIVE_LETTER_CURDIR operation in ipc.hpp
+- `LDR_MODULE`: Performs LDR_MODULE operation in ipc.hpp
+- `LIST_ENTRY`: Performs LIST_ENTRY operation in ipc.hpp
+- `PEB`: Performs PEB operation in ipc.hpp
+- `PEB_LDR_DATA`: Performs PEB_LDR_DATA operation in ipc.hpp
+- `PROCESS_BASIC_INFORMATION`: Performs PROCESS_BASIC_INFORMATION operation in ipc.hpp
+- `PROCESS_PARAMETERS`: Performs PROCESS_PARAMETERS operation in ipc.hpp
+- `UNICODE_STRING`: Performs UNICODE_STRING operation in ipc.hpp
+- `bitness`: Performs bitness operation in ipc.hpp
+- `ipc_t`: Performs ipc_t operation in ipc.hpp
 ### Kluczowe Funkcje
-- `read_process_memory()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `constexpr()`: Wykonuje constexpr operację jako część podstawowa funkcjonalność
-- `NT_SUCCESS()`: Wykonuje NT_SUCCESS operację jako część podstawowa funkcjonalność
-- `read_string()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `query_information_process()`: Wykonuje query_information_process operację jako część podstawowa funkcjonalność
-- `get_internal_process_data()`: Pobiera _internal_process_dane ze stanu wewnętrznego lub struktury danych
-- `find_terminator()`: Wyszukuje _terminator w kolekcji i zwraca pozycję lub referencję
-- `get_open_process_data()`: Pobiera _open_process_dane ze stanu wewnętrznego lub struktury danych
-- `print_modules()`: Wykonuje print_modules operację jako część podstawowa funkcjonalność
-- `get_bitness()`: Pobiera _bitness ze stanu wewnętrznego lub struktury danych
+- `read_process_memory()`: Performs read_process_memory operation in ipc.hpp
+- `constexpr()`: Performs constexpr operation in ipc.hpp
+- `NT_SUCCESS()`: Performs NT_SUCCESS operation in ipc.hpp
+- `read_string()`: Performs read_string operation in ipc.hpp
+- `query_information_process()`: Performs query_information_process operation in ipc.hpp
+- `get_internal_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
+- `find_terminator()`: Checks a condition in ipc.hpp and returns true or false based on the result
+- `get_open_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
+- `print_modules()`: Performs print_modules operation in ipc.hpp
+- `get_bitness()`: Retrieves _bitness value in ipc.hpp
 ### Podsumowanie
 Plik `ipc.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 11 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

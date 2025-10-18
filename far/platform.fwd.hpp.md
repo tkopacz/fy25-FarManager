@@ -4,8 +4,8 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `file`: Implements core functionality
-- `find_data`: Implements core functionality
+- `file`: Performs file operation in platform.fwd.hpp
+- `find_data`: Performs find_data operation in platform.fwd.hpp
 ### Namespaces
 - `fs`
 - `os`
@@ -19,8 +19,8 @@ The `platform.fwd.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `file`: Implementuje podstawowa funkcjonalność
-- `find_data`: Implementuje podstawowa funkcjonalność
+- `file`: Performs file operation in platform.fwd.hpp
+- `find_data`: Performs find_data operation in platform.fwd.hpp
 ### Przestrzenie nazw
 - `fs`
 - `os`

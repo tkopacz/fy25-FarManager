@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `append_arg`: Implements string utilities
-- `lvalue_string_view`: Implements string utilities
-- `string_comparer`: Implements string utilities
-- `string_copyref`: Implements string utilities
+- `append_arg`: Performs append_arg operation in string_utils.hpp
+- `lvalue_string_view`: Performs lvalue_string_view operation in string_utils.hpp
+- `string_comparer`: Performs string_comparer operation in string_utils.hpp
+- `string_copyref`: Performs string_copyref operation in string_utils.hpp
 ### Key Functions
-- `copy_string()`: Copies data from source to destination location
-- `null_terminated_t()`: Executes null_terminated_t operation as part of string utilities
-- `c_str()`: Constructor that initializes c_str object with provided parameters
-- `empty()`: Executes empty operation as part of string utilities
-- `append_impl()`: Executes append_impl operation as part of string utilities
-- `append()`: Executes append operation as part of string utilities
-- `concat()`: Executes concat operation as part of string utilities
-- `contains()`: Executes contains operation as part of string utilities
-- `constexpr()`: Executes constexpr operation as part of string utilities
-- `within()`: Executes within operation as part of string utilities
+- `copy_string()`: Performs copy_string operation in string_utils.hpp
+- `null_terminated_t()`: Helper class to safely pass string_view to low level C or platform API.
+- `c_str()`: Performs c_str operation in string_utils.hpp
+- `empty()`: Performs empty operation in string_utils.hpp
+- `append_impl()`: Performs append_impl operation in string_utils.hpp
+- `append()`: Don't "auto" it yet, ICE in VS2019
+- `concat()`: Don't "auto" it yet, ICE in VS2019
+- `contains()`: Performs contains operation in string_utils.hpp
+- `constexpr()`: Performs constexpr operation in string_utils.hpp
+- `within()`: Performs within operation in string_utils.hpp
 ### Namespaces
 - `copy`
 - `detail`
@@ -32,21 +32,21 @@ The `string_utils.hpp` file provides essential functionality for string utilitie
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `append_arg`: Implementuje narzędzia łańcuchowe
-- `lvalue_string_view`: Implementuje narzędzia łańcuchowe
-- `string_comparer`: Implementuje narzędzia łańcuchowe
-- `string_copyref`: Implementuje narzędzia łańcuchowe
+- `append_arg`: Performs append_arg operation in string_utils.hpp
+- `lvalue_string_view`: Performs lvalue_string_view operation in string_utils.hpp
+- `string_comparer`: Performs string_comparer operation in string_utils.hpp
+- `string_copyref`: Performs string_copyref operation in string_utils.hpp
 ### Kluczowe Funkcje
-- `copy_string()`: Kopiuje dane ze źródła do miejsca docelowego
-- `null_terminated_t()`: Wykonuje null_terminated_t operację jako część narzędzia łańcuchowe
-- `c_str()`: Konstruktor inicjalizujący c_str obiekt z dostarczonymi parametrami
-- `empty()`: Wykonuje empty operację jako część narzędzia łańcuchowe
-- `append_impl()`: Wykonuje append_impl operację jako część narzędzia łańcuchowe
-- `append()`: Wykonuje append operację jako część narzędzia łańcuchowe
-- `concat()`: Wykonuje concat operację jako część narzędzia łańcuchowe
-- `contains()`: Wykonuje contains operację jako część narzędzia łańcuchowe
-- `constexpr()`: Wykonuje constexpr operację jako część narzędzia łańcuchowe
-- `within()`: Wykonuje within operację jako część narzędzia łańcuchowe
+- `copy_string()`: Performs copy_string operation in string_utils.hpp
+- `null_terminated_t()`: Helper class to safely pass string_view to low level C or platform API.
+- `c_str()`: Performs c_str operation in string_utils.hpp
+- `empty()`: Performs empty operation in string_utils.hpp
+- `append_impl()`: Performs append_impl operation in string_utils.hpp
+- `append()`: Don't "auto" it yet, ICE in VS2019
+- `concat()`: Don't "auto" it yet, ICE in VS2019
+- `contains()`: Performs contains operation in string_utils.hpp
+- `constexpr()`: Performs constexpr operation in string_utils.hpp
+- `within()`: Performs within operation in string_utils.hpp
 ### Przestrzenie nazw
 - `copy`
 - `detail`

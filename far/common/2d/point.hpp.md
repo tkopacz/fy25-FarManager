@@ -4,7 +4,7 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `point`: Implements core functionality
+- `point`: Performs point operation in point.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -17,7 +17,7 @@ The `point.hpp` file provides essential functionality for core functionality. It
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `point`: Implementuje podstawowa funkcjonalność
+- `point`: Performs point operation in point.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

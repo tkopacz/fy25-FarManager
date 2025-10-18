@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ZipHeader`: Implements core functionality
+- `ZipHeader`: Iterates through elements in zipdetect.cpp and adds them to a collection
 ### Key Functions
-- `IsValidHeader()`: Tests whether ValidHeader condition is true or property exists
-- `IsZipHeader()`: Tests whether ZipHeader condition is true or property exists
+- `IsValidHeader()`: Iterates through elements in zipdetect.cpp and adds them to a collection
+- `IsZipHeader()`: Iterates through elements in zipdetect.cpp and adds them to a collection
 ### Summary
 The `zipdetect.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `zipdetect.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ZipHeader`: Implementuje podstawowa funkcjonalność
+- `ZipHeader`: Iterates through elements in zipdetect.cpp and adds them to a collection
 ### Kluczowe Funkcje
-- `IsValidHeader()`: Testuje czy ValidHeader warunek jest prawdziwy lub właściwość istnieje
-- `IsZipHeader()`: Testuje czy ZipHeader warunek jest prawdziwy lub właściwość istnieje
+- `IsValidHeader()`: Iterates through elements in zipdetect.cpp and adds them to a collection
+- `IsZipHeader()`: Iterates through elements in zipdetect.cpp and adds them to a collection
 ### Podsumowanie
 Plik `zipdetect.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

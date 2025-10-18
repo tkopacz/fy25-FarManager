@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AnsiSkippingString`: Implements singleton implementation
-- `Approx`: Implements singleton implementation
-- `Arg`: Implements singleton implementation
-- `Args`: Implements singleton implementation
-- `AssertionHandler`: Implements singleton implementation
-- `AssertionInfo`: Implements singleton implementation
-- `AssertionOrBenchmarkResult`: Implements singleton implementation
-- `AssertionReaction`: Implements singleton implementation
-- `AssertionResult`: Implements singleton implementation
-- `AssertionResultData`: Implements singleton implementation
+- `AnsiSkippingString`: perform 0xff replacement and calculate m_size
+- `Approx`: ! Creates a matcher that matches vectors that `comparator` as an element
+- `Arg`: Performs Arg operation in catch_amalgamated.hpp
+- `Args`: Performs Args operation in catch_amalgamated.hpp
+- `AssertionHandler`: Performs AssertionHandler operation in catch_amalgamated.hpp
+- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED
+- `AssertionOrBenchmarkResult`: ! Represents either an assertion or a benchmark result to be handled by cumulative reporter later
+- `AssertionReaction`: Performs AssertionReaction operation in catch_amalgamated.hpp
+- `AssertionResult`: CATCH_LAZY_EXPR_HPP_INCLUDED
+- `AssertionResultData`: Iterates through elements in catch_amalgamated.hpp and adds them to a collection
 ### Key Functions
-- `getCurrentMutableContext()`: Retrieves CurrentMutableContext from internal state or data structure
-- `getCurrentContext()`: Retrieves CurrentContext from internal state or data structure
-- `createContext()`: Creates and initializes new Context instance
-- `cleanUpContext()`: Executes cleanUpContext operation as part of singleton implementation
-- `getResultCapture()`: Retrieves ResultCapture from internal state or data structure
-- `getConfig()`: Retrieves Config from internal state or data structure
-- `setResultCapture()`: Updates ResultCapture in internal state or configuration
-- `setConfig()`: Updates Config in internal state or configuration
-- `sharedRng()`: Constructor that initializes sharedRng object with provided parameters
-- `throw_test_failure_exception()`: Executes throw_test_failure_exception operation as part of singleton implementation
+- `getCurrentMutableContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getCurrentContext()`: Retrieves CurrentContext value in catch_amalgamated.hpp
+- `createContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `cleanUpContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getResultCapture()`: Retrieves ResultCapture value in catch_amalgamated.hpp
+- `getConfig()`: Retrieves Config value in catch_amalgamated.hpp
+- `setResultCapture()`: Sets or updates ResultCapture value in catch_amalgamated.hpp
+- `setConfig()`: Sets or updates Config value in catch_amalgamated.hpp
+- `sharedRng()`: We duplicate the logic from `getCurrentMutableContext` here,
+- `throw_test_failure_exception()`: Performs throw_test_failure_exception operation in catch_amalgamated.hpp
 ### Namespaces
 - `Benchmark`
 - `Catch`
@@ -49,27 +49,27 @@ The `catch_amalgamated.hpp` file provides essential functionality for singleton 
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `AnsiSkippingString`: Implementuje implementacja singletona
-- `Approx`: Implementuje implementacja singletona
-- `Arg`: Implementuje implementacja singletona
-- `Args`: Implementuje implementacja singletona
-- `AssertionHandler`: Implementuje implementacja singletona
-- `AssertionInfo`: Implementuje implementacja singletona
-- `AssertionOrBenchmarkResult`: Implementuje implementacja singletona
-- `AssertionReaction`: Implementuje implementacja singletona
-- `AssertionResult`: Implementuje implementacja singletona
-- `AssertionResultData`: Implementuje implementacja singletona
+- `AnsiSkippingString`: perform 0xff replacement and calculate m_size
+- `Approx`: ! Creates a matcher that matches vectors that `comparator` as an element
+- `Arg`: Performs Arg operation in catch_amalgamated.hpp
+- `Args`: Performs Args operation in catch_amalgamated.hpp
+- `AssertionHandler`: Performs AssertionHandler operation in catch_amalgamated.hpp
+- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED
+- `AssertionOrBenchmarkResult`: ! Represents either an assertion or a benchmark result to be handled by cumulative reporter later
+- `AssertionReaction`: Performs AssertionReaction operation in catch_amalgamated.hpp
+- `AssertionResult`: CATCH_LAZY_EXPR_HPP_INCLUDED
+- `AssertionResultData`: Iterates through elements in catch_amalgamated.hpp and adds them to a collection
 ### Kluczowe Funkcje
-- `getCurrentMutableContext()`: Pobiera CurrentMutableContext ze stanu wewnętrznego lub struktury danych
-- `getCurrentContext()`: Pobiera CurrentContext ze stanu wewnętrznego lub struktury danych
-- `createContext()`: Tworzy i inicjalizuje nowy Context instancję
-- `cleanUpContext()`: Wykonuje cleanUpContext operację jako część implementacja singletona
-- `getResultCapture()`: Pobiera ResultCapture ze stanu wewnętrznego lub struktury danych
-- `getConfig()`: Pobiera Config ze stanu wewnętrznego lub struktury danych
-- `setResultCapture()`: Aktualizuje ResultCapture w stanie wewnętrznym lub konfiguracji
-- `setConfig()`: Aktualizuje Config w stanie wewnętrznym lub konfiguracji
-- `sharedRng()`: Konstruktor inicjalizujący sharedRng obiekt z dostarczonymi parametrami
-- `throw_test_failure_exception()`: Wykonuje throw_test_failure_exception operację jako część implementacja singletona
+- `getCurrentMutableContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getCurrentContext()`: Retrieves CurrentContext value in catch_amalgamated.hpp
+- `createContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `cleanUpContext()`: CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
+- `getResultCapture()`: Retrieves ResultCapture value in catch_amalgamated.hpp
+- `getConfig()`: Retrieves Config value in catch_amalgamated.hpp
+- `setResultCapture()`: Sets or updates ResultCapture value in catch_amalgamated.hpp
+- `setConfig()`: Sets or updates Config value in catch_amalgamated.hpp
+- `sharedRng()`: We duplicate the logic from `getCurrentMutableContext` here,
+- `throw_test_failure_exception()`: Performs throw_test_failure_exception operation in catch_amalgamated.hpp
 ### Przestrzenie nazw
 - `Benchmark`
 - `Catch`

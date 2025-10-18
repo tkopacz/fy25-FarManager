@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `base`: Implements core functionality
+- `base`: Performs base operation in utility.hpp
 ### Key Functions
-- `grow_exp()`: Executes grow_exp operation as part of core functionality
-- `reserve_exp()`: Executes reserve_exp operation as part of core functionality
-- `resize_exp()`: Changes size dimensions while preserving content when possible
-- `clear_and_shrink()`: Clears all data and resets to initial empty state
-- `node_swap()`: Executes node_swap operation as part of core functionality
-- `make_hash()`: Executes make_hash operation as part of core functionality
-- `hash_combine()`: Tests whether h_combine condition is true or property exists
-- `hash_combine_all()`: Tests whether h_combine_all condition is true or property exists
-- `hash_range()`: Tests whether h_range condition is true or property exists
-- `as_signed()`: Executes as_signed operation as part of core functionality
+- `grow_exp()`: Performs grow_exp operation in utility.hpp
+- `reserve_exp()`: reserve typically allocates exactly the requested amount instead of exponential growth.
+- `resize_exp()`: reserve typically allocates exactly the requested amount instead of exponential growth.
+- `clear_and_shrink()`: Performs clear_and_shrink operation in utility.hpp
+- `node_swap()`: Performs node_swap operation in utility.hpp
+- `make_hash()`: Performs make_hash operation in utility.hpp
+- `hash_combine()`: Checks a condition in utility.hpp and returns the result
+- `hash_combine_all()`: Checks a condition in utility.hpp and returns the result
+- `hash_range()`: Checks a condition in utility.hpp and returns the result
+- `as_signed()`: Performs as_signed operation in utility.hpp
 ### Namespaces
 - `detail`
 - `enum_helpers`
@@ -28,18 +28,18 @@ The `utility.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `base`: Implementuje podstawowa funkcjonalność
+- `base`: Performs base operation in utility.hpp
 ### Kluczowe Funkcje
-- `grow_exp()`: Wykonuje grow_exp operację jako część podstawowa funkcjonalność
-- `reserve_exp()`: Wykonuje reserve_exp operację jako część podstawowa funkcjonalność
-- `resize_exp()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `clear_and_shrink()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
-- `node_swap()`: Wykonuje node_swap operację jako część podstawowa funkcjonalność
-- `make_hash()`: Wykonuje make_hash operację jako część podstawowa funkcjonalność
-- `hash_combine()`: Testuje czy h_combine warunek jest prawdziwy lub właściwość istnieje
-- `hash_combine_all()`: Testuje czy h_combine_all warunek jest prawdziwy lub właściwość istnieje
-- `hash_range()`: Testuje czy h_range warunek jest prawdziwy lub właściwość istnieje
-- `as_signed()`: Wykonuje as_signed operację jako część podstawowa funkcjonalność
+- `grow_exp()`: Performs grow_exp operation in utility.hpp
+- `reserve_exp()`: reserve typically allocates exactly the requested amount instead of exponential growth.
+- `resize_exp()`: reserve typically allocates exactly the requested amount instead of exponential growth.
+- `clear_and_shrink()`: Performs clear_and_shrink operation in utility.hpp
+- `node_swap()`: Performs node_swap operation in utility.hpp
+- `make_hash()`: Performs make_hash operation in utility.hpp
+- `hash_combine()`: Checks a condition in utility.hpp and returns the result
+- `hash_combine_all()`: Checks a condition in utility.hpp and returns the result
+- `hash_range()`: Checks a condition in utility.hpp and returns the result
+- `as_signed()`: Performs as_signed operation in utility.hpp
 ### Przestrzenie nazw
 - `detail`
 - `enum_helpers`

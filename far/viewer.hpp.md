@@ -4,27 +4,27 @@
 This file implements functionality related to: Internal viewer
 Main functional areas: file viewing
 ### Key Classes
-- `Dialog`: Implements file viewing
-- `FileViewer`: Implements file viewing
-- `KeyBar`: Implements file viewing
-- `SearchDisposition`: Implements file viewing
-- `Viewer`: Implements file viewing
-- `ViewerContainer`: Implements file viewing
-- `ViewerString`: Implements file viewing
-- `ViewerUndoData`: Implements file viewing
-- `search_data`: Implements file viewing
-- `vgetc_cache`: Implements file viewing
+- `Dialog`: Performs Dialog operation in viewer.hpp
+- `FileViewer`: Performs FileViewer operation in viewer.hpp
+- `KeyBar`: Performs KeyBar operation in viewer.hpp
+- `SearchDisposition`: Performs SearchDisposition operation in viewer.hpp
+- `Viewer`: Performs Viewer operation in viewer.hpp
+- `ViewerContainer`: Performs ViewerContainer operation in viewer.hpp
+- `ViewerString`: Performs ViewerString operation in viewer.hpp
+- `ViewerUndoData`: Performs ViewerUndoData operation in viewer.hpp
+- `search_data`: Performs search_data operation in viewer.hpp
+- `vgetc_cache`: Performs vgetc_cache operation in viewer.hpp
 ### Key Functions
-- `Viewer()`: Executes Viewer operation as part of file viewing
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `OpenFile()`: Opens resource and prepares it for access operations
-- `SetViewKeyBar()`: Updates ViewKeyBar in internal state or configuration
-- `UpdateViewKeyBar()`: Updates existing data with new values while preserving structure
-- `SetStatusMode()`: Updates StatusMode in internal state or configuration
-- `EnableHideCursor()`: Executes EnableHideCursor operation as part of file viewing
-- `GetWrapMode()`: Retrieves WrapMode from internal state or data structure
+- `Viewer()`: Performs Viewer operation in viewer.hpp
+- `ProcessKey()`: Processes input data in viewer.hpp
+- `ProcessMouse()`: Processes input data in viewer.hpp
+- `VMProcess()`: Performs VMProcess operation in viewer.hpp
+- `OpenFile()`: Performs OpenFile operation in viewer.hpp
+- `SetViewKeyBar()`: Sets or updates ViewKeyBar value in viewer.hpp
+- `UpdateViewKeyBar()`: Updates existing data or state in viewer.hpp
+- `SetStatusMode()`: Sets or updates StatusMode value in viewer.hpp
+- `EnableHideCursor()`: Performs EnableHideCursor operation in viewer.hpp
+- `GetWrapMode()`: Retrieves WrapMode value in viewer.hpp
 ### Summary
 The `viewer.hpp` file provides essential functionality for file viewing. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `viewer.hpp` file provides essential functionality for file viewing. It defi
 Ten plik implementuje funkcjonalność związaną z: Internal viewer
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `Dialog`: Implementuje przeglądanie plików
-- `FileViewer`: Implementuje przeglądanie plików
-- `KeyBar`: Implementuje przeglądanie plików
-- `SearchDisposition`: Implementuje przeglądanie plików
-- `Viewer`: Implementuje przeglądanie plików
-- `ViewerContainer`: Implementuje przeglądanie plików
-- `ViewerString`: Implementuje przeglądanie plików
-- `ViewerUndoData`: Implementuje przeglądanie plików
-- `search_data`: Implementuje przeglądanie plików
-- `vgetc_cache`: Implementuje przeglądanie plików
+- `Dialog`: Performs Dialog operation in viewer.hpp
+- `FileViewer`: Performs FileViewer operation in viewer.hpp
+- `KeyBar`: Performs KeyBar operation in viewer.hpp
+- `SearchDisposition`: Performs SearchDisposition operation in viewer.hpp
+- `Viewer`: Performs Viewer operation in viewer.hpp
+- `ViewerContainer`: Performs ViewerContainer operation in viewer.hpp
+- `ViewerString`: Performs ViewerString operation in viewer.hpp
+- `ViewerUndoData`: Performs ViewerUndoData operation in viewer.hpp
+- `search_data`: Performs search_data operation in viewer.hpp
+- `vgetc_cache`: Performs vgetc_cache operation in viewer.hpp
 ### Kluczowe Funkcje
-- `Viewer()`: Wykonuje Viewer operację jako część przeglądanie plików
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `OpenFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `SetViewKeyBar()`: Aktualizuje ViewKeyBar w stanie wewnętrznym lub konfiguracji
-- `UpdateViewKeyBar()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `SetStatusMode()`: Aktualizuje StatusMode w stanie wewnętrznym lub konfiguracji
-- `EnableHideCursor()`: Wykonuje EnableHideCursor operację jako część przeglądanie plików
-- `GetWrapMode()`: Pobiera WrapMode ze stanu wewnętrznego lub struktury danych
+- `Viewer()`: Performs Viewer operation in viewer.hpp
+- `ProcessKey()`: Processes input data in viewer.hpp
+- `ProcessMouse()`: Processes input data in viewer.hpp
+- `VMProcess()`: Performs VMProcess operation in viewer.hpp
+- `OpenFile()`: Performs OpenFile operation in viewer.hpp
+- `SetViewKeyBar()`: Sets or updates ViewKeyBar value in viewer.hpp
+- `UpdateViewKeyBar()`: Updates existing data or state in viewer.hpp
+- `SetStatusMode()`: Sets or updates StatusMode value in viewer.hpp
+- `EnableHideCursor()`: Performs EnableHideCursor operation in viewer.hpp
+- `GetWrapMode()`: Retrieves WrapMode value in viewer.hpp
 ### Podsumowanie
 Plik `viewer.hpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

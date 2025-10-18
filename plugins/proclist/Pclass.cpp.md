@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `StrTok`: Implements core functionality
-- `custom_data`: Implements core functionality
-- `priority_mapping`: Implements core functionality
+- `StrTok`: Performs StrTok operation in Pclass.cpp
+- `custom_data`: Performs custom_data operation in Pclass.cpp
+- `priority_mapping`: Performs priority_mapping operation in Pclass.cpp
 ### Key Functions
-- `bool()`: Executes bool operation as part of core functionality
-- `ui64toa_width()`: Executes ui64toa_width operation as part of core functionality
-- `str()`: Executes str operation as part of core functionality
-- `PrintTitle()`: Executes PrintTitle operation as part of core functionality
-- `settings()`: Updates tings in internal state or configuration
-- `upper()`: Executes upper operation as part of core functionality
-- `TranslateMode()`: Executes TranslateMode operation as part of core functionality
-- `can_be_per_sec()`: Executes can_be_per_sec operation as part of core functionality
-- `generate_titles()`: Executes generate_titles operation as part of core functionality
-- `convert_panel_modes()`: Converts data from one format or type to another
+- `bool()`: Performs bool operation in Pclass.cpp
+- `ui64toa_width()`: Performs ui64toa_width operation in Pclass.cpp
+- `str()`: Performs str operation in Pclass.cpp
+- `PrintTitle()`: Performs PrintTitle operation in Pclass.cpp
+- `settings()`: Iterates through elements in Pclass.cpp and adds them to a collection
+- `upper()`: Performs upper operation in Pclass.cpp
+- `TranslateMode()`: Checks a condition in Pclass.cpp and returns true or false based on the result
+- `can_be_per_sec()`: Performs can_be_per_sec operation in Pclass.cpp
+- `generate_titles()`: Performs generate_titles operation in Pclass.cpp
+- `convert_panel_modes()`: Performs convert_panel_modes operation in Pclass.cpp
 ### Namespaces
 - `std`
 ### Summary
@@ -28,20 +28,20 @@ The `Pclass.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `StrTok`: Implementuje podstawowa funkcjonalność
-- `custom_data`: Implementuje podstawowa funkcjonalność
-- `priority_mapping`: Implementuje podstawowa funkcjonalność
+- `StrTok`: Performs StrTok operation in Pclass.cpp
+- `custom_data`: Performs custom_data operation in Pclass.cpp
+- `priority_mapping`: Performs priority_mapping operation in Pclass.cpp
 ### Kluczowe Funkcje
-- `bool()`: Wykonuje bool operację jako część podstawowa funkcjonalność
-- `ui64toa_width()`: Wykonuje ui64toa_width operację jako część podstawowa funkcjonalność
-- `str()`: Wykonuje str operację jako część podstawowa funkcjonalność
-- `PrintTitle()`: Wykonuje PrintTitle operację jako część podstawowa funkcjonalność
-- `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
-- `upper()`: Wykonuje upper operację jako część podstawowa funkcjonalność
-- `TranslateMode()`: Wykonuje TranslateMode operację jako część podstawowa funkcjonalność
-- `can_be_per_sec()`: Wykonuje can_be_per_sec operację jako część podstawowa funkcjonalność
-- `generate_titles()`: Wykonuje generate_titles operację jako część podstawowa funkcjonalność
-- `convert_panel_modes()`: Konwertuje dane z jednego formatu lub typu do innego
+- `bool()`: Performs bool operation in Pclass.cpp
+- `ui64toa_width()`: Performs ui64toa_width operation in Pclass.cpp
+- `str()`: Performs str operation in Pclass.cpp
+- `PrintTitle()`: Performs PrintTitle operation in Pclass.cpp
+- `settings()`: Iterates through elements in Pclass.cpp and adds them to a collection
+- `upper()`: Performs upper operation in Pclass.cpp
+- `TranslateMode()`: Checks a condition in Pclass.cpp and returns true or false based on the result
+- `can_be_per_sec()`: Performs can_be_per_sec operation in Pclass.cpp
+- `generate_titles()`: Performs generate_titles operation in Pclass.cpp
+- `convert_panel_modes()`: Performs convert_panel_modes operation in Pclass.cpp
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

@@ -4,10 +4,10 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `basic_streambuf_override`: Implements core functionality
+- `basic_streambuf_override`: Performs basic_streambuf_override operation in io.hpp
 ### Key Functions
-- `read()`: Reads data from source into provided buffer
-- `write()`: Writes data from buffer to destination
+- `read()`: Performs read operation in io.hpp
+- `write()`: Performs write operation in io.hpp
 ### Namespaces
 - `detail`
 - `io`
@@ -21,10 +21,10 @@ The `io.hpp` file provides essential functionality for core functionality. It de
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `basic_streambuf_override`: Implementuje podstawowa funkcjonalność
+- `basic_streambuf_override`: Performs basic_streambuf_override operation in io.hpp
 ### Kluczowe Funkcje
-- `read()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `write()`: Zapisuje dane z bufora do miejsca docelowego
+- `read()`: Performs read operation in io.hpp
+- `write()`: Performs write operation in io.hpp
 ### Przestrzenie nazw
 - `detail`
 - `io`

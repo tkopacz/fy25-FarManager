@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `tagMODULEENTRY32`: Implements core functionality
+- `tagMODULEENTRY32`: Performs tagMODULEENTRY32 operation in hwinmod.cpp
 ### Key Functions
-- `MAP_ABORT()`: Executes MAP_ABORT operation as part of core functionality
-- `QNT_ERROR()`: Executes QNT_ERROR operation as part of core functionality
-- `TH_ABORT()`: Executes TH_ABORT operation as part of core functionality
-- `QueryModules_NT()`: Executes QueryModules_NT operation as part of core functionality
-- `QueryModules_TH()`: Executes QueryModules_TH operation as part of core functionality
-- `HModuleInfo()`: Executes HModuleInfo operation as part of core functionality
-- `isTheSameBase()`: Tests whether TheSameBase condition is true or property exists
-- `isTheSameHMod()`: Tests whether TheSameHMod condition is true or property exists
-- `HModuleArray()`: Executes HModuleArray operation as part of core functionality
-- `Rescan()`: Executes Rescan operation as part of core functionality
+- `MAP_ABORT()`: #define ABORT( v ) HAbort v
+- `QNT_ERROR()`: #define ABORT( v ) HAbort v
+- `TH_ABORT()`: #define ABORT( v ) HAbort v
+- `QueryModules_NT()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
+- `QueryModules_TH()`: The hModule of this module in th32ProcessID's context
+- `HModuleInfo()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
+- `isTheSameBase()`: Checks a condition in hwinmod.cpp and returns the result
+- `isTheSameHMod()`: Checks a condition in hwinmod.cpp and returns the result
+- `HModuleArray()`: Performs HModuleArray operation in hwinmod.cpp
+- `Rescan()`: Performs Rescan operation in hwinmod.cpp
 ### Summary
 The `hwinmod.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `hwinmod.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `tagMODULEENTRY32`: Implementuje podstawowa funkcjonalność
+- `tagMODULEENTRY32`: Performs tagMODULEENTRY32 operation in hwinmod.cpp
 ### Kluczowe Funkcje
-- `MAP_ABORT()`: Wykonuje MAP_ABORT operację jako część podstawowa funkcjonalność
-- `QNT_ERROR()`: Wykonuje QNT_ERROR operację jako część podstawowa funkcjonalność
-- `TH_ABORT()`: Wykonuje TH_ABORT operację jako część podstawowa funkcjonalność
-- `QueryModules_NT()`: Wykonuje QueryModules_NT operację jako część podstawowa funkcjonalność
-- `QueryModules_TH()`: Wykonuje QueryModules_TH operację jako część podstawowa funkcjonalność
-- `HModuleInfo()`: Wykonuje HModuleInfo operację jako część podstawowa funkcjonalność
-- `isTheSameBase()`: Testuje czy TheSameBase warunek jest prawdziwy lub właściwość istnieje
-- `isTheSameHMod()`: Testuje czy TheSameHMod warunek jest prawdziwy lub właściwość istnieje
-- `HModuleArray()`: Wykonuje HModuleArray operację jako część podstawowa funkcjonalność
-- `Rescan()`: Wykonuje Rescan operację jako część podstawowa funkcjonalność
+- `MAP_ABORT()`: #define ABORT( v ) HAbort v
+- `QNT_ERROR()`: #define ABORT( v ) HAbort v
+- `TH_ABORT()`: #define ABORT( v ) HAbort v
+- `QueryModules_NT()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
+- `QueryModules_TH()`: The hModule of this module in th32ProcessID's context
+- `HModuleInfo()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
+- `isTheSameBase()`: Checks a condition in hwinmod.cpp and returns the result
+- `isTheSameHMod()`: Checks a condition in hwinmod.cpp and returns the result
+- `HModuleArray()`: Performs HModuleArray operation in hwinmod.cpp
+- `Rescan()`: Performs Rescan operation in hwinmod.cpp
 ### Podsumowanie
 Plik `hwinmod.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

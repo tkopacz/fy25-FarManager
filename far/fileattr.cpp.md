@@ -4,16 +4,16 @@
 This file implements functionality related to: Работа с атрибутами файлов
 Main functional areas: file system operations
 ### Key Functions
-- `Action()`: Executes Action operation as part of file system operations
-- `ESetFileAttributes()`: Executes ESetFileAttributes operation as part of file system operations
-- `set_file_compression()`: Updates _file_compression in internal state or configuration
-- `File()`: Executes File operation as part of file system operations
-- `ESetFileCompression()`: Executes ESetFileCompression operation as part of file system operations
-- `ESetFileEncryption()`: Executes ESetFileEncryption operation as part of file system operations
-- `ESetFileTime()`: Executes ESetFileTime operation as part of file system operations
-- `set_file_sparse()`: Updates _file_sparse in internal state or configuration
-- `ESetFileSparse()`: Executes ESetFileSparse operation as part of file system operations
-- `ESetFileOwner()`: Executes ESetFileOwner operation as part of file system operations
+- `Action()`: FILE_ATTRIBUTE_SYSTEM prevents encryption
+- `ESetFileAttributes()`: FILE_ATTRIBUTE_SYSTEM prevents encryption
+- `set_file_compression()`: Sets or updates _file_compression value in fileattr.cpp
+- `File()`: Performs File operation in fileattr.cpp
+- `ESetFileCompression()`: Performs ESetFileCompression operation in fileattr.cpp
+- `ESetFileEncryption()`: Performs ESetFileEncryption operation in fileattr.cpp
+- `ESetFileTime()`: Performs ESetFileTime operation in fileattr.cpp
+- `set_file_sparse()`: Sets or updates _file_sparse value in fileattr.cpp
+- `ESetFileSparse()`: Performs ESetFileSparse operation in fileattr.cpp
+- `ESetFileOwner()`: Performs ESetFileOwner operation in fileattr.cpp
 ### Summary
 The `fileattr.cpp` file provides essential functionality for file system operations. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `fileattr.cpp` file provides essential functionality for file system operati
 Ten plik implementuje funkcjonalność związaną z: Работа с атрибутами файлов
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `Action()`: Wykonuje Action operację jako część operacje systemu plików
-- `ESetFileAttributes()`: Wykonuje ESetFileAttributes operację jako część operacje systemu plików
-- `set_file_compression()`: Aktualizuje _file_compression w stanie wewnętrznym lub konfiguracji
-- `File()`: Wykonuje File operację jako część operacje systemu plików
-- `ESetFileCompression()`: Wykonuje ESetFileCompression operację jako część operacje systemu plików
-- `ESetFileEncryption()`: Wykonuje ESetFileEncryption operację jako część operacje systemu plików
-- `ESetFileTime()`: Wykonuje ESetFileTime operację jako część operacje systemu plików
-- `set_file_sparse()`: Aktualizuje _file_sparse w stanie wewnętrznym lub konfiguracji
-- `ESetFileSparse()`: Wykonuje ESetFileSparse operację jako część operacje systemu plików
-- `ESetFileOwner()`: Wykonuje ESetFileOwner operację jako część operacje systemu plików
+- `Action()`: FILE_ATTRIBUTE_SYSTEM prevents encryption
+- `ESetFileAttributes()`: FILE_ATTRIBUTE_SYSTEM prevents encryption
+- `set_file_compression()`: Sets or updates _file_compression value in fileattr.cpp
+- `File()`: Performs File operation in fileattr.cpp
+- `ESetFileCompression()`: Performs ESetFileCompression operation in fileattr.cpp
+- `ESetFileEncryption()`: Performs ESetFileEncryption operation in fileattr.cpp
+- `ESetFileTime()`: Performs ESetFileTime operation in fileattr.cpp
+- `set_file_sparse()`: Sets or updates _file_sparse value in fileattr.cpp
+- `ESetFileSparse()`: Performs ESetFileSparse operation in fileattr.cpp
+- `ESetFileOwner()`: Performs ESetFileOwner operation in fileattr.cpp
 ### Podsumowanie
 Plik `fileattr.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

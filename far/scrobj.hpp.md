@@ -4,21 +4,21 @@
 This file implements functionality related to: Parent class для всех screen objects
 Main functional areas: screen operations
 ### Key Classes
-- `SaveScreen`: Implements screen operations
-- `ScreenObject`: Implements screen operations
-- `ScreenObjectWithShadow`: Implements screen operations
-- `SimpleScreenObject`: Implements screen operations
+- `SaveScreen`: Performs SaveScreen operation in scrobj.hpp
+- `ScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
+- `ScreenObjectWithShadow`: Performs ScreenObjectWithShadow operation in scrobj.hpp
+- `SimpleScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
 ### Key Functions
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `Hide()`: Hides visual element from screen without destroying it
-- `Show()`: Displays content or makes visual element visible on screen
-- `ShowConsoleTitle()`: Displays content or makes visual element visible on screen
-- `SetPosition()`: Updates Position in internal state or configuration
-- `GetPosition()`: Retrieves Position from internal state or data structure
-- `SetScreenPosition()`: Updates ScreenPosition in internal state or configuration
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
-- `VMProcess()`: Processes virtual machine operations or commands
+- `ProcessKey()`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
+- `ProcessMouse()`: Processes input data in scrobj.hpp
+- `Hide()`: Performs Hide operation in scrobj.hpp
+- `Show()`: Performs Show operation in scrobj.hpp
+- `ShowConsoleTitle()`: Performs ShowConsoleTitle operation in scrobj.hpp
+- `SetPosition()`: Sets or updates Position value in scrobj.hpp
+- `GetPosition()`: Retrieves Position value in scrobj.hpp
+- `SetScreenPosition()`: Sets or updates ScreenPosition value in scrobj.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in scrobj.hpp
+- `VMProcess()`: Performs VMProcess operation in scrobj.hpp
 ### Summary
 The `scrobj.hpp` file provides essential functionality for screen operations. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -29,20 +29,20 @@ The `scrobj.hpp` file provides essential functionality for screen operations. It
 Ten plik implementuje funkcjonalność związaną z: Parent class для всех screen objects
 Główne obszary funkcjonalne: operacje ekranowe
 ### Kluczowe Klasy
-- `SaveScreen`: Implementuje operacje ekranowe
-- `ScreenObject`: Implementuje operacje ekranowe
-- `ScreenObjectWithShadow`: Implementuje operacje ekranowe
-- `SimpleScreenObject`: Implementuje operacje ekranowe
+- `SaveScreen`: Performs SaveScreen operation in scrobj.hpp
+- `ScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
+- `ScreenObjectWithShadow`: Performs ScreenObjectWithShadow operation in scrobj.hpp
+- `SimpleScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
 ### Kluczowe Funkcje
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `Hide()`: Ukrywa element wizualny z ekranu bez niszczenia go
-- `Show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `ShowConsoleTitle()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `SetPosition()`: Aktualizuje Position w stanie wewnętrznym lub konfiguracji
-- `GetPosition()`: Pobiera Position ze stanu wewnętrznego lub struktury danych
-- `SetScreenPosition()`: Aktualizuje ScreenPosition w stanie wewnętrznym lub konfiguracji
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
+- `ProcessKey()`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
+- `ProcessMouse()`: Processes input data in scrobj.hpp
+- `Hide()`: Performs Hide operation in scrobj.hpp
+- `Show()`: Performs Show operation in scrobj.hpp
+- `ShowConsoleTitle()`: Performs ShowConsoleTitle operation in scrobj.hpp
+- `SetPosition()`: Sets or updates Position value in scrobj.hpp
+- `GetPosition()`: Retrieves Position value in scrobj.hpp
+- `SetScreenPosition()`: Sets or updates ScreenPosition value in scrobj.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in scrobj.hpp
+- `VMProcess()`: Performs VMProcess operation in scrobj.hpp
 ### Podsumowanie
 Plik `scrobj.hpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,24 +3,24 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `Dialog`: Implements singleton implementation
-- `DialogBuilderListItem`: Implements singleton implementation
-- `F8CP`: Implements singleton implementation
-- `VMenu2`: Implements singleton implementation
-- `cp_info`: Implements singleton implementation
-- `lng`: Implements singleton implementation
-- `system_codepages_enumerator`: Implements singleton implementation
+- `Dialog`: Performs Dialog operation in codepage_selection.hpp
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in codepage_selection.hpp
+- `F8CP`: Performs F8CP operation in codepage_selection.hpp
+- `VMenu2`: Performs VMenu2 operation in codepage_selection.hpp
+- `cp_info`: Performs cp_info operation in codepage_selection.hpp
+- `lng`: Performs lng operation in codepage_selection.hpp
+- `system_codepages_enumerator`: Performs system_codepages_enumerator operation in codepage_selection.hpp
 ### Key Functions
-- `SelectCodePage()`: Executes SelectCodePage operation as part of singleton implementation
-- `FillCodePagesList()`: Executes FillCodePagesList operation as part of singleton implementation
-- `FormatName()`: Executes FormatName operation as part of singleton implementation
-- `UnsupportedDataMessageFull()`: Executes UnsupportedDataMessageFull operation as part of singleton implementation
-- `GetFavorite()`: Retrieves Favorite from internal state or data structure
-- `SetFavorite()`: Updates Favorite in internal state or configuration
-- `DeleteFavorite()`: Removes Favorite from collection and frees associated resources
-- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator from internal state or data structure
-- `GetCodePageCustomName()`: Retrieves CodePageCustomName from internal state or data structure
-- `GetMenuItemCodePage()`: Retrieves MenuItemCodePage from internal state or data structure
+- `SelectCodePage()`: Избранная таблица символов
+- `FillCodePagesList()`: Таблица символов участвующая в поиске по всем таблицам символов
+- `FormatName()`: Performs FormatName operation in codepage_selection.hpp
+- `UnsupportedDataMessageFull()`: Performs UnsupportedDataMessageFull operation in codepage_selection.hpp
+- `GetFavorite()`: Retrieves Favorite value in codepage_selection.hpp
+- `SetFavorite()`: Sets or updates Favorite value in codepage_selection.hpp
+- `DeleteFavorite()`: Deletes or removes an item or resource in codepage_selection.hpp
+- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator value in codepage_selection.hpp
+- `GetCodePageCustomName()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
+- `GetMenuItemCodePage()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
 ### Summary
 The `codepage_selection.hpp` file provides essential functionality for singleton implementation. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -30,23 +30,23 @@ The `codepage_selection.hpp` file provides essential functionality for singleton
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `Dialog`: Implementuje implementacja singletona
-- `DialogBuilderListItem`: Implementuje implementacja singletona
-- `F8CP`: Implementuje implementacja singletona
-- `VMenu2`: Implementuje implementacja singletona
-- `cp_info`: Implementuje implementacja singletona
-- `lng`: Implementuje implementacja singletona
-- `system_codepages_enumerator`: Implementuje implementacja singletona
+- `Dialog`: Performs Dialog operation in codepage_selection.hpp
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in codepage_selection.hpp
+- `F8CP`: Performs F8CP operation in codepage_selection.hpp
+- `VMenu2`: Performs VMenu2 operation in codepage_selection.hpp
+- `cp_info`: Performs cp_info operation in codepage_selection.hpp
+- `lng`: Performs lng operation in codepage_selection.hpp
+- `system_codepages_enumerator`: Performs system_codepages_enumerator operation in codepage_selection.hpp
 ### Kluczowe Funkcje
-- `SelectCodePage()`: Wykonuje SelectCodePage operację jako część implementacja singletona
-- `FillCodePagesList()`: Wykonuje FillCodePagesList operację jako część implementacja singletona
-- `FormatName()`: Wykonuje FormatName operację jako część implementacja singletona
-- `UnsupportedDataMessageFull()`: Wykonuje UnsupportedDataMessageFull operację jako część implementacja singletona
-- `GetFavorite()`: Pobiera Favorite ze stanu wewnętrznego lub struktury danych
-- `SetFavorite()`: Aktualizuje Favorite w stanie wewnętrznym lub konfiguracji
-- `DeleteFavorite()`: Usuwa Favorite z kolekcji i zwalnia powiązane zasoby
-- `GetFavoritesEnumerator()`: Pobiera FavoritesEnumerator ze stanu wewnętrznego lub struktury danych
-- `GetCodePageCustomName()`: Pobiera CodePageCustomName ze stanu wewnętrznego lub struktury danych
-- `GetMenuItemCodePage()`: Pobiera MenuItemCodePage ze stanu wewnętrznego lub struktury danych
+- `SelectCodePage()`: Избранная таблица символов
+- `FillCodePagesList()`: Таблица символов участвующая в поиске по всем таблицам символов
+- `FormatName()`: Performs FormatName operation in codepage_selection.hpp
+- `UnsupportedDataMessageFull()`: Performs UnsupportedDataMessageFull operation in codepage_selection.hpp
+- `GetFavorite()`: Retrieves Favorite value in codepage_selection.hpp
+- `SetFavorite()`: Sets or updates Favorite value in codepage_selection.hpp
+- `DeleteFavorite()`: Deletes or removes an item or resource in codepage_selection.hpp
+- `GetFavoritesEnumerator()`: Retrieves FavoritesEnumerator value in codepage_selection.hpp
+- `GetCodePageCustomName()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
+- `GetMenuItemCodePage()`: Iterates through elements in codepage_selection.hpp and adds them to a collection
 ### Podsumowanie
 Plik `codepage_selection.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

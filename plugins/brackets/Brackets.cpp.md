@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW from internal state or data structure
-- `SetStartupInfoW()`: Updates StartupInfoW in internal state or configuration
-- `settings()`: Updates tings in internal state or configuration
-- `GetPluginInfoW()`: Retrieves PluginInfoW from internal state or data structure
-- `Config()`: Executes Config operation as part of core functionality
-- `Builder()`: Executes Builder operation as part of core functionality
-- `ConfigureW()`: Executes ConfigureW operation as part of core functionality
-- `ShowMenu()`: Displays content or makes visual element visible on screen
-- `OpenW()`: Opens resource and prepares it for access operations
+- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in Brackets.cpp
+- `SetStartupInfoW()`: Sets or updates StartupInfoW value in Brackets.cpp
+- `settings()`: Sets or updates tings value in Brackets.cpp
+- `GetPluginInfoW()`: Retrieves PluginInfoW value in Brackets.cpp
+- `Config()`: Checks a condition in Brackets.cpp and returns true or false based on the result
+- `Builder()`: Performs Builder operation in Brackets.cpp
+- `ConfigureW()`: Checks a condition in Brackets.cpp and returns true or false based on the result
+- `ShowMenu()`: Checks a condition in Brackets.cpp and returns true or false based on the result
+- `OpenW()`: Performs OpenW operation in Brackets.cpp
 ### Summary
 The `Brackets.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `Brackets.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GetGlobalInfoW()`: Pobiera GlobalInfoW ze stanu wewnętrznego lub struktury danych
-- `SetStartupInfoW()`: Aktualizuje StartupInfoW w stanie wewnętrznym lub konfiguracji
-- `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
-- `GetPluginInfoW()`: Pobiera PluginInfoW ze stanu wewnętrznego lub struktury danych
-- `Config()`: Wykonuje Config operację jako część podstawowa funkcjonalność
-- `Builder()`: Wykonuje Builder operację jako część podstawowa funkcjonalność
-- `ConfigureW()`: Wykonuje ConfigureW operację jako część podstawowa funkcjonalność
-- `ShowMenu()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `OpenW()`: Otwiera zasób i przygotowuje go do operacji dostępu
+- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in Brackets.cpp
+- `SetStartupInfoW()`: Sets or updates StartupInfoW value in Brackets.cpp
+- `settings()`: Sets or updates tings value in Brackets.cpp
+- `GetPluginInfoW()`: Retrieves PluginInfoW value in Brackets.cpp
+- `Config()`: Checks a condition in Brackets.cpp and returns true or false based on the result
+- `Builder()`: Performs Builder operation in Brackets.cpp
+- `ConfigureW()`: Checks a condition in Brackets.cpp and returns true or false based on the result
+- `ShowMenu()`: Checks a condition in Brackets.cpp and returns true or false based on the result
+- `OpenW()`: Performs OpenW operation in Brackets.cpp
 ### Podsumowanie
 Plik `Brackets.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

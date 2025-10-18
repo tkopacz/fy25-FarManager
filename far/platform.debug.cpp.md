@@ -4,20 +4,20 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `free_deleter`: Implements core functionality
-- `package`: Implements core functionality
-- `symbol_storage`: Implements core functionality
+- `free_deleter`: Performs free_deleter operation in platform.debug.cpp
+- `package`: Performs package operation in platform.debug.cpp
+- `symbol_storage`: Performs symbol_storage operation in platform.debug.cpp
 ### Key Functions
-- `is_debugger_present()`: Tests whether _debugger_present condition is true or property exists
-- `breakpoint()`: Executes breakpoint operation as part of core functionality
-- `breakpoint_if_debugging()`: Executes breakpoint_if_debugging operation as part of core functionality
-- `print()`: Executes print operation as part of core functionality
-- `set_thread_name()`: Updates _thread_name in internal state or configuration
-- `get_thread_name()`: Retrieves _thread_name from internal state or data structure
-- `dummy_noncontinuable_exception()`: Executes dummy_noncontinuable_exception operation as part of core functionality
-- `dummy_current_exception_context()`: Executes dummy_current_exception_context operation as part of core functionality
-- `exception_information()`: Executes exception_information operation as part of core functionality
-- `fake_exception_information()`: Executes fake_exception_information operation as part of core functionality
+- `is_debugger_present()`: Checks a condition in platform.debug.cpp and returns the result
+- `breakpoint()`: Performs breakpoint operation in platform.debug.cpp
+- `breakpoint_if_debugging()`: Performs breakpoint_if_debugging operation in platform.debug.cpp
+- `print()`: Performs print operation in platform.debug.cpp
+- `set_thread_name()`: Sets or updates _thread_name value in platform.debug.cpp
+- `get_thread_name()`: Retrieves _thread_name value in platform.debug.cpp
+- `dummy_noncontinuable_exception()`: Performs dummy_noncontinuable_exception operation in platform.debug.cpp
+- `dummy_current_exception_context()`: Performs dummy_current_exception_context operation in platform.debug.cpp
+- `exception_information()`: Performs exception_information operation in platform.debug.cpp
+- `fake_exception_information()`: Performs fake_exception_information operation in platform.debug.cpp
 ### Namespaces
 - `os`
 ### Summary
@@ -30,20 +30,20 @@ The `platform.debug.cpp` file provides essential functionality for core function
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `free_deleter`: Implementuje podstawowa funkcjonalność
-- `package`: Implementuje podstawowa funkcjonalność
-- `symbol_storage`: Implementuje podstawowa funkcjonalność
+- `free_deleter`: Performs free_deleter operation in platform.debug.cpp
+- `package`: Performs package operation in platform.debug.cpp
+- `symbol_storage`: Performs symbol_storage operation in platform.debug.cpp
 ### Kluczowe Funkcje
-- `is_debugger_present()`: Testuje czy _debugger_present warunek jest prawdziwy lub właściwość istnieje
-- `breakpoint()`: Wykonuje breakpoint operację jako część podstawowa funkcjonalność
-- `breakpoint_if_debugging()`: Wykonuje breakpoint_if_debugging operację jako część podstawowa funkcjonalność
-- `print()`: Wykonuje print operację jako część podstawowa funkcjonalność
-- `set_thread_name()`: Aktualizuje _thread_name w stanie wewnętrznym lub konfiguracji
-- `get_thread_name()`: Pobiera _thread_name ze stanu wewnętrznego lub struktury danych
-- `dummy_noncontinuable_exception()`: Wykonuje dummy_noncontinuable_exception operację jako część podstawowa funkcjonalność
-- `dummy_current_exception_context()`: Wykonuje dummy_current_exception_context operację jako część podstawowa funkcjonalność
-- `exception_information()`: Wykonuje exception_information operację jako część podstawowa funkcjonalność
-- `fake_exception_information()`: Wykonuje fake_exception_information operację jako część podstawowa funkcjonalność
+- `is_debugger_present()`: Checks a condition in platform.debug.cpp and returns the result
+- `breakpoint()`: Performs breakpoint operation in platform.debug.cpp
+- `breakpoint_if_debugging()`: Performs breakpoint_if_debugging operation in platform.debug.cpp
+- `print()`: Performs print operation in platform.debug.cpp
+- `set_thread_name()`: Sets or updates _thread_name value in platform.debug.cpp
+- `get_thread_name()`: Retrieves _thread_name value in platform.debug.cpp
+- `dummy_noncontinuable_exception()`: Performs dummy_noncontinuable_exception operation in platform.debug.cpp
+- `dummy_current_exception_context()`: Performs dummy_current_exception_context operation in platform.debug.cpp
+- `exception_information()`: Performs exception_information operation in platform.debug.cpp
+- `fake_exception_information()`: Performs fake_exception_information operation in platform.debug.cpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

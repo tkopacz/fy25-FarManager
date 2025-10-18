@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: color management
 ### Key Classes
-- `axis`: Implements color management
-- `cube_data`: Implements color management
-- `rgb_context_t`: Implements color management
-- `shapes`: Implements color management
+- `axis`: Performs axis operation in color_picker_common.hpp
+- `cube_data`: Performs cube_data operation in color_picker_common.hpp
+- `rgb_context_t`: Performs rgb_context_t operation in color_picker_common.hpp
+- `shapes`: Performs shapes operation in color_picker_common.hpp
 ### Key Functions
-- `rotate_coord()`: Executes rotate_coord operation as part of color management
-- `rotate_cube()`: Executes rotate_cube operation as part of color management
-- `copy_row()`: Copies data from source to destination location
-- `copy_col()`: Copies data from source to destination location
-- `move_step()`: Moves data or object from current location to new location
-- `move_plane()`: Moves data or object from current location to new location
-- `slice_str()`: Executes slice_str operation as part of color management
-- `rotate()`: Executes rotate operation as part of color management
-- `Event()`: Executes Event operation as part of color management
-- `Timer()`: Executes Timer operation as part of color management
+- `rotate_coord()`: Performs rotate_coord operation in color_picker_common.hpp
+- `rotate_cube()`: Performs rotate_cube operation in color_picker_common.hpp
+- `copy_row()`: Performs copy_row operation in color_picker_common.hpp
+- `copy_col()`: Performs copy_col operation in color_picker_common.hpp
+- `move_step()`: Performs move_step operation in color_picker_common.hpp
+- `move_plane()`: Performs move_plane operation in color_picker_common.hpp
+- `slice_str()`: Performs slice_str operation in color_picker_common.hpp
+- `rotate()`: Performs rotate operation in color_picker_common.hpp
+- `Event()`: Undo the top plane and refill it step by step for a smooth transition effect
+- `Timer()`: Undo the top plane and refill it step by step for a smooth transition effect
 ### Namespaces
 - `color_picker_common`
 ### Summary
@@ -31,21 +31,21 @@ The `color_picker_common.hpp` file provides essential functionality for color ma
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `axis`: Implementuje zarządzanie kolorami
-- `cube_data`: Implementuje zarządzanie kolorami
-- `rgb_context_t`: Implementuje zarządzanie kolorami
-- `shapes`: Implementuje zarządzanie kolorami
+- `axis`: Performs axis operation in color_picker_common.hpp
+- `cube_data`: Performs cube_data operation in color_picker_common.hpp
+- `rgb_context_t`: Performs rgb_context_t operation in color_picker_common.hpp
+- `shapes`: Performs shapes operation in color_picker_common.hpp
 ### Kluczowe Funkcje
-- `rotate_coord()`: Wykonuje rotate_coord operację jako część zarządzanie kolorami
-- `rotate_cube()`: Wykonuje rotate_cube operację jako część zarządzanie kolorami
-- `copy_row()`: Kopiuje dane ze źródła do miejsca docelowego
-- `copy_col()`: Kopiuje dane ze źródła do miejsca docelowego
-- `move_step()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `move_plane()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `slice_str()`: Wykonuje slice_str operację jako część zarządzanie kolorami
-- `rotate()`: Wykonuje rotate operację jako część zarządzanie kolorami
-- `Event()`: Wykonuje Event operację jako część zarządzanie kolorami
-- `Timer()`: Wykonuje Timer operację jako część zarządzanie kolorami
+- `rotate_coord()`: Performs rotate_coord operation in color_picker_common.hpp
+- `rotate_cube()`: Performs rotate_cube operation in color_picker_common.hpp
+- `copy_row()`: Performs copy_row operation in color_picker_common.hpp
+- `copy_col()`: Performs copy_col operation in color_picker_common.hpp
+- `move_step()`: Performs move_step operation in color_picker_common.hpp
+- `move_plane()`: Performs move_plane operation in color_picker_common.hpp
+- `slice_str()`: Performs slice_str operation in color_picker_common.hpp
+- `rotate()`: Performs rotate operation in color_picker_common.hpp
+- `Event()`: Undo the top plane and refill it step by step for a smooth transition effect
+- `Timer()`: Undo the top plane and refill it step by step for a smooth transition effect
 ### Przestrzenie nazw
 - `color_picker_common`
 ### Podsumowanie

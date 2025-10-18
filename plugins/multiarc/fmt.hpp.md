@@ -4,18 +4,18 @@
 This file implements functionality related to: Archive Support API for FAR Manager 1.75 and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ArcInfo`: Implements core functionality
-- `ArcItemInfo`: Implements core functionality
+- `ArcInfo`: Performs ArcInfo operation in fmt.hpp
+- `ArcItemInfo`: Performs ArcItemInfo operation in fmt.hpp
 ### Key Functions
-- `LoadFormatModule()`: Loads data or resources from storage into memory
-- `SetFarInfo()`: Updates FarInfo in internal state or configuration
-- `IsArchive()`: Tests whether Archive condition is true or property exists
-- `GetSFXPos()`: Retrieves SFXPos from internal state or data structure
-- `OpenArchive()`: Opens resource and prepares it for access operations
-- `GetArcItem()`: Retrieves ArcItem from internal state or data structure
-- `CloseArchive()`: Closes resource and performs cleanup operations
-- `GetFormatName()`: Retrieves FormatName from internal state or data structure
-- `GetDefaultCommands()`: Retrieves DefaultCommands from internal state or data structure
+- `LoadFormatModule()`: Performs LoadFormatModule operation in fmt.hpp
+- `SetFarInfo()`: Sets or updates FarInfo value in fmt.hpp
+- `IsArchive()`: Checks a condition in fmt.hpp and returns the result
+- `GetSFXPos()`: Retrieves SFXPos value in fmt.hpp
+- `OpenArchive()`: Performs OpenArchive operation in fmt.hpp
+- `GetArcItem()`: Retrieves ArcItem value in fmt.hpp
+- `CloseArchive()`: Performs CloseArchive operation in fmt.hpp
+- `GetFormatName()`: Retrieves FormatName value in fmt.hpp
+- `GetDefaultCommands()`: Retrieves DefaultCommands value in fmt.hpp
 ### Summary
 The `fmt.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -26,17 +26,17 @@ The `fmt.hpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Archive Support API for FAR Manager 1.75 and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArcInfo`: Implementuje podstawowa funkcjonalność
-- `ArcItemInfo`: Implementuje podstawowa funkcjonalność
+- `ArcInfo`: Performs ArcInfo operation in fmt.hpp
+- `ArcItemInfo`: Performs ArcItemInfo operation in fmt.hpp
 ### Kluczowe Funkcje
-- `LoadFormatModule()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `SetFarInfo()`: Aktualizuje FarInfo w stanie wewnętrznym lub konfiguracji
-- `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
-- `GetSFXPos()`: Pobiera SFXPos ze stanu wewnętrznego lub struktury danych
-- `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `GetArcItem()`: Pobiera ArcItem ze stanu wewnętrznego lub struktury danych
-- `CloseArchive()`: Zamyka zasób i wykonuje operacje czyszczące
-- `GetFormatName()`: Pobiera FormatName ze stanu wewnętrznego lub struktury danych
-- `GetDefaultCommands()`: Pobiera DefaultCommands ze stanu wewnętrznego lub struktury danych
+- `LoadFormatModule()`: Performs LoadFormatModule operation in fmt.hpp
+- `SetFarInfo()`: Sets or updates FarInfo value in fmt.hpp
+- `IsArchive()`: Checks a condition in fmt.hpp and returns the result
+- `GetSFXPos()`: Retrieves SFXPos value in fmt.hpp
+- `OpenArchive()`: Performs OpenArchive operation in fmt.hpp
+- `GetArcItem()`: Retrieves ArcItem value in fmt.hpp
+- `CloseArchive()`: Performs CloseArchive operation in fmt.hpp
+- `GetFormatName()`: Retrieves FormatName value in fmt.hpp
+- `GetDefaultCommands()`: Retrieves DefaultCommands value in fmt.hpp
 ### Podsumowanie
 Plik `fmt.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,24 +4,24 @@
 This file implements functionality related to: Консольные функции ввода-вывода
 Main functional areas: singleton implementation
 ### Key Classes
-- `FAR_CHAR_INFO`: Implements singleton implementation
-- `FarColor`: Implements singleton implementation
-- `consoleicons`: Implements singleton implementation
-- `icon`: Implements singleton implementation
-- `line_type`: Implements singleton implementation
-- `lng`: Implements singleton implementation
-- `position_parser_state`: Implements singleton implementation
+- `FAR_CHAR_INFO`: Performs FAR_CHAR_INFO operation in interf.hpp
+- `FarColor`: Performs FarColor operation in interf.hpp
+- `consoleicons`: Performs consoleicons operation in interf.hpp
+- `icon`: Performs icon operation in interf.hpp
+- `line_type`: Performs line_type operation in interf.hpp
+- `lng`: Performs lng operation in interf.hpp
+- `position_parser_state`: Performs position_parser_state operation in interf.hpp
 ### Key Functions
-- `ShowTime()`: Displays content or makes visual element visible on screen
-- `InitConsole()`: Initializes data structures and sets up initial state for operation
-- `CloseConsole()`: Closes resource and performs cleanup operations
-- `SetFarConsoleMode()`: Updates FarConsoleMode in internal state or configuration
-- `ChangeConsoleMode()`: Executes ChangeConsoleMode operation as part of singleton implementation
-- `FlushInputBuffer()`: Executes FlushInputBuffer operation as part of singleton implementation
-- `SetVideoMode()`: Updates VideoMode in internal state or configuration
-- `ChangeVideoMode()`: Executes ChangeVideoMode operation as part of singleton implementation
-- `UpdateScreenSize()`: Updates existing data with new values while preserving structure
-- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Executes GenerateWINDOW_BUFFER_SIZE_EVENT operation as part of singleton implementation
+- `ShowTime()`: Performs ShowTime operation in interf.hpp
+- `InitConsole()`: Initializes data structures and prepares for operation in interf.hpp
+- `CloseConsole()`: Performs CloseConsole operation in interf.hpp
+- `SetFarConsoleMode()`: Sets or updates FarConsoleMode value in interf.hpp
+- `ChangeConsoleMode()`: Performs ChangeConsoleMode operation in interf.hpp
+- `FlushInputBuffer()`: Performs FlushInputBuffer operation in interf.hpp
+- `SetVideoMode()`: Sets or updates VideoMode value in interf.hpp
+- `ChangeVideoMode()`: Performs ChangeVideoMode operation in interf.hpp
+- `UpdateScreenSize()`: Updates existing data or state in interf.hpp
+- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Performs GenerateWINDOW_BUFFER_SIZE_EVENT operation in interf.hpp
 ### Namespaces
 - `inplace`
 ### Summary
@@ -34,24 +34,24 @@ The `interf.hpp` file provides essential functionality for singleton implementat
 Ten plik implementuje funkcjonalność związaną z: Консольные функции ввода-вывода
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `FAR_CHAR_INFO`: Implementuje implementacja singletona
-- `FarColor`: Implementuje implementacja singletona
-- `consoleicons`: Implementuje implementacja singletona
-- `icon`: Implementuje implementacja singletona
-- `line_type`: Implementuje implementacja singletona
-- `lng`: Implementuje implementacja singletona
-- `position_parser_state`: Implementuje implementacja singletona
+- `FAR_CHAR_INFO`: Performs FAR_CHAR_INFO operation in interf.hpp
+- `FarColor`: Performs FarColor operation in interf.hpp
+- `consoleicons`: Performs consoleicons operation in interf.hpp
+- `icon`: Performs icon operation in interf.hpp
+- `line_type`: Performs line_type operation in interf.hpp
+- `lng`: Performs lng operation in interf.hpp
+- `position_parser_state`: Performs position_parser_state operation in interf.hpp
 ### Kluczowe Funkcje
-- `ShowTime()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `InitConsole()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `CloseConsole()`: Zamyka zasób i wykonuje operacje czyszczące
-- `SetFarConsoleMode()`: Aktualizuje FarConsoleMode w stanie wewnętrznym lub konfiguracji
-- `ChangeConsoleMode()`: Wykonuje ChangeConsoleMode operację jako część implementacja singletona
-- `FlushInputBuffer()`: Wykonuje FlushInputBuffer operację jako część implementacja singletona
-- `SetVideoMode()`: Aktualizuje VideoMode w stanie wewnętrznym lub konfiguracji
-- `ChangeVideoMode()`: Wykonuje ChangeVideoMode operację jako część implementacja singletona
-- `UpdateScreenSize()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Wykonuje GenerateWINDOW_BUFFER_SIZE_EVENT operację jako część implementacja singletona
+- `ShowTime()`: Performs ShowTime operation in interf.hpp
+- `InitConsole()`: Initializes data structures and prepares for operation in interf.hpp
+- `CloseConsole()`: Performs CloseConsole operation in interf.hpp
+- `SetFarConsoleMode()`: Sets or updates FarConsoleMode value in interf.hpp
+- `ChangeConsoleMode()`: Performs ChangeConsoleMode operation in interf.hpp
+- `FlushInputBuffer()`: Performs FlushInputBuffer operation in interf.hpp
+- `SetVideoMode()`: Sets or updates VideoMode value in interf.hpp
+- `ChangeVideoMode()`: Performs ChangeVideoMode operation in interf.hpp
+- `UpdateScreenSize()`: Updates existing data or state in interf.hpp
+- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Performs GenerateWINDOW_BUFFER_SIZE_EVENT operation in interf.hpp
 ### Przestrzenie nazw
 - `inplace`
 ### Podsumowanie

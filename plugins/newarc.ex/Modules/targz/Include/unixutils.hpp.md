@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `dosdate_t`: Implements core functionality
-- `new_cpio_header`: Implements core functionality
-- `old_cpio_header`: Implements core functionality
-- `posix_header`: Implements core functionality
-- `time`: Implements core functionality
+- `dosdate_t`: Performs dosdate_t operation in unixutils.hpp
+- `new_cpio_header`: Performs new_cpio_header operation in unixutils.hpp
+- `old_cpio_header`: Performs old_cpio_header operation in unixutils.hpp
+- `posix_header`: Performs posix_header operation in unixutils.hpp
+- `time`: Performs time operation in unixutils.hpp
 ### Key Functions
-- `UnixToDos()`: Executes UnixToDos operation as part of core functionality
-- `GetOctal()`: Retrieves Octal from internal state or data structure
-- `GetHex()`: Retrieves Hex from internal state or data structure
-- `UnixTimeToFileTime()`: Executes UnixTimeToFileTime operation as part of core functionality
+- `UnixToDos()`: Long-aligned copy of `c_filesizes'.
+- `GetOctal()`: Retrieves Octal value in unixutils.hpp
+- `GetHex()`: Retrieves Hex value in unixutils.hpp
+- `UnixTimeToFileTime()`: Performs UnixTimeToFileTime operation in unixutils.hpp
 ### Summary
 The `unixutils.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `unixutils.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `dosdate_t`: Implementuje podstawowa funkcjonalność
-- `new_cpio_header`: Implementuje podstawowa funkcjonalność
-- `old_cpio_header`: Implementuje podstawowa funkcjonalność
-- `posix_header`: Implementuje podstawowa funkcjonalność
-- `time`: Implementuje podstawowa funkcjonalność
+- `dosdate_t`: Performs dosdate_t operation in unixutils.hpp
+- `new_cpio_header`: Performs new_cpio_header operation in unixutils.hpp
+- `old_cpio_header`: Performs old_cpio_header operation in unixutils.hpp
+- `posix_header`: Performs posix_header operation in unixutils.hpp
+- `time`: Performs time operation in unixutils.hpp
 ### Kluczowe Funkcje
-- `UnixToDos()`: Wykonuje UnixToDos operację jako część podstawowa funkcjonalność
-- `GetOctal()`: Pobiera Octal ze stanu wewnętrznego lub struktury danych
-- `GetHex()`: Pobiera Hex ze stanu wewnętrznego lub struktury danych
-- `UnixTimeToFileTime()`: Wykonuje UnixTimeToFileTime operację jako część podstawowa funkcjonalność
+- `UnixToDos()`: Long-aligned copy of `c_filesizes'.
+- `GetOctal()`: Retrieves Octal value in unixutils.hpp
+- `GetHex()`: Retrieves Hex value in unixutils.hpp
+- `UnixTimeToFileTime()`: Performs UnixTimeToFileTime operation in unixutils.hpp
 ### Podsumowanie
 Plik `unixutils.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

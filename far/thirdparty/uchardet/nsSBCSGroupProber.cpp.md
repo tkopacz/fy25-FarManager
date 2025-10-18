@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `nsHebrewProber()`: Executes nsHebrewProber operation as part of core functionality
-- `nsSingleByteCharSetProber()`: Executes nsSingleByteCharSetProber operation as part of core functionality
+- `nsHebrewProber()`: Performs nsHebrewProber operation in nsSBCSGroupProber.cpp
+- `nsSingleByteCharSetProber()`: Performs nsSingleByteCharSetProber operation in nsSBCSGroupProber.cpp
 ### Summary
 The `nsSBCSGroupProber.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `nsSBCSGroupProber.cpp` file provides essential functionality for core funct
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `nsHebrewProber()`: Wykonuje nsHebrewProber operację jako część podstawowa funkcjonalność
-- `nsSingleByteCharSetProber()`: Wykonuje nsSingleByteCharSetProber operację jako część podstawowa funkcjonalność
+- `nsHebrewProber()`: Performs nsHebrewProber operation in nsSBCSGroupProber.cpp
+- `nsSingleByteCharSetProber()`: Performs nsSingleByteCharSetProber operation in nsSBCSGroupProber.cpp
 ### Podsumowanie
 Plik `nsSBCSGroupProber.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

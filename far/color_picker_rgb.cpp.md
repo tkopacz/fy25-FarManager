@@ -4,18 +4,18 @@
 This file implements functionality related to: RGB colors extension to the standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_rgb_state`: Implements color management
+- `color_rgb_state`: Performs color_rgb_state operation in color_picker_rgb.cpp
 ### Key Functions
-- `pick_color_rgb_gui()`: Executes pick_color_rgb_gui operation as part of color management
-- `TrueColorToFarColor()`: Executes TrueColorToFarColor operation as part of color management
-- `TrueColorToFarColorDistinct()`: Executes TrueColorToFarColorDistinct operation as part of color management
-- `channel_value()`: Executes channel_value operation as part of color management
-- `as_rgb()`: Executes as_rgb operation as part of color management
-- `from_rgb()`: Executes from_rgb operation as part of color management
-- `GetColorDlgProc()`: Retrieves ColorDlgProc from internal state or data structure
-- `cube_rgb()`: Executes cube_rgb operation as part of color management
-- `match_rgb()`: Executes match_rgb operation as part of color management
-- `init_cube()`: Initializes data structures and sets up initial state for operation
+- `pick_color_rgb_gui()`: Checks a condition in color_picker_rgb.cpp and returns true or false based on the result
+- `TrueColorToFarColor()`: Performs TrueColorToFarColor operation in color_picker_rgb.cpp
+- `TrueColorToFarColorDistinct()`: Performs TrueColorToFarColorDistinct operation in color_picker_rgb.cpp
+- `channel_value()`: Performs channel_value operation in color_picker_rgb.cpp
+- `as_rgb()`: Performs as_rgb operation in color_picker_rgb.cpp
+- `from_rgb()`: Performs from_rgb operation in color_picker_rgb.cpp
+- `GetColorDlgProc()`: Retrieves ColorDlgProc value in color_picker_rgb.cpp
+- `cube_rgb()`: Performs cube_rgb operation in color_picker_rgb.cpp
+- `match_rgb()`: Performs match_rgb operation in color_picker_rgb.cpp
+- `init_cube()`: Initializes data structures and prepares for operation in color_picker_rgb.cpp
 ### Namespaces
 - `color_picker_common`
 ### Summary
@@ -28,18 +28,18 @@ The `color_picker_rgb.cpp` file provides essential functionality for color manag
 Ten plik implementuje funkcjonalność związaną z: RGB colors extension to the standard color picker
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_rgb_state`: Implementuje zarządzanie kolorami
+- `color_rgb_state`: Performs color_rgb_state operation in color_picker_rgb.cpp
 ### Kluczowe Funkcje
-- `pick_color_rgb_gui()`: Wykonuje pick_color_rgb_gui operację jako część zarządzanie kolorami
-- `TrueColorToFarColor()`: Wykonuje TrueColorToFarColor operację jako część zarządzanie kolorami
-- `TrueColorToFarColorDistinct()`: Wykonuje TrueColorToFarColorDistinct operację jako część zarządzanie kolorami
-- `channel_value()`: Wykonuje channel_wartość operację jako część zarządzanie kolorami
-- `as_rgb()`: Wykonuje as_rgb operację jako część zarządzanie kolorami
-- `from_rgb()`: Wykonuje from_rgb operację jako część zarządzanie kolorami
-- `GetColorDlgProc()`: Pobiera ColorDlgProc ze stanu wewnętrznego lub struktury danych
-- `cube_rgb()`: Wykonuje cube_rgb operację jako część zarządzanie kolorami
-- `match_rgb()`: Wykonuje match_rgb operację jako część zarządzanie kolorami
-- `init_cube()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `pick_color_rgb_gui()`: Checks a condition in color_picker_rgb.cpp and returns true or false based on the result
+- `TrueColorToFarColor()`: Performs TrueColorToFarColor operation in color_picker_rgb.cpp
+- `TrueColorToFarColorDistinct()`: Performs TrueColorToFarColorDistinct operation in color_picker_rgb.cpp
+- `channel_value()`: Performs channel_value operation in color_picker_rgb.cpp
+- `as_rgb()`: Performs as_rgb operation in color_picker_rgb.cpp
+- `from_rgb()`: Performs from_rgb operation in color_picker_rgb.cpp
+- `GetColorDlgProc()`: Retrieves ColorDlgProc value in color_picker_rgb.cpp
+- `cube_rgb()`: Performs cube_rgb operation in color_picker_rgb.cpp
+- `match_rgb()`: Performs match_rgb operation in color_picker_rgb.cpp
+- `init_cube()`: Initializes data structures and prepares for operation in color_picker_rgb.cpp
 ### Przestrzenie nazw
 - `color_picker_common`
 ### Podsumowanie

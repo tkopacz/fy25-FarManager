@@ -4,27 +4,27 @@
 This file implements functionality related to: Динамическое конструирование диалогов
 Main functional areas: dialog handling
 ### Key Classes
-- `CheckBoxBinding`: Implements dialog handling
-- `ComboBoxBinding`: Implements dialog handling
-- `DialogAPIBinding`: Implements dialog handling
-- `DialogBuilderBase`: Implements dialog handling
-- `DialogBuilderListItem`: Implements dialog handling
-- `DialogItemBinding`: Implements dialog handling
-- `PluginCheckBoxBinding`: Implements dialog handling
-- `PluginDialogBuilder`: Implements dialog handling
-- `PluginEditFieldBinding`: Implements dialog handling
-- `PluginIntEditFieldBinding`: Implements dialog handling
+- `CheckBoxBinding`: Performs CheckBoxBinding operation in DlgBuilder.hpp
+- `ComboBoxBinding`: Performs ComboBoxBinding operation in DlgBuilder.hpp
+- `DialogAPIBinding`: Checks a condition in DlgBuilder.hpp and returns true or false based on the result
+- `DialogBuilderBase`: Performs DialogBuilderBase operation in DlgBuilder.hpp
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in DlgBuilder.hpp
+- `DialogItemBinding`: Элемент выпадающего списка в диалоге.
+- `PluginCheckBoxBinding`: Checks a condition in DlgBuilder.hpp and returns true or false based on the result
+- `PluginDialogBuilder`: Performs PluginDialogBuilder operation in DlgBuilder.hpp
+- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation in DlgBuilder.hpp
+- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation in DlgBuilder.hpp
 ### Key Functions
-- `SaveValue()`: Saves current state or data to persistent storage
-- `ReallocDialogItems()`: Executes ReallocDialogItems operation as part of dialog handling
-- `SetNextY()`: Updates NextY in internal state or configuration
-- `ItemWidth()`: Executes ItemWidth operation as part of dialog handling
-- `TextWidth()`: Executes TextWidth operation as part of dialog handling
-- `AddBorder()`: Adds new Border to collection or list
-- `UpdateBorderSize()`: Updates existing data with new values while preserving structure
-- `MaxTextWidth()`: Executes MaxTextWidth operation as part of dialog handling
-- `UpdateSecondColumnPosition()`: Updates existing data with new values while preserving structure
-- `InitDialogItem()`: Initializes data structures and sets up initial state for operation
+- `SaveValue()`: Элемент выпадающего списка в диалоге.
+- `ReallocDialogItems()`: Performs ReallocDialogItems operation in DlgBuilder.hpp
+- `SetNextY()`: Sets or updates NextY value in DlgBuilder.hpp
+- `ItemWidth()`: Performs ItemWidth operation in DlgBuilder.hpp
+- `TextWidth()`: Performs TextWidth operation in DlgBuilder.hpp
+- `AddBorder()`: стрелка history занимает дополнительное место, но раньше она рисовалась поверх рамки
+- `UpdateBorderSize()`: стрелка history занимает дополнительное место, но раньше она рисовалась поверх рамки
+- `MaxTextWidth()`: Performs MaxTextWidth operation in DlgBuilder.hpp
+- `UpdateSecondColumnPosition()`: Updates existing data or state in DlgBuilder.hpp
+- `InitDialogItem()`: Initializes data structures and prepares for operation in DlgBuilder.hpp
 ### Summary
 The `DlgBuilder.hpp` file provides essential functionality for dialog handling. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `DlgBuilder.hpp` file provides essential functionality for dialog handling. 
 Ten plik implementuje funkcjonalność związaną z: Динамическое конструирование диалогов
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `CheckBoxBinding`: Implementuje obsługa dialogów
-- `ComboBoxBinding`: Implementuje obsługa dialogów
-- `DialogAPIBinding`: Implementuje obsługa dialogów
-- `DialogBuilderBase`: Implementuje obsługa dialogów
-- `DialogBuilderListItem`: Implementuje obsługa dialogów
-- `DialogItemBinding`: Implementuje obsługa dialogów
-- `PluginCheckBoxBinding`: Implementuje obsługa dialogów
-- `PluginDialogBuilder`: Implementuje obsługa dialogów
-- `PluginEditFieldBinding`: Implementuje obsługa dialogów
-- `PluginIntEditFieldBinding`: Implementuje obsługa dialogów
+- `CheckBoxBinding`: Performs CheckBoxBinding operation in DlgBuilder.hpp
+- `ComboBoxBinding`: Performs ComboBoxBinding operation in DlgBuilder.hpp
+- `DialogAPIBinding`: Checks a condition in DlgBuilder.hpp and returns true or false based on the result
+- `DialogBuilderBase`: Performs DialogBuilderBase operation in DlgBuilder.hpp
+- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in DlgBuilder.hpp
+- `DialogItemBinding`: Элемент выпадающего списка в диалоге.
+- `PluginCheckBoxBinding`: Checks a condition in DlgBuilder.hpp and returns true or false based on the result
+- `PluginDialogBuilder`: Performs PluginDialogBuilder operation in DlgBuilder.hpp
+- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation in DlgBuilder.hpp
+- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation in DlgBuilder.hpp
 ### Kluczowe Funkcje
-- `SaveValue()`: Zapisuje bieżący stan lub dane do trwałego magazynu
-- `ReallocDialogItems()`: Wykonuje ReallocDialogItems operację jako część obsługa dialogów
-- `SetNextY()`: Aktualizuje NextY w stanie wewnętrznym lub konfiguracji
-- `ItemWidth()`: Wykonuje ItemWidth operację jako część obsługa dialogów
-- `TextWidth()`: Wykonuje TextWidth operację jako część obsługa dialogów
-- `AddBorder()`: Dodaje nowy Border do kolekcji lub listy
-- `UpdateBorderSize()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `MaxTextWidth()`: Wykonuje MaxTextWidth operację jako część obsługa dialogów
-- `UpdateSecondColumnPosition()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `InitDialogItem()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `SaveValue()`: Элемент выпадающего списка в диалоге.
+- `ReallocDialogItems()`: Performs ReallocDialogItems operation in DlgBuilder.hpp
+- `SetNextY()`: Sets or updates NextY value in DlgBuilder.hpp
+- `ItemWidth()`: Performs ItemWidth operation in DlgBuilder.hpp
+- `TextWidth()`: Performs TextWidth operation in DlgBuilder.hpp
+- `AddBorder()`: стрелка history занимает дополнительное место, но раньше она рисовалась поверх рамки
+- `UpdateBorderSize()`: стрелка history занимает дополнительное место, но раньше она рисовалась поверх рамки
+- `MaxTextWidth()`: Performs MaxTextWidth operation in DlgBuilder.hpp
+- `UpdateSecondColumnPosition()`: Updates existing data or state in DlgBuilder.hpp
+- `InitDialogItem()`: Initializes data structures and prepares for operation in DlgBuilder.hpp
 ### Podsumowanie
 Plik `DlgBuilder.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

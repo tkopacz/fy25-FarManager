@@ -4,20 +4,20 @@
 This file implements functionality related to: Горизонтальное меню
 Main functional areas: menu management
 ### Key Classes
-- `HMenuData`: Implements menu management
-- `VMenu2`: Implements menu management
-- `private_tag`: Implements menu management
+- `HMenuData`: Performs HMenuData operation in hmenu.hpp
+- `VMenu2`: Performs VMenu2 operation in hmenu.hpp
+- `private_tag`: Performs private_tag operation in hmenu.hpp
 ### Key Functions
-- `create()`: Creates and initializes new object instance
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
-- `GetType()`: Retrieves Type from internal state or data structure
-- `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `GetExitCode()`: Retrieves ExitCode from internal state or data structure
-- `init()`: Initializes data structures and sets up initial state for operation
-- `DisplayObject()`: Displays content or makes visual element visible on screen
+- `create()`: Creates and initializes a new object or resource in hmenu.hpp
+- `ProcessKey()`: Processes input data in hmenu.hpp
+- `ProcessMouse()`: Processes input data in hmenu.hpp
+- `VMProcess()`: Performs VMProcess operation in hmenu.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in hmenu.hpp
+- `GetType()`: Retrieves Type value in hmenu.hpp
+- `GetTypeAndName()`: Retrieves TypeAndName value in hmenu.hpp
+- `GetExitCode()`: Retrieves ExitCode value in hmenu.hpp
+- `init()`: Initializes data structures and prepares for operation in hmenu.hpp
+- `DisplayObject()`: Performs DisplayObject operation in hmenu.hpp
 ### Summary
 The `hmenu.hpp` file provides essential functionality for menu management. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `hmenu.hpp` file provides essential functionality for menu management. It de
 Ten plik implementuje funkcjonalność związaną z: Горизонтальное меню
 Główne obszary funkcjonalne: zarządzanie menu
 ### Kluczowe Klasy
-- `HMenuData`: Implementuje zarządzanie menu
-- `VMenu2`: Implementuje zarządzanie menu
-- `private_tag`: Implementuje zarządzanie menu
+- `HMenuData`: Performs HMenuData operation in hmenu.hpp
+- `VMenu2`: Performs VMenu2 operation in hmenu.hpp
+- `private_tag`: Performs private_tag operation in hmenu.hpp
 ### Kluczowe Funkcje
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `GetType()`: Pobiera Type ze stanu wewnętrznego lub struktury danych
-- `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
-- `GetExitCode()`: Pobiera ExitCode ze stanu wewnętrznego lub struktury danych
-- `init()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
+- `create()`: Creates and initializes a new object or resource in hmenu.hpp
+- `ProcessKey()`: Processes input data in hmenu.hpp
+- `ProcessMouse()`: Processes input data in hmenu.hpp
+- `VMProcess()`: Performs VMProcess operation in hmenu.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in hmenu.hpp
+- `GetType()`: Retrieves Type value in hmenu.hpp
+- `GetTypeAndName()`: Retrieves TypeAndName value in hmenu.hpp
+- `GetExitCode()`: Retrieves ExitCode value in hmenu.hpp
+- `init()`: Initializes data structures and prepares for operation in hmenu.hpp
+- `DisplayObject()`: Performs DisplayObject operation in hmenu.hpp
 ### Podsumowanie
 Plik `hmenu.hpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

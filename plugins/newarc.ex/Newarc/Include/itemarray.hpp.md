@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveItemArray`: Implements core functionality
-- `ArchivePItemArray`: Implements core functionality
+- `ArchiveItemArray`: Performs ArchiveItemArray operation in itemarray.hpp
+- `ArchivePItemArray`: Performs ArchivePItemArray operation in itemarray.hpp
 ### Summary
 The `itemarray.hpp` file provides essential functionality for core functionality. It defines 2 class(es) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `itemarray.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveItemArray`: Implementuje podstawowa funkcjonalność
-- `ArchivePItemArray`: Implementuje podstawowa funkcjonalność
+- `ArchiveItemArray`: Performs ArchiveItemArray operation in itemarray.hpp
+- `ArchivePItemArray`: Performs ArchivePItemArray operation in itemarray.hpp
 ### Podsumowanie
 Plik `itemarray.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.

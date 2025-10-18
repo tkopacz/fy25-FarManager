@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `engine`: Implements core functionality
-- `level`: Implements core functionality
-- `suppressor`: Implements core functionality
+- `engine`: Performs engine operation in log.hpp
+- `level`: Performs level operation in log.hpp
+- `suppressor`: Performs suppressor operation in log.hpp
 ### Key Functions
-- `filter()`: Executes filter operation as part of core functionality
-- `show()`: Displays content or makes visual element visible on screen
-- `configure()`: Executes configure operation as part of core functionality
-- `is_log_argument()`: Tests whether _log_argument condition is true or property exists
-- `main()`: Executes main operation as part of core functionality
+- `filter()`: Performs filter operation in log.hpp
+- `show()`: Performs show operation in log.hpp
+- `configure()`: Performs configure operation in log.hpp
+- `is_log_argument()`: Checks a condition in log.hpp and returns the result
+- `main()`: Main entry point in log.hpp that starts program execution
 ### Namespaces
 - `detail`
 - `logging`
@@ -24,15 +24,15 @@ The `log.hpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `engine`: Implementuje podstawowa funkcjonalność
-- `level`: Implementuje podstawowa funkcjonalność
-- `suppressor`: Implementuje podstawowa funkcjonalność
+- `engine`: Performs engine operation in log.hpp
+- `level`: Performs level operation in log.hpp
+- `suppressor`: Performs suppressor operation in log.hpp
 ### Kluczowe Funkcje
-- `filter()`: Wykonuje filter operację jako część podstawowa funkcjonalność
-- `show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `configure()`: Wykonuje configure operację jako część podstawowa funkcjonalność
-- `is_log_argument()`: Testuje czy _log_argument warunek jest prawdziwy lub właściwość istnieje
-- `main()`: Wykonuje main operację jako część podstawowa funkcjonalność
+- `filter()`: Performs filter operation in log.hpp
+- `show()`: Performs show operation in log.hpp
+- `configure()`: Performs configure operation in log.hpp
+- `is_log_argument()`: Checks a condition in log.hpp and returns the result
+- `main()`: Main entry point in log.hpp that starts program execution
 ### Przestrzenie nazw
 - `detail`
 - `logging`

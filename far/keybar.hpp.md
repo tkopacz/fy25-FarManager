@@ -4,20 +4,20 @@
 This file implements functionality related to: Keybar
 Main functional areas: core functionality
 ### Key Classes
-- `KeyBarTitles`: Implements core functionality
-- `keybar_area`: Implements core functionality
-- `lng`: Implements core functionality
+- `KeyBarTitles`: Performs KeyBarTitles operation in keybar.hpp
+- `keybar_area`: Performs keybar_area operation in keybar.hpp
+- `lng`: Performs lng operation in keybar.hpp
 ### Key Functions
-- `KeyBar()`: Executes KeyBar operation as part of core functionality
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `SetLabels()`: Updates Labels in internal state or configuration
-- `SetCustomLabels()`: Updates CustomLabels in internal state or configuration
-- `keybar_area()`: Executes keybar_area operation as part of core functionality
-- `Change()`: Executes Change operation as part of core functionality
-- `RedrawIfChanged()`: Executes RedrawIfChanged operation as part of core functionality
-- `DisplayObject()`: Displays content or makes visual element visible on screen
-- `ClearKeyTitles()`: Clears all data and resets to initial empty state
+- `KeyBar()`: Performs KeyBar operation in keybar.hpp
+- `ProcessKey()`: порядок соответствует .lng файлу
+- `ProcessMouse()`: Processes input data in keybar.hpp
+- `SetLabels()`: Sets or updates Labels value in keybar.hpp
+- `SetCustomLabels()`: Sets or updates CustomLabels value in keybar.hpp
+- `keybar_area()`: Performs keybar_area operation in keybar.hpp
+- `Change()`: Performs Change operation in keybar.hpp
+- `RedrawIfChanged()`: Performs RedrawIfChanged operation in keybar.hpp
+- `DisplayObject()`: Performs DisplayObject operation in keybar.hpp
+- `ClearKeyTitles()`: Performs ClearKeyTitles operation in keybar.hpp
 ### Summary
 The `keybar.hpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `keybar.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: Keybar
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `KeyBarTitles`: Implementuje podstawowa funkcjonalność
-- `keybar_area`: Implementuje podstawowa funkcjonalność
-- `lng`: Implementuje podstawowa funkcjonalność
+- `KeyBarTitles`: Performs KeyBarTitles operation in keybar.hpp
+- `keybar_area`: Performs keybar_area operation in keybar.hpp
+- `lng`: Performs lng operation in keybar.hpp
 ### Kluczowe Funkcje
-- `KeyBar()`: Wykonuje KeyBar operację jako część podstawowa funkcjonalność
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `SetLabels()`: Aktualizuje Labels w stanie wewnętrznym lub konfiguracji
-- `SetCustomLabels()`: Aktualizuje CustomLabels w stanie wewnętrznym lub konfiguracji
-- `keybar_area()`: Wykonuje keybar_area operację jako część podstawowa funkcjonalność
-- `Change()`: Wykonuje Change operację jako część podstawowa funkcjonalność
-- `RedrawIfChanged()`: Wykonuje RedrawIfChanged operację jako część podstawowa funkcjonalność
-- `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `ClearKeyTitles()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
+- `KeyBar()`: Performs KeyBar operation in keybar.hpp
+- `ProcessKey()`: порядок соответствует .lng файлу
+- `ProcessMouse()`: Processes input data in keybar.hpp
+- `SetLabels()`: Sets or updates Labels value in keybar.hpp
+- `SetCustomLabels()`: Sets or updates CustomLabels value in keybar.hpp
+- `keybar_area()`: Performs keybar_area operation in keybar.hpp
+- `Change()`: Performs Change operation in keybar.hpp
+- `RedrawIfChanged()`: Performs RedrawIfChanged operation in keybar.hpp
+- `DisplayObject()`: Performs DisplayObject operation in keybar.hpp
+- `ClearKeyTitles()`: Performs ClearKeyTitles operation in keybar.hpp
 ### Podsumowanie
 Plik `keybar.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,17 +4,17 @@
 This file implements functionality related to: Misc functions for processing of path names
 Main functional areas: panel management
 ### Key Classes
-- `column`: Implements panel management
-- `folder_size`: Implements panel management
+- `column`: Performs column operation in panelmix.hpp
+- `folder_size`: Performs folder_size operation in panelmix.hpp
 ### Key Functions
-- `ShellUpdatePanels()`: Executes ShellUpdatePanels operation as part of panel management
-- `CheckUpdateAnotherPanel()`: Validates data integrity and checks for correctness
-- `MakePath()`: Executes MakePath operation as part of panel management
-- `MakePathForUI()`: Executes MakePathForUI operation as part of panel management
-- `FormatStr_Attribute()`: Executes FormatStr_Attribute operation as part of panel management
-- `FormatStr_DateTime()`: Executes FormatStr_DateTime operation as part of panel management
-- `FormatStr_Size()`: Executes FormatStr_Size operation as part of panel management
-- `GetDefaultWidth()`: Retrieves DefaultWidth from internal state or data structure
+- `ShellUpdatePanels()`: Performs ShellUpdatePanels operation in panelmix.hpp
+- `CheckUpdateAnotherPanel()`: Performs CheckUpdateAnotherPanel operation in panelmix.hpp
+- `MakePath()`: Performs MakePath operation in panelmix.hpp
+- `MakePathForUI()`: Performs MakePathForUI operation in panelmix.hpp
+- `FormatStr_Attribute()`: Performs FormatStr_Attribute operation in panelmix.hpp
+- `FormatStr_DateTime()`: Performs FormatStr_DateTime operation in panelmix.hpp
+- `FormatStr_Size()`: Performs FormatStr_Size operation in panelmix.hpp
+- `GetDefaultWidth()`: Retrieves DefaultWidth value in panelmix.hpp
 ### Summary
 The `panelmix.hpp` file provides essential functionality for panel management. It defines 2 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -25,16 +25,16 @@ The `panelmix.hpp` file provides essential functionality for panel management. I
 Ten plik implementuje funkcjonalność związaną z: Misc functions for processing of path names
 Główne obszary funkcjonalne: zarządzanie panelami
 ### Kluczowe Klasy
-- `column`: Implementuje zarządzanie panelami
-- `folder_size`: Implementuje zarządzanie panelami
+- `column`: Performs column operation in panelmix.hpp
+- `folder_size`: Performs folder_size operation in panelmix.hpp
 ### Kluczowe Funkcje
-- `ShellUpdatePanels()`: Wykonuje ShellUpdatePanels operację jako część zarządzanie panelami
-- `CheckUpdateAnotherPanel()`: Waliduje integralność danych i sprawdza poprawność
-- `MakePath()`: Wykonuje MakePath operację jako część zarządzanie panelami
-- `MakePathForUI()`: Wykonuje MakePathForUI operację jako część zarządzanie panelami
-- `FormatStr_Attribute()`: Wykonuje FormatStr_Attribute operację jako część zarządzanie panelami
-- `FormatStr_DateTime()`: Wykonuje FormatStr_DateTime operację jako część zarządzanie panelami
-- `FormatStr_Size()`: Wykonuje FormatStr_Size operację jako część zarządzanie panelami
-- `GetDefaultWidth()`: Pobiera DefaultWidth ze stanu wewnętrznego lub struktury danych
+- `ShellUpdatePanels()`: Performs ShellUpdatePanels operation in panelmix.hpp
+- `CheckUpdateAnotherPanel()`: Performs CheckUpdateAnotherPanel operation in panelmix.hpp
+- `MakePath()`: Performs MakePath operation in panelmix.hpp
+- `MakePathForUI()`: Performs MakePathForUI operation in panelmix.hpp
+- `FormatStr_Attribute()`: Performs FormatStr_Attribute operation in panelmix.hpp
+- `FormatStr_DateTime()`: Performs FormatStr_DateTime operation in panelmix.hpp
+- `FormatStr_Size()`: Performs FormatStr_Size operation in panelmix.hpp
+- `GetDefaultWidth()`: Retrieves DefaultWidth value in panelmix.hpp
 ### Podsumowanie
 Plik `panelmix.hpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 2 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

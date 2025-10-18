@@ -4,13 +4,13 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `_set_new_handler()`: Executes _set_new_handler operation as part of core functionality
-- `_set_new_mode()`: Executes _set_new_mode operation as part of core functionality
-- `_set_new_handler_impl()`: Executes _set_new_handler_impl operation as part of core functionality
-- `_set_new_mode_impl()`: Executes _set_new_mode_impl operation as part of core functionality
-- `invoke_crt_new_handler()`: Executes invoke_crt_new_handler operation as part of core functionality
-- `invoke_new_handler()`: Executes invoke_new_handler operation as part of core functionality
-- `create_ui()`: Creates and initializes new _ui instance
+- `_set_new_handler()`: Performs _set_new_handler operation in new_handler.cpp
+- `_set_new_mode()`: Performs _set_new_mode operation in new_handler.cpp
+- `_set_new_handler_impl()`: Validates a condition in new_handler.cpp and throws an exception if the validation fails
+- `_set_new_mode_impl()`: Performs _set_new_mode_impl operation in new_handler.cpp
+- `invoke_crt_new_handler()`: Performs invoke_crt_new_handler operation in new_handler.cpp
+- `invoke_new_handler()`: Performs invoke_new_handler operation in new_handler.cpp
+- `create_ui()`: Validates a condition in new_handler.cpp and throws an exception if the validation fails
 ### Namespaces
 - `and`
 ### Summary
@@ -23,13 +23,13 @@ The `new_handler.cpp` file provides essential functionality for core functionali
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `_set_new_handler()`: Wykonuje _set_new_handler operację jako część podstawowa funkcjonalność
-- `_set_new_mode()`: Wykonuje _set_new_mode operację jako część podstawowa funkcjonalność
-- `_set_new_handler_impl()`: Wykonuje _set_new_handler_impl operację jako część podstawowa funkcjonalność
-- `_set_new_mode_impl()`: Wykonuje _set_new_mode_impl operację jako część podstawowa funkcjonalność
-- `invoke_crt_new_handler()`: Wykonuje invoke_crt_new_handler operację jako część podstawowa funkcjonalność
-- `invoke_new_handler()`: Wykonuje invoke_new_handler operację jako część podstawowa funkcjonalność
-- `create_ui()`: Tworzy i inicjalizuje nowy _ui instancję
+- `_set_new_handler()`: Performs _set_new_handler operation in new_handler.cpp
+- `_set_new_mode()`: Performs _set_new_mode operation in new_handler.cpp
+- `_set_new_handler_impl()`: Validates a condition in new_handler.cpp and throws an exception if the validation fails
+- `_set_new_mode_impl()`: Performs _set_new_mode_impl operation in new_handler.cpp
+- `invoke_crt_new_handler()`: Performs invoke_crt_new_handler operation in new_handler.cpp
+- `invoke_new_handler()`: Performs invoke_new_handler operation in new_handler.cpp
+- `create_ui()`: Validates a condition in new_handler.cpp and throws an exception if the validation fails
 ### Przestrzenie nazw
 - `and`
 ### Podsumowanie

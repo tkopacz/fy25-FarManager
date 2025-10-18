@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Classes
-- `Options`: Implements file system operations
+- `Options`: Performs Options operation in FileCase.hpp
 ### Key Functions
-- `IsCaseMixed()`: Tests whether CaseMixed condition is true or property exists
-- `CaseWord()`: Executes CaseWord operation as part of file system operations
-- `ProcessName()`: Processes Name through transformation or handling pipeline
-- `CaseConvertion()`: Executes CaseConvertion operation as part of file system operations
+- `IsCaseMixed()`: Checks a condition in FileCase.hpp and returns the result
+- `CaseWord()`: Performs CaseWord operation in FileCase.hpp
+- `ProcessName()`: Processes input data in FileCase.hpp
+- `CaseConvertion()`: Performs CaseConvertion operation in FileCase.hpp
 ### Summary
 The `FileCase.hpp` file provides essential functionality for file system operations. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -18,11 +18,11 @@ The `FileCase.hpp` file provides essential functionality for file system operati
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `Options`: Implementuje operacje systemu plików
+- `Options`: Performs Options operation in FileCase.hpp
 ### Kluczowe Funkcje
-- `IsCaseMixed()`: Testuje czy CaseMixed warunek jest prawdziwy lub właściwość istnieje
-- `CaseWord()`: Wykonuje CaseWord operację jako część operacje systemu plików
-- `ProcessName()`: Przetwarza Name przez potok transformacji lub obsługi
-- `CaseConvertion()`: Wykonuje CaseConvertion operację jako część operacje systemu plików
+- `IsCaseMixed()`: Checks a condition in FileCase.hpp and returns the result
+- `CaseWord()`: Performs CaseWord operation in FileCase.hpp
+- `ProcessName()`: Processes input data in FileCase.hpp
+- `CaseConvertion()`: Performs CaseConvertion operation in FileCase.hpp
 ### Podsumowanie
 Plik `FileCase.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 1 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

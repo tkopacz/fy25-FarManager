@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: plugin interface
 ### Key Functions
-- `Allocate()`: Executes Allocate operation as part of plugin interface
-- `malloc()`: Executes malloc operation as part of plugin interface
-- `Free()`: Executes Free operation as part of plugin interface
-- `Archive()`: Executes Archive operation as part of plugin interface
+- `Allocate()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
+- `malloc()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
+- `Free()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
+- `Archive()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
 ### Summary
 The `newarc.ArchivePlugin.cpp` file provides essential functionality for plugin interface. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `newarc.ArchivePlugin.cpp` file provides essential functionality for plugin 
 ### Cel
 Główne obszary funkcjonalne: interfejs wtyczek
 ### Kluczowe Funkcje
-- `Allocate()`: Wykonuje Allocate operację jako część interfejs wtyczek
-- `malloc()`: Wykonuje malloc operację jako część interfejs wtyczek
-- `Free()`: Wykonuje Free operację jako część interfejs wtyczek
-- `Archive()`: Wykonuje Archive operację jako część interfejs wtyczek
+- `Allocate()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
+- `malloc()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
+- `Free()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
+- `Archive()`: Checks a condition in newarc.ArchivePlugin.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `newarc.ArchivePlugin.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

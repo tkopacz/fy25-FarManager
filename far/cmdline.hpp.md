@@ -4,23 +4,23 @@
 This file implements functionality related to: Командная строка
 Main functional areas: core functionality
 ### Key Classes
-- `SetAutocomplete`: Implements core functionality
-- `echo`: Implements core functionality
-- `execute_info`: Implements core functionality
-- `segment`: Implements core functionality
-- `source_mode`: Implements core functionality
-- `wait_mode`: Implements core functionality
+- `SetAutocomplete`: Sets or updates Autocomplete value in cmdline.hpp
+- `echo`: Performs echo operation in cmdline.hpp
+- `execute_info`: Performs execute_info operation in cmdline.hpp
+- `segment`: Performs segment operation in cmdline.hpp
+- `source_mode`: Performs source_mode operation in cmdline.hpp
+- `wait_mode`: Performs wait_mode operation in cmdline.hpp
 ### Key Functions
-- `CommandLine()`: Executes CommandLine operation as part of core functionality
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `ResizeConsole()`: Changes size dimensions while preserving content when possible
-- `GetCurDir()`: Retrieves CurDir from internal state or data structure
-- `SetCurDir()`: Updates CurDir in internal state or configuration
-- `GetString()`: Retrieves String from internal state or data structure
-- `SetString()`: Updates String in internal state or configuration
-- `InsertString()`: Executes InsertString operation as part of core functionality
+- `CommandLine()`: Performs CommandLine operation in cmdline.hpp
+- `ProcessKey()`: Processes input data in cmdline.hpp
+- `ProcessMouse()`: Processes input data in cmdline.hpp
+- `VMProcess()`: Performs VMProcess operation in cmdline.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in cmdline.hpp
+- `GetCurDir()`: Retrieves CurDir value in cmdline.hpp
+- `SetCurDir()`: Sets or updates CurDir value in cmdline.hpp
+- `GetString()`: Retrieves String value in cmdline.hpp
+- `SetString()`: Iterates through elements in cmdline.hpp and adds them to a collection
+- `InsertString()`: Iterates through elements in cmdline.hpp and adds them to a collection
 ### Summary
 The `cmdline.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -31,22 +31,22 @@ The `cmdline.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Командная строка
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SetAutocomplete`: Implementuje podstawowa funkcjonalność
-- `echo`: Implementuje podstawowa funkcjonalność
-- `execute_info`: Implementuje podstawowa funkcjonalność
-- `segment`: Implementuje podstawowa funkcjonalność
-- `source_mode`: Implementuje podstawowa funkcjonalność
-- `wait_mode`: Implementuje podstawowa funkcjonalność
+- `SetAutocomplete`: Sets or updates Autocomplete value in cmdline.hpp
+- `echo`: Performs echo operation in cmdline.hpp
+- `execute_info`: Performs execute_info operation in cmdline.hpp
+- `segment`: Performs segment operation in cmdline.hpp
+- `source_mode`: Performs source_mode operation in cmdline.hpp
+- `wait_mode`: Performs wait_mode operation in cmdline.hpp
 ### Kluczowe Funkcje
-- `CommandLine()`: Wykonuje CommandLine operację jako część podstawowa funkcjonalność
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `GetCurDir()`: Pobiera CurDir ze stanu wewnętrznego lub struktury danych
-- `SetCurDir()`: Aktualizuje CurDir w stanie wewnętrznym lub konfiguracji
-- `GetString()`: Pobiera String ze stanu wewnętrznego lub struktury danych
-- `SetString()`: Aktualizuje String w stanie wewnętrznym lub konfiguracji
-- `InsertString()`: Wykonuje InsertString operację jako część podstawowa funkcjonalność
+- `CommandLine()`: Performs CommandLine operation in cmdline.hpp
+- `ProcessKey()`: Processes input data in cmdline.hpp
+- `ProcessMouse()`: Processes input data in cmdline.hpp
+- `VMProcess()`: Performs VMProcess operation in cmdline.hpp
+- `ResizeConsole()`: Performs ResizeConsole operation in cmdline.hpp
+- `GetCurDir()`: Retrieves CurDir value in cmdline.hpp
+- `SetCurDir()`: Sets or updates CurDir value in cmdline.hpp
+- `GetString()`: Retrieves String value in cmdline.hpp
+- `SetString()`: Iterates through elements in cmdline.hpp and adds them to a collection
+- `InsertString()`: Iterates through elements in cmdline.hpp and adds them to a collection
 ### Podsumowanie
 Plik `cmdline.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

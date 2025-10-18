@@ -4,27 +4,27 @@
 This file implements functionality related to: Файловая панель - общие функции
 Main functional areas: file system operations
 ### Key Classes
-- `FileListItem`: Implements file system operations
-- `Plugin`: Implements file system operations
-- `PluginsListItem`: Implements file system operations
-- `PrevDataItem`: Implements file system operations
-- `background_updater`: Implements file system operations
-- `data_lock_ptr`: Implements file system operations
-- `element`: Implements file system operations
-- `list_data`: Implements file system operations
-- `list_data_lock`: Implements file system operations
-- `multifilter`: Implements file system operations
+- `FileListItem`: Performs FileListItem operation in filelist.hpp
+- `Plugin`: Performs Plugin operation in filelist.hpp
+- `PluginsListItem`: Performs PluginsListItem operation in filelist.hpp
+- `PrevDataItem`: Performs PrevDataItem operation in filelist.hpp
+- `background_updater`: Performs background_updater operation in filelist.hpp
+- `data_lock_ptr`: Performs data_lock_ptr operation in filelist.hpp
+- `element`: Performs element operation in filelist.hpp
+- `list_data`: Открывающий и закрывающий символ, которые используются для показа
+- `list_data_lock`: Performs list_data_lock operation in filelist.hpp
+- `multifilter`: Performs multifilter operation in filelist.hpp
 ### Key Functions
-- `FileListItem()`: Executes FileListItem operation as part of file system operations
-- `AllocationSize()`: Executes AllocationSize operation as part of file system operations
-- `IsNumberOfLinksRead()`: Tests whether NumberOfLinksRead condition is true or property exists
-- `NumberOfLinks()`: Executes NumberOfLinks operation as part of file system operations
-- `IsNumberOfStreamsRead()`: Tests whether NumberOfStreamsRead condition is true or property exists
-- `NumberOfStreams()`: Executes NumberOfStreams operation as part of file system operations
-- `IsStreamsSizeRead()`: Tests whether StreamsSizeRead condition is true or property exists
-- `StreamsSize()`: Executes StreamsSize operation as part of file system operations
-- `IsOwnerRead()`: Tests whether OwnerRead condition is true or property exists
-- `Owner()`: Constructor that initializes Owner object with provided parameters
+- `FileListItem()`: Performs FileListItem operation in filelist.hpp
+- `AllocationSize()`: Performs AllocationSize operation in filelist.hpp
+- `IsNumberOfLinksRead()`: Checks a condition in filelist.hpp and returns the result
+- `NumberOfLinks()`: Performs NumberOfLinks operation in filelist.hpp
+- `IsNumberOfStreamsRead()`: Checks a condition in filelist.hpp and returns the result
+- `NumberOfStreams()`: Performs NumberOfStreams operation in filelist.hpp
+- `IsStreamsSizeRead()`: Checks a condition in filelist.hpp and returns the result
+- `StreamsSize()`: Performs StreamsSize operation in filelist.hpp
+- `IsOwnerRead()`: Checks a condition in filelist.hpp and returns the result
+- `Owner()`: Performs Owner operation in filelist.hpp
 ### Namespaces
 - `highlight`
 ### Summary
@@ -37,27 +37,27 @@ The `filelist.hpp` file provides essential functionality for file system operati
 Ten plik implementuje funkcjonalność związaną z: Файловая панель - общие функции
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `FileListItem`: Implementuje operacje systemu plików
-- `Plugin`: Implementuje operacje systemu plików
-- `PluginsListItem`: Implementuje operacje systemu plików
-- `PrevDataItem`: Implementuje operacje systemu plików
-- `background_updater`: Implementuje operacje systemu plików
-- `data_lock_ptr`: Implementuje operacje systemu plików
-- `element`: Implementuje operacje systemu plików
-- `list_data`: Implementuje operacje systemu plików
-- `list_data_lock`: Implementuje operacje systemu plików
-- `multifilter`: Implementuje operacje systemu plików
+- `FileListItem`: Performs FileListItem operation in filelist.hpp
+- `Plugin`: Performs Plugin operation in filelist.hpp
+- `PluginsListItem`: Performs PluginsListItem operation in filelist.hpp
+- `PrevDataItem`: Performs PrevDataItem operation in filelist.hpp
+- `background_updater`: Performs background_updater operation in filelist.hpp
+- `data_lock_ptr`: Performs data_lock_ptr operation in filelist.hpp
+- `element`: Performs element operation in filelist.hpp
+- `list_data`: Открывающий и закрывающий символ, которые используются для показа
+- `list_data_lock`: Performs list_data_lock operation in filelist.hpp
+- `multifilter`: Performs multifilter operation in filelist.hpp
 ### Kluczowe Funkcje
-- `FileListItem()`: Wykonuje FileListItem operację jako część operacje systemu plików
-- `AllocationSize()`: Wykonuje AllocationSize operację jako część operacje systemu plików
-- `IsNumberOfLinksRead()`: Testuje czy NumberOfLinksRead warunek jest prawdziwy lub właściwość istnieje
-- `NumberOfLinks()`: Wykonuje NumberOfLinks operację jako część operacje systemu plików
-- `IsNumberOfStreamsRead()`: Testuje czy NumberOfStreamsRead warunek jest prawdziwy lub właściwość istnieje
-- `NumberOfStreams()`: Wykonuje NumberOfStreams operację jako część operacje systemu plików
-- `IsStreamsSizeRead()`: Testuje czy StreamsSizeRead warunek jest prawdziwy lub właściwość istnieje
-- `StreamsSize()`: Wykonuje StreamsSize operację jako część operacje systemu plików
-- `IsOwnerRead()`: Testuje czy OwnerRead warunek jest prawdziwy lub właściwość istnieje
-- `Owner()`: Konstruktor inicjalizujący Owner obiekt z dostarczonymi parametrami
+- `FileListItem()`: Performs FileListItem operation in filelist.hpp
+- `AllocationSize()`: Performs AllocationSize operation in filelist.hpp
+- `IsNumberOfLinksRead()`: Checks a condition in filelist.hpp and returns the result
+- `NumberOfLinks()`: Performs NumberOfLinks operation in filelist.hpp
+- `IsNumberOfStreamsRead()`: Checks a condition in filelist.hpp and returns the result
+- `NumberOfStreams()`: Performs NumberOfStreams operation in filelist.hpp
+- `IsStreamsSizeRead()`: Checks a condition in filelist.hpp and returns the result
+- `StreamsSize()`: Performs StreamsSize operation in filelist.hpp
+- `IsOwnerRead()`: Checks a condition in filelist.hpp and returns the result
+- `Owner()`: Performs Owner operation in filelist.hpp
 ### Przestrzenie nazw
 - `highlight`
 ### Podsumowanie

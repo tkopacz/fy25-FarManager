@@ -4,16 +4,16 @@
 This file implements functionality related to: Файловый фильтр
 Main functional areas: file system operations
 ### Key Functions
-- `FilterData()`: Constructor that initializes FilterData object with provided parameters
-- `TempFilterData()`: Constructor that initializes TempFilterData object with provided parameters
-- `convert_type()`: Converts data from one format or type to another
-- `ParseAndAddMasks()`: Parses input string or data into structured format
-- `GetCheck()`: Retrieves Check from internal state or data structure
-- `ProcessSelection()`: Processes Selection through transformation or handling pipeline
-- `Process()`: Processes data through transformation or handling pipeline
-- `bool()`: Executes bool operation as part of file system operations
-- `FileInFilter()`: Executes FileInFilter operation as part of file system operations
-- `Key()`: Executes Key operation as part of file system operations
+- `FilterData()`: Performs FilterData operation in filefilter.cpp
+- `TempFilterData()`: Performs TempFilterData operation in filefilter.cpp
+- `convert_type()`: Performs convert_type operation in filefilter.cpp
+- `ParseAndAddMasks()`: Performs ParseAndAddMasks operation in filefilter.cpp
+- `GetCheck()`: Retrieves Check value in filefilter.cpp
+- `ProcessSelection()`: Processes input data in filefilter.cpp
+- `Process()`: Processes input data in filefilter.cpp
+- `bool()`: Checks a condition in filefilter.cpp and returns true or false based on the result
+- `FileInFilter()`: Если папка и она не попала ни под какой фильтр то самое логичное
+- `Key()`: Performs Key operation in filefilter.cpp
 ### Namespaces
 - `legacy_names`
 - `names`
@@ -27,16 +27,16 @@ The `filefilter.cpp` file provides essential functionality for file system opera
 Ten plik implementuje funkcjonalność związaną z: Файловый фильтр
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `FilterData()`: Konstruktor inicjalizujący FilterData obiekt z dostarczonymi parametrami
-- `TempFilterData()`: Konstruktor inicjalizujący TempFilterData obiekt z dostarczonymi parametrami
-- `convert_type()`: Konwertuje dane z jednego formatu lub typu do innego
-- `ParseAndAddMasks()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `GetCheck()`: Pobiera Check ze stanu wewnętrznego lub struktury danych
-- `ProcessSelection()`: Przetwarza Selection przez potok transformacji lub obsługi
-- `Process()`: Przetwarza dane przez potok transformacji lub obsługi
-- `bool()`: Wykonuje bool operację jako część operacje systemu plików
-- `FileInFilter()`: Wykonuje FileInFilter operację jako część operacje systemu plików
-- `Key()`: Wykonuje Key operację jako część operacje systemu plików
+- `FilterData()`: Performs FilterData operation in filefilter.cpp
+- `TempFilterData()`: Performs TempFilterData operation in filefilter.cpp
+- `convert_type()`: Performs convert_type operation in filefilter.cpp
+- `ParseAndAddMasks()`: Performs ParseAndAddMasks operation in filefilter.cpp
+- `GetCheck()`: Retrieves Check value in filefilter.cpp
+- `ProcessSelection()`: Processes input data in filefilter.cpp
+- `Process()`: Processes input data in filefilter.cpp
+- `bool()`: Checks a condition in filefilter.cpp and returns true or false based on the result
+- `FileInFilter()`: Если папка и она не попала ни под какой фильтр то самое логичное
+- `Key()`: Performs Key operation in filefilter.cpp
 ### Przestrzenie nazw
 - `legacy_names`
 - `names`

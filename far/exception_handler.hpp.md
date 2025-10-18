@@ -4,27 +4,27 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `Plugin`: Implements core functionality
-- `invalid_parameter_handler`: Implements core functionality
-- `no_handler`: Implements core functionality
-- `save_exception_and_return`: Implements core functionality
-- `save_exception_to`: Implements core functionality
-- `seh_exception`: Implements core functionality
-- `seh_exception_impl`: Implements core functionality
-- `signal_handler`: Implements core functionality
-- `unhandled_exception_filter`: Implements core functionality
-- `vectored_exception_handler`: Implements core functionality
+- `Plugin`: Performs Plugin operation in exception_handler.hpp
+- `invalid_parameter_handler`: Performs invalid_parameter_handler operation in exception_handler.hpp
+- `no_handler`: Performs no_handler operation in exception_handler.hpp
+- `save_exception_and_return`: Performs save_exception_and_return operation in exception_handler.hpp
+- `save_exception_to`: Performs save_exception_to operation in exception_handler.hpp
+- `seh_exception`: Performs seh_exception operation in exception_handler.hpp
+- `seh_exception_impl`: Performs seh_exception_impl operation in exception_handler.hpp
+- `signal_handler`: Performs signal_handler operation in exception_handler.hpp
+- `unhandled_exception_filter`: These handlers can terminate the process or rethrow the exception
+- `vectored_exception_handler`: Performs vectored_exception_handler operation in exception_handler.hpp
 ### Key Functions
-- `report_to_stderr()`: Executes report_to_stderr operation as part of core functionality
-- `set_report_location()`: Updates _report_location in internal state or configuration
-- `disable_exception_handling()`: Executes disable_exception_handling operation as part of core functionality
-- `exception_handling_in_progress()`: Executes exception_handling_in_progress operation as part of core functionality
-- `force_stderr_exception_ui()`: Executes force_stderr_exception_ui operation as part of core functionality
-- `restore_system_exception_handler()`: Executes restore_system_exception_handler operation as part of core functionality
-- `set()`: Updates value in internal state or configuration
-- `raise()`: Executes raise operation as part of core functionality
-- `dismiss()`: Executes dismiss operation as part of core functionality
-- `get()`: Retrieves value from internal state or data structure
+- `report_to_stderr()`: Performs report_to_stderr operation in exception_handler.hpp
+- `set_report_location()`: Sets or updates _report_location value in exception_handler.hpp
+- `disable_exception_handling()`: Performs disable_exception_handling operation in exception_handler.hpp
+- `exception_handling_in_progress()`: Performs exception_handling_in_progress operation in exception_handler.hpp
+- `force_stderr_exception_ui()`: Performs force_stderr_exception_ui operation in exception_handler.hpp
+- `restore_system_exception_handler()`: Performs restore_system_exception_handler operation in exception_handler.hpp
+- `set()`: Sets or updates  value in exception_handler.hpp
+- `raise()`: Performs raise operation in exception_handler.hpp
+- `dismiss()`: Performs dismiss operation in exception_handler.hpp
+- `get()`: Retrieves  value in exception_handler.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -37,27 +37,27 @@ The `exception_handler.hpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Plugin`: Implementuje podstawowa funkcjonalność
-- `invalid_parameter_handler`: Implementuje podstawowa funkcjonalność
-- `no_handler`: Implementuje podstawowa funkcjonalność
-- `save_exception_and_return`: Implementuje podstawowa funkcjonalność
-- `save_exception_to`: Implementuje podstawowa funkcjonalność
-- `seh_exception`: Implementuje podstawowa funkcjonalność
-- `seh_exception_impl`: Implementuje podstawowa funkcjonalność
-- `signal_handler`: Implementuje podstawowa funkcjonalność
-- `unhandled_exception_filter`: Implementuje podstawowa funkcjonalność
-- `vectored_exception_handler`: Implementuje podstawowa funkcjonalność
+- `Plugin`: Performs Plugin operation in exception_handler.hpp
+- `invalid_parameter_handler`: Performs invalid_parameter_handler operation in exception_handler.hpp
+- `no_handler`: Performs no_handler operation in exception_handler.hpp
+- `save_exception_and_return`: Performs save_exception_and_return operation in exception_handler.hpp
+- `save_exception_to`: Performs save_exception_to operation in exception_handler.hpp
+- `seh_exception`: Performs seh_exception operation in exception_handler.hpp
+- `seh_exception_impl`: Performs seh_exception_impl operation in exception_handler.hpp
+- `signal_handler`: Performs signal_handler operation in exception_handler.hpp
+- `unhandled_exception_filter`: These handlers can terminate the process or rethrow the exception
+- `vectored_exception_handler`: Performs vectored_exception_handler operation in exception_handler.hpp
 ### Kluczowe Funkcje
-- `report_to_stderr()`: Wykonuje report_to_stderr operację jako część podstawowa funkcjonalność
-- `set_report_location()`: Aktualizuje _report_location w stanie wewnętrznym lub konfiguracji
-- `disable_exception_handling()`: Wykonuje disable_exception_handling operację jako część podstawowa funkcjonalność
-- `exception_handling_in_progress()`: Wykonuje exception_handling_in_progress operację jako część podstawowa funkcjonalność
-- `force_stderr_exception_ui()`: Wykonuje force_stderr_exception_ui operację jako część podstawowa funkcjonalność
-- `restore_system_exception_handler()`: Wykonuje restore_system_exception_handler operację jako część podstawowa funkcjonalność
-- `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `raise()`: Wykonuje raise operację jako część podstawowa funkcjonalność
-- `dismiss()`: Wykonuje dismiss operację jako część podstawowa funkcjonalność
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
+- `report_to_stderr()`: Performs report_to_stderr operation in exception_handler.hpp
+- `set_report_location()`: Sets or updates _report_location value in exception_handler.hpp
+- `disable_exception_handling()`: Performs disable_exception_handling operation in exception_handler.hpp
+- `exception_handling_in_progress()`: Performs exception_handling_in_progress operation in exception_handler.hpp
+- `force_stderr_exception_ui()`: Performs force_stderr_exception_ui operation in exception_handler.hpp
+- `restore_system_exception_handler()`: Performs restore_system_exception_handler operation in exception_handler.hpp
+- `set()`: Sets or updates  value in exception_handler.hpp
+- `raise()`: Performs raise operation in exception_handler.hpp
+- `dismiss()`: Performs dismiss operation in exception_handler.hpp
+- `get()`: Retrieves  value in exception_handler.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

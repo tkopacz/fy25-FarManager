@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Implements core functionality
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Implements core functionality
-- `THREAD_BASIC_INFORMATION`: Implements core functionality
-- `test`: Implements core functionality
+- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation in handles.cpp
+- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation in handles.cpp
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in handles.cpp
+- `test`: Performs test operation in handles.cpp
 ### Key Functions
-- `GetProcessId()`: Retrieves ProcessId from internal state or data structure
-- `GetThreadId()`: Retrieves ThreadId from internal state or data structure
-- `to_string()`: Converts object to string representation for display or serialization
-- `GetFileName()`: Retrieves FileName from internal state or data structure
-- `GetFileNameThread()`: Retrieves FileNameThread from internal state or data structure
-- `GetTypeToken()`: Retrieves TypeToken from internal state or data structure
-- `GetTypeFromTypeToken()`: Retrieves TypeFromTypeToken from internal state or data structure
-- `GetUserAccountID()`: Retrieves UserAccountID from internal state or data structure
-- `GetNameByType()`: Retrieves NameByType from internal state or data structure
-- `l()`: Executes l operation as part of core functionality
+- `GetProcessId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `GetThreadId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `to_string()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileName()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileNameThread()`: Check if it's possible to get the file name info
+- `GetTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetTypeFromTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetUserAccountID()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetNameByType()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `l()`: Checks a condition in handles.cpp and returns true or false based on the result
 ### Namespaces
 - `std`
 ### Summary
@@ -29,21 +29,21 @@ The `handles.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Implementuje podstawowa funkcjonalność
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Implementuje podstawowa funkcjonalność
-- `THREAD_BASIC_INFORMATION`: Implementuje podstawowa funkcjonalność
-- `test`: Implementuje podstawowa funkcjonalność
+- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation in handles.cpp
+- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation in handles.cpp
+- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in handles.cpp
+- `test`: Performs test operation in handles.cpp
 ### Kluczowe Funkcje
-- `GetProcessId()`: Pobiera ProcessId ze stanu wewnętrznego lub struktury danych
-- `GetThreadId()`: Pobiera ThreadId ze stanu wewnętrznego lub struktury danych
-- `to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `GetFileName()`: Pobiera FileName ze stanu wewnętrznego lub struktury danych
-- `GetFileNameThread()`: Pobiera FileNameThread ze stanu wewnętrznego lub struktury danych
-- `GetTypeToken()`: Pobiera TypeToken ze stanu wewnętrznego lub struktury danych
-- `GetTypeFromTypeToken()`: Pobiera TypeFromTypeToken ze stanu wewnętrznego lub struktury danych
-- `GetUserAccountID()`: Pobiera UserAccountID ze stanu wewnętrznego lub struktury danych
-- `GetNameByType()`: Pobiera NameByType ze stanu wewnętrznego lub struktury danych
-- `l()`: Wykonuje l operację jako część podstawowa funkcjonalność
+- `GetProcessId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `GetThreadId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
+- `to_string()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileName()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetFileNameThread()`: Check if it's possible to get the file name info
+- `GetTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetTypeFromTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetUserAccountID()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `GetNameByType()`: Checks a condition in handles.cpp and returns true or false based on the result
+- `l()`: Checks a condition in handles.cpp and returns true or false based on the result
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

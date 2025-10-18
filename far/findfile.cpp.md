@@ -4,27 +4,27 @@
 This file implements functionality related to: Поиск (Alt-F7)
 Main functional areas: file system operations
 ### Key Classes
-- `ArcListItem`: Implements file system operations
-- `CodePageInfo`: Implements file system operations
-- `FindFiles`: Implements file system operations
-- `FindFilesOptions`: Implements file system operations
-- `FindListItem`: Implements file system operations
-- `InterThreadData`: Implements file system operations
-- `background_searcher`: Implements file system operations
-- `menu_data`: Implements file system operations
-- `percent`: Implements file system operations
-- `pop`: Implements file system operations
+- `ArcListItem`: Performs ArcListItem operation in findfile.cpp
+- `CodePageInfo`: Performs CodePageInfo operation in findfile.cpp
+- `FindFiles`: Performs FindFiles operation in findfile.cpp
+- `FindFilesOptions`: Performs FindFilesOptions operation in findfile.cpp
+- `FindListItem`: The request to stop might arrive in the middle of something and searcher can still pump some messages
+- `InterThreadData`: This flag is set to true if the hotkey of either of Text/Hex radio is pressed.
+- `background_searcher`: Performs background_searcher operation in findfile.cpp
+- `menu_data`: Performs menu_data operation in findfile.cpp
+- `percent`: Performs percent operation in findfile.cpp
+- `pop`: Iterates through elements in findfile.cpp and adds them to a collection
 ### Key Functions
-- `IsWordDiv()`: Tests whether WordDiv condition is true or property exists
-- `AddMenuRecord()`: Adds new MenuRecord to collection or list
-- `ScopedLock()`: Executes ScopedLock operation as part of file system operations
-- `AdvancedDialog()`: Executes AdvancedDialog operation as part of file system operations
-- `MainDlgProc()`: Executes MainDlgProc operation as part of file system operations
-- `FindDlgProc()`: Searches for DlgProc in collection and returns position or reference
-- `OpenFile()`: Opens resource and prepares it for access operations
-- `FindFilesProcess()`: Searches for FilesProcess in collection and returns position or reference
-- `ProcessMessage()`: Processes Message through transformation or handling pipeline
-- `SetPluginDirectory()`: Updates PluginDirectory in internal state or configuration
+- `IsWordDiv()`: Проверяем символ на принадлежность разделителям слов
+- `AddMenuRecord()`: Iterates through elements in findfile.cpp and adds them to a collection
+- `ScopedLock()`: Performs ScopedLock operation in findfile.cpp
+- `AdvancedDialog()`: Performs AdvancedDialog operation in findfile.cpp
+- `MainDlgProc()`: Main entry point in findfile.cpp that starts program execution
+- `FindDlgProc()`: Performs FindDlgProc operation in findfile.cpp
+- `OpenFile()`: Performs OpenFile operation in findfile.cpp
+- `FindFilesProcess()`: Performs FindFilesProcess operation in findfile.cpp
+- `ProcessMessage()`: Тем самым добиваемся того, что выделение с элементов панели не сбрасывается.
+- `SetPluginDirectory()`: Проверяем символ на принадлежность разделителям слов
 ### Namespaces
 - `messages`
 ### Summary
@@ -37,27 +37,27 @@ The `findfile.cpp` file provides essential functionality for file system operati
 Ten plik implementuje funkcjonalność związaną z: Поиск (Alt-F7)
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `ArcListItem`: Implementuje operacje systemu plików
-- `CodePageInfo`: Implementuje operacje systemu plików
-- `FindFiles`: Implementuje operacje systemu plików
-- `FindFilesOptions`: Implementuje operacje systemu plików
-- `FindListItem`: Implementuje operacje systemu plików
-- `InterThreadData`: Implementuje operacje systemu plików
-- `background_searcher`: Implementuje operacje systemu plików
-- `menu_data`: Implementuje operacje systemu plików
-- `percent`: Implementuje operacje systemu plików
-- `pop`: Implementuje operacje systemu plików
+- `ArcListItem`: Performs ArcListItem operation in findfile.cpp
+- `CodePageInfo`: Performs CodePageInfo operation in findfile.cpp
+- `FindFiles`: Performs FindFiles operation in findfile.cpp
+- `FindFilesOptions`: Performs FindFilesOptions operation in findfile.cpp
+- `FindListItem`: The request to stop might arrive in the middle of something and searcher can still pump some messages
+- `InterThreadData`: This flag is set to true if the hotkey of either of Text/Hex radio is pressed.
+- `background_searcher`: Performs background_searcher operation in findfile.cpp
+- `menu_data`: Performs menu_data operation in findfile.cpp
+- `percent`: Performs percent operation in findfile.cpp
+- `pop`: Iterates through elements in findfile.cpp and adds them to a collection
 ### Kluczowe Funkcje
-- `IsWordDiv()`: Testuje czy WordDiv warunek jest prawdziwy lub właściwość istnieje
-- `AddMenuRecord()`: Dodaje nowy MenuRecord do kolekcji lub listy
-- `ScopedLock()`: Wykonuje ScopedLock operację jako część operacje systemu plików
-- `AdvancedDialog()`: Wykonuje AdvancedDialog operację jako część operacje systemu plików
-- `MainDlgProc()`: Wykonuje MainDlgProc operację jako część operacje systemu plików
-- `FindDlgProc()`: Wyszukuje DlgProc w kolekcji i zwraca pozycję lub referencję
-- `OpenFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `FindFilesProcess()`: Wyszukuje FilesProcess w kolekcji i zwraca pozycję lub referencję
-- `ProcessMessage()`: Przetwarza Message przez potok transformacji lub obsługi
-- `SetPluginDirectory()`: Aktualizuje PluginDirectory w stanie wewnętrznym lub konfiguracji
+- `IsWordDiv()`: Проверяем символ на принадлежность разделителям слов
+- `AddMenuRecord()`: Iterates through elements in findfile.cpp and adds them to a collection
+- `ScopedLock()`: Performs ScopedLock operation in findfile.cpp
+- `AdvancedDialog()`: Performs AdvancedDialog operation in findfile.cpp
+- `MainDlgProc()`: Main entry point in findfile.cpp that starts program execution
+- `FindDlgProc()`: Performs FindDlgProc operation in findfile.cpp
+- `OpenFile()`: Performs OpenFile operation in findfile.cpp
+- `FindFilesProcess()`: Performs FindFilesProcess operation in findfile.cpp
+- `ProcessMessage()`: Тем самым добиваемся того, что выделение с элементов панели не сбрасывается.
+- `SetPluginDirectory()`: Проверяем символ на принадлежность разделителям слов
 ### Przestrzenie nazw
 - `messages`
 ### Podsumowanie

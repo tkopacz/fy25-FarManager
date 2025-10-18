@@ -4,19 +4,19 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `GZHeader`: Implements core functionality
-- `posix_header`: Implements core functionality
+- `GZHeader`: Performs GZHeader operation in targz.cpp
+- `posix_header`: Performs posix_header operation in targz.cpp
 ### Key Functions
-- `IsTarHeader()`: Tests whether TarHeader condition is true or property exists
-- `GetOctal()`: Retrieves Octal from internal state or data structure
-- `GetArcItemGZIP()`: Retrieves ArcItemGZIP from internal state or data structure
-- `GetArcItemTAR()`: Retrieves ArcItemTAR from internal state or data structure
-- `Oct2Size()`: Executes Oct2Size operation as part of core functionality
-- `SetFarInfo()`: Updates FarInfo in internal state or configuration
-- `UnixTimeToFileTime()`: Executes UnixTimeToFileTime operation as part of core functionality
-- `IsArchive()`: Tests whether Archive condition is true or property exists
-- `OpenArchive()`: Opens resource and prepares it for access operations
-- `GetSFXPos()`: Retrieves SFXPos from internal state or data structure
+- `IsTarHeader()`: Iterates through elements in targz.cpp and adds them to a collection
+- `GetOctal()`: Iterates through elements in targz.cpp and adds them to a collection
+- `GetArcItemGZIP()`: Iterates through elements in targz.cpp and adds them to a collection
+- `GetArcItemTAR()`: Iterates through elements in targz.cpp and adds them to a collection
+- `Oct2Size()`: Iterates through elements in targz.cpp and adds them to a collection
+- `SetFarInfo()`: Iterates through elements in targz.cpp and adds them to a collection
+- `UnixTimeToFileTime()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
+- `IsArchive()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
+- `OpenArchive()`: Opens a file or creates a file handle in targz.cpp
+- `GetSFXPos()`: Opens a file or creates a file handle in targz.cpp
 ### Summary
 The `targz.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -27,18 +27,18 @@ The `targz.cpp` file provides essential functionality for core functionality. It
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `GZHeader`: Implementuje podstawowa funkcjonalność
-- `posix_header`: Implementuje podstawowa funkcjonalność
+- `GZHeader`: Performs GZHeader operation in targz.cpp
+- `posix_header`: Performs posix_header operation in targz.cpp
 ### Kluczowe Funkcje
-- `IsTarHeader()`: Testuje czy TarHeader warunek jest prawdziwy lub właściwość istnieje
-- `GetOctal()`: Pobiera Octal ze stanu wewnętrznego lub struktury danych
-- `GetArcItemGZIP()`: Pobiera ArcItemGZIP ze stanu wewnętrznego lub struktury danych
-- `GetArcItemTAR()`: Pobiera ArcItemTAR ze stanu wewnętrznego lub struktury danych
-- `Oct2Size()`: Wykonuje Oct2Size operację jako część podstawowa funkcjonalność
-- `SetFarInfo()`: Aktualizuje FarInfo w stanie wewnętrznym lub konfiguracji
-- `UnixTimeToFileTime()`: Wykonuje UnixTimeToFileTime operację jako część podstawowa funkcjonalność
-- `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
-- `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `GetSFXPos()`: Pobiera SFXPos ze stanu wewnętrznego lub struktury danych
+- `IsTarHeader()`: Iterates through elements in targz.cpp and adds them to a collection
+- `GetOctal()`: Iterates through elements in targz.cpp and adds them to a collection
+- `GetArcItemGZIP()`: Iterates through elements in targz.cpp and adds them to a collection
+- `GetArcItemTAR()`: Iterates through elements in targz.cpp and adds them to a collection
+- `Oct2Size()`: Iterates through elements in targz.cpp and adds them to a collection
+- `SetFarInfo()`: Iterates through elements in targz.cpp and adds them to a collection
+- `UnixTimeToFileTime()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
+- `IsArchive()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
+- `OpenArchive()`: Opens a file or creates a file handle in targz.cpp
+- `GetSFXPos()`: Opens a file or creates a file handle in targz.cpp
 ### Podsumowanie
 Plik `targz.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

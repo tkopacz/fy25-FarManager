@@ -4,12 +4,12 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `lookup_privilege_value()`: Constructor that initializes lookup_privilege_value object with provided parameters
-- `make_sid()`: Executes make_sid operation as part of core functionality
-- `is_admin()`: Tests whether _admin condition is true or property exists
-- `elevation_type()`: Executes elevation_type operation as part of core functionality
-- `open_current_process_token()`: Opens resource and prepares it for access operations
-- `handle()`: Handles event by executing appropriate response logic
+- `lookup_privilege_value()`: Performs lookup_privilege_value operation in platform.security.cpp
+- `make_sid()`: Performs make_sid operation in platform.security.cpp
+- `is_admin()`: Checks a condition in platform.security.cpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.cpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.cpp
+- `handle()`: Performs handle operation in platform.security.cpp
 ### Namespaces
 - `os`
 ### Summary
@@ -22,12 +22,12 @@ The `platform.security.cpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `lookup_privilege_value()`: Konstruktor inicjalizujący lookup_privilege_wartość obiekt z dostarczonymi parametrami
-- `make_sid()`: Wykonuje make_sid operację jako część podstawowa funkcjonalność
-- `is_admin()`: Testuje czy _admin warunek jest prawdziwy lub właściwość istnieje
-- `elevation_type()`: Wykonuje elevation_type operację jako część podstawowa funkcjonalność
-- `open_current_process_token()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `handle()`: Obsługuje zdarzenie wykonując odpowiednią logikę odpowiedzi
+- `lookup_privilege_value()`: Performs lookup_privilege_value operation in platform.security.cpp
+- `make_sid()`: Performs make_sid operation in platform.security.cpp
+- `is_admin()`: Checks a condition in platform.security.cpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.cpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.cpp
+- `handle()`: Performs handle operation in platform.security.cpp
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

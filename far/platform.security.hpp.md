@@ -4,15 +4,15 @@
 This file implements functionality related to: Privileges
 Main functional areas: core functionality
 ### Key Classes
-- `privilege`: Implements core functionality
-- `sid_deleter`: Implements core functionality
+- `privilege`: Performs privilege operation in platform.security.hpp
+- `sid_deleter`: Performs sid_deleter operation in platform.security.hpp
 ### Key Functions
-- `make_sid()`: Executes make_sid operation as part of core functionality
-- `is_admin()`: Tests whether _admin condition is true or property exists
-- `elevation_type()`: Executes elevation_type operation as part of core functionality
-- `open_current_process_token()`: Opens resource and prepares it for access operations
-- `privilege()`: Executes privilege operation as part of core functionality
-- `check()`: Validates data integrity and checks for correctness
+- `make_sid()`: Performs make_sid operation in platform.security.hpp
+- `is_admin()`: Checks a condition in platform.security.hpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.hpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.hpp
+- `privilege()`: Performs privilege operation in platform.security.hpp
+- `check()`: Performs check operation in platform.security.hpp
 ### Namespaces
 - `detail`
 - `os`
@@ -26,15 +26,15 @@ The `platform.security.hpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: Privileges
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `privilege`: Implementuje podstawowa funkcjonalność
-- `sid_deleter`: Implementuje podstawowa funkcjonalność
+- `privilege`: Performs privilege operation in platform.security.hpp
+- `sid_deleter`: Performs sid_deleter operation in platform.security.hpp
 ### Kluczowe Funkcje
-- `make_sid()`: Wykonuje make_sid operację jako część podstawowa funkcjonalność
-- `is_admin()`: Testuje czy _admin warunek jest prawdziwy lub właściwość istnieje
-- `elevation_type()`: Wykonuje elevation_type operację jako część podstawowa funkcjonalność
-- `open_current_process_token()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `privilege()`: Wykonuje privilege operację jako część podstawowa funkcjonalność
-- `check()`: Waliduje integralność danych i sprawdza poprawność
+- `make_sid()`: Performs make_sid operation in platform.security.hpp
+- `is_admin()`: Checks a condition in platform.security.hpp and returns the result
+- `elevation_type()`: Performs elevation_type operation in platform.security.hpp
+- `open_current_process_token()`: Performs open_current_process_token operation in platform.security.hpp
+- `privilege()`: Performs privilege operation in platform.security.hpp
+- `check()`: Performs check operation in platform.security.hpp
 ### Przestrzenie nazw
 - `detail`
 - `os`

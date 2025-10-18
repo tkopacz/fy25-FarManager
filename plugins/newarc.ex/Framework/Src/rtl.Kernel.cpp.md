@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `RtlCreateEvent()`: Executes RtlCreateEvent operation as part of core functionality
-- `CreateEvent()`: Creates and initializes new Event instance
-- `RtlCreateThread()`: Executes RtlCreateThread operation as part of core functionality
-- `RtlWaitAndCloseThread()`: Executes RtlWaitAndCloseThread operation as part of core functionality
+- `RtlCreateEvent()`: Performs RtlCreateEvent operation in rtl.Kernel.cpp
+- `CreateEvent()`: Creates and initializes a new object or resource in rtl.Kernel.cpp
+- `RtlCreateThread()`: Performs RtlCreateThread operation in rtl.Kernel.cpp
+- `RtlWaitAndCloseThread()`: Performs RtlWaitAndCloseThread operation in rtl.Kernel.cpp
 ### Summary
 The `rtl.Kernel.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `rtl.Kernel.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `RtlCreateEvent()`: Wykonuje RtlCreateEvent operację jako część podstawowa funkcjonalność
-- `CreateEvent()`: Tworzy i inicjalizuje nowy Event instancję
-- `RtlCreateThread()`: Wykonuje RtlCreateThread operację jako część podstawowa funkcjonalność
-- `RtlWaitAndCloseThread()`: Wykonuje RtlWaitAndCloseThread operację jako część podstawowa funkcjonalność
+- `RtlCreateEvent()`: Performs RtlCreateEvent operation in rtl.Kernel.cpp
+- `CreateEvent()`: Creates and initializes a new object or resource in rtl.Kernel.cpp
+- `RtlCreateThread()`: Performs RtlCreateThread operation in rtl.Kernel.cpp
+- `RtlWaitAndCloseThread()`: Performs RtlWaitAndCloseThread operation in rtl.Kernel.cpp
 ### Podsumowanie
 Plik `rtl.Kernel.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

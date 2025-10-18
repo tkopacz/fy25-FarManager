@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `iFile`: Implements core functionality
-- `oFile`: Implements core functionality
+- `iFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `oFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
 ### Key Functions
-- `BlockReady()`: Executes BlockReady operation as part of core functionality
-- `LZHFileReadHeader()`: Executes LZHFileReadHeader operation as part of core functionality
-- `s()`: Executes s operation as part of core functionality
-- `LZHFileCompress()`: Executes LZHFileCompress operation as part of core functionality
-- `os()`: Executes os operation as part of core functionality
-- `LZHFileDecompress()`: Executes LZHFileDecompress operation as part of core functionality
+- `BlockReady()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `LZHFileReadHeader()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `s()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `LZHFileCompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `os()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `LZHFileDecompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
 ### Summary
 The `lzhf.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `lzhf.cpp` file provides essential functionality for core functionality. It 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `iFile`: Implementuje podstawowa funkcjonalność
-- `oFile`: Implementuje podstawowa funkcjonalność
+- `iFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `oFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
 ### Kluczowe Funkcje
-- `BlockReady()`: Wykonuje BlockReady operację jako część podstawowa funkcjonalność
-- `LZHFileReadHeader()`: Wykonuje LZHFileReadHeader operację jako część podstawowa funkcjonalność
-- `s()`: Wykonuje s operację jako część podstawowa funkcjonalność
-- `LZHFileCompress()`: Wykonuje LZHFileCompress operację jako część podstawowa funkcjonalność
-- `os()`: Wykonuje os operację jako część podstawowa funkcjonalność
-- `LZHFileDecompress()`: Wykonuje LZHFileDecompress operację jako część podstawowa funkcjonalność
+- `BlockReady()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `LZHFileReadHeader()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `s()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `LZHFileCompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `os()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- `LZHFileDecompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `lzhf.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.

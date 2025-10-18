@@ -4,27 +4,27 @@
 This file implements functionality related to: хранение настроек в базе sqlite.
 Main functional areas: configuration management
 ### Key Classes
-- `AssociationsConfig`: Implements configuration management
-- `ColorsConfig`: Implements configuration management
-- `FarColor`: Implements configuration management
-- `GeneralConfig`: Implements configuration management
-- `HierarchicalConfig`: Implements configuration management
-- `HistoryConfig`: Implements configuration management
-- `PluginsCacheConfig`: Implements configuration management
-- `PluginsHotkeysConfig`: Implements configuration management
-- `VersionInfo`: Implements configuration management
-- `async_delete`: Implements configuration management
+- `AssociationsConfig`: Performs AssociationsConfig operation in configdb.hpp
+- `ColorsConfig`: Performs ColorsConfig operation in configdb.hpp
+- `FarColor`: Performs FarColor operation in configdb.hpp
+- `GeneralConfig`: Performs GeneralConfig operation in configdb.hpp
+- `HierarchicalConfig`: Performs HierarchicalConfig operation in configdb.hpp
+- `HistoryConfig`: Performs HistoryConfig operation in configdb.hpp
+- `PluginsCacheConfig`: Performs PluginsCacheConfig operation in configdb.hpp
+- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation in configdb.hpp
+- `VersionInfo`: Performs VersionInfo operation in configdb.hpp
+- `async_delete`: Performs async_delete operation in configdb.hpp
 ### Key Functions
-- `GetValue()`: Retrieves specific configuration value by key name
-- `ValuesEnumerator()`: Executes ValuesEnumerator operation as part of configuration management
-- `get()`: Retrieves specific configuration value by key name
-- `bool()`: Executes bool operation as part of configuration management
-- `KeysEnumerator()`: Executes KeysEnumerator operation as part of configuration management
-- `EnumKeys()`: Executes EnumKeys operation as part of configuration management
-- `EnumValues()`: Executes EnumValues operation as part of configuration management
-- `ToSettingsType()`: Updates configuration value for specified key
-- `MasksEnumerator()`: Executes MasksEnumerator operation as part of configuration management
-- `EnumMasks()`: Executes EnumMasks operation as part of configuration management
+- `GetValue()`: Retrieves Value value in configdb.hpp
+- `ValuesEnumerator()`: Performs ValuesEnumerator operation in configdb.hpp
+- `get()`: Retrieves  value in configdb.hpp
+- `bool()`: Performs bool operation in configdb.hpp
+- `KeysEnumerator()`: Performs KeysEnumerator operation in configdb.hpp
+- `EnumKeys()`: Performs EnumKeys operation in configdb.hpp
+- `EnumValues()`: Performs EnumValues operation in configdb.hpp
+- `ToSettingsType()`: Performs ToSettingsType operation in configdb.hpp
+- `MasksEnumerator()`: Performs MasksEnumerator operation in configdb.hpp
+- `EnumMasks()`: Performs EnumMasks operation in configdb.hpp
 ### Namespaces
 - `concurrency`
 - `detail`
@@ -39,27 +39,27 @@ The `configdb.hpp` file provides essential functionality for configuration manag
 Ten plik implementuje funkcjonalność związaną z: хранение настроек в базе sqlite.
 Główne obszary funkcjonalne: zarządzanie konfiguracją
 ### Kluczowe Klasy
-- `AssociationsConfig`: Implementuje zarządzanie konfiguracją
-- `ColorsConfig`: Implementuje zarządzanie konfiguracją
-- `FarColor`: Implementuje zarządzanie konfiguracją
-- `GeneralConfig`: Implementuje zarządzanie konfiguracją
-- `HierarchicalConfig`: Implementuje zarządzanie konfiguracją
-- `HistoryConfig`: Implementuje zarządzanie konfiguracją
-- `PluginsCacheConfig`: Implementuje zarządzanie konfiguracją
-- `PluginsHotkeysConfig`: Implementuje zarządzanie konfiguracją
-- `VersionInfo`: Implementuje zarządzanie konfiguracją
-- `async_delete`: Implementuje zarządzanie konfiguracją
+- `AssociationsConfig`: Performs AssociationsConfig operation in configdb.hpp
+- `ColorsConfig`: Performs ColorsConfig operation in configdb.hpp
+- `FarColor`: Performs FarColor operation in configdb.hpp
+- `GeneralConfig`: Performs GeneralConfig operation in configdb.hpp
+- `HierarchicalConfig`: Performs HierarchicalConfig operation in configdb.hpp
+- `HistoryConfig`: Performs HistoryConfig operation in configdb.hpp
+- `PluginsCacheConfig`: Performs PluginsCacheConfig operation in configdb.hpp
+- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation in configdb.hpp
+- `VersionInfo`: Performs VersionInfo operation in configdb.hpp
+- `async_delete`: Performs async_delete operation in configdb.hpp
 ### Kluczowe Funkcje
-- `GetValue()`: Pobiera specific configuration wartość by key name
-- `ValuesEnumerator()`: Wykonuje ValuesEnumerator operację jako część zarządzanie konfiguracją
-- `get()`: Pobiera specific configuration wartość by key name
-- `bool()`: Wykonuje bool operację jako część zarządzanie konfiguracją
-- `KeysEnumerator()`: Wykonuje KeysEnumerator operację jako część zarządzanie konfiguracją
-- `EnumKeys()`: Wykonuje EnumKeys operację jako część zarządzanie konfiguracją
-- `EnumValues()`: Wykonuje EnumValues operację jako część zarządzanie konfiguracją
-- `ToSettingsType()`: Aktualizuje configuration wartość for specified key
-- `MasksEnumerator()`: Wykonuje MasksEnumerator operację jako część zarządzanie konfiguracją
-- `EnumMasks()`: Wykonuje EnumMasks operację jako część zarządzanie konfiguracją
+- `GetValue()`: Retrieves Value value in configdb.hpp
+- `ValuesEnumerator()`: Performs ValuesEnumerator operation in configdb.hpp
+- `get()`: Retrieves  value in configdb.hpp
+- `bool()`: Performs bool operation in configdb.hpp
+- `KeysEnumerator()`: Performs KeysEnumerator operation in configdb.hpp
+- `EnumKeys()`: Performs EnumKeys operation in configdb.hpp
+- `EnumValues()`: Performs EnumValues operation in configdb.hpp
+- `ToSettingsType()`: Performs ToSettingsType operation in configdb.hpp
+- `MasksEnumerator()`: Performs MasksEnumerator operation in configdb.hpp
+- `EnumMasks()`: Performs EnumMasks operation in configdb.hpp
 ### Przestrzenie nazw
 - `concurrency`
 - `detail`

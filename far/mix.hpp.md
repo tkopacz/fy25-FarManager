@@ -4,22 +4,22 @@
 This file implements functionality related to: Mix
 Main functional areas: core functionality
 ### Key Classes
-- `PluginPanelItemHolder`: Implements core functionality
-- `PluginPanelItemHolderHeap`: Implements core functionality
-- `SetAutocomplete`: Implements core functionality
-- `plugin_item_list`: Implements core functionality
-- `std`: Implements core functionality
+- `PluginPanelItemHolder`: Performs PluginPanelItemHolder operation in mix.hpp
+- `PluginPanelItemHolderHeap`: Performs PluginPanelItemHolderHeap operation in mix.hpp
+- `SetAutocomplete`: Sets or updates Autocomplete value in mix.hpp
+- `plugin_item_list`: Performs plugin_item_list operation in mix.hpp
+- `std`: Performs std operation in mix.hpp
 ### Key Functions
-- `ToPercent()`: Executes ToPercent operation as part of core functionality
-- `FromPercent()`: Executes FromPercent operation as part of core functionality
-- `MakeTemp()`: Executes MakeTemp operation as part of core functionality
-- `MakeTempInSameDir()`: Executes MakeTempInSameDir operation as part of core functionality
-- `PluginPanelItemToFindDataEx()`: Executes PluginPanelItemToFindDataEx operation as part of core functionality
-- `set_name()`: Updates _name in internal state or configuration
-- `set_alt_name()`: Updates _alt_name in internal state or configuration
-- `set_description()`: Updates _description in internal state or configuration
-- `set_owner()`: Updates _owner in internal state or configuration
-- `set_columns()`: Updates _columns in internal state or configuration
+- `ToPercent()`: Performs ToPercent operation in mix.hpp
+- `FromPercent()`: Performs FromPercent operation in mix.hpp
+- `MakeTemp()`: Performs MakeTemp operation in mix.hpp
+- `MakeTempInSameDir()`: Performs MakeTempInSameDir operation in mix.hpp
+- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation in mix.hpp
+- `set_name()`: Sets or updates _name value in mix.hpp
+- `set_alt_name()`: Sets or updates _alt_name value in mix.hpp
+- `set_description()`: Sets or updates _description value in mix.hpp
+- `set_owner()`: Sets or updates _owner value in mix.hpp
+- `set_columns()`: Sets or updates _columns value in mix.hpp
 ### Summary
 The `mix.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -30,21 +30,21 @@ The `mix.hpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Mix
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PluginPanelItemHolder`: Implementuje podstawowa funkcjonalność
-- `PluginPanelItemHolderHeap`: Implementuje podstawowa funkcjonalność
-- `SetAutocomplete`: Implementuje podstawowa funkcjonalność
-- `plugin_item_list`: Implementuje podstawowa funkcjonalność
-- `std`: Implementuje podstawowa funkcjonalność
+- `PluginPanelItemHolder`: Performs PluginPanelItemHolder operation in mix.hpp
+- `PluginPanelItemHolderHeap`: Performs PluginPanelItemHolderHeap operation in mix.hpp
+- `SetAutocomplete`: Sets or updates Autocomplete value in mix.hpp
+- `plugin_item_list`: Performs plugin_item_list operation in mix.hpp
+- `std`: Performs std operation in mix.hpp
 ### Kluczowe Funkcje
-- `ToPercent()`: Wykonuje ToPercent operację jako część podstawowa funkcjonalność
-- `FromPercent()`: Wykonuje FromPercent operację jako część podstawowa funkcjonalność
-- `MakeTemp()`: Wykonuje MakeTemp operację jako część podstawowa funkcjonalność
-- `MakeTempInSameDir()`: Wykonuje MakeTempInSameDir operację jako część podstawowa funkcjonalność
-- `PluginPanelItemToFindDataEx()`: Wykonuje PluginPanelItemToFindDataEx operację jako część podstawowa funkcjonalność
-- `set_name()`: Aktualizuje _name w stanie wewnętrznym lub konfiguracji
-- `set_alt_name()`: Aktualizuje _alt_name w stanie wewnętrznym lub konfiguracji
-- `set_description()`: Aktualizuje _description w stanie wewnętrznym lub konfiguracji
-- `set_owner()`: Aktualizuje _owner w stanie wewnętrznym lub konfiguracji
-- `set_columns()`: Aktualizuje _columns w stanie wewnętrznym lub konfiguracji
+- `ToPercent()`: Performs ToPercent operation in mix.hpp
+- `FromPercent()`: Performs FromPercent operation in mix.hpp
+- `MakeTemp()`: Performs MakeTemp operation in mix.hpp
+- `MakeTempInSameDir()`: Performs MakeTempInSameDir operation in mix.hpp
+- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation in mix.hpp
+- `set_name()`: Sets or updates _name value in mix.hpp
+- `set_alt_name()`: Sets or updates _alt_name value in mix.hpp
+- `set_description()`: Sets or updates _description value in mix.hpp
+- `set_owner()`: Sets or updates _owner value in mix.hpp
+- `set_columns()`: Sets or updates _columns value in mix.hpp
 ### Podsumowanie
 Plik `mix.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

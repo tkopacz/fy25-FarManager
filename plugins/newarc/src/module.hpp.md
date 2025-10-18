@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `AddStruct`: Implements core functionality
-- `ArchiveFormatInfo`: Implements core functionality
-- `ArchiveItemInfo`: Implements core functionality
-- `ArchivePassword`: Implements core functionality
-- `ArchivePluginInfo`: Implements core functionality
-- `CloseArchiveStruct`: Implements core functionality
-- `ConfigureFormatStruct`: Implements core functionality
-- `CreateArchiveStruct`: Implements core functionality
-- `DeleteStruct`: Implements core functionality
-- `ExtractStruct`: Implements core functionality
+- `AddStruct`: Performs AddStruct operation in module.hpp
+- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation in module.hpp
+- `ArchiveItemInfo`: Performs ArchiveItemInfo operation in module.hpp
+- `ArchivePassword`: Performs ArchivePassword operation in module.hpp
+- `ArchivePluginInfo`: Performs ArchivePluginInfo operation in module.hpp
+- `CloseArchiveStruct`: Performs CloseArchiveStruct operation in module.hpp
+- `ConfigureFormatStruct`: Performs ConfigureFormatStruct operation in module.hpp
+- `CreateArchiveStruct`: Creates and initializes a new object or resource in module.hpp
+- `DeleteStruct`: Deletes or removes an item or resource in module.hpp
+- `ExtractStruct`: Performs ExtractStruct operation in module.hpp
 ### Key Functions
-- `PluginEntry()`: Executes PluginEntry operation as part of core functionality
+- `PluginEntry()`: Performs PluginEntry operation in module.hpp
 ### Summary
 The `module.hpp` file provides essential functionality for core functionality. It defines 22 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `module.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `AddStruct`: Implementuje podstawowa funkcjonalność
-- `ArchiveFormatInfo`: Implementuje podstawowa funkcjonalność
-- `ArchiveItemInfo`: Implementuje podstawowa funkcjonalność
-- `ArchivePassword`: Implementuje podstawowa funkcjonalność
-- `ArchivePluginInfo`: Implementuje podstawowa funkcjonalność
-- `CloseArchiveStruct`: Implementuje podstawowa funkcjonalność
-- `ConfigureFormatStruct`: Implementuje podstawowa funkcjonalność
-- `CreateArchiveStruct`: Implementuje podstawowa funkcjonalność
-- `DeleteStruct`: Implementuje podstawowa funkcjonalność
-- `ExtractStruct`: Implementuje podstawowa funkcjonalność
+- `AddStruct`: Performs AddStruct operation in module.hpp
+- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation in module.hpp
+- `ArchiveItemInfo`: Performs ArchiveItemInfo operation in module.hpp
+- `ArchivePassword`: Performs ArchivePassword operation in module.hpp
+- `ArchivePluginInfo`: Performs ArchivePluginInfo operation in module.hpp
+- `CloseArchiveStruct`: Performs CloseArchiveStruct operation in module.hpp
+- `ConfigureFormatStruct`: Performs ConfigureFormatStruct operation in module.hpp
+- `CreateArchiveStruct`: Creates and initializes a new object or resource in module.hpp
+- `DeleteStruct`: Deletes or removes an item or resource in module.hpp
+- `ExtractStruct`: Performs ExtractStruct operation in module.hpp
 ### Kluczowe Funkcje
-- `PluginEntry()`: Wykonuje PluginEntry operację jako część podstawowa funkcjonalność
+- `PluginEntry()`: Performs PluginEntry operation in module.hpp
 ### Podsumowanie
 Plik `module.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 22 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

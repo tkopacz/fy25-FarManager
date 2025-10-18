@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `InterceptDllCall()`: Executes InterceptDllCall operation as part of core functionality
-- `CmpStr()`: Executes CmpStr operation as part of core functionality
-- `AllTrim()`: Executes AllTrim operation as part of core functionality
-- `UnQuoteText()`: Executes UnQuoteText operation as part of core functionality
-- `QuoteText()`: Executes QuoteText operation as part of core functionality
-- `lstrcpy()`: Executes lstrcpy operation as part of core functionality
-- `CheckFirstBackSlash()`: Validates data integrity and checks for correctness
-- `CheckRLen()`: Validates data integrity and checks for correctness
-- `CheckLen()`: Validates data integrity and checks for correctness
-- `GetMsg()`: Retrieves Msg from internal state or data structure
+- `InterceptDllCall()`: Performs InterceptDllCall operation in MacroMix.cpp
+- `CmpStr()`: Performs CmpStr operation in MacroMix.cpp
+- `AllTrim()`: Performs AllTrim operation in MacroMix.cpp
+- `UnQuoteText()`: Performs UnQuoteText operation in MacroMix.cpp
+- `QuoteText()`: Performs QuoteText operation in MacroMix.cpp
+- `lstrcpy()`: Performs lstrcpy operation in MacroMix.cpp
+- `CheckFirstBackSlash()`: Performs CheckFirstBackSlash operation in MacroMix.cpp
+- `CheckRLen()`: Performs CheckRLen operation in MacroMix.cpp
+- `CheckLen()`: Performs CheckLen operation in MacroMix.cpp
+- `GetMsg()`: Retrieves Msg value in MacroMix.cpp
 ### Summary
 The `MacroMix.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `MacroMix.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `InterceptDllCall()`: Wykonuje InterceptDllCall operację jako część podstawowa funkcjonalność
-- `CmpStr()`: Wykonuje CmpStr operację jako część podstawowa funkcjonalność
-- `AllTrim()`: Wykonuje AllTrim operację jako część podstawowa funkcjonalność
-- `UnQuoteText()`: Wykonuje UnQuoteText operację jako część podstawowa funkcjonalność
-- `QuoteText()`: Wykonuje QuoteText operację jako część podstawowa funkcjonalność
-- `lstrcpy()`: Wykonuje lstrcpy operację jako część podstawowa funkcjonalność
-- `CheckFirstBackSlash()`: Waliduje integralność danych i sprawdza poprawność
-- `CheckRLen()`: Waliduje integralność danych i sprawdza poprawność
-- `CheckLen()`: Waliduje integralność danych i sprawdza poprawność
-- `GetMsg()`: Pobiera Msg ze stanu wewnętrznego lub struktury danych
+- `InterceptDllCall()`: Performs InterceptDllCall operation in MacroMix.cpp
+- `CmpStr()`: Performs CmpStr operation in MacroMix.cpp
+- `AllTrim()`: Performs AllTrim operation in MacroMix.cpp
+- `UnQuoteText()`: Performs UnQuoteText operation in MacroMix.cpp
+- `QuoteText()`: Performs QuoteText operation in MacroMix.cpp
+- `lstrcpy()`: Performs lstrcpy operation in MacroMix.cpp
+- `CheckFirstBackSlash()`: Performs CheckFirstBackSlash operation in MacroMix.cpp
+- `CheckRLen()`: Performs CheckRLen operation in MacroMix.cpp
+- `CheckLen()`: Performs CheckLen operation in MacroMix.cpp
+- `GetMsg()`: Retrieves Msg value in MacroMix.cpp
 ### Podsumowanie
 Plik `MacroMix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

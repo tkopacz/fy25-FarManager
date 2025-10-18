@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `JMPOpCode`: Implements core functionality
+- `JMPOpCode`: Performs JMPOpCode operation in xxH.cpp
 ### Key Functions
-- `PushProcHookInfo()`: Executes PushProcHookInfo operation as part of core functionality
-- `PopProcHookInfo()`: Executes PopProcHookInfo operation as part of core functionality
-- `doBPUnwindJMP()`: Executes doBPUnwindJMP operation as part of core functionality
-- `doBPUnwind()`: Executes doBPUnwind operation as part of core functionality
-- `Subst_Function()`: Executes Subst_Function operation as part of core functionality
-- `MakeAddrWritable()`: Executes MakeAddrWritable operation as part of core functionality
-- `InitHook_Proc()`: Initializes data structures and sets up initial state for operation
+- `PushProcHookInfo()`: Used to temprorary save EAX
+- `PopProcHookInfo()`: Performs PopProcHookInfo operation in xxH.cpp
+- `doBPUnwindJMP()`: Performs doBPUnwindJMP operation in xxH.cpp
+- `doBPUnwind()`: Performs doBPUnwind operation in xxH.cpp
+- `Subst_Function()`: Performs Subst_Function operation in xxH.cpp
+- `MakeAddrWritable()`: Patch first 6 byte to call new handler
+- `InitHook_Proc()`: Checks a condition in xxH.cpp and returns true or false based on the result
 ### Summary
 The `xxH.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `xxH.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `JMPOpCode`: Implementuje podstawowa funkcjonalność
+- `JMPOpCode`: Performs JMPOpCode operation in xxH.cpp
 ### Kluczowe Funkcje
-- `PushProcHookInfo()`: Wykonuje PushProcHookInfo operację jako część podstawowa funkcjonalność
-- `PopProcHookInfo()`: Wykonuje PopProcHookInfo operację jako część podstawowa funkcjonalność
-- `doBPUnwindJMP()`: Wykonuje doBPUnwindJMP operację jako część podstawowa funkcjonalność
-- `doBPUnwind()`: Wykonuje doBPUnwind operację jako część podstawowa funkcjonalność
-- `Subst_Function()`: Wykonuje Subst_Function operację jako część podstawowa funkcjonalność
-- `MakeAddrWritable()`: Wykonuje MakeAddrWritable operację jako część podstawowa funkcjonalność
-- `InitHook_Proc()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `PushProcHookInfo()`: Used to temprorary save EAX
+- `PopProcHookInfo()`: Performs PopProcHookInfo operation in xxH.cpp
+- `doBPUnwindJMP()`: Performs doBPUnwindJMP operation in xxH.cpp
+- `doBPUnwind()`: Performs doBPUnwind operation in xxH.cpp
+- `Subst_Function()`: Performs Subst_Function operation in xxH.cpp
+- `MakeAddrWritable()`: Patch first 6 byte to call new handler
+- `InitHook_Proc()`: Checks a condition in xxH.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `xxH.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `async_impl`: Implements core functionality
-- `console_color`: Implements core functionality
-- `discardable`: Implements core functionality
-- `engine`: Implements core functionality
-- `engine_status`: Implements core functionality
-- `message`: Implements core functionality
-- `no_config`: Implements core functionality
-- `sink`: Implements core functionality
-- `sink_boilerplate`: Implements core functionality
-- `sink_composite`: Implements core functionality
+- `async_impl`: Performs async_impl operation in log.cpp
+- `console_color`: Performs console_color operation in log.cpp
+- `discardable`: Performs discardable operation in log.cpp
+- `engine`: Performs engine operation in log.cpp
+- `engine_status`: Performs engine_status operation in log.cpp
+- `message`: Performs message operation in log.cpp
+- `no_config`: Performs no_config operation in log.cpp
+- `sink`: Performs sink operation in log.cpp
+- `sink_boilerplate`: Performs sink_boilerplate operation in log.cpp
+- `sink_composite`: Performs sink_composite operation in log.cpp
 ### Key Functions
-- `get()`: Retrieves value from internal state or data structure
-- `parameter()`: Executes parameter operation as part of core functionality
-- `get_parameter()`: Retrieves _parameter from internal state or data structure
-- `sink_parameter()`: Executes sink_parameter operation as part of core functionality
-- `get_sink_parameter()`: Retrieves _sink_parameter from internal state or data structure
-- `parse_level()`: Parses input string or data into structured format
-- `STRLEVEL()`: Executes STRLEVEL operation as part of core functionality
-- `level_to_string()`: Converts object to string representation for display or serialization
-- `level_to_color()`: Executes level_to_color operation as part of core functionality
-- `get_thread_id()`: Retrieves _thread_id from internal state or data structure
+- `get()`: Retrieves  value in log.cpp
+- `parameter()`: Performs parameter operation in log.cpp
+- `get_parameter()`: Retrieves _parameter value in log.cpp
+- `sink_parameter()`: Performs sink_parameter operation in log.cpp
+- `get_sink_parameter()`: Retrieves _sink_parameter value in log.cpp
+- `parse_level()`: Performs parse_level operation in log.cpp
+- `STRLEVEL()`: Performs STRLEVEL operation in log.cpp
+- `level_to_string()`: Performs level_to_string operation in log.cpp
+- `level_to_color()`: Performs level_to_color operation in log.cpp
+- `get_thread_id()`: Retrieves _thread_id value in log.cpp
 ### Namespaces
 - `logging`
 ### Summary
@@ -35,27 +35,27 @@ The `log.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `async_impl`: Implementuje podstawowa funkcjonalność
-- `console_color`: Implementuje podstawowa funkcjonalność
-- `discardable`: Implementuje podstawowa funkcjonalność
-- `engine`: Implementuje podstawowa funkcjonalność
-- `engine_status`: Implementuje podstawowa funkcjonalność
-- `message`: Implementuje podstawowa funkcjonalność
-- `no_config`: Implementuje podstawowa funkcjonalność
-- `sink`: Implementuje podstawowa funkcjonalność
-- `sink_boilerplate`: Implementuje podstawowa funkcjonalność
-- `sink_composite`: Implementuje podstawowa funkcjonalność
+- `async_impl`: Performs async_impl operation in log.cpp
+- `console_color`: Performs console_color operation in log.cpp
+- `discardable`: Performs discardable operation in log.cpp
+- `engine`: Performs engine operation in log.cpp
+- `engine_status`: Performs engine_status operation in log.cpp
+- `message`: Performs message operation in log.cpp
+- `no_config`: Performs no_config operation in log.cpp
+- `sink`: Performs sink operation in log.cpp
+- `sink_boilerplate`: Performs sink_boilerplate operation in log.cpp
+- `sink_composite`: Performs sink_composite operation in log.cpp
 ### Kluczowe Funkcje
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `parameter()`: Wykonuje parameter operację jako część podstawowa funkcjonalność
-- `get_parameter()`: Pobiera _parameter ze stanu wewnętrznego lub struktury danych
-- `sink_parameter()`: Wykonuje sink_parameter operację jako część podstawowa funkcjonalność
-- `get_sink_parameter()`: Pobiera _sink_parameter ze stanu wewnętrznego lub struktury danych
-- `parse_level()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `STRLEVEL()`: Wykonuje STRLEVEL operację jako część podstawowa funkcjonalność
-- `level_to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `level_to_color()`: Wykonuje level_to_color operację jako część podstawowa funkcjonalność
-- `get_thread_id()`: Pobiera _thread_id ze stanu wewnętrznego lub struktury danych
+- `get()`: Retrieves  value in log.cpp
+- `parameter()`: Performs parameter operation in log.cpp
+- `get_parameter()`: Retrieves _parameter value in log.cpp
+- `sink_parameter()`: Performs sink_parameter operation in log.cpp
+- `get_sink_parameter()`: Retrieves _sink_parameter value in log.cpp
+- `parse_level()`: Performs parse_level operation in log.cpp
+- `STRLEVEL()`: Performs STRLEVEL operation in log.cpp
+- `level_to_string()`: Performs level_to_string operation in log.cpp
+- `level_to_color()`: Performs level_to_color operation in log.cpp
+- `get_thread_id()`: Retrieves _thread_id value in log.cpp
 ### Przestrzenie nazw
 - `logging`
 ### Podsumowanie

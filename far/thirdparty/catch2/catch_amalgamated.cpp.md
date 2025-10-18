@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AssertionPrinter`: Implements singleton implementation
-- `BySectionInfo`: Implements singleton implementation
-- `CerrStream`: Implements singleton implementation
-- `ColumnBreak`: Implements singleton implementation
-- `ColumnInfo`: Implements singleton implementation
-- `ConsoleAssertionPrinter`: Implements singleton implementation
-- `Duration`: Implements singleton implementation
-- `Endianness`: Implements singleton implementation
-- `FileRedirect`: Implements singleton implementation
-- `FloatingPointKind`: Implements singleton implementation
+- `AssertionPrinter`: Implementation of CompactReporter formatting
+- `BySectionInfo`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `CerrStream`: cout may get redirected when running tests
+- `ColumnBreak`: Performs ColumnBreak operation in catch_amalgamated.cpp
+- `ColumnInfo`: Performs ColumnInfo operation in catch_amalgamated.cpp
+- `ConsoleAssertionPrinter`: For simplicity, benchmarking-only helpers are always enabled
+- `Duration`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `Endianness`: Performs Endianness operation in catch_amalgamated.cpp
+- `FileRedirect`: Flushes cout/cerr/clog streams and stdout/stderr FDs
+- `FloatingPointKind`: Performs FloatingPointKind operation in catch_amalgamated.cpp
 ### Key Functions
-- `analyse()`: Executes analyse operation as part of singleton implementation
-- `throw_optimized_away_error()`: Executes throw_optimized_away_error operation as part of singleton implementation
-- `resample()`: Executes resample operation as part of singleton implementation
-- `outlier_variance()`: Executes outlier_variance operation as part of singleton implementation
-- `erf_inv()`: Executes erf_inv operation as part of singleton implementation
-- `standard_deviation()`: Executes standard_deviation operation as part of singleton implementation
-- `weighted_average_quantile()`: Executes weighted_average_quantile operation as part of singleton implementation
-- `classify_outliers()`: Executes classify_outliers operation as part of singleton implementation
-- `mean()`: Executes mean operation as part of singleton implementation
-- `normal_cdf()`: Executes normal_cdf operation as part of singleton implementation
+- `analyse()`: defined(CATCH_PLATFORM_WINDOWS)
+- `throw_optimized_away_error()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
+- `resample()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
+- `outlier_variance()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `erf_inv()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `standard_deviation()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `weighted_average_quantile()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `classify_outliers()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `mean()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `normal_cdf()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
 ### Namespaces
 - `Benchmark`
 - `Catch`
@@ -52,27 +52,27 @@ The `catch_amalgamated.cpp` file provides essential functionality for singleton 
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `AssertionPrinter`: Implementuje implementacja singletona
-- `BySectionInfo`: Implementuje implementacja singletona
-- `CerrStream`: Implementuje implementacja singletona
-- `ColumnBreak`: Implementuje implementacja singletona
-- `ColumnInfo`: Implementuje implementacja singletona
-- `ConsoleAssertionPrinter`: Implementuje implementacja singletona
-- `Duration`: Implementuje implementacja singletona
-- `Endianness`: Implementuje implementacja singletona
-- `FileRedirect`: Implementuje implementacja singletona
-- `FloatingPointKind`: Implementuje implementacja singletona
+- `AssertionPrinter`: Implementation of CompactReporter formatting
+- `BySectionInfo`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `CerrStream`: cout may get redirected when running tests
+- `ColumnBreak`: Performs ColumnBreak operation in catch_amalgamated.cpp
+- `ColumnInfo`: Performs ColumnInfo operation in catch_amalgamated.cpp
+- `ConsoleAssertionPrinter`: For simplicity, benchmarking-only helpers are always enabled
+- `Duration`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `Endianness`: Performs Endianness operation in catch_amalgamated.cpp
+- `FileRedirect`: Flushes cout/cerr/clog streams and stdout/stderr FDs
+- `FloatingPointKind`: Performs FloatingPointKind operation in catch_amalgamated.cpp
 ### Kluczowe Funkcje
-- `analyse()`: Wykonuje analyse operację jako część implementacja singletona
-- `throw_optimized_away_error()`: Wykonuje throw_optimized_away_error operację jako część implementacja singletona
-- `resample()`: Wykonuje resample operację jako część implementacja singletona
-- `outlier_variance()`: Wykonuje outlier_variance operację jako część implementacja singletona
-- `erf_inv()`: Wykonuje erf_inv operację jako część implementacja singletona
-- `standard_deviation()`: Wykonuje standard_deviation operację jako część implementacja singletona
-- `weighted_average_quantile()`: Wykonuje weighted_average_quantile operację jako część implementacja singletona
-- `classify_outliers()`: Wykonuje classify_outliers operację jako część implementacja singletona
-- `mean()`: Wykonuje mean operację jako część implementacja singletona
-- `normal_cdf()`: Wykonuje normal_cdf operację jako część implementacja singletona
+- `analyse()`: defined(CATCH_PLATFORM_WINDOWS)
+- `throw_optimized_away_error()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
+- `resample()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
+- `outlier_variance()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `erf_inv()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `standard_deviation()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `weighted_average_quantile()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `classify_outliers()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `mean()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- `normal_cdf()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
 ### Przestrzenie nazw
 - `Benchmark`
 - `Catch`

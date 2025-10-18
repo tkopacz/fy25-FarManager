@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `wmain()`: Executes wmain operation as part of core functionality
-- `strStream()`: Executes strStream operation as part of core functionality
-- `oFeed()`: Executes oFeed operation as part of core functionality
+- `wmain()`: Main program entry point that reads language files and inserts or updates translations in a template file
+- `strStream()`: String stream object used for parsing and formatting text data
+- `oFeed()`: Output file stream for writing the updated template file
 ### Summary
 The `lng.inserter.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -15,8 +15,8 @@ The `lng.inserter.cpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `wmain()`: Wykonuje wmain operację jako część podstawowa funkcjonalność
-- `strStream()`: Wykonuje strStream operację jako część podstawowa funkcjonalność
-- `oFeed()`: Wykonuje oFeed operację jako część podstawowa funkcjonalność
+- `wmain()`: Main program entry point that reads language files and inserts or updates translations in a template file
+- `strStream()`: String stream object used for parsing and formatting text data
+- `oFeed()`: Output file stream for writing the updated template file
 ### Podsumowanie
 Plik `lng.inserter.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

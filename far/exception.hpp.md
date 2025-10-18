@@ -3,25 +3,25 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `break_into_debugger`: Implements core functionality
-- `error_state_ex`: Implements core functionality
-- `far_base_exception`: Implements core functionality
-- `far_exception`: Implements core functionality
-- `far_known_exception`: Implements core functionality
-- `far_std_exception`: Implements core functionality
-- `formattable`: Implements core functionality
-- `unknown_exception_t`: Implements core functionality
+- `break_into_debugger`: Performs break_into_debugger operation in exception.hpp
+- `error_state_ex`: Performs error_state_ex operation in exception.hpp
+- `far_base_exception`: Performs far_base_exception operation in exception.hpp
+- `far_exception`: Represents all other failures, potentially continuable.
+- `far_known_exception`: Represents all other failures, potentially continuable.
+- `far_std_exception`: Performs far_std_exception operation in exception.hpp
+- `formattable`: Performs formattable operation in exception.hpp
+- `unknown_exception_t`: Performs unknown_exception_t operation in exception.hpp
 ### Key Functions
-- `any()`: Executes any operation as part of core functionality
-- `ErrnoStr()`: Executes ErrnoStr operation as part of core functionality
-- `system_error()`: Executes system_error operation as part of core functionality
-- `to_string()`: Converts object to string representation for display or serialization
-- `source_location_to_string()`: Converts object to string representation for display or serialization
-- `message()`: Constructor that initializes message object with provided parameters
-- `location()`: Constructor that initializes location object with provided parameters
-- `far_base_exception()`: Executes far_base_exception operation as part of core functionality
-- `far_std_exception()`: Executes far_std_exception operation as part of core functionality
-- `convert_message()`: Converts data from one format or type to another
+- `any()`: Performs any operation in exception.hpp
+- `ErrnoStr()`: Performs ErrnoStr operation in exception.hpp
+- `system_error()`: Performs system_error operation in exception.hpp
+- `to_string()`: Performs to_string operation in exception.hpp
+- `source_location_to_string()`: Performs source_location_to_string operation in exception.hpp
+- `message()`: Performs message operation in exception.hpp
+- `location()`: Performs location operation in exception.hpp
+- `far_base_exception()`: Performs far_base_exception operation in exception.hpp
+- `far_std_exception()`: Performs far_std_exception operation in exception.hpp
+- `convert_message()`: Performs convert_message operation in exception.hpp
 ### Namespaces
 - `detail`
 ### Summary
@@ -33,25 +33,25 @@ The `exception.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `break_into_debugger`: Implementuje podstawowa funkcjonalność
-- `error_state_ex`: Implementuje podstawowa funkcjonalność
-- `far_base_exception`: Implementuje podstawowa funkcjonalność
-- `far_exception`: Implementuje podstawowa funkcjonalność
-- `far_known_exception`: Implementuje podstawowa funkcjonalność
-- `far_std_exception`: Implementuje podstawowa funkcjonalność
-- `formattable`: Implementuje podstawowa funkcjonalność
-- `unknown_exception_t`: Implementuje podstawowa funkcjonalność
+- `break_into_debugger`: Performs break_into_debugger operation in exception.hpp
+- `error_state_ex`: Performs error_state_ex operation in exception.hpp
+- `far_base_exception`: Performs far_base_exception operation in exception.hpp
+- `far_exception`: Represents all other failures, potentially continuable.
+- `far_known_exception`: Represents all other failures, potentially continuable.
+- `far_std_exception`: Performs far_std_exception operation in exception.hpp
+- `formattable`: Performs formattable operation in exception.hpp
+- `unknown_exception_t`: Performs unknown_exception_t operation in exception.hpp
 ### Kluczowe Funkcje
-- `any()`: Wykonuje any operację jako część podstawowa funkcjonalność
-- `ErrnoStr()`: Wykonuje ErrnoStr operację jako część podstawowa funkcjonalność
-- `system_error()`: Wykonuje system_error operację jako część podstawowa funkcjonalność
-- `to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `source_location_to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `message()`: Konstruktor inicjalizujący message obiekt z dostarczonymi parametrami
-- `location()`: Konstruktor inicjalizujący location obiekt z dostarczonymi parametrami
-- `far_base_exception()`: Wykonuje far_base_exception operację jako część podstawowa funkcjonalność
-- `far_std_exception()`: Wykonuje far_std_exception operację jako część podstawowa funkcjonalność
-- `convert_message()`: Konwertuje dane z jednego formatu lub typu do innego
+- `any()`: Performs any operation in exception.hpp
+- `ErrnoStr()`: Performs ErrnoStr operation in exception.hpp
+- `system_error()`: Performs system_error operation in exception.hpp
+- `to_string()`: Performs to_string operation in exception.hpp
+- `source_location_to_string()`: Performs source_location_to_string operation in exception.hpp
+- `message()`: Performs message operation in exception.hpp
+- `location()`: Performs location operation in exception.hpp
+- `far_base_exception()`: Performs far_base_exception operation in exception.hpp
+- `far_std_exception()`: Performs far_std_exception operation in exception.hpp
+- `convert_message()`: Performs convert_message operation in exception.hpp
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

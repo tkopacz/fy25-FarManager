@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GuardCheck()`: Executes GuardCheck operation as part of core functionality
-- `GuardSet()`: Executes GuardSet operation as part of core functionality
-- `PGuard()`: Executes PGuard operation as part of core functionality
-- `idMemCmp()`: Executes idMemCmp operation as part of core functionality
-- `idUserCmp()`: Executes idUserCmp operation as part of core functionality
-- `_Del()`: Executes _Del operation as part of core functionality
-- `ItemINT()`: Executes ItemINT operation as part of core functionality
-- `Alloc()`: Executes Alloc operation as part of core functionality
-- `memset()`: Executes memset operation as part of core functionality
-- `G_SET()`: Executes G_SET operation as part of core functionality
+- `GuardCheck()`: Performs GuardCheck operation in bsArray.cpp
+- `GuardSet()`: Performs GuardSet operation in bsArray.cpp
+- `PGuard()`: Performs PGuard operation in bsArray.cpp
+- `idMemCmp()`: Performs idMemCmp operation in bsArray.cpp
+- `idUserCmp()`: Performs idUserCmp operation in bsArray.cpp
+- `_Del()`: Performs _Del operation in bsArray.cpp
+- `ItemINT()`: Performs ItemINT operation in bsArray.cpp
+- `Alloc()`: Performs Alloc operation in bsArray.cpp
+- `memset()`: Performs memset operation in bsArray.cpp
+- `G_SET()`: Performs G_SET operation in bsArray.cpp
 ### Summary
 The `bsArray.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `bsArray.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GuardCheck()`: Wykonuje GuardCheck operację jako część podstawowa funkcjonalność
-- `GuardSet()`: Wykonuje GuardSet operację jako część podstawowa funkcjonalność
-- `PGuard()`: Wykonuje PGuard operację jako część podstawowa funkcjonalność
-- `idMemCmp()`: Wykonuje idMemCmp operację jako część podstawowa funkcjonalność
-- `idUserCmp()`: Wykonuje idUserCmp operację jako część podstawowa funkcjonalność
-- `_Del()`: Wykonuje _Del operację jako część podstawowa funkcjonalność
-- `ItemINT()`: Wykonuje ItemINT operację jako część podstawowa funkcjonalność
-- `Alloc()`: Wykonuje Alloc operację jako część podstawowa funkcjonalność
-- `memset()`: Wykonuje memset operację jako część podstawowa funkcjonalność
-- `G_SET()`: Wykonuje G_SET operację jako część podstawowa funkcjonalność
+- `GuardCheck()`: Performs GuardCheck operation in bsArray.cpp
+- `GuardSet()`: Performs GuardSet operation in bsArray.cpp
+- `PGuard()`: Performs PGuard operation in bsArray.cpp
+- `idMemCmp()`: Performs idMemCmp operation in bsArray.cpp
+- `idUserCmp()`: Performs idUserCmp operation in bsArray.cpp
+- `_Del()`: Performs _Del operation in bsArray.cpp
+- `ItemINT()`: Performs ItemINT operation in bsArray.cpp
+- `Alloc()`: Performs Alloc operation in bsArray.cpp
+- `memset()`: Performs memset operation in bsArray.cpp
+- `G_SET()`: Performs G_SET operation in bsArray.cpp
 ### Podsumowanie
 Plik `bsArray.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

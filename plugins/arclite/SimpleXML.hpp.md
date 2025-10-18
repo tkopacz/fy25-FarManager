@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `IParseCallback`: Implements core functionality
-- `cbRet`: Implements core functionality
-- `parseRet`: Implements core functionality
-- `str_view`: Implements core functionality
+- `IParseCallback`: #################################################################################################
+- `cbRet`: Performs cbRet operation in SimpleXML.hpp
+- `parseRet`: Performs parseRet operation in SimpleXML.hpp
+- `str_view`: ################################################################################################
 ### Key Functions
-- `empty()`: Executes empty operation as part of core functionality
-- `size()`: Executes size operation as part of core functionality
-- `parse()`: Parses input string or data into structured format
+- `empty()`: #################################################################################################
+- `size()`: BUGBUG remove & use string_view
+- `parse()`: Performs parse operation in SimpleXML.hpp
 ### Namespaces
 - `SimpleXML`
 ### Summary
@@ -22,14 +22,14 @@ The `SimpleXML.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `IParseCallback`: Implementuje podstawowa funkcjonalność
-- `cbRet`: Implementuje podstawowa funkcjonalność
-- `parseRet`: Implementuje podstawowa funkcjonalność
-- `str_view`: Implementuje podstawowa funkcjonalność
+- `IParseCallback`: #################################################################################################
+- `cbRet`: Performs cbRet operation in SimpleXML.hpp
+- `parseRet`: Performs parseRet operation in SimpleXML.hpp
+- `str_view`: ################################################################################################
 ### Kluczowe Funkcje
-- `empty()`: Wykonuje empty operację jako część podstawowa funkcjonalność
-- `size()`: Wykonuje size operację jako część podstawowa funkcjonalność
-- `parse()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
+- `empty()`: #################################################################################################
+- `size()`: BUGBUG remove & use string_view
+- `parse()`: Performs parse operation in SimpleXML.hpp
 ### Przestrzenie nazw
 - `SimpleXML`
 ### Podsumowanie

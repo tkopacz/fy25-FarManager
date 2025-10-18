@@ -4,17 +4,17 @@
 This file implements functionality related to: Надстройка над Edit.
 Main functional areas: text editing
 ### Key Classes
-- `cmp_user_data`: Implements text editing
+- `cmp_user_data`: Performs cmp_user_data operation in editcontrol.cpp
 ### Key Functions
-- `AddSeparatorOrSetTitle()`: Adds new SeparatorOrSetTitle to collection or list
-- `ParseStringWithQuotes()`: Parses input string or data into structured format
-- `contains()`: Executes contains operation as part of text editing
-- `EnumWithQuoutes()`: Executes EnumWithQuoutes operation as part of text editing
-- `EnumFiles()`: Executes EnumFiles operation as part of text editing
-- `EnumModules()`: Executes EnumModules operation as part of text editing
-- `EnumEnvironment()`: Executes EnumEnvironment operation as part of text editing
-- `is_input_queue_empty()`: Tests whether _input_queue_empty condition is true or property exists
-- `InputRecordToKey()`: Executes InputRecordToKey operation as part of text editing
+- `AddSeparatorOrSetTitle()`: Performs AddSeparatorOrSetTitle operation in editcontrol.cpp
+- `ParseStringWithQuotes()`: Performs ParseStringWithQuotes operation in editcontrol.cpp
+- `contains()`: Performs contains operation in editcontrol.cpp
+- `EnumWithQuoutes()`: Checks a condition in editcontrol.cpp and returns true or false based on the result
+- `EnumFiles()`: Preserve the case of the already entered part
+- `EnumModules()`: Iterates through elements in editcontrol.cpp and adds them to a collection
+- `EnumEnvironment()`: Performs EnumEnvironment operation in editcontrol.cpp
+- `is_input_queue_empty()`: Checks a condition in editcontrol.cpp and returns true or false based on the result
+- `InputRecordToKey()`: Performs InputRecordToKey operation in editcontrol.cpp
 ### Summary
 The `editcontrol.cpp` file provides essential functionality for text editing. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -25,16 +25,16 @@ The `editcontrol.cpp` file provides essential functionality for text editing. It
 Ten plik implementuje funkcjonalność związaną z: Надстройка над Edit.
 Główne obszary funkcjonalne: edycja tekstu
 ### Kluczowe Klasy
-- `cmp_user_data`: Implementuje edycja tekstu
+- `cmp_user_data`: Performs cmp_user_data operation in editcontrol.cpp
 ### Kluczowe Funkcje
-- `AddSeparatorOrSetTitle()`: Dodaje nowy SeparatorOrSetTitle do kolekcji lub listy
-- `ParseStringWithQuotes()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `contains()`: Wykonuje contains operację jako część edycja tekstu
-- `EnumWithQuoutes()`: Wykonuje EnumWithQuoutes operację jako część edycja tekstu
-- `EnumFiles()`: Wykonuje EnumFiles operację jako część edycja tekstu
-- `EnumModules()`: Wykonuje EnumModules operację jako część edycja tekstu
-- `EnumEnvironment()`: Wykonuje EnumEnvironment operację jako część edycja tekstu
-- `is_input_queue_empty()`: Testuje czy _input_queue_empty warunek jest prawdziwy lub właściwość istnieje
-- `InputRecordToKey()`: Wykonuje InputRecordToKey operację jako część edycja tekstu
+- `AddSeparatorOrSetTitle()`: Performs AddSeparatorOrSetTitle operation in editcontrol.cpp
+- `ParseStringWithQuotes()`: Performs ParseStringWithQuotes operation in editcontrol.cpp
+- `contains()`: Performs contains operation in editcontrol.cpp
+- `EnumWithQuoutes()`: Checks a condition in editcontrol.cpp and returns true or false based on the result
+- `EnumFiles()`: Preserve the case of the already entered part
+- `EnumModules()`: Iterates through elements in editcontrol.cpp and adds them to a collection
+- `EnumEnvironment()`: Performs EnumEnvironment operation in editcontrol.cpp
+- `is_input_queue_empty()`: Checks a condition in editcontrol.cpp and returns true or false based on the result
+- `InputRecordToKey()`: Performs InputRecordToKey operation in editcontrol.cpp
 ### Podsumowanie
 Plik `editcontrol.cpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 1 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

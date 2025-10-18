@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `repeat()`: Executes repeat operation as part of core functionality
-- `apply_permutation()`: Executes apply_permutation operation as part of core functionality
-- `emplace()`: Executes emplace operation as part of core functionality
-- `contains()`: Executes contains operation as part of core functionality
-- `in_closed_range()`: Executes in_closed_range operation as part of core functionality
-- `any_of()`: Executes any_of operation as part of core functionality
-- `none_of()`: Executes none_of operation as part of core functionality
-- `intersect()`: Executes intersect operation as part of core functionality
+- `repeat()`: Performs repeat operation in algorithm.hpp
+- `apply_permutation()`: Performs apply_permutation operation in algorithm.hpp
+- `emplace()`: Performs emplace operation in algorithm.hpp
+- `contains()`: Performs contains operation in algorithm.hpp
+- `in_closed_range()`: Performs in_closed_range operation in algorithm.hpp
+- `any_of()`: Performs any_of operation in algorithm.hpp
+- `none_of()`: Performs none_of operation in algorithm.hpp
+- `intersect()`: Performs intersect operation in algorithm.hpp
 ### Namespaces
 - `std`
 ### Summary
@@ -22,14 +22,14 @@ The `algorithm.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `repeat()`: Wykonuje repeat operację jako część podstawowa funkcjonalność
-- `apply_permutation()`: Wykonuje apply_permutation operację jako część podstawowa funkcjonalność
-- `emplace()`: Wykonuje emplace operację jako część podstawowa funkcjonalność
-- `contains()`: Wykonuje contains operację jako część podstawowa funkcjonalność
-- `in_closed_range()`: Wykonuje in_closed_range operację jako część podstawowa funkcjonalność
-- `any_of()`: Wykonuje any_of operację jako część podstawowa funkcjonalność
-- `none_of()`: Wykonuje none_of operację jako część podstawowa funkcjonalność
-- `intersect()`: Wykonuje intersect operację jako część podstawowa funkcjonalność
+- `repeat()`: Performs repeat operation in algorithm.hpp
+- `apply_permutation()`: Performs apply_permutation operation in algorithm.hpp
+- `emplace()`: Performs emplace operation in algorithm.hpp
+- `contains()`: Performs contains operation in algorithm.hpp
+- `in_closed_range()`: Performs in_closed_range operation in algorithm.hpp
+- `any_of()`: Performs any_of operation in algorithm.hpp
+- `none_of()`: Performs none_of operation in algorithm.hpp
+- `intersect()`: Performs intersect operation in algorithm.hpp
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

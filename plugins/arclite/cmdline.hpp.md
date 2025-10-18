@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `CommandArgs`: Implements core functionality
-- `ExtractCommand`: Implements core functionality
-- `ExtractItemsCommand`: Implements core functionality
-- `OpenCommand`: Implements core functionality
-- `TestCommand`: Implements core functionality
-- `UpdateCommand`: Implements core functionality
+- `CommandArgs`: Performs CommandArgs operation in cmdline.hpp
+- `ExtractCommand`: Performs ExtractCommand operation in cmdline.hpp
+- `ExtractItemsCommand`: Performs ExtractItemsCommand operation in cmdline.hpp
+- `OpenCommand`: Performs OpenCommand operation in cmdline.hpp
+- `TestCommand`: Performs TestCommand operation in cmdline.hpp
+- `UpdateCommand`: Updates existing data or state in cmdline.hpp
 ### Key Functions
-- `parse_command()`: Parses input string or data into structured format
-- `parse_plugin_call()`: Parses input string or data into structured format
-- `parse_open_command()`: Parses input string or data into structured format
-- `parse_update_command()`: Parses input string or data into structured format
-- `parse_extract_command()`: Parses input string or data into structured format
-- `parse_extractitems_command()`: Parses input string or data into structured format
-- `parse_test_command()`: Parses input string or data into structured format
+- `parse_command()`: Performs parse_command operation in cmdline.hpp
+- `parse_plugin_call()`: Performs parse_plugin_call operation in cmdline.hpp
+- `parse_open_command()`: Performs parse_open_command operation in cmdline.hpp
+- `parse_update_command()`: Performs parse_update_command operation in cmdline.hpp
+- `parse_extract_command()`: Performs parse_extract_command operation in cmdline.hpp
+- `parse_extractitems_command()`: Performs parse_extractitems_command operation in cmdline.hpp
+- `parse_test_command()`: Performs parse_test_command operation in cmdline.hpp
 ### Summary
 The `cmdline.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
 
@@ -26,19 +26,19 @@ The `cmdline.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CommandArgs`: Implementuje podstawowa funkcjonalność
-- `ExtractCommand`: Implementuje podstawowa funkcjonalność
-- `ExtractItemsCommand`: Implementuje podstawowa funkcjonalność
-- `OpenCommand`: Implementuje podstawowa funkcjonalność
-- `TestCommand`: Implementuje podstawowa funkcjonalność
-- `UpdateCommand`: Implementuje podstawowa funkcjonalność
+- `CommandArgs`: Performs CommandArgs operation in cmdline.hpp
+- `ExtractCommand`: Performs ExtractCommand operation in cmdline.hpp
+- `ExtractItemsCommand`: Performs ExtractItemsCommand operation in cmdline.hpp
+- `OpenCommand`: Performs OpenCommand operation in cmdline.hpp
+- `TestCommand`: Performs TestCommand operation in cmdline.hpp
+- `UpdateCommand`: Updates existing data or state in cmdline.hpp
 ### Kluczowe Funkcje
-- `parse_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `parse_plugin_call()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `parse_open_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `parse_update_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `parse_extract_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `parse_extractitems_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `parse_test_command()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
+- `parse_command()`: Performs parse_command operation in cmdline.hpp
+- `parse_plugin_call()`: Performs parse_plugin_call operation in cmdline.hpp
+- `parse_open_command()`: Performs parse_open_command operation in cmdline.hpp
+- `parse_update_command()`: Performs parse_update_command operation in cmdline.hpp
+- `parse_extract_command()`: Performs parse_extract_command operation in cmdline.hpp
+- `parse_extractitems_command()`: Performs parse_extractitems_command operation in cmdline.hpp
+- `parse_test_command()`: Performs parse_test_command operation in cmdline.hpp
 ### Podsumowanie
 Plik `cmdline.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveType`: Implements core functionality
-- `AttrDialog`: Implements core functionality
-- `CompressionLevel`: Implements core functionality
-- `CompressionMethod`: Implements core functionality
-- `ExtractDialog`: Implements core functionality
-- `FormatLibraryInfoDialog`: Implements core functionality
-- `ItemCompare`: Implements core functionality
-- `MultiSelectDialog`: Implements core functionality
-- `OverwriteDialog`: Implements core functionality
-- `PasswordDialog`: Implements core functionality
+- `ArchiveType`: Performs ArchiveType operation in ui.cpp
+- `AttrDialog`: Performs AttrDialog operation in ui.cpp
+- `CompressionLevel`: Performs CompressionLevel operation in ui.cpp
+- `CompressionMethod`: Performs CompressionMethod operation in ui.cpp
+- `ExtractDialog`: Performs ExtractDialog operation in ui.cpp
+- `FormatLibraryInfoDialog`: Performs FormatLibraryInfoDialog operation in ui.cpp
+- `ItemCompare`: Iterates through elements in ui.cpp and adds them to a collection
+- `MultiSelectDialog`: Performs MultiSelectDialog operation in ui.cpp
+- `OverwriteDialog`: Performs OverwriteDialog operation in ui.cpp
+- `PasswordDialog`: Performs PasswordDialog operation in ui.cpp
 ### Key Functions
-- `get_error_dlg_title()`: Retrieves _error_dlg_title from internal state or data structure
-- `discard_time()`: Executes discard_time operation as part of core functionality
-- `ps()`: Executes ps operation as part of core functionality
-- `get_suffixes()`: Retrieves _suffixes from internal state or data structure
-- `dialog_proc()`: Executes dialog_proc operation as part of core functionality
-- `default_dialog_proc()`: Executes default_dialog_proc operation as part of core functionality
-- `show()`: Displays content or makes visual element visible on screen
-- `password_dialog()`: Executes password_dialog operation as part of core functionality
-- `FAIL()`: Executes FAIL operation as part of core functionality
-- `overwrite_dialog()`: Executes overwrite_dialog operation as part of core functionality
+- `get_error_dlg_title()`: Retrieves _error_dlg_title value in ui.cpp
+- `discard_time()`: Performs discard_time operation in ui.cpp
+- `ps()`: Performs ps operation in ui.cpp
+- `get_suffixes()`: Retrieves _suffixes value in ui.cpp
+- `dialog_proc()`: Performs dialog_proc operation in ui.cpp
+- `default_dialog_proc()`: Performs default_dialog_proc operation in ui.cpp
+- `show()`: Performs show operation in ui.cpp
+- `password_dialog()`: Performs password_dialog operation in ui.cpp
+- `FAIL()`: Performs FAIL operation in ui.cpp
+- `overwrite_dialog()`: Performs overwrite_dialog operation in ui.cpp
 ### Summary
 The `ui.cpp` file provides essential functionality for core functionality. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -33,26 +33,26 @@ The `ui.cpp` file provides essential functionality for core functionality. It de
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveType`: Implementuje podstawowa funkcjonalność
-- `AttrDialog`: Implementuje podstawowa funkcjonalność
-- `CompressionLevel`: Implementuje podstawowa funkcjonalność
-- `CompressionMethod`: Implementuje podstawowa funkcjonalność
-- `ExtractDialog`: Implementuje podstawowa funkcjonalność
-- `FormatLibraryInfoDialog`: Implementuje podstawowa funkcjonalność
-- `ItemCompare`: Implementuje podstawowa funkcjonalność
-- `MultiSelectDialog`: Implementuje podstawowa funkcjonalność
-- `OverwriteDialog`: Implementuje podstawowa funkcjonalność
-- `PasswordDialog`: Implementuje podstawowa funkcjonalność
+- `ArchiveType`: Performs ArchiveType operation in ui.cpp
+- `AttrDialog`: Performs AttrDialog operation in ui.cpp
+- `CompressionLevel`: Performs CompressionLevel operation in ui.cpp
+- `CompressionMethod`: Performs CompressionMethod operation in ui.cpp
+- `ExtractDialog`: Performs ExtractDialog operation in ui.cpp
+- `FormatLibraryInfoDialog`: Performs FormatLibraryInfoDialog operation in ui.cpp
+- `ItemCompare`: Iterates through elements in ui.cpp and adds them to a collection
+- `MultiSelectDialog`: Performs MultiSelectDialog operation in ui.cpp
+- `OverwriteDialog`: Performs OverwriteDialog operation in ui.cpp
+- `PasswordDialog`: Performs PasswordDialog operation in ui.cpp
 ### Kluczowe Funkcje
-- `get_error_dlg_title()`: Pobiera _error_dlg_title ze stanu wewnętrznego lub struktury danych
-- `discard_time()`: Wykonuje discard_time operację jako część podstawowa funkcjonalność
-- `ps()`: Wykonuje ps operację jako część podstawowa funkcjonalność
-- `get_suffixes()`: Pobiera _suffixes ze stanu wewnętrznego lub struktury danych
-- `dialog_proc()`: Wykonuje dialog_proc operację jako część podstawowa funkcjonalność
-- `default_dialog_proc()`: Wykonuje default_dialog_proc operację jako część podstawowa funkcjonalność
-- `show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `password_dialog()`: Wykonuje password_dialog operację jako część podstawowa funkcjonalność
-- `FAIL()`: Wykonuje FAIL operację jako część podstawowa funkcjonalność
-- `overwrite_dialog()`: Wykonuje overwrite_dialog operację jako część podstawowa funkcjonalność
+- `get_error_dlg_title()`: Retrieves _error_dlg_title value in ui.cpp
+- `discard_time()`: Performs discard_time operation in ui.cpp
+- `ps()`: Performs ps operation in ui.cpp
+- `get_suffixes()`: Retrieves _suffixes value in ui.cpp
+- `dialog_proc()`: Performs dialog_proc operation in ui.cpp
+- `default_dialog_proc()`: Performs default_dialog_proc operation in ui.cpp
+- `show()`: Performs show operation in ui.cpp
+- `password_dialog()`: Performs password_dialog operation in ui.cpp
+- `FAIL()`: Performs FAIL operation in ui.cpp
+- `overwrite_dialog()`: Performs overwrite_dialog operation in ui.cpp
 ### Podsumowanie
 Plik `ui.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

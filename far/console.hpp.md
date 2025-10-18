@@ -4,23 +4,23 @@
 This file implements functionality related to: Console functions
 Main functional areas: console operations
 ### Key Classes
-- `console`: Implements console operations
-- `console_aliases`: Implements console operations
-- `data`: Implements console operations
-- `implementation`: Implements console operations
-- `input_queue_inspector`: Implements console operations
-- `stream_buffers_overrider`: Implements console operations
+- `console`: Performs console operation in console.hpp
+- `console_aliases`: Performs console_aliases operation in console.hpp
+- `data`: Performs data operation in console.hpp
+- `implementation`: Performs implementation operation in console.hpp
+- `input_queue_inspector`: Performs input_queue_inspector operation in console.hpp
+- `stream_buffers_overrider`: Performs stream_buffers_overrider operation in console.hpp
 ### Key Functions
-- `ReplaceControlCharacter()`: Executes ReplaceControlCharacter operation as part of console operations
-- `sanitise_pair()`: Executes sanitise_pair operation as part of console operations
-- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info from internal state or data structure
-- `Allocate()`: Executes Allocate operation as part of console operations
-- `Free()`: Executes Free operation as part of console operations
-- `GetInputHandle()`: Retrieves InputHandle from internal state or data structure
-- `GetOutputHandle()`: Retrieves OutputHandle from internal state or data structure
-- `GetErrorHandle()`: Retrieves ErrorHandle from internal state or data structure
-- `GetOriginalInputHandle()`: Retrieves OriginalInputHandle from internal state or data structure
-- `GetWindow()`: Retrieves Window from internal state or data structure
+- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation in console.hpp
+- `sanitise_pair()`: Performs sanitise_pair operation in console.hpp
+- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info value in console.hpp
+- `Allocate()`: Performs Allocate operation in console.hpp
+- `Free()`: Performs Free operation in console.hpp
+- `GetInputHandle()`: Retrieves InputHandle value in console.hpp
+- `GetOutputHandle()`: Retrieves OutputHandle value in console.hpp
+- `GetErrorHandle()`: Retrieves ErrorHandle value in console.hpp
+- `GetOriginalInputHandle()`: Retrieves OriginalInputHandle value in console.hpp
+- `GetWindow()`: Retrieves Window value in console.hpp
 ### Namespaces
 - `console_detail`
 ### Summary
@@ -33,23 +33,23 @@ The `console.hpp` file provides essential functionality for console operations. 
 Ten plik implementuje funkcjonalność związaną z: Console functions
 Główne obszary funkcjonalne: operacje konsolowe
 ### Kluczowe Klasy
-- `console`: Implementuje operacje konsolowe
-- `console_aliases`: Implementuje operacje konsolowe
-- `data`: Implementuje operacje konsolowe
-- `implementation`: Implementuje operacje konsolowe
-- `input_queue_inspector`: Implementuje operacje konsolowe
-- `stream_buffers_overrider`: Implementuje operacje konsolowe
+- `console`: Performs console operation in console.hpp
+- `console_aliases`: Performs console_aliases operation in console.hpp
+- `data`: Performs data operation in console.hpp
+- `implementation`: Performs implementation operation in console.hpp
+- `input_queue_inspector`: Performs input_queue_inspector operation in console.hpp
+- `stream_buffers_overrider`: Performs stream_buffers_overrider operation in console.hpp
 ### Kluczowe Funkcje
-- `ReplaceControlCharacter()`: Wykonuje ReplaceControlCharacter operację jako część operacje konsolowe
-- `sanitise_pair()`: Wykonuje sanitise_pair operację jako część operacje konsolowe
-- `get_console_screen_buffer_info()`: Pobiera _console_screen_buffer_info ze stanu wewnętrznego lub struktury danych
-- `Allocate()`: Wykonuje Allocate operację jako część operacje konsolowe
-- `Free()`: Wykonuje Free operację jako część operacje konsolowe
-- `GetInputHandle()`: Pobiera InputHandle ze stanu wewnętrznego lub struktury danych
-- `GetOutputHandle()`: Pobiera OutputHandle ze stanu wewnętrznego lub struktury danych
-- `GetErrorHandle()`: Pobiera ErrorHandle ze stanu wewnętrznego lub struktury danych
-- `GetOriginalInputHandle()`: Pobiera OriginalInputHandle ze stanu wewnętrznego lub struktury danych
-- `GetWindow()`: Pobiera Window ze stanu wewnętrznego lub struktury danych
+- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation in console.hpp
+- `sanitise_pair()`: Performs sanitise_pair operation in console.hpp
+- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info value in console.hpp
+- `Allocate()`: Performs Allocate operation in console.hpp
+- `Free()`: Performs Free operation in console.hpp
+- `GetInputHandle()`: Retrieves InputHandle value in console.hpp
+- `GetOutputHandle()`: Retrieves OutputHandle value in console.hpp
+- `GetErrorHandle()`: Retrieves ErrorHandle value in console.hpp
+- `GetOriginalInputHandle()`: Retrieves OriginalInputHandle value in console.hpp
+- `GetWindow()`: Retrieves Window value in console.hpp
 ### Przestrzenie nazw
 - `console_detail`
 ### Podsumowanie

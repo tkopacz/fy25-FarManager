@@ -4,16 +4,16 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `PreserveStyleToken`: Implements core functionality
+- `PreserveStyleToken`: Performs PreserveStyleToken operation in preservestyle.cpp
 ### Key Functions
-- `IsPreserveStyleTokenSeparator()`: Tests whether PreserveStyleTokenSeparator condition is true or property exists
-- `contains()`: Executes contains operation as part of core functionality
-- `GetPreserveCaseStyleMask()`: Retrieves PreserveCaseStyleMask from internal state or data structure
-- `PreserveStyleTokenize()`: Executes PreserveStyleTokenize operation as part of core functionality
-- `ToPreserveStyleType()`: Executes ToPreserveStyleType operation as part of core functionality
-- `ChoosePreserveStyleType()`: Executes ChoosePreserveStyleType operation as part of core functionality
-- `FindStyleTypeMaskAndPrependCharByExpansion()`: Searches for StyleTypeMaskAndPrependCharByExpansion in collection and returns position or reference
-- `PreserveStyleReplaceString()`: Executes PreserveStyleReplaceString operation as part of core functionality
+- `IsPreserveStyleTokenSeparator()`: Checks a condition in preservestyle.cpp and returns the result
+- `contains()`: Performs contains operation in preservestyle.cpp
+- `GetPreserveCaseStyleMask()`: Retrieves PreserveCaseStyleMask value in preservestyle.cpp
+- `PreserveStyleTokenize()`: Performs PreserveStyleTokenize operation in preservestyle.cpp
+- `ToPreserveStyleType()`: Performs ToPreserveStyleType operation in preservestyle.cpp
+- `ChoosePreserveStyleType()`: Performs ChoosePreserveStyleType operation in preservestyle.cpp
+- `FindStyleTypeMaskAndPrependCharByExpansion()`: Performs FindStyleTypeMaskAndPrependCharByExpansion operation in preservestyle.cpp
+- `PreserveStyleReplaceString()`: Checks a condition in preservestyle.cpp and returns true or false based on the result
 ### Summary
 The `preservestyle.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `preservestyle.cpp` file provides essential functionality for core functiona
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PreserveStyleToken`: Implementuje podstawowa funkcjonalność
+- `PreserveStyleToken`: Performs PreserveStyleToken operation in preservestyle.cpp
 ### Kluczowe Funkcje
-- `IsPreserveStyleTokenSeparator()`: Testuje czy PreserveStyleTokenSeparator warunek jest prawdziwy lub właściwość istnieje
-- `contains()`: Wykonuje contains operację jako część podstawowa funkcjonalność
-- `GetPreserveCaseStyleMask()`: Pobiera PreserveCaseStyleMask ze stanu wewnętrznego lub struktury danych
-- `PreserveStyleTokenize()`: Wykonuje PreserveStyleTokenize operację jako część podstawowa funkcjonalność
-- `ToPreserveStyleType()`: Wykonuje ToPreserveStyleType operację jako część podstawowa funkcjonalność
-- `ChoosePreserveStyleType()`: Wykonuje ChoosePreserveStyleType operację jako część podstawowa funkcjonalność
-- `FindStyleTypeMaskAndPrependCharByExpansion()`: Wyszukuje StyleTypeMaskAndPrependCharByExpansion w kolekcji i zwraca pozycję lub referencję
-- `PreserveStyleReplaceString()`: Wykonuje PreserveStyleReplaceString operację jako część podstawowa funkcjonalność
+- `IsPreserveStyleTokenSeparator()`: Checks a condition in preservestyle.cpp and returns the result
+- `contains()`: Performs contains operation in preservestyle.cpp
+- `GetPreserveCaseStyleMask()`: Retrieves PreserveCaseStyleMask value in preservestyle.cpp
+- `PreserveStyleTokenize()`: Performs PreserveStyleTokenize operation in preservestyle.cpp
+- `ToPreserveStyleType()`: Performs ToPreserveStyleType operation in preservestyle.cpp
+- `ChoosePreserveStyleType()`: Performs ChoosePreserveStyleType operation in preservestyle.cpp
+- `FindStyleTypeMaskAndPrependCharByExpansion()`: Performs FindStyleTypeMaskAndPrependCharByExpansion operation in preservestyle.cpp
+- `PreserveStyleReplaceString()`: Checks a condition in preservestyle.cpp and returns true or false based on the result
 ### Podsumowanie
 Plik `preservestyle.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

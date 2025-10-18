@@ -4,20 +4,20 @@
 This file implements functionality related to: Файловый фильтр
 Main functional areas: file system operations
 ### Key Classes
-- `filter_area`: Implements file system operations
-- `filter_result`: Implements file system operations
-- `multifilter`: Implements file system operations
+- `filter_area`: Performs filter_area operation in filefilter.hpp
+- `filter_result`: Performs filter_result operation in filefilter.hpp
+- `multifilter`: Performs multifilter operation in filefilter.hpp
 ### Key Functions
-- `bool()`: Executes bool operation as part of file system operations
-- `UpdateCurrentTime()`: Updates existing data with new values while preserving structure
-- `FileInFilterEx()`: Executes FileInFilterEx operation as part of file system operations
-- `FileInFilter()`: Executes FileInFilter operation as part of file system operations
-- `IsEnabledOnPanel()`: Tests whether EnabledOnPanel condition is true or property exists
-- `area()`: Executes area operation as part of file system operations
-- `panel()`: Constructor that initializes panel object with provided parameters
-- `should_include_folders_by_default()`: Executes should_include_folders_by_default operation as part of file system operations
-- `LoadFilter()`: Loads data or resources from storage into memory
-- `SaveFilter()`: Saves current state or data to persistent storage
+- `bool()`: Performs bool operation in filefilter.hpp
+- `UpdateCurrentTime()`: Updates existing data or state in filefilter.hpp
+- `FileInFilterEx()`: Performs FileInFilterEx operation in filefilter.hpp
+- `FileInFilter()`: Performs FileInFilter operation in filefilter.hpp
+- `IsEnabledOnPanel()`: Checks a condition in filefilter.hpp and returns the result
+- `area()`: Performs area operation in filefilter.hpp
+- `panel()`: Performs panel operation in filefilter.hpp
+- `should_include_folders_by_default()`: Performs should_include_folders_by_default operation in filefilter.hpp
+- `LoadFilter()`: Performs LoadFilter operation in filefilter.hpp
+- `SaveFilter()`: Performs SaveFilter operation in filefilter.hpp
 ### Namespaces
 - `filters`
 ### Summary
@@ -30,20 +30,20 @@ The `filefilter.hpp` file provides essential functionality for file system opera
 Ten plik implementuje funkcjonalność związaną z: Файловый фильтр
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `filter_area`: Implementuje operacje systemu plików
-- `filter_result`: Implementuje operacje systemu plików
-- `multifilter`: Implementuje operacje systemu plików
+- `filter_area`: Performs filter_area operation in filefilter.hpp
+- `filter_result`: Performs filter_result operation in filefilter.hpp
+- `multifilter`: Performs multifilter operation in filefilter.hpp
 ### Kluczowe Funkcje
-- `bool()`: Wykonuje bool operację jako część operacje systemu plików
-- `UpdateCurrentTime()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `FileInFilterEx()`: Wykonuje FileInFilterEx operację jako część operacje systemu plików
-- `FileInFilter()`: Wykonuje FileInFilter operację jako część operacje systemu plików
-- `IsEnabledOnPanel()`: Testuje czy EnabledOnPanel warunek jest prawdziwy lub właściwość istnieje
-- `area()`: Wykonuje area operację jako część operacje systemu plików
-- `panel()`: Konstruktor inicjalizujący panel obiekt z dostarczonymi parametrami
-- `should_include_folders_by_default()`: Wykonuje should_include_folders_by_default operację jako część operacje systemu plików
-- `LoadFilter()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `SaveFilter()`: Zapisuje bieżący stan lub dane do trwałego magazynu
+- `bool()`: Performs bool operation in filefilter.hpp
+- `UpdateCurrentTime()`: Updates existing data or state in filefilter.hpp
+- `FileInFilterEx()`: Performs FileInFilterEx operation in filefilter.hpp
+- `FileInFilter()`: Performs FileInFilter operation in filefilter.hpp
+- `IsEnabledOnPanel()`: Checks a condition in filefilter.hpp and returns the result
+- `area()`: Performs area operation in filefilter.hpp
+- `panel()`: Performs panel operation in filefilter.hpp
+- `should_include_folders_by_default()`: Performs should_include_folders_by_default operation in filefilter.hpp
+- `LoadFilter()`: Performs LoadFilter operation in filefilter.hpp
+- `SaveFilter()`: Performs SaveFilter operation in filefilter.hpp
 ### Przestrzenie nazw
 - `filters`
 ### Podsumowanie

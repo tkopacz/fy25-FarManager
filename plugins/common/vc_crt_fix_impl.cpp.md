@@ -4,13 +4,13 @@
 This file implements functionality related to: Workaround for Visual C++ CRT incompatibility with old Windows versions
 Main functional areas: core functionality
 ### Key Classes
-- `implementation`: Implements core functionality
+- `implementation`: Performs implementation operation in vc_crt_fix_impl.cpp
 ### Key Functions
-- `GetFunctionPointer()`: Retrieves FunctionPointer from internal state or data structure
-- `XorPointer()`: Constructor that initializes XorPointer object with provided parameters
-- `impl()`: Executes impl operation as part of core functionality
-- `atomic_assign()`: Executes atomic_assign operation as part of core functionality
-- `locale_name_to_lcid()`: Executes locale_name_to_lcid operation as part of core functionality
+- `GetFunctionPointer()`: Retrieves FunctionPointer value in vc_crt_fix_impl.cpp
+- `XorPointer()`: Performs XorPointer operation in vc_crt_fix_impl.cpp
+- `impl()`: Performs impl operation in vc_crt_fix_impl.cpp
+- `atomic_assign()`: Checks a condition in vc_crt_fix_impl.cpp and returns true or false based on the result
+- `locale_name_to_lcid()`: Performs locale_name_to_lcid operation in vc_crt_fix_impl.cpp
 ### Namespaces
 - `modules`
 ### Summary
@@ -23,13 +23,13 @@ The `vc_crt_fix_impl.cpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: Workaround for Visual C++ CRT incompatibility with old Windows versions
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `implementation`: Implementuje podstawowa funkcjonalność
+- `implementation`: Performs implementation operation in vc_crt_fix_impl.cpp
 ### Kluczowe Funkcje
-- `GetFunctionPointer()`: Pobiera FunctionPointer ze stanu wewnętrznego lub struktury danych
-- `XorPointer()`: Konstruktor inicjalizujący XorPointer obiekt z dostarczonymi parametrami
-- `impl()`: Wykonuje impl operację jako część podstawowa funkcjonalność
-- `atomic_assign()`: Wykonuje atomic_assign operację jako część podstawowa funkcjonalność
-- `locale_name_to_lcid()`: Wykonuje locale_name_to_lcid operację jako część podstawowa funkcjonalność
+- `GetFunctionPointer()`: Retrieves FunctionPointer value in vc_crt_fix_impl.cpp
+- `XorPointer()`: Performs XorPointer operation in vc_crt_fix_impl.cpp
+- `impl()`: Performs impl operation in vc_crt_fix_impl.cpp
+- `atomic_assign()`: Checks a condition in vc_crt_fix_impl.cpp and returns true or false based on the result
+- `locale_name_to_lcid()`: Performs locale_name_to_lcid operation in vc_crt_fix_impl.cpp
 ### Przestrzenie nazw
 - `modules`
 ### Podsumowanie

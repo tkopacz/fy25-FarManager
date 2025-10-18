@@ -4,20 +4,20 @@
 This file implements functionality related to: Редактирование файла - надстройка над editor.cpp
 Main functional areas: text editing, file system operations
 ### Key Classes
-- `error_state_ex`: Performs error_state_ex operation as part of the component's functionality
-- `f4_key_timer`: Performs f4_key_timer operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `error_state_ex`: Implements error_state_ex functionality
+- `f4_key_timer`: Implements f4_key_timer functionality
+- `private_tag`: Implements private_tag functionality
 ### Key Functions
-- `create()`: Creates and initializes new object instance
-- `FileEditor()`: Performs FileEditor operation as part of the component's functionality
-- `GetCanLoseFocus()`: Retrieves CanLoseFocus from internal state or data structure
-- `IsFileModified()`: Tests whether FileModified condition is true or property exists
-- `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `VMProcess()`: Processes virtual machine operations or commands
-- `Show()`: Displays content or makes visual element visible on screen
-- `GetEditor()`: Retrieves Editor from internal state or data structure
-- `ShowStatus()`: Displays content or makes visual element visible on screen
-- `SetLockEditor()`: Updates LockEditor in internal state or configuration
+- `create()`: Creates and initializes new object or resource instance
+- `FileEditor()`: Implements FileEditor functionality
+- `GetCanLoseFocus()`: Retrieves CanLoseFocus from current context or object state
+- `IsFileModified()`: Checks condition and returns boolean indicating state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `VMProcess()`: Implements VMProcess functionality
+- `Show()`: Implements Show functionality
+- `GetEditor()`: Retrieves Editor from current context or object state
+- `ShowStatus()`: Implements ShowStatus functionality
+- `SetLockEditor()`: Updates LockEditor with provided value
 ### Summary
 The `fileedit.hpp` file provides essential functionality for text editing, file system operations. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `fileedit.hpp` file provides essential functionality for text editing, file 
 Ten plik implementuje funkcjonalność związaną z: Редактирование файла - надстройка над editor.cpp
 Główne obszary funkcjonalne: edycja tekstu, operacje systemu plików
 ### Kluczowe Klasy
-- `error_state_ex`: Implementuje edycja tekstu, operacje systemu plików
-- `f4_key_timer`: Implementuje edycja tekstu, operacje systemu plików
-- `private_tag`: Implementuje edycja tekstu, operacje systemu plików
+- `error_state_ex`: Implements error_state_ex functionality
+- `f4_key_timer`: Implements f4_key_timer functionality
+- `private_tag`: Implements private_tag functionality
 ### Kluczowe Funkcje
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `FileEditor()`: Wykonuje FileEditor operację jako część edycja tekstu, operacje systemu plików
-- `GetCanLoseFocus()`: Pobiera CanLoseFocus ze stanu wewnętrznego lub struktury danych
-- `IsFileModified()`: Testuje czy FileModified warunek jest prawdziwy lub właściwość istnieje
-- `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `Show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `GetEditor()`: Pobiera Editor ze stanu wewnętrznego lub struktury danych
-- `ShowStatus()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `SetLockEditor()`: Aktualizuje LockEditor w stanie wewnętrznym lub konfiguracji
+- `create()`: Creates and initializes new object or resource instance
+- `FileEditor()`: Implements FileEditor functionality
+- `GetCanLoseFocus()`: Retrieves CanLoseFocus from current context or object state
+- `IsFileModified()`: Checks condition and returns boolean indicating state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `VMProcess()`: Implements VMProcess functionality
+- `Show()`: Implements Show functionality
+- `GetEditor()`: Retrieves Editor from current context or object state
+- `ShowStatus()`: Implements ShowStatus functionality
+- `SetLockEditor()`: Updates LockEditor with provided value
 ### Podsumowanie
 Plik `fileedit.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu, operacje systemu plików. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

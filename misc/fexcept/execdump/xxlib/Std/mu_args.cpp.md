@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `DeleteArgs()`: Removes Args from collection and frees associated resources
-- `idDelArgs()`: Performs idDelArgs operation as part of the component's functionality
-- `CTArgCount()`: Performs CTArgCount operation as part of the component's functionality
-- `CTArgInit()`: Evaluates conditions and returns boolean indicating success or validity
-- `CTArgGet()`: Performs CTArgGet operation as part of the component's functionality
-- `CTArgGetArg()`: Performs CTArgGetArg operation as part of the component's functionality
-- `CTArgCheck()`: Evaluates conditions and returns a boolean indicating success or validity of CTArgCheck
-- `CTGetArgPathName()`: Performs CTGetArgPathName operation as part of the component's functionality
-- `StrCpy()`: Performs StrCpy operation as part of the component's functionality
+- `DeleteArgs()`: Removes or deletes specified item and releases associated resources
+- `idDelArgs()`: Implements idDelArgs functionality
+- `CTArgCount()`: Implements CTArgCount functionality
+- `CTArgInit()`: Implements CTArgInit functionality
+- `CTArgGet()`: Implements CTArgGet functionality
+- `CTArgGetArg()`: Implements CTArgGetArg functionality
+- `CTArgCheck()`: Implements CTArgCheck functionality
+- `CTGetArgPathName()`: Implements CTGetArgPathName functionality
+- `StrCpy()`: Implements StrCpy functionality
 ### Summary
 The `mu_args.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `mu_args.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `DeleteArgs()`: Usuwa Args z kolekcji i zwalnia powiązane zasoby
-- `idDelArgs()`: Performs idDelArgs operation as part of the component's functionality
-- `CTArgCount()`: Performs CTArgCount operation as part of the component's functionality
-- `CTArgInit()`: Evaluates conditions and returns boolean indicating success or validity
-- `CTArgGet()`: Performs CTArgGet operation as part of the component's functionality
-- `CTArgGetArg()`: Performs CTArgGetArg operation as part of the component's functionality
-- `CTArgCheck()`: Evaluates conditions and returns a boolean indicating success or validity of CTArgCheck
-- `CTGetArgPathName()`: Performs CTGetArgPathName operation as part of the component's functionality
-- `StrCpy()`: Performs StrCpy operation as part of the component's functionality
+- `DeleteArgs()`: Removes or deletes specified item and releases associated resources
+- `idDelArgs()`: Implements idDelArgs functionality
+- `CTArgCount()`: Implements CTArgCount functionality
+- `CTArgInit()`: Implements CTArgInit functionality
+- `CTArgGet()`: Implements CTArgGet functionality
+- `CTArgGetArg()`: Implements CTArgGetArg functionality
+- `CTArgCheck()`: Implements CTArgCheck functionality
+- `CTGetArgPathName()`: Implements CTGetArgPathName functionality
+- `StrCpy()`: Implements StrCpy functionality
 ### Podsumowanie
 Plik `mu_args.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

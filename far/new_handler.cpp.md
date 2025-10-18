@@ -4,13 +4,13 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `_set_new_handler()`: Callback function that handles specific events or notifications
-- `_set_new_mode()`: Performs _set_new_mode operation as part of the component's functionality
-- `_set_new_handler_impl()`: Callback function that handles specific events or notifications
-- `_set_new_mode_impl()`: Performs _set_new_mode_impl operation as part of the component's functionality
-- `invoke_crt_new_handler()`: Callback function that handles specific events or notifications
+- `_set_new_handler()`: Implements _set_new_handler functionality
+- `_set_new_mode()`: Implements _set_new_mode functionality
+- `_set_new_handler_impl()`: Implements _set_new_handler_impl functionality
+- `_set_new_mode_impl()`: Implements _set_new_mode_impl functionality
+- `invoke_crt_new_handler()`: Implements invoke_crt_new_handler functionality
 - `invoke_new_handler()`: Validates conditions and throws exceptions when errors are detected during invoke_new_handler operation
-- `create_ui()`: Creates and initializes new _ui instance
+- `create_ui()`: Creates and initializes new object or resource instance
 ### Namespaces
 - `and`
 ### Summary
@@ -23,13 +23,13 @@ The `new_handler.cpp` file provides essential functionality for core functionali
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `_set_new_handler()`: Callback function that handles specific events or notifications
-- `_set_new_mode()`: Performs _set_new_mode operation as part of the component's functionality
-- `_set_new_handler_impl()`: Callback function that handles specific events or notifications
-- `_set_new_mode_impl()`: Performs _set_new_mode_impl operation as part of the component's functionality
-- `invoke_crt_new_handler()`: Callback function that handles specific events or notifications
+- `_set_new_handler()`: Implements _set_new_handler functionality
+- `_set_new_mode()`: Implements _set_new_mode functionality
+- `_set_new_handler_impl()`: Implements _set_new_handler_impl functionality
+- `_set_new_mode_impl()`: Implements _set_new_mode_impl functionality
+- `invoke_crt_new_handler()`: Implements invoke_crt_new_handler functionality
 - `invoke_new_handler()`: Validates conditions and throws exceptions when errors are detected during invoke_new_handler operation
-- `create_ui()`: Tworzy i inicjalizuje nowy _ui instancję
+- `create_ui()`: Creates and initializes new object or resource instance
 ### Przestrzenie nazw
 - `and`
 ### Podsumowanie

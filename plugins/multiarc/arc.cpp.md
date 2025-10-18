@@ -4,17 +4,17 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ARCHeader`: Performs ARCHeader operation as part of the component's functionality
-- `PAKExtHeader`: Performs PAKExtHeader operation as part of the component's functionality
-- `RecHeader`: Performs RecHeader operation as part of the component's functionality
+- `ARCHeader`: Implements ARCHeader functionality
+- `PAKExtHeader`: Implements PAKExtHeader functionality
+- `RecHeader`: Implements RecHeader functionality
 ### Key Functions
-- `IsArchive()`: Tests whether Archive condition is true or property exists
-- `GetSFXPos()`: Retrieves SFXPos from internal state or data structure
-- `OpenArchive()`: Opens resource and prepares it for access operations
-- `GetArcItem()`: Retrieves ArcItem from internal state or data structure
-- `CloseArchive()`: Closes resource and performs cleanup operations
-- `GetFormatName()`: Retrieves FormatName from internal state or data structure
-- `GetDefaultCommands()`: Retrieves DefaultCommands from internal state or data structure
+- `IsArchive()`: , OffsetComment0; static int CommentSize=-1;
+- `GetSFXPos()`: Retrieves SFXPos from current context or object state
+- `OpenArchive()`: Implements OpenArchive functionality
+- `GetArcItem()`: Retrieves ArcItem from current context or object state
+- `CloseArchive()`: Implements CloseArchive functionality
+- `GetFormatName()`: Extract without paths
+- `GetDefaultCommands()`: Extract Extract without paths Test Delete Comment archive Comment files Convert to SFX Lock archive Protect archive
 ### Summary
 The `arc.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
 
@@ -25,16 +25,16 @@ The `arc.cpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ARCHeader`: Performs ARCHeader operation as part of the component's functionality
-- `PAKExtHeader`: Performs PAKExtHeader operation as part of the component's functionality
-- `RecHeader`: Performs RecHeader operation as part of the component's functionality
+- `ARCHeader`: Implements ARCHeader functionality
+- `PAKExtHeader`: Implements PAKExtHeader functionality
+- `RecHeader`: Implements RecHeader functionality
 ### Kluczowe Funkcje
-- `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
-- `GetSFXPos()`: Pobiera SFXPos ze stanu wewnętrznego lub struktury danych
-- `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `GetArcItem()`: Pobiera ArcItem ze stanu wewnętrznego lub struktury danych
-- `CloseArchive()`: Zamyka zasób i wykonuje operacje czyszczące
-- `GetFormatName()`: Pobiera FormatName ze stanu wewnętrznego lub struktury danych
-- `GetDefaultCommands()`: Pobiera DefaultCommands ze stanu wewnętrznego lub struktury danych
+- `IsArchive()`: , OffsetComment0; static int CommentSize=-1;
+- `GetSFXPos()`: Retrieves SFXPos from current context or object state
+- `OpenArchive()`: Implements OpenArchive functionality
+- `GetArcItem()`: Retrieves ArcItem from current context or object state
+- `CloseArchive()`: Implements CloseArchive functionality
+- `GetFormatName()`: Extract without paths
+- `GetDefaultCommands()`: Extract Extract without paths Test Delete Comment archive Comment files Convert to SFX Lock archive Protect archive
 ### Podsumowanie
 Plik `arc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.

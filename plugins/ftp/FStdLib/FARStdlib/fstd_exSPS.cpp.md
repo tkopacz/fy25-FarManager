@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `StrPosStr()`: Performs StrPosStr operation as part of the component's functionality
+- `StrPosStr()`: Implements StrPosStr functionality
 ### Summary
 The `fstd_exSPS.cpp` file provides essential functionality for file system operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -13,6 +13,6 @@ The `fstd_exSPS.cpp` file provides essential functionality for file system opera
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `StrPosStr()`: Wykonuje StrPosStr operację jako część operacje systemu plików
+- `StrPosStr()`: Implements StrPosStr functionality
 ### Podsumowanie
 Plik `fstd_exSPS.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

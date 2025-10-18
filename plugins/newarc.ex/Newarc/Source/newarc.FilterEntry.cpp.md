@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `TiXmlElement()`: Performs TiXmlElement operation as part of the component's functionality
-- `ArchiveFilterEntry()`: Performs ArchiveFilterEntry operation as part of the component's functionality
-- `handle()`: Handles event by executing appropriate response logic
+- `TiXmlElement()`: Implements TiXmlElement functionality
+- `ArchiveFilterEntry()`: Implements ArchiveFilterEntry functionality
+- `handle()`: Implements handle functionality
 ### Summary
 The `newarc.FilterEntry.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -15,8 +15,8 @@ The `newarc.FilterEntry.cpp` file provides essential functionality for core func
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `TiXmlElement()`: Performs TiXmlElement operation as part of the component's functionality
-- `ArchiveFilterEntry()`: Performs ArchiveFilterEntry operation as part of the component's functionality
-- `handle()`: Obsługuje zdarzenie wykonując odpowiednią logikę odpowiedzi
+- `TiXmlElement()`: Implements TiXmlElement functionality
+- `ArchiveFilterEntry()`: Implements ArchiveFilterEntry functionality
+- `handle()`: Implements handle functionality
 ### Podsumowanie
 Plik `newarc.FilterEntry.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

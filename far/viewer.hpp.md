@@ -4,27 +4,27 @@
 This file implements functionality related to: Internal viewer
 Main functional areas: file viewing
 ### Key Classes
-- `Dialog`: Performs Dialog operation as part of the component's functionality
-- `FileViewer`: Performs FileViewer operation as part of the component's functionality
-- `KeyBar`: Performs KeyBar operation as part of the component's functionality
-- `SearchDisposition`: Performs SearchDisposition operation as part of the component's functionality
-- `Viewer`: Performs Viewer operation as part of the component's functionality
-- `ViewerContainer`: Performs ViewerContainer operation as part of the component's functionality
-- `ViewerString`: Performs ViewerString operation as part of the component's functionality
-- `ViewerUndoData`: Performs ViewerUndoData operation as part of the component's functionality
-- `search_data`: Performs search_data operation as part of the component's functionality
-- `vgetc_cache`: Performs vgetc_cache operation as part of the component's functionality
+- `Dialog`: Implements Dialog functionality
+- `FileViewer`: Implements FileViewer functionality
+- `KeyBar`: Implements KeyBar functionality
+- `SearchDisposition`: Implements SearchDisposition functionality
+- `Viewer`: Implements Viewer functionality
+- `ViewerContainer`: Implements ViewerContainer functionality
+- `ViewerString`: Implements ViewerString functionality
+- `ViewerUndoData`: Implements ViewerUndoData functionality
+- `search_data`: Implements search_data functionality
+- `vgetc_cache`: Implements vgetc_cache functionality
 ### Key Functions
-- `Viewer()`: Performs Viewer operation as part of the component's functionality
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `OpenFile()`: Opens resource and prepares it for access operations
-- `SetViewKeyBar()`: Updates ViewKeyBar in internal state or configuration
-- `UpdateViewKeyBar()`: Updates existing data with new values while preserving structure
-- `SetStatusMode()`: Updates StatusMode in internal state or configuration
-- `EnableHideCursor()`: Performs EnableHideCursor operation as part of the component's functionality
-- `GetWrapMode()`: Retrieves WrapMode from internal state or data structure
+- `Viewer()`: Implements Viewer functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `VMProcess()`: Implements VMProcess functionality
+- `OpenFile()`: Implements OpenFile functionality
+- `SetViewKeyBar()`: Updates ViewKeyBar with provided value and validates constraints
+- `UpdateViewKeyBar()`: Updates existing state with new values
+- `SetStatusMode()`: Updates StatusMode with provided value and validates constraints
+- `EnableHideCursor()`: Implements EnableHideCursor functionality
+- `GetWrapMode()`: Retrieves WrapMode from current context or object state
 ### Summary
 The `viewer.hpp` file provides essential functionality for file viewing. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `viewer.hpp` file provides essential functionality for file viewing. It defi
 Ten plik implementuje funkcjonalność związaną z: Internal viewer
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `Dialog`: Implementuje przeglądanie plików
-- `FileViewer`: Implementuje przeglądanie plików
-- `KeyBar`: Implementuje przeglądanie plików
-- `SearchDisposition`: Implementuje przeglądanie plików
-- `Viewer`: Implementuje przeglądanie plików
-- `ViewerContainer`: Implementuje przeglądanie plików
-- `ViewerString`: Implementuje przeglądanie plików
-- `ViewerUndoData`: Implementuje przeglądanie plików
-- `search_data`: Implementuje przeglądanie plików
-- `vgetc_cache`: Implementuje przeglądanie plików
+- `Dialog`: Implements Dialog functionality
+- `FileViewer`: Implements FileViewer functionality
+- `KeyBar`: Implements KeyBar functionality
+- `SearchDisposition`: Implements SearchDisposition functionality
+- `Viewer`: Implements Viewer functionality
+- `ViewerContainer`: Implements ViewerContainer functionality
+- `ViewerString`: Implements ViewerString functionality
+- `ViewerUndoData`: Implements ViewerUndoData functionality
+- `search_data`: Implements search_data functionality
+- `vgetc_cache`: Implements vgetc_cache functionality
 ### Kluczowe Funkcje
-- `Viewer()`: Wykonuje Viewer operację jako część przeglądanie plików
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `OpenFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `SetViewKeyBar()`: Aktualizuje ViewKeyBar w stanie wewnętrznym lub konfiguracji
-- `UpdateViewKeyBar()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `SetStatusMode()`: Aktualizuje StatusMode w stanie wewnętrznym lub konfiguracji
-- `EnableHideCursor()`: Wykonuje EnableHideCursor operację jako część przeglądanie plików
-- `GetWrapMode()`: Pobiera WrapMode ze stanu wewnętrznego lub struktury danych
+- `Viewer()`: Implements Viewer functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `VMProcess()`: Implements VMProcess functionality
+- `OpenFile()`: Implements OpenFile functionality
+- `SetViewKeyBar()`: Updates ViewKeyBar with provided value and validates constraints
+- `UpdateViewKeyBar()`: Updates existing state with new values
+- `SetStatusMode()`: Updates StatusMode with provided value and validates constraints
+- `EnableHideCursor()`: Implements EnableHideCursor functionality
+- `GetWrapMode()`: Retrieves WrapMode from current context or object state
 ### Podsumowanie
 Plik `viewer.hpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

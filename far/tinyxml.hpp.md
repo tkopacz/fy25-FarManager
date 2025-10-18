@@ -4,7 +4,7 @@
 This file implements functionality related to: tinyxml wrapper
 Main functional areas: core functionality
 ### Key Functions
-- `get()`: Retrieves value from internal state or data structure
+- `get()`: Implements get functionality
 ### Namespaces
 - `tinyxml`
 - `tinyxml_impl`
@@ -19,7 +19,7 @@ The `tinyxml.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: tinyxml wrapper
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
+- `get()`: Implements get functionality
 ### Przestrzenie nazw
 - `tinyxml`
 - `tinyxml_impl`

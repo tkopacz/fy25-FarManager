@@ -4,13 +4,13 @@
 This file implements functionality related to: импортируемые функции
 Main functional areas: core functionality
 ### Key Classes
-- `imports`: Performs imports operation as part of the component's functionality
-- `unique_function_pointer`: Performs unique_function_pointer operation as part of the component's functionality
+- `imports`: Implements imports functionality
+- `unique_function_pointer`: Implements unique_function_pointer functionality
 ### Key Functions
-- `function_type()`: Performs function_type operation as part of the component's functionality
-- `get_pointer()`: Retrieves _pointer from internal state or data structure
-- `bool()`: Performs bool operation as part of the component's functionality
-- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation as part of the component's functionality
+- `function_type()`: Implements function_type functionality
+- `get_pointer()`: Retrieves _pointer from current context or object state
+- `bool()`: Implements bool functionality
+- `DEFINE_IMPORT_FUNCTION()`: NT4 < 2k < XP < 2k3 < Vista < 7 < 8 < 10 Rock bottom is 2k
 ### Namespaces
 - `imports_detail`
 ### Summary
@@ -23,13 +23,13 @@ The `imports.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: импортируемые функции
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `imports`: Performs imports operation as part of the component's functionality
-- `unique_function_pointer`: Performs unique_function_pointer operation as part of the component's functionality
+- `imports`: Implements imports functionality
+- `unique_function_pointer`: Implements unique_function_pointer functionality
 ### Kluczowe Funkcje
-- `function_type()`: Performs function_type operation as part of the component's functionality
-- `get_pointer()`: Pobiera _pointer ze stanu wewnętrznego lub struktury danych
-- `bool()`: Performs bool operation as part of the component's functionality
-- `DEFINE_IMPORT_FUNCTION()`: Performs DEFINE_IMPORT_FUNCTION operation as part of the component's functionality
+- `function_type()`: Implements function_type functionality
+- `get_pointer()`: Retrieves _pointer from current context or object state
+- `bool()`: Implements bool functionality
+- `DEFINE_IMPORT_FUNCTION()`: NT4 < 2k < XP < 2k3 < Vista < 7 < 8 < 10 Rock bottom is 2k
 ### Przestrzenie nazw
 - `imports_detail`
 ### Podsumowanie

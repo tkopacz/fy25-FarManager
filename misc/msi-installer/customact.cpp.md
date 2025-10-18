@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Buffer`: Allocates memory and initializes resources for Buffer
-- `ComInit`: Manages COM (Component Object Model) initialization and interface operations
-- `Error`: Performs Error operation as part of the component's functionality
-- `NonCopyable`: Performs NonCopyable operation as part of the component's functionality
+- `Buffer`: Implements Buffer functionality
+- `ComInit`: wFillAttribute wPopupFillAttribute dwScreenBufferSize dwWindowSize dwWindowOrigin nFont nInputBufferSize dwFontSize uFo
+- `Error`: Implements Error functionality
+- `NonCopyable`: Implements NonCopyable functionality
 ### Key Functions
-- `DllMain()`: Evaluates conditions and returns a boolean indicating success or validity of DllMain
-- `FAIL()`: Validates conditions and throws exceptions when errors are detected during FAIL operation
-- `FAIL_MSG()`: Validates conditions and throws exceptions when errors are detected during FAIL_MSG operation
-- `CHECK_SYS()`: Validates data integrity and checks correctness of input
-- `CHECK_ADVSYS()`: Validates data integrity and checks correctness of input
-- `CHECK_COM()`: Validates data integrity and checks correctness of input
-- `CHECK()`: Validates data integrity and checks correctness of input
-- `resize()`: Allocates memory and initializes resources for resize
-- `data()`: Returns pointer or reference to internal data buffer
-- `size()`: Performs size operation as part of the component's functionality
+- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications
+- `FAIL()`: Throws error exception with error code when condition fails
+- `FAIL_MSG()`: Throws error exception with custom message when condition fails
+- `CHECK_SYS()`: Validates system call result and throws exception with Win32 error code on failure
+- `CHECK_ADVSYS()`: Validates Windows advanced API call and throws exception with error code on failure
+- `CHECK_COM()`: Validates COM HRESULT and throws exception on failure
+- `CHECK()`: Validates boolean condition and throws exception with condition text on failure
+- `resize()`: Resizes buffer by deallocating old memory and allocating new buffer with specified size
+- `data()`: Returns pointer to internal buffer for direct access to stored data
+- `size()`: Returns current allocated size of the buffer in elements
 ### Namespaces
 - `std`
 ### Summary
@@ -29,21 +29,21 @@ The `customact.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Buffer`: Allocates memory and initializes resources for Buffer
-- `ComInit`: Manages COM (Component Object Model) initialization and interface operations
-- `Error`: Performs Error operation as part of the component's functionality
-- `NonCopyable`: Performs NonCopyable operation as part of the component's functionality
+- `Buffer`: Implements Buffer functionality
+- `ComInit`: wFillAttribute wPopupFillAttribute dwScreenBufferSize dwWindowSize dwWindowOrigin nFont nInputBufferSize dwFontSize uFo
+- `Error`: Implements Error functionality
+- `NonCopyable`: Implements NonCopyable functionality
 ### Kluczowe Funkcje
-- `DllMain()`: Evaluates conditions and returns a boolean indicating success or validity of DllMain
-- `FAIL()`: Validates conditions and throws exceptions when errors are detected during FAIL operation
-- `FAIL_MSG()`: Validates conditions and throws exceptions when errors are detected during FAIL_MSG operation
-- `CHECK_SYS()`: Waliduje integralność danych i sprawdza poprawność
-- `CHECK_ADVSYS()`: Waliduje integralność danych i sprawdza poprawność
-- `CHECK_COM()`: Waliduje integralność danych i sprawdza poprawność
-- `CHECK()`: Waliduje integralność danych i sprawdza poprawność
-- `resize()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `data()`: Konstruktor inicjalizujący dane obiekt z dostarczonymi parametrami
-- `size()`: Performs size operation as part of the component's functionality
+- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications
+- `FAIL()`: Throws error exception with error code when condition fails
+- `FAIL_MSG()`: Throws error exception with custom message when condition fails
+- `CHECK_SYS()`: Validates system call result and throws exception with Win32 error code on failure
+- `CHECK_ADVSYS()`: Validates Windows advanced API call and throws exception with error code on failure
+- `CHECK_COM()`: Validates COM HRESULT and throws exception on failure
+- `CHECK()`: Validates boolean condition and throws exception with condition text on failure
+- `resize()`: Resizes buffer by deallocating old memory and allocating new buffer with specified size
+- `data()`: Returns pointer to internal buffer for direct access to stored data
+- `size()`: Returns current allocated size of the buffer in elements
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

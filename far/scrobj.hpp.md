@@ -4,21 +4,21 @@
 This file implements functionality related to: Parent class для всех screen objects
 Main functional areas: screen operations
 ### Key Classes
-- `SaveScreen`: Writes or saves data to a destination
-- `ScreenObject`: Performs ScreenObject operation as part of the component's functionality
-- `ScreenObjectWithShadow`: Performs ScreenObjectWithShadow operation as part of the component's functionality
-- `SimpleScreenObject`: Performs SimpleScreenObject operation as part of the component's functionality
+- `SaveScreen`: Implements SaveScreen functionality
+- `ScreenObject`: Implements ScreenObject functionality
+- `ScreenObjectWithShadow`: Implements ScreenObjectWithShadow functionality
+- `SimpleScreenObject`: Implements SimpleScreenObject functionality
 ### Key Functions
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `Hide()`: Hides visual element from screen without destroying it
-- `Show()`: Displays content or makes visual element visible on screen
-- `ShowConsoleTitle()`: Displays content or makes visual element visible on screen
-- `SetPosition()`: Updates Position in internal state or configuration
-- `GetPosition()`: Retrieves Position from internal state or data structure
-- `SetScreenPosition()`: Updates ScreenPosition in internal state or configuration
-- `ResizeConsole()`: Adjusts size or capacity of buffer or container
-- `VMProcess()`: Processes virtual machine operations or commands
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `Hide()`: Implements Hide functionality
+- `Show()`: Implements Show functionality
+- `ShowConsoleTitle()`: Implements ShowConsoleTitle functionality
+- `SetPosition()`: Updates Position with provided value and validates constraints
+- `GetPosition()`: Retrieves Position from current context or object state
+- `SetScreenPosition()`: Updates ScreenPosition with provided value and validates constraints
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `VMProcess()`: Implements VMProcess functionality
 ### Summary
 The `scrobj.hpp` file provides essential functionality for screen operations. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -29,20 +29,20 @@ The `scrobj.hpp` file provides essential functionality for screen operations. It
 Ten plik implementuje funkcjonalność związaną z: Parent class для всех screen objects
 Główne obszary funkcjonalne: operacje ekranowe
 ### Kluczowe Klasy
-- `SaveScreen`: Implementuje operacje ekranowe
-- `ScreenObject`: Implementuje operacje ekranowe
-- `ScreenObjectWithShadow`: Implementuje operacje ekranowe
-- `SimpleScreenObject`: Implementuje operacje ekranowe
+- `SaveScreen`: Implements SaveScreen functionality
+- `ScreenObject`: Implements ScreenObject functionality
+- `ScreenObjectWithShadow`: Implements ScreenObjectWithShadow functionality
+- `SimpleScreenObject`: Implements SimpleScreenObject functionality
 ### Kluczowe Funkcje
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `Hide()`: Ukrywa element wizualny z ekranu bez niszczenia go
-- `Show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `ShowConsoleTitle()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `SetPosition()`: Aktualizuje Position w stanie wewnętrznym lub konfiguracji
-- `GetPosition()`: Pobiera Position ze stanu wewnętrznego lub struktury danych
-- `SetScreenPosition()`: Aktualizuje ScreenPosition w stanie wewnętrznym lub konfiguracji
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `Hide()`: Implements Hide functionality
+- `Show()`: Implements Show functionality
+- `ShowConsoleTitle()`: Implements ShowConsoleTitle functionality
+- `SetPosition()`: Updates Position with provided value and validates constraints
+- `GetPosition()`: Retrieves Position from current context or object state
+- `SetScreenPosition()`: Updates ScreenPosition with provided value and validates constraints
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `VMProcess()`: Implements VMProcess functionality
 ### Podsumowanie
 Plik `scrobj.hpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

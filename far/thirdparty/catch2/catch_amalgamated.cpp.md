@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AssertionPrinter`: Performs AssertionPrinter operation as part of the component's functionality
-- `BySectionInfo`: Performs BySectionInfo operation as part of the component's functionality
-- `CerrStream`: Performs CerrStream operation as part of the component's functionality
-- `ColumnBreak`: Performs ColumnBreak operation as part of the component's functionality
-- `ColumnInfo`: Performs ColumnInfo operation as part of the component's functionality
+- `AssertionPrinter`: Implementation of CompactReporter formatting
+- `BySectionInfo`: Implements BySectionInfo functionality
+- `CerrStream`: Implements CerrStream functionality
+- `ColumnBreak`: Implements ColumnBreak functionality
+- `ColumnInfo`: Implements ColumnInfo functionality
 - `ConsoleAssertionPrinter`: Validates conditions and throws exceptions when errors are detected during ConsoleAssertionPrinter operation
-- `Duration`: Performs Duration operation as part of the component's functionality
-- `Endianness`: Performs Endianness operation as part of the component's functionality
-- `FileRedirect`: Performs FileRedirect operation as part of the component's functionality
-- `FloatingPointKind`: Performs FloatingPointKind operation as part of the component's functionality
+- `Duration`: Iterates through collection and processes each element, storing results
+- `Endianness`: Implements Endianness functionality
+- `FileRedirect`: even though std::cerr is unbuffered
+- `FloatingPointKind`: Implements FloatingPointKind functionality
 ### Key Functions
-- `analyse()`: Iterates through items and collects results into a container
+- `analyse()`: namespace Detail namespace Benchmark
 - `throw_optimized_away_error()`: Validates conditions and throws exceptions when errors are detected during throw_optimized_away_error operation
-- `resample()`: Iterates through items and collects results into a container
-- `outlier_variance()`: Performs outlier_variance operation as part of the component's functionality
-- `erf_inv()`: Performs erf_inv operation as part of the component's functionality
-- `standard_deviation()`: Performs standard_deviation operation as part of the component's functionality
-- `weighted_average_quantile()`: Performs weighted_average_quantile operation as part of the component's functionality
-- `classify_outliers()`: Performs classify_outliers operation as part of the component's functionality
-- `mean()`: Performs mean operation as part of the component's functionality
-- `normal_cdf()`: Performs normal_cdf operation as part of the component's functionality
+- `resample()`: Implements resample functionality
+- `outlier_variance()`: Iterates through collection and processes each element, storing results
+- `erf_inv()`: Implements erf_inv functionality
+- `standard_deviation()`: Implements standard_deviation functionality
+- `weighted_average_quantile()`: namespace Detail namespace Benchmark
+- `classify_outliers()`: Implements classify_outliers functionality
+- `mean()`: Implements mean functionality
+- `normal_cdf()`: Implements normal_cdf functionality
 ### Namespaces
 - `Benchmark`
 - `Catch`
@@ -52,27 +52,27 @@ The `catch_amalgamated.cpp` file provides essential functionality for singleton 
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `AssertionPrinter`: Implementuje implementacja singletona
-- `BySectionInfo`: Implementuje implementacja singletona
-- `CerrStream`: Implementuje implementacja singletona
-- `ColumnBreak`: Implementuje implementacja singletona
-- `ColumnInfo`: Implementuje implementacja singletona
-- `ConsoleAssertionPrinter`: Implementuje implementacja singletona
-- `Duration`: Implementuje implementacja singletona
-- `Endianness`: Implementuje implementacja singletona
-- `FileRedirect`: Implementuje implementacja singletona
-- `FloatingPointKind`: Implementuje implementacja singletona
+- `AssertionPrinter`: Implementation of CompactReporter formatting
+- `BySectionInfo`: Implements BySectionInfo functionality
+- `CerrStream`: Implements CerrStream functionality
+- `ColumnBreak`: Implements ColumnBreak functionality
+- `ColumnInfo`: Implements ColumnInfo functionality
+- `ConsoleAssertionPrinter`: Formatter impl for ConsoleReporter
+- `Duration`: Iterates through collection and processes each element, storing results
+- `Endianness`: Implements Endianness functionality
+- `FileRedirect`: even though std::cerr is unbuffered
+- `FloatingPointKind`: Implements FloatingPointKind functionality
 ### Kluczowe Funkcje
-- `analyse()`: Wykonuje analyse operację jako część implementacja singletona
-- `throw_optimized_away_error()`: Wykonuje throw_optimized_away_error operację jako część implementacja singletona
-- `resample()`: Wykonuje resample operację jako część implementacja singletona
-- `outlier_variance()`: Wykonuje outlier_variance operację jako część implementacja singletona
-- `erf_inv()`: Wykonuje erf_inv operację jako część implementacja singletona
-- `standard_deviation()`: Wykonuje standard_deviation operację jako część implementacja singletona
-- `weighted_average_quantile()`: Wykonuje weighted_average_quantile operację jako część implementacja singletona
-- `classify_outliers()`: Wykonuje classify_outliers operację jako część implementacja singletona
-- `mean()`: Wykonuje mean operację jako część implementacja singletona
-- `normal_cdf()`: Wykonuje normal_cdf operację jako część implementacja singletona
+- `analyse()`: namespace Detail namespace Benchmark
+- `throw_optimized_away_error()`: namespace Detail namespace Benchmark
+- `resample()`: Implements resample functionality
+- `outlier_variance()`: Iterates through collection and processes each element, storing results
+- `erf_inv()`: Implements erf_inv functionality
+- `standard_deviation()`: Implements standard_deviation functionality
+- `weighted_average_quantile()`: namespace Detail namespace Benchmark
+- `classify_outliers()`: Implements classify_outliers functionality
+- `mean()`: Implements mean functionality
+- `normal_cdf()`: Implements normal_cdf functionality
 ### Przestrzenie nazw
 - `Benchmark`
 - `Catch`

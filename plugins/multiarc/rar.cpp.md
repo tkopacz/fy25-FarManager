@@ -4,16 +4,16 @@
 This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
 Main functional areas: core functionality
 ### Key Functions
-- `UtfToWide()`: Performs UtfToWide operation as part of the component's functionality
-- `DecodeFileName()`: Performs DecodeFileName operation as part of the component's functionality
-- `SetFarInfo()`: Updates FarInfo in internal state or configuration
-- `CallbackProc()`: Callback function that handles specific events or notifications
-- `IsArchive()`: Tests whether Archive condition is true or property exists
-- `OpenArchive()`: Opens resource and prepares it for access operations
-- `FreeLibrary()`: Performs FreeLibrary operation as part of the component's functionality
-- `GetArcItem()`: Retrieves ArcItem from internal state or data structure
-- `CloseArchive()`: Closes resource and performs cleanup operations
-- `pRARCloseArchive()`: Performs pRARCloseArchive operation as part of the component's functionality
+- `UtfToWide()`: Implements UtfToWide functionality
+- `DecodeFileName()`: Implements DecodeFileName functionality
+- `SetFarInfo()`: Processes input by dispatching to different code paths based on type or value
+- `CallbackProc()`: Processes input by dispatching to different code paths based on type or value
+- `IsArchive()`: Checks condition and returns boolean indicating state
+- `OpenArchive()`: Implements OpenArchive functionality
+- `FreeLibrary()`: Implements FreeLibrary functionality
+- `GetArcItem()`: lstrcpyn(Item->FindData
+- `CloseArchive()`: Implements CloseArchive functionality
+- `pRARCloseArchive()`: Plugin "Save settings" does not work well if we return different format names
 ### Summary
 The `rar.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `rar.cpp` file provides essential functionality for core functionality. and 
 Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `UtfToWide()`: Performs UtfToWide operation as part of the component's functionality
-- `DecodeFileName()`: Performs DecodeFileName operation as part of the component's functionality
-- `SetFarInfo()`: Aktualizuje FarInfo w stanie wewnętrznym lub konfiguracji
-- `CallbackProc()`: Callback function that handles specific events or notifications
-- `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
-- `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `FreeLibrary()`: Performs FreeLibrary operation as part of the component's functionality
-- `GetArcItem()`: Pobiera ArcItem ze stanu wewnętrznego lub struktury danych
-- `CloseArchive()`: Zamyka zasób i wykonuje operacje czyszczące
-- `pRARCloseArchive()`: Performs pRARCloseArchive operation as part of the component's functionality
+- `UtfToWide()`: Implements UtfToWide functionality
+- `DecodeFileName()`: Implements DecodeFileName functionality
+- `SetFarInfo()`: Processes input by dispatching to different code paths based on type or value
+- `CallbackProc()`: Processes input by dispatching to different code paths based on type or value
+- `IsArchive()`: Checks condition and returns boolean indicating state
+- `OpenArchive()`: Implements OpenArchive functionality
+- `FreeLibrary()`: Implements FreeLibrary functionality
+- `GetArcItem()`: lstrcpyn(Item->FindData
+- `CloseArchive()`: Implements CloseArchive functionality
+- `pRARCloseArchive()`: Plugin "Save settings" does not work well if we return different format names
 ### Podsumowanie
 Plik `rar.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

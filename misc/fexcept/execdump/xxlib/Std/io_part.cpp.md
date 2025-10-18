@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `FixSlashChars()`: Performs FixSlashChars operation as part of the component's functionality
-- `ChangeFilePart()`: Performs ChangeFilePart operation as part of the component's functionality
-- `ChangeFileExt()`: Performs ChangeFileExt operation as part of the component's functionality
-- `ChangeFileName()`: Performs ChangeFileName operation as part of the component's functionality
-- `AddLastSlash()`: Adds new LastSlash to collection or list
-- `DelLastSlash()`: Performs DelLastSlash operation as part of the component's functionality
-- `path()`: Performs path operation as part of the component's functionality
-- `GetFPath()`: Retrieves FPath from internal state or data structure
-- `FPath()`: Performs FPath operation as part of the component's functionality
-- `GetFName()`: Retrieves FName from internal state or data structure
+- `FixSlashChars()`: Processes input by dispatching to different code paths based on type or value
+- `ChangeFilePart()`: Processes input by dispatching to different code paths based on type or value
+- `ChangeFileExt()`: Processes input by dispatching to different code paths based on type or value
+- `ChangeFileName()`: Processes input by dispatching to different code paths based on type or value
+- `AddLastSlash()`: --------------------------------------------------------------------------- --------------------------------------
+- `DelLastSlash()`: Processes input by dispatching to different code paths based on type or value
+- `path()`: --------------------------------------------------------------------------- -----------------------------
+- `GetFPath()`: Processes input by dispatching to different code paths based on type or value
+- `FPath()`: Processes input by dispatching to different code paths based on type or value
+- `GetFName()`: Processes input by dispatching to different code paths based on type or value
 ### Summary
 The `io_part.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `io_part.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `FixSlashChars()`: Performs FixSlashChars operation as part of the component's functionality
-- `ChangeFilePart()`: Performs ChangeFilePart operation as part of the component's functionality
-- `ChangeFileExt()`: Performs ChangeFileExt operation as part of the component's functionality
-- `ChangeFileName()`: Performs ChangeFileName operation as part of the component's functionality
-- `AddLastSlash()`: Dodaje nowy LastSlash do kolekcji lub listy
-- `DelLastSlash()`: Performs DelLastSlash operation as part of the component's functionality
-- `path()`: Performs path operation as part of the component's functionality
-- `GetFPath()`: Pobiera FPath ze stanu wewnętrznego lub struktury danych
-- `FPath()`: Performs FPath operation as part of the component's functionality
-- `GetFName()`: Pobiera FName ze stanu wewnętrznego lub struktury danych
+- `FixSlashChars()`: Processes input by dispatching to different code paths based on type or value
+- `ChangeFilePart()`: Processes input by dispatching to different code paths based on type or value
+- `ChangeFileExt()`: Processes input by dispatching to different code paths based on type or value
+- `ChangeFileName()`: Processes input by dispatching to different code paths based on type or value
+- `AddLastSlash()`: --------------------------------------------------------------------------- --------------------------------------
+- `DelLastSlash()`: Processes input by dispatching to different code paths based on type or value
+- `path()`: --------------------------------------------------------------------------- -----------------------------
+- `GetFPath()`: Processes input by dispatching to different code paths based on type or value
+- `FPath()`: Processes input by dispatching to different code paths based on type or value
+- `GetFName()`: Processes input by dispatching to different code paths based on type or value
 ### Podsumowanie
 Plik `io_part.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

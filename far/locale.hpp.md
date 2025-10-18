@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `date_type`: Performs date_type operation as part of the component's functionality
-- `locale`: Performs locale operation as part of the component's functionality
-- `locale_names`: Performs locale_names operation as part of the component's functionality
-- `name`: Performs name operation as part of the component's functionality
+- `date_type`: Implements date_type functionality
+- `locale`: Implements locale functionality
+- `locale_names`: Implements locale_names functionality
+- `name`: Implements name functionality
 ### Key Functions
-- `locale()`: Performs locale operation as part of the component's functionality
-- `is_invariant()`: Tests whether _invariant condition is true or property exists
-- `is_cjk()`: Tests whether _cjk condition is true or property exists
-- `date_format()`: Performs date_format operation as part of the component's functionality
-- `digits_grouping()`: Performs digits_grouping operation as part of the component's functionality
-- `date_separator()`: Performs date_separator operation as part of the component's functionality
-- `time_separator()`: Performs time_separator operation as part of the component's functionality
-- `decimal_separator()`: Performs decimal_separator operation as part of the component's functionality
-- `thousand_separator()`: Performs thousand_separator operation as part of the component's functionality
-- `LocalNames()`: Constructor that initializes LocalNames object with provided parameters
+- `locale()`: Implements locale functionality
+- `is_invariant()`: Checks condition and returns boolean indicating state
+- `is_cjk()`: Checks condition and returns boolean indicating state
+- `date_format()`: Implements date_format functionality
+- `digits_grouping()`: Implements digits_grouping functionality
+- `date_separator()`: Implements date_separator functionality
+- `time_separator()`: Implements time_separator functionality
+- `decimal_separator()`: Implements decimal_separator functionality
+- `thousand_separator()`: Implements thousand_separator functionality
+- `LocalNames()`: Implements LocalNames functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -31,21 +31,21 @@ The `locale.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `date_type`: Performs date_type operation as part of the component's functionality
-- `locale`: Performs locale operation as part of the component's functionality
-- `locale_names`: Performs locale_names operation as part of the component's functionality
-- `name`: Performs name operation as part of the component's functionality
+- `date_type`: Implements date_type functionality
+- `locale`: Implements locale functionality
+- `locale_names`: Implements locale_names functionality
+- `name`: Implements name functionality
 ### Kluczowe Funkcje
-- `locale()`: Performs locale operation as part of the component's functionality
-- `is_invariant()`: Testuje czy _invariant warunek jest prawdziwy lub właściwość istnieje
-- `is_cjk()`: Testuje czy _cjk warunek jest prawdziwy lub właściwość istnieje
-- `date_format()`: Performs date_format operation as part of the component's functionality
-- `digits_grouping()`: Performs digits_grouping operation as part of the component's functionality
-- `date_separator()`: Performs date_separator operation as part of the component's functionality
-- `time_separator()`: Performs time_separator operation as part of the component's functionality
-- `decimal_separator()`: Performs decimal_separator operation as part of the component's functionality
-- `thousand_separator()`: Performs thousand_separator operation as part of the component's functionality
-- `LocalNames()`: Konstruktor inicjalizujący LocalNames obiekt z dostarczonymi parametrami
+- `locale()`: Implements locale functionality
+- `is_invariant()`: Checks condition and returns boolean indicating state
+- `is_cjk()`: Checks condition and returns boolean indicating state
+- `date_format()`: Implements date_format functionality
+- `digits_grouping()`: Implements digits_grouping functionality
+- `date_separator()`: Implements date_separator functionality
+- `time_separator()`: Implements time_separator functionality
+- `decimal_separator()`: Implements decimal_separator functionality
+- `thousand_separator()`: Implements thousand_separator functionality
+- `LocalNames()`: Implements LocalNames functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

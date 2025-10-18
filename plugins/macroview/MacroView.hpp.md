@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `Config`: Performs Config operation as part of the component's functionality
-- `InitDialogItem`: Initializes the component or system with required setup and configuration
-- `MenuData`: Performs MenuData operation as part of the component's functionality
-- `TMacroView`: Performs TMacroView operation as part of the component's functionality
+- `Config`: Implements Config functionality
+- `InitDialogItem`: Initializes component with required configuration and state
+- `MenuData`: Implements MenuData functionality
+- `TMacroView`: Implements TMacroView functionality
 ### Key Functions
-- `InterceptDllCall()`: Performs InterceptDllCall operation as part of the component's functionality
-- `MacroDialogProc()`: Performs MacroDialogProc operation as part of the component's functionality
-- `MenuDialogProc()`: Performs MenuDialogProc operation as part of the component's functionality
-- `DefKeyDialogProc()`: Performs DefKeyDialogProc operation as part of the component's functionality
-- `CopyDialogProc()`: Copies data from source to destination location
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessPeekKey()`: Processes PeekKey through transformation or handling pipeline
-- `AllTrim()`: Performs AllTrim operation as part of the component's functionality
-- `UnQuoteText()`: Performs UnQuoteText operation as part of the component's functionality
-- `QuoteText()`: Performs QuoteText operation as part of the component's functionality
+- `InterceptDllCall()`: Implements InterceptDllCall functionality
+- `MacroDialogProc()`: Implements MacroDialogProc functionality
+- `MenuDialogProc()`: Implements MenuDialogProc functionality
+- `DefKeyDialogProc()`: Implements DefKeyDialogProc functionality
+- `CopyDialogProc()`: Implements CopyDialogProc functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessPeekKey()`: Processes input data through core business logic pipeline
+- `AllTrim()`: Implements AllTrim functionality
+- `UnQuoteText()`: Implements UnQuoteText functionality
+- `QuoteText()`: Implements QuoteText functionality
 ### Summary
 The `MacroView.hpp` file provides essential functionality for file viewing. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -27,20 +27,20 @@ The `MacroView.hpp` file provides essential functionality for file viewing. It d
 ### Cel
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `Config`: Implementuje przeglądanie plików
-- `InitDialogItem`: Implementuje przeglądanie plików
-- `MenuData`: Implementuje przeglądanie plików
-- `TMacroView`: Implementuje przeglądanie plików
+- `Config`: Implements Config functionality
+- `InitDialogItem`: Initializes component with required configuration and state
+- `MenuData`: Implements MenuData functionality
+- `TMacroView`: Implements TMacroView functionality
 ### Kluczowe Funkcje
-- `InterceptDllCall()`: Wykonuje InterceptDllCall operację jako część przeglądanie plików
-- `MacroDialogProc()`: Wykonuje MacroDialogProc operację jako część przeglądanie plików
-- `MenuDialogProc()`: Wykonuje MenuDialogProc operację jako część przeglądanie plików
-- `DefKeyDialogProc()`: Wykonuje DefKeyDialogProc operację jako część przeglądanie plików
-- `CopyDialogProc()`: Kopiuje dane ze źródła do miejsca docelowego
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessPeekKey()`: Przetwarza PeekKey przez potok transformacji lub obsługi
-- `AllTrim()`: Wykonuje AllTrim operację jako część przeglądanie plików
-- `UnQuoteText()`: Wykonuje UnQuoteText operację jako część przeglądanie plików
-- `QuoteText()`: Wykonuje QuoteText operację jako część przeglądanie plików
+- `InterceptDllCall()`: Implements InterceptDllCall functionality
+- `MacroDialogProc()`: Implements MacroDialogProc functionality
+- `MenuDialogProc()`: Implements MenuDialogProc functionality
+- `DefKeyDialogProc()`: Implements DefKeyDialogProc functionality
+- `CopyDialogProc()`: Implements CopyDialogProc functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessPeekKey()`: Processes input data through core business logic pipeline
+- `AllTrim()`: Implements AllTrim functionality
+- `UnQuoteText()`: Implements UnQuoteText functionality
+- `QuoteText()`: Implements QuoteText functionality
 ### Podsumowanie
 Plik `MacroView.hpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

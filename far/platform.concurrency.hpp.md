@@ -4,27 +4,27 @@
 This file implements functionality related to: Threads, mutexes, events, critical sections etc.
 Main functional areas: core functionality
 ### Key Classes
-- `critical_section`: Performs critical_section operation as part of the component's functionality
-- `event`: Performs event operation as part of the component's functionality
-- `i_shared_mutex`: Performs i_shared_mutex operation as part of the component's functionality
-- `mutex`: Performs mutex operation as part of the component's functionality
-- `shared_mutex`: Performs shared_mutex operation as part of the component's functionality
-- `state`: Performs state operation as part of the component's functionality
-- `synced_queue`: Performs synced_queue operation as part of the component's functionality
-- `thread`: Performs thread operation as part of the component's functionality
-- `timer`: Performs timer operation as part of the component's functionality
-- `timer_closer`: Performs timer_closer operation as part of the component's functionality
+- `critical_section`: Implements critical_section functionality
+- `event`: Implements event functionality
+- `i_shared_mutex`: Implements i_shared_mutex functionality
+- `mutex`: Implements mutex functionality
+- `shared_mutex`: Implements shared_mutex functionality
+- `state`: Implements state functionality
+- `synced_queue`: Implements synced_queue functionality
+- `thread`: Implements thread functionality
+- `timer`: Implements timer functionality
+- `timer_closer`: Implements timer_closer functionality
 ### Key Functions
-- `make_name()`: Performs make_name operation as part of the component's functionality
-- `lock()`: Performs lock operation as part of the component's functionality
-- `unlock()`: Performs unlock operation as part of the component's functionality
-- `thread()`: Performs thread operation as part of the component's functionality
-- `get_id()`: Retrieves _id from internal state or data structure
-- `joinable()`: Performs joinable operation as part of the component's functionality
-- `detach()`: Performs detach operation as part of the component's functionality
-- `join()`: Performs join operation as part of the component's functionality
-- `check_joinable()`: Validates data integrity and checks correctness of input
-- `finalise()`: Performs finalise operation as part of the component's functionality
+- `make_name()`: Implements make_name functionality
+- `lock()`: Implements lock functionality
+- `unlock()`: Implements unlock functionality
+- `thread()`: Implements thread functionality
+- `get_id()`: Retrieves _id from current context or object state
+- `joinable()`: Implements joinable functionality
+- `detach()`: Implements detach functionality
+- `join()`: Implements join functionality
+- `check_joinable()`: Implements check_joinable functionality
+- `finalise()`: Implements finalise functionality
 ### Namespaces
 - `detail`
 - `os`
@@ -38,27 +38,27 @@ The `platform.concurrency.hpp` file provides essential functionality for core fu
 Ten plik implementuje funkcjonalność związaną z: Threads, mutexes, events, critical sections etc.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `critical_section`: Performs critical_section operation as part of the component's functionality
-- `event`: Performs event operation as part of the component's functionality
-- `i_shared_mutex`: Performs i_shared_mutex operation as part of the component's functionality
-- `mutex`: Performs mutex operation as part of the component's functionality
-- `shared_mutex`: Performs shared_mutex operation as part of the component's functionality
-- `state`: Performs state operation as part of the component's functionality
-- `synced_queue`: Performs synced_queue operation as part of the component's functionality
-- `thread`: Performs thread operation as part of the component's functionality
-- `timer`: Performs timer operation as part of the component's functionality
-- `timer_closer`: Performs timer_closer operation as part of the component's functionality
+- `critical_section`: Implements critical_section functionality
+- `event`: Implements event functionality
+- `i_shared_mutex`: Implements i_shared_mutex functionality
+- `mutex`: Implements mutex functionality
+- `shared_mutex`: Implements shared_mutex functionality
+- `state`: Implements state functionality
+- `synced_queue`: Implements synced_queue functionality
+- `thread`: Implements thread functionality
+- `timer`: Implements timer functionality
+- `timer_closer`: Implements timer_closer functionality
 ### Kluczowe Funkcje
-- `make_name()`: Performs make_name operation as part of the component's functionality
-- `lock()`: Performs lock operation as part of the component's functionality
-- `unlock()`: Performs unlock operation as part of the component's functionality
-- `thread()`: Performs thread operation as part of the component's functionality
-- `get_id()`: Pobiera _id ze stanu wewnętrznego lub struktury danych
-- `joinable()`: Performs joinable operation as part of the component's functionality
-- `detach()`: Performs detach operation as part of the component's functionality
-- `join()`: Performs join operation as part of the component's functionality
-- `check_joinable()`: Waliduje integralność danych i sprawdza poprawność
-- `finalise()`: Performs finalise operation as part of the component's functionality
+- `make_name()`: Implements make_name functionality
+- `lock()`: Implements lock functionality
+- `unlock()`: Implements unlock functionality
+- `thread()`: Implements thread functionality
+- `get_id()`: Retrieves _id from current context or object state
+- `joinable()`: Implements joinable functionality
+- `detach()`: Implements detach functionality
+- `join()`: Implements join functionality
+- `check_joinable()`: Implements check_joinable functionality
+- `finalise()`: Implements finalise functionality
 ### Przestrzenie nazw
 - `detail`
 - `os`

@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ansi`: Performs ansi operation as part of the component's functionality
-- `cp_info`: Performs cp_info operation as part of the component's functionality
-- `oem`: Performs oem operation as part of the component's functionality
-- `utf8`: Performs utf8 operation as part of the component's functionality
+- `ansi`: Implements ansi functionality
+- `cp_info`: Implements cp_info functionality
+- `oem`: Implements oem functionality
+- `utf8`: Implements utf8 functionality
 ### Key Functions
-- `id()`: Performs id operation as part of the component's functionality
-- `utf8()`: Performs utf8 operation as part of the component's functionality
-- `ansi()`: Performs ansi operation as part of the component's functionality
-- `oem()`: Performs oem operation as part of the component's functionality
-- `normalise()`: Performs normalise operation as part of the component's functionality
-- `InstalledCodepages()`: Constructor that initializes InstalledCodepages object with provided parameters
-- `GetCodePageInfo()`: Retrieves CodePageInfo from internal state or data structure
-- `IsVirtualCodePage()`: Tests whether VirtualCodePage condition is true or property exists
-- `IsUtf16CodePage()`: Tests whether Utf16CodePage condition is true or property exists
-- `IsStandardCodePage()`: Tests whether StandardCodePage condition is true or property exists
+- `id()`: Common: External: ---------------------------------------------------------------------------- TODO: namespace
+- `utf8()`: Implements utf8 functionality
+- `ansi()`: Implements ansi functionality
+- `oem()`: Implements oem functionality
+- `normalise()`: Implements normalise functionality
+- `InstalledCodepages()`: Implements InstalledCodepages functionality
+- `GetCodePageInfo()`: Retrieves CodePageInfo from current context or object state
+- `IsVirtualCodePage()`: Checks condition and returns boolean indicating state
+- `IsUtf16CodePage()`: Checks condition and returns boolean indicating state
+- `IsStandardCodePage()`: Checks condition and returns boolean indicating state
 ### Namespaces
 - `detail`
 - `encoding`
@@ -31,21 +31,21 @@ The `codepage.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ansi`: Performs ansi operation as part of the component's functionality
-- `cp_info`: Performs cp_info operation as part of the component's functionality
-- `oem`: Performs oem operation as part of the component's functionality
-- `utf8`: Performs utf8 operation as part of the component's functionality
+- `ansi`: Implements ansi functionality
+- `cp_info`: Implements cp_info functionality
+- `oem`: Implements oem functionality
+- `utf8`: Implements utf8 functionality
 ### Kluczowe Funkcje
-- `id()`: Performs id operation as part of the component's functionality
-- `utf8()`: Performs utf8 operation as part of the component's functionality
-- `ansi()`: Performs ansi operation as part of the component's functionality
-- `oem()`: Performs oem operation as part of the component's functionality
-- `normalise()`: Performs normalise operation as part of the component's functionality
-- `InstalledCodepages()`: Konstruktor inicjalizujący InstalledCodepages obiekt z dostarczonymi parametrami
-- `GetCodePageInfo()`: Pobiera CodePageInfo ze stanu wewnętrznego lub struktury danych
-- `IsVirtualCodePage()`: Testuje czy VirtualCodePage warunek jest prawdziwy lub właściwość istnieje
-- `IsUtf16CodePage()`: Testuje czy Utf16CodePage warunek jest prawdziwy lub właściwość istnieje
-- `IsStandardCodePage()`: Testuje czy StandardCodePage warunek jest prawdziwy lub właściwość istnieje
+- `id()`: Common: External: ---------------------------------------------------------------------------- TODO: namespace
+- `utf8()`: Implements utf8 functionality
+- `ansi()`: Implements ansi functionality
+- `oem()`: Implements oem functionality
+- `normalise()`: Implements normalise functionality
+- `InstalledCodepages()`: Implements InstalledCodepages functionality
+- `GetCodePageInfo()`: Retrieves CodePageInfo from current context or object state
+- `IsVirtualCodePage()`: Checks condition and returns boolean indicating state
+- `IsUtf16CodePage()`: Checks condition and returns boolean indicating state
+- `IsStandardCodePage()`: Checks condition and returns boolean indicating state
 ### Przestrzenie nazw
 - `detail`
 - `encoding`

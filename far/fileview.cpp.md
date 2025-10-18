@@ -4,12 +4,12 @@
 This file implements functionality related to: Просмотр файла - надстройка над viewer.cpp
 Main functional areas: file viewing, file system operations
 ### Key Classes
-- `FileViewer`: Performs FileViewer operation as part of the component's functionality
+- `FileViewer`: Implements FileViewer functionality
 ### Key Functions
-- `expired()`: Evaluates conditions and returns boolean indicating success or validity
-- `start()`: Performs start operation as part of the component's functionality
-- `stop()`: Performs stop operation as part of the component's functionality
-- `SetTempViewName()`: Updates TempViewName in internal state or configuration
+- `expired()`: Processes input by dispatching to different code paths based on type or value
+- `start()`: Processes input by dispatching to different code paths based on type or value
+- `stop()`: Implements stop functionality
+- `SetTempViewName()`: Updates TempViewName with provided value
 ### Summary
 The `fileview.cpp` file provides essential functionality for file viewing, file system operations. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -20,11 +20,11 @@ The `fileview.cpp` file provides essential functionality for file viewing, file 
 Ten plik implementuje funkcjonalność związaną z: Просмотр файла - надстройка над viewer.cpp
 Główne obszary funkcjonalne: przeglądanie plików, operacje systemu plików
 ### Kluczowe Klasy
-- `FileViewer`: Implementuje przeglądanie plików, operacje systemu plików
+- `FileViewer`: Implements FileViewer functionality
 ### Kluczowe Funkcje
-- `expired()`: Wykonuje expired operację jako część przeglądanie plików, operacje systemu plików
-- `start()`: Wykonuje start operację jako część przeglądanie plików, operacje systemu plików
-- `stop()`: Wykonuje stop operację jako część przeglądanie plików, operacje systemu plików
-- `SetTempViewName()`: Aktualizuje TempViewName w stanie wewnętrznym lub konfiguracji
+- `expired()`: Processes input by dispatching to different code paths based on type or value
+- `start()`: Processes input by dispatching to different code paths based on type or value
+- `stop()`: Implements stop functionality
+- `SetTempViewName()`: Updates TempViewName with provided value
 ### Podsumowanie
 Plik `fileview.cpp` zapewnia podstawową funkcjonalność dla przeglądanie plików, operacje systemu plików. Definiuje 1 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

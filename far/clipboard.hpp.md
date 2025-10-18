@@ -4,22 +4,22 @@
 This file implements functionality related to: Работа с буфером обмена.
 Main functional areas: clipboard operations
 ### Key Classes
-- `clipboard`: Performs clipboard operation as part of the component's functionality
-- `clipboard_accessor`: Performs clipboard_accessor operation as part of the component's functionality
-- `clipboard_mode`: Performs clipboard_mode operation as part of the component's functionality
-- `clipboard_restorer`: Performs clipboard_restorer operation as part of the component's functionality
-- `default_clipboard_mode`: Performs default_clipboard_mode operation as part of the component's functionality
+- `clipboard`: Implements clipboard functionality
+- `clipboard_accessor`: Implements clipboard_accessor functionality
+- `clipboard_mode`: Implements clipboard_mode functionality
+- `clipboard_restorer`: Implements clipboard_restorer functionality
+- `default_clipboard_mode`: Implements default_clipboard_mode functionality
 ### Key Functions
-- `set()`: Updates value in internal state or configuration
-- `get()`: Retrieves value from internal state or data structure
-- `GetInstance()`: Retrieves Instance from internal state or data structure
-- `SetClipboardText()`: Places text content into the system or internal clipboard
-- `SetClipboardVText()`: Places text content into the system or internal clipboard
-- `GetClipboardText()`: Retrieves text content from the clipboard
-- `GetClipboardVText()`: Retrieves text content from the clipboard
-- `ClearClipboard()`: Empties clipboard contents and releases associated memory
-- `ClearInternalClipboard()`: Empties clipboard contents and releases associated memory
-- `CopyData()`: Copies data between clipboard instances (system and internal)
+- `set()`: Implements set functionality
+- `get()`: Implements get functionality
+- `GetInstance()`: Retrieves Instance from current context or object state
+- `SetClipboardText()`: Updates ClipboardText with provided value
+- `SetClipboardVText()`: Updates ClipboardVText with provided value
+- `GetClipboardText()`: Retrieves ClipboardText from current context or object state
+- `GetClipboardVText()`: Retrieves ClipboardVText from current context or object state
+- `ClearClipboard()`: Implements ClearClipboard functionality
+- `ClearInternalClipboard()`: Implements ClearInternalClipboard functionality
+- `CopyData()`: Implements CopyData functionality
 ### Summary
 The `clipboard.hpp` file provides essential functionality for clipboard operations. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -30,21 +30,21 @@ The `clipboard.hpp` file provides essential functionality for clipboard operatio
 Ten plik implementuje funkcjonalność związaną z: Работа с буфером обмена.
 Główne obszary funkcjonalne: operacje schowka
 ### Kluczowe Klasy
-- `clipboard`: Implementuje operacje schowka
-- `clipboard_accessor`: Implementuje operacje schowka
-- `clipboard_mode`: Implementuje operacje schowka
-- `clipboard_restorer`: Implementuje operacje schowka
-- `default_clipboard_mode`: Implementuje operacje schowka
+- `clipboard`: Implements clipboard functionality
+- `clipboard_accessor`: Implements clipboard_accessor functionality
+- `clipboard_mode`: Implements clipboard_mode functionality
+- `clipboard_restorer`: Implements clipboard_restorer functionality
+- `default_clipboard_mode`: Implements default_clipboard_mode functionality
 ### Kluczowe Funkcje
-- `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `GetInstance()`: Pobiera Instance ze stanu wewnętrznego lub struktury danych
-- `SetClipboardText()`: Umieszcza zawartość tekstową w schowku systemowym lub wewnętrznym
-- `SetClipboardVText()`: Umieszcza zawartość tekstową w schowku systemowym lub wewnętrznym
-- `GetClipboardText()`: Pobiera zawartość tekstową ze schowka
-- `GetClipboardVText()`: Pobiera zawartość tekstową ze schowka
-- `ClearClipboard()`: Opróżnia zawartość schowka i zwalnia powiązaną pamięć
-- `ClearInternalClipboard()`: Opróżnia zawartość schowka i zwalnia powiązaną pamięć
-- `CopyData()`: Kopiuje dane między instancjami schowka (systemowym i wewnętrznym)
+- `set()`: Implements set functionality
+- `get()`: Implements get functionality
+- `GetInstance()`: Retrieves Instance from current context or object state
+- `SetClipboardText()`: Updates ClipboardText with provided value
+- `SetClipboardVText()`: Updates ClipboardVText with provided value
+- `GetClipboardText()`: Retrieves ClipboardText from current context or object state
+- `GetClipboardVText()`: Retrieves ClipboardVText from current context or object state
+- `ClearClipboard()`: Implements ClearClipboard functionality
+- `ClearInternalClipboard()`: Implements ClearInternalClipboard functionality
+- `CopyData()`: Implements CopyData functionality
 ### Podsumowanie
 Plik `clipboard.hpp` zapewnia podstawową funkcjonalność dla operacje schowka. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

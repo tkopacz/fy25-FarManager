@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `delete()`: Removes item from collection and frees associated resources
-- `new()`: Performs new operation as part of the component's functionality
-- `_Alloc()`: Performs _Alloc operation as part of the component's functionality
-- `__Alloc()`: Performs __Alloc operation as part of the component's functionality
-- `__Del()`: Performs __Del operation as part of the component's functionality
-- `__Realloc()`: Performs __Realloc operation as part of the component's functionality
-- `__PtrSize()`: Returns the current size or capacity of the container
-- `__HeapCheck()`: Evaluates conditions and returns a boolean indicating success or validity of __HeapCheck
-- `HeapAlloc()`: Performs HeapAlloc operation as part of the component's functionality
-- `HeapReAlloc()`: Performs HeapReAlloc operation as part of the component's functionality
+- `delete()`: Removes or deletes specified item and releases associated resources
+- `new()`: Implements new functionality
+- `_Alloc()`: Implements _Alloc functionality
+- `__Alloc()`: DISABLE_OPERATORS_RELOAD PACKAGE remove memory management OPERATORS Disable operators reload on MS dll with dynamic RTL VCL WIN32 STDLIB ptr
+- `__Del()`: Implements __Del functionality
+- `__Realloc()`: Implements __Realloc functionality
+- `__PtrSize()`: Implements __PtrSize functionality
+- `__HeapCheck()`: Implements __HeapCheck functionality
+- `HeapAlloc()`: Implements HeapAlloc functionality
+- `HeapReAlloc()`: Implements HeapReAlloc functionality
 ### Summary
 The `chknew.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `chknew.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `delete()`: Usuwa element z kolekcji i zwalnia powiązane zasoby
-- `new()`: Performs new operation as part of the component's functionality
-- `_Alloc()`: Performs _Alloc operation as part of the component's functionality
-- `__Alloc()`: Performs __Alloc operation as part of the component's functionality
-- `__Del()`: Performs __Del operation as part of the component's functionality
-- `__Realloc()`: Performs __Realloc operation as part of the component's functionality
-- `__PtrSize()`: Returns the current size or capacity of the container
-- `__HeapCheck()`: Evaluates conditions and returns a boolean indicating success or validity of __HeapCheck
-- `HeapAlloc()`: Performs HeapAlloc operation as part of the component's functionality
-- `HeapReAlloc()`: Performs HeapReAlloc operation as part of the component's functionality
+- `delete()`: Removes or deletes specified item and releases associated resources
+- `new()`: Implements new functionality
+- `_Alloc()`: Implements _Alloc functionality
+- `__Alloc()`: DISABLE_OPERATORS_RELOAD PACKAGE remove memory management OPERATORS Disable operators reload on MS dll with dynamic RTL VCL WIN32 STDLIB ptr
+- `__Del()`: Implements __Del functionality
+- `__Realloc()`: Implements __Realloc functionality
+- `__PtrSize()`: Implements __PtrSize functionality
+- `__HeapCheck()`: Implements __HeapCheck functionality
+- `HeapAlloc()`: Implements HeapAlloc functionality
+- `HeapReAlloc()`: Implements HeapReAlloc functionality
 ### Podsumowanie
 Plik `chknew.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

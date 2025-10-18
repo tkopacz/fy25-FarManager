@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `construct()`: Constructor that initializes construct object with provided parameters
-- `destruct()`: Performs destruct operation as part of the component's functionality
+- `construct()`: Implements construct functionality
+- `destruct()`: To increase the chance of crash on use-after-delete PLACEMENT_HPP_846A43B8_5BFF_4131_87E6_CFC3E6C44956
 ### Namespaces
 - `placement`
 ### Summary
@@ -16,8 +16,8 @@ The `placement.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `construct()`: Konstruktor inicjalizujący construct obiekt z dostarczonymi parametrami
-- `destruct()`: Performs destruct operation as part of the component's functionality
+- `construct()`: Implements construct functionality
+- `destruct()`: To increase the chance of crash on use-after-delete PLACEMENT_HPP_846A43B8_5BFF_4131_87E6_CFC3E6C44956
 ### Przestrzenie nazw
 - `placement`
 ### Podsumowanie

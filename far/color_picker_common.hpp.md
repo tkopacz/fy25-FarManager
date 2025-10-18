@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: color management
 ### Key Classes
-- `axis`: Performs axis operation as part of the component's functionality
-- `cube_data`: Performs cube_data operation as part of the component's functionality
-- `rgb_context_t`: Performs rgb_context_t operation as part of the component's functionality
-- `shapes`: Performs shapes operation as part of the component's functionality
+- `axis`: Implements axis functionality
+- `cube_data`: Implements cube_data functionality
+- `rgb_context_t`: Implements rgb_context_t functionality
+- `shapes`: Implements shapes functionality
 ### Key Functions
-- `rotate_coord()`: Performs rotate_coord operation as part of the component's functionality
-- `rotate_cube()`: Performs rotate_cube operation as part of the component's functionality
-- `copy_row()`: Copies data from source to destination location
-- `copy_col()`: Copies data from source to destination location
-- `move_step()`: Moves data or object from current location to new location
-- `move_plane()`: Moves data or object from current location to new location
-- `slice_str()`: Performs slice_str operation as part of the component's functionality
-- `rotate()`: Displays dialog interface for user interaction and input collection
-- `Event()`: Performs Event operation as part of the component's functionality
-- `Timer()`: Performs Timer operation as part of the component's functionality
+- `rotate_coord()`: Processes input by dispatching to different code paths based on type or value
+- `rotate_cube()`: Processes input by dispatching to different code paths based on type or value
+- `copy_row()`: Implements copy_row functionality
+- `copy_col()`: Implements copy_col functionality
+- `move_step()`: Implements move_step functionality
+- `move_plane()`: Implements move_plane functionality
+- `slice_str()`: Implements slice_str functionality
+- `rotate()`: Implements rotate functionality
+- `Event()`: N steps -> N - 1 delays Sleep won't do, the rendering time is non-negligible and unpredictable
+- `Timer()`: Sleep won't do, the rendering time is non-negligible and unpredictable
 ### Namespaces
 - `color_picker_common`
 ### Summary
@@ -31,21 +31,21 @@ The `color_picker_common.hpp` file provides essential functionality for color ma
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `axis`: Implementuje zarządzanie kolorami
-- `cube_data`: Implementuje zarządzanie kolorami
-- `rgb_context_t`: Implementuje zarządzanie kolorami
-- `shapes`: Implementuje zarządzanie kolorami
+- `axis`: Implements axis functionality
+- `cube_data`: Implements cube_data functionality
+- `rgb_context_t`: Implements rgb_context_t functionality
+- `shapes`: Implements shapes functionality
 ### Kluczowe Funkcje
-- `rotate_coord()`: Wykonuje rotate_coord operację jako część zarządzanie kolorami
-- `rotate_cube()`: Wykonuje rotate_cube operację jako część zarządzanie kolorami
-- `copy_row()`: Kopiuje dane ze źródła do miejsca docelowego
-- `copy_col()`: Kopiuje dane ze źródła do miejsca docelowego
-- `move_step()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `move_plane()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `slice_str()`: Wykonuje slice_str operację jako część zarządzanie kolorami
-- `rotate()`: Wykonuje rotate operację jako część zarządzanie kolorami
-- `Event()`: Wykonuje Event operację jako część zarządzanie kolorami
-- `Timer()`: Wykonuje Timer operację jako część zarządzanie kolorami
+- `rotate_coord()`: Processes input by dispatching to different code paths based on type or value
+- `rotate_cube()`: Processes input by dispatching to different code paths based on type or value
+- `copy_row()`: Implements copy_row functionality
+- `copy_col()`: Implements copy_col functionality
+- `move_step()`: Implements move_step functionality
+- `move_plane()`: Implements move_plane functionality
+- `slice_str()`: Implements slice_str functionality
+- `rotate()`: Implements rotate functionality
+- `Event()`: N steps -> N - 1 delays Sleep won't do, the rendering time is non-negligible and unpredictable
+- `Timer()`: Sleep won't do, the rendering time is non-negligible and unpredictable
 ### Przestrzenie nazw
 - `color_picker_common`
 ### Podsumowanie

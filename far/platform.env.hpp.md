@@ -4,15 +4,15 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `block`: Performs block operation as part of the component's functionality
-- `strings`: Performs strings operation as part of the component's functionality
+- `block`: Implements block functionality
+- `strings`: Implements strings functionality
 ### Key Functions
-- `data()`: Performs data operation as part of the component's functionality
-- `get()`: Retrieves value from internal state or data structure
-- `set()`: Updates value in internal state or configuration
-- `del()`: Performs del operation as part of the component's functionality
-- `expand()`: Performs expand operation as part of the component's functionality
-- `get_pathext()`: Retrieves _pathext from internal state or data structure
+- `data()`: Implements data functionality
+- `get()`: Implements get functionality
+- `set()`: Implements set functionality
+- `del()`: Implements del functionality
+- `expand()`: Implements expand functionality
+- `get_pathext()`: Retrieves _pathext from current context or object state
 ### Namespaces
 - `os`
 - `provider`
@@ -26,15 +26,15 @@ The `platform.env.hpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `block`: Performs block operation as part of the component's functionality
-- `strings`: Performs strings operation as part of the component's functionality
+- `block`: Implements block functionality
+- `strings`: Implements strings functionality
 ### Kluczowe Funkcje
-- `data()`: Konstruktor inicjalizujący dane obiekt z dostarczonymi parametrami
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `del()`: Performs del operation as part of the component's functionality
-- `expand()`: Performs expand operation as part of the component's functionality
-- `get_pathext()`: Pobiera _pathext ze stanu wewnętrznego lub struktury danych
+- `data()`: Implements data functionality
+- `get()`: Implements get functionality
+- `set()`: Implements set functionality
+- `del()`: Implements del functionality
+- `expand()`: Implements expand functionality
+- `get_pathext()`: Retrieves _pathext from current context or object state
 ### Przestrzenie nazw
 - `os`
 - `provider`

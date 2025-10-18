@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `idPRParceNETWARE()`: Evaluates conditions and returns a boolean indicating success or validity of idPRParceNETWARE
-- `ConvertEntry()`: Converts data from one format or type to another
+- `idPRParceNETWARE()`: Implements idPRParceNETWARE functionality
+- `ConvertEntry()`: Implements ConvertEntry functionality
 ### Summary
 The `netware.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `netware.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `idPRParceNETWARE()`: Evaluates conditions and returns a boolean indicating success or validity of idPRParceNETWARE
-- `ConvertEntry()`: Konwertuje dane z jednego formatu lub typu do innego
+- `idPRParceNETWARE()`: Implements idPRParceNETWARE functionality
+- `ConvertEntry()`: Implements ConvertEntry functionality
 ### Podsumowanie
 Plik `netware.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

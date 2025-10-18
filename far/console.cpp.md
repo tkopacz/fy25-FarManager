@@ -4,27 +4,27 @@
 This file implements functionality related to: Console functions
 Main functional areas: console operations
 ### Key Classes
-- `ModuleImports`: Performs ModuleImports operation as part of the component's functionality
-- `colors_mapping_type`: Performs colors_mapping_type operation as part of the component's functionality
-- `console`: Performs console operation as part of the component's functionality
-- `console_detail`: Performs console_detail operation as part of the component's functionality
-- `cursor_suppressor`: Performs cursor_suppressor operation as part of the component's functionality
-- `expanded_state`: Performs expanded_state operation as part of the component's functionality
-- `external_console`: Performs external_console operation as part of the component's functionality
-- `foreign_blocks_list`: Performs foreign_blocks_list operation as part of the component's functionality
-- `hide_cursor`: Performs hide_cursor operation as part of the component's functionality
-- `scoped_vt_output`: Performs scoped_vt_output operation as part of the component's functionality
+- `ModuleImports`: Implements ModuleImports functionality
+- `colors_mapping_type`: Implements colors_mapping_type functionality
+- `console`: пишем/читаем порциями по 32 K, иначе проблемы
+- `console_detail`: Implements console_detail functionality
+- `cursor_suppressor`: Implements cursor_suppressor functionality
+- `expanded_state`: Implements expanded_state functionality
+- `external_console`: пишем/читаем порциями по 32 K, иначе проблемы
+- `foreign_blocks_list`: Implements foreign_blocks_list functionality
+- `hide_cursor`: Implements hide_cursor functionality
+- `scoped_vt_output`: Implements scoped_vt_output functionality
 ### Key Functions
-- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation as part of the component's functionality
-- `sanitise_dbsc_pair()`: Evaluates conditions and returns a boolean indicating success or validity of sanitise_dbsc_pair
-- `sanitise_surrogate_pair()`: Evaluates conditions and returns a boolean indicating success or validity of sanitise_surrogate_pair
-- `sanitise_pair()`: Checks state or conditions and returns boolean indicating the result
-- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info from internal state or data structure
-- `make_coord()`: Performs make_coord operation as part of the component's functionality
-- `make_rect()`: Performs make_rect operation as part of the component's functionality
-- `GetDelta()`: Retrieves Delta from internal state or data structure
-- `is_redirected()`: Tests whether _redirected condition is true or property exists
-- `color()`: Performs color operation as part of the component's functionality
+- `ReplaceControlCharacter()`: C0 space white smiling face black smiling face black heart suit black diamond suit black club suit black spade suit bullet inverse bullet white c
+- `sanitise_dbsc_pair()`: Implements sanitise_dbsc_pair functionality
+- `sanitise_surrogate_pair()`: Not surrogate, awesome Valid surrogate, awesome
+- `sanitise_pair()`: Implements sanitise_pair functionality
+- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info from current context or object state
+- `make_coord()`: Implements make_coord functionality
+- `make_rect()`: пишем/читаем порциями по 32 K, иначе проблемы
+- `GetDelta()`: пишем/читаем порциями по 32 K, иначе проблемы
+- `is_redirected()`: Checks condition and returns boolean indicating state
+- `color()`: Implements color functionality
 ### Namespaces
 - `console_detail`
 ### Summary
@@ -37,27 +37,27 @@ The `console.cpp` file provides essential functionality for console operations. 
 Ten plik implementuje funkcjonalność związaną z: Console functions
 Główne obszary funkcjonalne: operacje konsolowe
 ### Kluczowe Klasy
-- `ModuleImports`: Implementuje operacje konsolowe
-- `colors_mapping_type`: Implementuje operacje konsolowe
-- `console`: Implementuje operacje konsolowe
-- `console_detail`: Implementuje operacje konsolowe
-- `cursor_suppressor`: Implementuje operacje konsolowe
-- `expanded_state`: Implementuje operacje konsolowe
-- `external_console`: Implementuje operacje konsolowe
-- `foreign_blocks_list`: Implementuje operacje konsolowe
-- `hide_cursor`: Implementuje operacje konsolowe
-- `scoped_vt_output`: Implementuje operacje konsolowe
+- `ModuleImports`: Implements ModuleImports functionality
+- `colors_mapping_type`: Implements colors_mapping_type functionality
+- `console`: пишем/читаем порциями по 32 K, иначе проблемы
+- `console_detail`: Implements console_detail functionality
+- `cursor_suppressor`: Implements cursor_suppressor functionality
+- `expanded_state`: Implements expanded_state functionality
+- `external_console`: пишем/читаем порциями по 32 K, иначе проблемы
+- `foreign_blocks_list`: Implements foreign_blocks_list functionality
+- `hide_cursor`: Implements hide_cursor functionality
+- `scoped_vt_output`: Implements scoped_vt_output functionality
 ### Kluczowe Funkcje
-- `ReplaceControlCharacter()`: Wykonuje ReplaceControlCharacter operację jako część operacje konsolowe
-- `sanitise_dbsc_pair()`: Wykonuje sanitise_dbsc_pair operację jako część operacje konsolowe
-- `sanitise_surrogate_pair()`: Wykonuje sanitise_surrogate_pair operację jako część operacje konsolowe
-- `sanitise_pair()`: Wykonuje sanitise_pair operację jako część operacje konsolowe
-- `get_console_screen_buffer_info()`: Pobiera _console_screen_buffer_info ze stanu wewnętrznego lub struktury danych
-- `make_coord()`: Wykonuje make_coord operację jako część operacje konsolowe
-- `make_rect()`: Wykonuje make_rect operację jako część operacje konsolowe
-- `GetDelta()`: Pobiera Delta ze stanu wewnętrznego lub struktury danych
-- `is_redirected()`: Testuje czy _redirected warunek jest prawdziwy lub właściwość istnieje
-- `color()`: Wykonuje color operację jako część operacje konsolowe
+- `ReplaceControlCharacter()`: C0 space white smiling face black smiling face black heart suit black diamond suit black club suit black spade suit bullet inverse bullet white c
+- `sanitise_dbsc_pair()`: Implements sanitise_dbsc_pair functionality
+- `sanitise_surrogate_pair()`: Not surrogate, awesome Valid surrogate, awesome
+- `sanitise_pair()`: Implements sanitise_pair functionality
+- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info from current context or object state
+- `make_coord()`: Implements make_coord functionality
+- `make_rect()`: пишем/читаем порциями по 32 K, иначе проблемы
+- `GetDelta()`: пишем/читаем порциями по 32 K, иначе проблемы
+- `is_redirected()`: Checks condition and returns boolean indicating state
+- `color()`: Implements color functionality
 ### Przestrzenie nazw
 - `console_detail`
 ### Podsumowanie

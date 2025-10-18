@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `Archive`: Performs Archive operation as part of the component's functionality
-- `FileInfo`: Performs FileInfo operation as part of the component's functionality
-- `FileStream`: Performs FileStream operation as part of the component's functionality
+- `Archive`: *** IUnknown *** *** IInArchive *** read archive contents from IInStream return S_FALSE if format is not recognized
+- `FileInfo`: Implements FileInfo functionality
+- `FileStream`: Implements FileStream functionality
 ### Key Functions
-- `GetHandlerProperty()`: Retrieves HandlerProperty from internal state or data structure
-- `path_buf()`: Performs path_buf operation as part of the component's functionality
-- `CHECK()`: Validates data integrity and checks correctness of input
-- `CreateObject()`: Creates and initializes new Object instance
+- `GetHandlerProperty()`: report information about supported formats simple format name unique format id list of extensions are modifications supported?
+- `path_buf()`: Implements path_buf functionality
+- `CHECK()`: Validates boolean condition and throws exception with condition text on failure
+- `CreateObject()`: Creates and initializes new object or resource instance
 ### Summary
 The `module.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `module.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Archive`: Performs Archive operation as part of the component's functionality
-- `FileInfo`: Performs FileInfo operation as part of the component's functionality
-- `FileStream`: Performs FileStream operation as part of the component's functionality
+- `Archive`: *** IUnknown *** *** IInArchive *** read archive contents from IInStream return S_FALSE if format is not recognized
+- `FileInfo`: Implements FileInfo functionality
+- `FileStream`: Implements FileStream functionality
 ### Kluczowe Funkcje
-- `GetHandlerProperty()`: Pobiera HandlerProperty ze stanu wewnętrznego lub struktury danych
-- `path_buf()`: Performs path_buf operation as part of the component's functionality
-- `CHECK()`: Waliduje integralność danych i sprawdza poprawność
-- `CreateObject()`: Tworzy i inicjalizuje nowy Object instancję
+- `GetHandlerProperty()`: report information about supported formats simple format name unique format id list of extensions are modifications supported?
+- `path_buf()`: Implements path_buf functionality
+- `CHECK()`: Validates boolean condition and throws exception with condition text on failure
+- `CreateObject()`: Creates and initializes new object or resource instance
 ### Podsumowanie
 Plik `module.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

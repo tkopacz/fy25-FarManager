@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `ThreadProc()`: Initializes COM (Component Object Model) interfaces for interoperability with Windows components
-- `EnsureThreadStarted()`: Evaluates conditions and returns a boolean indicating success or validity of EnsureThreadStarted
-- `OpenPlugin()`: Opens resource and prepares it for access operations
-- `ShowMenu()`: Displays content or makes visual element visible on screen
-- `Stop()`: Performs Stop operation as part of the component's functionality
-- `Startup()`: Allocates memory and initializes resources for Startup
-- `Cleanup()`: Performs Cleanup operation as part of the component's functionality
+- `ThreadProc()`: Implements ThreadProc functionality
+- `EnsureThreadStarted()`: Implements EnsureThreadStarted functionality
+- `OpenPlugin()`: Implements OpenPlugin functionality
+- `ShowMenu()`: Implements ShowMenu functionality
+- `Stop()`: Implements Stop functionality
+- `Startup()`: Implements Startup functionality
+- `Cleanup()`: Implements Cleanup functionality
 ### Namespaces
 - `OleThread`
 - `OpenPluginArgs`
@@ -23,13 +23,13 @@ The `OleThread.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `ThreadProc()`: Initializes COM (Component Object Model) interfaces for interoperability with Windows components
-- `EnsureThreadStarted()`: Evaluates conditions and returns a boolean indicating success or validity of EnsureThreadStarted
-- `OpenPlugin()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `ShowMenu()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `Stop()`: Performs Stop operation as part of the component's functionality
-- `Startup()`: Allocates memory and initializes resources for Startup
-- `Cleanup()`: Performs Cleanup operation as part of the component's functionality
+- `ThreadProc()`: Implements ThreadProc functionality
+- `EnsureThreadStarted()`: Implements EnsureThreadStarted functionality
+- `OpenPlugin()`: Implements OpenPlugin functionality
+- `ShowMenu()`: Implements ShowMenu functionality
+- `Stop()`: Implements Stop functionality
+- `Startup()`: Implements Startup functionality
+- `Cleanup()`: Implements Cleanup functionality
 ### Przestrzenie nazw
 - `OleThread`
 - `OpenPluginArgs`

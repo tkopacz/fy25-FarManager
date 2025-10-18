@@ -4,15 +4,15 @@
 This file implements functionality related to: Misc functions for working with directories
 Main functional areas: core functionality
 ### Key Functions
-- `make_curdir_name()`: Performs make_curdir_name operation as part of the component's functionality
-- `env_get_current_dir()`: Performs env_get_current_dir operation as part of the component's functionality
-- `env_set_current_dir()`: Performs env_set_current_dir operation as part of the component's functionality
-- `set_drive_env_curdir()`: Updates _drive_env_curdir in internal state or configuration
-- `FarChDir()`: Evaluates conditions and returns a boolean indicating success or validity of FarChDir
-- `TestFolder()`: Performs TestFolder operation as part of the component's functionality
-- `CutToExistingParent()`: Evaluates conditions and returns a boolean indicating success or validity of CutToExistingParent
-- `TryParentFolder()`: Evaluates conditions and returns a boolean indicating success or validity of TryParentFolder
-- `CreatePath()`: Creates and initializes new Path instance
+- `make_curdir_name()`: Platform: Common: External: ----------------------------------------------------------------------------
+- `env_get_current_dir()`: ---------------------------------------------------------------------------- если указана только буква диска, то путь возьмем из п
+- `env_set_current_dir()`: Implements env_set_current_dir functionality
+- `set_drive_env_curdir()`: Updates _drive_env_curdir with provided value
+- `FarChDir()`: Implements FarChDir functionality
+- `TestFolder()`: Implements TestFolder functionality
+- `CutToExistingParent()`: Implements CutToExistingParent functionality
+- `TryParentFolder()`: Implements TryParentFolder functionality
+- `CreatePath()`: Creates and initializes new object or resource instance
 ### Summary
 The `dirmix.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -23,14 +23,14 @@ The `dirmix.cpp` file provides essential functionality for core functionality. a
 Ten plik implementuje funkcjonalność związaną z: Misc functions for working with directories
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `make_curdir_name()`: Performs make_curdir_name operation as part of the component's functionality
-- `env_get_current_dir()`: Performs env_get_current_dir operation as part of the component's functionality
-- `env_set_current_dir()`: Performs env_set_current_dir operation as part of the component's functionality
-- `set_drive_env_curdir()`: Aktualizuje _drive_env_curdir w stanie wewnętrznym lub konfiguracji
-- `FarChDir()`: Evaluates conditions and returns a boolean indicating success or validity of FarChDir
-- `TestFolder()`: Performs TestFolder operation as part of the component's functionality
-- `CutToExistingParent()`: Evaluates conditions and returns a boolean indicating success or validity of CutToExistingParent
-- `TryParentFolder()`: Evaluates conditions and returns a boolean indicating success or validity of TryParentFolder
-- `CreatePath()`: Tworzy i inicjalizuje nowy Path instancję
+- `make_curdir_name()`: Platform: Common: External: ----------------------------------------------------------------------------
+- `env_get_current_dir()`: ---------------------------------------------------------------------------- если указана только буква диска, то путь возьмем из п
+- `env_set_current_dir()`: Implements env_set_current_dir functionality
+- `set_drive_env_curdir()`: Updates _drive_env_curdir with provided value
+- `FarChDir()`: Implements FarChDir functionality
+- `TestFolder()`: Implements TestFolder functionality
+- `CutToExistingParent()`: Implements CutToExistingParent functionality
+- `TryParentFolder()`: Implements TryParentFolder functionality
+- `CreatePath()`: Creates and initializes new object or resource instance
 ### Podsumowanie
 Plik `dirmix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `engine`: Performs engine operation as part of the component's functionality
-- `level`: Performs level operation as part of the component's functionality
-- `suppressor`: Performs suppressor operation as part of the component's functionality
+- `engine`: Implements engine functionality
+- `level`: Implements level functionality
+- `suppressor`: Implements suppressor functionality
 ### Key Functions
-- `filter()`: Performs filter operation as part of the component's functionality
-- `show()`: Displays content or makes visual element visible on screen
-- `configure()`: Performs configure operation as part of the component's functionality
-- `is_log_argument()`: Tests whether _log_argument condition is true or property exists
-- `main()`: Main entry point of the application that initializes and starts program execution
+- `filter()`: Implements filter functionality
+- `show()`: Implements show functionality
+- `configure()`: Implements configure functionality
+- `is_log_argument()`: Checks condition and returns boolean indicating state
+- `main()`: Program entry point that parses arguments and coordinates main execution flow
 ### Namespaces
 - `detail`
 - `logging`
@@ -24,15 +24,15 @@ The `log.hpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `engine`: Performs engine operation as part of the component's functionality
-- `level`: Performs level operation as part of the component's functionality
-- `suppressor`: Performs suppressor operation as part of the component's functionality
+- `engine`: Implements engine functionality
+- `level`: Implements level functionality
+- `suppressor`: Implements suppressor functionality
 ### Kluczowe Funkcje
-- `filter()`: Performs filter operation as part of the component's functionality
-- `show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `configure()`: Performs configure operation as part of the component's functionality
-- `is_log_argument()`: Testuje czy _log_argument warunek jest prawdziwy lub właściwość istnieje
-- `main()`: Main entry point of the application that initializes and starts program execution
+- `filter()`: Implements filter functionality
+- `show()`: Implements show functionality
+- `configure()`: Implements configure functionality
+- `is_log_argument()`: Checks condition and returns boolean indicating state
+- `main()`: Program entry point that parses arguments and coordinates main execution flow
 ### Przestrzenie nazw
 - `detail`
 - `logging`

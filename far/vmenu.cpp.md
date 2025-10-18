@@ -4,26 +4,26 @@
 This file implements functionality related to: Обычное вертикальное меню
 Main functional areas: menu management
 ### Key Classes
-- `alignment`: Performs alignment operation as part of the component's functionality
-- `bulk_update_scope_guard`: Performs bulk_update_scope_guard operation as part of the component's functionality
-- `color_indices`: Performs color_indices operation as part of the component's functionality
-- `item_color_indices`: Performs item_color_indices operation as part of the component's functionality
-- `item_hscroll_policy`: Performs item_hscroll_policy operation as part of the component's functionality
-- `menu_layout`: Performs menu_layout operation as part of the component's functionality
-- `test_data`: Performs test_data operation as part of the component's functionality
-- `test_segment`: Performs test_segment operation as part of the component's functionality
-- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation as part of the component's functionality
+- `alignment`: Processes input by dispatching to different code paths based on type or value
+- `bulk_update_scope_guard`: Implements bulk_update_scope_guard functionality
+- `color_indices`: Implements color_indices functionality
+- `item_color_indices`: Implements item_color_indices functionality
+- `item_hscroll_policy`: Implements item_hscroll_policy functionality
+- `menu_layout`: Implements menu_layout functionality
+- `test_data`: Implements test_data functionality
+- `test_segment`: Implements test_segment functionality
+- `vmenu_horizontal_tracker`: Implements vmenu_horizontal_tracker functionality
 ### Key Functions
-- `item_color_indices()`: Performs item_color_indices operation as part of the component's functionality
-- `need_box()`: Performs need_box operation as part of the component's functionality
-- `get_box_type()`: Retrieves _box_type from internal state or data structure
-- `get_service_area_size()`: Retrieves _service_area_size from internal state or data structure
-- `fixed_columns_width()`: Performs fixed_columns_width operation as part of the component's functionality
-- `get_title_service_area_size()`: Retrieves _title_service_area_size from internal state or data structure
-- `get_client_rect()`: Retrieves _client_rect from internal state or data structure
-- `need_check_mark()`: Performs need_check_mark operation as part of the component's functionality
-- `need_left_hscroll()`: Performs need_left_hscroll operation as part of the component's functionality
-- `need_right_hscroll()`: Performs need_right_hscroll operation as part of the component's functionality
+- `item_color_indices()`: Implements item_color_indices functionality
+- `need_box()`: Implements need_box functionality
+- `get_box_type()`: Retrieves _box_type from current context or object state
+- `get_service_area_size()`: Retrieves _service_area_size from current context or object state
+- `fixed_columns_width()`: Implements fixed_columns_width functionality
+- `get_title_service_area_size()`: ╚═ Ctrl+Enter F5 Gray + Ctrl+Up Ctrl+Down ══╝ ?^^                   ^ ^?
+- `get_client_rect()`: Retrieves _client_rect from current context or object state
+- `need_check_mark()`: Implements need_check_mark functionality
+- `need_left_hscroll()`: Implements need_left_hscroll functionality
+- `need_right_hscroll()`: Implements need_right_hscroll functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -36,26 +36,26 @@ The `vmenu.cpp` file provides essential functionality for menu management. It de
 Ten plik implementuje funkcjonalność związaną z: Обычное вертикальное меню
 Główne obszary funkcjonalne: zarządzanie menu
 ### Kluczowe Klasy
-- `alignment`: Implementuje zarządzanie menu
-- `bulk_update_scope_guard`: Implementuje zarządzanie menu
-- `color_indices`: Implementuje zarządzanie menu
-- `item_color_indices`: Implementuje zarządzanie menu
-- `item_hscroll_policy`: Implementuje zarządzanie menu
-- `menu_layout`: Implementuje zarządzanie menu
-- `test_data`: Implementuje zarządzanie menu
-- `test_segment`: Implementuje zarządzanie menu
-- `vmenu_horizontal_tracker`: Implementuje zarządzanie menu
+- `alignment`: Processes input by dispatching to different code paths based on type or value
+- `bulk_update_scope_guard`: Implements bulk_update_scope_guard functionality
+- `color_indices`: Implements color_indices functionality
+- `item_color_indices`: Implements item_color_indices functionality
+- `item_hscroll_policy`: Implements item_hscroll_policy functionality
+- `menu_layout`: Implements menu_layout functionality
+- `test_data`: Implements test_data functionality
+- `test_segment`: Implements test_segment functionality
+- `vmenu_horizontal_tracker`: Implements vmenu_horizontal_tracker functionality
 ### Kluczowe Funkcje
-- `item_color_indices()`: Wykonuje element_color_indices operację jako część zarządzanie menu
-- `need_box()`: Wykonuje need_box operację jako część zarządzanie menu
-- `get_box_type()`: Pobiera _box_type ze stanu wewnętrznego lub struktury danych
-- `get_service_area_size()`: Pobiera _service_area_size ze stanu wewnętrznego lub struktury danych
-- `fixed_columns_width()`: Wykonuje fixed_columns_width operację jako część zarządzanie menu
-- `get_title_service_area_size()`: Pobiera _title_service_area_size ze stanu wewnętrznego lub struktury danych
-- `get_client_rect()`: Pobiera _client_rect ze stanu wewnętrznego lub struktury danych
-- `need_check_mark()`: Wykonuje need_check_mark operację jako część zarządzanie menu
-- `need_left_hscroll()`: Wykonuje need_left_hscroll operację jako część zarządzanie menu
-- `need_right_hscroll()`: Wykonuje need_right_hscroll operację jako część zarządzanie menu
+- `item_color_indices()`: Implements item_color_indices functionality
+- `need_box()`: Implements need_box functionality
+- `get_box_type()`: Retrieves _box_type from current context or object state
+- `get_service_area_size()`: Retrieves _service_area_size from current context or object state
+- `fixed_columns_width()`: Implements fixed_columns_width functionality
+- `get_title_service_area_size()`: ╚═ Ctrl+Enter F5 Gray + Ctrl+Up Ctrl+Down ══╝ ?^^                   ^ ^?
+- `get_client_rect()`: Retrieves _client_rect from current context or object state
+- `need_check_mark()`: Implements need_check_mark functionality
+- `need_left_hscroll()`: Implements need_left_hscroll functionality
+- `need_right_hscroll()`: Implements need_right_hscroll functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

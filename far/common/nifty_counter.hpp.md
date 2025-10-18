@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `buffer`: Performs buffer operation as part of the component's functionality
+- `buffer`: Implements buffer functionality
 ### Namespaces
 - `Instance`
 - `nifty_counter`
@@ -16,7 +16,7 @@ The `nifty_counter.hpp` file provides essential functionality for core functiona
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `buffer`: Performs buffer operation as part of the component's functionality
+- `buffer`: Implements buffer functionality
 ### Przestrzenie nazw
 - `Instance`
 - `nifty_counter`

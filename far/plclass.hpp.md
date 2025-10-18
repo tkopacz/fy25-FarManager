@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ExecuteStruct`: Performs ExecuteStruct operation as part of the component's functionality
-- `Plugin`: Evaluates conditions and returns a boolean indicating success or validity of Plugin
-- `PluginManager`: Performs PluginManager operation as part of the component's functionality
-- `export_name`: Performs export_name operation as part of the component's functionality
-- `export_type`: Performs export_type operation as part of the component's functionality
-- `i_plugin_module`: Performs i_plugin_module operation as part of the component's functionality
-- `lng`: Performs lng operation as part of the component's functionality
-- `native_plugin_factory`: Performs native_plugin_factory operation as part of the component's functionality
-- `native_plugin_module`: Performs native_plugin_module operation as part of the component's functionality
-- `plugin_factory`: Performs plugin_factory operation as part of the component's functionality
+- `ExecuteStruct`: Implements ExecuteStruct functionality
+- `Plugin`: Implements Plugin functionality
+- `PluginManager`: Implements PluginManager functionality
+- `export_name`: Implements export_name functionality
+- `export_type`: Implements export_type functionality
+- `i_plugin_module`: не загружать плагин снова, ставится в результате проверки требуемой версии фара LoadData успешно выполнилась
+- `lng`: Implements lng functionality
+- `native_plugin_factory`: Implements native_plugin_factory functionality
+- `native_plugin_module`: Implements native_plugin_module functionality
+- `plugin_factory`: LoadData успешно выполнилась
 ### Key Functions
-- `plugin_factory()`: Performs plugin_factory operation as part of the component's functionality
-- `ProcessError()`: Processes Error through transformation or handling pipeline
-- `IsExternal()`: Tests whether External condition is true or property exists
-- `Title()`: Performs Title operation as part of the component's functionality
-- `version()`: Performs version operation as part of the component's functionality
-- `Id()`: Constructor that initializes Id object with provided parameters
-- `Owner()`: Performs Owner operation as part of the component's functionality
-- `ExportsNames()`: Performs ExportsNames operation as part of the component's functionality
-- `opaque()`: Constructor that initializes opaque object with provided parameters
-- `GetProcAddress()`: Retrieves ProcAddress from internal state or data structure
+- `plugin_factory()`: LoadData успешно выполнилась
+- `ProcessError()`: Processes input data through core business logic pipeline
+- `IsExternal()`: Checks condition and returns boolean indicating state
+- `Title()`: Implements Title functionality
+- `version()`: Implements version functionality
+- `Id()`: Implements Id functionality
+- `Owner()`: Implements Owner functionality
+- `ExportsNames()`: Implements ExportsNames functionality
+- `opaque()`: LoadData успешно выполнилась
+- `GetProcAddress()`: Retrieves ProcAddress from current context or object state
 ### Namespaces
 - `detail`
 ### Summary
@@ -35,27 +35,27 @@ The `plclass.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ExecuteStruct`: Performs ExecuteStruct operation as part of the component's functionality
-- `Plugin`: Evaluates conditions and returns a boolean indicating success or validity of Plugin
-- `PluginManager`: Performs PluginManager operation as part of the component's functionality
-- `export_name`: Performs export_name operation as part of the component's functionality
-- `export_type`: Performs export_type operation as part of the component's functionality
-- `i_plugin_module`: Performs i_plugin_module operation as part of the component's functionality
-- `lng`: Performs lng operation as part of the component's functionality
-- `native_plugin_factory`: Performs native_plugin_factory operation as part of the component's functionality
-- `native_plugin_module`: Performs native_plugin_module operation as part of the component's functionality
-- `plugin_factory`: Performs plugin_factory operation as part of the component's functionality
+- `ExecuteStruct`: Implements ExecuteStruct functionality
+- `Plugin`: Implements Plugin functionality
+- `PluginManager`: Implements PluginManager functionality
+- `export_name`: Implements export_name functionality
+- `export_type`: Implements export_type functionality
+- `i_plugin_module`: не загружать плагин снова, ставится в результате проверки требуемой версии фара LoadData успешно выполнилась
+- `lng`: Implements lng functionality
+- `native_plugin_factory`: Implements native_plugin_factory functionality
+- `native_plugin_module`: Implements native_plugin_module functionality
+- `plugin_factory`: LoadData успешно выполнилась
 ### Kluczowe Funkcje
-- `plugin_factory()`: Performs plugin_factory operation as part of the component's functionality
-- `ProcessError()`: Przetwarza Error przez potok transformacji lub obsługi
-- `IsExternal()`: Testuje czy External warunek jest prawdziwy lub właściwość istnieje
-- `Title()`: Performs Title operation as part of the component's functionality
-- `version()`: Performs version operation as part of the component's functionality
-- `Id()`: Konstruktor inicjalizujący Id obiekt z dostarczonymi parametrami
-- `Owner()`: Performs Owner operation as part of the component's functionality
-- `ExportsNames()`: Performs ExportsNames operation as part of the component's functionality
-- `opaque()`: Konstruktor inicjalizujący opaque obiekt z dostarczonymi parametrami
-- `GetProcAddress()`: Pobiera ProcAddress ze stanu wewnętrznego lub struktury danych
+- `plugin_factory()`: LoadData успешно выполнилась
+- `ProcessError()`: Processes input data through core business logic pipeline
+- `IsExternal()`: Checks condition and returns boolean indicating state
+- `Title()`: Implements Title functionality
+- `version()`: Implements version functionality
+- `Id()`: Implements Id functionality
+- `Owner()`: Implements Owner functionality
+- `ExportsNames()`: Implements ExportsNames functionality
+- `opaque()`: LoadData успешно выполнилась
+- `GetProcAddress()`: Retrieves ProcAddress from current context or object state
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

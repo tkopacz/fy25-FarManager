@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GetACP_hook()`: Retrieves ACP_hook from internal state or data structure
-- `MultiByteToWideChar_hook()`: Performs MultiByteToWideChar_hook operation as part of the component's functionality
-- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation as part of the component's functionality
-- `WideCharToMultiByte_hook()`: Performs WideCharToMultiByte_hook operation as part of the component's functionality
-- `WideCharToMultiByte()`: Performs WideCharToMultiByte operation as part of the component's functionality
-- `FindByName()`: Searches for ByName in collection and returns position or reference
-- `FromRva()`: Performs FromRva operation as part of the component's functionality
-- `write_memory()`: Writes data from buffer to destination
-- `VirtualProtect()`: Performs VirtualProtect operation as part of the component's functionality
-- `patch()`: Evaluates conditions and returns a boolean indicating success or validity of patch
+- `GetACP_hook()`: Retrieves ACP_hook from current context or object state
+- `MultiByteToWideChar_hook()`: Implements MultiByteToWideChar_hook functionality
+- `MultiByteToWideChar()`: Implements MultiByteToWideChar functionality
+- `WideCharToMultiByte_hook()`: Implements WideCharToMultiByte_hook functionality
+- `WideCharToMultiByte()`: Implements WideCharToMultiByte functionality
+- `FindByName()`: Implements FindByName functionality
+- `FromRva()`: Processes input by dispatching to different code paths based on type or value
+- `write_memory()`: Processes input by dispatching to different code paths based on type or value
+- `VirtualProtect()`: Implements VirtualProtect functionality
+- `patch()`: Implements patch functionality
 ### Namespaces
 - `replacement`
 ### Summary
@@ -24,16 +24,16 @@ The `hh_compiler.cpp` file provides essential functionality for core functionali
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GetACP_hook()`: Pobiera ACP_hook ze stanu wewnętrznego lub struktury danych
-- `MultiByteToWideChar_hook()`: Performs MultiByteToWideChar_hook operation as part of the component's functionality
-- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation as part of the component's functionality
-- `WideCharToMultiByte_hook()`: Performs WideCharToMultiByte_hook operation as part of the component's functionality
-- `WideCharToMultiByte()`: Performs WideCharToMultiByte operation as part of the component's functionality
-- `FindByName()`: Wyszukuje ByName w kolekcji i zwraca pozycję lub referencję
-- `FromRva()`: Performs FromRva operation as part of the component's functionality
-- `write_memory()`: Zapisuje dane z bufora do miejsca docelowego
-- `VirtualProtect()`: Performs VirtualProtect operation as part of the component's functionality
-- `patch()`: Evaluates conditions and returns a boolean indicating success or validity of patch
+- `GetACP_hook()`: Retrieves ACP_hook from current context or object state
+- `MultiByteToWideChar_hook()`: Implements MultiByteToWideChar_hook functionality
+- `MultiByteToWideChar()`: Implements MultiByteToWideChar functionality
+- `WideCharToMultiByte_hook()`: Implements WideCharToMultiByte_hook functionality
+- `WideCharToMultiByte()`: Implements WideCharToMultiByte functionality
+- `FindByName()`: Implements FindByName functionality
+- `FromRva()`: Processes input by dispatching to different code paths based on type or value
+- `write_memory()`: Processes input by dispatching to different code paths based on type or value
+- `VirtualProtect()`: Implements VirtualProtect functionality
+- `patch()`: Implements patch functionality
 ### Przestrzenie nazw
 - `replacement`
 ### Podsumowanie

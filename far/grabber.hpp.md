@@ -4,19 +4,19 @@
 This file implements functionality related to: Screen grabber
 Main functional areas: core functionality
 ### Key Classes
-- `grabber_tag`: Performs grabber_tag operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `grabber_tag`: Implements grabber_tag functionality
+- `private_tag`: Implements private_tag functionality
 ### Key Functions
-- `create()`: Creates and initializes new object instance
-- `Grabber()`: Performs Grabber operation as part of the component's functionality
-- `GetType()`: Retrieves Type from internal state or data structure
-- `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `ResizeConsole()`: Adjusts size or capacity of buffer or container
-- `DisplayObject()`: Displays content or makes visual element visible on screen
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `GetTitle()`: Retrieves Title from internal state or data structure
-- `init()`: Initializes data structures and sets up initial state for operation
+- `create()`: Creates and initializes new object or resource instance
+- `Grabber()`: Implements Grabber functionality
+- `GetType()`: Retrieves Type from current context or object state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `DisplayObject()`: Implements DisplayObject functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `GetTitle()`: Retrieves Title from current context or object state
+- `init()`: Initializes component with required configuration and state
 ### Summary
 The `grabber.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -27,18 +27,18 @@ The `grabber.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Screen grabber
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `grabber_tag`: Performs grabber_tag operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `grabber_tag`: Implements grabber_tag functionality
+- `private_tag`: Implements private_tag functionality
 ### Kluczowe Funkcje
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `Grabber()`: Performs Grabber operation as part of the component's functionality
-- `GetType()`: Pobiera Type ze stanu wewnętrznego lub struktury danych
-- `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `GetTitle()`: Pobiera Title ze stanu wewnętrznego lub struktury danych
-- `init()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `create()`: Creates and initializes new object or resource instance
+- `Grabber()`: Implements Grabber functionality
+- `GetType()`: Retrieves Type from current context or object state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `DisplayObject()`: Implements DisplayObject functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `GetTitle()`: Retrieves Title from current context or object state
+- `init()`: Initializes component with required configuration and state
 ### Podsumowanie
 Plik `grabber.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

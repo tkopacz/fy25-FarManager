@@ -4,18 +4,18 @@
 This file implements functionality related to: RGB colors extension to the standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_rgb_state`: Performs color_rgb_state operation as part of the component's functionality
+- `color_rgb_state`: Implements color_rgb_state functionality
 ### Key Functions
-- `pick_color_rgb_gui()`: Evaluates conditions and returns a boolean indicating success or validity of pick_color_rgb_gui
-- `TrueColorToFarColor()`: Performs TrueColorToFarColor operation as part of the component's functionality
-- `TrueColorToFarColorDistinct()`: Performs TrueColorToFarColorDistinct operation as part of the component's functionality
-- `channel_value()`: Performs channel_value operation as part of the component's functionality
-- `as_rgb()`: Performs as_rgb operation as part of the component's functionality
-- `from_rgb()`: Performs from_rgb operation as part of the component's functionality
-- `GetColorDlgProc()`: Retrieves ColorDlgProc from internal state or data structure
-- `cube_rgb()`: Performs cube_rgb operation as part of the component's functionality
-- `match_rgb()`: Evaluates conditions and returns boolean indicating success or validity
-- `init_cube()`: Initializes data structures and sets up initial state for operation
+- `pick_color_rgb_gui()`: Console can be "invisible" in certain fancy scenarios, e
+- `TrueColorToFarColor()`: Naive inversion doesn't work nicely in the middle of the spectre
+- `TrueColorToFarColorDistinct()`: Naive inversion doesn't work nicely in the middle of the spectre
+- `channel_value()`: Implements channel_value functionality
+- `as_rgb()`: Implements as_rgb functionality
+- `from_rgb()`: Implements from_rgb functionality
+- `GetColorDlgProc()`: Retrieves ColorDlgProc from current context or object state
+- `cube_rgb()`: Implements cube_rgb functionality
+- `match_rgb()`: Implements match_rgb functionality
+- `init_cube()`: Initializes component with required configuration and state
 ### Namespaces
 - `color_picker_common`
 ### Summary
@@ -28,18 +28,18 @@ The `color_picker_rgb.cpp` file provides essential functionality for color manag
 Ten plik implementuje funkcjonalność związaną z: RGB colors extension to the standard color picker
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_rgb_state`: Implementuje zarządzanie kolorami
+- `color_rgb_state`: Implements color_rgb_state functionality
 ### Kluczowe Funkcje
-- `pick_color_rgb_gui()`: Wykonuje pick_color_rgb_gui operację jako część zarządzanie kolorami
-- `TrueColorToFarColor()`: Wykonuje TrueColorToFarColor operację jako część zarządzanie kolorami
-- `TrueColorToFarColorDistinct()`: Wykonuje TrueColorToFarColorDistinct operację jako część zarządzanie kolorami
-- `channel_value()`: Wykonuje channel_wartość operację jako część zarządzanie kolorami
-- `as_rgb()`: Wykonuje as_rgb operację jako część zarządzanie kolorami
-- `from_rgb()`: Wykonuje from_rgb operację jako część zarządzanie kolorami
-- `GetColorDlgProc()`: Pobiera ColorDlgProc ze stanu wewnętrznego lub struktury danych
-- `cube_rgb()`: Wykonuje cube_rgb operację jako część zarządzanie kolorami
-- `match_rgb()`: Wykonuje match_rgb operację jako część zarządzanie kolorami
-- `init_cube()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `pick_color_rgb_gui()`: Console can be "invisible" in certain fancy scenarios, e
+- `TrueColorToFarColor()`: Naive inversion doesn't work nicely in the middle of the spectre
+- `TrueColorToFarColorDistinct()`: Naive inversion doesn't work nicely in the middle of the spectre
+- `channel_value()`: Implements channel_value functionality
+- `as_rgb()`: Implements as_rgb functionality
+- `from_rgb()`: Implements from_rgb functionality
+- `GetColorDlgProc()`: Retrieves ColorDlgProc from current context or object state
+- `cube_rgb()`: Implements cube_rgb functionality
+- `match_rgb()`: Implements match_rgb functionality
+- `init_cube()`: Initializes component with required configuration and state
 ### Przestrzenie nazw
 - `color_picker_common`
 ### Podsumowanie

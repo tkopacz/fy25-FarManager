@@ -4,17 +4,17 @@
 This file implements functionality related to: */
 Main functional areas: string utilities
 ### Key Classes
-- `SQLiteDb`: Performs SQLiteDb operation as part of the component's functionality
-- `keyhole`: Performs keyhole operation as part of the component's functionality
-- `less_icase_t`: Performs less_icase_t operation as part of the component's functionality
-- `less_t`: Performs less_t operation as part of the component's functionality
-- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation as part of the component's functionality
+- `SQLiteDb`: Implements SQLiteDb functionality
+- `keyhole`: Implements keyhole functionality
+- `less_icase_t`: Implements less_icase_t functionality
+- `less_t`: Implements less_t functionality
+- `pluginapi_sort_accessor`: Implements pluginapi_sort_accessor functionality
 ### Key Functions
-- `compare()`: Performs compare operation as part of the component's functionality
-- `adjust_comparer()`: Adjusts _comparer based on current conditions or requirements
-- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation as part of the component's functionality
-- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation as part of the component's functionality
-- `ordering_as_int()`: Performs ordering_as_int operation as part of the component's functionality
+- `compare()`: Default comparison entry point
+- `adjust_comparer()`: Default comparison entry point
+- `compare_ordinal_icase()`: Implements compare_ordinal_icase functionality
+- `compare_ordinal_numeric()`: Implements compare_ordinal_numeric functionality
+- `ordering_as_int()`: Implements ordering_as_int functionality
 ### Namespaces
 - `detail`
 - `string_sort`
@@ -28,17 +28,17 @@ The `string_sort.hpp` file provides essential functionality for string utilities
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `SQLiteDb`: Implementuje narzędzia łańcuchowe
-- `keyhole`: Implementuje narzędzia łańcuchowe
-- `less_icase_t`: Implementuje narzędzia łańcuchowe
-- `less_t`: Implementuje narzędzia łańcuchowe
-- `pluginapi_sort_accessor`: Implementuje narzędzia łańcuchowe
+- `SQLiteDb`: Implements SQLiteDb functionality
+- `keyhole`: Implements keyhole functionality
+- `less_icase_t`: Implements less_icase_t functionality
+- `less_t`: Implements less_t functionality
+- `pluginapi_sort_accessor`: Implements pluginapi_sort_accessor functionality
 ### Kluczowe Funkcje
-- `compare()`: Wykonuje compare operację jako część narzędzia łańcuchowe
-- `adjust_comparer()`: Dostosowuje _comparer na podstawie bieżących warunków lub wymagań
-- `compare_ordinal_icase()`: Wykonuje compare_ordinal_icase operację jako część narzędzia łańcuchowe
-- `compare_ordinal_numeric()`: Wykonuje compare_ordinal_numeric operację jako część narzędzia łańcuchowe
-- `ordering_as_int()`: Wykonuje ordering_as_int operację jako część narzędzia łańcuchowe
+- `compare()`: Default comparison entry point
+- `adjust_comparer()`: Default comparison entry point
+- `compare_ordinal_icase()`: Implements compare_ordinal_icase functionality
+- `compare_ordinal_numeric()`: Implements compare_ordinal_numeric functionality
+- `ordering_as_int()`: Implements ordering_as_int functionality
 ### Przestrzenie nazw
 - `detail`
 - `string_sort`

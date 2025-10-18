@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `local_tag`: Performs local_tag operation as part of the component's functionality
-- `nt_clock`: Performs nt_clock operation as part of the component's functionality
-- `time`: Performs time operation as part of the component's functionality
-- `typed_time`: Performs typed_time operation as part of the component's functionality
-- `utc_tag`: Performs utc_tag operation as part of the component's functionality
+- `local_tag`: Implements local_tag functionality
+- `nt_clock`: Implements nt_clock functionality
+- `time`: Implements time functionality
+- `typed_time`: Implements typed_time functionality
+- `utc_tag`: Implements utc_tag functionality
 ### Key Functions
-- `now()`: Performs now operation as part of the component's functionality
-- `to_time_t()`: Performs to_time_t operation as part of the component's functionality
-- `from_time_t()`: Performs from_time_t operation as part of the component's functionality
-- `to_filetime()`: Performs to_filetime operation as part of the component's functionality
-- `from_filetime()`: Performs from_filetime operation as part of the component's functionality
-- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation as part of the component's functionality
-- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation as part of the component's functionality
-- `milliseconds()`: Performs milliseconds operation as part of the component's functionality
-- `now_utc()`: Performs now_utc operation as part of the component's functionality
-- `now_local()`: Performs now_local operation as part of the component's functionality
+- `now()`: Implements now functionality
+- `to_time_t()`: Implements to_time_t functionality
+- `from_time_t()`: Implements from_time_t functionality
+- `to_filetime()`: Implements to_filetime functionality
+- `from_filetime()`: Implements from_filetime functionality
+- `from_hectonanoseconds()`: Implements from_hectonanoseconds functionality
+- `to_hectonanoseconds()`: Implements to_hectonanoseconds functionality
+- `milliseconds()`: Implements milliseconds functionality
+- `now_utc()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
+- `now_local()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
 ### Namespaces
 - `detail`
 - `literals`
@@ -34,22 +34,22 @@ The `platform.chrono.hpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `local_tag`: Performs local_tag operation as part of the component's functionality
-- `nt_clock`: Performs nt_clock operation as part of the component's functionality
-- `time`: Performs time operation as part of the component's functionality
-- `typed_time`: Performs typed_time operation as part of the component's functionality
-- `utc_tag`: Performs utc_tag operation as part of the component's functionality
+- `local_tag`: Implements local_tag functionality
+- `nt_clock`: Implements nt_clock functionality
+- `time`: Implements time functionality
+- `typed_time`: Implements typed_time functionality
+- `utc_tag`: Implements utc_tag functionality
 ### Kluczowe Funkcje
-- `now()`: Performs now operation as part of the component's functionality
-- `to_time_t()`: Performs to_time_t operation as part of the component's functionality
-- `from_time_t()`: Performs from_time_t operation as part of the component's functionality
-- `to_filetime()`: Performs to_filetime operation as part of the component's functionality
-- `from_filetime()`: Performs from_filetime operation as part of the component's functionality
-- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation as part of the component's functionality
-- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation as part of the component's functionality
-- `milliseconds()`: Performs milliseconds operation as part of the component's functionality
-- `now_utc()`: Performs now_utc operation as part of the component's functionality
-- `now_local()`: Performs now_local operation as part of the component's functionality
+- `now()`: Implements now functionality
+- `to_time_t()`: Implements to_time_t functionality
+- `from_time_t()`: Implements from_time_t functionality
+- `to_filetime()`: Implements to_filetime functionality
+- `from_filetime()`: Implements from_filetime functionality
+- `from_hectonanoseconds()`: Implements from_hectonanoseconds functionality
+- `to_hectonanoseconds()`: Implements to_hectonanoseconds functionality
+- `milliseconds()`: Implements milliseconds functionality
+- `now_utc()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
+- `now_local()`: Q: WTF is this, it's in the standard! A: MSVC implemented it in terms of sleep_until, which is mental
 ### Przestrzenie nazw
 - `detail`
 - `literals`

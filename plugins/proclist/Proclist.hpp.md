@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `DebugToken`: Performs DebugToken operation as part of the component's functionality
-- `InitDialogItem`: Initializes the component or system with required setup and configuration
-- `PerfThread`: Performs PerfThread operation as part of the component's functionality
-- `Plist`: Performs Plist operation as part of the component's functionality
-- `ProcessData`: Processes input data and performs the required operations
-- `ProcessPerfData`: Processes input data and performs the required operations
-- `WMIConnection`: Performs WMIConnection operation as part of the component's functionality
-- `columns`: Performs columns operation as part of the component's functionality
-- `free_deleter`: Performs free_deleter operation as part of the component's functionality
-- `handle_closer`: Performs handle_closer operation as part of the component's functionality
+- `DebugToken`: Saved impersonation token
+- `InitDialogItem`: Initializes component with required configuration and state
+- `PerfThread`: Implements PerfThread functionality
+- `Plist`: Implements Plist functionality
+- `ProcessData`: Processes input data through core business logic pipeline
+- `ProcessPerfData`: Processes input data through core business logic pipeline
+- `WMIConnection`: Implements WMIConnection functionality
+- `columns`: Implements columns functionality
+- `free_deleter`: Implements free_deleter functionality
+- `handle_closer`: Implements handle_closer functionality
 ### Key Functions
-- `make_malloc()`: Allocates memory and initializes resources for make_malloc
-- `normalise_handle()`: Performs normalise_handle operation as part of the component's functionality
-- `Read()`: Reads data from source into provided buffer
-- `Write()`: Writes data from buffer to destination
-- `Message()`: Performs Message operation as part of the component's functionality
-- `Connect()`: Performs Connect operation as part of the component's functionality
-- `GetFindData()`: Retrieves FindData from internal state or data structure
-- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from internal state or data structure
-- `GetFiles()`: Retrieves Files from internal state or data structure
+- `make_malloc()`: Implements make_malloc functionality
+- `normalise_handle()`: Implements normalise_handle functionality
+- `Read()`: Implements Read functionality
+- `Write()`: Implements Write functionality
+- `Message()`: Implements Message functionality
+- `Connect()`: Implements Connect functionality
+- `GetFindData()`: Retrieves FindData from current context or object state
+- `FreeFindData()`: Implements FreeFindData functionality
+- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from current context or object state
+- `GetFiles()`: Retrieves Files from current context or object state
 ### Namespaces
 - `literals`
 - `std`
@@ -36,27 +36,27 @@ The `Proclist.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `DebugToken`: Performs DebugToken operation as part of the component's functionality
-- `InitDialogItem`: Initializes the component or system with required setup and configuration
-- `PerfThread`: Performs PerfThread operation as part of the component's functionality
-- `Plist`: Performs Plist operation as part of the component's functionality
-- `ProcessData`: Processes input data and performs the required operations
-- `ProcessPerfData`: Processes input data and performs the required operations
-- `WMIConnection`: Performs WMIConnection operation as part of the component's functionality
-- `columns`: Performs columns operation as part of the component's functionality
-- `free_deleter`: Performs free_deleter operation as part of the component's functionality
-- `handle_closer`: Performs handle_closer operation as part of the component's functionality
+- `DebugToken`: Saved impersonation token
+- `InitDialogItem`: Initializes component with required configuration and state
+- `PerfThread`: Implements PerfThread functionality
+- `Plist`: Implements Plist functionality
+- `ProcessData`: Processes input data through core business logic pipeline
+- `ProcessPerfData`: Processes input data through core business logic pipeline
+- `WMIConnection`: Implements WMIConnection functionality
+- `columns`: Implements columns functionality
+- `free_deleter`: Implements free_deleter functionality
+- `handle_closer`: Implements handle_closer functionality
 ### Kluczowe Funkcje
-- `make_malloc()`: Allocates memory and initializes resources for make_malloc
-- `normalise_handle()`: Performs normalise_handle operation as part of the component's functionality
-- `Read()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `Write()`: Zapisuje dane z bufora do miejsca docelowego
-- `Message()`: Performs Message operation as part of the component's functionality
-- `Connect()`: Performs Connect operation as part of the component's functionality
-- `GetFindData()`: Pobiera FindData ze stanu wewnętrznego lub struktury danych
-- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
-- `GetOpenPanelInfo()`: Pobiera OpenPanelInfo ze stanu wewnętrznego lub struktury danych
-- `GetFiles()`: Pobiera Files ze stanu wewnętrznego lub struktury danych
+- `make_malloc()`: Implements make_malloc functionality
+- `normalise_handle()`: Implements normalise_handle functionality
+- `Read()`: Implements Read functionality
+- `Write()`: Implements Write functionality
+- `Message()`: Implements Message functionality
+- `Connect()`: Implements Connect functionality
+- `GetFindData()`: Retrieves FindData from current context or object state
+- `FreeFindData()`: Implements FreeFindData functionality
+- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo from current context or object state
+- `GetFiles()`: Retrieves Files from current context or object state
 ### Przestrzenie nazw
 - `literals`
 - `std`

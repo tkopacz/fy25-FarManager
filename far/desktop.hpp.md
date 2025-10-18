@@ -4,18 +4,18 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `private_tag`: Platform: Common: External: ----------------------------------------------------------------------------
 ### Key Functions
-- `create()`: Creates and initializes new object instance
-- `desktop()`: Performs desktop operation as part of the component's functionality
-- `GetType()`: Retrieves Type from internal state or data structure
-- `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `ResizeConsole()`: Adjusts size or capacity of buffer or container
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `TakeSnapshot()`: Performs TakeSnapshot operation as part of the component's functionality
-- `ConsoleSession()`: Constructor that initializes ConsoleSession object with provided parameters
-- `GetTitle()`: Retrieves Title from internal state or data structure
-- `DisplayObject()`: Displays content or makes visual element visible on screen
+- `create()`: External: ---------------------------------------------------------------------------- TODO: localization
+- `desktop()`: Implements desktop functionality
+- `GetType()`: Retrieves Type from current context or object state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `TakeSnapshot()`: Implements TakeSnapshot functionality
+- `ConsoleSession()`: Implements ConsoleSession functionality
+- `GetTitle()`: Retrieves Title from current context or object state
+- `DisplayObject()`: Implements DisplayObject functionality
 ### Summary
 The `desktop.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -26,17 +26,17 @@ The `desktop.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `private_tag`: Platform: Common: External: ----------------------------------------------------------------------------
 ### Kluczowe Funkcje
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `desktop()`: Performs desktop operation as part of the component's functionality
-- `GetType()`: Pobiera Type ze stanu wewnętrznego lub struktury danych
-- `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `TakeSnapshot()`: Performs TakeSnapshot operation as part of the component's functionality
-- `ConsoleSession()`: Konstruktor inicjalizujący ConsoleSession obiekt z dostarczonymi parametrami
-- `GetTitle()`: Pobiera Title ze stanu wewnętrznego lub struktury danych
-- `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
+- `create()`: External: ---------------------------------------------------------------------------- TODO: localization
+- `desktop()`: Implements desktop functionality
+- `GetType()`: Retrieves Type from current context or object state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `TakeSnapshot()`: Implements TakeSnapshot functionality
+- `ConsoleSession()`: Implements ConsoleSession functionality
+- `GetTitle()`: Retrieves Title from current context or object state
+- `DisplayObject()`: Implements DisplayObject functionality
 ### Podsumowanie
 Plik `desktop.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

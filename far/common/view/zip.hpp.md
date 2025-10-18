@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `traits`: Performs traits operation as part of the component's functionality
-- `zip_iterator`: Performs zip_iterator operation as part of the component's functionality
-- `zip_sentinel`: Performs zip_sentinel operation as part of the component's functionality
+- `traits`: Implements traits functionality
+- `zip_iterator`: Implements zip_iterator functionality
+- `zip_sentinel`: Implements zip_sentinel functionality
 ### Key Functions
-- `dereference_impl()`: Performs dereference_impl operation as part of the component's functionality
-- `dereference()`: Performs dereference operation as part of the component's functionality
-- `binary_any_of_impl()`: Evaluates conditions and returns boolean indicating success or validity
-- `binary_any_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `binary_all_of_impl()`: Evaluates conditions and returns boolean indicating success or validity
-- `binary_all_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `tuple_difference()`: Performs tuple_difference operation as part of the component's functionality
-- `begin()`: Performs begin operation as part of the component's functionality
-- `end()`: Performs end operation as part of the component's functionality
-- `cbegin()`: Performs cbegin operation as part of the component's functionality
+- `dereference_impl()`: Implements dereference_impl functionality
+- `dereference()`: Implements dereference functionality
+- `binary_any_of_impl()`: Implements binary_any_of_impl functionality
+- `binary_any_of()`: Implements binary_any_of functionality
+- `binary_all_of_impl()`: Implements binary_all_of_impl functionality
+- `binary_all_of()`: Implements binary_all_of functionality
+- `tuple_difference()`: Implements tuple_difference functionality
+- `begin()`: Implements begin functionality
+- `end()`: Implements end functionality
+- `cbegin()`: Implements cbegin functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -28,20 +28,20 @@ The `zip.hpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `traits`: Performs traits operation as part of the component's functionality
-- `zip_iterator`: Performs zip_iterator operation as part of the component's functionality
-- `zip_sentinel`: Performs zip_sentinel operation as part of the component's functionality
+- `traits`: Implements traits functionality
+- `zip_iterator`: Implements zip_iterator functionality
+- `zip_sentinel`: Implements zip_sentinel functionality
 ### Kluczowe Funkcje
-- `dereference_impl()`: Performs dereference_impl operation as part of the component's functionality
-- `dereference()`: Performs dereference operation as part of the component's functionality
-- `binary_any_of_impl()`: Evaluates conditions and returns boolean indicating success or validity
-- `binary_any_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `binary_all_of_impl()`: Evaluates conditions and returns boolean indicating success or validity
-- `binary_all_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `tuple_difference()`: Performs tuple_difference operation as part of the component's functionality
-- `begin()`: Performs begin operation as part of the component's functionality
-- `end()`: Performs end operation as part of the component's functionality
-- `cbegin()`: Performs cbegin operation as part of the component's functionality
+- `dereference_impl()`: Implements dereference_impl functionality
+- `dereference()`: Implements dereference functionality
+- `binary_any_of_impl()`: Implements binary_any_of_impl functionality
+- `binary_any_of()`: Implements binary_any_of functionality
+- `binary_all_of_impl()`: Implements binary_all_of_impl functionality
+- `binary_all_of()`: Implements binary_all_of functionality
+- `tuple_difference()`: Implements tuple_difference functionality
+- `begin()`: Implements begin functionality
+- `end()`: Implements end functionality
+- `cbegin()`: Implements cbegin functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

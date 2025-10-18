@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `IsCaseMixed()`: Tests whether CaseMixed condition is true or property exists
-- `IsWordDiv()`: Tests whether WordDiv condition is true or property exists
-- `CaseWord()`: Performs CaseWord operation as part of the component's functionality
+- `IsCaseMixed()`: CaseWord - convert case of string by given type
+- `IsWordDiv()`: CaseWord - convert case of string by given type
+- `CaseWord()`: CaseWord - convert case of string by given type
 ### Summary
 The `FileMix.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -15,8 +15,8 @@ The `FileMix.cpp` file provides essential functionality for file system operatio
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `IsCaseMixed()`: Testuje czy CaseMixed warunek jest prawdziwy lub właściwość istnieje
-- `IsWordDiv()`: Testuje czy WordDiv warunek jest prawdziwy lub właściwość istnieje
-- `CaseWord()`: Wykonuje CaseWord operację jako część operacje systemu plików
+- `IsCaseMixed()`: CaseWord - convert case of string by given type
+- `IsWordDiv()`: CaseWord - convert case of string by given type
+- `CaseWord()`: CaseWord - convert case of string by given type
 ### Podsumowanie
 Plik `FileMix.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

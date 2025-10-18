@@ -4,18 +4,18 @@
 This file implements functionality related to: Функции для работы с датой и временем
 Main functional areas: core functionality
 ### Key Classes
-- `time_zone_information`: Performs time_zone_information operation as part of the component's functionality
+- `time_zone_information`: Implements time_zone_information functionality
 ### Key Functions
-- `full_year()`: Performs full_year operation as part of the component's functionality
-- `st_time()`: Performs st_time operation as part of the component's functionality
-- `StrFTime()`: Iterates through items and collects results into a container
-- `MkStrFTime()`: Performs MkStrFTime operation as part of the component's functionality
-- `ParseTimeComponents()`: Parses input string or data into structured format
-- `get_date_ranges()`: Retrieves _date_ranges from internal state or data structure
-- `parse_time()`: Parses input string or data into structured format
-- `ParseTimePoint()`: Parses input string or data into structured format
-- `ParseDuration()`: Parses input string or data into structured format
-- `decimal_duration_width()`: Performs decimal_duration_width operation as part of the component's functionality
+- `full_year()`: Current default value (as of 4 Dec 2019 / Windows 10)
+- `st_time()`: Current default value (as of 4 Dec 2019 / Windows 10)
+- `StrFTime()`: Краткое имя дня недели (Sun,Mon,Tue,Wed,Thu,Fri,Sat) abbreviated weekday name
+- `MkStrFTime()`: Implements MkStrFTime functionality
+- `ParseTimeComponents()`: Implements ParseTimeComponents functionality
+- `get_date_ranges()`: Processes input by dispatching to different code paths based on type or value
+- `parse_time()`: Implements parse_time functionality
+- `ParseTimePoint()`: Year / Month / Day can't have reasonable defaults Everything else can
+- `ParseDuration()`: Implements ParseDuration functionality
+- `decimal_duration_width()`: Implements decimal_duration_width functionality
 ### Namespaces
 - `os`
 - `std`
@@ -29,18 +29,18 @@ The `datetime.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Функции для работы с датой и временем
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `time_zone_information`: Performs time_zone_information operation as part of the component's functionality
+- `time_zone_information`: Implements time_zone_information functionality
 ### Kluczowe Funkcje
-- `full_year()`: Performs full_year operation as part of the component's functionality
-- `st_time()`: Performs st_time operation as part of the component's functionality
-- `StrFTime()`: Iterates through items and collects results into a container
-- `MkStrFTime()`: Performs MkStrFTime operation as part of the component's functionality
-- `ParseTimeComponents()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `get_date_ranges()`: Pobiera _date_ranges ze stanu wewnętrznego lub struktury danych
-- `parse_time()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `ParseTimePoint()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `ParseDuration()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `decimal_duration_width()`: Performs decimal_duration_width operation as part of the component's functionality
+- `full_year()`: Current default value (as of 4 Dec 2019 / Windows 10)
+- `st_time()`: Current default value (as of 4 Dec 2019 / Windows 10)
+- `StrFTime()`: Краткое имя дня недели (Sun,Mon,Tue,Wed,Thu,Fri,Sat) abbreviated weekday name
+- `MkStrFTime()`: Implements MkStrFTime functionality
+- `ParseTimeComponents()`: Implements ParseTimeComponents functionality
+- `get_date_ranges()`: Processes input by dispatching to different code paths based on type or value
+- `parse_time()`: Implements parse_time functionality
+- `ParseTimePoint()`: Year / Month / Day can't have reasonable defaults Everything else can
+- `ParseDuration()`: Implements ParseDuration functionality
+- `decimal_duration_width()`: Implements decimal_duration_width functionality
 ### Przestrzenie nazw
 - `os`
 - `std`

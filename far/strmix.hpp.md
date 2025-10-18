@@ -4,20 +4,20 @@
 This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
 Main functional areas: string utilities
 ### Key Classes
-- `RegExp`: Performs RegExp operation as part of the component's functionality
-- `RegExpMatch`: Performs RegExpMatch operation as part of the component's functionality
-- `regex_match`: Performs regex_match operation as part of the component's functionality
+- `RegExp`: Implements RegExp functionality
+- `RegExpMatch`: Implements RegExpMatch functionality
+- `regex_match`: Implements regex_match functionality
 ### Key Functions
-- `QuoteSpaceOnly()`: Constructor that initializes QuoteSpaceOnly object with provided parameters
-- `InsertRegexpQuote()`: Performs InsertRegexpQuote operation as part of the component's functionality
-- `QuoteSpace()`: Performs QuoteSpace operation as part of the component's functionality
-- `QuoteOuterSpace()`: Performs QuoteOuterSpace operation as part of the component's functionality
-- `ReplaceStrings()`: Performs ReplaceStrings operation as part of the component's functionality
-- `replace()`: Performs replace operation as part of the component's functionality
-- `Copy()`: Copies data from source to destination location
-- `replace_icase()`: Performs replace_icase operation as part of the component's functionality
-- `remove_duplicates()`: Removes _duplicates from collection and frees associated resources
-- `get()`: Retrieves value from internal state or data structure
+- `QuoteSpaceOnly()`: Iterates through collection and processes each element, storing results
+- `InsertRegexpQuote()`: Iterates through collection and processes each element, storing results
+- `QuoteSpace()`: Iterates through collection and processes each element, storing results
+- `QuoteOuterSpace()`: Iterates through collection and processes each element, storing results
+- `ReplaceStrings()`: Implements ReplaceStrings functionality
+- `replace()`: Implements replace functionality
+- `Copy()`: Implements Copy functionality
+- `replace_icase()`: Implements replace_icase functionality
+- `remove_duplicates()`: Removes or deletes specified item and releases associated resources
+- `get()`: Implements get functionality
 ### Namespaces
 - `detail`
 - `inplace`
@@ -32,20 +32,20 @@ The `strmix.hpp` file provides essential functionality for string utilities. It 
 Ten plik implementuje funkcjonalność związaną z: Куча разных вспомогательных функций по работе со строками
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `RegExp`: Implementuje narzędzia łańcuchowe
-- `RegExpMatch`: Implementuje narzędzia łańcuchowe
-- `regex_match`: Implementuje narzędzia łańcuchowe
+- `RegExp`: Implements RegExp functionality
+- `RegExpMatch`: Implements RegExpMatch functionality
+- `regex_match`: Implements regex_match functionality
 ### Kluczowe Funkcje
-- `QuoteSpaceOnly()`: Konstruktor inicjalizujący QuoteSpaceOnly obiekt z dostarczonymi parametrami
-- `InsertRegexpQuote()`: Wykonuje InsertRegexpQuote operację jako część narzędzia łańcuchowe
-- `QuoteSpace()`: Wykonuje QuoteSpace operację jako część narzędzia łańcuchowe
-- `QuoteOuterSpace()`: Wykonuje QuoteOuterSpace operację jako część narzędzia łańcuchowe
-- `ReplaceStrings()`: Wykonuje ReplaceStrings operację jako część narzędzia łańcuchowe
-- `replace()`: Wykonuje replace operację jako część narzędzia łańcuchowe
-- `Copy()`: Kopiuje dane ze źródła do miejsca docelowego
-- `replace_icase()`: Wykonuje replace_icase operację jako część narzędzia łańcuchowe
-- `remove_duplicates()`: Usuwa _duplicates z kolekcji i zwalnia powiązane zasoby
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
+- `QuoteSpaceOnly()`: Iterates through collection and processes each element, storing results
+- `InsertRegexpQuote()`: Iterates through collection and processes each element, storing results
+- `QuoteSpace()`: Iterates through collection and processes each element, storing results
+- `QuoteOuterSpace()`: Iterates through collection and processes each element, storing results
+- `ReplaceStrings()`: Implements ReplaceStrings functionality
+- `replace()`: Implements replace functionality
+- `Copy()`: Implements Copy functionality
+- `replace_icase()`: Implements replace_icase functionality
+- `remove_duplicates()`: Removes or deletes specified item and releases associated resources
+- `get()`: Implements get functionality
 ### Przestrzenie nazw
 - `detail`
 - `inplace`

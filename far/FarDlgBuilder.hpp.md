@@ -4,20 +4,20 @@
 This file implements functionality related to: Динамическое конструирование диалогов - версия для внутреннего употребления в FAR
 Main functional areas: dialog handling
 ### Key Classes
-- `DialogBuilder`: Performs DialogBuilder operation as part of the component's functionality
-- `DialogBuilderListItem`: Displays dialog interface for user interaction and input collection
-- `lng`: Performs lng operation as part of the component's functionality
+- `DialogBuilder`: Implements DialogBuilder functionality
+- `DialogBuilderListItem`: Implements DialogBuilderListItem functionality
+- `lng`: Implements lng functionality
 ### Key Functions
-- `c_str()`: Constructor that initializes c_str object with provided parameters
-- `str()`: Performs str operation as part of the component's functionality
-- `value()`: Performs value operation as part of the component's functionality
-- `flags()`: Performs flags operation as part of the component's functionality
-- `DialogBuilder()`: Performs DialogBuilder operation as part of the component's functionality
-- `AddText()`: Adds new Text to collection or list
-- `AddCheckbox()`: Adds new Checkbox to collection or list
-- `AddTextBefore()`: Adds new TextBefore to collection or list
-- `AddTextAfter()`: Adds new TextAfter to collection or list
-- `AddButtonAfter()`: Adds new ButtonAfter to collection or list
+- `c_str()`: Implements c_str functionality
+- `str()`: Implements str functionality
+- `value()`: Implements value functionality
+- `flags()`: Implements flags functionality
+- `DialogBuilder()`: Implements DialogBuilder functionality
+- `AddText()`: Implements AddText functionality
+- `AddCheckbox()`: Implements AddCheckbox functionality
+- `AddTextBefore()`: Implements AddTextBefore functionality
+- `AddTextAfter()`: Implements AddTextAfter functionality
+- `AddButtonAfter()`: Implements AddButtonAfter functionality
 ### Summary
 The `FarDlgBuilder.hpp` file provides essential functionality for dialog handling. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `FarDlgBuilder.hpp` file provides essential functionality for dialog handlin
 Ten plik implementuje funkcjonalność związaną z: Динамическое конструирование диалогов - версия для внутреннего употребления в FAR
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `DialogBuilder`: Implementuje obsługa dialogów
-- `DialogBuilderListItem`: Implementuje obsługa dialogów
-- `lng`: Implementuje obsługa dialogów
+- `DialogBuilder`: Implements DialogBuilder functionality
+- `DialogBuilderListItem`: Implements DialogBuilderListItem functionality
+- `lng`: Implements lng functionality
 ### Kluczowe Funkcje
-- `c_str()`: Konstruktor inicjalizujący c_str obiekt z dostarczonymi parametrami
-- `str()`: Wykonuje str operację jako część obsługa dialogów
-- `value()`: Wykonuje wartość operację jako część obsługa dialogów
-- `flags()`: Wykonuje flags operację jako część obsługa dialogów
-- `DialogBuilder()`: Wykonuje DialogBuilder operację jako część obsługa dialogów
-- `AddText()`: Dodaje nowy Text do kolekcji lub listy
-- `AddCheckbox()`: Dodaje nowy Checkbox do kolekcji lub listy
-- `AddTextBefore()`: Dodaje nowy TextBefore do kolekcji lub listy
-- `AddTextAfter()`: Dodaje nowy TextAfter do kolekcji lub listy
-- `AddButtonAfter()`: Dodaje nowy ButtonAfter do kolekcji lub listy
+- `c_str()`: Implements c_str functionality
+- `str()`: Implements str functionality
+- `value()`: Implements value functionality
+- `flags()`: Implements flags functionality
+- `DialogBuilder()`: Implements DialogBuilder functionality
+- `AddText()`: Implements AddText functionality
+- `AddCheckbox()`: Implements AddCheckbox functionality
+- `AddTextBefore()`: Implements AddTextBefore functionality
+- `AddTextAfter()`: Implements AddTextAfter functionality
+- `AddButtonAfter()`: Implements AddButtonAfter functionality
 ### Podsumowanie
 Plik `FarDlgBuilder.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

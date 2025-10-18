@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `AtExit()`: Performs AtExit operation as part of the component's functionality
-- `CallAtExit()`: Performs CallAtExit operation as part of the component's functionality
+- `AtExit()`: Implements AtExit functionality
+- `CallAtExit()`: Implements CallAtExit functionality
 ### Summary
 The `fstd_exit.cpp` file provides essential functionality for file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `fstd_exit.cpp` file provides essential functionality for file system operat
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `AtExit()`: Wykonuje AtExit operację jako część operacje systemu plików
-- `CallAtExit()`: Wykonuje CallAtExit operację jako część operacje systemu plików
+- `AtExit()`: Implements AtExit functionality
+- `CallAtExit()`: Implements CallAtExit functionality
 ### Podsumowanie
 Plik `fstd_exit.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

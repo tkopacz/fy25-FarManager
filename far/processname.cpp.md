@@ -4,12 +4,12 @@
 This file implements functionality related to: Обработать имя файла: сравнить с маской, масками, сгенерировать по маске
 Main functional areas: core functionality
 ### Key Classes
-- `test`: Performs test operation as part of the component's functionality
+- `test`: Implements test functionality
 ### Key Functions
-- `ConvertWildcards()`: Converts data from one format or type to another
-- `string()`: Performs string operation as part of the component's functionality
-- `CmpName()`: Evaluates conditions and returns a boolean indicating success or validity of CmpName
-- `exclude_sets()`: Iterates through items and collects results into a container
+- `ConvertWildcards()`: Self: Internal: Platform: Common: External: ---------------------------------------------------------------------------- https://superuser
+- `string()`: Processes input by dispatching to different code paths based on type or value
+- `CmpName()`: Special case for these simplest and most common masks used to be `false` but this looks more accurate
+- `exclude_sets()`: Iterates through collection and processes each element, storing results
 ### Summary
 The `processname.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -20,11 +20,11 @@ The `processname.cpp` file provides essential functionality for core functionali
 Ten plik implementuje funkcjonalność związaną z: Обработать имя файла: сравнить с маской, масками, сгенерировать по маске
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `test`: Performs test operation as part of the component's functionality
+- `test`: Implements test functionality
 ### Kluczowe Funkcje
-- `ConvertWildcards()`: Konwertuje dane z jednego formatu lub typu do innego
-- `string()`: Performs string operation as part of the component's functionality
-- `CmpName()`: Evaluates conditions and returns a boolean indicating success or validity of CmpName
-- `exclude_sets()`: Iterates through items and collects results into a container
+- `ConvertWildcards()`: Self: Internal: Platform: Common: External: ---------------------------------------------------------------------------- https://superuser
+- `string()`: Processes input by dispatching to different code paths based on type or value
+- `CmpName()`: Special case for these simplest and most common masks used to be `false` but this looks more accurate
+- `exclude_sets()`: Iterates through collection and processes each element, storing results
 ### Podsumowanie
 Plik `processname.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

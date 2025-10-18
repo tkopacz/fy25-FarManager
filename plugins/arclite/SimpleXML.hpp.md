@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `IParseCallback`: Callback function that handles specific events or notifications
-- `cbRet`: Performs cbRet operation as part of the component's functionality
-- `parseRet`: Performs parseRet operation as part of the component's functionality
-- `str_view`: Performs str_view operation as part of the component's functionality
+- `IParseCallback`: Implements IParseCallback functionality
+- `cbRet`: Implements cbRet functionality
+- `parseRet`: Implements parseRet functionality
+- `str_view`: ################################################################################################# BUGBUG remove & use string_view
 ### Key Functions
-- `empty()`: Performs empty operation as part of the component's functionality
-- `size()`: Performs size operation as part of the component's functionality
-- `parse()`: Parses input string or data into structured format
+- `empty()`: Implements empty functionality
+- `size()`: Implements size functionality
+- `parse()`: Implements parse functionality
 ### Namespaces
 - `SimpleXML`
 ### Summary
@@ -22,14 +22,14 @@ The `SimpleXML.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `IParseCallback`: Callback function that handles specific events or notifications
-- `cbRet`: Performs cbRet operation as part of the component's functionality
-- `parseRet`: Performs parseRet operation as part of the component's functionality
-- `str_view`: Performs str_view operation as part of the component's functionality
+- `IParseCallback`: Implements IParseCallback functionality
+- `cbRet`: Implements cbRet functionality
+- `parseRet`: Implements parseRet functionality
+- `str_view`: ################################################################################################# BUGBUG remove & use string_view
 ### Kluczowe Funkcje
-- `empty()`: Performs empty operation as part of the component's functionality
-- `size()`: Performs size operation as part of the component's functionality
-- `parse()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
+- `empty()`: Implements empty functionality
+- `size()`: Implements size functionality
+- `parse()`: Implements parse functionality
 ### Przestrzenie nazw
 - `SimpleXML`
 ### Podsumowanie

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GetCompName()`: Retrieves CompName from internal state or data structure
-- `_FWrite()`: Evaluates conditions and returns boolean indicating success or validity
-- `FIOWrite()`: Performs FIOWrite operation as part of the component's functionality
-- `_FRead()`: Evaluates conditions and returns boolean indicating success or validity
-- `FIORead()`: Performs FIORead operation as part of the component's functionality
-- `idPipeNameProc()`: Opens and manages file access for reading or writing operations
-- `Create()`: Creates and initializes new object instance
-- `Close()`: Closes resource and performs cleanup operations
-- `HPipeChannel()`: Performs HPipeChannel operation as part of the component's functionality
-- `LocateNet()`: Performs LocateNet operation as part of the component's functionality
+- `GetCompName()`: Retrieves CompName from current context or object state
+- `_FWrite()`: --------------------------------------------------------------------------------- TYPES ----------------------------------------------
+- `FIOWrite()`: Implements FIOWrite functionality
+- `_FRead()`: Implements _FRead functionality
+- `FIORead()`: Implements FIORead functionality
+- `idPipeNameProc()`: Implements idPipeNameProc functionality
+- `Create()`: Info thread Network name (as requested in NameLocate)
+- `Close()`: Info thread Network name (as requested in NameLocate)
+- `HPipeChannel()`: Time of last operation (used to delete old clients) Id in array (any unique nonzero) INT: HLocalPipe*
+- `LocateNet()`: Caller thread Unique nonzero
 ### Summary
 The `HSend.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `HSend.cpp` file provides essential functionality for core functionality. an
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GetCompName()`: Pobiera CompName ze stanu wewnętrznego lub struktury danych
-- `_FWrite()`: Evaluates conditions and returns boolean indicating success or validity
-- `FIOWrite()`: Performs FIOWrite operation as part of the component's functionality
-- `_FRead()`: Evaluates conditions and returns boolean indicating success or validity
-- `FIORead()`: Performs FIORead operation as part of the component's functionality
-- `idPipeNameProc()`: Opens and manages file access for reading or writing operations
-- `Create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `Close()`: Zamyka zasób i wykonuje operacje czyszczące
-- `HPipeChannel()`: Performs HPipeChannel operation as part of the component's functionality
-- `LocateNet()`: Performs LocateNet operation as part of the component's functionality
+- `GetCompName()`: Retrieves CompName from current context or object state
+- `_FWrite()`: --------------------------------------------------------------------------------- TYPES ----------------------------------------------
+- `FIOWrite()`: Implements FIOWrite functionality
+- `_FRead()`: Implements _FRead functionality
+- `FIORead()`: Implements FIORead functionality
+- `idPipeNameProc()`: Implements idPipeNameProc functionality
+- `Create()`: Info thread Network name (as requested in NameLocate)
+- `Close()`: Info thread Network name (as requested in NameLocate)
+- `HPipeChannel()`: Time of last operation (used to delete old clients) Id in array (any unique nonzero) INT: HLocalPipe*
+- `LocateNet()`: Caller thread Unique nonzero
 ### Podsumowanie
 Plik `HSend.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

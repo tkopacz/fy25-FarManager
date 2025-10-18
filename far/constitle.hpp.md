@@ -4,9 +4,9 @@
 This file implements functionality related to: Заголовок консоли
 Main functional areas: core functionality
 ### Key Functions
-- `SetFarTitle()`: Updates FarTitle in internal state or configuration
-- `SetUserTitle()`: Updates UserTitle in internal state or configuration
-- `GetTitle()`: Retrieves Title from internal state or data structure
+- `SetFarTitle()`: Updates FarTitle with provided value and validates constraints
+- `SetUserTitle()`: Common: External: ---------------------------------------------------------------------------- CONSTITLE_HPP_BEA2E6A2_E52A_4741_9E40_E6B50FF79633
+- `GetTitle()`: Retrieves Title from current context or object state
 ### Namespaces
 - `ConsoleTitle`
 ### Summary
@@ -19,9 +19,9 @@ The `constitle.hpp` file provides essential functionality for core functionality
 Ten plik implementuje funkcjonalność związaną z: Заголовок консоли
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `SetFarTitle()`: Aktualizuje FarTitle w stanie wewnętrznym lub konfiguracji
-- `SetUserTitle()`: Aktualizuje UserTitle w stanie wewnętrznym lub konfiguracji
-- `GetTitle()`: Pobiera Title ze stanu wewnętrznego lub struktury danych
+- `SetFarTitle()`: Updates FarTitle with provided value and validates constraints
+- `SetUserTitle()`: Common: External: ---------------------------------------------------------------------------- CONSTITLE_HPP_BEA2E6A2_E52A_4741_9E40_E6B50FF79633
+- `GetTitle()`: Retrieves Title from current context or object state
 ### Przestrzenie nazw
 - `ConsoleTitle`
 ### Podsumowanie

@@ -4,17 +4,17 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `enum_process_entry`: Performs enum_process_entry operation as part of the component's functionality
-- `image_type`: Performs image_type operation as part of the component's functionality
+- `enum_process_entry`: Implements enum_process_entry functionality
+- `image_type`: Implements image_type functionality
 ### Key Functions
-- `get_process_subsystem()`: Retrieves _process_subsystem from internal state or data structure
-- `get_process_name()`: Retrieves _process_name from internal state or data structure
-- `enumerate_locking_processes_rm()`: Performs enumerate_locking_processes_rm operation as part of the component's functionality
-- `enumerate_locking_processes_nt()`: Performs enumerate_locking_processes_nt operation as part of the component's functionality
-- `enum_processes()`: Performs enum_processes operation as part of the component's functionality
-- `get()`: Retrieves value from internal state or data structure
-- `terminate_other()`: Performs terminate_other operation as part of the component's functionality
-- `terminate()`: Performs terminate operation as part of the component's functionality
+- `get_process_subsystem()`: Retrieves _process_subsystem from current context or object state
+- `get_process_name()`: Retrieves _process_name from current context or object state
+- `enumerate_locking_processes_rm()`: Implements enumerate_locking_processes_rm functionality
+- `enumerate_locking_processes_nt()`: Implements enumerate_locking_processes_nt functionality
+- `enum_processes()`: Implements enum_processes functionality
+- `get()`: Implements get functionality
+- `terminate_other()`: Implements terminate_other functionality
+- `terminate()`: Implements terminate functionality
 ### Namespaces
 - `os`
 ### Summary
@@ -27,17 +27,17 @@ The `platform.process.hpp` file provides essential functionality for core functi
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `enum_process_entry`: Performs enum_process_entry operation as part of the component's functionality
-- `image_type`: Performs image_type operation as part of the component's functionality
+- `enum_process_entry`: Implements enum_process_entry functionality
+- `image_type`: Implements image_type functionality
 ### Kluczowe Funkcje
-- `get_process_subsystem()`: Pobiera _process_subsystem ze stanu wewnętrznego lub struktury danych
-- `get_process_name()`: Pobiera _process_name ze stanu wewnętrznego lub struktury danych
-- `enumerate_locking_processes_rm()`: Performs enumerate_locking_processes_rm operation as part of the component's functionality
-- `enumerate_locking_processes_nt()`: Performs enumerate_locking_processes_nt operation as part of the component's functionality
-- `enum_processes()`: Performs enum_processes operation as part of the component's functionality
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `terminate_other()`: Performs terminate_other operation as part of the component's functionality
-- `terminate()`: Performs terminate operation as part of the component's functionality
+- `get_process_subsystem()`: Retrieves _process_subsystem from current context or object state
+- `get_process_name()`: Retrieves _process_name from current context or object state
+- `enumerate_locking_processes_rm()`: Implements enumerate_locking_processes_rm functionality
+- `enumerate_locking_processes_nt()`: Implements enumerate_locking_processes_nt functionality
+- `enum_processes()`: Implements enum_processes functionality
+- `get()`: Implements get functionality
+- `terminate_other()`: Implements terminate_other functionality
+- `terminate()`: Implements terminate functionality
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

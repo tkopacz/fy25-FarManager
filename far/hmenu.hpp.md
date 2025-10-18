@@ -4,20 +4,20 @@
 This file implements functionality related to: Горизонтальное меню
 Main functional areas: menu management
 ### Key Classes
-- `HMenuData`: Performs HMenuData operation as part of the component's functionality
-- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `HMenuData`: Implements HMenuData functionality
+- `VMenu2`: Implements VMenu2 functionality
+- `private_tag`: Implements private_tag functionality
 ### Key Functions
-- `create()`: Creates and initializes new object instance
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `ResizeConsole()`: Adjusts size or capacity of buffer or container
-- `GetType()`: Retrieves Type from internal state or data structure
-- `GetTypeAndName()`: Retrieves TypeAndName from internal state or data structure
-- `GetExitCode()`: Retrieves ExitCode from internal state or data structure
-- `init()`: Initializes data structures and sets up initial state for operation
-- `DisplayObject()`: Displays content or makes visual element visible on screen
+- `create()`: Creates and initializes new object or resource instance
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `VMProcess()`: Implements VMProcess functionality
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `GetType()`: Retrieves Type from current context or object state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `GetExitCode()`: Retrieves ExitCode from current context or object state
+- `init()`: Initializes component with required configuration and state
+- `DisplayObject()`: Implements DisplayObject functionality
 ### Summary
 The `hmenu.hpp` file provides essential functionality for menu management. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `hmenu.hpp` file provides essential functionality for menu management. It de
 Ten plik implementuje funkcjonalność związaną z: Горизонтальное меню
 Główne obszary funkcjonalne: zarządzanie menu
 ### Kluczowe Klasy
-- `HMenuData`: Implementuje zarządzanie menu
-- `VMenu2`: Implementuje zarządzanie menu
-- `private_tag`: Implementuje zarządzanie menu
+- `HMenuData`: Implements HMenuData functionality
+- `VMenu2`: Implements VMenu2 functionality
+- `private_tag`: Implements private_tag functionality
 ### Kluczowe Funkcje
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `GetType()`: Pobiera Type ze stanu wewnętrznego lub struktury danych
-- `GetTypeAndName()`: Pobiera TypeAndName ze stanu wewnętrznego lub struktury danych
-- `GetExitCode()`: Pobiera ExitCode ze stanu wewnętrznego lub struktury danych
-- `init()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `DisplayObject()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
+- `create()`: Creates and initializes new object or resource instance
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `VMProcess()`: Implements VMProcess functionality
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `GetType()`: Retrieves Type from current context or object state
+- `GetTypeAndName()`: Retrieves TypeAndName from current context or object state
+- `GetExitCode()`: Retrieves ExitCode from current context or object state
+- `init()`: Initializes component with required configuration and state
+- `DisplayObject()`: Implements DisplayObject functionality
 ### Podsumowanie
 Plik `hmenu.hpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

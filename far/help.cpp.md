@@ -4,20 +4,20 @@
 This file implements functionality related to: Помощь
 Main functional areas: core functionality
 ### Key Classes
-- `HelpRecord`: Performs HelpRecord operation as part of the component's functionality
-- `StackHelpData`: Performs StackHelpData operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `HelpRecord`: Индекс плагинов значение маски
+- `StackHelpData`: Implements StackHelpData functionality
+- `private_tag`: Implements private_tag functionality
 ### Key Functions
-- `is_generated_topic()`: Tests whether _generated_topic condition is true or property exists
-- `equal_icase()`: Performs equal_icase operation as part of the component's functionality
-- `OpenURL()`: Opens resource and prepares it for access operations
-- `create()`: Creates and initializes new object instance
-- `Help()`: Performs Help operation as part of the component's functionality
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `InitKeyBar()`: Initializes data structures and sets up initial state for operation
-- `SetScreenPosition()`: Updates ScreenPosition in internal state or configuration
-- `ResizeConsole()`: Resizes buffer by reallocating memory while preserving existing content when possible
+- `is_generated_topic()`: Checks condition and returns boolean indicating state
+- `equal_icase()`: Implements equal_icase functionality
+- `OpenURL()`: значение маски путь к хелпам текущий топик выделенный топик (???) флаги номер верхней видимой строки темы координаты (
+- `create()`: Creates and initializes new object or resource instance
+- `Help()`: Implements Help functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `InitKeyBar()`: Initializes component with required configuration and state
+- `SetScreenPosition()`: Updates ScreenPosition with provided value and validates constraints
+- `ResizeConsole()`: Implements ResizeConsole functionality
 ### Namespaces
 - `help`
 ### Summary
@@ -30,20 +30,20 @@ The `help.cpp` file provides essential functionality for core functionality. It 
 Ten plik implementuje funkcjonalność związaną z: Помощь
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `HelpRecord`: Performs HelpRecord operation as part of the component's functionality
-- `StackHelpData`: Performs StackHelpData operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `HelpRecord`: Индекс плагинов значение маски
+- `StackHelpData`: Implements StackHelpData functionality
+- `private_tag`: Implements private_tag functionality
 ### Kluczowe Funkcje
-- `is_generated_topic()`: Testuje czy _generated_topic warunek jest prawdziwy lub właściwość istnieje
-- `equal_icase()`: Performs equal_icase operation as part of the component's functionality
-- `OpenURL()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `Help()`: Performs Help operation as part of the component's functionality
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `InitKeyBar()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `SetScreenPosition()`: Aktualizuje ScreenPosition w stanie wewnętrznym lub konfiguracji
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
+- `is_generated_topic()`: Checks condition and returns boolean indicating state
+- `equal_icase()`: Implements equal_icase functionality
+- `OpenURL()`: значение маски путь к хелпам текущий топик выделенный топик (???) флаги номер верхней видимой строки темы координаты (
+- `create()`: Creates and initializes new object or resource instance
+- `Help()`: Implements Help functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `InitKeyBar()`: Initializes component with required configuration and state
+- `SetScreenPosition()`: Updates ScreenPosition with provided value and validates constraints
+- `ResizeConsole()`: Implements ResizeConsole functionality
 ### Przestrzenie nazw
 - `help`
 ### Podsumowanie

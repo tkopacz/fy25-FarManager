@@ -4,18 +4,18 @@
 This file implements functionality related to: Archive Support API for FAR Manager 1.70 and MultiArc plugin
 Main functional areas: core functionality
 ### Key Classes
-- `ArcInfo`: Performs ArcInfo operation as part of the component's functionality
-- `ArcItemInfo`: Performs ArcItemInfo operation as part of the component's functionality
+- `ArcInfo`: Iterates through collection and processes each element, storing results
+- `ArcItemInfo`: Iterates through collection and processes each element, storing results
 ### Key Functions
-- `LoadFormatModule()`: Loads data or resources from storage into memory
-- `SetFarInfo()`: Updates FarInfo in internal state or configuration
-- `IsArchive()`: Tests whether Archive condition is true or property exists
-- `GetSFXPos()`: Retrieves SFXPos from internal state or data structure
-- `OpenArchive()`: Opens resource and prepares it for access operations
-- `GetArcItem()`: Retrieves ArcItem from internal state or data structure
-- `CloseArchive()`: Closes resource and performs cleanup operations
-- `GetFormatName()`: Retrieves FormatName from internal state or data structure
-- `GetDefaultCommands()`: Retrieves DefaultCommands from internal state or data structure
+- `LoadFormatModule()`: Iterates through collection and processes each element, storing results
+- `SetFarInfo()`: Iterates through collection and processes each element, storing results
+- `IsArchive()`: Iterates through collection and processes each element, storing results
+- `GetSFXPos()`: Iterates through collection and processes each element, storing results
+- `OpenArchive()`: Iterates through collection and processes each element, storing results
+- `GetArcItem()`: Iterates through collection and processes each element, storing results
+- `CloseArchive()`: Iterates through collection and processes each element, storing results
+- `GetFormatName()`: Iterates through collection and processes each element, storing results
+- `GetDefaultCommands()`: Iterates through collection and processes each element, storing results
 ### Summary
 The `fmt.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -26,17 +26,17 @@ The `fmt.hpp` file provides essential functionality for core functionality. It d
 Ten plik implementuje funkcjonalność związaną z: Archive Support API for FAR Manager 1.70 and MultiArc plugin
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArcInfo`: Performs ArcInfo operation as part of the component's functionality
-- `ArcItemInfo`: Performs ArcItemInfo operation as part of the component's functionality
+- `ArcInfo`: Iterates through collection and processes each element, storing results
+- `ArcItemInfo`: Iterates through collection and processes each element, storing results
 ### Kluczowe Funkcje
-- `LoadFormatModule()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `SetFarInfo()`: Aktualizuje FarInfo w stanie wewnętrznym lub konfiguracji
-- `IsArchive()`: Testuje czy Archive warunek jest prawdziwy lub właściwość istnieje
-- `GetSFXPos()`: Pobiera SFXPos ze stanu wewnętrznego lub struktury danych
-- `OpenArchive()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `GetArcItem()`: Pobiera ArcItem ze stanu wewnętrznego lub struktury danych
-- `CloseArchive()`: Zamyka zasób i wykonuje operacje czyszczące
-- `GetFormatName()`: Pobiera FormatName ze stanu wewnętrznego lub struktury danych
-- `GetDefaultCommands()`: Pobiera DefaultCommands ze stanu wewnętrznego lub struktury danych
+- `LoadFormatModule()`: Iterates through collection and processes each element, storing results
+- `SetFarInfo()`: Iterates through collection and processes each element, storing results
+- `IsArchive()`: Iterates through collection and processes each element, storing results
+- `GetSFXPos()`: Iterates through collection and processes each element, storing results
+- `OpenArchive()`: Iterates through collection and processes each element, storing results
+- `GetArcItem()`: Iterates through collection and processes each element, storing results
+- `CloseArchive()`: Iterates through collection and processes each element, storing results
+- `GetFormatName()`: Iterates through collection and processes each element, storing results
+- `GetDefaultCommands()`: Iterates through collection and processes each element, storing results
 ### Podsumowanie
 Plik `fmt.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

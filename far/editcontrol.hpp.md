@@ -4,21 +4,21 @@
 This file implements functionality related to: Надстройка над Edit.
 Main functional areas: text editing
 ### Key Classes
-- `Callback`: Callback function that handles specific events or notifications
-- `DlgEdit`: Performs DlgEdit operation as part of the component's functionality
-- `History`: Performs History operation as part of the component's functionality
-- `VMenu2`: Performs VMenu2 operation as part of the component's functionality
+- `Callback`: Implements Callback functionality
+- `DlgEdit`: Implements DlgEdit functionality
+- `History`: Implements History functionality
+- `VMenu2`: Implements VMenu2 functionality
 ### Key Functions
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `Show()`: Displays content or makes visual element visible on screen
-- `Changed()`: Performs Changed operation as part of the component's functionality
-- `GetMaxLength()`: Retrieves MaxLength from internal state or data structure
-- `ResizeConsole()`: Adjusts size or capacity of buffer or container
-- `AutoComplete()`: Performs AutoComplete operation as part of the component's functionality
-- `SetAutocomplete()`: Updates Autocomplete in internal state or configuration
-- `GetAutocomplete()`: Retrieves Autocomplete from internal state or data structure
-- `SetMacroAreaAC()`: Updates MacroAreaAC in internal state or configuration
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `Show()`: Implements Show functionality
+- `Changed()`: Implements Changed functionality
+- `GetMaxLength()`: Retrieves MaxLength from current context or object state
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `AutoComplete()`: Implements AutoComplete functionality
+- `SetAutocomplete()`: Updates Autocomplete with provided value and validates constraints
+- `GetAutocomplete()`: Retrieves Autocomplete from current context or object state
+- `SetMacroAreaAC()`: Updates MacroAreaAC with provided value and validates constraints
 ### Summary
 The `editcontrol.hpp` file provides essential functionality for text editing. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -29,20 +29,20 @@ The `editcontrol.hpp` file provides essential functionality for text editing. It
 Ten plik implementuje funkcjonalność związaną z: Надстройка над Edit.
 Główne obszary funkcjonalne: edycja tekstu
 ### Kluczowe Klasy
-- `Callback`: Implementuje edycja tekstu
-- `DlgEdit`: Implementuje edycja tekstu
-- `History`: Implementuje edycja tekstu
-- `VMenu2`: Implementuje edycja tekstu
+- `Callback`: Implements Callback functionality
+- `DlgEdit`: Implements DlgEdit functionality
+- `History`: Implements History functionality
+- `VMenu2`: Implements VMenu2 functionality
 ### Kluczowe Funkcje
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `Show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `Changed()`: Wykonuje Changed operację jako część edycja tekstu
-- `GetMaxLength()`: Pobiera MaxLength ze stanu wewnętrznego lub struktury danych
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `AutoComplete()`: Wykonuje AutoComplete operację jako część edycja tekstu
-- `SetAutocomplete()`: Aktualizuje Autocomplete w stanie wewnętrznym lub konfiguracji
-- `GetAutocomplete()`: Pobiera Autocomplete ze stanu wewnętrznego lub struktury danych
-- `SetMacroAreaAC()`: Aktualizuje MacroAreaAC w stanie wewnętrznym lub konfiguracji
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `Show()`: Implements Show functionality
+- `Changed()`: Implements Changed functionality
+- `GetMaxLength()`: Retrieves MaxLength from current context or object state
+- `ResizeConsole()`: Implements ResizeConsole functionality
+- `AutoComplete()`: Implements AutoComplete functionality
+- `SetAutocomplete()`: Updates Autocomplete with provided value and validates constraints
+- `GetAutocomplete()`: Retrieves Autocomplete from current context or object state
+- `SetMacroAreaAC()`: Updates MacroAreaAC with provided value and validates constraints
 ### Podsumowanie
 Plik `editcontrol.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

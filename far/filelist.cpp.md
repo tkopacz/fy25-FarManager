@@ -4,26 +4,26 @@
 This file implements functionality related to: Файловая панель
 Main functional areas: file system operations
 ### Key Classes
-- `CustomSort`: Performs CustomSort operation as part of the component's functionality
-- `FileList`: Evaluates conditions and returns a boolean indicating success or validity of FileList
-- `arg`: Performs arg operation as part of the component's functionality
-- `file_state`: Performs file_state operation as part of the component's functionality
-- `hash_less`: Checks and returns whether a specific condition (hash_less) is true or false
-- `list_less`: Performs list_less operation as part of the component's functionality
-- `ps_action`: Performs ps_action operation as part of the component's functionality
-- `ps_mode`: Performs ps_mode operation as part of the component's functionality
-- `sort_mode`: Performs sort_mode operation as part of the component's functionality
+- `CustomSort`: Implements CustomSort functionality
+- `FileList`: Implements FileList functionality
+- `arg`: Implements arg functionality
+- `file_state`: Implements file_state functionality
+- `hash_less`: Checks condition and returns boolean indicating state
+- `list_less`: Implements list_less functionality
+- `ps_action`: Implements ps_action functionality
+- `ps_mode`: Implements ps_mode functionality
+- `sort_mode`: Implements sort_mode functionality
 ### Key Functions
-- `order_indicator()`: Performs order_indicator operation as part of the component's functionality
-- `to_fat_write_time()`: Performs to_fat_write_time operation as part of the component's functionality
-- `to_whole_seconds()`: Performs to_whole_seconds operation as part of the component's functionality
-- `compare_fat_write_time()`: Performs compare_fat_write_time operation as part of the component's functionality
-- `FileListToSortingPanelItem()`: Performs FileListToSortingPanelItem operation as part of the component's functionality
-- `SortFileList()`: Evaluates conditions and returns a boolean indicating success or validity of SortFileList
-- `CanSort()`: Checks state or conditions and returns boolean indicating the result
-- `GetItemFullName()`: Retrieves ItemFullName from internal state or data structure
-- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize from internal state or data structure
-- `event_id()`: Constructor that initializes event_id object with provided parameters
+- `order_indicator()`: Processes input by dispatching to different code paths based on type or value
+- `to_fat_write_time()`: Implements to_fat_write_time functionality
+- `to_whole_seconds()`: Implements to_whole_seconds functionality
+- `compare_fat_write_time()`: Implements compare_fat_write_time functionality
+- `FileListToSortingPanelItem()`: Implements FileListToSortingPanelItem functionality
+- `SortFileList()`: Implements SortFileList functionality
+- `CanSort()`: Implements CanSort functionality
+- `GetItemFullName()`: Retrieves ItemFullName from current context or object state
+- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize from current context or object state
+- `event_id()`: Implements event_id functionality
 ### Namespaces
 - `custom_sort`
 - `std`
@@ -37,26 +37,26 @@ The `filelist.cpp` file provides essential functionality for file system operati
 Ten plik implementuje funkcjonalność związaną z: Файловая панель
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `CustomSort`: Implementuje operacje systemu plików
-- `FileList`: Implementuje operacje systemu plików
-- `arg`: Implementuje operacje systemu plików
-- `file_state`: Implementuje operacje systemu plików
-- `hash_less`: Implementuje operacje systemu plików
-- `list_less`: Implementuje operacje systemu plików
-- `ps_action`: Implementuje operacje systemu plików
-- `ps_mode`: Implementuje operacje systemu plików
-- `sort_mode`: Implementuje operacje systemu plików
+- `CustomSort`: Implements CustomSort functionality
+- `FileList`: Implements FileList functionality
+- `arg`: Implements arg functionality
+- `file_state`: Implements file_state functionality
+- `hash_less`: Checks condition and returns boolean indicating state
+- `list_less`: Implements list_less functionality
+- `ps_action`: Implements ps_action functionality
+- `ps_mode`: Implements ps_mode functionality
+- `sort_mode`: Implements sort_mode functionality
 ### Kluczowe Funkcje
-- `order_indicator()`: Wykonuje order_indicator operację jako część operacje systemu plików
-- `to_fat_write_time()`: Wykonuje to_fat_write_time operację jako część operacje systemu plików
-- `to_whole_seconds()`: Wykonuje to_whole_seconds operację jako część operacje systemu plików
-- `compare_fat_write_time()`: Wykonuje compare_fat_write_time operację jako część operacje systemu plików
-- `FileListToSortingPanelItem()`: Wykonuje FileListToSortingPanelItem operację jako część operacje systemu plików
-- `SortFileList()`: Wykonuje SortFileList operację jako część operacje systemu plików
-- `CanSort()`: Wykonuje CanSort operację jako część operacje systemu plików
-- `GetItemFullName()`: Pobiera ItemFullName ze stanu wewnętrznego lub struktury danych
-- `GetStreamsCountAndSize()`: Pobiera StreamsCountAndSize ze stanu wewnętrznego lub struktury danych
-- `event_id()`: Konstruktor inicjalizujący zdarzenie_id obiekt z dostarczonymi parametrami
+- `order_indicator()`: Processes input by dispatching to different code paths based on type or value
+- `to_fat_write_time()`: Implements to_fat_write_time functionality
+- `to_whole_seconds()`: Implements to_whole_seconds functionality
+- `compare_fat_write_time()`: Implements compare_fat_write_time functionality
+- `FileListToSortingPanelItem()`: Implements FileListToSortingPanelItem functionality
+- `SortFileList()`: Implements SortFileList functionality
+- `CanSort()`: Implements CanSort functionality
+- `GetItemFullName()`: Retrieves ItemFullName from current context or object state
+- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize from current context or object state
+- `event_id()`: Implements event_id functionality
 ### Przestrzenie nazw
 - `custom_sort`
 - `std`

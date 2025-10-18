@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `format()`: Performs format operation as part of the component's functionality
-- `vformat()`: Performs vformat operation as part of the component's functionality
-- `str()`: Performs str operation as part of the component's functionality
+- `format()`: Iterates through collection and processes each element, storing results
+- `vformat()`: Iterates through collection and processes each element, storing results
+- `str()`: Iterates through collection and processes each element, storing results
 ### Namespaces
 - `far`
 ### Summary
@@ -17,9 +17,9 @@ The `format.hpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `format()`: Performs format operation as part of the component's functionality
-- `vformat()`: Performs vformat operation as part of the component's functionality
-- `str()`: Performs str operation as part of the component's functionality
+- `format()`: Iterates through collection and processes each element, storing results
+- `vformat()`: Iterates through collection and processes each element, storing results
+- `str()`: Iterates through collection and processes each element, storing results
 ### Przestrzenie nazw
 - `far`
 ### Podsumowanie

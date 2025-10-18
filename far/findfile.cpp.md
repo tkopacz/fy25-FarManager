@@ -4,27 +4,27 @@
 This file implements functionality related to: Поиск (Alt-F7)
 Main functional areas: file system operations
 ### Key Classes
-- `ArcListItem`: Performs ArcListItem operation as part of the component's functionality
-- `CodePageInfo`: Performs CodePageInfo operation as part of the component's functionality
-- `FindFiles`: Performs FindFiles operation as part of the component's functionality
-- `FindFilesOptions`: Performs FindFilesOptions operation as part of the component's functionality
-- `FindListItem`: Performs FindListItem operation as part of the component's functionality
-- `InterThreadData`: Performs InterThreadData operation as part of the component's functionality
-- `background_searcher`: Performs background_searcher operation as part of the component's functionality
-- `menu_data`: Performs menu_data operation as part of the component's functionality
-- `percent`: Performs percent operation as part of the component's functionality
-- `pop`: Performs pop operation as part of the component's functionality
+- `ArcListItem`: Implements ArcListItem functionality
+- `CodePageInfo`: Считаем, что ошибка и потом такие таблицы в поиске пропускаем
+- `FindFiles`: Implements FindFiles functionality
+- `FindFilesOptions`: Implements FindFilesOptions functionality
+- `FindListItem`: Implements FindListItem functionality
+- `InterThreadData`: Implements InterThreadData functionality
+- `background_searcher`: Implements background_searcher functionality
+- `menu_data`: Iterates through collection and processes each element, storing results
+- `percent`: Implements percent functionality
+- `pop`: Iterates through collection and processes each element, storing results
 ### Key Functions
-- `IsWordDiv()`: Tests whether WordDiv condition is true or property exists
-- `AddMenuRecord()`: Adds new MenuRecord to collection or list
-- `ScopedLock()`: Performs ScopedLock operation as part of the component's functionality
-- `AdvancedDialog()`: Performs AdvancedDialog operation as part of the component's functionality
-- `MainDlgProc()`: Evaluates conditions and returns a boolean indicating success or validity of MainDlgProc
-- `FindDlgProc()`: Searches for DlgProc in collection and returns position or reference
-- `OpenFile()`: Opens resource and prepares it for access operations
-- `FindFilesProcess()`: Searches for FilesProcess in collection and returns position or reference
-- `ProcessMessage()`: Processes Message through transformation or handling pipeline
-- `SetPluginDirectory()`: Updates PluginDirectory in internal state or configuration
+- `IsWordDiv()`: Checks condition and returns boolean indicating state
+- `AddMenuRecord()`: Implements AddMenuRecord functionality
+- `ScopedLock()`: Implements ScopedLock functionality
+- `AdvancedDialog()`: Implements AdvancedDialog functionality
+- `MainDlgProc()`: Program entry point that parses arguments and coordinates main execution flow
+- `FindDlgProc()`: Implements FindDlgProc functionality
+- `OpenFile()`: Implements OpenFile functionality
+- `FindFilesProcess()`: Implements FindFilesProcess functionality
+- `ProcessMessage()`: Processes input data through core business logic pipeline
+- `SetPluginDirectory()`: Updates PluginDirectory with provided value and validates constraints
 ### Namespaces
 - `messages`
 ### Summary
@@ -37,27 +37,27 @@ The `findfile.cpp` file provides essential functionality for file system operati
 Ten plik implementuje funkcjonalność związaną z: Поиск (Alt-F7)
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `ArcListItem`: Implementuje operacje systemu plików
-- `CodePageInfo`: Implementuje operacje systemu plików
-- `FindFiles`: Implementuje operacje systemu plików
-- `FindFilesOptions`: Implementuje operacje systemu plików
-- `FindListItem`: Implementuje operacje systemu plików
-- `InterThreadData`: Implementuje operacje systemu plików
-- `background_searcher`: Implementuje operacje systemu plików
-- `menu_data`: Implementuje operacje systemu plików
-- `percent`: Implementuje operacje systemu plików
-- `pop`: Implementuje operacje systemu plików
+- `ArcListItem`: Implements ArcListItem functionality
+- `CodePageInfo`: Считаем, что ошибка и потом такие таблицы в поиске пропускаем
+- `FindFiles`: Implements FindFiles functionality
+- `FindFilesOptions`: Implements FindFilesOptions functionality
+- `FindListItem`: Implements FindListItem functionality
+- `InterThreadData`: Implements InterThreadData functionality
+- `background_searcher`: Implements background_searcher functionality
+- `menu_data`: Iterates through collection and processes each element, storing results
+- `percent`: Implements percent functionality
+- `pop`: Iterates through collection and processes each element, storing results
 ### Kluczowe Funkcje
-- `IsWordDiv()`: Testuje czy WordDiv warunek jest prawdziwy lub właściwość istnieje
-- `AddMenuRecord()`: Dodaje nowy MenuRecord do kolekcji lub listy
-- `ScopedLock()`: Wykonuje ScopedLock operację jako część operacje systemu plików
-- `AdvancedDialog()`: Wykonuje AdvancedDialog operację jako część operacje systemu plików
-- `MainDlgProc()`: Wykonuje MainDlgProc operację jako część operacje systemu plików
-- `FindDlgProc()`: Wyszukuje DlgProc w kolekcji i zwraca pozycję lub referencję
-- `OpenFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `FindFilesProcess()`: Wyszukuje FilesProcess w kolekcji i zwraca pozycję lub referencję
-- `ProcessMessage()`: Przetwarza Message przez potok transformacji lub obsługi
-- `SetPluginDirectory()`: Aktualizuje PluginDirectory w stanie wewnętrznym lub konfiguracji
+- `IsWordDiv()`: Checks condition and returns boolean indicating state
+- `AddMenuRecord()`: Implements AddMenuRecord functionality
+- `ScopedLock()`: Implements ScopedLock functionality
+- `AdvancedDialog()`: Implements AdvancedDialog functionality
+- `MainDlgProc()`: Program entry point that parses arguments and coordinates main execution flow
+- `FindDlgProc()`: Implements FindDlgProc functionality
+- `OpenFile()`: Implements OpenFile functionality
+- `FindFilesProcess()`: Implements FindFilesProcess functionality
+- `ProcessMessage()`: Processes input data through core business logic pipeline
+- `SetPluginDirectory()`: Updates PluginDirectory with provided value and validates constraints
 ### Przestrzenie nazw
 - `messages`
 ### Podsumowanie

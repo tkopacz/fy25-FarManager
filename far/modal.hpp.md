@@ -4,17 +4,17 @@
 This file implements functionality related to: Parent class для модальных объектов
 Main functional areas: core functionality
 ### Key Classes
-- `Modal`: Performs Modal operation as part of the component's functionality
+- `Modal`: Implements Modal functionality
 ### Key Functions
-- `SetExitCode()`: Updates ExitCode in internal state or configuration
-- `Done()`: Performs Done operation as part of the component's functionality
-- `ClearDone()`: Clears all data and resets to initial empty state
-- `Process()`: Processes data through transformation or handling pipeline
-- `SetHelp()`: Updates Help in internal state or configuration
-- `ShowHelp()`: Displays content or makes visual element visible on screen
-- `SetDone()`: Updates Done in internal state or configuration
-- `Close()`: Closes resource and performs cleanup operations
-- `OnClose()`: Event handler invoked when Close occurs
+- `SetExitCode()`: Updates ExitCode with provided value and validates constraints
+- `Done()`: Implements Done functionality
+- `ClearDone()`: External: ---------------------------------------------------------------------------- MODAL_HPP_A6E3BDC6_D983_486E_98E6_E5956E64CC15
+- `Process()`: ---------------------------------------------------------------------------- MODAL_HPP_A6E3BDC6_D983_486E_98E6_E5956E64CC15
+- `SetHelp()`: Updates Help with provided value
+- `ShowHelp()`: Implements ShowHelp functionality
+- `SetDone()`: Updates Done with provided value
+- `Close()`: Implements Close functionality
+- `OnClose()`: Implements OnClose functionality
 ### Summary
 The `modal.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -25,16 +25,16 @@ The `modal.hpp` file provides essential functionality for core functionality. It
 Ten plik implementuje funkcjonalność związaną z: Parent class для модальных объектов
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Modal`: Performs Modal operation as part of the component's functionality
+- `Modal`: Implements Modal functionality
 ### Kluczowe Funkcje
-- `SetExitCode()`: Aktualizuje ExitCode w stanie wewnętrznym lub konfiguracji
-- `Done()`: Performs Done operation as part of the component's functionality
-- `ClearDone()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
-- `Process()`: Przetwarza dane przez potok transformacji lub obsługi
-- `SetHelp()`: Aktualizuje Help w stanie wewnętrznym lub konfiguracji
-- `ShowHelp()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `SetDone()`: Aktualizuje Done w stanie wewnętrznym lub konfiguracji
-- `Close()`: Zamyka zasób i wykonuje operacje czyszczące
-- `OnClose()`: Procedura obsługi zdarzeń wywoływana gdy Close występuje
+- `SetExitCode()`: Updates ExitCode with provided value and validates constraints
+- `Done()`: Implements Done functionality
+- `ClearDone()`: External: ---------------------------------------------------------------------------- MODAL_HPP_A6E3BDC6_D983_486E_98E6_E5956E64CC15
+- `Process()`: ---------------------------------------------------------------------------- MODAL_HPP_A6E3BDC6_D983_486E_98E6_E5956E64CC15
+- `SetHelp()`: Updates Help with provided value
+- `ShowHelp()`: Implements ShowHelp functionality
+- `SetDone()`: Updates Done with provided value
+- `Close()`: Implements Close functionality
+- `OnClose()`: Implements OnClose functionality
 ### Podsumowanie
 Plik `modal.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

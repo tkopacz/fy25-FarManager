@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `YourClass`: Performs YourClass operation as part of the component's functionality
-- `noncopyable`: Performs noncopyable operation as part of the component's functionality
+- `YourClass`: Implements YourClass functionality
+- `noncopyable`: ---------------------------------------------------------------------------- NONCOPYABLE_HPP_AD5ABD9E_DA14_463E_84DE_CDA0B230F816
 ### Summary
 The `noncopyable.hpp` file provides essential functionality for core functionality. It defines 2 class(es) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `noncopyable.hpp` file provides essential functionality for core functionali
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `YourClass`: Performs YourClass operation as part of the component's functionality
-- `noncopyable`: Performs noncopyable operation as part of the component's functionality
+- `YourClass`: Implements YourClass functionality
+- `noncopyable`: ---------------------------------------------------------------------------- NONCOPYABLE_HPP_AD5ABD9E_DA14_463E_84DE_CDA0B230F816
 ### Podsumowanie
 Plik `noncopyable.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.

@@ -3,25 +3,25 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `break_into_debugger`: Performs break_into_debugger operation as part of the component's functionality
-- `error_state_ex`: Performs error_state_ex operation as part of the component's functionality
-- `far_base_exception`: Performs far_base_exception operation as part of the component's functionality
-- `far_exception`: Validates conditions and throws exceptions when errors are detected during far_exception operation
-- `far_known_exception`: Performs far_known_exception operation as part of the component's functionality
-- `far_std_exception`: Performs far_std_exception operation as part of the component's functionality
-- `formattable`: Performs formattable operation as part of the component's functionality
-- `unknown_exception_t`: Performs unknown_exception_t operation as part of the component's functionality
+- `break_into_debugger`: Represents a non-continuable failure: - logic errors, which shouldn't happen
+- `error_state_ex`: Implements error_state_ex functionality
+- `far_base_exception`: Implements far_base_exception functionality
+- `far_exception`: Implements far_exception functionality
+- `far_known_exception`: For common EXCEPTION_HPP_2CD5B7D1_D39C_4CAF_858A_62496C9221DF For the cases where it is pretty clear what is wrong, no need to show the stack etc
+- `far_std_exception`: Implements far_std_exception functionality
+- `formattable`: Implements formattable functionality
+- `unknown_exception_t`: Implements unknown_exception_t functionality
 ### Key Functions
-- `any()`: Evaluates conditions and returns boolean indicating success or validity
-- `ErrnoStr()`: Performs ErrnoStr operation as part of the component's functionality
-- `system_error()`: Performs system_error operation as part of the component's functionality
-- `to_string()`: Converts object to string representation for display or serialization
-- `source_location_to_string()`: Converts object to string representation for display or serialization
-- `message()`: Constructor that initializes message object with provided parameters
-- `location()`: Constructor that initializes location object with provided parameters
-- `far_base_exception()`: Performs far_base_exception operation as part of the component's functionality
-- `far_std_exception()`: Performs far_std_exception operation as part of the component's functionality
-- `convert_message()`: Converts data from one format or type to another
+- `any()`: Implements any functionality
+- `ErrnoStr()`: Implements ErrnoStr functionality
+- `system_error()`: Implements system_error functionality
+- `to_string()`: Implements to_string functionality
+- `source_location_to_string()`: Implements source_location_to_string functionality
+- `message()`: Implements message functionality
+- `location()`: Implements location functionality
+- `far_base_exception()`: Implements far_base_exception functionality
+- `far_std_exception()`: Implements far_std_exception functionality
+- `convert_message()`: Represents a non-continuable failure: - logic errors, which shouldn't happen
 ### Namespaces
 - `detail`
 ### Summary
@@ -33,25 +33,25 @@ The `exception.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `break_into_debugger`: Performs break_into_debugger operation as part of the component's functionality
-- `error_state_ex`: Performs error_state_ex operation as part of the component's functionality
-- `far_base_exception`: Performs far_base_exception operation as part of the component's functionality
-- `far_exception`: Validates conditions and throws exceptions when errors are detected during far_exception operation
-- `far_known_exception`: Performs far_known_exception operation as part of the component's functionality
-- `far_std_exception`: Performs far_std_exception operation as part of the component's functionality
-- `formattable`: Performs formattable operation as part of the component's functionality
-- `unknown_exception_t`: Performs unknown_exception_t operation as part of the component's functionality
+- `break_into_debugger`: Represents a non-continuable failure: - logic errors, which shouldn't happen
+- `error_state_ex`: Implements error_state_ex functionality
+- `far_base_exception`: Implements far_base_exception functionality
+- `far_exception`: Implements far_exception functionality
+- `far_known_exception`: For common EXCEPTION_HPP_2CD5B7D1_D39C_4CAF_858A_62496C9221DF For the cases where it is pretty clear what is wrong, no need to show the stack etc
+- `far_std_exception`: Implements far_std_exception functionality
+- `formattable`: Implements formattable functionality
+- `unknown_exception_t`: Implements unknown_exception_t functionality
 ### Kluczowe Funkcje
-- `any()`: Evaluates conditions and returns boolean indicating success or validity
-- `ErrnoStr()`: Performs ErrnoStr operation as part of the component's functionality
-- `system_error()`: Performs system_error operation as part of the component's functionality
-- `to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `source_location_to_string()`: Konwertuje obiekt do reprezentacji łańcuchowej dla wyświetlenia lub serializacji
-- `message()`: Konstruktor inicjalizujący message obiekt z dostarczonymi parametrami
-- `location()`: Konstruktor inicjalizujący location obiekt z dostarczonymi parametrami
-- `far_base_exception()`: Performs far_base_exception operation as part of the component's functionality
-- `far_std_exception()`: Performs far_std_exception operation as part of the component's functionality
-- `convert_message()`: Konwertuje dane z jednego formatu lub typu do innego
+- `any()`: Implements any functionality
+- `ErrnoStr()`: Implements ErrnoStr functionality
+- `system_error()`: Implements system_error functionality
+- `to_string()`: Implements to_string functionality
+- `source_location_to_string()`: Implements source_location_to_string functionality
+- `message()`: Implements message functionality
+- `location()`: Implements location functionality
+- `far_base_exception()`: Implements far_base_exception functionality
+- `far_std_exception()`: Implements far_std_exception functionality
+- `convert_message()`: Represents a non-continuable failure: - logic errors, which shouldn't happen
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

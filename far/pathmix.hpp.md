@@ -4,21 +4,21 @@
 This file implements functionality related to: Misc functions for processing of path names
 Main functional areas: core functionality
 ### Key Classes
-- `FileListItem`: Performs FileListItem operation as part of the component's functionality
-- `PluginPanelItem`: Performs PluginPanelItem operation as part of the component's functionality
-- `append_arg`: Performs append_arg operation as part of the component's functionality
-- `root_type`: Performs root_type operation as part of the component's functionality
+- `FileListItem`: Implements FileListItem functionality
+- `PluginPanelItem`: Implements PluginPanelItem functionality
+- `append_arg`: Implements append_arg functionality
+- `root_type`: Implements root_type functionality
 ### Key Functions
-- `is_nt_separator()`: Tests whether _nt_separator condition is true or property exists
-- `is_separator()`: Tests whether _separator condition is true or property exists
-- `contains()`: Performs contains operation as part of the component's functionality
-- `append_arg()`: Performs append_arg operation as part of the component's functionality
-- `append_impl()`: Performs append_impl operation as part of the component's functionality
-- `append()`: Performs append operation as part of the component's functionality
-- `join()`: Performs join operation as part of the component's functionality
-- `normalize_separators()`: Performs normalize_separators operation as part of the component's functionality
-- `nt_path()`: Performs nt_path operation as part of the component's functionality
-- `kernel_path()`: Performs kernel_path operation as part of the component's functionality
+- `is_nt_separator()`: Checks condition and returns boolean indicating state
+- `is_separator()`: Checks condition and returns boolean indicating state
+- `contains()`: Implements contains functionality
+- `append_arg()`: Implements append_arg functionality
+- `append_impl()`: Implements append_impl functionality
+- `append()`: Implements append functionality
+- `join()`: Implements join functionality
+- `normalize_separators()`: Implements normalize_separators functionality
+- `nt_path()`: Implements nt_path functionality
+- `kernel_path()`: Implements kernel_path functionality
 ### Namespaces
 - `detail`
 - `inplace`
@@ -34,21 +34,21 @@ The `pathmix.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Misc functions for processing of path names
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FileListItem`: Performs FileListItem operation as part of the component's functionality
-- `PluginPanelItem`: Performs PluginPanelItem operation as part of the component's functionality
-- `append_arg`: Performs append_arg operation as part of the component's functionality
-- `root_type`: Performs root_type operation as part of the component's functionality
+- `FileListItem`: Implements FileListItem functionality
+- `PluginPanelItem`: Implements PluginPanelItem functionality
+- `append_arg`: Implements append_arg functionality
+- `root_type`: Implements root_type functionality
 ### Kluczowe Funkcje
-- `is_nt_separator()`: Testuje czy _nt_separator warunek jest prawdziwy lub właściwość istnieje
-- `is_separator()`: Testuje czy _separator warunek jest prawdziwy lub właściwość istnieje
-- `contains()`: Performs contains operation as part of the component's functionality
-- `append_arg()`: Performs append_arg operation as part of the component's functionality
-- `append_impl()`: Performs append_impl operation as part of the component's functionality
-- `append()`: Performs append operation as part of the component's functionality
-- `join()`: Performs join operation as part of the component's functionality
-- `normalize_separators()`: Performs normalize_separators operation as part of the component's functionality
-- `nt_path()`: Performs nt_path operation as part of the component's functionality
-- `kernel_path()`: Performs kernel_path operation as part of the component's functionality
+- `is_nt_separator()`: Checks condition and returns boolean indicating state
+- `is_separator()`: Checks condition and returns boolean indicating state
+- `contains()`: Implements contains functionality
+- `append_arg()`: Implements append_arg functionality
+- `append_impl()`: Implements append_impl functionality
+- `append()`: Implements append functionality
+- `join()`: Implements join functionality
+- `normalize_separators()`: Implements normalize_separators functionality
+- `nt_path()`: Implements nt_path functionality
+- `kernel_path()`: Implements kernel_path functionality
 ### Przestrzenie nazw
 - `detail`
 - `inplace`

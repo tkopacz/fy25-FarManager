@@ -4,19 +4,19 @@
 This file implements functionality related to: Tree panel
 Main functional areas: core functionality
 ### Key Classes
-- `TreeItem`: Performs TreeItem operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `TreeItem`: Implements TreeItem functionality
+- `private_tag`: Implements private_tag functionality
 ### Key Functions
-- `string_view()`: Performs string_view operation as part of the component's functionality
-- `create()`: Creates and initializes new object instance
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `GoToFile()`: Performs GoToFile operation as part of the component's functionality
-- `FindPartName()`: Searches for PartName in collection and returns position or reference
-- `Update()`: Updates existing data with new values while preserving structure
-- `GetCurDir()`: Retrieves CurDir from internal state or data structure
-- `SetRootDir()`: Updates RootDir in internal state or configuration
-- `ProcessEnter()`: Processes Enter through transformation or handling pipeline
+- `string_view()`: Implements string_view functionality
+- `create()`: Creates and initializes new object or resource instance
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `GoToFile()`: Implements GoToFile functionality
+- `FindPartName()`: Implements FindPartName functionality
+- `Update()`: Updates existing state with new values
+- `GetCurDir()`: Retrieves CurDir from current context or object state
+- `SetRootDir()`: Updates RootDir with provided value and validates constraints
+- `ProcessEnter()`: Processes input data through core business logic pipeline
 ### Summary
 The `treelist.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -27,18 +27,18 @@ The `treelist.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Tree panel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `TreeItem`: Performs TreeItem operation as part of the component's functionality
-- `private_tag`: Performs private_tag operation as part of the component's functionality
+- `TreeItem`: Implements TreeItem functionality
+- `private_tag`: Implements private_tag functionality
 ### Kluczowe Funkcje
-- `string_view()`: Performs string_view operation as part of the component's functionality
-- `create()`: Tworzy i inicjalizuje nowy obiekt instancję
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `GoToFile()`: Performs GoToFile operation as part of the component's functionality
-- `FindPartName()`: Wyszukuje PartName w kolekcji i zwraca pozycję lub referencję
-- `Update()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `GetCurDir()`: Pobiera CurDir ze stanu wewnętrznego lub struktury danych
-- `SetRootDir()`: Aktualizuje RootDir w stanie wewnętrznym lub konfiguracji
-- `ProcessEnter()`: Przetwarza Enter przez potok transformacji lub obsługi
+- `string_view()`: Implements string_view functionality
+- `create()`: Creates and initializes new object or resource instance
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `GoToFile()`: Implements GoToFile functionality
+- `FindPartName()`: Implements FindPartName functionality
+- `Update()`: Updates existing state with new values
+- `GetCurDir()`: Retrieves CurDir from current context or object state
+- `SetRootDir()`: Updates RootDir with provided value and validates constraints
+- `ProcessEnter()`: Processes input data through core business logic pipeline
 ### Podsumowanie
 Plik `treelist.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `exception_monitor`: Performs exception_monitor operation as part of the component's functionality
-- `make_scope_guard`: Performs make_scope_guard operation as part of the component's functionality
-- `scope_guard`: Performs scope_guard operation as part of the component's functionality
-- `scope_type`: Performs scope_type operation as part of the component's functionality
+- `exception_monitor`: Implements exception_monitor functionality
+- `make_scope_guard`: Implements make_scope_guard functionality
+- `scope_guard`: Implements scope_guard functionality
+- `scope_type`: Implements scope_type functionality
 ### Key Functions
-- `invoke_handler()`: Callback function that handles specific events or notifications
+- `invoke_handler()`: Implements invoke_handler functionality
 ### Namespaces
 - `scope_exit`
 ### Summary
@@ -20,12 +20,12 @@ The `scope_exit.hpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `exception_monitor`: Performs exception_monitor operation as part of the component's functionality
-- `make_scope_guard`: Performs make_scope_guard operation as part of the component's functionality
-- `scope_guard`: Performs scope_guard operation as part of the component's functionality
-- `scope_type`: Performs scope_type operation as part of the component's functionality
+- `exception_monitor`: Implements exception_monitor functionality
+- `make_scope_guard`: Implements make_scope_guard functionality
+- `scope_guard`: Implements scope_guard functionality
+- `scope_type`: Implements scope_type functionality
 ### Kluczowe Funkcje
-- `invoke_handler()`: Callback function that handles specific events or notifications
+- `invoke_handler()`: Implements invoke_handler functionality
 ### Przestrzenie nazw
 - `scope_exit`
 ### Podsumowanie

@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: panel management
 ### Key Classes
-- `FarPanelInfo`: Evaluates conditions and returns boolean indicating success or validity
+- `FarPanelInfo`: Implements FarPanelInfo functionality
 ### Key Functions
-- `Reset()`: Performs Reset operation as part of the component's functionality
-- `Redraw()`: Performs Redraw operation as part of the component's functionality
-- `Update()`: Updates existing data with new values while preserving structure
-- `GetPanelItem()`: Retrieves PanelItem from internal state or data structure
-- `UpdatePanelInfo()`: Updates existing data with new values while preserving structure
-- `GetSelectedItem()`: Retrieves SelectedItem from internal state or data structure
-- `GetCurrentItem()`: Retrieves CurrentItem from internal state or data structure
-- `FreePanelItem()`: Performs FreePanelItem operation as part of the component's functionality
-- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount from internal state or data structure
-- `GetItemsCount()`: Retrieves ItemsCount from internal state or data structure
+- `Reset()`: Implements Reset functionality
+- `Redraw()`: Implements Redraw functionality
+- `Update()`: Updates existing state with new values
+- `GetPanelItem()`: Retrieves PanelItem from current context or object state
+- `UpdatePanelInfo()`: Updates existing state with new values
+- `GetSelectedItem()`: Retrieves SelectedItem from current context or object state
+- `GetCurrentItem()`: Retrieves CurrentItem from current context or object state
+- `FreePanelItem()`: Implements FreePanelItem functionality
+- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount from current context or object state
+- `GetItemsCount()`: Retrieves ItemsCount from current context or object state
 ### Summary
 The `FarPanelInfo.hpp` file provides essential functionality for panel management. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `FarPanelInfo.hpp` file provides essential functionality for panel managemen
 ### Cel
 Główne obszary funkcjonalne: zarządzanie panelami
 ### Kluczowe Klasy
-- `FarPanelInfo`: Implementuje zarządzanie panelami
+- `FarPanelInfo`: Implements FarPanelInfo functionality
 ### Kluczowe Funkcje
-- `Reset()`: Wykonuje Reset operację jako część zarządzanie panelami
-- `Redraw()`: Wykonuje Redraw operację jako część zarządzanie panelami
-- `Update()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `GetPanelItem()`: Pobiera PanelItem ze stanu wewnętrznego lub struktury danych
-- `UpdatePanelInfo()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `GetSelectedItem()`: Pobiera SelectedItem ze stanu wewnętrznego lub struktury danych
-- `GetCurrentItem()`: Pobiera CurrentItem ze stanu wewnętrznego lub struktury danych
-- `FreePanelItem()`: Wykonuje FreePanelItem operację jako część zarządzanie panelami
-- `GetSelectedItemsCount()`: Pobiera SelectedItemsCount ze stanu wewnętrznego lub struktury danych
-- `GetItemsCount()`: Pobiera ItemsCount ze stanu wewnętrznego lub struktury danych
+- `Reset()`: Implements Reset functionality
+- `Redraw()`: Implements Redraw functionality
+- `Update()`: Updates existing state with new values
+- `GetPanelItem()`: Retrieves PanelItem from current context or object state
+- `UpdatePanelInfo()`: Updates existing state with new values
+- `GetSelectedItem()`: Retrieves SelectedItem from current context or object state
+- `GetCurrentItem()`: Retrieves CurrentItem from current context or object state
+- `FreePanelItem()`: Implements FreePanelItem functionality
+- `GetSelectedItemsCount()`: Retrieves SelectedItemsCount from current context or object state
+- `GetItemsCount()`: Retrieves ItemsCount from current context or object state
 ### Podsumowanie
 Plik `FarPanelInfo.hpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

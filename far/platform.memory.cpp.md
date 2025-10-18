@@ -4,8 +4,8 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `is_pointer()`: Tests whether _pointer condition is true or property exists
-- `enable_low_fragmentation_heap()`: Performs enable_low_fragmentation_heap operation as part of the component's functionality
+- `is_pointer()`: Starting with Windows Vista, the system u
+- `enable_low_fragmentation_heap()`: Starting with Windows Vista, the system uses the low-fragmentation heap (LFH) as needed to service memory allocation requests
 ### Namespaces
 - `detail`
 - `local`
@@ -20,8 +20,8 @@ The `platform.memory.cpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `is_pointer()`: Testuje czy _pointer warunek jest prawdziwy lub właściwość istnieje
-- `enable_low_fragmentation_heap()`: Performs enable_low_fragmentation_heap operation as part of the component's functionality
+- `is_pointer()`: Starting with Windows Vista, the system u
+- `enable_low_fragmentation_heap()`: Starting with Windows Vista, the system uses the low-fragmentation heap (LFH) as needed to service memory allocation requests
 ### Przestrzenie nazw
 - `detail`
 - `local`

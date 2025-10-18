@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `idReaded()`: Evaluates conditions and returns a boolean indicating success or validity of idReaded
-- `ExecuteCommandOut()`: Evaluates conditions and returns a boolean indicating success or validity of ExecuteCommandOut
-- `idNullExit()`: Performs idNullExit operation as part of the component's functionality
-- `ExecuteCommandCB()`: Performs ExecuteCommandCB operation as part of the component's functionality
-- `close()`: Closes resource and performs cleanup operations
+- `idReaded()`: Processes input by dispatching to different code paths based on type or value
+- `ExecuteCommandOut()`: Processes input by dispatching to different code paths based on type or value
+- `idNullExit()`: Processes input by dispatching to different code paths based on type or value
+- `ExecuteCommandCB()`: Processes input by dispatching to different code paths based on type or value
+- `close()`: Processes input by dispatching to different code paths based on type or value
 ### Summary
 The `io_execc.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 
@@ -17,10 +17,10 @@ The `io_execc.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `idReaded()`: Evaluates conditions and returns a boolean indicating success or validity of idReaded
-- `ExecuteCommandOut()`: Evaluates conditions and returns a boolean indicating success or validity of ExecuteCommandOut
-- `idNullExit()`: Performs idNullExit operation as part of the component's functionality
-- `ExecuteCommandCB()`: Performs ExecuteCommandCB operation as part of the component's functionality
-- `close()`: Zamyka zasób i wykonuje operacje czyszczące
+- `idReaded()`: Processes input by dispatching to different code paths based on type or value
+- `ExecuteCommandOut()`: Processes input by dispatching to different code paths based on type or value
+- `idNullExit()`: Processes input by dispatching to different code paths based on type or value
+- `ExecuteCommandCB()`: Processes input by dispatching to different code paths based on type or value
+- `close()`: Processes input by dispatching to different code paths based on type or value
 ### Podsumowanie
 Plik `io_execc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.

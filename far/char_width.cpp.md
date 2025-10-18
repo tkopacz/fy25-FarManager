@@ -4,20 +4,20 @@
 This file implements functionality related to: Fullwidth support
 Main functional areas: core functionality
 ### Key Classes
-- `codepoint_width`: Performs codepoint_width operation as part of the component's functionality
-- `full_width`: Performs full_width operation as part of the component's functionality
-- `unicode_range`: Performs unicode_range operation as part of the component's functionality
+- `codepoint_width`: Implements codepoint_width functionality
+- `full_width`: Implements full_width functionality
+- `unicode_range`: Implements unicode_range functionality
 ### Key Functions
-- `quick_width()`: Performs quick_width operation as part of the component's functionality
-- `lookup_width()`: Performs lookup_width operation as part of the component's functionality
-- `is_bmp()`: Tests whether _bmp condition is true or property exists
-- `device_width()`: Performs device_width operation as part of the component's functionality
-- `is_fullwidth_needed()`: Tests whether _fullwidth_needed condition is true or property exists
-- `get_width()`: Retrieves _width from internal state or data structure
-- `get()`: Retrieves value from internal state or data structure
-- `is_wide()`: Tests whether _wide condition is true or property exists
-- `enable()`: Performs enable operation as part of the component's functionality
-- `is_enabled()`: Tests whether _enabled condition is true or property exists
+- `quick_width()`: Implements quick_width functionality
+- `lookup_width()`: Implements lookup_width functionality
+- `is_bmp()`: Checks condition and returns boolean indicating state
+- `device_width()`: Implements device_width functionality
+- `is_fullwidth_needed()`: Checks condition and returns boolean indicating state
+- `get_width()`: Retrieves _width from current context or object state
+- `get()`: Processes input by dispatching to different code paths based on type or value
+- `is_wide()`: Processes input by dispatching to different code paths based on type or value
+- `enable()`: Processes input by dispatching to different code paths based on type or value
+- `is_enabled()`: As of 23 Jun 2022 conhost and WT render half-width surrogates as half-width, but advance the cursor position as if they were full-width
 ### Namespaces
 - `char_width`
 ### Summary
@@ -30,20 +30,20 @@ The `char_width.cpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Fullwidth support
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `codepoint_width`: Performs codepoint_width operation as part of the component's functionality
-- `full_width`: Performs full_width operation as part of the component's functionality
-- `unicode_range`: Performs unicode_range operation as part of the component's functionality
+- `codepoint_width`: Implements codepoint_width functionality
+- `full_width`: Implements full_width functionality
+- `unicode_range`: Implements unicode_range functionality
 ### Kluczowe Funkcje
-- `quick_width()`: Performs quick_width operation as part of the component's functionality
-- `lookup_width()`: Performs lookup_width operation as part of the component's functionality
-- `is_bmp()`: Testuje czy _bmp warunek jest prawdziwy lub właściwość istnieje
-- `device_width()`: Performs device_width operation as part of the component's functionality
-- `is_fullwidth_needed()`: Testuje czy _fullwidth_needed warunek jest prawdziwy lub właściwość istnieje
-- `get_width()`: Pobiera _width ze stanu wewnętrznego lub struktury danych
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `is_wide()`: Testuje czy _wide warunek jest prawdziwy lub właściwość istnieje
-- `enable()`: Performs enable operation as part of the component's functionality
-- `is_enabled()`: Testuje czy _enabled warunek jest prawdziwy lub właściwość istnieje
+- `quick_width()`: Implements quick_width functionality
+- `lookup_width()`: Implements lookup_width functionality
+- `is_bmp()`: Checks condition and returns boolean indicating state
+- `device_width()`: Implements device_width functionality
+- `is_fullwidth_needed()`: Checks condition and returns boolean indicating state
+- `get_width()`: Retrieves _width from current context or object state
+- `get()`: Processes input by dispatching to different code paths based on type or value
+- `is_wide()`: Processes input by dispatching to different code paths based on type or value
+- `enable()`: Processes input by dispatching to different code paths based on type or value
+- `is_enabled()`: As of 23 Jun 2022 conhost and WT render half-width surrogates as half-width, but advance the cursor position as if they were full-width
 ### Przestrzenie nazw
 - `char_width`
 ### Podsumowanie

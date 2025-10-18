@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: dialog handling, file system operations
 ### Key Functions
-- `dlgUnpackFiles()`: Evaluates conditions and returns boolean indicating success or validity
-- `D()`: Performs D operation as part of the component's functionality
+- `dlgUnpackFiles()`: Implements dlgUnpackFiles functionality
+- `D()`: Implements D functionality
 ### Summary
 The `dlgUnpackFiles.cpp` file provides essential functionality for dialog handling, file system operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `dlgUnpackFiles.cpp` file provides essential functionality for dialog handli
 ### Cel
 Główne obszary funkcjonalne: obsługa dialogów, operacje systemu plików
 ### Kluczowe Funkcje
-- `dlgUnpackFiles()`: Wykonuje dlgUnpackFiles operację jako część obsługa dialogów, operacje systemu plików
-- `D()`: Wykonuje D operację jako część obsługa dialogów, operacje systemu plików
+- `dlgUnpackFiles()`: Implements dlgUnpackFiles functionality
+- `D()`: Implements D functionality
 ### Podsumowanie
 Plik `dlgUnpackFiles.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów, operacje systemu plików. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

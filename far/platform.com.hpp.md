@@ -3,12 +3,12 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `initialize`: Initializes the component or system with required setup and configuration
-- `memory_releaser`: Performs memory_releaser operation as part of the component's functionality
-- `releaser`: Performs releaser operation as part of the component's functionality
+- `initialize`: Initializes component with required configuration and state
+- `memory_releaser`: Implements memory_releaser functionality
+- `releaser`: Implements releaser functionality
 ### Key Functions
-- `get_shell_name()`: Retrieves _shell_name from internal state or data structure
-- `get_shell_filetype_description()`: Retrieves _shell_filetype_description from internal state or data structure
+- `get_shell_name()`: Retrieves _shell_name from current context or object state
+- `get_shell_filetype_description()`: Retrieves _shell_filetype_description from current context or object state
 ### Namespaces
 - `detail`
 - `os`
@@ -21,12 +21,12 @@ The `platform.com.hpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `initialize`: Initializes the component or system with required setup and configuration
-- `memory_releaser`: Performs memory_releaser operation as part of the component's functionality
-- `releaser`: Performs releaser operation as part of the component's functionality
+- `initialize`: Initializes component with required configuration and state
+- `memory_releaser`: Implements memory_releaser functionality
+- `releaser`: Implements releaser functionality
 ### Kluczowe Funkcje
-- `get_shell_name()`: Pobiera _shell_name ze stanu wewnętrznego lub struktury danych
-- `get_shell_filetype_description()`: Pobiera _shell_filetype_description ze stanu wewnętrznego lub struktury danych
+- `get_shell_name()`: Retrieves _shell_name from current context or object state
+- `get_shell_filetype_description()`: Retrieves _shell_filetype_description from current context or object state
 ### Przestrzenie nazw
 - `detail`
 - `os`

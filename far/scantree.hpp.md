@@ -4,15 +4,15 @@
 This file implements functionality related to: Сканирование текущего каталога и, опционально, подкаталогов на
 Main functional areas: core functionality
 ### Key Classes
-- `ScanTree`: Performs ScanTree operation as part of the component's functionality
-- `scantree_item`: Performs scantree_item operation as part of the component's functionality
+- `ScanTree`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `scantree_item`: Implements scantree_item functionality
 ### Key Functions
-- `ScanTree()`: Performs ScanTree operation as part of the component's functionality
-- `SetFindPath()`: Updates FindPath in internal state or configuration
-- `GetNextName()`: Retrieves NextName from internal state or data structure
-- `SkipDir()`: Performs SkipDir operation as part of the component's functionality
-- `IsDirSearchDone()`: Tests whether DirSearchDone condition is true or property exists
-- `InsideReparsePoint()`: Performs InsideReparsePoint operation as part of the component's functionality
+- `ScanTree()`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `SetFindPath()`: Updates FindPath with provided value and validates constraints
+- `GetNextName()`: Retrieves NextName from current context or object state
+- `SkipDir()`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `IsDirSearchDone()`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `InsideReparsePoint()`: Implements InsideReparsePoint functionality
 ### Summary
 The `scantree.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
 
@@ -23,14 +23,14 @@ The `scantree.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Сканирование текущего каталога и, опционально, подкаталогов на
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ScanTree`: Performs ScanTree operation as part of the component's functionality
-- `scantree_item`: Performs scantree_item operation as part of the component's functionality
+- `ScanTree`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `scantree_item`: Implements scantree_item functionality
 ### Kluczowe Funkcje
-- `ScanTree()`: Performs ScanTree operation as part of the component's functionality
-- `SetFindPath()`: Aktualizuje FindPath w stanie wewnętrznym lub konfiguracji
-- `GetNextName()`: Pobiera NextName ze stanu wewnętrznego lub struktury danych
-- `SkipDir()`: Performs SkipDir operation as part of the component's functionality
-- `IsDirSearchDone()`: Testuje czy DirSearchDone warunek jest prawdziwy lub właściwość istnieje
-- `InsideReparsePoint()`: Performs InsideReparsePoint operation as part of the component's functionality
+- `ScanTree()`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `SetFindPath()`: Updates FindPath with provided value and validates constraints
+- `GetNextName()`: Retrieves NextName from current context or object state
+- `SkipDir()`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `IsDirSearchDone()`: 3-й параметр - флаги из старшего слова path in full NT format, used internally to get correct results
+- `InsideReparsePoint()`: Implements InsideReparsePoint functionality
 ### Podsumowanie
 Plik `scantree.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.

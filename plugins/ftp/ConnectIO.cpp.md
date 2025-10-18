@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `setascii()`: Updates ascii in internal state or configuration
-- `setbinary()`: Updates binary in internal state or configuration
-- `setebcdic()`: Updates ebcdic in internal state or configuration
-- `select()`: Performs select operation as part of the component's functionality
+- `setascii()`: Processes input by dispatching to different code paths based on type or value
+- `setbinary()`: Processes input by dispatching to different code paths based on type or value
+- `setebcdic()`: Processes input by dispatching to different code paths based on type or value
+- `select()`: Processes input by dispatching to different code paths based on type or value
 ### Summary
 The `ConnectIO.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `ConnectIO.cpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `setascii()`: Aktualizuje ascii w stanie wewnętrznym lub konfiguracji
-- `setbinary()`: Aktualizuje binary w stanie wewnętrznym lub konfiguracji
-- `setebcdic()`: Aktualizuje ebcdic w stanie wewnętrznym lub konfiguracji
-- `select()`: Performs select operation as part of the component's functionality
+- `setascii()`: Processes input by dispatching to different code paths based on type or value
+- `setbinary()`: Processes input by dispatching to different code paths based on type or value
+- `setebcdic()`: Processes input by dispatching to different code paths based on type or value
+- `select()`: Processes input by dispatching to different code paths based on type or value
 ### Podsumowanie
 Plik `ConnectIO.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

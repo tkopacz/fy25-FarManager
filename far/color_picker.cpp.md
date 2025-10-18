@@ -4,19 +4,19 @@
 This file implements functionality related to: Standard color picker
 Main functional areas: color management
 ### Key Classes
-- `color_state`: Performs color_state operation as part of the component's functionality
-- `single_color_state`: Performs single_color_state operation as part of the component's functionality
+- `color_state`: Implements color_state functionality
+- `single_color_state`: Implements single_color_state functionality
 ### Key Functions
-- `color_code()`: Performs color_code operation as part of the component's functionality
-- `fg_item()`: Performs fg_item operation as part of the component's functionality
-- `bg_item()`: Performs bg_item operation as part of the component's functionality
-- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from internal state or data structure
-- `refresh_fg()`: Refreshes data by reloading from source or recalculating
-- `refresh_bg()`: Refreshes data by reloading from source or recalculating
-- `GetColorDlgProc()`: Retrieves ColorDlgProc from internal state or data structure
-- `scd_item()`: Performs scd_item operation as part of the component's functionality
-- `activate_control()`: Evaluates conditions and returns a boolean indicating success or validity of activate_control
-- `disable_if_needed()`: Performs disable_if_needed operation as part of the component's functionality
+- `color_code()`: Implements color_code functionality
+- `fg_item()`: Implements fg_item functionality
+- `bg_item()`: Implements bg_item functionality
+- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from current context or object state
+- `refresh_fg()`: Implements refresh_fg functionality
+- `refresh_bg()`: Implements refresh_bg functionality
+- `GetColorDlgProc()`: Retrieves ColorDlgProc from current context or object state
+- `scd_item()`: Implements scd_item functionality
+- `activate_control()`: Implements activate_control functionality
+- `disable_if_needed()`: Implements disable_if_needed functionality
 ### Namespaces
 - `cb`
 - `cd`
@@ -34,19 +34,19 @@ The `color_picker.cpp` file provides essential functionality for color managemen
 Ten plik implementuje funkcjonalność związaną z: Standard color picker
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `color_state`: Implementuje zarządzanie kolorami
-- `single_color_state`: Implementuje zarządzanie kolorami
+- `color_state`: Implements color_state functionality
+- `single_color_state`: Implements single_color_state functionality
 ### Kluczowe Funkcje
-- `color_code()`: Wykonuje color_code operację jako część zarządzanie kolorami
-- `fg_item()`: Wykonuje fg_element operację jako część zarządzanie kolorami
-- `bg_item()`: Wykonuje bg_element operację jako część zarządzanie kolorami
-- `GetSingleColorDlgProc()`: Pobiera SingleColorDlgProc ze stanu wewnętrznego lub struktury danych
-- `refresh_fg()`: Odświeża dane przeładowując ze źródła lub przeliczając
-- `refresh_bg()`: Odświeża dane przeładowując ze źródła lub przeliczając
-- `GetColorDlgProc()`: Pobiera ColorDlgProc ze stanu wewnętrznego lub struktury danych
-- `scd_item()`: Wykonuje scd_element operację jako część zarządzanie kolorami
-- `activate_control()`: Wykonuje activate_control operację jako część zarządzanie kolorami
-- `disable_if_needed()`: Wykonuje disable_if_needed operację jako część zarządzanie kolorami
+- `color_code()`: Implements color_code functionality
+- `fg_item()`: Implements fg_item functionality
+- `bg_item()`: Implements bg_item functionality
+- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc from current context or object state
+- `refresh_fg()`: Implements refresh_fg functionality
+- `refresh_bg()`: Implements refresh_bg functionality
+- `GetColorDlgProc()`: Retrieves ColorDlgProc from current context or object state
+- `scd_item()`: Implements scd_item functionality
+- `activate_control()`: Implements activate_control functionality
+- `disable_if_needed()`: Implements disable_if_needed functionality
 ### Przestrzenie nazw
 - `cb`
 - `cd`

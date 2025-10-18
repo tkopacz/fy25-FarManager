@@ -4,20 +4,20 @@
 This file implements functionality related to: Elevation
 Main functional areas: singleton implementation
 ### Key Classes
-- `elevation`: Performs elevation operation as part of the component's functionality
-- `lng`: Performs lng operation as part of the component's functionality
-- `suppress`: Performs suppress operation as part of the component's functionality
+- `elevation`: Implements elevation functionality
+- `lng`: Implements lng functionality
+- `suppress`: Implements suppress functionality
 ### Key Functions
-- `ResetApprove()`: Performs ResetApprove operation as part of the component's functionality
-- `Elevated()`: Evaluates conditions and returns boolean indicating success or validity
-- `create_directory()`: Creates and initializes new _directory instance
-- `remove_directory()`: Removes _directory from collection and frees associated resources
-- `delete_file()`: Removes _file from collection and frees associated resources
-- `copy_file()`: Copies data from source to destination location
-- `move_file()`: Moves data or object from current location to new location
-- `replace_file()`: Performs replace_file operation as part of the component's functionality
-- `get_file_attributes()`: Retrieves _file_attributes from internal state or data structure
-- `set_file_attributes()`: Updates _file_attributes in internal state or configuration
+- `ResetApprove()`: Implements ResetApprove functionality
+- `Elevated()`: Implements Elevated functionality
+- `create_directory()`: Creates and initializes new object or resource instance
+- `remove_directory()`: Removes or deletes specified item and releases associated resources
+- `delete_file()`: Removes or deletes specified item and releases associated resources
+- `copy_file()`: Implements copy_file functionality
+- `move_file()`: Implements move_file functionality
+- `replace_file()`: Implements replace_file functionality
+- `get_file_attributes()`: Retrieves _file_attributes from current context or object state
+- `set_file_attributes()`: Updates _file_attributes with provided value and validates constraints
 ### Summary
 The `elevation.hpp` file provides essential functionality for singleton implementation. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `elevation.hpp` file provides essential functionality for singleton implemen
 Ten plik implementuje funkcjonalność związaną z: Elevation
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `elevation`: Implementuje implementacja singletona
-- `lng`: Implementuje implementacja singletona
-- `suppress`: Implementuje implementacja singletona
+- `elevation`: Implements elevation functionality
+- `lng`: Implements lng functionality
+- `suppress`: Implements suppress functionality
 ### Kluczowe Funkcje
-- `ResetApprove()`: Wykonuje ResetApprove operację jako część implementacja singletona
-- `Elevated()`: Wykonuje Elevated operację jako część implementacja singletona
-- `create_directory()`: Tworzy i inicjalizuje nowy _directory instancję
-- `remove_directory()`: Usuwa _directory z kolekcji i zwalnia powiązane zasoby
-- `delete_file()`: Usuwa _file z kolekcji i zwalnia powiązane zasoby
-- `copy_file()`: Kopiuje dane ze źródła do miejsca docelowego
-- `move_file()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `replace_file()`: Wykonuje replace_file operację jako część implementacja singletona
-- `get_file_attributes()`: Pobiera _file_attributes ze stanu wewnętrznego lub struktury danych
-- `set_file_attributes()`: Aktualizuje _file_attributes w stanie wewnętrznym lub konfiguracji
+- `ResetApprove()`: Implements ResetApprove functionality
+- `Elevated()`: Implements Elevated functionality
+- `create_directory()`: Creates and initializes new object or resource instance
+- `remove_directory()`: Removes or deletes specified item and releases associated resources
+- `delete_file()`: Removes or deletes specified item and releases associated resources
+- `copy_file()`: Implements copy_file functionality
+- `move_file()`: Implements move_file functionality
+- `replace_file()`: Implements replace_file functionality
+- `get_file_attributes()`: Retrieves _file_attributes from current context or object state
+- `set_file_attributes()`: Updates _file_attributes with provided value and validates constraints
 ### Podsumowanie
 Plik `elevation.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

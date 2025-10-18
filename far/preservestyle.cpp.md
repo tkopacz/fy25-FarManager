@@ -4,15 +4,15 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `PreserveStyleToken`: Performs PreserveStyleToken operation as part of the component's functionality
+- `PreserveStyleToken`: Implements PreserveStyleToken functionality
 ### Key Functions
-- `IsPreserveStyleTokenSeparator()`: Tests whether PreserveStyleTokenSeparator condition is true or property exists
-- `contains()`: Performs contains operation as part of the component's functionality
-- `GetPreserveCaseStyleMask()`: Retrieves PreserveCaseStyleMask from internal state or data structure
-- `PreserveStyleTokenize()`: Performs PreserveStyleTokenize operation as part of the component's functionality
-- `ToPreserveStyleType()`: Performs ToPreserveStyleType operation as part of the component's functionality
-- `ChoosePreserveStyleType()`: Performs ChoosePreserveStyleType operation as part of the component's functionality
-- `FindStyleTypeMaskAndPrependCharByExpansion()`: Searches for StyleTypeMaskAndPrependCharByExpansion in collection and returns position or reference
+- `IsPreserveStyleTokenSeparator()`: Checks condition and returns boolean indicating state
+- `contains()`: Implements contains functionality
+- `GetPreserveCaseStyleMask()`: Retrieves PreserveCaseStyleMask from current context or object state
+- `PreserveStyleTokenize()`: Implements PreserveStyleTokenize functionality
+- `ToPreserveStyleType()`: Processes input by dispatching to different code paths based on type or value
+- `ChoosePreserveStyleType()`: Implements ChoosePreserveStyleType functionality
+- `FindStyleTypeMaskAndPrependCharByExpansion()`: Implements FindStyleTypeMaskAndPrependCharByExpansion functionality
 - `PreserveStyleReplaceString()`: Evaluates conditions and returns a boolean indicating success or validity of PreserveStyleReplaceString
 ### Summary
 The `preservestyle.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
@@ -24,15 +24,15 @@ The `preservestyle.cpp` file provides essential functionality for core functiona
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `PreserveStyleToken`: Performs PreserveStyleToken operation as part of the component's functionality
+- `PreserveStyleToken`: Implements PreserveStyleToken functionality
 ### Kluczowe Funkcje
-- `IsPreserveStyleTokenSeparator()`: Testuje czy PreserveStyleTokenSeparator warunek jest prawdziwy lub właściwość istnieje
-- `contains()`: Performs contains operation as part of the component's functionality
-- `GetPreserveCaseStyleMask()`: Pobiera PreserveCaseStyleMask ze stanu wewnętrznego lub struktury danych
-- `PreserveStyleTokenize()`: Performs PreserveStyleTokenize operation as part of the component's functionality
-- `ToPreserveStyleType()`: Performs ToPreserveStyleType operation as part of the component's functionality
-- `ChoosePreserveStyleType()`: Performs ChoosePreserveStyleType operation as part of the component's functionality
-- `FindStyleTypeMaskAndPrependCharByExpansion()`: Wyszukuje StyleTypeMaskAndPrependCharByExpansion w kolekcji i zwraca pozycję lub referencję
+- `IsPreserveStyleTokenSeparator()`: Checks condition and returns boolean indicating state
+- `contains()`: Implements contains functionality
+- `GetPreserveCaseStyleMask()`: Retrieves PreserveCaseStyleMask from current context or object state
+- `PreserveStyleTokenize()`: Implements PreserveStyleTokenize functionality
+- `ToPreserveStyleType()`: Processes input by dispatching to different code paths based on type or value
+- `ChoosePreserveStyleType()`: Implements ChoosePreserveStyleType functionality
+- `FindStyleTypeMaskAndPrependCharByExpansion()`: Implements FindStyleTypeMaskAndPrependCharByExpansion functionality
 - `PreserveStyleReplaceString()`: Evaluates conditions and returns a boolean indicating success or validity of PreserveStyleReplaceString
 ### Podsumowanie
 Plik `preservestyle.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

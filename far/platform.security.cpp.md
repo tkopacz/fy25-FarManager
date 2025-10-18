@@ -4,12 +4,12 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `lookup_privilege_value()`: Constructor that initializes lookup_privilege_value object with provided parameters
-- `make_sid()`: Allocates memory and initializes resources for make_sid
-- `is_admin()`: Tests whether _admin condition is true or property exists
-- `elevation_type()`: Performs elevation_type operation as part of the component's functionality
-- `open_current_process_token()`: Opens resource and prepares it for access operations
-- `handle()`: Handles event by executing appropriate response logic
+- `lookup_privilege_value()`: Implements lookup_privilege_value functionality
+- `make_sid()`: Implements make_sid functionality
+- `is_admin()`: Checks condition and returns boolean indicating state
+- `elevation_type()`: Implements elevation_type functionality
+- `open_current_process_token()`: Implements open_current_process_token functionality
+- `handle()`: Implements handle functionality
 ### Namespaces
 - `os`
 ### Summary
@@ -22,12 +22,12 @@ The `platform.security.cpp` file provides essential functionality for core funct
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `lookup_privilege_value()`: Konstruktor inicjalizujący lookup_privilege_wartość obiekt z dostarczonymi parametrami
-- `make_sid()`: Allocates memory and initializes resources for make_sid
-- `is_admin()`: Testuje czy _admin warunek jest prawdziwy lub właściwość istnieje
-- `elevation_type()`: Performs elevation_type operation as part of the component's functionality
-- `open_current_process_token()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `handle()`: Obsługuje zdarzenie wykonując odpowiednią logikę odpowiedzi
+- `lookup_privilege_value()`: Implements lookup_privilege_value functionality
+- `make_sid()`: Implements make_sid functionality
+- `is_admin()`: Checks condition and returns boolean indicating state
+- `elevation_type()`: Implements elevation_type functionality
+- `open_current_process_token()`: Implements open_current_process_token functionality
+- `handle()`: Implements handle functionality
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

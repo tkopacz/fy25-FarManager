@@ -4,19 +4,19 @@
 This file implements functionality related to: */
 Main functional areas: file system operations
 ### Key Classes
-- `file_walker`: Performs file_walker operation as part of the component's functionality
-- `i_find_file_handle_impl`: Performs i_find_file_handle_impl operation as part of the component's functionality
+- `file_walker`: Implements file_walker functionality
+- `i_find_file_handle_impl`: Implements i_find_file_handle_impl functionality
 ### Key Functions
-- `SHErrorToWinError()`: Performs SHErrorToWinError operation as part of the component's functionality
-- `set_current_directory_syncronisation()`: Updates _current_directory_syncronisation in internal state or configuration
-- `is_standard_letter()`: Tests whether _standard_letter condition is true or property exists
-- `get_number()`: Retrieves _number from internal state or data structure
-- `get_letter()`: Retrieves _letter from internal state or data structure
-- `get_device_path()`: Retrieves _device_path from internal state or data structure
-- `get_win32nt_device_path()`: Retrieves _win32nt_device_path from internal state or data structure
-- `get_root_directory()`: Retrieves _root_directory from internal state or data structure
-- `get_win32nt_root_directory()`: Retrieves _win32nt_root_directory from internal state or data structure
-- `get_type()`: Retrieves _type from internal state or data structure
+- `SHErrorToWinError()`: Processes input by dispatching to different code paths based on type or value
+- `set_current_directory_syncronisation()`: Updates _current_directory_syncronisation with provided value and validates constraints
+- `is_standard_letter()`: Checks condition and returns boolean indicating state
+- `get_number()`: Retrieves _number from current context or object state
+- `get_letter()`: Retrieves _letter from current context or object state
+- `get_device_path()`: Retrieves _device_path from current context or object state
+- `get_win32nt_device_path()`: Retrieves _win32nt_device_path from current context or object state
+- `get_root_directory()`: Retrieves _root_directory from current context or object state
+- `get_win32nt_root_directory()`: Retrieves _win32nt_root_directory from current context or object state
+- `get_type()`: Retrieves _type from current context or object state
 ### Namespaces
 - `detail`
 - `drive`
@@ -34,19 +34,19 @@ The `platform.fs.cpp` file provides essential functionality for file system oper
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `file_walker`: Implementuje operacje systemu plików
-- `i_find_file_handle_impl`: Implementuje operacje systemu plików
+- `file_walker`: Implements file_walker functionality
+- `i_find_file_handle_impl`: Implements i_find_file_handle_impl functionality
 ### Kluczowe Funkcje
-- `SHErrorToWinError()`: Wykonuje SHErrorToWinError operację jako część operacje systemu plików
-- `set_current_directory_syncronisation()`: Aktualizuje _current_directory_syncronisation w stanie wewnętrznym lub konfiguracji
-- `is_standard_letter()`: Testuje czy _standard_letter warunek jest prawdziwy lub właściwość istnieje
-- `get_number()`: Pobiera _number ze stanu wewnętrznego lub struktury danych
-- `get_letter()`: Pobiera _letter ze stanu wewnętrznego lub struktury danych
-- `get_device_path()`: Pobiera _device_path ze stanu wewnętrznego lub struktury danych
-- `get_win32nt_device_path()`: Pobiera _win32nt_device_path ze stanu wewnętrznego lub struktury danych
-- `get_root_directory()`: Pobiera _root_directory ze stanu wewnętrznego lub struktury danych
-- `get_win32nt_root_directory()`: Pobiera _win32nt_root_directory ze stanu wewnętrznego lub struktury danych
-- `get_type()`: Pobiera _type ze stanu wewnętrznego lub struktury danych
+- `SHErrorToWinError()`: Processes input by dispatching to different code paths based on type or value
+- `set_current_directory_syncronisation()`: Updates _current_directory_syncronisation with provided value and validates constraints
+- `is_standard_letter()`: Checks condition and returns boolean indicating state
+- `get_number()`: Retrieves _number from current context or object state
+- `get_letter()`: Retrieves _letter from current context or object state
+- `get_device_path()`: Retrieves _device_path from current context or object state
+- `get_win32nt_device_path()`: Retrieves _win32nt_device_path from current context or object state
+- `get_root_directory()`: Retrieves _root_directory from current context or object state
+- `get_win32nt_root_directory()`: Retrieves _win32nt_root_directory from current context or object state
+- `get_type()`: Retrieves _type from current context or object state
 ### Przestrzenie nazw
 - `detail`
 - `drive`

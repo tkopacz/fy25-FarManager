@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `BasePath()`: Evaluates conditions and returns boolean indicating success or validity
-- `PossibleFChar()`: Evaluates conditions and returns boolean indicating success or validity
-- `CheckExist()`: Validates conditions and returns boolean indicating whether validation passed
-- `DeleteFile()`: Removes File from collection and frees associated resources
-- `DeleteDir()`: Removes Dir from collection and frees associated resources
-- `RenameFile()`: Evaluates conditions and returns boolean indicating success or validity
-- `SetCurDir()`: Updates CurDir in internal state or configuration
-- `GetCurDir()`: Retrieves CurDir from internal state or data structure
-- `AddLastSlash()`: Adds new LastSlash to collection or list
-- `MakeDir()`: Evaluates conditions and returns boolean indicating success or validity
+- `BasePath()`: Implements BasePath functionality
+- `PossibleFChar()`: Implements PossibleFChar functionality
+- `CheckExist()`: Implements CheckExist functionality
+- `DeleteFile()`: Removes or deletes specified item and releases associated resources
+- `DeleteDir()`: Removes or deletes specified item and releases associated resources
+- `RenameFile()`: Implements RenameFile functionality
+- `SetCurDir()`: Updates CurDir with provided value and validates constraints
+- `GetCurDir()`: #else fill string with form of response: X:\ replace X with current drive letter fill rest of string with current directory
+- `AddLastSlash()`: Implements AddLastSlash functionality
+- `MakeDir()`: Implements MakeDir functionality
 ### Summary
 The `disk_io.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `disk_io.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `BasePath()`: Evaluates conditions and returns boolean indicating success or validity
-- `PossibleFChar()`: Evaluates conditions and returns boolean indicating success or validity
-- `CheckExist()`: Waliduje integralność danych i sprawdza poprawność
-- `DeleteFile()`: Usuwa File z kolekcji i zwalnia powiązane zasoby
-- `DeleteDir()`: Usuwa Dir z kolekcji i zwalnia powiązane zasoby
-- `RenameFile()`: Evaluates conditions and returns boolean indicating success or validity
-- `SetCurDir()`: Aktualizuje CurDir w stanie wewnętrznym lub konfiguracji
-- `GetCurDir()`: Pobiera CurDir ze stanu wewnętrznego lub struktury danych
-- `AddLastSlash()`: Dodaje nowy LastSlash do kolekcji lub listy
-- `MakeDir()`: Evaluates conditions and returns boolean indicating success or validity
+- `BasePath()`: Implements BasePath functionality
+- `PossibleFChar()`: Implements PossibleFChar functionality
+- `CheckExist()`: Implements CheckExist functionality
+- `DeleteFile()`: Removes or deletes specified item and releases associated resources
+- `DeleteDir()`: Removes or deletes specified item and releases associated resources
+- `RenameFile()`: Implements RenameFile functionality
+- `SetCurDir()`: Updates CurDir with provided value and validates constraints
+- `GetCurDir()`: #else fill string with form of response: X:\ replace X with current drive letter fill rest of string with current directory
+- `AddLastSlash()`: Implements AddLastSlash functionality
+- `MakeDir()`: Implements MakeDir functionality
 ### Podsumowanie
 Plik `disk_io.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

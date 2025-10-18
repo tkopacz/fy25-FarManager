@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `callable`: Performs callable operation as part of the component's functionality
-- `callable_base`: Performs callable_base operation as part of the component's functionality
-- `icallable`: Performs icallable operation as part of the component's functionality
-- `icallable_base`: Performs icallable_base operation as part of the component's functionality
-- `multifunction`: Performs multifunction operation as part of the component's functionality
+- `callable`: Implements callable functionality
+- `callable_base`: Implements callable_base functionality
+- `icallable`: Implements icallable functionality
+- `icallable_base`: Implements icallable_base functionality
+- `multifunction`: Implements multifunction functionality
 ### Key Functions
-- `bool()`: Performs bool operation as part of the component's functionality
+- `bool()`: Implements bool functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -21,13 +21,13 @@ The `multifunction.hpp` file provides essential functionality for core functiona
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `callable`: Performs callable operation as part of the component's functionality
-- `callable_base`: Performs callable_base operation as part of the component's functionality
-- `icallable`: Performs icallable operation as part of the component's functionality
-- `icallable_base`: Performs icallable_base operation as part of the component's functionality
-- `multifunction`: Performs multifunction operation as part of the component's functionality
+- `callable`: Implements callable functionality
+- `callable_base`: Implements callable_base functionality
+- `icallable`: Implements icallable functionality
+- `icallable_base`: Implements icallable_base functionality
+- `multifunction`: Implements multifunction functionality
 ### Kluczowe Funkcje
-- `bool()`: Performs bool operation as part of the component's functionality
+- `bool()`: Implements bool functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

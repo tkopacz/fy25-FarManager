@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `GuardCheck()`: Handles Windows Installer (MSI) operations for GuardCheck
-- `GuardSet()`: Handles Windows Installer (MSI) operations for GuardSet
-- `PGuard()`: Handles Windows Installer (MSI) operations for PGuard
-- `idMemCmp()`: Handles Windows Installer (MSI) operations for idMemCmp
-- `idUserCmp()`: Performs idUserCmp operation as part of the component's functionality
-- `_Del()`: Performs _Del operation as part of the component's functionality
-- `ItemINT()`: Performs ItemINT operation as part of the component's functionality
-- `Alloc()`: Handles Windows Installer (MSI) operations for Alloc
-- `memset()`: Performs memset operation as part of the component's functionality
-- `G_SET()`: Performs G_SET operation as part of the component's functionality
+- `GuardCheck()`: Implements GuardCheck functionality
+- `GuardSet()`: Implements GuardSet functionality
+- `PGuard()`: Implements PGuard functionality
+- `idMemCmp()`: Implements idMemCmp functionality
+- `idUserCmp()`: Implements idUserCmp functionality
+- `_Del()`: Implements _Del functionality
+- `ItemINT()`: Implements ItemINT functionality
+- `Alloc()`: Implements Alloc functionality
+- `memset()`: Implements memset functionality
+- `G_SET()`: Implements G_SET functionality
 ### Summary
 The `bsArray.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `bsArray.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `GuardCheck()`: Handles Windows Installer (MSI) operations for GuardCheck
-- `GuardSet()`: Handles Windows Installer (MSI) operations for GuardSet
-- `PGuard()`: Handles Windows Installer (MSI) operations for PGuard
-- `idMemCmp()`: Handles Windows Installer (MSI) operations for idMemCmp
-- `idUserCmp()`: Performs idUserCmp operation as part of the component's functionality
-- `_Del()`: Performs _Del operation as part of the component's functionality
-- `ItemINT()`: Performs ItemINT operation as part of the component's functionality
-- `Alloc()`: Handles Windows Installer (MSI) operations for Alloc
-- `memset()`: Performs memset operation as part of the component's functionality
-- `G_SET()`: Performs G_SET operation as part of the component's functionality
+- `GuardCheck()`: Implements GuardCheck functionality
+- `GuardSet()`: Implements GuardSet functionality
+- `PGuard()`: Implements PGuard functionality
+- `idMemCmp()`: Implements idMemCmp functionality
+- `idUserCmp()`: Implements idUserCmp functionality
+- `_Del()`: Implements _Del functionality
+- `ItemINT()`: Implements ItemINT functionality
+- `Alloc()`: Implements Alloc functionality
+- `memset()`: Implements memset functionality
+- `G_SET()`: Implements G_SET functionality
 ### Podsumowanie
 Plik `bsArray.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

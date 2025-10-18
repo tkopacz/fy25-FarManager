@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `map_file`: Performs map_file operation as part of the component's functionality
-- `tracer`: Performs tracer operation as part of the component's functionality
-- `with_symbols`: Performs with_symbols operation as part of the component's functionality
+- `map_file`: Implements map_file functionality
+- `tracer`: External: ---------------------------------------------------------------------------- Same as os::debug::*, but with symbols initialized
+- `with_symbols`: Implements with_symbols functionality
 ### Key Functions
-- `get_symbol()`: Retrieves _symbol from internal state or data structure
-- `with_symbols()`: Performs with_symbols operation as part of the component's functionality
-- `sym_initialise()`: Performs sym_initialise operation as part of the component's functionality
-- `sym_cleanup()`: Performs sym_cleanup operation as part of the component's functionality
+- `get_symbol()`: Same as os::debug::*, but with symbols initialized
+- `with_symbols()`: Implements with_symbols functionality
+- `sym_initialise()`: Implements sym_initialise functionality
+- `sym_cleanup()`: Implements sym_cleanup functionality
 ### Namespaces
 - `tracer_detail`
 ### Summary
@@ -22,14 +22,14 @@ The `tracer.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `map_file`: Performs map_file operation as part of the component's functionality
-- `tracer`: Performs tracer operation as part of the component's functionality
-- `with_symbols`: Performs with_symbols operation as part of the component's functionality
+- `map_file`: Implements map_file functionality
+- `tracer`: External: ---------------------------------------------------------------------------- Same as os::debug::*, but with symbols initialized
+- `with_symbols`: Implements with_symbols functionality
 ### Kluczowe Funkcje
-- `get_symbol()`: Pobiera _symbol ze stanu wewnętrznego lub struktury danych
-- `with_symbols()`: Performs with_symbols operation as part of the component's functionality
-- `sym_initialise()`: Performs sym_initialise operation as part of the component's functionality
-- `sym_cleanup()`: Performs sym_cleanup operation as part of the component's functionality
+- `get_symbol()`: Same as os::debug::*, but with symbols initialized
+- `with_symbols()`: Implements with_symbols functionality
+- `sym_initialise()`: Implements sym_initialise functionality
+- `sym_cleanup()`: Implements sym_cleanup functionality
 ### Przestrzenie nazw
 - `tracer_detail`
 ### Podsumowanie

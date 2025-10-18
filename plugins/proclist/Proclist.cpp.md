@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `fNtQueryInformationProcess()`: Performs fNtQueryInformationProcess operation as part of the component's functionality
-- `fNtQueryInformationThread()`: Performs fNtQueryInformationThread operation as part of the component's functionality
-- `fNtQueryObject()`: Performs fNtQueryObject operation as part of the component's functionality
-- `fNtQuerySystemInformation()`: Performs fNtQuerySystemInformation operation as part of the component's functionality
-- `fNtQueryInformationFile()`: Performs fNtQueryInformationFile operation as part of the component's functionality
-- `fNtWow64ReadVirtualMemory64()`: Performs fNtWow64ReadVirtualMemory64 operation as part of the component's functionality
-- `fNtWow64QueryInformationProcess64()`: Performs fNtWow64QueryInformationProcess64 operation as part of the component's functionality
-- `fIsWow64Process()`: Evaluates conditions and returns a boolean indicating success or validity of fIsWow64Process
+- `fNtQueryInformationProcess()`: Implements fNtQueryInformationProcess functionality
+- `fNtQueryInformationThread()`: Implements fNtQueryInformationThread functionality
+- `fNtQueryObject()`: Implements fNtQueryObject functionality
+- `fNtQuerySystemInformation()`: Implements fNtQuerySystemInformation functionality
+- `fNtQueryInformationFile()`: Implements fNtQueryInformationFile functionality
+- `fNtWow64ReadVirtualMemory64()`: Implements fNtWow64ReadVirtualMemory64 functionality
+- `fNtWow64QueryInformationProcess64()`: Implements fNtWow64QueryInformationProcess64 functionality
+- `fIsWow64Process()`: Implements fIsWow64Process functionality
 - `fGetLogicalProcessorInformationEx()`: Evaluates conditions and returns a boolean indicating success or validity of fGetLogicalProcessorInformationEx
-- `fGetThreadDescription()`: Evaluates conditions and returns a boolean indicating success or validity of fGetThreadDescription
+- `fGetThreadDescription()`: Implements fGetThreadDescription functionality
 ### Summary
 The `Proclist.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `Proclist.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `fNtQueryInformationProcess()`: Performs fNtQueryInformationProcess operation as part of the component's functionality
-- `fNtQueryInformationThread()`: Performs fNtQueryInformationThread operation as part of the component's functionality
-- `fNtQueryObject()`: Performs fNtQueryObject operation as part of the component's functionality
-- `fNtQuerySystemInformation()`: Performs fNtQuerySystemInformation operation as part of the component's functionality
-- `fNtQueryInformationFile()`: Performs fNtQueryInformationFile operation as part of the component's functionality
-- `fNtWow64ReadVirtualMemory64()`: Performs fNtWow64ReadVirtualMemory64 operation as part of the component's functionality
-- `fNtWow64QueryInformationProcess64()`: Performs fNtWow64QueryInformationProcess64 operation as part of the component's functionality
-- `fIsWow64Process()`: Evaluates conditions and returns a boolean indicating success or validity of fIsWow64Process
+- `fNtQueryInformationProcess()`: Implements fNtQueryInformationProcess functionality
+- `fNtQueryInformationThread()`: Implements fNtQueryInformationThread functionality
+- `fNtQueryObject()`: Implements fNtQueryObject functionality
+- `fNtQuerySystemInformation()`: Implements fNtQuerySystemInformation functionality
+- `fNtQueryInformationFile()`: Implements fNtQueryInformationFile functionality
+- `fNtWow64ReadVirtualMemory64()`: Implements fNtWow64ReadVirtualMemory64 functionality
+- `fNtWow64QueryInformationProcess64()`: Implements fNtWow64QueryInformationProcess64 functionality
+- `fIsWow64Process()`: Implements fIsWow64Process functionality
 - `fGetLogicalProcessorInformationEx()`: Evaluates conditions and returns a boolean indicating success or validity of fGetLogicalProcessorInformationEx
-- `fGetThreadDescription()`: Evaluates conditions and returns a boolean indicating success or validity of fGetThreadDescription
+- `fGetThreadDescription()`: Implements fGetThreadDescription functionality
 ### Podsumowanie
 Plik `Proclist.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

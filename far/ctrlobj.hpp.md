@@ -4,22 +4,22 @@
 This file implements functionality related to: Управление остальными объектами, раздача сообщений клавиатуры и мыши
 Main functional areas: core functionality
 ### Key Classes
-- `CommandLine`: Performs CommandLine operation as part of the component's functionality
-- `ControlObject`: Performs ControlObject operation as part of the component's functionality
-- `FilePositionCache`: Performs FilePositionCache operation as part of the component's functionality
-- `History`: Performs History operation as part of the component's functionality
-- `KeyBar`: Performs KeyBar operation as part of the component's functionality
-- `Manager`: Performs Manager operation as part of the component's functionality
-- `MenuBar`: Performs MenuBar operation as part of the component's functionality
-- `PluginManager`: Performs PluginManager operation as part of the component's functionality
-- `Shortcuts`: Performs Shortcuts operation as part of the component's functionality
-- `configuration`: Performs configuration operation as part of the component's functionality
+- `CommandLine`: Implements CommandLine functionality
+- `ControlObject`: Implements ControlObject functionality
+- `FilePositionCache`: Implements FilePositionCache functionality
+- `History`: Implements History functionality
+- `KeyBar`: Implements KeyBar functionality
+- `Manager`: Implements Manager functionality
+- `MenuBar`: Implements MenuBar functionality
+- `PluginManager`: Implements PluginManager functionality
+- `Shortcuts`: Implements Shortcuts functionality
+- `configuration`: Implements configuration functionality
 ### Key Functions
-- `Init()`: Initializes data structures and sets up initial state for operation
-- `close()`: Closes resource and performs cleanup operations
-- `Panels()`: Performs Panels operation as part of the component's functionality
-- `CreateDummyFilePanels()`: Creates and initializes new DummyFilePanels instance
-- `CmdLine()`: Constructor that initializes CmdLine object with provided parameters
+- `Init()`: Initializes component with required configuration and state
+- `close()`: Implements close functionality
+- `Panels()`: Implements Panels functionality
+- `CreateDummyFilePanels()`: Creates and initializes new object or resource instance
+- `CmdLine()`: Implements CmdLine functionality
 ### Namespaces
 - `highlight`
 ### Summary
@@ -32,22 +32,22 @@ The `ctrlobj.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Управление остальными объектами, раздача сообщений клавиатуры и мыши
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `CommandLine`: Performs CommandLine operation as part of the component's functionality
-- `ControlObject`: Performs ControlObject operation as part of the component's functionality
-- `FilePositionCache`: Performs FilePositionCache operation as part of the component's functionality
-- `History`: Performs History operation as part of the component's functionality
-- `KeyBar`: Performs KeyBar operation as part of the component's functionality
-- `Manager`: Performs Manager operation as part of the component's functionality
-- `MenuBar`: Performs MenuBar operation as part of the component's functionality
-- `PluginManager`: Performs PluginManager operation as part of the component's functionality
-- `Shortcuts`: Performs Shortcuts operation as part of the component's functionality
-- `configuration`: Performs configuration operation as part of the component's functionality
+- `CommandLine`: Implements CommandLine functionality
+- `ControlObject`: Implements ControlObject functionality
+- `FilePositionCache`: Implements FilePositionCache functionality
+- `History`: Implements History functionality
+- `KeyBar`: Implements KeyBar functionality
+- `Manager`: Implements Manager functionality
+- `MenuBar`: Implements MenuBar functionality
+- `PluginManager`: Implements PluginManager functionality
+- `Shortcuts`: Implements Shortcuts functionality
+- `configuration`: Implements configuration functionality
 ### Kluczowe Funkcje
-- `Init()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `close()`: Zamyka zasób i wykonuje operacje czyszczące
-- `Panels()`: Performs Panels operation as part of the component's functionality
-- `CreateDummyFilePanels()`: Tworzy i inicjalizuje nowy DummyFilePanels instancję
-- `CmdLine()`: Konstruktor inicjalizujący CmdLine obiekt z dostarczonymi parametrami
+- `Init()`: Initializes component with required configuration and state
+- `close()`: Implements close functionality
+- `Panels()`: Implements Panels functionality
+- `CreateDummyFilePanels()`: Creates and initializes new object or resource instance
+- `CmdLine()`: Implements CmdLine functionality
 ### Przestrzenie nazw
 - `highlight`
 ### Podsumowanie

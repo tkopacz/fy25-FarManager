@@ -4,16 +4,16 @@
 This file implements functionality related to: Файловый фильтр
 Main functional areas: file system operations
 ### Key Functions
-- `FilterData()`: Constructor that initializes FilterData object with provided parameters
-- `TempFilterData()`: Constructor that initializes TempFilterData object with provided parameters
-- `convert_type()`: Converts data from one format or type to another
-- `ParseAndAddMasks()`: Parses input string or data into structured format
-- `GetCheck()`: Retrieves Check from internal state or data structure
-- `ProcessSelection()`: Processes Selection through transformation or handling pipeline
-- `Process()`: Processes data through transformation or handling pipeline
-- `bool()`: Evaluates conditions and returns a boolean indicating success or validity of bool
-- `FileInFilter()`: Performs FileInFilter operation as part of the component's functionality
-- `Key()`: Performs Key operation as part of the component's functionality
+- `FilterData()`: Processes input by dispatching to different code paths based on type or value
+- `TempFilterData()`: Processes input by dispatching to different code paths based on type or value
+- `convert_type()`: Processes input by dispatching to different code paths based on type or value
+- `ParseAndAddMasks()`: Implements ParseAndAddMasks functionality
+- `GetCheck()`: Retrieves Check from current context or object state
+- `ProcessSelection()`: Processes input data through core business logic pipeline
+- `Process()`: Processes input data through core business logic pipeline
+- `bool()`: Если элемент не попал ни под один фильтр то он будет включен только если не было ни одного Include фильтра (т
+- `FileInFilter()`: Implements FileInFilter functionality
+- `Key()`: Processes input by dispatching to different code paths based on type or value
 ### Namespaces
 - `legacy_names`
 - `names`
@@ -27,16 +27,16 @@ The `filefilter.cpp` file provides essential functionality for file system opera
 Ten plik implementuje funkcjonalność związaną z: Файловый фильтр
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `FilterData()`: Konstruktor inicjalizujący FilterData obiekt z dostarczonymi parametrami
-- `TempFilterData()`: Konstruktor inicjalizujący TempFilterData obiekt z dostarczonymi parametrami
-- `convert_type()`: Konwertuje dane z jednego formatu lub typu do innego
-- `ParseAndAddMasks()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `GetCheck()`: Pobiera Check ze stanu wewnętrznego lub struktury danych
-- `ProcessSelection()`: Przetwarza Selection przez potok transformacji lub obsługi
-- `Process()`: Przetwarza dane przez potok transformacji lub obsługi
-- `bool()`: Wykonuje bool operację jako część operacje systemu plików
-- `FileInFilter()`: Wykonuje FileInFilter operację jako część operacje systemu plików
-- `Key()`: Wykonuje Key operację jako część operacje systemu plików
+- `FilterData()`: Processes input by dispatching to different code paths based on type or value
+- `TempFilterData()`: Processes input by dispatching to different code paths based on type or value
+- `convert_type()`: Processes input by dispatching to different code paths based on type or value
+- `ParseAndAddMasks()`: Implements ParseAndAddMasks functionality
+- `GetCheck()`: Retrieves Check from current context or object state
+- `ProcessSelection()`: Processes input data through core business logic pipeline
+- `Process()`: Processes input data through core business logic pipeline
+- `bool()`: Если элемент не попал ни под один фильтр то он будет включен только если не было ни одного Include фильтра (т
+- `FileInFilter()`: Implements FileInFilter functionality
+- `Key()`: Processes input by dispatching to different code paths based on type or value
 ### Przestrzenie nazw
 - `legacy_names`
 - `names`

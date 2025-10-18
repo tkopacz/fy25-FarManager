@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ArchiveType`: Performs ArchiveType operation as part of the component's functionality
-- `AttrDialog`: Performs AttrDialog operation as part of the component's functionality
-- `CompressionLevel`: Performs CompressionLevel operation as part of the component's functionality
-- `CompressionMethod`: Performs CompressionMethod operation as part of the component's functionality
-- `ExtractDialog`: Performs ExtractDialog operation as part of the component's functionality
-- `FormatLibraryInfoDialog`: Performs FormatLibraryInfoDialog operation as part of the component's functionality
-- `ItemCompare`: Performs ItemCompare operation as part of the component's functionality
-- `MultiSelectDialog`: Performs MultiSelectDialog operation as part of the component's functionality
-- `OverwriteDialog`: Performs OverwriteDialog operation as part of the component's functionality
-- `PasswordDialog`: Performs PasswordDialog operation as part of the component's functionality
+- `ArchiveType`: Implements ArchiveType functionality
+- `AttrDialog`: Implements AttrDialog functionality
+- `CompressionLevel`: Implements CompressionLevel functionality
+- `CompressionMethod`: Implements CompressionMethod functionality
+- `ExtractDialog`: Implements ExtractDialog functionality
+- `FormatLibraryInfoDialog`: Implements FormatLibraryInfoDialog functionality
+- `ItemCompare`: Implements ItemCompare functionality
+- `MultiSelectDialog`: Iterates through collection and processes each element, storing results
+- `OverwriteDialog`: Implements OverwriteDialog functionality
+- `PasswordDialog`: Implements PasswordDialog functionality
 ### Key Functions
-- `get_error_dlg_title()`: Retrieves _error_dlg_title from internal state or data structure
-- `discard_time()`: Performs discard_time operation as part of the component's functionality
-- `ps()`: Performs ps operation as part of the component's functionality
-- `get_suffixes()`: Retrieves _suffixes from internal state or data structure
-- `dialog_proc()`: Performs dialog_proc operation as part of the component's functionality
-- `default_dialog_proc()`: Performs default_dialog_proc operation as part of the component's functionality
-- `show()`: Displays content or makes visual element visible on screen
-- `password_dialog()`: Evaluates conditions and returns boolean indicating success or validity
-- `FAIL()`: Performs FAIL operation as part of the component's functionality
-- `overwrite_dialog()`: Evaluates conditions and returns boolean indicating success or validity
+- `get_error_dlg_title()`: Retrieves _error_dlg_title from current context or object state
+- `discard_time()`: Implements discard_time functionality
+- `ps()`: Implements ps functionality
+- `get_suffixes()`: Retrieves _suffixes from current context or object state
+- `dialog_proc()`: Implements dialog_proc functionality
+- `default_dialog_proc()`: Implements default_dialog_proc functionality
+- `show()`: Implements show functionality
+- `password_dialog()`: Implements password_dialog functionality
+- `FAIL()`: Throws error exception with error code when condition fails
+- `overwrite_dialog()`: Implements overwrite_dialog functionality
 ### Summary
 The `ui.cpp` file provides essential functionality for core functionality. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -33,26 +33,26 @@ The `ui.cpp` file provides essential functionality for core functionality. It de
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ArchiveType`: Performs ArchiveType operation as part of the component's functionality
-- `AttrDialog`: Performs AttrDialog operation as part of the component's functionality
-- `CompressionLevel`: Performs CompressionLevel operation as part of the component's functionality
-- `CompressionMethod`: Performs CompressionMethod operation as part of the component's functionality
-- `ExtractDialog`: Performs ExtractDialog operation as part of the component's functionality
-- `FormatLibraryInfoDialog`: Performs FormatLibraryInfoDialog operation as part of the component's functionality
-- `ItemCompare`: Performs ItemCompare operation as part of the component's functionality
-- `MultiSelectDialog`: Performs MultiSelectDialog operation as part of the component's functionality
-- `OverwriteDialog`: Performs OverwriteDialog operation as part of the component's functionality
-- `PasswordDialog`: Performs PasswordDialog operation as part of the component's functionality
+- `ArchiveType`: Implements ArchiveType functionality
+- `AttrDialog`: Implements AttrDialog functionality
+- `CompressionLevel`: Implements CompressionLevel functionality
+- `CompressionMethod`: Implements CompressionMethod functionality
+- `ExtractDialog`: Implements ExtractDialog functionality
+- `FormatLibraryInfoDialog`: Implements FormatLibraryInfoDialog functionality
+- `ItemCompare`: Implements ItemCompare functionality
+- `MultiSelectDialog`: Iterates through collection and processes each element, storing results
+- `OverwriteDialog`: Implements OverwriteDialog functionality
+- `PasswordDialog`: Implements PasswordDialog functionality
 ### Kluczowe Funkcje
-- `get_error_dlg_title()`: Pobiera _error_dlg_title ze stanu wewnętrznego lub struktury danych
-- `discard_time()`: Performs discard_time operation as part of the component's functionality
-- `ps()`: Performs ps operation as part of the component's functionality
-- `get_suffixes()`: Pobiera _suffixes ze stanu wewnętrznego lub struktury danych
-- `dialog_proc()`: Performs dialog_proc operation as part of the component's functionality
-- `default_dialog_proc()`: Performs default_dialog_proc operation as part of the component's functionality
-- `show()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `password_dialog()`: Evaluates conditions and returns boolean indicating success or validity
-- `FAIL()`: Performs FAIL operation as part of the component's functionality
-- `overwrite_dialog()`: Evaluates conditions and returns boolean indicating success or validity
+- `get_error_dlg_title()`: Retrieves _error_dlg_title from current context or object state
+- `discard_time()`: Implements discard_time functionality
+- `ps()`: Implements ps functionality
+- `get_suffixes()`: Retrieves _suffixes from current context or object state
+- `dialog_proc()`: Implements dialog_proc functionality
+- `default_dialog_proc()`: Implements default_dialog_proc functionality
+- `show()`: Implements show functionality
+- `password_dialog()`: Implements password_dialog functionality
+- `FAIL()`: Throws error exception with error code when condition fails
+- `overwrite_dialog()`: Implements overwrite_dialog functionality
 ### Podsumowanie
 Plik `ui.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

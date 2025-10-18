@@ -4,16 +4,16 @@
 This file implements functionality related to: Динамическое построение диалогов - версия для внутреннего употребления в FAR
 Main functional areas: dialog handling
 ### Key Classes
-- `DialogItemBinding`: Performs DialogItemBinding operation as part of the component's functionality
-- `ListControlBinding`: Performs ListControlBinding operation as part of the component's functionality
+- `DialogItemBinding`: Implements DialogItemBinding functionality
+- `ListControlBinding`: Implements ListControlBinding functionality
 ### Key Functions
-- `SaveValue()`: Saves current state or data to persistent storage
-- `GetMask()`: Retrieves Mask from internal state or data structure
-- `msg()`: Performs msg operation as part of the component's functionality
-- `TextWidth()`: Performs TextWidth operation as part of the component's functionality
-- `ItemWidth()`: Performs ItemWidth operation as part of the component's functionality
-- `AddListControlImpl()`: Adds new ListControlImpl to collection or list
-- `LinkFlagsByID()`: Performs LinkFlagsByID operation as part of the component's functionality
+- `SaveValue()`: Implements SaveValue functionality
+- `GetMask()`: Retrieves Mask from current context or object state
+- `msg()`: Implements msg functionality
+- `TextWidth()`: Processes input by dispatching to different code paths based on type or value
+- `ItemWidth()`: Processes input by dispatching to different code paths based on type or value
+- `AddListControlImpl()`: Implements AddListControlImpl functionality
+- `LinkFlagsByID()`: Implements LinkFlagsByID functionality
 ### Summary
 The `FarDlgBuilder.cpp` file provides essential functionality for dialog handling. It defines 2 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `FarDlgBuilder.cpp` file provides essential functionality for dialog handlin
 Ten plik implementuje funkcjonalność związaną z: Динамическое построение диалогов - версия для внутреннего употребления в FAR
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `DialogItemBinding`: Implementuje obsługa dialogów
-- `ListControlBinding`: Implementuje obsługa dialogów
+- `DialogItemBinding`: Implements DialogItemBinding functionality
+- `ListControlBinding`: Implements ListControlBinding functionality
 ### Kluczowe Funkcje
-- `SaveValue()`: Zapisuje bieżący stan lub dane do trwałego magazynu
-- `GetMask()`: Pobiera Mask ze stanu wewnętrznego lub struktury danych
-- `msg()`: Wykonuje msg operację jako część obsługa dialogów
-- `TextWidth()`: Wykonuje TextWidth operację jako część obsługa dialogów
-- `ItemWidth()`: Wykonuje ItemWidth operację jako część obsługa dialogów
-- `AddListControlImpl()`: Dodaje nowy ListControlImpl do kolekcji lub listy
-- `LinkFlagsByID()`: Wykonuje LinkFlagsByID operację jako część obsługa dialogów
+- `SaveValue()`: Implements SaveValue functionality
+- `GetMask()`: Retrieves Mask from current context or object state
+- `msg()`: Implements msg functionality
+- `TextWidth()`: Processes input by dispatching to different code paths based on type or value
+- `ItemWidth()`: Processes input by dispatching to different code paths based on type or value
+- `AddListControlImpl()`: Implements AddListControlImpl functionality
+- `LinkFlagsByID()`: Implements LinkFlagsByID functionality
 ### Podsumowanie
 Plik `FarDlgBuilder.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 2 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.

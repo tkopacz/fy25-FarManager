@@ -3,23 +3,23 @@
 ### Purpose
 Main functional areas: testing
 ### Key Classes
-- `base`: Performs base operation as part of the component's functionality
-- `c`: Allocates memory and initializes resources for c
-- `data`: Performs data operation as part of the component's functionality
-- `derived1`: Performs derived1 operation as part of the component's functionality
-- `derived2`: Performs derived2 operation as part of the component's functionality
-- `test`: Validates conditions and throws exceptions when errors are detected during test operation
+- `base`: Implements base functionality
+- `c`: Implements c functionality
+- `data`: Implements data functionality
+- `derived1`: Implements derived1 functionality
+- `derived2`: Implements derived2 functionality
+- `test`: Implements test functionality
 ### Key Functions
-- `cpp_far()`: Validates conditions and throws exceptions when errors are detected during cpp_far operation
-- `far_exception()`: Performs far_exception operation as part of the component's functionality
-- `cpp_far_rethrow()`: Validates conditions and throws exceptions when errors are detected during cpp_far_rethrow operation
-- `cpp_far_fatal()`: Validates conditions and throws exceptions when errors are detected during cpp_far_fatal operation
-- `far_fatal_exception()`: Performs far_fatal_exception operation as part of the component's functionality
-- `cpp_std()`: Validates conditions and throws exceptions when errors are detected during cpp_std operation
-- `cpp_std_lib()`: Performs cpp_std_lib operation as part of the component's functionality
-- `cpp_std_nested()`: Validates conditions and throws exceptions when errors are detected during cpp_std_nested operation
+- `cpp_far()`: Implements cpp_far functionality
+- `far_exception()`: External: ---------------------------------------------------------------------------- TODO: remove and
+- `cpp_far_rethrow()`: ---------------------------------------------------------------------------- TODO: remove and mark the lambda as [[noreturn]] once we have cl >=
+- `cpp_far_fatal()`: Implements cpp_far_fatal functionality
+- `far_fatal_exception()`: Implements far_fatal_exception functionality
+- `cpp_std()`: Implements cpp_std functionality
+- `cpp_std_lib()`: Implements cpp_std_lib functionality
+- `cpp_std_nested()`: Implements cpp_std_nested functionality
 - `cpp_std_nested_thread()`: Validates conditions and throws exceptions when errors are detected during cpp_std_nested_thread operation
-- `cpp_std_bad_alloc()`: Allocates memory and initializes resources for cpp_std_bad_alloc
+- `cpp_std_bad_alloc()`: Implements cpp_std_bad_alloc functionality
 ### Namespaces
 - `tests`
 ### Summary
@@ -31,23 +31,23 @@ The `exception_handler_test.cpp` file provides essential functionality for testi
 ### Cel
 Główne obszary funkcjonalne: testowanie
 ### Kluczowe Klasy
-- `base`: Implementuje testowanie
-- `c`: Implementuje testowanie
-- `data`: Implementuje testowanie
-- `derived1`: Implementuje testowanie
-- `derived2`: Implementuje testowanie
-- `test`: Implementuje testowanie
+- `base`: Implements base functionality
+- `c`: Implements c functionality
+- `data`: Implements data functionality
+- `derived1`: Implements derived1 functionality
+- `derived2`: Implements derived2 functionality
+- `test`: Implements test functionality
 ### Kluczowe Funkcje
-- `cpp_far()`: Wykonuje cpp_far operację jako część testowanie
-- `far_exception()`: Wykonuje far_exception operację jako część testowanie
-- `cpp_far_rethrow()`: Wykonuje cpp_far_rethrow operację jako część testowanie
-- `cpp_far_fatal()`: Wykonuje cpp_far_fatal operację jako część testowanie
-- `far_fatal_exception()`: Wykonuje far_fatal_exception operację jako część testowanie
-- `cpp_std()`: Wykonuje cpp_std operację jako część testowanie
-- `cpp_std_lib()`: Wykonuje cpp_std_lib operację jako część testowanie
-- `cpp_std_nested()`: Wykonuje cpp_std_nested operację jako część testowanie
-- `cpp_std_nested_thread()`: Wykonuje cpp_std_nested_thread operację jako część testowanie
-- `cpp_std_bad_alloc()`: Wykonuje cpp_std_bad_alloc operację jako część testowanie
+- `cpp_far()`: Implements cpp_far functionality
+- `far_exception()`: External: ---------------------------------------------------------------------------- TODO: remove and
+- `cpp_far_rethrow()`: ---------------------------------------------------------------------------- TODO: remove and mark the lambda as [[noreturn]] once we have cl >=
+- `cpp_far_fatal()`: Implements cpp_far_fatal functionality
+- `far_fatal_exception()`: Implements far_fatal_exception functionality
+- `cpp_std()`: Implements cpp_std functionality
+- `cpp_std_lib()`: Implements cpp_std_lib functionality
+- `cpp_std_nested()`: Implements cpp_std_nested functionality
+- `cpp_std_nested_thread()`: Implements cpp_std_nested_thread functionality
+- `cpp_std_bad_alloc()`: Implements cpp_std_bad_alloc functionality
 ### Przestrzenie nazw
 - `tests`
 ### Podsumowanie

@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: file viewing
 ### Key Classes
-- `same_traits`: Performs same_traits operation as part of the component's functionality
+- `same_traits`: Implements same_traits functionality
 ### Key Functions
-- `to()`: Constructor that initializes to object with provided parameters
-- `from()`: Constructor that initializes from object with provided parameters
-- `assign()`: Performs assign operation as part of the component's functionality
-- `eq()`: Evaluates conditions and returns boolean indicating success or validity
-- `lt()`: Evaluates conditions and returns boolean indicating success or validity
-- `compare()`: Performs compare operation as part of the component's functionality
-- `length()`: Performs length operation as part of the component's functionality
-- `find()`: Searches for item in collection and returns position or reference
-- `move()`: Moves data or object from current location to new location
-- `copy()`: Copies data from source to destination location
+- `to()`: Implements to functionality
+- `from()`: Implements from functionality
+- `assign()`: Implements assign functionality
+- `eq()`: Implements eq functionality
+- `lt()`: Implements lt functionality
+- `compare()`: Implements compare functionality
+- `length()`: Implements length functionality
+- `find()`: Implements find functionality
+- `move()`: Implements move functionality
+- `copy()`: Implements copy functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -26,18 +26,18 @@ The `bytes_view.hpp` file provides essential functionality for file viewing. It 
 ### Cel
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `same_traits`: Implementuje przeglądanie plików
+- `same_traits`: Implements same_traits functionality
 ### Kluczowe Funkcje
-- `to()`: Konstruktor inicjalizujący to obiekt z dostarczonymi parametrami
-- `from()`: Konstruktor inicjalizujący from obiekt z dostarczonymi parametrami
-- `assign()`: Wykonuje assign operację jako część przeglądanie plików
-- `eq()`: Wykonuje eq operację jako część przeglądanie plików
-- `lt()`: Wykonuje lt operację jako część przeglądanie plików
-- `compare()`: Wykonuje compare operację jako część przeglądanie plików
-- `length()`: Wykonuje length operację jako część przeglądanie plików
-- `find()`: Wyszukuje element w kolekcji i zwraca pozycję lub referencję
-- `move()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `copy()`: Kopiuje dane ze źródła do miejsca docelowego
+- `to()`: Implements to functionality
+- `from()`: Implements from functionality
+- `assign()`: Implements assign functionality
+- `eq()`: Implements eq functionality
+- `lt()`: Implements lt functionality
+- `compare()`: Implements compare functionality
+- `length()`: Implements length functionality
+- `find()`: Implements find functionality
+- `move()`: Implements move functionality
+- `copy()`: Implements copy functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

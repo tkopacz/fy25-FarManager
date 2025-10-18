@@ -4,16 +4,16 @@
 This file implements functionality related to: Работа с кодовыми страницами
 Main functional areas: core functionality
 ### Key Functions
-- `is_retarded_error()`: Tests whether _retarded_error condition is true or property exists
-- `IsNoFlagsCodepage()`: Tests whether NoFlagsCodepage condition is true or property exists
-- `widechar_to_multibyte_with_validation()`: Performs widechar_to_multibyte_with_validation operation as part of the component's functionality
-- `multibyte_to_widechar_with_validation()`: Performs multibyte_to_widechar_with_validation operation as part of the component's functionality
-- `IsValid()`: Tests whether Valid condition is true or property exists
-- `utf8_get_bytes()`: Performs utf8_get_bytes operation as part of the component's functionality
-- `get_bytes_impl()`: Retrieves _bytes_impl from internal state or data structure
-- `get_bytes()`: Retrieves _bytes from internal state or data structure
-- `utf8_get_chars()`: Performs utf8_get_chars operation as part of the component's functionality
-- `utf7_get_chars()`: Performs utf7_get_chars operation as part of the component's functionality
+- `is_retarded_error()`: Checks condition and returns boolean indicating state
+- `IsNoFlagsCodepage()`: Checks condition and returns boolean indicating state
+- `widechar_to_multibyte_with_validation()`: Implements widechar_to_multibyte_with_validation functionality
+- `multibyte_to_widechar_with_validation()`: Implements multibyte_to_widechar_with_validation functionality
+- `IsValid()`: Checks condition and returns boolean indicating state
+- `utf8_get_bytes()`: Processes input by dispatching to different code paths based on type or value
+- `get_bytes_impl()`: Processes input by dispatching to different code paths based on type or value
+- `get_bytes()`: Retrieves _bytes from current context or object state
+- `utf8_get_chars()`: Implements utf8_get_chars functionality
+- `utf7_get_chars()`: Implements utf7_get_chars functionality
 ### Namespaces
 - `detail`
 - `utf16`
@@ -28,16 +28,16 @@ The `encoding.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Работа с кодовыми страницами
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `is_retarded_error()`: Testuje czy _retarded_error warunek jest prawdziwy lub właściwość istnieje
-- `IsNoFlagsCodepage()`: Testuje czy NoFlagsCodepage warunek jest prawdziwy lub właściwość istnieje
-- `widechar_to_multibyte_with_validation()`: Performs widechar_to_multibyte_with_validation operation as part of the component's functionality
-- `multibyte_to_widechar_with_validation()`: Performs multibyte_to_widechar_with_validation operation as part of the component's functionality
-- `IsValid()`: Testuje czy Valid warunek jest prawdziwy lub właściwość istnieje
-- `utf8_get_bytes()`: Performs utf8_get_bytes operation as part of the component's functionality
-- `get_bytes_impl()`: Pobiera _bytes_impl ze stanu wewnętrznego lub struktury danych
-- `get_bytes()`: Pobiera _bytes ze stanu wewnętrznego lub struktury danych
-- `utf8_get_chars()`: Performs utf8_get_chars operation as part of the component's functionality
-- `utf7_get_chars()`: Performs utf7_get_chars operation as part of the component's functionality
+- `is_retarded_error()`: Checks condition and returns boolean indicating state
+- `IsNoFlagsCodepage()`: Checks condition and returns boolean indicating state
+- `widechar_to_multibyte_with_validation()`: Implements widechar_to_multibyte_with_validation functionality
+- `multibyte_to_widechar_with_validation()`: Implements multibyte_to_widechar_with_validation functionality
+- `IsValid()`: Checks condition and returns boolean indicating state
+- `utf8_get_bytes()`: Processes input by dispatching to different code paths based on type or value
+- `get_bytes_impl()`: Processes input by dispatching to different code paths based on type or value
+- `get_bytes()`: Retrieves _bytes from current context or object state
+- `utf8_get_chars()`: Implements utf8_get_chars functionality
+- `utf7_get_chars()`: Implements utf7_get_chars functionality
 ### Przestrzenie nazw
 - `detail`
 - `utf16`

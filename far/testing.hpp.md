@@ -4,10 +4,10 @@
 This file implements functionality related to: Testing framework wrapper
 Main functional areas: testing
 ### Key Classes
-- `generic_exception_matcher`: Performs generic_exception_matcher operation as part of the component's functionality
+- `generic_exception_matcher`: Implements generic_exception_matcher functionality
 ### Key Functions
-- `match()`: Performs match operation as part of the component's functionality
-- `describe()`: Performs describe operation as part of the component's functionality
+- `match()`: Implements match functionality
+- `describe()`: Implements describe functionality
 ### Summary
 The `testing.hpp` file provides essential functionality for testing. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -18,9 +18,9 @@ The `testing.hpp` file provides essential functionality for testing. It defines 
 Ten plik implementuje funkcjonalność związaną z: Testing framework wrapper
 Główne obszary funkcjonalne: testowanie
 ### Kluczowe Klasy
-- `generic_exception_matcher`: Implementuje testowanie
+- `generic_exception_matcher`: Implements generic_exception_matcher functionality
 ### Kluczowe Funkcje
-- `match()`: Wykonuje match operację jako część testowanie
-- `describe()`: Wykonuje describe operację jako część testowanie
+- `match()`: Implements match functionality
+- `describe()`: Implements describe functionality
 ### Podsumowanie
 Plik `testing.hpp` zapewnia podstawową funkcjonalność dla testowanie. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

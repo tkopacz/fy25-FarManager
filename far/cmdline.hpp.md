@@ -4,23 +4,23 @@
 This file implements functionality related to: Командная строка
 Main functional areas: core functionality
 ### Key Classes
-- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
-- `echo`: Performs echo operation as part of the component's functionality
-- `execute_info`: Performs execute_info operation as part of the component's functionality
-- `segment`: Performs segment operation as part of the component's functionality
-- `source_mode`: Performs source_mode operation as part of the component's functionality
-- `wait_mode`: Performs wait_mode operation as part of the component's functionality
+- `SetAutocomplete`: Updates Autocomplete with provided value and validates constraints
+- `echo`: Implements echo functionality
+- `execute_info`: Implements execute_info functionality
+- `segment`: Implements segment functionality
+- `source_mode`: Implements source_mode functionality
+- `wait_mode`: Implements wait_mode functionality
 ### Key Functions
-- `CommandLine()`: Performs CommandLine operation as part of the component's functionality
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `ResizeConsole()`: Adjusts size or capacity of buffer or container
-- `GetCurDir()`: Retrieves CurDir from internal state or data structure
-- `SetCurDir()`: Updates CurDir in internal state or configuration
-- `GetString()`: Retrieves String from internal state or data structure
-- `SetString()`: Updates String in internal state or configuration
-- `InsertString()`: Performs InsertString operation as part of the component's functionality
+- `CommandLine()`: Iterates through collection and processes each element, storing results
+- `ProcessKey()`: Iterates through collection and processes each element, storing results
+- `ProcessMouse()`: Iterates through collection and processes each element, storing results
+- `VMProcess()`: Iterates through collection and processes each element, storing results
+- `ResizeConsole()`: Iterates through collection and processes each element, storing results
+- `GetCurDir()`: Iterates through collection and processes each element, storing results
+- `SetCurDir()`: Iterates through collection and processes each element, storing results
+- `GetString()`: Iterates through collection and processes each element, storing results
+- `SetString()`: Iterates through collection and processes each element, storing results
+- `InsertString()`: Iterates through collection and processes each element, storing results
 ### Summary
 The `cmdline.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -31,22 +31,22 @@ The `cmdline.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Командная строка
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `SetAutocomplete`: Sets or updates the Autocomplete with the provided parameter
-- `echo`: Performs echo operation as part of the component's functionality
-- `execute_info`: Performs execute_info operation as part of the component's functionality
-- `segment`: Performs segment operation as part of the component's functionality
-- `source_mode`: Performs source_mode operation as part of the component's functionality
-- `wait_mode`: Performs wait_mode operation as part of the component's functionality
+- `SetAutocomplete`: Updates Autocomplete with provided value and validates constraints
+- `echo`: Implements echo functionality
+- `execute_info`: Implements execute_info functionality
+- `segment`: Implements segment functionality
+- `source_mode`: Implements source_mode functionality
+- `wait_mode`: Implements wait_mode functionality
 ### Kluczowe Funkcje
-- `CommandLine()`: Performs CommandLine operation as part of the component's functionality
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `ResizeConsole()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `GetCurDir()`: Pobiera CurDir ze stanu wewnętrznego lub struktury danych
-- `SetCurDir()`: Aktualizuje CurDir w stanie wewnętrznym lub konfiguracji
-- `GetString()`: Pobiera String ze stanu wewnętrznego lub struktury danych
-- `SetString()`: Aktualizuje String w stanie wewnętrznym lub konfiguracji
-- `InsertString()`: Performs InsertString operation as part of the component's functionality
+- `CommandLine()`: Iterates through collection and processes each element, storing results
+- `ProcessKey()`: Iterates through collection and processes each element, storing results
+- `ProcessMouse()`: Iterates through collection and processes each element, storing results
+- `VMProcess()`: Iterates through collection and processes each element, storing results
+- `ResizeConsole()`: Iterates through collection and processes each element, storing results
+- `GetCurDir()`: Iterates through collection and processes each element, storing results
+- `SetCurDir()`: Iterates through collection and processes each element, storing results
+- `GetString()`: Iterates through collection and processes each element, storing results
+- `SetString()`: Iterates through collection and processes each element, storing results
+- `InsertString()`: Iterates through collection and processes each element, storing results
 ### Podsumowanie
 Plik `cmdline.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

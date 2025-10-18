@@ -3,8 +3,8 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Functions
-- `DeleteList()`: Removes List from collection and frees associated resources
-- `lstrcpy()`: Performs lstrcpy operation as part of the component's functionality
+- `DeleteList()`: Iterates through collection and processes each element, storing results
+- `lstrcpy()`: Iterates through collection and processes each element, storing results
 ### Summary
 The `strclass.cpp` file provides essential functionality for string utilities. and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -14,7 +14,7 @@ The `strclass.cpp` file provides essential functionality for string utilities. a
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Funkcje
-- `DeleteList()`: Usuwa List z kolekcji i zwalnia powiązane zasoby
-- `lstrcpy()`: Wykonuje lstrcpy operację jako część narzędzia łańcuchowe
+- `DeleteList()`: Iterates through collection and processes each element, storing results
+- `lstrcpy()`: Iterates through collection and processes each element, storing results
 ### Podsumowanie
 Plik `strclass.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

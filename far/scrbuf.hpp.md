@@ -4,19 +4,19 @@
 This file implements functionality related to: Буферизация вывода на экран, весь вывод идет через этот буфер
 Main functional areas: screen operations
 ### Key Classes
-- `ScreenBuf`: Performs ScreenBuf operation as part of the component's functionality
-- `flush_type`: Performs flush_type operation as part of the component's functionality
+- `ScreenBuf`: Implements ScreenBuf functionality
+- `flush_type`: Implements flush_type functionality
 ### Key Functions
-- `DebugDump()`: Performs DebugDump operation as part of the component's functionality
-- `AllocBuf()`: Performs AllocBuf operation as part of the component's functionality
-- `Lock()`: Performs Lock operation as part of the component's functionality
-- `Unlock()`: Performs Unlock operation as part of the component's functionality
-- `GetLockCount()`: Retrieves LockCount from internal state or data structure
-- `SetLockCount()`: Updates LockCount in internal state or configuration
-- `ResetLockCount()`: Performs ResetLockCount operation as part of the component's functionality
-- `MoveCursor()`: Moves data or object from current location to new location
-- `GetCursorPos()`: Retrieves CursorPos from internal state or data structure
-- `SetCursorType()`: Updates CursorType in internal state or configuration
+- `DebugDump()`: Implements DebugDump functionality
+- `AllocBuf()`: Implements AllocBuf functionality
+- `Lock()`: Implements Lock functionality
+- `Unlock()`: Implements Unlock functionality
+- `GetLockCount()`: Retrieves LockCount from current context or object state
+- `SetLockCount()`: Updates LockCount with provided value and validates constraints
+- `ResetLockCount()`: Implements ResetLockCount functionality
+- `MoveCursor()`: Implements MoveCursor functionality
+- `GetCursorPos()`: Retrieves CursorPos from current context or object state
+- `SetCursorType()`: Updates CursorType with provided value and validates constraints
 ### Summary
 The `scrbuf.hpp` file provides essential functionality for screen operations. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -27,18 +27,18 @@ The `scrbuf.hpp` file provides essential functionality for screen operations. It
 Ten plik implementuje funkcjonalność związaną z: Буферизация вывода на экран, весь вывод идет через этот буфер
 Główne obszary funkcjonalne: operacje ekranowe
 ### Kluczowe Klasy
-- `ScreenBuf`: Implementuje operacje ekranowe
-- `flush_type`: Implementuje operacje ekranowe
+- `ScreenBuf`: Implements ScreenBuf functionality
+- `flush_type`: Implements flush_type functionality
 ### Kluczowe Funkcje
-- `DebugDump()`: Wykonuje DebugDump operację jako część operacje ekranowe
-- `AllocBuf()`: Wykonuje AllocBuf operację jako część operacje ekranowe
-- `Lock()`: Wykonuje Lock operację jako część operacje ekranowe
-- `Unlock()`: Wykonuje Unlock operację jako część operacje ekranowe
-- `GetLockCount()`: Pobiera LockCount ze stanu wewnętrznego lub struktury danych
-- `SetLockCount()`: Aktualizuje LockCount w stanie wewnętrznym lub konfiguracji
-- `ResetLockCount()`: Wykonuje ResetLockCount operację jako część operacje ekranowe
-- `MoveCursor()`: Przenosi dane lub obiekt z bieżącej lokalizacji do nowej lokalizacji
-- `GetCursorPos()`: Pobiera CursorPos ze stanu wewnętrznego lub struktury danych
-- `SetCursorType()`: Aktualizuje CursorType w stanie wewnętrznym lub konfiguracji
+- `DebugDump()`: Implements DebugDump functionality
+- `AllocBuf()`: Implements AllocBuf functionality
+- `Lock()`: Implements Lock functionality
+- `Unlock()`: Implements Unlock functionality
+- `GetLockCount()`: Retrieves LockCount from current context or object state
+- `SetLockCount()`: Updates LockCount with provided value and validates constraints
+- `ResetLockCount()`: Implements ResetLockCount functionality
+- `MoveCursor()`: Implements MoveCursor functionality
+- `GetCursorPos()`: Retrieves CursorPos from current context or object state
+- `SetCursorType()`: Updates CursorType with provided value and validates constraints
 ### Podsumowanie
 Plik `scrbuf.hpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

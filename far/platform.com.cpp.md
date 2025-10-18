@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `initialize_impl()`: Initializes data structures and sets up initial state for operation
-- `exception()`: Performs exception operation as part of the component's functionality
-- `get_shell_name()`: Retrieves _shell_name from internal state or data structure
-- `C_Path()`: Performs C_Path operation as part of the component's functionality
-- `is_proper_progid()`: Tests whether _proper_progid condition is true or property exists
-- `get_shell_type()`: Retrieves _shell_type from internal state or data structure
-- `LOGDEBUG()`: Performs LOGDEBUG operation as part of the component's functionality
-- `get_shell_filetype_description()`: Retrieves _shell_filetype_description from internal state or data structure
+- `initialize_impl()`: Initializes component with required configuration and state
+- `exception()`: Implements exception functionality
+- `get_shell_name()`: Retrieves _shell_name from current context or object state
+- `C_Path()`: Implements C_Path functionality
+- `is_proper_progid()`: Checks condition and returns boolean indicating state
+- `get_shell_type()`: Retrieves _shell_type from current context or object state
+- `LOGDEBUG()`: This is informational, debug will do fine
+- `get_shell_filetype_description()`: This is informational, debug will do fine
 ### Namespaces
 - `os`
 ### Summary
@@ -22,14 +22,14 @@ The `platform.com.cpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `initialize_impl()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `exception()`: Performs exception operation as part of the component's functionality
-- `get_shell_name()`: Pobiera _shell_name ze stanu wewnętrznego lub struktury danych
-- `C_Path()`: Performs C_Path operation as part of the component's functionality
-- `is_proper_progid()`: Testuje czy _proper_progid warunek jest prawdziwy lub właściwość istnieje
-- `get_shell_type()`: Pobiera _shell_type ze stanu wewnętrznego lub struktury danych
-- `LOGDEBUG()`: Performs LOGDEBUG operation as part of the component's functionality
-- `get_shell_filetype_description()`: Pobiera _shell_filetype_description ze stanu wewnętrznego lub struktury danych
+- `initialize_impl()`: Initializes component with required configuration and state
+- `exception()`: Implements exception functionality
+- `get_shell_name()`: Retrieves _shell_name from current context or object state
+- `C_Path()`: Implements C_Path functionality
+- `is_proper_progid()`: Checks condition and returns boolean indicating state
+- `get_shell_type()`: Retrieves _shell_type from current context or object state
+- `LOGDEBUG()`: This is informational, debug will do fine
+- `get_shell_filetype_description()`: This is informational, debug will do fine
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `ExternalCodec`: Performs ExternalCodec operation as part of the component's functionality
-- `LoadedFromXML`: Reads and loads data from a source
-- `Options`: Performs Options operation as part of the component's functionality
+- `ExternalCodec`: Implements ExternalCodec functionality
+- `LoadedFromXML`: Implements LoadedFromXML functionality
+- `Options`: Implements Options functionality
 ### Key Functions
-- `reset()`: Performs reset operation as part of the component's functionality
-- `load()`: Loads data or resources from storage into memory
-- `save()`: Saves current state or data to persistent storage
-- `get_app_option()`: Retrieves _app_option from internal state or data structure
+- `reset()`: Implements reset functionality
+- `load()`: Implements load functionality
+- `save()`: Implements save functionality
+- `get_app_option()`: Retrieves _app_option from current context or object state
 ### Summary
 The `options.hpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `options.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `ExternalCodec`: Performs ExternalCodec operation as part of the component's functionality
-- `LoadedFromXML`: Reads and loads data from a source
-- `Options`: Performs Options operation as part of the component's functionality
+- `ExternalCodec`: Implements ExternalCodec functionality
+- `LoadedFromXML`: Implements LoadedFromXML functionality
+- `Options`: Implements Options functionality
 ### Kluczowe Funkcje
-- `reset()`: Performs reset operation as part of the component's functionality
-- `load()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `save()`: Zapisuje bieżący stan lub dane do trwałego magazynu
-- `get_app_option()`: Pobiera _app_option ze stanu wewnętrznego lub struktury danych
+- `reset()`: Implements reset functionality
+- `load()`: Implements load functionality
+- `save()`: Implements save functionality
+- `get_app_option()`: Retrieves _app_option from current context or object state
 ### Podsumowanie
 Plik `options.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

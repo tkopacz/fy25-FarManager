@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `net_parse_os_date_time()`: Evaluates conditions and returns a boolean indicating success or validity of net_parse_os_date_time
-- `SystemTimeToFileTime()`: Performs SystemTimeToFileTime operation as part of the component's functionality
-- `idPRParceOS2()`: Evaluates conditions and returns a boolean indicating success or validity of idPRParceOS2
-- `ConvertEntry()`: Converts data from one format or type to another
+- `net_parse_os_date_time()`: a dos date/time string looks like this 1     2     3     4     5
+- `SystemTimeToFileTime()`: Implements SystemTimeToFileTime functionality
+- `idPRParceOS2()`: Date + time a dos date/time string looks like this
+- `ConvertEntry()`: Implements ConvertEntry functionality
 ### Summary
 The `os2.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `os2.cpp` file provides essential functionality for core functionality. and 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `net_parse_os_date_time()`: Evaluates conditions and returns a boolean indicating success or validity of net_parse_os_date_time
-- `SystemTimeToFileTime()`: Performs SystemTimeToFileTime operation as part of the component's functionality
-- `idPRParceOS2()`: Evaluates conditions and returns a boolean indicating success or validity of idPRParceOS2
-- `ConvertEntry()`: Konwertuje dane z jednego formatu lub typu do innego
+- `net_parse_os_date_time()`: a dos date/time string looks like this 1     2     3     4     5
+- `SystemTimeToFileTime()`: Implements SystemTimeToFileTime functionality
+- `idPRParceOS2()`: Date + time a dos date/time string looks like this
+- `ConvertEntry()`: Implements ConvertEntry functionality
 ### Podsumowanie
 Plik `os2.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

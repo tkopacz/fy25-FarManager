@@ -4,13 +4,13 @@
 This file implements functionality related to: Fullwidth support
 Main functional areas: core functionality
 ### Key Functions
-- `get()`: Retrieves value from internal state or data structure
-- `is_wide()`: Tests whether _wide condition is true or property exists
-- `enable()`: Performs enable operation as part of the component's functionality
-- `is_enabled()`: Tests whether _enabled condition is true or property exists
-- `invalidate()`: Performs invalidate operation as part of the component's functionality
-- `is_half_width_surrogate_broken()`: Tests whether _half_width_surrogate_broken condition is true or property exists
-- `is_grapheme_clusters_on()`: Tests whether _grapheme_clusters_on condition is true or property exists
+- `get()`: Implements get functionality
+- `is_wide()`: ---------------------------------------------------------------------------- CHAR_WIDTH_HPP_D66C86AC_3415_4FD1_89DA_0AB843FFEEB8
+- `enable()`: Implements enable functionality
+- `is_enabled()`: Checks condition and returns boolean indicating state
+- `invalidate()`: Implements invalidate functionality
+- `is_half_width_surrogate_broken()`: Checks condition and returns boolean indicating state
+- `is_grapheme_clusters_on()`: Checks condition and returns boolean indicating state
 ### Namespaces
 - `char_width`
 ### Summary
@@ -23,13 +23,13 @@ The `char_width.hpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Fullwidth support
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `is_wide()`: Testuje czy _wide warunek jest prawdziwy lub właściwość istnieje
-- `enable()`: Performs enable operation as part of the component's functionality
-- `is_enabled()`: Testuje czy _enabled warunek jest prawdziwy lub właściwość istnieje
-- `invalidate()`: Performs invalidate operation as part of the component's functionality
-- `is_half_width_surrogate_broken()`: Testuje czy _half_width_surrogate_broken warunek jest prawdziwy lub właściwość istnieje
-- `is_grapheme_clusters_on()`: Testuje czy _grapheme_clusters_on warunek jest prawdziwy lub właściwość istnieje
+- `get()`: Implements get functionality
+- `is_wide()`: ---------------------------------------------------------------------------- CHAR_WIDTH_HPP_D66C86AC_3415_4FD1_89DA_0AB843FFEEB8
+- `enable()`: Implements enable functionality
+- `is_enabled()`: Checks condition and returns boolean indicating state
+- `invalidate()`: Implements invalidate functionality
+- `is_half_width_surrogate_broken()`: Checks condition and returns boolean indicating state
+- `is_grapheme_clusters_on()`: Checks condition and returns boolean indicating state
 ### Przestrzenie nazw
 - `char_width`
 ### Podsumowanie

@@ -3,21 +3,21 @@
 ### Purpose
 Main functional areas: string utilities
 ### Key Classes
-- `append_arg`: Performs append_arg operation as part of the component's functionality
-- `lvalue_string_view`: Performs lvalue_string_view operation as part of the component's functionality
-- `string_comparer`: Performs string_comparer operation as part of the component's functionality
-- `string_copyref`: Performs string_copyref operation as part of the component's functionality
+- `append_arg`: Implements append_arg functionality
+- `lvalue_string_view`: Implements lvalue_string_view functionality
+- `string_comparer`: Implements string_comparer functionality
+- `string_copyref`: Implements string_copyref functionality
 ### Key Functions
-- `copy_string()`: Copies data from source to destination location
-- `null_terminated_t()`: Performs null_terminated_t operation as part of the component's functionality
-- `c_str()`: Constructor that initializes c_str object with provided parameters
-- `empty()`: Evaluates conditions and returns boolean indicating success or validity
-- `append_impl()`: Performs append_impl operation as part of the component's functionality
-- `append()`: Performs append operation as part of the component's functionality
-- `concat()`: Performs concat operation as part of the component's functionality
-- `contains()`: Evaluates conditions and returns boolean indicating success or validity
-- `constexpr()`: Performs constexpr operation as part of the component's functionality
-- `within()`: Evaluates conditions and returns boolean indicating success or validity
+- `copy_string()`: ---------------------------------------------------------------------------- Helper class to safely pass string_view to low level C or platform API
+- `null_terminated_t()`: Implements null_terminated_t functionality
+- `c_str()`: Implements c_str functionality
+- `empty()`: Implements empty functionality
+- `append_impl()`: Implements append_impl functionality
+- `append()`: Implements append functionality
+- `concat()`: Implements concat functionality
+- `contains()`: Implements contains functionality
+- `constexpr()`: Implements constexpr functionality
+- `within()`: Implements within functionality
 ### Namespaces
 - `copy`
 - `detail`
@@ -32,21 +32,21 @@ The `string_utils.hpp` file provides essential functionality for string utilitie
 ### Cel
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `append_arg`: Implementuje narzędzia łańcuchowe
-- `lvalue_string_view`: Implementuje narzędzia łańcuchowe
-- `string_comparer`: Implementuje narzędzia łańcuchowe
-- `string_copyref`: Implementuje narzędzia łańcuchowe
+- `append_arg`: Implements append_arg functionality
+- `lvalue_string_view`: Implements lvalue_string_view functionality
+- `string_comparer`: Implements string_comparer functionality
+- `string_copyref`: Implements string_copyref functionality
 ### Kluczowe Funkcje
-- `copy_string()`: Kopiuje dane ze źródła do miejsca docelowego
-- `null_terminated_t()`: Wykonuje null_terminated_t operację jako część narzędzia łańcuchowe
-- `c_str()`: Konstruktor inicjalizujący c_str obiekt z dostarczonymi parametrami
-- `empty()`: Wykonuje empty operację jako część narzędzia łańcuchowe
-- `append_impl()`: Wykonuje append_impl operację jako część narzędzia łańcuchowe
-- `append()`: Wykonuje append operację jako część narzędzia łańcuchowe
-- `concat()`: Wykonuje concat operację jako część narzędzia łańcuchowe
-- `contains()`: Wykonuje contains operację jako część narzędzia łańcuchowe
-- `constexpr()`: Wykonuje constexpr operację jako część narzędzia łańcuchowe
-- `within()`: Wykonuje within operację jako część narzędzia łańcuchowe
+- `copy_string()`: ---------------------------------------------------------------------------- Helper class to safely pass string_view to low level C or platform API
+- `null_terminated_t()`: Implements null_terminated_t functionality
+- `c_str()`: Implements c_str functionality
+- `empty()`: Implements empty functionality
+- `append_impl()`: Implements append_impl functionality
+- `append()`: Implements append functionality
+- `concat()`: Implements concat functionality
+- `contains()`: Implements contains functionality
+- `constexpr()`: Implements constexpr functionality
+- `within()`: Implements within functionality
 ### Przestrzenie nazw
 - `copy`
 - `detail`

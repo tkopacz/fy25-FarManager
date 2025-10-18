@@ -4,9 +4,9 @@
 This file implements functionality related to: Misc functions for drive/disk info
 Main functional areas: core functionality
 ### Key Functions
-- `UpdateSavedDrives()`: Updates existing data with new values while preserving structure
-- `allowed_drives_mask()`: Performs allowed_drives_mask operation as part of the component's functionality
-- `get_logical_drives()`: Retrieves _logical_drives from internal state or data structure
+- `UpdateSavedDrives()`: Updates existing state with new values
+- `allowed_drives_mask()`: Implements allowed_drives_mask functionality
+- `get_logical_drives()`: Retrieves _logical_drives from current context or object state
 ### Namespaces
 - `fs`
 - `os`
@@ -20,9 +20,9 @@ The `drivemix.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Misc functions for drive/disk info
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `UpdateSavedDrives()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `allowed_drives_mask()`: Performs allowed_drives_mask operation as part of the component's functionality
-- `get_logical_drives()`: Pobiera _logical_drives ze stanu wewnętrznego lub struktury danych
+- `UpdateSavedDrives()`: Updates existing state with new values
+- `allowed_drives_mask()`: Implements allowed_drives_mask functionality
+- `get_logical_drives()`: Retrieves _logical_drives from current context or object state
 ### Przestrzenie nazw
 - `fs`
 - `os`

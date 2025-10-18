@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `FindHWScan()`: Searches for HWScan in collection and returns position or reference
-- `FindScanHW()`: Searches for ScanHW in collection and returns position or reference
-- `FindScanKey()`: Searches for ScanKey in collection and returns position or reference
-- `Scan2HWScan()`: Performs Scan2HWScan operation as part of the component's functionality
-- `HWScan2Scan()`: Performs HWScan2Scan operation as part of the component's functionality
-- `Key2Str()`: Performs Key2Str operation as part of the component's functionality
-- `Str2Key()`: Performs Str2Key operation as part of the component's functionality
-- `Scan2ANSII()`: Performs Scan2ANSII operation as part of the component's functionality
-- `ANSII2Scan()`: Performs ANSII2Scan operation as part of the component's functionality
-- `IsPrintKey()`: Tests whether PrintKey condition is true or property exists
+- `FindHWScan()`: Implements FindHWScan functionality
+- `FindScanHW()`: Implements FindScanHW functionality
+- `FindScanKey()`: Implements FindScanKey functionality
+- `Scan2HWScan()`: Implements Scan2HWScan functionality
+- `HWScan2Scan()`: Implements HWScan2Scan functionality
+- `Key2Str()`: Implements Key2Str functionality
+- `Str2Key()`: Implements Str2Key functionality
+- `Scan2ANSII()`: Implements Scan2ANSII functionality
+- `ANSII2Scan()`: Implements ANSII2Scan functionality
+- `IsPrintKey()`: Checks condition and returns boolean indicating state
 ### Summary
 The `mu_key.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `mu_key.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `FindHWScan()`: Wyszukuje HWScan w kolekcji i zwraca pozycję lub referencję
-- `FindScanHW()`: Wyszukuje ScanHW w kolekcji i zwraca pozycję lub referencję
-- `FindScanKey()`: Wyszukuje ScanKey w kolekcji i zwraca pozycję lub referencję
-- `Scan2HWScan()`: Performs Scan2HWScan operation as part of the component's functionality
-- `HWScan2Scan()`: Performs HWScan2Scan operation as part of the component's functionality
-- `Key2Str()`: Performs Key2Str operation as part of the component's functionality
-- `Str2Key()`: Performs Str2Key operation as part of the component's functionality
-- `Scan2ANSII()`: Performs Scan2ANSII operation as part of the component's functionality
-- `ANSII2Scan()`: Performs ANSII2Scan operation as part of the component's functionality
-- `IsPrintKey()`: Testuje czy PrintKey warunek jest prawdziwy lub właściwość istnieje
+- `FindHWScan()`: Implements FindHWScan functionality
+- `FindScanHW()`: Implements FindScanHW functionality
+- `FindScanKey()`: Implements FindScanKey functionality
+- `Scan2HWScan()`: Implements Scan2HWScan functionality
+- `HWScan2Scan()`: Implements HWScan2Scan functionality
+- `Key2Str()`: Implements Key2Str functionality
+- `Str2Key()`: Implements Str2Key functionality
+- `Scan2ANSII()`: Implements Scan2ANSII functionality
+- `ANSII2Scan()`: Implements ANSII2Scan functionality
+- `IsPrintKey()`: Checks condition and returns boolean indicating state
 ### Podsumowanie
 Plik `mu_key.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

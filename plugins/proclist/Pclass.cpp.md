@@ -3,20 +3,20 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `StrTok`: Performs StrTok operation as part of the component's functionality
-- `custom_data`: Performs custom_data operation as part of the component's functionality
-- `priority_mapping`: Performs priority_mapping operation as part of the component's functionality
+- `StrTok`: Implements StrTok functionality
+- `custom_data`: Returns pointer to internal buffer for direct access to stored data
+- `priority_mapping`: Implements priority_mapping functionality
 ### Key Functions
-- `bool()`: Evaluates conditions and returns boolean indicating success or validity
-- `ui64toa_width()`: Performs ui64toa_width operation as part of the component's functionality
-- `str()`: Evaluates conditions and returns a boolean indicating success or validity of str
-- `PrintTitle()`: Performs PrintTitle operation as part of the component's functionality
-- `settings()`: Updates tings in internal state or configuration
-- `upper()`: Performs upper operation as part of the component's functionality
-- `TranslateMode()`: Evaluates conditions and returns a boolean indicating success or validity of TranslateMode
-- `can_be_per_sec()`: Checks state or conditions and returns boolean indicating the result
-- `generate_titles()`: Performs generate_titles operation as part of the component's functionality
-- `convert_panel_modes()`: Converts data from one format or type to another
+- `bool()`: Implements bool functionality
+- `ui64toa_width()`: Implements ui64toa_width functionality
+- `str()`: Implements str functionality
+- `PrintTitle()`: Implements PrintTitle functionality
+- `settings()`: Updates tings with provided value
+- `upper()`: Iterates through collection and processes each element, storing results
+- `TranslateMode()`: Iterates through collection and processes each element, storing results
+- `can_be_per_sec()`: Processes input by dispatching to different code paths based on type or value
+- `generate_titles()`: Processes input by dispatching to different code paths based on type or value
+- `convert_panel_modes()`: Implements convert_panel_modes functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -28,20 +28,20 @@ The `Pclass.cpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `StrTok`: Performs StrTok operation as part of the component's functionality
-- `custom_data`: Performs custom_data operation as part of the component's functionality
-- `priority_mapping`: Performs priority_mapping operation as part of the component's functionality
+- `StrTok`: Implements StrTok functionality
+- `custom_data`: Returns pointer to internal buffer for direct access to stored data
+- `priority_mapping`: Implements priority_mapping functionality
 ### Kluczowe Funkcje
-- `bool()`: Evaluates conditions and returns boolean indicating success or validity
-- `ui64toa_width()`: Performs ui64toa_width operation as part of the component's functionality
-- `str()`: Evaluates conditions and returns a boolean indicating success or validity of str
-- `PrintTitle()`: Performs PrintTitle operation as part of the component's functionality
-- `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
-- `upper()`: Performs upper operation as part of the component's functionality
-- `TranslateMode()`: Evaluates conditions and returns a boolean indicating success or validity of TranslateMode
-- `can_be_per_sec()`: Checks state or conditions and returns boolean indicating the result
-- `generate_titles()`: Performs generate_titles operation as part of the component's functionality
-- `convert_panel_modes()`: Konwertuje dane z jednego formatu lub typu do innego
+- `bool()`: Implements bool functionality
+- `ui64toa_width()`: Implements ui64toa_width functionality
+- `str()`: Implements str functionality
+- `PrintTitle()`: Implements PrintTitle functionality
+- `settings()`: Updates tings with provided value
+- `upper()`: Iterates through collection and processes each element, storing results
+- `TranslateMode()`: Iterates through collection and processes each element, storing results
+- `can_be_per_sec()`: Processes input by dispatching to different code paths based on type or value
+- `generate_titles()`: Processes input by dispatching to different code paths based on type or value
+- `convert_panel_modes()`: Implements convert_panel_modes functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

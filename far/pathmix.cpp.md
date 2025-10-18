@@ -4,16 +4,16 @@
 This file implements functionality related to: Misc functions for processing of path names
 Main functional areas: core functionality
 ### Key Functions
-- `append_arg_process()`: Performs append_arg_process operation as part of the component's functionality
-- `nt_path()`: Performs nt_path operation as part of the component's functionality
-- `kernel_path()`: Performs kernel_path operation as part of the component's functionality
-- `ParsePath()`: Parses input string or data into structured format
-- `IsAbsolutePath()`: Tests whether AbsolutePath condition is true or property exists
-- `HasPathPrefix()`: Tests whether PathPrefix condition is true or property exists
-- `ExtractPathPrefix()`: Performs ExtractPathPrefix operation as part of the component's functionality
-- `PathCanHoldRegularFile()`: Checks state or conditions and returns boolean indicating the result
-- `IsParentDirectory()`: Tests whether ParentDirectory condition is true or property exists
-- `IsCurrentDirectory()`: Tests whether CurrentDirectory condition is true or property exists
+- `append_arg_process()`: Platform: Common: External: ----------------------------------------------------------------------------
+- `nt_path()`: Iterates through collection and processes each element, storing results
+- `kernel_path()`: Implements kernel_path functionality
+- `ParsePath()`: "\\?\C:" -> "\\?\c:" Some file operations fail on Win2k if a drive letter is in upper case
+- `IsAbsolutePath()`: Checks condition and returns boolean indicating state
+- `HasPathPrefix()`: Checks condition and returns boolean indicating state
+- `ExtractPathPrefix()`: Implements ExtractPathPrefix functionality
+- `PathCanHoldRegularFile()`: односимвольный префикс
+- `IsParentDirectory()`: Checks condition and returns boolean indicating state
+- `IsCurrentDirectory()`: Аналог PointToName, только для строк типа "name\" (оканчивается на слеш) возвращает указатель на name, а не на пустую строку
 ### Summary
 The `pathmix.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `pathmix.cpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Misc functions for processing of path names
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `append_arg_process()`: Performs append_arg_process operation as part of the component's functionality
-- `nt_path()`: Performs nt_path operation as part of the component's functionality
-- `kernel_path()`: Performs kernel_path operation as part of the component's functionality
-- `ParsePath()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `IsAbsolutePath()`: Testuje czy AbsolutePath warunek jest prawdziwy lub właściwość istnieje
-- `HasPathPrefix()`: Testuje czy PathPrefix warunek jest prawdziwy lub właściwość istnieje
-- `ExtractPathPrefix()`: Performs ExtractPathPrefix operation as part of the component's functionality
-- `PathCanHoldRegularFile()`: Checks state or conditions and returns boolean indicating the result
-- `IsParentDirectory()`: Testuje czy ParentDirectory warunek jest prawdziwy lub właściwość istnieje
-- `IsCurrentDirectory()`: Testuje czy CurrentDirectory warunek jest prawdziwy lub właściwość istnieje
+- `append_arg_process()`: Platform: Common: External: ----------------------------------------------------------------------------
+- `nt_path()`: Iterates through collection and processes each element, storing results
+- `kernel_path()`: Implements kernel_path functionality
+- `ParsePath()`: "\\?\C:" -> "\\?\c:" Some file operations fail on Win2k if a drive letter is in upper case
+- `IsAbsolutePath()`: Checks condition and returns boolean indicating state
+- `HasPathPrefix()`: Checks condition and returns boolean indicating state
+- `ExtractPathPrefix()`: Implements ExtractPathPrefix functionality
+- `PathCanHoldRegularFile()`: односимвольный префикс
+- `IsParentDirectory()`: Checks condition and returns boolean indicating state
+- `IsCurrentDirectory()`: Аналог PointToName, только для строк типа "name\" (оканчивается на слеш) возвращает указатель на name, а не на пустую строку
 ### Podsumowanie
 Plik `pathmix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

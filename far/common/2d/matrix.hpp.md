@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `matrix`: Allocates memory and initializes resources for matrix
-- `matrix_data`: Performs matrix_data operation as part of the component's functionality
-- `matrix_iterator`: Performs matrix_iterator operation as part of the component's functionality
-- `matrix_row`: Performs matrix_row operation as part of the component's functionality
-- `matrix_view`: Performs matrix_view operation as part of the component's functionality
+- `matrix`: Implements matrix functionality
+- `matrix_data`: Implements matrix_data functionality
+- `matrix_iterator`: Implements matrix_iterator functionality
+- `matrix_row`: Implements matrix_row functionality
+- `matrix_view`: Implements matrix_view functionality
 ### Key Functions
-- `matrix_row()`: Performs matrix_row operation as part of the component's functionality
-- `matrix_iterator()`: Performs matrix_iterator operation as part of the component's functionality
-- `begin()`: Performs begin operation as part of the component's functionality
-- `iterator()`: Performs iterator operation as part of the component's functionality
-- `end()`: Performs end operation as part of the component's functionality
-- `cbegin()`: Performs cbegin operation as part of the component's functionality
-- `cend()`: Performs cend operation as part of the component's functionality
-- `rbegin()`: Performs rbegin operation as part of the component's functionality
-- `rend()`: Performs rend operation as part of the component's functionality
-- `crbegin()`: Performs crbegin operation as part of the component's functionality
+- `matrix_row()`: Implements matrix_row functionality
+- `matrix_iterator()`: Implements matrix_iterator functionality
+- `begin()`: Implements begin functionality
+- `iterator()`: Implements iterator functionality
+- `end()`: Implements end functionality
+- `cbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `cend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `rbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `rend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `crbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
 ### Namespaces
 - `detail`
 ### Summary
@@ -32,22 +32,22 @@ The `matrix.hpp` file provides essential functionality for core functionality. I
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `matrix`: Allocates memory and initializes resources for matrix
-- `matrix_data`: Performs matrix_data operation as part of the component's functionality
-- `matrix_iterator`: Performs matrix_iterator operation as part of the component's functionality
-- `matrix_row`: Performs matrix_row operation as part of the component's functionality
-- `matrix_view`: Performs matrix_view operation as part of the component's functionality
+- `matrix`: Implements matrix functionality
+- `matrix_data`: Implements matrix_data functionality
+- `matrix_iterator`: Implements matrix_iterator functionality
+- `matrix_row`: Implements matrix_row functionality
+- `matrix_view`: Implements matrix_view functionality
 ### Kluczowe Funkcje
-- `matrix_row()`: Performs matrix_row operation as part of the component's functionality
-- `matrix_iterator()`: Performs matrix_iterator operation as part of the component's functionality
-- `begin()`: Performs begin operation as part of the component's functionality
-- `iterator()`: Performs iterator operation as part of the component's functionality
-- `end()`: Performs end operation as part of the component's functionality
-- `cbegin()`: Performs cbegin operation as part of the component's functionality
-- `cend()`: Performs cend operation as part of the component's functionality
-- `rbegin()`: Performs rbegin operation as part of the component's functionality
-- `rend()`: Performs rend operation as part of the component's functionality
-- `crbegin()`: Performs crbegin operation as part of the component's functionality
+- `matrix_row()`: Implements matrix_row functionality
+- `matrix_iterator()`: Implements matrix_iterator functionality
+- `begin()`: Implements begin functionality
+- `iterator()`: Implements iterator functionality
+- `end()`: Implements end functionality
+- `cbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `cend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `rbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `rend()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
+- `crbegin()`: BUGBUG assert for <= is due to the fact that &row[size] can be used as an 'end' iterator TODO: use iterators
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

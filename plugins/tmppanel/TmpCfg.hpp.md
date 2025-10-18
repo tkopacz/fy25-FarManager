@@ -3,10 +3,10 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `options_t`: Performs options_t operation as part of the component's functionality
+- `options_t`: Implements options_t functionality
 ### Key Functions
-- `GetOptions()`: Retrieves Options from internal state or data structure
-- `Config()`: Performs Config operation as part of the component's functionality
+- `GetOptions()`: Retrieves Options from current context or object state
+- `Config()`: Implements Config functionality
 ### Summary
 The `TmpCfg.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
 
@@ -16,9 +16,9 @@ The `TmpCfg.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `options_t`: Performs options_t operation as part of the component's functionality
+- `options_t`: Implements options_t functionality
 ### Kluczowe Funkcje
-- `GetOptions()`: Pobiera Options ze stanu wewnętrznego lub struktury danych
-- `Config()`: Performs Config operation as part of the component's functionality
+- `GetOptions()`: Retrieves Options from current context or object state
+- `Config()`: Implements Config functionality
 ### Podsumowanie
 Plik `TmpCfg.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.

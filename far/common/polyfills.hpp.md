@@ -4,12 +4,12 @@
 This file implements functionality related to: Emulation of C++ features missing in supported compilers & libraries
 Main functional areas: core functionality
 ### Key Classes
-- `fold_left_fn`: Performs fold_left_fn operation as part of the component's functionality
+- `fold_left_fn`: Implements fold_left_fn functionality
 ### Key Functions
-- `yield()`: Performs yield operation as part of the component's functionality
-- `to_underlying()`: Performs to_underlying operation as part of the component's functionality
-- `unreachable()`: Performs unreachable operation as part of the component's functionality
-- `__builtin_unreachable()`: Performs __builtin_unreachable operation as part of the component's functionality
+- `yield()`: Implements yield functionality
+- `to_underlying()`: ---------------------------------------------------------------------------- as of March 2025 libc++ doesn't define __cpp_lib_ranges_fo
+- `unreachable()`: Implements unreachable functionality
+- `__builtin_unreachable()`: Implements __builtin_unreachable functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -22,12 +22,12 @@ The `polyfills.hpp` file provides essential functionality for core functionality
 Ten plik implementuje funkcjonalność związaną z: Emulation of C++ features missing in supported compilers & libraries
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `fold_left_fn`: Performs fold_left_fn operation as part of the component's functionality
+- `fold_left_fn`: Implements fold_left_fn functionality
 ### Kluczowe Funkcje
-- `yield()`: Performs yield operation as part of the component's functionality
-- `to_underlying()`: Performs to_underlying operation as part of the component's functionality
-- `unreachable()`: Performs unreachable operation as part of the component's functionality
-- `__builtin_unreachable()`: Performs __builtin_unreachable operation as part of the component's functionality
+- `yield()`: Implements yield functionality
+- `to_underlying()`: ---------------------------------------------------------------------------- as of March 2025 libc++ doesn't define __cpp_lib_ranges_fo
+- `unreachable()`: Implements unreachable functionality
+- `__builtin_unreachable()`: Implements __builtin_unreachable functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

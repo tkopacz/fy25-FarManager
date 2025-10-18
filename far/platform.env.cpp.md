@@ -4,13 +4,13 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `get()`: Retrieves value from internal state or data structure
-- `C_Name()`: Performs C_Name operation as part of the component's functionality
-- `set()`: Updates value in internal state or configuration
-- `del()`: Evaluates conditions and returns boolean indicating success or validity
-- `expand()`: Performs expand operation as part of the component's functionality
-- `C_Str()`: Performs C_Str operation as part of the component's functionality
-- `get_pathext()`: Retrieves _pathext from internal state or data structure
+- `get()`: Implements get functionality
+- `C_Name()`: Implements C_Name functionality
+- `set()`: Implements set functionality
+- `del()`: Implements del functionality
+- `expand()`: Implements expand functionality
+- `C_Str()`: Implements C_Str functionality
+- `get_pathext()`: Retrieves _pathext from current context or object state
 ### Namespaces
 - `os`
 ### Summary
@@ -23,13 +23,13 @@ The `platform.env.cpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `C_Name()`: Performs C_Name operation as part of the component's functionality
-- `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `del()`: Evaluates conditions and returns boolean indicating success or validity
-- `expand()`: Performs expand operation as part of the component's functionality
-- `C_Str()`: Performs C_Str operation as part of the component's functionality
-- `get_pathext()`: Pobiera _pathext ze stanu wewnętrznego lub struktury danych
+- `get()`: Implements get functionality
+- `C_Name()`: Implements C_Name functionality
+- `set()`: Implements set functionality
+- `del()`: Implements del functionality
+- `expand()`: Implements expand functionality
+- `C_Str()`: Implements C_Str functionality
+- `get_pathext()`: Retrieves _pathext from current context or object state
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -4,13 +4,13 @@
 This file implements functionality related to: Workaround for Visual C++ CRT incompatibility with old Windows versions
 Main functional areas: core functionality
 ### Key Classes
-- `implementation`: Performs implementation operation as part of the component's functionality
+- `implementation`: Implements implementation functionality
 ### Key Functions
-- `GetFunctionPointer()`: Retrieves FunctionPointer from internal state or data structure
-- `XorPointer()`: Constructor that initializes XorPointer object with provided parameters
-- `impl()`: Performs impl operation as part of the component's functionality
-- `atomic_assign()`: Evaluates conditions and returns boolean indicating success or validity
-- `locale_name_to_lcid()`: Performs locale_name_to_lcid operation as part of the component's functionality
+- `GetFunctionPointer()`: Retrieves FunctionPointer from current context or object state
+- `XorPointer()`: EncodePointer (VC2010)
+- `impl()`: EncodePointer (VC2010) DecodePointer(VC2010)
+- `atomic_assign()`: The oldest x64 OS (XP) already has SList, so this shall never be called
+- `locale_name_to_lcid()`: Implements locale_name_to_lcid functionality
 ### Namespaces
 - `modules`
 ### Summary
@@ -23,13 +23,13 @@ The `vc_crt_fix_impl.cpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: Workaround for Visual C++ CRT incompatibility with old Windows versions
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `implementation`: Performs implementation operation as part of the component's functionality
+- `implementation`: Implements implementation functionality
 ### Kluczowe Funkcje
-- `GetFunctionPointer()`: Pobiera FunctionPointer ze stanu wewnętrznego lub struktury danych
-- `XorPointer()`: Konstruktor inicjalizujący XorPointer obiekt z dostarczonymi parametrami
-- `impl()`: Performs impl operation as part of the component's functionality
-- `atomic_assign()`: Evaluates conditions and returns boolean indicating success or validity
-- `locale_name_to_lcid()`: Performs locale_name_to_lcid operation as part of the component's functionality
+- `GetFunctionPointer()`: Retrieves FunctionPointer from current context or object state
+- `XorPointer()`: EncodePointer (VC2010)
+- `impl()`: EncodePointer (VC2010) DecodePointer(VC2010)
+- `atomic_assign()`: The oldest x64 OS (XP) already has SList, so this shall never be called
+- `locale_name_to_lcid()`: Implements locale_name_to_lcid functionality
 ### Przestrzenie nazw
 - `modules`
 ### Podsumowanie

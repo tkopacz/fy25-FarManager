@@ -3,22 +3,22 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `composite_overrider`: Performs composite_overrider operation as part of the component's functionality
-- `custom_policy`: Performs custom_policy operation as part of the component's functionality
-- `null_overrider`: Performs null_overrider operation as part of the component's functionality
-- `quotes_overrider`: Performs quotes_overrider operation as part of the component's functionality
-- `simple_policy`: Performs simple_policy operation as part of the component's functionality
-- `trimmer`: Performs trimmer operation as part of the component's functionality
+- `composite_overrider`: Implements composite_overrider functionality
+- `custom_policy`: Implements custom_policy functionality
+- `null_overrider`: Implements null_overrider functionality
+- `quotes_overrider`: Implements quotes_overrider functionality
+- `simple_policy`: Implements simple_policy functionality
+- `trimmer`: Implements trimmer functionality
 ### Key Functions
-- `reset()`: Performs reset operation as part of the component's functionality
-- `active()`: Evaluates conditions and returns boolean indicating success or validity
-- `postprocess()`: Performs postprocess operation as part of the component's functionality
-- `reset_impl()`: Performs reset_impl operation as part of the component's functionality
-- `active_impl()`: Evaluates conditions and returns boolean indicating success or validity
-- `postprocess_impl()`: Performs postprocess_impl operation as part of the component's functionality
-- `get_opt()`: Retrieves _opt from internal state or data structure
-- `extract()`: Performs extract operation as part of the component's functionality
-- `get()`: Retrieves value from internal state or data structure
+- `reset()`: ---------------------------------------------------------------------------- applied to all args applied to all args left to right
+- `active()`: ---------------------------------------------------------------------------- applied to all args applied to all args left to right
+- `postprocess()`: Implements postprocess functionality
+- `reset_impl()`: Implements reset_impl functionality
+- `active_impl()`: Implements active_impl functionality
+- `postprocess_impl()`: Implements postprocess_impl functionality
+- `get_opt()`: Retrieves _opt from current context or object state
+- `extract()`: Implements extract functionality
+- `get()`: Implements get functionality
 ### Namespaces
 - `detail`
 ### Summary
@@ -30,22 +30,22 @@ The `enum_tokens.hpp` file provides essential functionality for core functionali
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `composite_overrider`: Performs composite_overrider operation as part of the component's functionality
-- `custom_policy`: Performs custom_policy operation as part of the component's functionality
-- `null_overrider`: Performs null_overrider operation as part of the component's functionality
-- `quotes_overrider`: Performs quotes_overrider operation as part of the component's functionality
-- `simple_policy`: Performs simple_policy operation as part of the component's functionality
-- `trimmer`: Performs trimmer operation as part of the component's functionality
+- `composite_overrider`: Implements composite_overrider functionality
+- `custom_policy`: Implements custom_policy functionality
+- `null_overrider`: Implements null_overrider functionality
+- `quotes_overrider`: Implements quotes_overrider functionality
+- `simple_policy`: Implements simple_policy functionality
+- `trimmer`: Implements trimmer functionality
 ### Kluczowe Funkcje
-- `reset()`: Performs reset operation as part of the component's functionality
-- `active()`: Evaluates conditions and returns boolean indicating success or validity
-- `postprocess()`: Performs postprocess operation as part of the component's functionality
-- `reset_impl()`: Performs reset_impl operation as part of the component's functionality
-- `active_impl()`: Evaluates conditions and returns boolean indicating success or validity
-- `postprocess_impl()`: Performs postprocess_impl operation as part of the component's functionality
-- `get_opt()`: Pobiera _opt ze stanu wewnętrznego lub struktury danych
-- `extract()`: Performs extract operation as part of the component's functionality
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
+- `reset()`: ---------------------------------------------------------------------------- applied to all args applied to all args left to right
+- `active()`: ---------------------------------------------------------------------------- applied to all args applied to all args left to right
+- `postprocess()`: Implements postprocess functionality
+- `reset_impl()`: Implements reset_impl functionality
+- `active_impl()`: Implements active_impl functionality
+- `postprocess_impl()`: Implements postprocess_impl functionality
+- `get_opt()`: Retrieves _opt from current context or object state
+- `extract()`: Implements extract functionality
+- `get()`: Implements get functionality
 ### Przestrzenie nazw
 - `detail`
 ### Podsumowanie

@@ -4,7 +4,7 @@
 This file implements functionality related to: Стандартные заголовки
 Main functional areas: core functionality
 ### Key Functions
-- `static_assert()`: Performs static_assert operation as part of the component's functionality
+- `static_assert()`: Implements static_assert functionality
 ### Namespaces
 - `features`
 - `literals`
@@ -19,7 +19,7 @@ The `headers.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Стандартные заголовки
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `static_assert()`: Performs static_assert operation as part of the component's functionality
+- `static_assert()`: Implements static_assert functionality
 ### Przestrzenie nazw
 - `features`
 - `literals`

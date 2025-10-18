@@ -4,18 +4,18 @@
 This file implements functionality related to: This software is provided 'as-is', without any express or implied
 Main functional areas: core functionality
 ### Key Classes
-- `Entity`: Performs Entity operation as part of the component's functionality
+- `Entity`: Implements Entity functionality
 ### Key Functions
-- `_snprintf_s()`: Performs _snprintf_s operation as part of the component's functionality
-- `TIXML_SNPRINTF()`: Performs TIXML_SNPRINTF operation as part of the component's functionality
-- `TIXML_VSNPRINTF()`: Performs TIXML_VSNPRINTF operation as part of the component's functionality
-- `TIXML_VSCPRINTF()`: Allocates memory and initializes resources for TIXML_VSCPRINTF
-- `ConvertUTF32ToUTF8()`: Converts data from one format or type to another
-- `InsertEndChild()`: Performs InsertEndChild operation as part of the component's functionality
-- `tracker()`: Performs tracker operation as part of the component's functionality
-- `ClearError()`: Clears all data and resets to initial empty state
-- `callfopen()`: Constructor that initializes callfopen object with provided parameters
-- `SetError()`: Updates Error in internal state or configuration
+- `_snprintf_s()`: Microsoft Visual Studio, version 2005 and higher
+- `TIXML_SNPRINTF()`: Implements TIXML_SNPRINTF functionality
+- `TIXML_VSNPRINTF()`: Implements TIXML_VSNPRINTF functionality
+- `TIXML_VSCPRINTF()`: Implements TIXML_VSCPRINTF functionality
+- `ConvertUTF32ToUTF8()`: This code won't convert this correctly anyway
+- `InsertEndChild()`: Iterates through collection and processes each element, storing results
+- `tracker()`: Implements tracker functionality
+- `ClearError()`: Implements ClearError functionality
+- `callfopen()`: Implements callfopen functionality
+- `SetError()`: Declarations are only allowed at document level // Multiple declarations are allowed but all declarations must occur before anything else
 ### Namespaces
 - `tinyxml2`
 ### Summary
@@ -28,18 +28,18 @@ The `tinyxml2.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: This software is provided 'as-is', without any express or implied
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `Entity`: Performs Entity operation as part of the component's functionality
+- `Entity`: Implements Entity functionality
 ### Kluczowe Funkcje
-- `_snprintf_s()`: Performs _snprintf_s operation as part of the component's functionality
-- `TIXML_SNPRINTF()`: Performs TIXML_SNPRINTF operation as part of the component's functionality
-- `TIXML_VSNPRINTF()`: Performs TIXML_VSNPRINTF operation as part of the component's functionality
-- `TIXML_VSCPRINTF()`: Allocates memory and initializes resources for TIXML_VSCPRINTF
-- `ConvertUTF32ToUTF8()`: Konwertuje dane z jednego formatu lub typu do innego
-- `InsertEndChild()`: Performs InsertEndChild operation as part of the component's functionality
-- `tracker()`: Performs tracker operation as part of the component's functionality
-- `ClearError()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
-- `callfopen()`: Konstruktor inicjalizujący callfopen obiekt z dostarczonymi parametrami
-- `SetError()`: Aktualizuje Error w stanie wewnętrznym lub konfiguracji
+- `_snprintf_s()`: Microsoft Visual Studio, version 2005 and higher
+- `TIXML_SNPRINTF()`: Implements TIXML_SNPRINTF functionality
+- `TIXML_VSNPRINTF()`: Implements TIXML_VSNPRINTF functionality
+- `TIXML_VSCPRINTF()`: Implements TIXML_VSCPRINTF functionality
+- `ConvertUTF32ToUTF8()`: This code won't convert this correctly anyway
+- `InsertEndChild()`: Iterates through collection and processes each element, storing results
+- `tracker()`: Implements tracker functionality
+- `ClearError()`: Implements ClearError functionality
+- `callfopen()`: Implements callfopen functionality
+- `SetError()`: Declarations are only allowed at document level // Multiple declarations are allowed but all declarations must occur before anything else
 ### Przestrzenie nazw
 - `tinyxml2`
 ### Podsumowanie

@@ -4,9 +4,9 @@
 This file implements functionality related to: Обработать имя файла: сравнить с маской, масками, сгенерировать по маске
 Main functional areas: core functionality
 ### Key Functions
-- `ConvertWildcards()`: Converts data from one format or type to another
-- `CmpName()`: Performs CmpName operation as part of the component's functionality
-- `exclude_sets()`: Performs exclude_sets operation as part of the component's functionality
+- `ConvertWildcards()`: Implements ConvertWildcards functionality
+- `CmpName()`: обработать имя файла: сравнить с маской, масками, сгенерировать по маске PROCESSNAME_HPP_8DEB440D_A0C0_40CB_9960_AF2BCD568A88
+- `exclude_sets()`: Implements exclude_sets functionality
 ### Summary
 The `processname.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
 
@@ -17,8 +17,8 @@ The `processname.hpp` file provides essential functionality for core functionali
 Ten plik implementuje funkcjonalność związaną z: Обработать имя файла: сравнить с маской, масками, сгенерировать по маске
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `ConvertWildcards()`: Konwertuje dane z jednego formatu lub typu do innego
-- `CmpName()`: Performs CmpName operation as part of the component's functionality
-- `exclude_sets()`: Performs exclude_sets operation as part of the component's functionality
+- `ConvertWildcards()`: Implements ConvertWildcards functionality
+- `CmpName()`: обработать имя файла: сравнить с маской, масками, сгенерировать по маске PROCESSNAME_HPP_8DEB440D_A0C0_40CB_9960_AF2BCD568A88
+- `exclude_sets()`: Implements exclude_sets functionality
 ### Podsumowanie
 Plik `processname.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.

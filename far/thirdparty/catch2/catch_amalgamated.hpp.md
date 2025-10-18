@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `AnsiSkippingString`: Performs AnsiSkippingString operation as part of the component's functionality
-- `Approx`: Performs Approx operation as part of the component's functionality
-- `Arg`: Performs Arg operation as part of the component's functionality
-- `Args`: Performs Args operation as part of the component's functionality
-- `AssertionHandler`: Callback function that handles specific events or notifications
-- `AssertionInfo`: Performs AssertionInfo operation as part of the component's functionality
-- `AssertionOrBenchmarkResult`: Performs AssertionOrBenchmarkResult operation as part of the component's functionality
-- `AssertionReaction`: Performs AssertionReaction operation as part of the component's functionality
-- `AssertionResult`: Performs AssertionResult operation as part of the component's functionality
-- `AssertionResultData`: Performs AssertionResultData operation as part of the component's functionality
+- `AnsiSkippingString`: Implements AnsiSkippingString functionality
+- `Approx`: Implements Approx functionality
+- `Arg`: Implements Arg functionality
+- `Args`: Helper constructor for testing Convenience wrapper for option parser that specifies the help option Result type for parser operation
+- `AssertionHandler`: ////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////
+- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED AssertionInfo() = delete; end namespace Catch CATCH_ASSERTION_INFO_HPP_INCLUDED
+- `AssertionOrBenchmarkResult`: Implements AssertionOrBenchmarkResult functionality
+- `AssertionReaction`: Implements AssertionReaction functionality
+- `AssertionResult`: Implements AssertionResult functionality
+- `AssertionResultData`: Implements AssertionResultData functionality
 ### Key Functions
-- `getCurrentMutableContext()`: Retrieves CurrentMutableContext from internal state or data structure
-- `getCurrentContext()`: Retrieves CurrentContext from internal state or data structure
-- `createContext()`: Creates and initializes new Context instance
-- `cleanUpContext()`: Performs cleanUpContext operation as part of the component's functionality
-- `getResultCapture()`: Retrieves ResultCapture from internal state or data structure
-- `getConfig()`: Retrieves Config from internal state or data structure
-- `setResultCapture()`: Updates ResultCapture in internal state or configuration
-- `setConfig()`: Updates Config in internal state or configuration
-- `sharedRng()`: Constructor that initializes sharedRng object with provided parameters
-- `throw_test_failure_exception()`: Performs throw_test_failure_exception operation as part of the component's functionality
+- `getCurrentMutableContext()`: Retrieves CurrentMutableContext from current context or object state
+- `getCurrentContext()`: Retrieves CurrentContext from current context or object state
+- `createContext()`: Creates and initializes new object or resource instance
+- `cleanUpContext()`: Implements cleanUpContext functionality
+- `getResultCapture()`: Retrieves ResultCapture from current context or object state
+- `getConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
+- `setResultCapture()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
+- `setConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
+- `sharedRng()`: Implements sharedRng functionality
+- `throw_test_failure_exception()`: Implements throw_test_failure_exception functionality
 ### Namespaces
 - `Benchmark`
 - `Catch`
@@ -49,27 +49,27 @@ The `catch_amalgamated.hpp` file provides essential functionality for singleton 
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `AnsiSkippingString`: Implementuje implementacja singletona
-- `Approx`: Implementuje implementacja singletona
-- `Arg`: Implementuje implementacja singletona
-- `Args`: Implementuje implementacja singletona
-- `AssertionHandler`: Implementuje implementacja singletona
-- `AssertionInfo`: Implementuje implementacja singletona
-- `AssertionOrBenchmarkResult`: Implementuje implementacja singletona
-- `AssertionReaction`: Implementuje implementacja singletona
-- `AssertionResult`: Implementuje implementacja singletona
-- `AssertionResultData`: Implementuje implementacja singletona
+- `AnsiSkippingString`: Implements AnsiSkippingString functionality
+- `Approx`: Implements Approx functionality
+- `Arg`: Implements Arg functionality
+- `Args`: Helper constructor for testing Convenience wrapper for option parser that specifies the help option Result type for parser operation
+- `AssertionHandler`: ////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////
+- `AssertionInfo`: CATCH_SOURCE_LINE_INFO_HPP_INCLUDED AssertionInfo() = delete; end namespace Catch CATCH_ASSERTION_INFO_HPP_INCLUDED
+- `AssertionOrBenchmarkResult`: Implements AssertionOrBenchmarkResult functionality
+- `AssertionReaction`: Implements AssertionReaction functionality
+- `AssertionResult`: Implements AssertionResult functionality
+- `AssertionResultData`: Implements AssertionResultData functionality
 ### Kluczowe Funkcje
-- `getCurrentMutableContext()`: Pobiera CurrentMutableContext ze stanu wewnętrznego lub struktury danych
-- `getCurrentContext()`: Pobiera CurrentContext ze stanu wewnętrznego lub struktury danych
-- `createContext()`: Tworzy i inicjalizuje nowy Context instancję
-- `cleanUpContext()`: Wykonuje cleanUpContext operację jako część implementacja singletona
-- `getResultCapture()`: Pobiera ResultCapture ze stanu wewnętrznego lub struktury danych
-- `getConfig()`: Pobiera Config ze stanu wewnętrznego lub struktury danych
-- `setResultCapture()`: Aktualizuje ResultCapture w stanie wewnętrznym lub konfiguracji
-- `setConfig()`: Aktualizuje Config w stanie wewnętrznym lub konfiguracji
-- `sharedRng()`: Konstruktor inicjalizujący sharedRng obiekt z dostarczonymi parametrami
-- `throw_test_failure_exception()`: Wykonuje throw_test_failure_exception operację jako część implementacja singletona
+- `getCurrentMutableContext()`: Retrieves CurrentMutableContext from current context or object state
+- `getCurrentContext()`: Retrieves CurrentContext from current context or object state
+- `createContext()`: Creates and initializes new object or resource instance
+- `cleanUpContext()`: Implements cleanUpContext functionality
+- `getResultCapture()`: Retrieves ResultCapture from current context or object state
+- `getConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
+- `setResultCapture()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
+- `setConfig()`: We duplicate the logic from `getCurrentMutableContext` here, to avoid paying the call overhead in debug mode
+- `sharedRng()`: Implements sharedRng functionality
+- `throw_test_failure_exception()`: Implements throw_test_failure_exception functionality
 ### Przestrzenie nazw
 - `Benchmark`
 - `Catch`

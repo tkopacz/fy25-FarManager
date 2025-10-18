@@ -3,13 +3,13 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `expected`: Performs expected operation as part of the component's functionality
-- `unexpected`: Performs unexpected operation as part of the component's functionality
+- `expected`: Implements expected functionality
+- `unexpected`: Implements unexpected functionality
 ### Key Functions
-- `has_value()`: Tests whether _value condition is true or property exists
-- `bool()`: Evaluates conditions and returns boolean indicating success or validity
-- `value()`: Performs value operation as part of the component's functionality
-- `error()`: Validates conditions and throws exceptions when errors are detected during error operation
+- `has_value()`: Checks condition and returns boolean indicating state
+- `bool()`: Implements bool functionality
+- `value()`: Implements value functionality
+- `error()`: Implements error functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -21,13 +21,13 @@ The `expected.hpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `expected`: Performs expected operation as part of the component's functionality
-- `unexpected`: Performs unexpected operation as part of the component's functionality
+- `expected`: Implements expected functionality
+- `unexpected`: Implements unexpected functionality
 ### Kluczowe Funkcje
-- `has_value()`: Testuje czy _wartość warunek jest prawdziwy lub właściwość istnieje
-- `bool()`: Evaluates conditions and returns boolean indicating success or validity
-- `value()`: Performs value operation as part of the component's functionality
-- `error()`: Validates conditions and throws exceptions when errors are detected during error operation
+- `has_value()`: Checks condition and returns boolean indicating state
+- `bool()`: Implements bool functionality
+- `value()`: Implements value functionality
+- `error()`: Implements error functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

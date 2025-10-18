@@ -3,27 +3,27 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `IconFileEntry`: Performs IconFileEntry operation as part of the component's functionality
-- `IconFileHeader`: Performs IconFileHeader operation as part of the component's functionality
-- `IconGroupEntry`: Performs IconGroupEntry operation as part of the component's functionality
-- `IconGroupHeader`: Performs IconGroupHeader operation as part of the component's functionality
-- `IconImage`: Performs IconImage operation as part of the component's functionality
-- `IconImageRsrc`: Performs IconImageRsrc operation as part of the component's functionality
-- `IconRsrc`: Performs IconRsrc operation as part of the component's functionality
-- `IdLang`: Performs IdLang operation as part of the component's functionality
-- `ResourceUpdate`: Performs ResourceUpdate operation as part of the component's functionality
-- `RsrcId`: Performs RsrcId operation as part of the component's functionality
+- `IconFileEntry`: Implements IconFileEntry functionality
+- `IconFileHeader`: Implements IconFileHeader functionality
+- `IconGroupEntry`: Implements IconGroupEntry functionality
+- `IconGroupHeader`: Implements IconGroupHeader functionality
+- `IconImage`: Implements IconImage functionality
+- `IconImageRsrc`: Implements IconImageRsrc functionality
+- `IconRsrc`: Implements IconRsrc functionality
+- `IdLang`: Implements IdLang functionality
+- `ResourceUpdate`: Implements ResourceUpdate functionality
+- `RsrcId`: Implements RsrcId functionality
 ### Key Functions
-- `set()`: Updates value in internal state or configuration
-- `LPCTSTR()`: Performs LPCTSTR operation as part of the component's functionality
-- `is_int()`: Tests whether _int condition is true or property exists
-- `load_icon_file()`: Loads data or resources from storage into memory
-- `file()`: Iterates through items and collects results into a container
-- `load_icon_rsrc()`: Loads data or resources from storage into memory
-- `enum_names_proc()`: Evaluates conditions and returns a boolean indicating success or validity of enum_names_proc
-- `enum_langs_proc()`: Evaluates conditions and returns a boolean indicating success or validity of enum_langs_proc
-- `handle()`: Handles event by executing appropriate response logic
-- `close()`: Closes resource and performs cleanup operations
+- `set()`: Implements set functionality
+- `LPCTSTR()`: Reserved (must be 0) Resource Type (1 for icons)
+- `is_int()`: Reserved (must be 0) Resource Type (1 for icons)
+- `load_icon_file()`: Iterates through collection and processes each element, storing results
+- `file()`: Iterates through collection and processes each element, storing results
+- `load_icon_rsrc()`: Iterates through collection and processes each element, storing results
+- `enum_names_proc()`: Implements enum_names_proc functionality
+- `enum_langs_proc()`: Implements enum_langs_proc functionality
+- `handle()`: Implements handle functionality
+- `close()`: Implements close functionality
 ### Summary
 The `rsrc.cpp` file provides essential functionality for core functionality. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -33,26 +33,26 @@ The `rsrc.cpp` file provides essential functionality for core functionality. It 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `IconFileEntry`: Performs IconFileEntry operation as part of the component's functionality
-- `IconFileHeader`: Performs IconFileHeader operation as part of the component's functionality
-- `IconGroupEntry`: Performs IconGroupEntry operation as part of the component's functionality
-- `IconGroupHeader`: Performs IconGroupHeader operation as part of the component's functionality
-- `IconImage`: Performs IconImage operation as part of the component's functionality
-- `IconImageRsrc`: Performs IconImageRsrc operation as part of the component's functionality
-- `IconRsrc`: Performs IconRsrc operation as part of the component's functionality
-- `IdLang`: Performs IdLang operation as part of the component's functionality
-- `ResourceUpdate`: Performs ResourceUpdate operation as part of the component's functionality
-- `RsrcId`: Performs RsrcId operation as part of the component's functionality
+- `IconFileEntry`: Implements IconFileEntry functionality
+- `IconFileHeader`: Implements IconFileHeader functionality
+- `IconGroupEntry`: Implements IconGroupEntry functionality
+- `IconGroupHeader`: Implements IconGroupHeader functionality
+- `IconImage`: Implements IconImage functionality
+- `IconImageRsrc`: Implements IconImageRsrc functionality
+- `IconRsrc`: Implements IconRsrc functionality
+- `IdLang`: Implements IdLang functionality
+- `ResourceUpdate`: Implements ResourceUpdate functionality
+- `RsrcId`: Implements RsrcId functionality
 ### Kluczowe Funkcje
-- `set()`: Aktualizuje wartość w stanie wewnętrznym lub konfiguracji
-- `LPCTSTR()`: Performs LPCTSTR operation as part of the component's functionality
-- `is_int()`: Testuje czy _int warunek jest prawdziwy lub właściwość istnieje
-- `load_icon_file()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `file()`: Iterates through items and collects results into a container
-- `load_icon_rsrc()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `enum_names_proc()`: Evaluates conditions and returns a boolean indicating success or validity of enum_names_proc
-- `enum_langs_proc()`: Evaluates conditions and returns a boolean indicating success or validity of enum_langs_proc
-- `handle()`: Obsługuje zdarzenie wykonując odpowiednią logikę odpowiedzi
-- `close()`: Zamyka zasób i wykonuje operacje czyszczące
+- `set()`: Implements set functionality
+- `LPCTSTR()`: Reserved (must be 0) Resource Type (1 for icons)
+- `is_int()`: Reserved (must be 0) Resource Type (1 for icons)
+- `load_icon_file()`: Iterates through collection and processes each element, storing results
+- `file()`: Iterates through collection and processes each element, storing results
+- `load_icon_rsrc()`: Iterates through collection and processes each element, storing results
+- `enum_names_proc()`: Implements enum_names_proc functionality
+- `enum_langs_proc()`: Implements enum_langs_proc functionality
+- `handle()`: Implements handle functionality
+- `close()`: Implements close functionality
 ### Podsumowanie
 Plik `rsrc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,20 +4,20 @@
 This file implements functionality related to: Файловый фильтр
 Main functional areas: file system operations
 ### Key Classes
-- `filter_area`: Performs filter_area operation as part of the component's functionality
-- `filter_result`: Performs filter_result operation as part of the component's functionality
-- `multifilter`: Performs multifilter operation as part of the component's functionality
+- `filter_area`: Implements filter_area functionality
+- `filter_result`: Implements filter_result functionality
+- `multifilter`: Implements multifilter functionality
 ### Key Functions
-- `bool()`: Performs bool operation as part of the component's functionality
-- `UpdateCurrentTime()`: Updates existing data with new values while preserving structure
-- `FileInFilterEx()`: Performs FileInFilterEx operation as part of the component's functionality
-- `FileInFilter()`: Performs FileInFilter operation as part of the component's functionality
-- `IsEnabledOnPanel()`: Tests whether EnabledOnPanel condition is true or property exists
-- `area()`: Performs area operation as part of the component's functionality
-- `panel()`: Constructor that initializes panel object with provided parameters
-- `should_include_folders_by_default()`: Performs should_include_folders_by_default operation as part of the component's functionality
-- `LoadFilter()`: Loads data or resources from storage into memory
-- `SaveFilter()`: Saves current state or data to persistent storage
+- `bool()`: Implements bool functionality
+- `UpdateCurrentTime()`: Updates existing state with new values
+- `FileInFilterEx()`: Implements FileInFilterEx functionality
+- `FileInFilter()`: Implements FileInFilter functionality
+- `IsEnabledOnPanel()`: Checks condition and returns boolean indicating state
+- `area()`: Implements area functionality
+- `panel()`: Implements panel functionality
+- `should_include_folders_by_default()`: Implements should_include_folders_by_default functionality
+- `LoadFilter()`: Implements LoadFilter functionality
+- `SaveFilter()`: Implements SaveFilter functionality
 ### Namespaces
 - `filters`
 ### Summary
@@ -30,20 +30,20 @@ The `filefilter.hpp` file provides essential functionality for file system opera
 Ten plik implementuje funkcjonalność związaną z: Файловый фильтр
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Klasy
-- `filter_area`: Implementuje operacje systemu plików
-- `filter_result`: Implementuje operacje systemu plików
-- `multifilter`: Implementuje operacje systemu plików
+- `filter_area`: Implements filter_area functionality
+- `filter_result`: Implements filter_result functionality
+- `multifilter`: Implements multifilter functionality
 ### Kluczowe Funkcje
-- `bool()`: Wykonuje bool operację jako część operacje systemu plików
-- `UpdateCurrentTime()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `FileInFilterEx()`: Wykonuje FileInFilterEx operację jako część operacje systemu plików
-- `FileInFilter()`: Wykonuje FileInFilter operację jako część operacje systemu plików
-- `IsEnabledOnPanel()`: Testuje czy EnabledOnPanel warunek jest prawdziwy lub właściwość istnieje
-- `area()`: Wykonuje area operację jako część operacje systemu plików
-- `panel()`: Konstruktor inicjalizujący panel obiekt z dostarczonymi parametrami
-- `should_include_folders_by_default()`: Wykonuje should_include_folders_by_default operację jako część operacje systemu plików
-- `LoadFilter()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `SaveFilter()`: Zapisuje bieżący stan lub dane do trwałego magazynu
+- `bool()`: Implements bool functionality
+- `UpdateCurrentTime()`: Updates existing state with new values
+- `FileInFilterEx()`: Implements FileInFilterEx functionality
+- `FileInFilter()`: Implements FileInFilter functionality
+- `IsEnabledOnPanel()`: Checks condition and returns boolean indicating state
+- `area()`: Implements area functionality
+- `panel()`: Implements panel functionality
+- `should_include_folders_by_default()`: Implements should_include_folders_by_default functionality
+- `LoadFilter()`: Implements LoadFilter functionality
+- `SaveFilter()`: Implements SaveFilter functionality
 ### Przestrzenie nazw
 - `filters`
 ### Podsumowanie

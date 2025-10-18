@@ -3,11 +3,11 @@
 ### Purpose
 Main functional areas: file system operations
 ### Key Functions
-- `UType2Str()`: Performs UType2Str operation as part of the component's functionality
-- `Str2UType()`: Performs Str2UType operation as part of the component's functionality
-- `GetOtherPath()`: Retrieves OtherPath from internal state or data structure
-- `FMSG()`: Performs FMSG operation as part of the component's functionality
-- `SayOutError()`: Performs SayOutError operation as part of the component's functionality
+- `UType2Str()`: ------------------------------------------------------------------------ ------------------------------------------------------------------------
+- `Str2UType()`: Processes input by dispatching to different code paths based on type or value
+- `GetOtherPath()`: Processes input by dispatching to different code paths based on type or value
+- `FMSG()`: Processes input by dispatching to different code paths based on type or value
+- `SayOutError()`: Processes input by dispatching to different code paths based on type or value
 ### Summary
 The `FileList.cpp` file provides essential functionality for file system operations. and contains approximately 5 function(s) to support the Far Manager file manager operations.
 
@@ -17,10 +17,10 @@ The `FileList.cpp` file provides essential functionality for file system operati
 ### Cel
 Główne obszary funkcjonalne: operacje systemu plików
 ### Kluczowe Funkcje
-- `UType2Str()`: Wykonuje UType2Str operację jako część operacje systemu plików
-- `Str2UType()`: Wykonuje Str2UType operację jako część operacje systemu plików
-- `GetOtherPath()`: Pobiera OtherPath ze stanu wewnętrznego lub struktury danych
-- `FMSG()`: Wykonuje FMSG operację jako część operacje systemu plików
-- `SayOutError()`: Wykonuje SayOutError operację jako część operacje systemu plików
+- `UType2Str()`: ------------------------------------------------------------------------ ------------------------------------------------------------------------
+- `Str2UType()`: Processes input by dispatching to different code paths based on type or value
+- `GetOtherPath()`: Processes input by dispatching to different code paths based on type or value
+- `FMSG()`: Processes input by dispatching to different code paths based on type or value
+- `SayOutError()`: Processes input by dispatching to different code paths based on type or value
 ### Podsumowanie
 Plik `FileList.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.

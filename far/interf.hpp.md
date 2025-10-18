@@ -4,24 +4,24 @@
 This file implements functionality related to: Консольные функции ввода-вывода
 Main functional areas: singleton implementation
 ### Key Classes
-- `FAR_CHAR_INFO`: Performs FAR_CHAR_INFO operation as part of the component's functionality
-- `FarColor`: Performs FarColor operation as part of the component's functionality
-- `consoleicons`: Performs consoleicons operation as part of the component's functionality
-- `icon`: Performs icon operation as part of the component's functionality
-- `line_type`: Performs line_type operation as part of the component's functionality
-- `lng`: Performs lng operation as part of the component's functionality
-- `position_parser_state`: Performs position_parser_state operation as part of the component's functionality
+- `FAR_CHAR_INFO`: Implements FAR_CHAR_INFO functionality
+- `FarColor`: Implements FarColor functionality
+- `consoleicons`: Implements consoleicons functionality
+- `icon`: Implements icon functionality
+- `line_type`: Implements line_type functionality
+- `lng`: Implements lng functionality
+- `position_parser_state`: Implements position_parser_state functionality
 ### Key Functions
-- `ShowTime()`: Displays content or makes visual element visible on screen
-- `InitConsole()`: Initializes data structures and sets up initial state for operation
-- `CloseConsole()`: Closes resource and performs cleanup operations
-- `SetFarConsoleMode()`: Updates FarConsoleMode in internal state or configuration
-- `ChangeConsoleMode()`: Performs ChangeConsoleMode operation as part of the component's functionality
-- `FlushInputBuffer()`: Performs FlushInputBuffer operation as part of the component's functionality
-- `SetVideoMode()`: Updates VideoMode in internal state or configuration
-- `ChangeVideoMode()`: Performs ChangeVideoMode operation as part of the component's functionality
-- `UpdateScreenSize()`: Updates existing data with new values while preserving structure
-- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Performs GenerateWINDOW_BUFFER_SIZE_EVENT operation as part of the component's functionality
+- `ShowTime()`: Implements ShowTime functionality
+- `InitConsole()`: Initializes component with required configuration and state
+- `CloseConsole()`: Implements CloseConsole functionality
+- `SetFarConsoleMode()`: Updates FarConsoleMode with provided value and validates constraints
+- `ChangeConsoleMode()`: Implements ChangeConsoleMode functionality
+- `FlushInputBuffer()`: Implements FlushInputBuffer functionality
+- `SetVideoMode()`: Updates VideoMode with provided value and validates constraints
+- `ChangeVideoMode()`: Implements ChangeVideoMode functionality
+- `UpdateScreenSize()`: Updates existing state with new values
+- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Implements GenerateWINDOW_BUFFER_SIZE_EVENT functionality
 ### Namespaces
 - `inplace`
 ### Summary
@@ -34,24 +34,24 @@ The `interf.hpp` file provides essential functionality for singleton implementat
 Ten plik implementuje funkcjonalność związaną z: Консольные функции ввода-вывода
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `FAR_CHAR_INFO`: Implementuje implementacja singletona
-- `FarColor`: Implementuje implementacja singletona
-- `consoleicons`: Implementuje implementacja singletona
-- `icon`: Implementuje implementacja singletona
-- `line_type`: Implementuje implementacja singletona
-- `lng`: Implementuje implementacja singletona
-- `position_parser_state`: Implementuje implementacja singletona
+- `FAR_CHAR_INFO`: Implements FAR_CHAR_INFO functionality
+- `FarColor`: Implements FarColor functionality
+- `consoleicons`: Implements consoleicons functionality
+- `icon`: Implements icon functionality
+- `line_type`: Implements line_type functionality
+- `lng`: Implements lng functionality
+- `position_parser_state`: Implements position_parser_state functionality
 ### Kluczowe Funkcje
-- `ShowTime()`: Wyświetla zawartość lub czyni element wizualny widocznym na ekranie
-- `InitConsole()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `CloseConsole()`: Zamyka zasób i wykonuje operacje czyszczące
-- `SetFarConsoleMode()`: Aktualizuje FarConsoleMode w stanie wewnętrznym lub konfiguracji
-- `ChangeConsoleMode()`: Wykonuje ChangeConsoleMode operację jako część implementacja singletona
-- `FlushInputBuffer()`: Wykonuje FlushInputBuffer operację jako część implementacja singletona
-- `SetVideoMode()`: Aktualizuje VideoMode w stanie wewnętrznym lub konfiguracji
-- `ChangeVideoMode()`: Wykonuje ChangeVideoMode operację jako część implementacja singletona
-- `UpdateScreenSize()`: Aktualizuje istniejące dane nowymi wartościami zachowując strukturę
-- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Wykonuje GenerateWINDOW_BUFFER_SIZE_EVENT operację jako część implementacja singletona
+- `ShowTime()`: Implements ShowTime functionality
+- `InitConsole()`: Initializes component with required configuration and state
+- `CloseConsole()`: Implements CloseConsole functionality
+- `SetFarConsoleMode()`: Updates FarConsoleMode with provided value and validates constraints
+- `ChangeConsoleMode()`: Implements ChangeConsoleMode functionality
+- `FlushInputBuffer()`: Implements FlushInputBuffer functionality
+- `SetVideoMode()`: Updates VideoMode with provided value and validates constraints
+- `ChangeVideoMode()`: Implements ChangeVideoMode functionality
+- `UpdateScreenSize()`: Updates existing state with new values
+- `GenerateWINDOW_BUFFER_SIZE_EVENT()`: Implements GenerateWINDOW_BUFFER_SIZE_EVENT functionality
 ### Przestrzenie nazw
 - `inplace`
 ### Podsumowanie

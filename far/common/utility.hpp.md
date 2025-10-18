@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `base`: Performs base operation as part of the component's functionality
+- `base`: Implements base functionality
 ### Key Functions
-- `grow_exp()`: Allocates memory and initializes resources for grow_exp
-- `reserve_exp()`: Performs reserve_exp operation as part of the component's functionality
-- `resize_exp()`: Adjusts size or capacity of buffer or container
-- `clear_and_shrink()`: Clears all data and resets to initial empty state
-- `node_swap()`: Performs node_swap operation as part of the component's functionality
-- `make_hash()`: Performs make_hash operation as part of the component's functionality
-- `hash_combine()`: Tests whether h_combine condition is true or property exists
-- `hash_combine_all()`: Tests whether h_combine_all condition is true or property exists
-- `hash_range()`: Tests whether h_range condition is true or property exists
-- `as_signed()`: Performs as_signed operation as part of the component's functionality
+- `grow_exp()`: Implements grow_exp functionality
+- `reserve_exp()`: Implements reserve_exp functionality
+- `resize_exp()`: Implements resize_exp functionality
+- `clear_and_shrink()`: Implements clear_and_shrink functionality
+- `node_swap()`: Implements node_swap functionality
+- `make_hash()`: Implements make_hash functionality
+- `hash_combine()`: Checks condition and returns boolean indicating state
+- `hash_combine_all()`: Checks condition and returns boolean indicating state
+- `hash_range()`: Checks condition and returns boolean indicating state
+- `as_signed()`: Implements as_signed functionality
 ### Namespaces
 - `detail`
 - `enum_helpers`
@@ -28,18 +28,18 @@ The `utility.hpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `base`: Performs base operation as part of the component's functionality
+- `base`: Implements base functionality
 ### Kluczowe Funkcje
-- `grow_exp()`: Allocates memory and initializes resources for grow_exp
-- `reserve_exp()`: Performs reserve_exp operation as part of the component's functionality
-- `resize_exp()`: Zmienia wymiary rozmiaru zachowując zawartość gdy to możliwe
-- `clear_and_shrink()`: Czyści wszystkie dane i resetuje do początkowego pustego stanu
-- `node_swap()`: Performs node_swap operation as part of the component's functionality
-- `make_hash()`: Performs make_hash operation as part of the component's functionality
-- `hash_combine()`: Testuje czy h_combine warunek jest prawdziwy lub właściwość istnieje
-- `hash_combine_all()`: Testuje czy h_combine_all warunek jest prawdziwy lub właściwość istnieje
-- `hash_range()`: Testuje czy h_range warunek jest prawdziwy lub właściwość istnieje
-- `as_signed()`: Performs as_signed operation as part of the component's functionality
+- `grow_exp()`: Implements grow_exp functionality
+- `reserve_exp()`: Implements reserve_exp functionality
+- `resize_exp()`: Implements resize_exp functionality
+- `clear_and_shrink()`: Implements clear_and_shrink functionality
+- `node_swap()`: Implements node_swap functionality
+- `make_hash()`: Implements make_hash functionality
+- `hash_combine()`: Checks condition and returns boolean indicating state
+- `hash_combine_all()`: Checks condition and returns boolean indicating state
+- `hash_range()`: Checks condition and returns boolean indicating state
+- `as_signed()`: Implements as_signed functionality
 ### Przestrzenie nazw
 - `detail`
 - `enum_helpers`

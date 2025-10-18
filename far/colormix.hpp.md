@@ -4,23 +4,23 @@
 This file implements functionality related to: Работа с цветами
 Main functional areas: color management
 ### Key Classes
-- `FarColor`: Performs FarColor operation as part of the component's functionality
-- `index_color_256`: Performs index_color_256 operation as part of the component's functionality
-- `rgb6`: Performs rgb6 operation as part of the component's functionality
-- `rgba`: Performs rgba operation as part of the component's functionality
-- `single_color`: Performs single_color operation as part of the component's functionality
-- `std`: Performs std operation as part of the component's functionality
+- `FarColor`: Implements FarColor functionality
+- `index_color_256`: Implements index_color_256 functionality
+- `rgb6`: Implements rgb6 functionality
+- `rgba`: Implements rgba functionality
+- `single_color`: Implements single_color functionality
+- `std`: Implements std functionality
 ### Key Functions
-- `foreground()`: Performs foreground operation as part of the component's functionality
-- `background()`: Performs background operation as part of the component's functionality
-- `underline()`: Performs underline operation as part of the component's functionality
-- `default_color()`: Performs default_color operation as part of the component's functionality
-- `index_bits()`: Performs index_bits operation as part of the component's functionality
-- `color_bits()`: Performs color_bits operation as part of the component's functionality
-- `alpha_bits()`: Performs alpha_bits operation as part of the component's functionality
-- `index_value()`: Performs index_value operation as part of the component's functionality
-- `color_value()`: Performs color_value operation as part of the component's functionality
-- `alpha_value()`: Performs alpha_value operation as part of the component's functionality
+- `foreground()`: Implements foreground functionality
+- `background()`: Implements background functionality
+- `underline()`: Implements underline functionality
+- `default_color()`: Implements default_color functionality
+- `index_bits()`: Implements index_bits functionality
+- `color_bits()`: Implements color_bits functionality
+- `alpha_bits()`: Implements alpha_bits functionality
+- `index_value()`: Implements index_value functionality
+- `color_value()`: Implements color_value functionality
+- `alpha_value()`: Implements alpha_value functionality
 ### Namespaces
 - `colors`
 - `index`
@@ -34,23 +34,23 @@ The `colormix.hpp` file provides essential functionality for color management. I
 Ten plik implementuje funkcjonalność związaną z: Работа с цветами
 Główne obszary funkcjonalne: zarządzanie kolorami
 ### Kluczowe Klasy
-- `FarColor`: Implementuje zarządzanie kolorami
-- `index_color_256`: Implementuje zarządzanie kolorami
-- `rgb6`: Implementuje zarządzanie kolorami
-- `rgba`: Implementuje zarządzanie kolorami
-- `single_color`: Implementuje zarządzanie kolorami
-- `std`: Implementuje zarządzanie kolorami
+- `FarColor`: Implements FarColor functionality
+- `index_color_256`: Implements index_color_256 functionality
+- `rgb6`: Implements rgb6 functionality
+- `rgba`: Implements rgba functionality
+- `single_color`: Implements single_color functionality
+- `std`: Implements std functionality
 ### Kluczowe Funkcje
-- `foreground()`: Wykonuje foreground operację jako część zarządzanie kolorami
-- `background()`: Wykonuje background operację jako część zarządzanie kolorami
-- `underline()`: Wykonuje underline operację jako część zarządzanie kolorami
-- `default_color()`: Wykonuje default_color operację jako część zarządzanie kolorami
-- `index_bits()`: Wykonuje index_bits operację jako część zarządzanie kolorami
-- `color_bits()`: Wykonuje color_bits operację jako część zarządzanie kolorami
-- `alpha_bits()`: Wykonuje alpha_bits operację jako część zarządzanie kolorami
-- `index_value()`: Wykonuje index_wartość operację jako część zarządzanie kolorami
-- `color_value()`: Wykonuje color_wartość operację jako część zarządzanie kolorami
-- `alpha_value()`: Wykonuje alpha_wartość operację jako część zarządzanie kolorami
+- `foreground()`: Implements foreground functionality
+- `background()`: Implements background functionality
+- `underline()`: Implements underline functionality
+- `default_color()`: Implements default_color functionality
+- `index_bits()`: Implements index_bits functionality
+- `color_bits()`: Implements color_bits functionality
+- `alpha_bits()`: Implements alpha_bits functionality
+- `index_value()`: Implements index_value functionality
+- `color_value()`: Implements color_value functionality
+- `alpha_value()`: Implements alpha_value functionality
 ### Przestrzenie nazw
 - `colors`
 - `index`

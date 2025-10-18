@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `repeat()`: Performs repeat operation as part of the component's functionality
+- `repeat()`: Implements repeat functionality
 - `apply_permutation()`: Validates conditions and throws exceptions when errors are detected during apply_permutation operation
-- `emplace()`: Performs emplace operation as part of the component's functionality
-- `contains()`: Evaluates conditions and returns boolean indicating success or validity
-- `in_closed_range()`: Evaluates conditions and returns boolean indicating success or validity
-- `any_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `none_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `intersect()`: Performs intersect operation as part of the component's functionality
+- `emplace()`: Unified container emplace uniform "contains"
+- `contains()`: uniform "contains" everything else
+- `in_closed_range()`: Implements in_closed_range functionality
+- `any_of()`: Implements any_of functionality
+- `none_of()`: Implements none_of functionality
+- `intersect()`: Implements intersect functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -22,14 +22,14 @@ The `algorithm.hpp` file provides essential functionality for core functionality
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `repeat()`: Performs repeat operation as part of the component's functionality
+- `repeat()`: Implements repeat functionality
 - `apply_permutation()`: Validates conditions and throws exceptions when errors are detected during apply_permutation operation
-- `emplace()`: Performs emplace operation as part of the component's functionality
-- `contains()`: Evaluates conditions and returns boolean indicating success or validity
-- `in_closed_range()`: Evaluates conditions and returns boolean indicating success or validity
-- `any_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `none_of()`: Evaluates conditions and returns boolean indicating success or validity
-- `intersect()`: Performs intersect operation as part of the component's functionality
+- `emplace()`: Unified container emplace uniform "contains"
+- `contains()`: uniform "contains" everything else
+- `in_closed_range()`: Implements in_closed_range functionality
+- `any_of()`: Implements any_of functionality
+- `none_of()`: Implements none_of functionality
+- `intersect()`: Implements intersect functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

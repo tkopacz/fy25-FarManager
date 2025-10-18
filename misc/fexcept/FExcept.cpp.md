@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `LOpen()`: Evaluates conditions and returns a boolean indicating success or validity of LOpen
-- `idOutProc()`: Performs idOutProc operation as part of the component's functionality
-- `idOutProcA()`: Performs idOutProcA operation as part of the component's functionality
-- `SError()`: Performs SError operation as part of the component's functionality
+- `LOpen()`: Implements LOpen functionality
+- `idOutProc()`: Implements idOutProc functionality
+- `idOutProcA()`: Implements idOutProcA functionality
+- `SError()`: Implements SError functionality
 - `ExceptionProcINT()`: Validates conditions and throws exceptions when errors are detected during ExceptionProcINT operation
-- `_tcscpy()`: Performs _tcscpy operation as part of the component's functionality
-- `fclose()`: Performs fclose operation as part of the component's functionality
-- `ExceptionProc()`: Validates conditions and throws exceptions when errors are detected during ExceptionProc operation
-- `DllEntryPoint()`: Evaluates conditions and returns a boolean indicating success or validity of DllEntryPoint
-- `DllMain()`: Evaluates conditions and returns a boolean indicating success or validity of DllMain
+- `_tcscpy()`: Implements _tcscpy functionality
+- `fclose()`: Implements fclose functionality
+- `ExceptionProc()`: Handles unhandled exceptions by logging crash information and generating diagnostic reports
+- `DllEntryPoint()`: DLL entry point that handles process and thread attach/detach notifications and performs initialization
+- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications and performs initialization
 ### Summary
 The `FExcept.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `FExcept.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `LOpen()`: Evaluates conditions and returns a boolean indicating success or validity of LOpen
-- `idOutProc()`: Performs idOutProc operation as part of the component's functionality
-- `idOutProcA()`: Performs idOutProcA operation as part of the component's functionality
-- `SError()`: Performs SError operation as part of the component's functionality
+- `LOpen()`: Implements LOpen functionality
+- `idOutProc()`: Implements idOutProc functionality
+- `idOutProcA()`: Implements idOutProcA functionality
+- `SError()`: Implements SError functionality
 - `ExceptionProcINT()`: Validates conditions and throws exceptions when errors are detected during ExceptionProcINT operation
-- `_tcscpy()`: Performs _tcscpy operation as part of the component's functionality
-- `fclose()`: Performs fclose operation as part of the component's functionality
-- `ExceptionProc()`: Validates conditions and throws exceptions when errors are detected during ExceptionProc operation
-- `DllEntryPoint()`: Evaluates conditions and returns a boolean indicating success or validity of DllEntryPoint
-- `DllMain()`: Evaluates conditions and returns a boolean indicating success or validity of DllMain
+- `_tcscpy()`: Implements _tcscpy functionality
+- `fclose()`: Implements fclose functionality
+- `ExceptionProc()`: Handles unhandled exceptions by logging crash information and generating diagnostic reports
+- `DllEntryPoint()`: DLL entry point that handles process and thread attach/detach notifications and performs initialization
+- `DllMain()`: DLL entry point that handles process and thread attach/detach notifications and performs initialization
 ### Podsumowanie
 Plik `FExcept.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,10 +4,10 @@
 This file implements functionality related to: static list of third-party components
 Main functional areas: singleton implementation
 ### Key Functions
-- `add()`: Adds new item to collection or list
-- `get()`: Retrieves value from internal state or data structure
-- `GetComponentsInfo()`: Retrieves ComponentsInfo from internal state or data structure
-- `i()`: Performs i operation as part of the component's functionality
+- `add()`: Implements add functionality
+- `get()`: Implements get functionality
+- `GetComponentsInfo()`: Iterates through collection and processes each element, storing results
+- `i()`: Iterates through collection and processes each element, storing results
 ### Namespaces
 - `components`
 ### Summary
@@ -20,10 +20,10 @@ The `components.cpp` file provides essential functionality for singleton impleme
 Ten plik implementuje funkcjonalność związaną z: static list of third-party components
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Funkcje
-- `add()`: Dodaje nowy element do kolekcji lub listy
-- `get()`: Pobiera wartość ze stanu wewnętrznego lub struktury danych
-- `GetComponentsInfo()`: Pobiera ComponentsInfo ze stanu wewnętrznego lub struktury danych
-- `i()`: Wykonuje i operację jako część implementacja singletona
+- `add()`: Implements add functionality
+- `get()`: Implements get functionality
+- `GetComponentsInfo()`: Iterates through collection and processes each element, storing results
+- `i()`: Iterates through collection and processes each element, storing results
 ### Przestrzenie nazw
 - `components`
 ### Podsumowanie

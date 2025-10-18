@@ -4,22 +4,22 @@
 This file implements functionality related to: */
 Main functional areas: clipboard operations
 ### Key Classes
-- `clip_ptr`: Performs clip_ptr operation as part of the component's functionality
-- `clipboard_format`: Performs clipboard_format operation as part of the component's functionality
-- `deleter`: Removes or deletes the specified resource or item
-- `state`: Performs state operation as part of the component's functionality
-- `unlocker`: Performs unlocker operation as part of the component's functionality
+- `clip_ptr`: Implements clip_ptr functionality
+- `clipboard_format`: Implements clipboard_format functionality
+- `deleter`: Removes or deletes specified item and releases associated resources
+- `state`: Implements state functionality
+- `unlocker`: Implements unlocker functionality
 ### Key Functions
-- `alloc()`: Performs alloc operation as part of the component's functionality
-- `lock()`: Performs lock operation as part of the component's functionality
-- `copy()`: Copies data from source to destination location
+- `alloc()`: Implements alloc functionality
+- `lock()`: Implements lock functionality
+- `copy()`: Implements copy functionality
 - `enable_ansi_to_unicode_conversion_workaround()`: Performs enable_ansi_to_unicode_conversion_workaround operation as part of the component's functionality
-- `open()`: Opens clipboard for exclusive access to perform read/write operations
-- `close()`: Closes clipboard and releases exclusive lock, making it available for other processes
-- `clear()`: Empties clipboard contents and releases associated memory
-- `set_data()`: Updates _data in internal state or configuration
-- `RegisterFormat()`: Performs RegisterFormat operation as part of the component's functionality
-- `set_text()`: Places text content into the system or internal clipboard
+- `open()`: Implements open functionality
+- `close()`: Implements close functionality
+- `clear()`: Implements clear functionality
+- `set_data()`: Updates _data with provided value
+- `RegisterFormat()`: Implements RegisterFormat functionality
+- `set_text()`: Updates _text with provided value
 ### Namespaces
 - `detail`
 - `os`
@@ -34,22 +34,22 @@ The `platform.clipboard.cpp` file provides essential functionality for clipboard
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: operacje schowka
 ### Kluczowe Klasy
-- `clip_ptr`: Implementuje operacje schowka
-- `clipboard_format`: Implementuje operacje schowka
-- `deleter`: Implementuje operacje schowka
-- `state`: Implementuje operacje schowka
-- `unlocker`: Implementuje operacje schowka
+- `clip_ptr`: Implements clip_ptr functionality
+- `clipboard_format`: Implements clipboard_format functionality
+- `deleter`: Removes or deletes specified item and releases associated resources
+- `state`: Implements state functionality
+- `unlocker`: Implements unlocker functionality
 ### Kluczowe Funkcje
-- `alloc()`: Wykonuje alloc operację jako część operacje schowka
-- `lock()`: Wykonuje lock operację jako część operacje schowka
-- `copy()`: Kopiuje dane ze źródła do miejsca docelowego
-- `enable_ansi_to_unicode_conversion_workaround()`: Wykonuje enable_ansi_to_unicode_conversion_workaround operację jako część operacje schowka
-- `open()`: Otwiera schowek dla wyłącznego dostępu aby wykonać operacje odczytu/zapisu
-- `close()`: Zamyka schowek i zwalnia wyłączną blokadę, udostępniając go innym procesom
-- `clear()`: Opróżnia zawartość schowka i zwalnia powiązaną pamięć
-- `set_data()`: Aktualizuje _dane w stanie wewnętrznym lub konfiguracji
-- `RegisterFormat()`: Wykonuje RegisterFormat operację jako część operacje schowka
-- `set_text()`: Umieszcza zawartość tekstową w schowku systemowym lub wewnętrznym
+- `alloc()`: Implements alloc functionality
+- `lock()`: Implements lock functionality
+- `copy()`: Implements copy functionality
+- `enable_ansi_to_unicode_conversion_workaround()`: Implements enable_ansi_to_unicode_conversion_workaround functionality
+- `open()`: Implements open functionality
+- `close()`: Implements close functionality
+- `clear()`: Implements clear functionality
+- `set_data()`: Updates _data with provided value
+- `RegisterFormat()`: Implements RegisterFormat functionality
+- `set_text()`: Updates _text with provided value
 ### Przestrzenie nazw
 - `detail`
 - `os`

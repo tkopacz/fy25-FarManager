@@ -4,16 +4,16 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `from_filetime()`: Performs from_filetime operation as part of the component's functionality
-- `posix_shift()`: Performs posix_shift operation as part of the component's functionality
-- `make_time()`: Performs make_time operation as part of the component's functionality
-- `make_system_time()`: Performs make_system_time operation as part of the component's functionality
-- `now_utc()`: Performs now_utc operation as part of the component's functionality
-- `now_local()`: Performs now_local operation as part of the component's functionality
-- `timepoint_to_system_time()`: Evaluates conditions and returns boolean indicating success or validity
-- `FileTimeToSystemTime()`: Performs FileTimeToSystemTime operation as part of the component's functionality
-- `transfer_hns()`: Performs transfer_hns operation as part of the component's functionality
-- `timepoint_to_utc_time()`: Evaluates conditions and returns a boolean indicating success or validity of timepoint_to_utc_time
+- `from_filetime()`: Implements from_filetime functionality
+- `posix_shift()`: Implements posix_shift functionality
+- `make_time()`: Implements make_time functionality
+- `make_system_time()`: hns precision ms precision
+- `now_utc()`: hns precision ms precision
+- `now_local()`: ms precision hns precision
+- `timepoint_to_system_time()`: Implements timepoint_to_system_time functionality
+- `FileTimeToSystemTime()`: Implements FileTimeToSystemTime functionality
+- `transfer_hns()`: Implements transfer_hns functionality
+- `timepoint_to_utc_time()`: hns precision ms precision
 ### Namespaces
 - `os`
 ### Summary
@@ -26,16 +26,16 @@ The `platform.chrono.cpp` file provides essential functionality for core functio
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `from_filetime()`: Performs from_filetime operation as part of the component's functionality
-- `posix_shift()`: Performs posix_shift operation as part of the component's functionality
-- `make_time()`: Performs make_time operation as part of the component's functionality
-- `make_system_time()`: Performs make_system_time operation as part of the component's functionality
-- `now_utc()`: Performs now_utc operation as part of the component's functionality
-- `now_local()`: Performs now_local operation as part of the component's functionality
-- `timepoint_to_system_time()`: Evaluates conditions and returns boolean indicating success or validity
-- `FileTimeToSystemTime()`: Performs FileTimeToSystemTime operation as part of the component's functionality
-- `transfer_hns()`: Performs transfer_hns operation as part of the component's functionality
-- `timepoint_to_utc_time()`: Evaluates conditions and returns a boolean indicating success or validity of timepoint_to_utc_time
+- `from_filetime()`: Implements from_filetime functionality
+- `posix_shift()`: Implements posix_shift functionality
+- `make_time()`: Implements make_time functionality
+- `make_system_time()`: hns precision ms precision
+- `now_utc()`: hns precision ms precision
+- `now_local()`: ms precision hns precision
+- `timepoint_to_system_time()`: Implements timepoint_to_system_time functionality
+- `FileTimeToSystemTime()`: Implements FileTimeToSystemTime functionality
+- `transfer_hns()`: Implements transfer_hns functionality
+- `timepoint_to_utc_time()`: hns precision ms precision
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -4,21 +4,21 @@
 This file implements functionality related to: Memory leak detector
 Main functional areas: core functionality
 ### Key Classes
-- `allocation_type`: Performs allocation_type operation as part of the component's functionality
-- `blocks_list`: Performs blocks_list operation as part of the component's functionality
-- `checker`: Validates data integrity and checks correctness of input
-- `memory_block`: Performs memory_block operation as part of the component's functionality
+- `allocation_type`: Implements allocation_type functionality
+- `blocks_list`: Implements blocks_list functionality
+- `checker`: Implements checker functionality
+- `memory_block`: Implements memory_block functionality
 ### Key Functions
-- `from_data()`: Returns pointer or reference to internal data buffer
-- `data()`: Returns pointer or reference to internal data buffer
-- `end_marker()`: Constructor that initializes end_marker object with provided parameters
-- `format_type()`: Validates conditions and throws exceptions when errors are detected during format_type operation
-- `far_fatal_exception()`: Performs far_fatal_exception operation as part of the component's functionality
-- `__asan_poison_memory_region()`: Performs __asan_poison_memory_region operation as part of the component's functionality
-- `__asan_unpoison_memory_region()`: Performs __asan_unpoison_memory_region operation as part of the component's functionality
-- `printable_string()`: Performs printable_string operation as part of the component's functionality
-- `printable_wide_string()`: Performs printable_wide_string operation as part of the component's functionality
-- `printable_ansi_string()`: Performs printable_ansi_string operation as part of the component's functionality
+- `from_data()`: Processes input by dispatching to different code paths based on type or value
+- `data()`: Processes input by dispatching to different code paths based on type or value
+- `end_marker()`: Processes input by dispatching to different code paths based on type or value
+- `format_type()`: Processes input by dispatching to different code paths based on type or value
+- `far_fatal_exception()`: Processes input by dispatching to different code paths based on type or value
+- `__asan_poison_memory_region()`: Implements __asan_poison_memory_region functionality
+- `__asan_unpoison_memory_region()`: Implements __asan_unpoison_memory_region functionality
+- `printable_string()`: Iterates through collection and processes each element, storing results
+- `printable_wide_string()`: Iterates through collection and processes each element, storing results
+- `printable_ansi_string()`: Implements printable_ansi_string functionality
 ### Namespaces
 - `memcheck`
 ### Summary
@@ -31,21 +31,21 @@ The `memcheck.cpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Memory leak detector
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `allocation_type`: Performs allocation_type operation as part of the component's functionality
-- `blocks_list`: Performs blocks_list operation as part of the component's functionality
-- `checker`: Validates data integrity and checks correctness of input
-- `memory_block`: Performs memory_block operation as part of the component's functionality
+- `allocation_type`: Implements allocation_type functionality
+- `blocks_list`: Implements blocks_list functionality
+- `checker`: Implements checker functionality
+- `memory_block`: Implements memory_block functionality
 ### Kluczowe Funkcje
-- `from_data()`: Returns pointer or reference to internal data buffer
-- `data()`: Konstruktor inicjalizujący dane obiekt z dostarczonymi parametrami
-- `end_marker()`: Konstruktor inicjalizujący end_marker obiekt z dostarczonymi parametrami
-- `format_type()`: Validates conditions and throws exceptions when errors are detected during format_type operation
-- `far_fatal_exception()`: Performs far_fatal_exception operation as part of the component's functionality
-- `__asan_poison_memory_region()`: Performs __asan_poison_memory_region operation as part of the component's functionality
-- `__asan_unpoison_memory_region()`: Performs __asan_unpoison_memory_region operation as part of the component's functionality
-- `printable_string()`: Performs printable_string operation as part of the component's functionality
-- `printable_wide_string()`: Performs printable_wide_string operation as part of the component's functionality
-- `printable_ansi_string()`: Performs printable_ansi_string operation as part of the component's functionality
+- `from_data()`: Processes input by dispatching to different code paths based on type or value
+- `data()`: Processes input by dispatching to different code paths based on type or value
+- `end_marker()`: Processes input by dispatching to different code paths based on type or value
+- `format_type()`: Processes input by dispatching to different code paths based on type or value
+- `far_fatal_exception()`: Processes input by dispatching to different code paths based on type or value
+- `__asan_poison_memory_region()`: Implements __asan_poison_memory_region functionality
+- `__asan_unpoison_memory_region()`: Implements __asan_unpoison_memory_region functionality
+- `printable_string()`: Iterates through collection and processes each element, storing results
+- `printable_wide_string()`: Iterates through collection and processes each element, storing results
+- `printable_ansi_string()`: Implements printable_ansi_string functionality
 ### Przestrzenie nazw
 - `memcheck`
 ### Podsumowanie

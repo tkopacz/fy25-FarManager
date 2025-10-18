@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `EnumFavorites()`: Evaluates conditions and returns a boolean indicating success or validity of EnumFavorites
-- `settings()`: Updates tings in internal state or configuration
-- `CheckFavoriteItem()`: Validates conditions and returns boolean indicating whether validation passed
-- `InFavoriteExists()`: Evaluates conditions and returns a boolean indicating success or validity of InFavoriteExists
-- `WriteFavoriteItem()`: Writes data from buffer to destination
-- `ReadFavoriteItem()`: Reads data from source into provided buffer
-- `GetFavoritesParent()`: Retrieves FavoritesParent from internal state or data structure
-- `GetFavoriteResource()`: Retrieves FavoriteResource from internal state or data structure
-- `RemoveFromFavorites()`: Removes FromFavorites from collection and frees associated resources
+- `EnumFavorites()`: Iterates through collection and processes each element, storing results
+- `settings()`: Iterates through collection and processes each element, storing results
+- `CheckFavoriteItem()`: Iterates through collection and processes each element, storing results
+- `InFavoriteExists()`: Iterates through collection and processes each element, storing results
+- `WriteFavoriteItem()`: Implements WriteFavoriteItem functionality
+- `ReadFavoriteItem()`: Implements ReadFavoriteItem functionality
+- `GetFavoritesParent()`: Retrieves FavoritesParent from current context or object state
+- `GetFavoriteResource()`: Retrieves FavoriteResource from current context or object state
+- `RemoveFromFavorites()`: Removes or deletes specified item and releases associated resources
 ### Summary
 The `NetFavorites.cpp` file provides essential functionality for core functionality. and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -21,14 +21,14 @@ The `NetFavorites.cpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `EnumFavorites()`: Evaluates conditions and returns a boolean indicating success or validity of EnumFavorites
-- `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
-- `CheckFavoriteItem()`: Waliduje integralność danych i sprawdza poprawność
-- `InFavoriteExists()`: Evaluates conditions and returns a boolean indicating success or validity of InFavoriteExists
-- `WriteFavoriteItem()`: Zapisuje dane z bufora do miejsca docelowego
-- `ReadFavoriteItem()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `GetFavoritesParent()`: Pobiera FavoritesParent ze stanu wewnętrznego lub struktury danych
-- `GetFavoriteResource()`: Pobiera FavoriteResource ze stanu wewnętrznego lub struktury danych
-- `RemoveFromFavorites()`: Usuwa FromFavorites z kolekcji i zwalnia powiązane zasoby
+- `EnumFavorites()`: Iterates through collection and processes each element, storing results
+- `settings()`: Iterates through collection and processes each element, storing results
+- `CheckFavoriteItem()`: Iterates through collection and processes each element, storing results
+- `InFavoriteExists()`: Iterates through collection and processes each element, storing results
+- `WriteFavoriteItem()`: Implements WriteFavoriteItem functionality
+- `ReadFavoriteItem()`: Implements ReadFavoriteItem functionality
+- `GetFavoritesParent()`: Retrieves FavoritesParent from current context or object state
+- `GetFavoriteResource()`: Retrieves FavoriteResource from current context or object state
+- `RemoveFromFavorites()`: Removes or deletes specified item and releases associated resources
 ### Podsumowanie
 Plik `NetFavorites.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

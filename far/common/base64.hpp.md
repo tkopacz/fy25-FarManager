@@ -3,15 +3,15 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `byte_to_bits()`: Performs byte_to_bits operation as part of the component's functionality
-- `bytes_to_bits()`: Performs bytes_to_bits operation as part of the component's functionality
-- `bits_to_char()`: Performs bits_to_char operation as part of the component's functionality
-- `bits_to_chars()`: Performs bits_to_chars operation as part of the component's functionality
-- `encode()`: Performs encode operation as part of the component's functionality
-- `char_to_bits()`: Validates conditions and throws exceptions when errors are detected during char_to_bits operation
-- `chars_to_bits()`: Performs chars_to_bits operation as part of the component's functionality
-- `bits_to_bytes()`: Performs bits_to_bytes operation as part of the component's functionality
-- `decode()`: Performs decode operation as part of the component's functionality
+- `byte_to_bits()`: Implements byte_to_bits functionality
+- `bytes_to_bits()`: Implements bytes_to_bits functionality
+- `bits_to_char()`: Iterates through collection and processes each element, storing results
+- `bits_to_chars()`: Iterates through collection and processes each element, storing results
+- `encode()`: Iterates through collection and processes each element, storing results
+- `char_to_bits()`: Implements char_to_bits functionality
+- `chars_to_bits()`: Iterates through collection and processes each element, storing results
+- `bits_to_bytes()`: Iterates through collection and processes each element, storing results
+- `decode()`: Iterates through collection and processes each element, storing results
 ### Namespaces
 - `base64`
 - `detail`
@@ -25,15 +25,15 @@ The `base64.hpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `byte_to_bits()`: Performs byte_to_bits operation as part of the component's functionality
-- `bytes_to_bits()`: Performs bytes_to_bits operation as part of the component's functionality
-- `bits_to_char()`: Performs bits_to_char operation as part of the component's functionality
-- `bits_to_chars()`: Performs bits_to_chars operation as part of the component's functionality
-- `encode()`: Performs encode operation as part of the component's functionality
-- `char_to_bits()`: Validates conditions and throws exceptions when errors are detected during char_to_bits operation
-- `chars_to_bits()`: Performs chars_to_bits operation as part of the component's functionality
-- `bits_to_bytes()`: Performs bits_to_bytes operation as part of the component's functionality
-- `decode()`: Performs decode operation as part of the component's functionality
+- `byte_to_bits()`: Implements byte_to_bits functionality
+- `bytes_to_bits()`: Implements bytes_to_bits functionality
+- `bits_to_char()`: Iterates through collection and processes each element, storing results
+- `bits_to_chars()`: Iterates through collection and processes each element, storing results
+- `encode()`: Iterates through collection and processes each element, storing results
+- `char_to_bits()`: Implements char_to_bits functionality
+- `chars_to_bits()`: Iterates through collection and processes each element, storing results
+- `bits_to_bytes()`: Iterates through collection and processes each element, storing results
+- `decode()`: Iterates through collection and processes each element, storing results
 ### Przestrzenie nazw
 - `base64`
 - `detail`

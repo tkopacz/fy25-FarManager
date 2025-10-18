@@ -4,11 +4,11 @@
 This file implements functionality related to: Класс для рефрешки
 Main functional areas: window management
 ### Key Classes
-- `RefreshWindowManager`: Performs RefreshWindowManager operation as part of the component's functionality
-- `SaveScreen`: Writes or saves data to a destination
-- `UndoGlobalSaveScrPtr`: Performs UndoGlobalSaveScrPtr operation as part of the component's functionality
+- `RefreshWindowManager`: Implements RefreshWindowManager functionality
+- `SaveScreen`: Implements SaveScreen functionality
+- `UndoGlobalSaveScrPtr`: Implements UndoGlobalSaveScrPtr functionality
 ### Key Functions
-- `UndoGlobalSaveScrPtr()`: Performs UndoGlobalSaveScrPtr operation as part of the component's functionality
+- `UndoGlobalSaveScrPtr()`: Implements UndoGlobalSaveScrPtr functionality
 ### Summary
 The `refreshwindowmanager.hpp` file provides essential functionality for window management. It defines 3 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -19,10 +19,10 @@ The `refreshwindowmanager.hpp` file provides essential functionality for window 
 Ten plik implementuje funkcjonalność związaną z: Класс для рефрешки
 Główne obszary funkcjonalne: zarządzanie oknami
 ### Kluczowe Klasy
-- `RefreshWindowManager`: Implementuje zarządzanie oknami
-- `SaveScreen`: Implementuje zarządzanie oknami
-- `UndoGlobalSaveScrPtr`: Implementuje zarządzanie oknami
+- `RefreshWindowManager`: Implements RefreshWindowManager functionality
+- `SaveScreen`: Implements SaveScreen functionality
+- `UndoGlobalSaveScrPtr`: Implements UndoGlobalSaveScrPtr functionality
 ### Kluczowe Funkcje
-- `UndoGlobalSaveScrPtr()`: Wykonuje UndoGlobalSaveScrPtr operację jako część zarządzanie oknami
+- `UndoGlobalSaveScrPtr()`: Implements UndoGlobalSaveScrPtr functionality
 ### Podsumowanie
 Plik `refreshwindowmanager.hpp` zapewnia podstawową funkcjonalność dla zarządzanie oknami. Definiuje 3 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

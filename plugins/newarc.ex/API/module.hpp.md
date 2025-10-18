@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `AddStruct`: Performs AddStruct operation as part of the component's functionality
-- `ArchiveFileInfoStruct`: Performs ArchiveFileInfoStruct operation as part of the component's functionality
-- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation as part of the component's functionality
-- `ArchiveInfoItem`: Performs ArchiveInfoItem operation as part of the component's functionality
-- `ArchiveInfoStruct`: Performs ArchiveInfoStruct operation as part of the component's functionality
-- `ArchiveItem`: Performs ArchiveItem operation as part of the component's functionality
-- `ArchiveModuleInfo`: Performs ArchiveModuleInfo operation as part of the component's functionality
-- `ArchiveModuleVersion`: Performs ArchiveModuleVersion operation as part of the component's functionality
-- `ArchivePluginInfo`: Performs ArchivePluginInfo operation as part of the component's functionality
-- `ArchiveQueryResult`: Performs ArchiveQueryResult operation as part of the component's functionality
+- `AddStruct`: Implements AddStruct functionality
+- `ArchiveFileInfoStruct`: Implements ArchiveFileInfoStruct functionality
+- `ArchiveFormatInfo`: Implements ArchiveFormatInfo functionality
+- `ArchiveInfoItem`: Implements ArchiveInfoItem functionality
+- `ArchiveInfoStruct`: Implements ArchiveInfoStruct functionality
+- `ArchiveItem`: Implements ArchiveItem functionality
+- `ArchiveModuleInfo`: Implements ArchiveModuleInfo functionality
+- `ArchiveModuleVersion`: Implements ArchiveModuleVersion functionality
+- `ArchivePluginInfo`: Implements ArchivePluginInfo functionality
+- `ArchiveQueryResult`: Implements ArchiveQueryResult functionality
 ### Key Functions
-- `ModuleEntry()`: Performs ModuleEntry operation as part of the component's functionality
+- `ModuleEntry()`: Implements ModuleEntry functionality
 ### Summary
 The `module.hpp` file provides essential functionality for core functionality. It defines 32 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `module.hpp` file provides essential functionality for core functionality. I
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `AddStruct`: Performs AddStruct operation as part of the component's functionality
-- `ArchiveFileInfoStruct`: Performs ArchiveFileInfoStruct operation as part of the component's functionality
-- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation as part of the component's functionality
-- `ArchiveInfoItem`: Performs ArchiveInfoItem operation as part of the component's functionality
-- `ArchiveInfoStruct`: Performs ArchiveInfoStruct operation as part of the component's functionality
-- `ArchiveItem`: Performs ArchiveItem operation as part of the component's functionality
-- `ArchiveModuleInfo`: Performs ArchiveModuleInfo operation as part of the component's functionality
-- `ArchiveModuleVersion`: Performs ArchiveModuleVersion operation as part of the component's functionality
-- `ArchivePluginInfo`: Performs ArchivePluginInfo operation as part of the component's functionality
-- `ArchiveQueryResult`: Performs ArchiveQueryResult operation as part of the component's functionality
+- `AddStruct`: Implements AddStruct functionality
+- `ArchiveFileInfoStruct`: Implements ArchiveFileInfoStruct functionality
+- `ArchiveFormatInfo`: Implements ArchiveFormatInfo functionality
+- `ArchiveInfoItem`: Implements ArchiveInfoItem functionality
+- `ArchiveInfoStruct`: Implements ArchiveInfoStruct functionality
+- `ArchiveItem`: Implements ArchiveItem functionality
+- `ArchiveModuleInfo`: Implements ArchiveModuleInfo functionality
+- `ArchiveModuleVersion`: Implements ArchiveModuleVersion functionality
+- `ArchivePluginInfo`: Implements ArchivePluginInfo functionality
+- `ArchiveQueryResult`: Implements ArchiveQueryResult functionality
 ### Kluczowe Funkcje
-- `ModuleEntry()`: Performs ModuleEntry operation as part of the component's functionality
+- `ModuleEntry()`: Implements ModuleEntry functionality
 ### Podsumowanie
 Plik `module.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 32 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

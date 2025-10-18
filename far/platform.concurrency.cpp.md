@@ -4,17 +4,17 @@
 This file implements functionality related to: Threads, mutexes, events, critical sections etc.
 Main functional areas: core functionality
 ### Key Classes
-- `i_shared_mutex`: Performs i_shared_mutex operation as part of the component's functionality
-- `s`: Performs s operation as part of the component's functionality
+- `i_shared_mutex`: Implements i_shared_mutex functionality
+- `s`: Implements s functionality
 ### Key Functions
-- `far_fatal_exception()`: Performs far_fatal_exception operation as part of the component's functionality
-- `lock()`: Performs lock operation as part of the component's functionality
-- `try_lock()`: Evaluates conditions and returns boolean indicating success or validity
-- `unlock()`: Performs unlock operation as part of the component's functionality
-- `lock_shared()`: Performs lock_shared operation as part of the component's functionality
-- `try_lock_shared()`: Evaluates conditions and returns boolean indicating success or validity
-- `unlock_shared()`: Performs unlock_shared operation as part of the component's functionality
-- `wrapper()`: Performs wrapper operation as part of the component's functionality
+- `far_fatal_exception()`: Implements far_fatal_exception functionality
+- `lock()`: Implements lock functionality
+- `try_lock()`: Implements try_lock functionality
+- `unlock()`: Implements unlock functionality
+- `lock_shared()`: Implements lock_shared functionality
+- `try_lock_shared()`: Implements try_lock_shared functionality
+- `unlock_shared()`: Implements unlock_shared functionality
+- `wrapper()`: Implements wrapper functionality
 ### Namespaces
 - `detail`
 - `os`
@@ -28,17 +28,17 @@ The `platform.concurrency.cpp` file provides essential functionality for core fu
 Ten plik implementuje funkcjonalność związaną z: Threads, mutexes, events, critical sections etc.
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `i_shared_mutex`: Performs i_shared_mutex operation as part of the component's functionality
-- `s`: Performs s operation as part of the component's functionality
+- `i_shared_mutex`: Implements i_shared_mutex functionality
+- `s`: Implements s functionality
 ### Kluczowe Funkcje
-- `far_fatal_exception()`: Performs far_fatal_exception operation as part of the component's functionality
-- `lock()`: Performs lock operation as part of the component's functionality
-- `try_lock()`: Evaluates conditions and returns boolean indicating success or validity
-- `unlock()`: Performs unlock operation as part of the component's functionality
-- `lock_shared()`: Performs lock_shared operation as part of the component's functionality
-- `try_lock_shared()`: Evaluates conditions and returns boolean indicating success or validity
-- `unlock_shared()`: Performs unlock_shared operation as part of the component's functionality
-- `wrapper()`: Performs wrapper operation as part of the component's functionality
+- `far_fatal_exception()`: Implements far_fatal_exception functionality
+- `lock()`: Implements lock functionality
+- `try_lock()`: Implements try_lock functionality
+- `unlock()`: Implements unlock functionality
+- `lock_shared()`: Implements lock_shared functionality
+- `try_lock_shared()`: Implements try_lock_shared functionality
+- `unlock_shared()`: Implements unlock_shared functionality
+- `wrapper()`: Implements wrapper functionality
 ### Przestrzenie nazw
 - `detail`
 - `os`

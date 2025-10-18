@@ -4,21 +4,21 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Classes
-- `location`: Performs location operation as part of the component's functionality
-- `map_file`: Performs map_file operation as part of the component's functionality
-- `stack_frame`: Performs stack_frame operation as part of the component's functionality
-- `symbol`: Performs symbol operation as part of the component's functionality
+- `location`: Implements location functionality
+- `map_file`: Implements map_file functionality
+- `stack_frame`: Implements stack_frame functionality
+- `symbol`: Implements symbol functionality
 ### Key Functions
-- `is_debugger_present()`: Tests whether _debugger_present condition is true or property exists
-- `breakpoint()`: Performs breakpoint operation as part of the component's functionality
-- `breakpoint_if_debugging()`: Performs breakpoint_if_debugging operation as part of the component's functionality
-- `print()`: Performs print operation as part of the component's functionality
-- `set_thread_name()`: Updates _thread_name in internal state or configuration
-- `get_thread_name()`: Retrieves _thread_name from internal state or data structure
-- `exception_information()`: Performs exception_information operation as part of the component's functionality
-- `fake_exception_information()`: Performs fake_exception_information operation as part of the component's functionality
-- `is_inline_frame()`: Tests whether _inline_frame condition is true or property exists
-- `initialize()`: Initializes data structures and sets up initial state for operation
+- `is_debugger_present()`: Platform: Common: External: ---------------------------------------------------------------------------- TODO: std 'msc'
+- `breakpoint()`: External: ---------------------------------------------------------------------------- TODO: std 'msc'
+- `breakpoint_if_debugging()`: External: ---------------------------------------------------------------------------- TODO: std 'msc' Symbols should be initi
+- `print()`: Implements print functionality
+- `set_thread_name()`: Updates _thread_name with provided value and validates constraints
+- `get_thread_name()`: Retrieves _thread_name from current context or object state
+- `exception_information()`: Implements exception_information functionality
+- `fake_exception_information()`: Implements fake_exception_information functionality
+- `is_inline_frame()`: Checks condition and returns boolean indicating state
+- `initialize()`: Initializes component with required configuration and state
 ### Namespaces
 - `os`
 - `symbols`
@@ -32,21 +32,21 @@ The `platform.debug.hpp` file provides essential functionality for core function
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `location`: Performs location operation as part of the component's functionality
-- `map_file`: Performs map_file operation as part of the component's functionality
-- `stack_frame`: Performs stack_frame operation as part of the component's functionality
-- `symbol`: Performs symbol operation as part of the component's functionality
+- `location`: Implements location functionality
+- `map_file`: Implements map_file functionality
+- `stack_frame`: Implements stack_frame functionality
+- `symbol`: Implements symbol functionality
 ### Kluczowe Funkcje
-- `is_debugger_present()`: Testuje czy _debugger_present warunek jest prawdziwy lub właściwość istnieje
-- `breakpoint()`: Performs breakpoint operation as part of the component's functionality
-- `breakpoint_if_debugging()`: Performs breakpoint_if_debugging operation as part of the component's functionality
-- `print()`: Performs print operation as part of the component's functionality
-- `set_thread_name()`: Aktualizuje _thread_name w stanie wewnętrznym lub konfiguracji
-- `get_thread_name()`: Pobiera _thread_name ze stanu wewnętrznego lub struktury danych
-- `exception_information()`: Performs exception_information operation as part of the component's functionality
-- `fake_exception_information()`: Performs fake_exception_information operation as part of the component's functionality
-- `is_inline_frame()`: Testuje czy _inline_frame warunek jest prawdziwy lub właściwość istnieje
-- `initialize()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
+- `is_debugger_present()`: Platform: Common: External: ---------------------------------------------------------------------------- TODO: std 'msc'
+- `breakpoint()`: External: ---------------------------------------------------------------------------- TODO: std 'msc'
+- `breakpoint_if_debugging()`: External: ---------------------------------------------------------------------------- TODO: std 'msc' Symbols should be initi
+- `print()`: Implements print functionality
+- `set_thread_name()`: Updates _thread_name with provided value and validates constraints
+- `get_thread_name()`: Retrieves _thread_name from current context or object state
+- `exception_information()`: Implements exception_information functionality
+- `fake_exception_information()`: Implements fake_exception_information functionality
+- `is_inline_frame()`: Checks condition and returns boolean indicating state
+- `initialize()`: Initializes component with required configuration and state
 ### Przestrzenie nazw
 - `os`
 - `symbols`

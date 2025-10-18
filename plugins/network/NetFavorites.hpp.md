@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `FAVORITEITEM`: Performs FAVORITEITEM operation as part of the component's functionality
+- `FAVORITEITEM`: Implements FAVORITEITEM functionality
 ### Key Functions
-- `EnumFavorites()`: Performs EnumFavorites operation as part of the component's functionality
-- `CheckFavoriteItem()`: Validates data integrity and checks correctness of input
-- `InFavoriteExists()`: Performs InFavoriteExists operation as part of the component's functionality
-- `WriteFavoriteItem()`: Writes data from buffer to destination
-- `ReadFavoriteItem()`: Reads data from source into provided buffer
-- `GetFavoritesParent()`: Retrieves FavoritesParent from internal state or data structure
-- `GetFavoriteResource()`: Retrieves FavoriteResource from internal state or data structure
-- `RemoveFromFavorites()`: Removes FromFavorites from collection and frees associated resources
+- `EnumFavorites()`: Implements EnumFavorites functionality
+- `CheckFavoriteItem()`: Implements CheckFavoriteItem functionality
+- `InFavoriteExists()`: Implements InFavoriteExists functionality
+- `WriteFavoriteItem()`: Implements WriteFavoriteItem functionality
+- `ReadFavoriteItem()`: Implements ReadFavoriteItem functionality
+- `GetFavoritesParent()`: Retrieves FavoritesParent from current context or object state
+- `GetFavoriteResource()`: Retrieves FavoriteResource from current context or object state
+- `RemoveFromFavorites()`: Removes or deletes specified item and releases associated resources
 ### Summary
 The `NetFavorites.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `NetFavorites.hpp` file provides essential functionality for core functional
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `FAVORITEITEM`: Performs FAVORITEITEM operation as part of the component's functionality
+- `FAVORITEITEM`: Implements FAVORITEITEM functionality
 ### Kluczowe Funkcje
-- `EnumFavorites()`: Performs EnumFavorites operation as part of the component's functionality
-- `CheckFavoriteItem()`: Waliduje integralność danych i sprawdza poprawność
-- `InFavoriteExists()`: Performs InFavoriteExists operation as part of the component's functionality
-- `WriteFavoriteItem()`: Zapisuje dane z bufora do miejsca docelowego
-- `ReadFavoriteItem()`: Odczytuje dane ze źródła do dostarczonego bufora
-- `GetFavoritesParent()`: Pobiera FavoritesParent ze stanu wewnętrznego lub struktury danych
-- `GetFavoriteResource()`: Pobiera FavoriteResource ze stanu wewnętrznego lub struktury danych
-- `RemoveFromFavorites()`: Usuwa FromFavorites z kolekcji i zwalnia powiązane zasoby
+- `EnumFavorites()`: Implements EnumFavorites functionality
+- `CheckFavoriteItem()`: Implements CheckFavoriteItem functionality
+- `InFavoriteExists()`: Implements InFavoriteExists functionality
+- `WriteFavoriteItem()`: Implements WriteFavoriteItem functionality
+- `ReadFavoriteItem()`: Implements ReadFavoriteItem functionality
+- `GetFavoritesParent()`: Retrieves FavoritesParent from current context or object state
+- `GetFavoriteResource()`: Retrieves FavoriteResource from current context or object state
+- `RemoveFromFavorites()`: Removes or deletes specified item and releases associated resources
 ### Podsumowanie
 Plik `NetFavorites.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,19 +4,19 @@
 This file implements functionality related to: Internal viewer
 Main functional areas: file viewing
 ### Key Classes
-- `Viewer`: Performs Viewer operation as part of the component's functionality
-- `test_data`: Performs test_data operation as part of the component's functionality
+- `Viewer`: Implements Viewer functionality
+- `test_data`: Implements test_data functionality
 ### Key Functions
-- `is_code_page_supported_in_viewer()`: Tests whether _code_page_supported_in_viewer condition is true or property exists
-- `IsCodePageSupported()`: Tests whether CodePageSupported condition is true or property exists
-- `get_char_size()`: Retrieves _char_size from internal state or data structure
-- `hex_mode_bytes_area_wdth()`: Performs hex_mode_bytes_area_wdth operation as part of the component's functionality
-- `hex_mode_chars_area_width()`: Performs hex_mode_chars_area_width operation as part of the component's functionality
-- `hex_mode_line_width_from_bytes()`: Performs hex_mode_line_width_from_bytes operation as part of the component's functionality
-- `hex_mode_columns_per_stripe()`: Performs hex_mode_columns_per_stripe operation as part of the component's functionality
-- `hex_mode_bytes_from_line_width()`: Performs hex_mode_bytes_from_line_width operation as part of the component's functionality
-- `hex_mode_byte_from_column()`: Performs hex_mode_byte_from_column operation as part of the component's functionality
-- `listed()`: Performs listed operation as part of the component's functionality
+- `is_code_page_supported_in_viewer()`: Checks condition and returns boolean indicating state
+- `IsCodePageSupported()`: Checks condition and returns boolean indicating state
+- `get_char_size()`: Retrieves _char_size from current context or object state
+- `hex_mode_bytes_area_wdth()`: Implements hex_mode_bytes_area_wdth functionality
+- `hex_mode_chars_area_width()`: Implements hex_mode_chars_area_width functionality
+- `hex_mode_line_width_from_bytes()`: Implements hex_mode_line_width_from_bytes functionality
+- `hex_mode_columns_per_stripe()`: Implements hex_mode_columns_per_stripe functionality
+- `hex_mode_bytes_from_line_width()`: Implements hex_mode_bytes_from_line_width functionality
+- `hex_mode_byte_from_column()`: Implements hex_mode_byte_from_column functionality
+- `listed()`: Implements listed functionality
 ### Summary
 The `viewer.cpp` file provides essential functionality for file viewing. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -27,18 +27,18 @@ The `viewer.cpp` file provides essential functionality for file viewing. It defi
 Ten plik implementuje funkcjonalność związaną z: Internal viewer
 Główne obszary funkcjonalne: przeglądanie plików
 ### Kluczowe Klasy
-- `Viewer`: Implementuje przeglądanie plików
-- `test_data`: Implementuje przeglądanie plików
+- `Viewer`: Implements Viewer functionality
+- `test_data`: Implements test_data functionality
 ### Kluczowe Funkcje
-- `is_code_page_supported_in_viewer()`: Testuje czy _code_page_supported_in_viewer warunek jest prawdziwy lub właściwość istnieje
-- `IsCodePageSupported()`: Testuje czy CodePageSupported warunek jest prawdziwy lub właściwość istnieje
-- `get_char_size()`: Pobiera _char_size ze stanu wewnętrznego lub struktury danych
-- `hex_mode_bytes_area_wdth()`: Wykonuje hex_mode_bytes_area_wdth operację jako część przeglądanie plików
-- `hex_mode_chars_area_width()`: Wykonuje hex_mode_chars_area_width operację jako część przeglądanie plików
-- `hex_mode_line_width_from_bytes()`: Wykonuje hex_mode_line_width_from_bytes operację jako część przeglądanie plików
-- `hex_mode_columns_per_stripe()`: Wykonuje hex_mode_columns_per_stripe operację jako część przeglądanie plików
-- `hex_mode_bytes_from_line_width()`: Wykonuje hex_mode_bytes_from_line_width operację jako część przeglądanie plików
-- `hex_mode_byte_from_column()`: Wykonuje hex_mode_byte_from_column operację jako część przeglądanie plików
-- `listed()`: Wykonuje listed operację jako część przeglądanie plików
+- `is_code_page_supported_in_viewer()`: Checks condition and returns boolean indicating state
+- `IsCodePageSupported()`: Checks condition and returns boolean indicating state
+- `get_char_size()`: Retrieves _char_size from current context or object state
+- `hex_mode_bytes_area_wdth()`: Implements hex_mode_bytes_area_wdth functionality
+- `hex_mode_chars_area_width()`: Implements hex_mode_chars_area_width functionality
+- `hex_mode_line_width_from_bytes()`: Implements hex_mode_line_width_from_bytes functionality
+- `hex_mode_columns_per_stripe()`: Implements hex_mode_columns_per_stripe functionality
+- `hex_mode_bytes_from_line_width()`: Implements hex_mode_bytes_from_line_width functionality
+- `hex_mode_byte_from_column()`: Implements hex_mode_byte_from_column functionality
+- `listed()`: Implements listed functionality
 ### Podsumowanie
 Plik `viewer.cpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

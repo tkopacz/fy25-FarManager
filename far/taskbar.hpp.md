@@ -4,14 +4,14 @@
 This file implements functionality related to: Windows 7 taskbar support
 Main functional areas: core functionality
 ### Key Classes
-- `indeterminate`: Performs indeterminate operation as part of the component's functionality
-- `state`: Performs state operation as part of the component's functionality
+- `indeterminate`: Implements indeterminate functionality
+- `state`: Implements state functionality
 ### Key Functions
-- `set_state()`: Updates _state in internal state or configuration
-- `set_value()`: Updates _value in internal state or configuration
-- `flash()`: Performs flash operation as part of the component's functionality
-- `indeterminate()`: Performs indeterminate operation as part of the component's functionality
-- `state()`: Performs state operation as part of the component's functionality
+- `set_state()`: Updates _state with provided value and validates constraints
+- `set_value()`: Common: External: ---------------------------------------------------------------------------- TASKBAR_HPP_2522B9DF_D677_4AA9_8777_B5A1F588D4C1
+- `flash()`: Implements flash functionality
+- `indeterminate()`: Implements indeterminate functionality
+- `state()`: Implements state functionality
 ### Namespaces
 - `taskbar`
 ### Summary
@@ -24,14 +24,14 @@ The `taskbar.hpp` file provides essential functionality for core functionality. 
 Ten plik implementuje funkcjonalność związaną z: Windows 7 taskbar support
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `indeterminate`: Performs indeterminate operation as part of the component's functionality
-- `state`: Performs state operation as part of the component's functionality
+- `indeterminate`: Implements indeterminate functionality
+- `state`: Implements state functionality
 ### Kluczowe Funkcje
-- `set_state()`: Aktualizuje _state w stanie wewnętrznym lub konfiguracji
-- `set_value()`: Aktualizuje _wartość w stanie wewnętrznym lub konfiguracji
-- `flash()`: Performs flash operation as part of the component's functionality
-- `indeterminate()`: Performs indeterminate operation as part of the component's functionality
-- `state()`: Performs state operation as part of the component's functionality
+- `set_state()`: Updates _state with provided value and validates constraints
+- `set_value()`: Common: External: ---------------------------------------------------------------------------- TASKBAR_HPP_2522B9DF_D677_4AA9_8777_B5A1F588D4C1
+- `flash()`: Implements flash functionality
+- `indeterminate()`: Implements indeterminate functionality
+- `state()`: Implements state functionality
 ### Przestrzenie nazw
 - `taskbar`
 ### Podsumowanie

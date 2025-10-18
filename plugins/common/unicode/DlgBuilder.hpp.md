@@ -4,24 +4,24 @@
 This file implements functionality related to: Dynamic construction of dialogs for FAR Manager
 Main functional areas: dialog handling
 ### Key Classes
-- `DialogAPIBinding`: Performs DialogAPIBinding operation as part of the component's functionality
-- `PluginCheckBoxBinding`: Performs PluginCheckBoxBinding operation as part of the component's functionality
-- `PluginDialogBuilder`: Performs PluginDialogBuilder operation as part of the component's functionality
-- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation as part of the component's functionality
-- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation as part of the component's functionality
-- `PluginListControlBinding`: Performs PluginListControlBinding operation as part of the component's functionality
-- `PluginRadioButtonBinding`: Performs PluginRadioButtonBinding operation as part of the component's functionality
-- `PluginUIntEditFieldBinding`: Performs PluginUIntEditFieldBinding operation as part of the component's functionality
+- `DialogAPIBinding`: Implements DialogAPIBinding functionality
+- `PluginCheckBoxBinding`: Implements PluginCheckBoxBinding functionality
+- `PluginDialogBuilder`: Implements PluginDialogBuilder functionality
+- `PluginEditFieldBinding`: Implements PluginEditFieldBinding functionality
+- `PluginIntEditFieldBinding`: Implements PluginIntEditFieldBinding functionality
+- `PluginListControlBinding`: Implements PluginListControlBinding functionality
+- `PluginRadioButtonBinding`: Implements PluginRadioButtonBinding functionality
+- `PluginUIntEditFieldBinding`: Implements PluginUIntEditFieldBinding functionality
 ### Key Functions
-- `SaveValue()`: Saves current state or data to persistent storage
-- `lstrcpynW()`: Performs lstrcpynW operation as part of the component's functionality
-- `GetBuffer()`: Retrieves Buffer from internal state or data structure
-- `GetMask()`: Retrieves Mask from internal state or data structure
-- `GetLastID()`: Retrieves LastID from internal state or data structure
-- `AddText()`: Adds new Text to collection or list
-- `AddCheckbox()`: Adds new Checkbox to collection or list
-- `AddRadioButtons()`: Adds new RadioButtons to collection or list
-- `AddIntEditField()`: Adds new IntEditField to collection or list
+- `SaveValue()`: Implements SaveValue functionality
+- `lstrcpynW()`: Implements lstrcpynW functionality
+- `GetBuffer()`: Retrieves Buffer from current context or object state
+- `GetMask()`: Retrieves Mask from current context or object state
+- `GetLastID()`: Добавляет статический текст, расположенный на отдельной строке в диалоге
+- `AddText()`: Добавляет статический текст, расположенный на отдельной строке в диалоге
+- `AddCheckbox()`: Implements AddCheckbox functionality
+- `AddRadioButtons()`: Implements AddRadioButtons functionality
+- `AddIntEditField()`: Implements AddIntEditField functionality
 ### Summary
 The `DlgBuilder.hpp` file provides essential functionality for dialog handling. It defines 8 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -32,23 +32,23 @@ The `DlgBuilder.hpp` file provides essential functionality for dialog handling. 
 Ten plik implementuje funkcjonalność związaną z: Dynamic construction of dialogs for FAR Manager
 Główne obszary funkcjonalne: obsługa dialogów
 ### Kluczowe Klasy
-- `DialogAPIBinding`: Implementuje obsługa dialogów
-- `PluginCheckBoxBinding`: Implementuje obsługa dialogów
-- `PluginDialogBuilder`: Implementuje obsługa dialogów
-- `PluginEditFieldBinding`: Implementuje obsługa dialogów
-- `PluginIntEditFieldBinding`: Implementuje obsługa dialogów
-- `PluginListControlBinding`: Implementuje obsługa dialogów
-- `PluginRadioButtonBinding`: Implementuje obsługa dialogów
-- `PluginUIntEditFieldBinding`: Implementuje obsługa dialogów
+- `DialogAPIBinding`: Implements DialogAPIBinding functionality
+- `PluginCheckBoxBinding`: Implements PluginCheckBoxBinding functionality
+- `PluginDialogBuilder`: Implements PluginDialogBuilder functionality
+- `PluginEditFieldBinding`: Implements PluginEditFieldBinding functionality
+- `PluginIntEditFieldBinding`: Implements PluginIntEditFieldBinding functionality
+- `PluginListControlBinding`: Implements PluginListControlBinding functionality
+- `PluginRadioButtonBinding`: Implements PluginRadioButtonBinding functionality
+- `PluginUIntEditFieldBinding`: Implements PluginUIntEditFieldBinding functionality
 ### Kluczowe Funkcje
-- `SaveValue()`: Zapisuje bieżący stan lub dane do trwałego magazynu
-- `lstrcpynW()`: Wykonuje lstrcpynW operację jako część obsługa dialogów
-- `GetBuffer()`: Pobiera Buffer ze stanu wewnętrznego lub struktury danych
-- `GetMask()`: Pobiera Mask ze stanu wewnętrznego lub struktury danych
-- `GetLastID()`: Pobiera LastID ze stanu wewnętrznego lub struktury danych
-- `AddText()`: Dodaje nowy Text do kolekcji lub listy
-- `AddCheckbox()`: Dodaje nowy Checkbox do kolekcji lub listy
-- `AddRadioButtons()`: Dodaje nowy RadioButtons do kolekcji lub listy
-- `AddIntEditField()`: Dodaje nowy IntEditField do kolekcji lub listy
+- `SaveValue()`: Implements SaveValue functionality
+- `lstrcpynW()`: Implements lstrcpynW functionality
+- `GetBuffer()`: Retrieves Buffer from current context or object state
+- `GetMask()`: Retrieves Mask from current context or object state
+- `GetLastID()`: Добавляет статический текст, расположенный на отдельной строке в диалоге
+- `AddText()`: Добавляет статический текст, расположенный на отдельной строке в диалоге
+- `AddCheckbox()`: Implements AddCheckbox functionality
+- `AddRadioButtons()`: Implements AddRadioButtons functionality
+- `AddIntEditField()`: Implements AddIntEditField functionality
 ### Podsumowanie
 Plik `DlgBuilder.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 8 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

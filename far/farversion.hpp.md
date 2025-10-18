@@ -4,15 +4,15 @@
 This file implements functionality related to: Версия Far Manager
 Main functional areas: core functionality
 ### Key Classes
-- `VersionInfo`: Performs VersionInfo operation as part of the component's functionality
+- `VersionInfo`: Implements VersionInfo functionality
 ### Key Functions
-- `version_string()`: Performs version_string operation as part of the component's functionality
-- `copyright()`: Copies data from source to destination location
-- `scm_revision()`: Performs scm_revision operation as part of the component's functionality
-- `platform()`: Performs platform operation as part of the component's functionality
-- `version()`: Performs version operation as part of the component's functionality
-- `compiler()`: Performs compiler operation as part of the component's functionality
-- `library()`: Performs library operation as part of the component's functionality
+- `version_string()`: Implements version_string functionality
+- `copyright()`: Implements copyright functionality
+- `scm_revision()`: External: ---------------------------------------------------------------------------- FARVERSION_HPP_2DFC77DA_8558_4EF9_9F2E_3B8B848F7C84
+- `platform()`: Implements platform functionality
+- `version()`: Implements version functionality
+- `compiler()`: Implements compiler functionality
+- `library()`: Implements library functionality
 ### Namespaces
 - `build`
 ### Summary
@@ -25,15 +25,15 @@ The `farversion.hpp` file provides essential functionality for core functionalit
 Ten plik implementuje funkcjonalność związaną z: Версия Far Manager
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `VersionInfo`: Performs VersionInfo operation as part of the component's functionality
+- `VersionInfo`: Implements VersionInfo functionality
 ### Kluczowe Funkcje
-- `version_string()`: Performs version_string operation as part of the component's functionality
-- `copyright()`: Kopiuje dane ze źródła do miejsca docelowego
-- `scm_revision()`: Performs scm_revision operation as part of the component's functionality
-- `platform()`: Performs platform operation as part of the component's functionality
-- `version()`: Performs version operation as part of the component's functionality
-- `compiler()`: Performs compiler operation as part of the component's functionality
-- `library()`: Performs library operation as part of the component's functionality
+- `version_string()`: Implements version_string functionality
+- `copyright()`: Implements copyright functionality
+- `scm_revision()`: External: ---------------------------------------------------------------------------- FARVERSION_HPP_2DFC77DA_8558_4EF9_9F2E_3B8B848F7C84
+- `platform()`: Implements platform functionality
+- `version()`: Implements version functionality
+- `compiler()`: Implements compiler functionality
+- `library()`: Implements library functionality
 ### Przestrzenie nazw
 - `build`
 ### Podsumowanie

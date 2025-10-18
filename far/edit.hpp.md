@@ -4,27 +4,27 @@
 This file implements functionality related to: Строка редактора
 Main functional areas: text editing
 ### Key Classes
-- `ColorItem`: Performs ColorItem operation as part of the component's functionality
-- `DlgEdit`: Performs DlgEdit operation as part of the component's functionality
-- `Edit`: Performs Edit operation as part of the component's functionality
-- `Editor`: Performs Editor operation as part of the component's functionality
-- `FarColor`: Performs FarColor operation as part of the component's functionality
-- `FileEditor`: Performs FileEditor operation as part of the component's functionality
-- `RegExp`: Performs RegExp operation as part of the component's functionality
-- `RegExpMatch`: Performs RegExpMatch operation as part of the component's functionality
-- `ShowInfo`: Performs ShowInfo operation as part of the component's functionality
-- `edit_string`: Performs edit_string operation as part of the component's functionality
+- `ColorItem`: Implements ColorItem functionality
+- `DlgEdit`: Implements DlgEdit functionality
+- `Edit`: Implements Edit functionality
+- `Editor`: Implements Editor functionality
+- `FarColor`: Implements FarColor functionality
+- `FileEditor`: Implements FileEditor functionality
+- `RegExp`: Implements RegExp functionality
+- `RegExpMatch`: Implements RegExpMatch functionality
+- `ShowInfo`: Implements ShowInfo functionality
+- `edit_string`: Implements edit_string functionality
 ### Key Functions
-- `GetOwner()`: Retrieves Owner from internal state or data structure
-- `SetOwner()`: Updates Owner in internal state or configuration
-- `GetColor()`: Retrieves Color from internal state or data structure
-- `SetColor()`: Updates Color in internal state or configuration
-- `Edit()`: Performs Edit operation as part of the component's functionality
-- `ProcessKey()`: Processes Key through transformation or handling pipeline
-- `ProcessMouse()`: Processes Mouse through transformation or handling pipeline
-- `VMProcess()`: Processes virtual machine operations or commands
-- `Changed()`: Performs Changed operation as part of the component's functionality
-- `GetMaxLength()`: Retrieves MaxLength from internal state or data structure
+- `GetOwner()`: Retrieves Owner from current context or object state
+- `SetOwner()`: Updates Owner with provided value
+- `GetColor()`: Retrieves Color from current context or object state
+- `SetColor()`: Updates Color with provided value and validates constraints
+- `Edit()`: Implements Edit functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `VMProcess()`: Implements VMProcess functionality
+- `Changed()`: Implements Changed functionality
+- `GetMaxLength()`: Retrieves MaxLength from current context or object state
 ### Summary
 The `edit.hpp` file provides essential functionality for text editing. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `edit.hpp` file provides essential functionality for text editing. It define
 Ten plik implementuje funkcjonalność związaną z: Строка редактора
 Główne obszary funkcjonalne: edycja tekstu
 ### Kluczowe Klasy
-- `ColorItem`: Implementuje edycja tekstu
-- `DlgEdit`: Implementuje edycja tekstu
-- `Edit`: Implementuje edycja tekstu
-- `Editor`: Implementuje edycja tekstu
-- `FarColor`: Implementuje edycja tekstu
-- `FileEditor`: Implementuje edycja tekstu
-- `RegExp`: Implementuje edycja tekstu
-- `RegExpMatch`: Implementuje edycja tekstu
-- `ShowInfo`: Implementuje edycja tekstu
-- `edit_string`: Implementuje edycja tekstu
+- `ColorItem`: Implements ColorItem functionality
+- `DlgEdit`: Implements DlgEdit functionality
+- `Edit`: Implements Edit functionality
+- `Editor`: Implements Editor functionality
+- `FarColor`: Implements FarColor functionality
+- `FileEditor`: Implements FileEditor functionality
+- `RegExp`: Implements RegExp functionality
+- `RegExpMatch`: Implements RegExpMatch functionality
+- `ShowInfo`: Implements ShowInfo functionality
+- `edit_string`: Implements edit_string functionality
 ### Kluczowe Funkcje
-- `GetOwner()`: Pobiera Owner ze stanu wewnętrznego lub struktury danych
-- `SetOwner()`: Aktualizuje Owner w stanie wewnętrznym lub konfiguracji
-- `GetColor()`: Pobiera Color ze stanu wewnętrznego lub struktury danych
-- `SetColor()`: Aktualizuje Color w stanie wewnętrznym lub konfiguracji
-- `Edit()`: Wykonuje Edit operację jako część edycja tekstu
-- `ProcessKey()`: Przetwarza Key przez potok transformacji lub obsługi
-- `ProcessMouse()`: Przetwarza Mouse przez potok transformacji lub obsługi
-- `VMProcess()`: Przetwarza operacje lub polecenia maszyny wirtualnej
-- `Changed()`: Wykonuje Changed operację jako część edycja tekstu
-- `GetMaxLength()`: Pobiera MaxLength ze stanu wewnętrznego lub struktury danych
+- `GetOwner()`: Retrieves Owner from current context or object state
+- `SetOwner()`: Updates Owner with provided value
+- `GetColor()`: Retrieves Color from current context or object state
+- `SetColor()`: Updates Color with provided value and validates constraints
+- `Edit()`: Implements Edit functionality
+- `ProcessKey()`: Processes input data through core business logic pipeline
+- `ProcessMouse()`: Processes input data through core business logic pipeline
+- `VMProcess()`: Implements VMProcess functionality
+- `Changed()`: Implements Changed functionality
+- `GetMaxLength()`: Retrieves MaxLength from current context or object state
 ### Podsumowanie
 Plik `edit.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 11 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

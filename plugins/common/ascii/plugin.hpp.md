@@ -4,27 +4,27 @@
 This file implements functionality related to: Plugin API for FAR Manager 1.75 build 2634
 Main functional areas: plugin interface
 ### Key Classes
-- `ActlEjectMedia`: Performs ActlEjectMedia operation as part of the component's functionality
-- `ActlKeyMacro`: Performs ActlKeyMacro operation as part of the component's functionality
-- `CharTableSet`: Performs CharTableSet operation as part of the component's functionality
-- `CmdLineSelect`: Performs CmdLineSelect operation as part of the component's functionality
-- `EditorBookMarks`: Performs EditorBookMarks operation as part of the component's functionality
-- `EditorColor`: Performs EditorColor operation as part of the component's functionality
-- `EditorConvertPos`: Performs EditorConvertPos operation as part of the component's functionality
-- `EditorConvertText`: Performs EditorConvertText operation as part of the component's functionality
-- `EditorGetString`: Performs EditorGetString operation as part of the component's functionality
-- `EditorInfo`: Performs EditorInfo operation as part of the component's functionality
+- `ActlEjectMedia`: Iterates through collection and processes each element, storing results
+- `ActlKeyMacro`: Iterates through collection and processes each element, storing results
+- `CharTableSet`: Iterates through collection and processes each element, storing results
+- `CmdLineSelect`: Iterates through collection and processes each element, storing results
+- `EditorBookMarks`: Iterates through collection and processes each element, storing results
+- `EditorColor`: Iterates through collection and processes each element, storing results
+- `EditorConvertPos`: Iterates through collection and processes each element, storing results
+- `EditorConvertText`: Iterates through collection and processes each element, storing results
+- `EditorGetString`: Iterates through collection and processes each element, storing results
+- `EditorInfo`: Iterates through collection and processes each element, storing results
 ### Key Functions
-- `DlgList_SetCurPos()`: Performs DlgList_SetCurPos operation as part of the component's functionality
-- `DlgList_DeleteItem()`: Performs DlgList_DeleteItem operation as part of the component's functionality
-- `DlgList_SetItemStrAsData()`: Performs DlgList_SetItemStrAsData operation as part of the component's functionality
-- `ClosePlugin()`: Closes resource and performs cleanup operations
-- `Compare()`: Performs Compare operation as part of the component's functionality
-- `Configure()`: Performs Configure operation as part of the component's functionality
-- `DeleteFiles()`: Removes Files from collection and frees associated resources
-- `ExitFAR()`: Performs ExitFAR operation as part of the component's functionality
-- `FreeFindData()`: Performs FreeFindData operation as part of the component's functionality
-- `FreeVirtualFindData()`: Performs FreeVirtualFindData operation as part of the component's functionality
+- `DlgList_SetCurPos()`: Iterates through collection and processes each element, storing results
+- `DlgList_DeleteItem()`: Iterates through collection and processes each element, storing results
+- `DlgList_SetItemStrAsData()`: Iterates through collection and processes each element, storing results
+- `ClosePlugin()`: Iterates through collection and processes each element, storing results
+- `Compare()`: Iterates through collection and processes each element, storing results
+- `Configure()`: Iterates through collection and processes each element, storing results
+- `DeleteFiles()`: Iterates through collection and processes each element, storing results
+- `ExitFAR()`: Iterates through collection and processes each element, storing results
+- `FreeFindData()`: Iterates through collection and processes each element, storing results
+- `FreeVirtualFindData()`: Iterates through collection and processes each element, storing results
 ### Summary
 The `plugin.hpp` file provides essential functionality for plugin interface. It defines 52 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -35,26 +35,26 @@ The `plugin.hpp` file provides essential functionality for plugin interface. It 
 Ten plik implementuje funkcjonalność związaną z: Plugin API for FAR Manager 1.75 build 2634
 Główne obszary funkcjonalne: interfejs wtyczek
 ### Kluczowe Klasy
-- `ActlEjectMedia`: Implementuje interfejs wtyczek
-- `ActlKeyMacro`: Implementuje interfejs wtyczek
-- `CharTableSet`: Implementuje interfejs wtyczek
-- `CmdLineSelect`: Implementuje interfejs wtyczek
-- `EditorBookMarks`: Implementuje interfejs wtyczek
-- `EditorColor`: Implementuje interfejs wtyczek
-- `EditorConvertPos`: Implementuje interfejs wtyczek
-- `EditorConvertText`: Implementuje interfejs wtyczek
-- `EditorGetString`: Implementuje interfejs wtyczek
-- `EditorInfo`: Implementuje interfejs wtyczek
+- `ActlEjectMedia`: Iterates through collection and processes each element, storing results
+- `ActlKeyMacro`: Iterates through collection and processes each element, storing results
+- `CharTableSet`: Iterates through collection and processes each element, storing results
+- `CmdLineSelect`: Iterates through collection and processes each element, storing results
+- `EditorBookMarks`: Iterates through collection and processes each element, storing results
+- `EditorColor`: Iterates through collection and processes each element, storing results
+- `EditorConvertPos`: Iterates through collection and processes each element, storing results
+- `EditorConvertText`: Iterates through collection and processes each element, storing results
+- `EditorGetString`: Iterates through collection and processes each element, storing results
+- `EditorInfo`: Iterates through collection and processes each element, storing results
 ### Kluczowe Funkcje
-- `DlgList_SetCurPos()`: Wykonuje DlgList_SetCurPos operację jako część interfejs wtyczek
-- `DlgList_DeleteItem()`: Wykonuje DlgList_DeleteItem operację jako część interfejs wtyczek
-- `DlgList_SetItemStrAsData()`: Wykonuje DlgList_SetItemStrAsData operację jako część interfejs wtyczek
-- `ClosePlugin()`: Zamyka zasób i wykonuje operacje czyszczące
-- `Compare()`: Wykonuje Compare operację jako część interfejs wtyczek
-- `Configure()`: Wykonuje Configure operację jako część interfejs wtyczek
-- `DeleteFiles()`: Usuwa Files z kolekcji i zwalnia powiązane zasoby
-- `ExitFAR()`: Wykonuje ExitFAR operację jako część interfejs wtyczek
-- `FreeFindData()`: Wykonuje FreeFindData operację jako część interfejs wtyczek
-- `FreeVirtualFindData()`: Wykonuje FreeVirtualFindData operację jako część interfejs wtyczek
+- `DlgList_SetCurPos()`: Iterates through collection and processes each element, storing results
+- `DlgList_DeleteItem()`: Iterates through collection and processes each element, storing results
+- `DlgList_SetItemStrAsData()`: Iterates through collection and processes each element, storing results
+- `ClosePlugin()`: Iterates through collection and processes each element, storing results
+- `Compare()`: Iterates through collection and processes each element, storing results
+- `Configure()`: Iterates through collection and processes each element, storing results
+- `DeleteFiles()`: Iterates through collection and processes each element, storing results
+- `ExitFAR()`: Iterates through collection and processes each element, storing results
+- `FreeFindData()`: Iterates through collection and processes each element, storing results
+- `FreeVirtualFindData()`: Iterates through collection and processes each element, storing results
 ### Podsumowanie
 Plik `plugin.hpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 52 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `OpenProcessForced()`: Opens resource and prepares it for access operations
-- `OpenProcess()`: Opens resource and prepares it for access operations
-- `GetPData()`: Retrieves PData from internal state or data structure
-- `FreeUserData()`: Performs FreeUserData operation as part of the component's functionality
-- `GetList()`: Retrieves List from internal state or data structure
-- `l()`: Performs l operation as part of the component's functionality
-- `ProcessData()`: Processes Data through transformation or handling pipeline
-- `KillProcess()`: Evaluates conditions and returns a boolean indicating success or validity of KillProcess
-- `PrintNTCurDirAndEnv()`: Opens and manages file access for reading or writing operations
-- `PrintModuleVersion()`: Performs PrintModuleVersion operation as part of the component's functionality
+- `OpenProcessForced()`: Implements OpenProcessForced functionality
+- `OpenProcess()`: Implements OpenProcess functionality
+- `GetPData()`: Retrieves PData from current context or object state
+- `FreeUserData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `GetList()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `l()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `ProcessData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `KillProcess()`: If access denied, try to assign debug privileges
+- `PrintNTCurDirAndEnv()`: Implements PrintNTCurDirAndEnv functionality
+- `PrintModuleVersion()`: Implements PrintModuleVersion functionality
 ### Namespaces
 - `std`
 ### Summary
@@ -24,16 +24,16 @@ The `Plist.cpp` file provides essential functionality for core functionality. an
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `OpenProcessForced()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `OpenProcess()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `GetPData()`: Pobiera PData ze stanu wewnętrznego lub struktury danych
-- `FreeUserData()`: Performs FreeUserData operation as part of the component's functionality
-- `GetList()`: Pobiera List ze stanu wewnętrznego lub struktury danych
-- `l()`: Performs l operation as part of the component's functionality
-- `ProcessData()`: Przetwarza Data przez potok transformacji lub obsługi
-- `KillProcess()`: Evaluates conditions and returns a boolean indicating success or validity of KillProcess
-- `PrintNTCurDirAndEnv()`: Opens and manages file access for reading or writing operations
-- `PrintModuleVersion()`: Performs PrintModuleVersion operation as part of the component's functionality
+- `OpenProcessForced()`: Implements OpenProcessForced functionality
+- `OpenProcess()`: Implements OpenProcess functionality
+- `GetPData()`: Retrieves PData from current context or object state
+- `FreeUserData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `GetList()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `l()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `ProcessData()`: Lock l(&Thread); // it's already locked in Plist::GetFindData
+- `KillProcess()`: If access denied, try to assign debug privileges
+- `PrintNTCurDirAndEnv()`: Implements PrintNTCurDirAndEnv functionality
+- `PrintModuleVersion()`: Implements PrintModuleVersion functionality
 ### Przestrzenie nazw
 - `std`
 ### Podsumowanie

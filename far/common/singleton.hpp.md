@@ -3,9 +3,9 @@
 ### Purpose
 Main functional areas: singleton implementation
 ### Key Classes
-- `singleton`: Performs singleton operation as part of the component's functionality
+- `singleton`: Implements singleton functionality
 ### Key Functions
-- `instance()`: Constructor that initializes instance object with provided parameters
+- `instance()`: ---------------------------------------------------------------------------- SINGLETON_HPP_689EF327_41C5_4AB7_B9A6_CB5361D7B040
 ### Summary
 The `singleton.hpp` file provides essential functionality for singleton implementation. It defines 1 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -15,8 +15,8 @@ The `singleton.hpp` file provides essential functionality for singleton implemen
 ### Cel
 Główne obszary funkcjonalne: implementacja singletona
 ### Kluczowe Klasy
-- `singleton`: Implementuje implementacja singletona
+- `singleton`: Implements singleton functionality
 ### Kluczowe Funkcje
-- `instance()`: Konstruktor inicjalizujący instancję obiekt z dostarczonymi parametrami
+- `instance()`: ---------------------------------------------------------------------------- SINGLETON_HPP_689EF327_41C5_4AB7_B9A6_CB5361D7B040
 ### Podsumowanie
 Plik `singleton.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 1 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

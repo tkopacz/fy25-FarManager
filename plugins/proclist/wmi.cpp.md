@@ -3,18 +3,18 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `bstr`: Performs bstr operation as part of the component's functionality
-- `com_closer`: Performs com_closer operation as part of the component's functionality
+- `bstr`: Implements bstr functionality
+- `com_closer`: Implements com_closer functionality
 ### Key Functions
-- `BSTR()`: Performs BSTR operation as part of the component's functionality
-- `ProcessPath()`: Processes Path through transformation or handling pipeline
-- `GetProcessString()`: Retrieves ProcessString from internal state or data structure
-- `ExecMethod()`: Performs ExecMethod operation as part of the component's functionality
-- `GetProcessInt()`: Retrieves ProcessInt from internal state or data structure
-- `wbem_error_to_win32_error()`: Performs wbem_error_to_win32_error operation as part of the component's functionality
-- `HRESULT_FROM_WIN32()`: Performs HRESULT_FROM_WIN32 operation as part of the component's functionality
-- `get_return_value()`: Retrieves _return_value from internal state or data structure
-- `VariantClear()`: Performs VariantClear operation as part of the component's functionality
+- `BSTR()`: Implements BSTR functionality
+- `ProcessPath()`: Processes input data through core business logic pipeline
+- `GetProcessString()`: Processes input by dispatching to different code paths based on type or value
+- `ExecMethod()`: Successful completion Access denied
+- `GetProcessInt()`: Successful completion Access denied
+- `wbem_error_to_win32_error()`: Successful completion Access denied
+- `HRESULT_FROM_WIN32()`: Successful completion Access denied Insufficient privilege Unknown failure Path not found Invalid parameter
+- `get_return_value()`: Retrieves _return_value from current context or object state
+- `VariantClear()`: Implements VariantClear functionality
 ### Summary
 The `wmi.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
 
@@ -24,17 +24,17 @@ The `wmi.cpp` file provides essential functionality for core functionality. It d
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `bstr`: Performs bstr operation as part of the component's functionality
-- `com_closer`: Performs com_closer operation as part of the component's functionality
+- `bstr`: Implements bstr functionality
+- `com_closer`: Implements com_closer functionality
 ### Kluczowe Funkcje
-- `BSTR()`: Performs BSTR operation as part of the component's functionality
-- `ProcessPath()`: Przetwarza Path przez potok transformacji lub obsługi
-- `GetProcessString()`: Pobiera ProcessString ze stanu wewnętrznego lub struktury danych
-- `ExecMethod()`: Performs ExecMethod operation as part of the component's functionality
-- `GetProcessInt()`: Pobiera ProcessInt ze stanu wewnętrznego lub struktury danych
-- `wbem_error_to_win32_error()`: Performs wbem_error_to_win32_error operation as part of the component's functionality
-- `HRESULT_FROM_WIN32()`: Performs HRESULT_FROM_WIN32 operation as part of the component's functionality
-- `get_return_value()`: Pobiera _return_wartość ze stanu wewnętrznego lub struktury danych
-- `VariantClear()`: Performs VariantClear operation as part of the component's functionality
+- `BSTR()`: Implements BSTR functionality
+- `ProcessPath()`: Processes input data through core business logic pipeline
+- `GetProcessString()`: Processes input by dispatching to different code paths based on type or value
+- `ExecMethod()`: Successful completion Access denied
+- `GetProcessInt()`: Successful completion Access denied
+- `wbem_error_to_win32_error()`: Successful completion Access denied
+- `HRESULT_FROM_WIN32()`: Successful completion Access denied Insufficient privilege Unknown failure Path not found Invalid parameter
+- `get_return_value()`: Retrieves _return_value from current context or object state
+- `VariantClear()`: Implements VariantClear functionality
 ### Podsumowanie
 Plik `wmi.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,12 +4,12 @@
 This file implements functionality related to: class FileSystemWatcher
 Main functional areas: file system operations, singleton implementation
 ### Key Classes
-- `background_watcher`: Performs background_watcher operation as part of the component's functionality
+- `background_watcher`: We don't care about individual events, so we wait a little here to let them collapse to one event per sec at most:
 ### Key Functions
-- `add()`: Adds new item to collection or list
-- `remove()`: Removes item from collection and frees associated resources
-- `process()`: Processes data through transformation or handling pipeline
-- `open()`: Opens file with specified access mode and sharing permissions
+- `add()`: Implements add functionality
+- `remove()`: We have to ensure that the client event handle is no longer used by the watcher before letting the client go
+- `process()`: We have to ensure that the client event handle is no longer used by the watcher before letting the client go
+- `open()`: Implements open functionality
 ### Summary
 The `filesystemwatcher.cpp` file provides essential functionality for file system operations, singleton implementation. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
 
@@ -20,11 +20,11 @@ The `filesystemwatcher.cpp` file provides essential functionality for file syste
 Ten plik implementuje funkcjonalność związaną z: class FileSystemWatcher
 Główne obszary funkcjonalne: operacje systemu plików, implementacja singletona
 ### Kluczowe Klasy
-- `background_watcher`: Implementuje operacje systemu plików, implementacja singletona
+- `background_watcher`: We don't care about individual events, so we wait a little here to let them collapse to one event per sec at most:
 ### Kluczowe Funkcje
-- `add()`: Dodaje nowy element do kolekcji lub listy
-- `remove()`: Usuwa element z kolekcji i zwalnia powiązane zasoby
-- `process()`: Przetwarza dane przez potok transformacji lub obsługi
-- `open()`: Opens file with specified access mode and sharing permissions
+- `add()`: Implements add functionality
+- `remove()`: We have to ensure that the client event handle is no longer used by the watcher before letting the client go
+- `process()`: We have to ensure that the client event handle is no longer used by the watcher before letting the client go
+- `open()`: Implements open functionality
 ### Podsumowanie
 Plik `filesystemwatcher.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików, implementacja singletona. Definiuje 1 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.

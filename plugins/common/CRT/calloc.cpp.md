@@ -3,7 +3,7 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `calloc()`: Performs calloc operation as part of the component's functionality
+- `calloc()`: Implements calloc functionality
 ### Summary
 The `calloc.cpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
 
@@ -13,6 +13,6 @@ The `calloc.cpp` file provides essential functionality for core functionality. a
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `calloc()`: Performs calloc operation as part of the component's functionality
+- `calloc()`: Implements calloc functionality
 ### Podsumowanie
 Plik `calloc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.

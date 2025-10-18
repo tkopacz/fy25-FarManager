@@ -4,27 +4,27 @@
 This file implements functionality related to: Враперы вокруг некоторых WinAPI функций
 Main functional areas: core functionality
 ### Key Classes
-- `deleter`: Removes or deletes the specified resource or item
-- `error_state`: Performs error_state operation as part of the component's functionality
-- `function_pointer`: Performs function_pointer operation as part of the component's functionality
-- `handle_closer`: Performs handle_closer operation as part of the component's functionality
-- `handle_implementation`: Performs handle_implementation operation as part of the component's functionality
-- `handle_t`: Performs handle_t operation as part of the component's functionality
-- `last_error_guard`: Performs last_error_guard operation as part of the component's functionality
-- `module`: Performs module operation as part of the component's functionality
-- `module_deleter`: Performs module_deleter operation as part of the component's functionality
-- `nt_handle_closer`: Performs nt_handle_closer operation as part of the component's functionality
+- `deleter`: Removes or deletes specified item and releases associated resources
+- `error_state`: Implements error_state functionality
+- `function_pointer`: Implements function_pointer functionality
+- `handle_closer`: Implements handle_closer functionality
+- `handle_implementation`: Implements handle_implementation functionality
+- `handle_t`: Implements handle_t functionality
+- `last_error_guard`: Implements last_error_guard functionality
+- `module`: Run-Time Dynamic Linking
+- `module_deleter`: Implements module_deleter functionality
+- `nt_handle_closer`: Implements nt_handle_closer functionality
 ### Key Functions
-- `buffer()`: Performs buffer operation as part of the component's functionality
-- `wait()`: Performs wait operation as part of the component's functionality
-- `is_signaled()`: Tests whether _signaled condition is true or property exists
-- `wait_any()`: Performs wait_any operation as part of the component's functionality
-- `wait_all()`: Performs wait_all operation as part of the component's functionality
-- `normalise()`: Performs normalise operation as part of the component's functionality
-- `native_handle()`: Performs native_handle operation as part of the component's functionality
-- `reset()`: Performs reset operation as part of the component's functionality
-- `close()`: Closes resource and performs cleanup operations
-- `set_error_mode()`: Updates _error_mode in internal state or configuration
+- `buffer()`: Implements buffer functionality
+- `wait()`: Implements wait functionality
+- `is_signaled()`: Checks condition and returns boolean indicating state
+- `wait_any()`: Implements wait_any functionality
+- `wait_all()`: Implements wait_all functionality
+- `normalise()`: Implements normalise functionality
+- `native_handle()`: Implements native_handle functionality
+- `reset()`: Implements reset functionality
+- `close()`: Implements close functionality
+- `set_error_mode()`: Updates _error_mode with provided value and validates constraints
 ### Namespaces
 - `detail`
 - `netapi`
@@ -41,27 +41,27 @@ The `platform.hpp` file provides essential functionality for core functionality.
 Ten plik implementuje funkcjonalność związaną z: Враперы вокруг некоторых WinAPI функций
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `deleter`: Removes or deletes the specified resource or item
-- `error_state`: Performs error_state operation as part of the component's functionality
-- `function_pointer`: Performs function_pointer operation as part of the component's functionality
-- `handle_closer`: Performs handle_closer operation as part of the component's functionality
-- `handle_implementation`: Performs handle_implementation operation as part of the component's functionality
-- `handle_t`: Performs handle_t operation as part of the component's functionality
-- `last_error_guard`: Performs last_error_guard operation as part of the component's functionality
-- `module`: Performs module operation as part of the component's functionality
-- `module_deleter`: Performs module_deleter operation as part of the component's functionality
-- `nt_handle_closer`: Performs nt_handle_closer operation as part of the component's functionality
+- `deleter`: Removes or deletes specified item and releases associated resources
+- `error_state`: Implements error_state functionality
+- `function_pointer`: Implements function_pointer functionality
+- `handle_closer`: Implements handle_closer functionality
+- `handle_implementation`: Implements handle_implementation functionality
+- `handle_t`: Implements handle_t functionality
+- `last_error_guard`: Implements last_error_guard functionality
+- `module`: Run-Time Dynamic Linking
+- `module_deleter`: Implements module_deleter functionality
+- `nt_handle_closer`: Implements nt_handle_closer functionality
 ### Kluczowe Funkcje
-- `buffer()`: Performs buffer operation as part of the component's functionality
-- `wait()`: Performs wait operation as part of the component's functionality
-- `is_signaled()`: Testuje czy _signaled warunek jest prawdziwy lub właściwość istnieje
-- `wait_any()`: Performs wait_any operation as part of the component's functionality
-- `wait_all()`: Performs wait_all operation as part of the component's functionality
-- `normalise()`: Performs normalise operation as part of the component's functionality
-- `native_handle()`: Performs native_handle operation as part of the component's functionality
-- `reset()`: Performs reset operation as part of the component's functionality
-- `close()`: Zamyka zasób i wykonuje operacje czyszczące
-- `set_error_mode()`: Aktualizuje _error_mode w stanie wewnętrznym lub konfiguracji
+- `buffer()`: Implements buffer functionality
+- `wait()`: Implements wait functionality
+- `is_signaled()`: Checks condition and returns boolean indicating state
+- `wait_any()`: Implements wait_any functionality
+- `wait_all()`: Implements wait_all functionality
+- `normalise()`: Implements normalise functionality
+- `native_handle()`: Implements native_handle functionality
+- `reset()`: Implements reset functionality
+- `close()`: Implements close functionality
+- `set_error_mode()`: Updates _error_mode with provided value and validates constraints
 ### Przestrzenie nazw
 - `detail`
 - `netapi`

@@ -4,16 +4,16 @@
 This file implements functionality related to: Сравнение без учета регистра, преобразование регистра
 Main functional areas: string utilities
 ### Key Functions
-- `GetBlanks()`: Retrieves Blanks from internal state or data structure
-- `GetEols()`: Retrieves Eols from internal state or data structure
-- `is_alpha()`: Tests whether _alpha condition is true or property exists
-- `is_alphanumeric()`: Tests whether _alphanumeric condition is true or property exists
-- `is_upper()`: Tests whether _upper condition is true or property exists
-- `is_lower()`: Tests whether _lower condition is true or property exists
-- `upper()`: Performs upper operation as part of the component's functionality
-- `lower()`: Performs lower operation as part of the component's functionality
-- `fold()`: Performs fold operation as part of the component's functionality
-- `equal_icase()`: Evaluates conditions and returns boolean indicating success or validity
+- `GetBlanks()`: Platform: Common: External: ----------------------------------------------------------------------------
+- `GetEols()`: Retrieves Eols from current context or object state
+- `is_alpha()`: Checks condition and returns boolean indicating state
+- `is_alphanumeric()`: Checks condition and returns boolean indicating state
+- `is_upper()`: Checks condition and returns boolean indicating state
+- `is_lower()`: Checks condition and returns boolean indicating state
+- `upper()`: Implements upper functionality
+- `lower()`: Implements lower functionality
+- `fold()`: Implements fold functionality
+- `equal_icase()`: Implements equal_icase functionality
 ### Summary
 The `string_utils.cpp` file provides essential functionality for string utilities. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -24,15 +24,15 @@ The `string_utils.cpp` file provides essential functionality for string utilitie
 Ten plik implementuje funkcjonalność związaną z: Сравнение без учета регистра, преобразование регистра
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Funkcje
-- `GetBlanks()`: Pobiera Blanks ze stanu wewnętrznego lub struktury danych
-- `GetEols()`: Pobiera Eols ze stanu wewnętrznego lub struktury danych
-- `is_alpha()`: Testuje czy _alpha warunek jest prawdziwy lub właściwość istnieje
-- `is_alphanumeric()`: Testuje czy _alphanumeric warunek jest prawdziwy lub właściwość istnieje
-- `is_upper()`: Testuje czy _upper warunek jest prawdziwy lub właściwość istnieje
-- `is_lower()`: Testuje czy _lower warunek jest prawdziwy lub właściwość istnieje
-- `upper()`: Wykonuje upper operację jako część narzędzia łańcuchowe
-- `lower()`: Wykonuje lower operację jako część narzędzia łańcuchowe
-- `fold()`: Wykonuje fold operację jako część narzędzia łańcuchowe
-- `equal_icase()`: Wykonuje equal_icase operację jako część narzędzia łańcuchowe
+- `GetBlanks()`: Platform: Common: External: ----------------------------------------------------------------------------
+- `GetEols()`: Retrieves Eols from current context or object state
+- `is_alpha()`: Checks condition and returns boolean indicating state
+- `is_alphanumeric()`: Checks condition and returns boolean indicating state
+- `is_upper()`: Checks condition and returns boolean indicating state
+- `is_lower()`: Checks condition and returns boolean indicating state
+- `upper()`: Implements upper functionality
+- `lower()`: Implements lower functionality
+- `fold()`: Implements fold functionality
+- `equal_icase()`: Implements equal_icase functionality
 ### Podsumowanie
 Plik `string_utils.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -3,14 +3,14 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `CreateThunkEx()`: Creates and initializes new ThunkEx instance
-- `CreateThunkFastEx()`: Creates and initializes new ThunkFastEx instance
-- `ReleaseThunkEx()`: Performs ReleaseThunkEx operation as part of the component's functionality
-- `CreateThunk()`: Creates and initializes new Thunk instance
-- `ReleaseThunk()`: Performs ReleaseThunk operation as part of the component's functionality
-- `CreateThunkRegister()`: Creates and initializes new ThunkRegister instance
-- `CreateThunkCdecl()`: Creates and initializes new ThunkCdecl instance
-- `ReleaseThunkCdecl()`: Performs ReleaseThunkCdecl operation as part of the component's functionality
+- `CreateThunkEx()`: Iterates through collection and processes each element, storing results
+- `CreateThunkFastEx()`: pop edx - pop ret addr
+- `ReleaseThunkEx()`: pop edx - pop ret addr mov ecx instance
+- `CreateThunk()`: push ecx - push instance push edx - push ret address back
+- `ReleaseThunk()`: mov eax, instance mov eax, calladdr
+- `CreateThunkRegister()`: push eax mov eax, instance push eax push ecx mov eax, calladdr jmp eax all ecx!! pop ebx mov [???], ebx mov ebx, ??? push ebx mov ebx, ????
+- `CreateThunkCdecl()`: mov ebx, ???? mov ebx, [???]
+- `ReleaseThunkCdecl()`: Iterates through collection and processes each element, storing results
 ### Summary
 The `Rtl.Thunks.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
 
@@ -20,13 +20,13 @@ The `Rtl.Thunks.cpp` file provides essential functionality for core functionalit
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `CreateThunkEx()`: Tworzy i inicjalizuje nowy ThunkEx instancję
-- `CreateThunkFastEx()`: Tworzy i inicjalizuje nowy ThunkFastEx instancję
-- `ReleaseThunkEx()`: Performs ReleaseThunkEx operation as part of the component's functionality
-- `CreateThunk()`: Tworzy i inicjalizuje nowy Thunk instancję
-- `ReleaseThunk()`: Performs ReleaseThunk operation as part of the component's functionality
-- `CreateThunkRegister()`: Tworzy i inicjalizuje nowy ThunkRegister instancję
-- `CreateThunkCdecl()`: Tworzy i inicjalizuje nowy ThunkCdecl instancję
-- `ReleaseThunkCdecl()`: Performs ReleaseThunkCdecl operation as part of the component's functionality
+- `CreateThunkEx()`: Iterates through collection and processes each element, storing results
+- `CreateThunkFastEx()`: pop edx - pop ret addr
+- `ReleaseThunkEx()`: pop edx - pop ret addr mov ecx instance
+- `CreateThunk()`: push ecx - push instance push edx - push ret address back
+- `ReleaseThunk()`: mov eax, instance mov eax, calladdr
+- `CreateThunkRegister()`: push eax mov eax, instance push eax push ecx mov eax, calladdr jmp eax all ecx!! pop ebx mov [???], ebx mov ebx, ??? push ebx mov ebx, ????
+- `CreateThunkCdecl()`: mov ebx, ???? mov ebx, [???]
+- `ReleaseThunkCdecl()`: Iterates through collection and processes each element, storing results
 ### Podsumowanie
 Plik `Rtl.Thunks.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.

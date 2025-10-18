@@ -4,14 +4,14 @@
 This file implements functionality related to: */
 Main functional areas: core functionality
 ### Key Functions
-- `succeeded()`: Performs succeeded operation as part of the component's functionality
-- `failed()`: Performs failed operation as part of the component's functionality
-- `is_string_type()`: Tests whether _string_type condition is true or property exists
-- `query_value()`: Accesses Windows registry for reading or writing configuration settings
-- `enum_key()`: Performs enum_key operation as part of the component's functionality
-- `enum_value()`: Performs enum_value operation as part of the component's functionality
-- `exception()`: Validates conditions and throws exceptions when errors are detected during exception operation
-- `string()`: Performs string operation as part of the component's functionality
+- `succeeded()`: Implements succeeded functionality
+- `failed()`: Implements failed functionality
+- `is_string_type()`: Checks condition and returns boolean indicating state
+- `query_value()`: Implements query_value functionality
+- `enum_key()`: Processes input by dispatching to different code paths based on type or value
+- `enum_value()`: We don't know how much
+- `exception()`: Implements exception functionality
+- `string()`: Implements string functionality
 ### Namespaces
 - `os`
 ### Summary
@@ -24,14 +24,14 @@ The `platform.reg.cpp` file provides essential functionality for core functional
 Ten plik implementuje funkcjonalność związaną z: */
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `succeeded()`: Performs succeeded operation as part of the component's functionality
-- `failed()`: Performs failed operation as part of the component's functionality
-- `is_string_type()`: Testuje czy _string_type warunek jest prawdziwy lub właściwość istnieje
-- `query_value()`: Accesses Windows registry for reading or writing configuration settings
-- `enum_key()`: Performs enum_key operation as part of the component's functionality
-- `enum_value()`: Performs enum_value operation as part of the component's functionality
-- `exception()`: Validates conditions and throws exceptions when errors are detected during exception operation
-- `string()`: Performs string operation as part of the component's functionality
+- `succeeded()`: Implements succeeded functionality
+- `failed()`: Implements failed functionality
+- `is_string_type()`: Checks condition and returns boolean indicating state
+- `query_value()`: Implements query_value functionality
+- `enum_key()`: Processes input by dispatching to different code paths based on type or value
+- `enum_value()`: We don't know how much
+- `exception()`: Implements exception functionality
+- `string()`: Implements string functionality
 ### Przestrzenie nazw
 - `os`
 ### Podsumowanie

@@ -3,16 +3,16 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Functions
-- `settings()`: Updates tings in internal state or configuration
-- `OpenLogFile()`: Opens resource and prepares it for access operations
-- `AddConnection()`: Adds new Connection to collection or list
-- `LogData()`: Returns pointer or reference to internal data buffer
-- `RemoveItems()`: Removes Items from collection and frees associated resources
-- `Builder()`: Performs Builder operation as part of the component's functionality
-- `SetCurrentDirectory()`: Updates CurrentDirectory in internal state or configuration
-- `DisconnectFromServer()`: Allocates memory and initializes resources for DisconnectFromServer
-- `lstrcpy()`: Performs lstrcpy operation as part of the component's functionality
-- `AddConnectionWithLogon()`: Adds new ConnectionWithLogon to collection or list
+- `settings()`: Updates tings with provided value
+- `OpenLogFile()`: Implements OpenLogFile functionality
+- `AddConnection()`: Implements AddConnection functionality
+- `LogData()`: Returns pointer to internal buffer for direct access to stored data
+- `RemoveItems()`: Removes or deletes specified item and releases associated resources
+- `Builder()`: If there are elements, check the first element get the list of connections, so that we can show mapped drive letters
+- `SetCurrentDirectory()`: Updates CurrentDirectory with provided value
+- `DisconnectFromServer()`: Implements DisconnectFromServer functionality
+- `lstrcpy()`: if we're on the drive we're disconnecting, set the directory to
+- `AddConnectionWithLogon()`: Implements AddConnectionWithLogon functionality
 ### Summary
 The `NetClass.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -22,15 +22,15 @@ The `NetClass.cpp` file provides essential functionality for core functionality.
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Funkcje
-- `settings()`: Aktualizuje tings w stanie wewnętrznym lub konfiguracji
-- `OpenLogFile()`: Otwiera zasób i przygotowuje go do operacji dostępu
-- `AddConnection()`: Dodaje nowy Connection do kolekcji lub listy
-- `LogData()`: Returns pointer or reference to internal data buffer
-- `RemoveItems()`: Usuwa Items z kolekcji i zwalnia powiązane zasoby
-- `Builder()`: Performs Builder operation as part of the component's functionality
-- `SetCurrentDirectory()`: Aktualizuje CurrentDirectory w stanie wewnętrznym lub konfiguracji
-- `DisconnectFromServer()`: Allocates memory and initializes resources for DisconnectFromServer
-- `lstrcpy()`: Performs lstrcpy operation as part of the component's functionality
-- `AddConnectionWithLogon()`: Dodaje nowy ConnectionWithLogon do kolekcji lub listy
+- `settings()`: Updates tings with provided value
+- `OpenLogFile()`: Implements OpenLogFile functionality
+- `AddConnection()`: Implements AddConnection functionality
+- `LogData()`: Returns pointer to internal buffer for direct access to stored data
+- `RemoveItems()`: Removes or deletes specified item and releases associated resources
+- `Builder()`: If there are elements, check the first element get the list of connections, so that we can show mapped drive letters
+- `SetCurrentDirectory()`: Updates CurrentDirectory with provided value
+- `DisconnectFromServer()`: Implements DisconnectFromServer functionality
+- `lstrcpy()`: if we're on the drive we're disconnecting, set the directory to
+- `AddConnectionWithLogon()`: Implements AddConnectionWithLogon functionality
 ### Podsumowanie
 Plik `NetClass.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

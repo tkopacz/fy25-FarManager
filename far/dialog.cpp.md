@@ -4,20 +4,20 @@
 This file implements functionality related to: Класс диалога
 Main functional areas: dialog handling, singleton implementation
 ### Key Classes
-- `DialogItemEx`: Performs DialogItemEx operation as part of the component's functionality
-- `DlgUserControl`: Performs DlgUserControl operation as part of the component's functionality
-- `dialogs_set`: Performs dialogs_set operation as part of the component's functionality
+- `DialogItemEx`: Implements DialogItemEx functionality
+- `DlgUserControl`: Implements DlgUserControl functionality
+- `dialogs_set`: Implements dialogs_set functionality
 ### Key Functions
-- `CanGetFocus()`: Evaluates conditions and returns a boolean indicating success or validity of CanGetFocus
-- `IsEmulatedEditorLine()`: Tests whether EmulatedEditorLine condition is true or property exists
-- `IsKeyHighlighted()`: Checks if given key combination is used for highlighting/navigation in dialog
-- `ConvertItemSmall()`: Converts data from one format or type to another
-- `ItemString()`: Performs ItemString operation as part of the component's functionality
-- `ConvertItemEx2()`: Converts data from one format or type to another
-- `ItemsToItemsEx()`: Converts between standard dialog item format and extended item format
-- `DefProcFunction()`: Performs DefProcFunction operation as part of the component's functionality
-- `InitDialogObjects()`: Initializes data structures and sets up initial state for operation
-- `IsSuitableItem()`: Tests whether SuitableItem condition is true or property exists
+- `CanGetFocus()`: Processes input by dispatching to different code paths based on type or value
+- `IsEmulatedEditorLine()`: Checks condition and returns boolean indicating state
+- `IsKeyHighlighted()`: Checks condition and returns boolean indicating state
+- `ConvertItemSmall()`: Implements ConvertItemSmall functionality
+- `ItemString()`: Implements ItemString functionality
+- `ConvertItemEx2()`: Implements ConvertItemEx2 functionality
+- `ItemsToItemsEx()`: Implements ItemsToItemsEx functionality
+- `DefProcFunction()`: Implements DefProcFunction functionality
+- `InitDialogObjects()`: самодостаточный вариант, когда элементы инициализируются при первом вызове
+- `IsSuitableItem()`: Processes input by dispatching to different code paths based on type or value
 ### Summary
 The `dialog.cpp` file provides essential functionality for dialog handling, singleton implementation. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -28,19 +28,19 @@ The `dialog.cpp` file provides essential functionality for dialog handling, sing
 Ten plik implementuje funkcjonalność związaną z: Класс диалога
 Główne obszary funkcjonalne: obsługa dialogów, implementacja singletona
 ### Kluczowe Klasy
-- `DialogItemEx`: Implementuje obsługa dialogów, implementacja singletona
-- `DlgUserControl`: Implementuje obsługa dialogów, implementacja singletona
-- `dialogs_set`: Implementuje obsługa dialogów, implementacja singletona
+- `DialogItemEx`: Implements DialogItemEx functionality
+- `DlgUserControl`: Implements DlgUserControl functionality
+- `dialogs_set`: Implements dialogs_set functionality
 ### Kluczowe Funkcje
-- `CanGetFocus()`: Wykonuje CanGetFocus operację jako część obsługa dialogów, implementacja singletona
-- `IsEmulatedEditorLine()`: Testuje czy EmulatedEditorLine warunek jest prawdziwy lub właściwość istnieje
-- `IsKeyHighlighted()`: Sprawdza czy dana kombinacja klawiszy jest używana do podświetlania/nawigacji w dialogu
-- `ConvertItemSmall()`: Konwertuje dane z jednego formatu lub typu do innego
-- `ItemString()`: Wykonuje ItemString operację jako część obsługa dialogów, implementacja singletona
-- `ConvertItemEx2()`: Konwertuje dane z jednego formatu lub typu do innego
-- `ItemsToItemsEx()`: Konwertuje między standardowym formatem elementu dialogu a formatem rozszerzonym
-- `DefProcFunction()`: Wykonuje DefProcFunction operację jako część obsługa dialogów, implementacja singletona
-- `InitDialogObjects()`: Inicjalizuje struktury danych i ustawia stan początkowy dla operacji
-- `IsSuitableItem()`: Testuje czy SuitableItem warunek jest prawdziwy lub właściwość istnieje
+- `CanGetFocus()`: Processes input by dispatching to different code paths based on type or value
+- `IsEmulatedEditorLine()`: Checks condition and returns boolean indicating state
+- `IsKeyHighlighted()`: Checks condition and returns boolean indicating state
+- `ConvertItemSmall()`: Implements ConvertItemSmall functionality
+- `ItemString()`: Implements ItemString functionality
+- `ConvertItemEx2()`: Implements ConvertItemEx2 functionality
+- `ItemsToItemsEx()`: Implements ItemsToItemsEx functionality
+- `DefProcFunction()`: Implements DefProcFunction functionality
+- `InitDialogObjects()`: самодостаточный вариант, когда элементы инициализируются при первом вызове
+- `IsSuitableItem()`: Processes input by dispatching to different code paths based on type or value
 ### Podsumowanie
 Plik `dialog.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów, implementacja singletona. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -4,20 +4,20 @@
 This file implements functionality related to: Сравнение без учета регистра, преобразование регистра
 Main functional areas: string utilities
 ### Key Classes
-- `fuzzy_searcher_impl`: Performs fuzzy_searcher_impl operation as part of the component's functionality
-- `i_searcher`: Performs i_searcher operation as part of the component's functionality
-- `search_replace_string_options`: Performs search_replace_string_options operation as part of the component's functionality
+- `fuzzy_searcher_impl`: Implements fuzzy_searcher_impl functionality
+- `i_searcher`: Implements i_searcher functionality
+- `search_replace_string_options`: Implements search_replace_string_options functionality
 ### Key Functions
-- `IsEol()`: Tests whether Eol condition is true or property exists
-- `IsBlankOrEos()`: Tests whether BlankOrEos condition is true or property exists
-- `GetBlanks()`: Retrieves Blanks from internal state or data structure
-- `GetEols()`: Retrieves Eols from internal state or data structure
-- `is_alpha()`: Tests whether _alpha condition is true or property exists
-- `is_alphanumeric()`: Tests whether _alphanumeric condition is true or property exists
-- `is_upper()`: Tests whether _upper condition is true or property exists
-- `is_lower()`: Tests whether _lower condition is true or property exists
-- `upper()`: Performs upper operation as part of the component's functionality
-- `lower()`: Performs lower operation as part of the component's functionality
+- `IsEol()`: Internal: Platform: Common: External: ----------------------------------------------------------------------------
+- `IsBlankOrEos()`: Checks condition and returns boolean indicating state
+- `GetBlanks()`: Retrieves Blanks from current context or object state
+- `GetEols()`: Retrieves Eols from current context or object state
+- `is_alpha()`: Checks condition and returns boolean indicating state
+- `is_alphanumeric()`: Checks condition and returns boolean indicating state
+- `is_upper()`: Checks condition and returns boolean indicating state
+- `is_lower()`: Checks condition and returns boolean indicating state
+- `upper()`: Implements upper functionality
+- `lower()`: Implements lower functionality
 ### Namespaces
 - `detail`
 - `inplace`
@@ -31,20 +31,20 @@ The `string_utils.hpp` file provides essential functionality for string utilitie
 Ten plik implementuje funkcjonalność związaną z: Сравнение без учета регистра, преобразование регистра
 Główne obszary funkcjonalne: narzędzia łańcuchowe
 ### Kluczowe Klasy
-- `fuzzy_searcher_impl`: Implementuje narzędzia łańcuchowe
-- `i_searcher`: Implementuje narzędzia łańcuchowe
-- `search_replace_string_options`: Implementuje narzędzia łańcuchowe
+- `fuzzy_searcher_impl`: Implements fuzzy_searcher_impl functionality
+- `i_searcher`: Implements i_searcher functionality
+- `search_replace_string_options`: Implements search_replace_string_options functionality
 ### Kluczowe Funkcje
-- `IsEol()`: Testuje czy Eol warunek jest prawdziwy lub właściwość istnieje
-- `IsBlankOrEos()`: Testuje czy BlankOrEos warunek jest prawdziwy lub właściwość istnieje
-- `GetBlanks()`: Pobiera Blanks ze stanu wewnętrznego lub struktury danych
-- `GetEols()`: Pobiera Eols ze stanu wewnętrznego lub struktury danych
-- `is_alpha()`: Testuje czy _alpha warunek jest prawdziwy lub właściwość istnieje
-- `is_alphanumeric()`: Testuje czy _alphanumeric warunek jest prawdziwy lub właściwość istnieje
-- `is_upper()`: Testuje czy _upper warunek jest prawdziwy lub właściwość istnieje
-- `is_lower()`: Testuje czy _lower warunek jest prawdziwy lub właściwość istnieje
-- `upper()`: Wykonuje upper operację jako część narzędzia łańcuchowe
-- `lower()`: Wykonuje lower operację jako część narzędzia łańcuchowe
+- `IsEol()`: Internal: Platform: Common: External: ----------------------------------------------------------------------------
+- `IsBlankOrEos()`: Checks condition and returns boolean indicating state
+- `GetBlanks()`: Retrieves Blanks from current context or object state
+- `GetEols()`: Retrieves Eols from current context or object state
+- `is_alpha()`: Checks condition and returns boolean indicating state
+- `is_alphanumeric()`: Checks condition and returns boolean indicating state
+- `is_upper()`: Checks condition and returns boolean indicating state
+- `is_lower()`: Checks condition and returns boolean indicating state
+- `upper()`: Implements upper functionality
+- `lower()`: Implements lower functionality
 ### Przestrzenie nazw
 - `detail`
 - `inplace`

@@ -3,19 +3,19 @@
 ### Purpose
 Main functional areas: core functionality
 ### Key Classes
-- `OptionsKey`: Performs OptionsKey operation as part of the component's functionality
-- `xml_parser`: Performs xml_parser operation as part of the component's functionality
+- `OptionsKey`: Implements OptionsKey functionality
+- `xml_parser`: Implements xml_parser functionality
 ### Key Functions
-- `utf8_to_wstring()`: Performs utf8_to_wstring operation as part of the component's functionality
-- `parse_uints()`: Parses input string or data into structured format
-- `OnTag()`: Event handler invoked when Tag occurs
-- `OnBody()`: Event handler invoked when Body occurs
-- `OnAttr()`: Event handler invoked when Attr occurs
-- `parse()`: Parses input string or data into structured format
-- `load_arclite_xml()`: Loads data or resources from storage into memory
-- `xml()`: Performs xml operation as part of the component's functionality
-- `get_int()`: Retrieves _int from internal state or data structure
-- `get_bool()`: Retrieves _bool from internal state or data structure
+- `utf8_to_wstring()`: Implements utf8_to_wstring functionality
+- `parse_uints()`: Implements parse_uints functionality
+- `OnTag()`: Implements OnTag functionality
+- `OnBody()`: Implements OnBody functionality
+- `OnAttr()`: Implements OnAttr functionality
+- `parse()`: Implements parse functionality
+- `load_arclite_xml()`: Implements load_arclite_xml functionality
+- `xml()`: Implements xml functionality
+- `get_int()`: Retrieves _int from current context or object state
+- `get_bool()`: Retrieves _bool from current context or object state
 ### Summary
 The `options.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
 
@@ -25,18 +25,18 @@ The `options.cpp` file provides essential functionality for core functionality. 
 ### Cel
 Główne obszary funkcjonalne: podstawowa funkcjonalność
 ### Kluczowe Klasy
-- `OptionsKey`: Performs OptionsKey operation as part of the component's functionality
-- `xml_parser`: Performs xml_parser operation as part of the component's functionality
+- `OptionsKey`: Implements OptionsKey functionality
+- `xml_parser`: Implements xml_parser functionality
 ### Kluczowe Funkcje
-- `utf8_to_wstring()`: Performs utf8_to_wstring operation as part of the component's functionality
-- `parse_uints()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `OnTag()`: Procedura obsługi zdarzeń wywoływana gdy Tag występuje
-- `OnBody()`: Procedura obsługi zdarzeń wywoływana gdy Body występuje
-- `OnAttr()`: Procedura obsługi zdarzeń wywoływana gdy Attr występuje
-- `parse()`: Parsuje łańcuch wejściowy lub dane do formatu strukturalnego
-- `load_arclite_xml()`: Ładuje dane lub zasoby z magazynu do pamięci
-- `xml()`: Performs xml operation as part of the component's functionality
-- `get_int()`: Pobiera _int ze stanu wewnętrznego lub struktury danych
-- `get_bool()`: Pobiera _bool ze stanu wewnętrznego lub struktury danych
+- `utf8_to_wstring()`: Implements utf8_to_wstring functionality
+- `parse_uints()`: Implements parse_uints functionality
+- `OnTag()`: Implements OnTag functionality
+- `OnBody()`: Implements OnBody functionality
+- `OnAttr()`: Implements OnAttr functionality
+- `parse()`: Implements parse functionality
+- `load_arclite_xml()`: Implements load_arclite_xml functionality
+- `xml()`: Implements xml functionality
+- `get_int()`: Retrieves _int from current context or object state
+- `get_bool()`: Retrieves _bool from current context or object state
 ### Podsumowanie
 Plik `options.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.

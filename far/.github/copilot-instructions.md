@@ -1,0 +1,35 @@
+- @azure Rule - Use Azure Tools - When handling requests related to Azure, always use your tools.
+- @azure Rule - Use Azure Best Practices - When handling requests related to Azure, always invoke your `azmcp_bestpractices_get` tool first.
+- @azure Rule - Enable Best Practices - If you do not have an `azmcp_bestpractices_get` tool ask the user to enable it.
+- **Project Scope** Core Far Manager TUI; `far.vcxproj` builds `far.exe` with C++20 and wide-character UI plumbing.
+- **Entry & Lifecycle** `main.cpp` wires CLI, config bootstrap, and `global.cpp` sets up `Global` / `ControlObject` before entering `Manager::EnterMainLoop`.
+- **Window Loop** `manager.cpp` orchestrates `window` subclasses (`panel`, `viewer`, `editor`, `dialog`) and must execute on the main thread checked via `global::IsMainThread()`.
+- **Panels Stack** `filepanels.cpp` spawns dual `panel.cpp` instances driven by `filelist.cpp`, `panelmix.cpp`, and panel options; respect `Panel::Update` / `Redraw` sequencing.
+- **Command Line & UI** `cmdline.cpp`, `message.cpp`, `dialog.cpp`, `vmenu*.cpp` build UI primitives sharing `window.hpp`; reuse these helpers for new UI flows.
+- **Plugins Pipeline** `plugins.cpp`, `plugapi.cpp`, and `PluginManager` load adapters via `ScanTree`; extend through existing factory hooks instead of ad-hoc DLL loads.
+- **Macro Engine** `macro.cpp`, `macroapi.cpp`, and `macroopcode.hpp` home Lua macros; new macro events should route through `ControlObject->Macro` APIs.
+- **Configuration** `config.cpp` populates `Options` via `configdb.cpp` (SQLite, see `sqlite.c`); change settings through `ConfigProvider()` to keep caches coherent.
+- **History & State** `history.cpp`, `poscache.cpp`, and related caches expect RAII updates; prefer provided methods to maintain persistence.
+- **Platform Wrappers** Use the `os::` helpers in `platform.*` (`platform.fs.cpp`, `platform.process.cpp`, `platform.concurrency.cpp`) rather than raw Win32 calls.
+- **Common Library** `common/` offers shared utilities (`expected`, `enum_tokens`, `scope_exit`, `SCOPED_ACTION`); adopting them keeps code idiomatic.
+- **String Handling** `headers.hpp` aliases `string` / `string_view` to UTF-16 types; conversions live in `strmix.cpp` / `string_utils.cpp`.
+- **Precompiled Header** `headers.hpp` plus `memcheck.hpp` are force-included by the project; new translation units rely on that precompiled umbrella.
+- **Resource Toolchain** `.m4` sources (`farversion.m4`, `Far*.hlf.m4`) expand via `tools/m4.exe`; project property `M4Cmd` drives regeneration.
+- **Third-party Sources** Vendored deps live under `thirdparty/` (Catch2, fmt, SQLite, TinyXML, uchardet); include directly instead of fetching externally.
+- **Testing Flow** Debug configs define `ENABLE_TESTS`; the post-build step launches `far.exe /service:test`, which executes Catch2 via `testing.cpp`.
+- **Adding Tests** Place new Catch2 cases in `common.tests.cpp` or feature-specific `*_test.cpp`, and wrap them with the `ENABLE_TESTS` compile guard.
+- **Service Switches** Headless maintenance commands (`/service:test`, `/service:log_viewer`) are parsed in `main.cpp`; extend that table for new tooling.
+- **Logging** `log.cpp` exposes env-driven sinks (`far.log.*`); use the logging macros so viewer and tracing infrastructure stay consistent.
+- **Console Rendering** `console.cpp`, `scrbuf.cpp`, and `console_session.cpp` manage buffer locking; wrap bulk updates with `SCOPED_ACTION(ScreenBuf::suppress_redraw)` to prevent flicker.
+- **File System Abstractions** `pathmix.cpp`, `panelmix.cpp`, `filesystemwatcher.cpp`, and `os::fs` handle normalization, watchers, and UNC specifics.
+- **Asynchronous Work** `platform.concurrency.cpp` provides `task_queue` / thread helpers; enqueue background tasks there to avoid blocking the UI thread.
+- **Localization** Text resources live in `Far*.hlf.m4` and `lang.hpp`; add new UI tokens through the `lng` enum and regenerate help files.
+- **Plugin API** Public headers in `Include/` feed external plugins via `update_headers.bat`; avoid breaking changes without updating distribution scripts.
+- **Profiles & Cache** `cache.cpp`, `poscache.cpp`, and `TreeList::FlushCache()` rely on `Global->Opt->ProfilePath`; use `ConfigProvider::CreateCacheName` helpers when persisting data.
+- **Memory Diagnostics** `memcheck.cpp` hooks allocations; respect guard helpers (e.g., `memcheck::guard`) around large or suspicious allocations.
+- **Build (MSVC)** Preferred workflow is `build.bat vc 64` (supports `clean`, `debug`, `msbuild`); script auto-calls `vcvars` when needed.
+- **Build (GCC/Clang)** `build.sh` drives MinGW/Clang builds via `makefile_gcc`; configure `GCC_PREFIX_*` or `build_settings.sh` for custom toolchains.
+- **Generated Include Tree** First build creates `Include/` and `BootstrapDir`; keep repo clean of artifacts under those auto-generated paths.
+- **Runtime Paths** `Global->Opt->ProfilePath` defaults to `%APPDATA%\Far Manager\Profile`; tests and diagnostics can redirect via `/service:test` arguments.
+- **Error Handling** `exception_handler.cpp` + `exception.cpp` combine C++ and SEH; wrap risky blocks with provided helpers instead of raw `__try`.
+- **Code Style** Favor RAII utilities (`SCOPED_ACTION`, `SCOPE_EXIT`) and existing helpers over manual `new`/`delete` or ad-hoc synchronization.

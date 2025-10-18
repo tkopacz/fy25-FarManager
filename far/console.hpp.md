@@ -1,56 +1,79 @@
 # console.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Console functions
-Main functional areas: console operations
+This file implements functionality for console I/O operations.
+
 ### Key Classes
-- `console`: Performs console operation in console.hpp
-- `console_aliases`: Performs console_aliases operation in console.hpp
-- `data`: Performs data operation in console.hpp
-- `implementation`: Performs implementation operation in console.hpp
-- `input_queue_inspector`: Performs input_queue_inspector operation in console.hpp
-- `stream_buffers_overrider`: Performs stream_buffers_overrider operation in console.hpp
+- **`console`**: Implements console functionality
+- **`console_aliases`**: Implements console aliases functionality
+- **`input_queue_inspector`**: Implements input queue inspector functionality
+
 ### Key Functions
-- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation in console.hpp
-- `sanitise_pair()`: Performs sanitise_pair operation in console.hpp
-- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info value in console.hpp
-- `Allocate()`: Performs Allocate operation in console.hpp
-- `Free()`: Performs Free operation in console.hpp
-- `GetInputHandle()`: Retrieves InputHandle value in console.hpp
-- `GetOutputHandle()`: Retrieves OutputHandle value in console.hpp
-- `GetErrorHandle()`: Retrieves ErrorHandle value in console.hpp
-- `GetOriginalInputHandle()`: Retrieves OriginalInputHandle value in console.hpp
-- `GetWindow()`: Retrieves Window value in console.hpp
+- **`ReplaceControlCharacter()`**: Executes replace control character operation
+- **`sanitise_pair()`**: Executes sanitise pair operation
+- **`get_console_screen_buffer_info()`**: Retrieves the current console screen buffer info value
+- **`console::Allocate()`**: Executes allocate operation
+- **`console::Free()`**: Executes free operation
+- **`console::GetInputHandle()`**: Retrieves the current input handle value
+- **`console::GetOutputHandle()`**: Retrieves the current output handle value
+- **`console::GetErrorHandle()`**: Retrieves the current error handle value
+- **`console::GetOriginalInputHandle()`**: Retrieves the current original input handle value
+- **`console::GetWindow()`**: Retrieves the current window value
+- **`console::GetSize()`**: Retrieves the current size value
+- **`console::SetSize()`**: Updates the size with a new value
+- **`console::SetScreenBufferSize()`**: Updates the screen buffer size with a new value
+- **`console::GetWindowRect()`**: Retrieves the current window rect value
+- **`console::SetWindowRect()`**: Updates the window rect with a new value
+- **`console::GetWorkingRect()`**: Retrieves the current working rect value
+- **`console::GetPhysicalTitle()`**: Retrieves the current physical title value
+- **`console::GetTitle()`**: Retrieves the current title value
+- **`console::SetTitle()`**: Updates the title with a new value
+- **`console::GetKeyboardLayout()`**: Retrieves the current keyboard layout value
+
 ### Namespaces
 - `console_detail`
+
 ### Summary
-The `console.hpp` file provides essential functionality for console operations. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `console.hpp` file is essential for console I/O operations. It defines 3 class(es) and implements 35 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Console functions
-Główne obszary funkcjonalne: operacje konsolowe
+Ten plik implementuje funkcjonalność dla operacji wejścia/wyjścia konsoli.
+
 ### Kluczowe Klasy
-- `console`: Performs console operation in console.hpp
-- `console_aliases`: Performs console_aliases operation in console.hpp
-- `data`: Performs data operation in console.hpp
-- `implementation`: Performs implementation operation in console.hpp
-- `input_queue_inspector`: Performs input_queue_inspector operation in console.hpp
-- `stream_buffers_overrider`: Performs stream_buffers_overrider operation in console.hpp
+- **`console`**: Implements console functionality
+- **`console_aliases`**: Implements console aliases functionality
+- **`input_queue_inspector`**: Implements input queue inspector functionality
+
 ### Kluczowe Funkcje
-- `ReplaceControlCharacter()`: Performs ReplaceControlCharacter operation in console.hpp
-- `sanitise_pair()`: Performs sanitise_pair operation in console.hpp
-- `get_console_screen_buffer_info()`: Retrieves _console_screen_buffer_info value in console.hpp
-- `Allocate()`: Performs Allocate operation in console.hpp
-- `Free()`: Performs Free operation in console.hpp
-- `GetInputHandle()`: Retrieves InputHandle value in console.hpp
-- `GetOutputHandle()`: Retrieves OutputHandle value in console.hpp
-- `GetErrorHandle()`: Retrieves ErrorHandle value in console.hpp
-- `GetOriginalInputHandle()`: Retrieves OriginalInputHandle value in console.hpp
-- `GetWindow()`: Retrieves Window value in console.hpp
+- **`ReplaceControlCharacter()`**: Executes replace control character operation
+- **`sanitise_pair()`**: Executes sanitise pair operation
+- **`get_console_screen_buffer_info()`**: Retrieves the current console screen buffer info value
+- **`console::Allocate()`**: Executes allocate operation
+- **`console::Free()`**: Executes free operation
+- **`console::GetInputHandle()`**: Retrieves the current input handle value
+- **`console::GetOutputHandle()`**: Retrieves the current output handle value
+- **`console::GetErrorHandle()`**: Retrieves the current error handle value
+- **`console::GetOriginalInputHandle()`**: Retrieves the current original input handle value
+- **`console::GetWindow()`**: Retrieves the current window value
+- **`console::GetSize()`**: Retrieves the current size value
+- **`console::SetSize()`**: Updates the size with a new value
+- **`console::SetScreenBufferSize()`**: Updates the screen buffer size with a new value
+- **`console::GetWindowRect()`**: Retrieves the current window rect value
+- **`console::SetWindowRect()`**: Updates the window rect with a new value
+- **`console::GetWorkingRect()`**: Retrieves the current working rect value
+- **`console::GetPhysicalTitle()`**: Retrieves the current physical title value
+- **`console::GetTitle()`**: Retrieves the current title value
+- **`console::SetTitle()`**: Updates the title with a new value
+- **`console::GetKeyboardLayout()`**: Retrieves the current keyboard layout value
+
 ### Przestrzenie nazw
 - `console_detail`
+
 ### Podsumowanie
-Plik `console.hpp` zapewnia podstawową funkcjonalność dla operacje konsolowe. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `console.hpp` jest niezbędny dla operacji wejścia/wyjścia konsoli. Definiuje 3 klas(y) i implementuje 35 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,54 +1,73 @@
 # strmix.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
-Main functional areas: string utilities
-### Key Classes
-- `RegExp`: Performs RegExp operation in strmix.hpp
-- `RegExpMatch`: Performs RegExpMatch operation in strmix.hpp
-- `regex_match`: Performs regex_match operation in strmix.hpp
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `QuoteSpaceOnly()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `InsertRegexpQuote()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `QuoteSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `QuoteOuterSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `ReplaceStrings()`: Performs ReplaceStrings operation in strmix.hpp
-- `replace()`: Performs replace operation in strmix.hpp
-- `Copy()`: Performs Copy operation in strmix.hpp
-- `replace_icase()`: Performs replace_icase operation in strmix.hpp
-- `remove_duplicates()`: Deletes or removes an item or resource in strmix.hpp
-- `get()`: Retrieves  value in strmix.hpp
+- **`InsertRegexpQuote()`**: Executes insert regexp quote operation
+- **`QuoteSpace()`**: Executes quote space operation
+- **`QuoteOuterSpace()`**: Executes quote outer space operation
+- **`ReplaceStrings()`**: Executes replace strings operation
+- **`replace()`**: Executes replace operation
+- **`replace_icase()`**: Executes replace icase operation
+- **`remove_duplicates()`**: Executes remove duplicates operation
+- **`PrepareUnitStr()`**: Executes prepare unit str operation
+- **`FileSizeToStr()`**: Executes file size to str operation
+- **`FileSizeToStrInvariant()`**: Executes file size to str invariant operation
+- **`CheckFileSizeStringFormat()`**: Executes check file size string format operation
+- **`ReplaceBrackets()`**: Executes replace brackets operation
+- **`GroupDigits()`**: Executes group digits operation
+- **`GroupDigitsInvariant()`**: Executes group digits invariant operation
+- **`IsWordDiv()`**: Checks whether word div condition is true
+- **`FindWordInString()`**: Executes find word in string operation
+- **`cut_left()`**: Executes cut left operation
+- **`cut_right()`**: Executes cut right operation
+- **`pad_left()`**: Executes pad left operation
+- **`pad_right()`**: Executes pad right operation
+
 ### Namespaces
-- `detail`
-- `inplace`
 - `legacy`
+- `inplace`
+- `detail`
+
 ### Summary
-The `strmix.hpp` file provides essential functionality for string utilities. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `strmix.hpp` file is essential for core functionality. It implements 44 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Куча разных вспомогательных функций по работе со строками
-Główne obszary funkcjonalne: narzędzia łańcuchowe
-### Kluczowe Klasy
-- `RegExp`: Performs RegExp operation in strmix.hpp
-- `RegExpMatch`: Performs RegExpMatch operation in strmix.hpp
-- `regex_match`: Performs regex_match operation in strmix.hpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `QuoteSpaceOnly()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `InsertRegexpQuote()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `QuoteSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `QuoteOuterSpace()`: Iterates through elements in strmix.hpp and adds them to a collection
-- `ReplaceStrings()`: Performs ReplaceStrings operation in strmix.hpp
-- `replace()`: Performs replace operation in strmix.hpp
-- `Copy()`: Performs Copy operation in strmix.hpp
-- `replace_icase()`: Performs replace_icase operation in strmix.hpp
-- `remove_duplicates()`: Deletes or removes an item or resource in strmix.hpp
-- `get()`: Retrieves  value in strmix.hpp
+- **`InsertRegexpQuote()`**: Executes insert regexp quote operation
+- **`QuoteSpace()`**: Executes quote space operation
+- **`QuoteOuterSpace()`**: Executes quote outer space operation
+- **`ReplaceStrings()`**: Executes replace strings operation
+- **`replace()`**: Executes replace operation
+- **`replace_icase()`**: Executes replace icase operation
+- **`remove_duplicates()`**: Executes remove duplicates operation
+- **`PrepareUnitStr()`**: Executes prepare unit str operation
+- **`FileSizeToStr()`**: Executes file size to str operation
+- **`FileSizeToStrInvariant()`**: Executes file size to str invariant operation
+- **`CheckFileSizeStringFormat()`**: Executes check file size string format operation
+- **`ReplaceBrackets()`**: Executes replace brackets operation
+- **`GroupDigits()`**: Executes group digits operation
+- **`GroupDigitsInvariant()`**: Executes group digits invariant operation
+- **`IsWordDiv()`**: Checks whether word div condition is true
+- **`FindWordInString()`**: Executes find word in string operation
+- **`cut_left()`**: Executes cut left operation
+- **`cut_right()`**: Executes cut right operation
+- **`pad_left()`**: Executes pad left operation
+- **`pad_right()`**: Executes pad right operation
+
 ### Przestrzenie nazw
-- `detail`
-- `inplace`
 - `legacy`
+- `inplace`
+- `detail`
+
 ### Podsumowanie
-Plik `strmix.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `strmix.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 44 funkcji wspierających operacje menedżera plików Far Manager.

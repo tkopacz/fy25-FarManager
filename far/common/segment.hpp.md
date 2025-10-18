@@ -1,42 +1,35 @@
 # segment.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `length_tag`: Performs length_tag operation in segment.hpp
-- `segment_t`: Performs segment_t operation in segment.hpp
-- `sentinel_tag`: Performs sentinel_tag operation in segment.hpp
+- **`segment_t`**: Implements segment t functionality
+- **`sentinel_tag`**: Implements sentinel tag functionality
+- **`length_tag`**: Implements length tag functionality
+
 ### Key Functions
-- `domain_min()`: Main entry point in segment.hpp that starts program execution
-- `domain_max()`: Main entry point in segment.hpp that starts program execution
-- `length()`: Performs length operation in segment.hpp
-- `empty()`: Performs empty operation in segment.hpp
-- `start()`: Not begin to avoid accidental misuse of std::begin(MySegment)
-- `end()`: Not begin to avoid accidental misuse of std::begin(MySegment)
-- `iota()`: Not begin to avoid accidental misuse of std::begin(MySegment)
-- `ray()`: Performs ray operation in segment.hpp
+- **`segment_t::domain_min()`**: Executes domain min operation
+
 ### Summary
-The `segment.hpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
+The `segment.hpp` file is essential for core functionality. It defines 3 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `length_tag`: Performs length_tag operation in segment.hpp
-- `segment_t`: Performs segment_t operation in segment.hpp
-- `sentinel_tag`: Performs sentinel_tag operation in segment.hpp
+- **`segment_t`**: Implements segment t functionality
+- **`sentinel_tag`**: Implements sentinel tag functionality
+- **`length_tag`**: Implements length tag functionality
+
 ### Kluczowe Funkcje
-- `domain_min()`: Main entry point in segment.hpp that starts program execution
-- `domain_max()`: Main entry point in segment.hpp that starts program execution
-- `length()`: Performs length operation in segment.hpp
-- `empty()`: Performs empty operation in segment.hpp
-- `start()`: Not begin to avoid accidental misuse of std::begin(MySegment)
-- `end()`: Not begin to avoid accidental misuse of std::begin(MySegment)
-- `iota()`: Not begin to avoid accidental misuse of std::begin(MySegment)
-- `ray()`: Performs ray operation in segment.hpp
+- **`segment_t::domain_min()`**: Executes domain min operation
+
 ### Podsumowanie
-Plik `segment.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `segment.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

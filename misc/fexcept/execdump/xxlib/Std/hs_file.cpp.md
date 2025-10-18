@@ -1,14 +1,19 @@
 # hs_file.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Summary
-The `hs_file.cpp` file provides essential functionality for file system operations. to support the Far Manager file manager operations.
+The `hs_file.cpp` file is essential for file operations. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Podsumowanie
-Plik `hs_file.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. wspierających operacje menedżera plików Far Manager.
+Plik `hs_file.cpp` jest niezbędny dla operacji na plikach. wspierających operacje menedżera plików Far Manager.

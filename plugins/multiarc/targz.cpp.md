@@ -1,44 +1,49 @@
 # targz.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
-Main functional areas: core functionality
+#define USE_TAR_H
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `GZHeader`: Performs GZHeader operation in targz.cpp
-- `posix_header`: Performs posix_header operation in targz.cpp
+- **`posix_header`**: Implements posix header functionality
+- **`GZHeader`**: Implements gzheader functionality
+
 ### Key Functions
-- `IsTarHeader()`: Iterates through elements in targz.cpp and adds them to a collection
-- `GetOctal()`: Iterates through elements in targz.cpp and adds them to a collection
-- `GetArcItemGZIP()`: Iterates through elements in targz.cpp and adds them to a collection
-- `GetArcItemTAR()`: Iterates through elements in targz.cpp and adds them to a collection
-- `Oct2Size()`: Iterates through elements in targz.cpp and adds them to a collection
-- `SetFarInfo()`: Iterates through elements in targz.cpp and adds them to a collection
-- `UnixTimeToFileTime()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
-- `IsArchive()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
-- `OpenArchive()`: Opens a file or creates a file handle in targz.cpp
-- `GetSFXPos()`: Opens a file or creates a file handle in targz.cpp
+- **`IsTarHeader()`**: Checks whether tar header condition is true
+- **`GetOctal()`**: Retrieves the current octal value
+- **`GetArcItemGZIP()`**: Retrieves the current arc item gzip value
+- **`GetArcItemTAR()`**: Retrieves the current arc item tar value
+- **`Oct2Size()`**: Executes oct2size operation
+- **`int()`**: Executes int operation
+- **`void()`**: Executes void operation
+
 ### Summary
-The `targz.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `targz.cpp` file is essential for core functionality. It defines 2 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+#define USE_TAR_H
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `GZHeader`: Performs GZHeader operation in targz.cpp
-- `posix_header`: Performs posix_header operation in targz.cpp
+- **`posix_header`**: Implements posix header functionality
+- **`GZHeader`**: Implements gzheader functionality
+
 ### Kluczowe Funkcje
-- `IsTarHeader()`: Iterates through elements in targz.cpp and adds them to a collection
-- `GetOctal()`: Iterates through elements in targz.cpp and adds them to a collection
-- `GetArcItemGZIP()`: Iterates through elements in targz.cpp and adds them to a collection
-- `GetArcItemTAR()`: Iterates through elements in targz.cpp and adds them to a collection
-- `Oct2Size()`: Iterates through elements in targz.cpp and adds them to a collection
-- `SetFarInfo()`: Iterates through elements in targz.cpp and adds them to a collection
-- `UnixTimeToFileTime()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
-- `IsArchive()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
-- `OpenArchive()`: Opens a file or creates a file handle in targz.cpp
-- `GetSFXPos()`: Opens a file or creates a file handle in targz.cpp
+- **`IsTarHeader()`**: Checks whether tar header condition is true
+- **`GetOctal()`**: Retrieves the current octal value
+- **`GetArcItemGZIP()`**: Retrieves the current arc item gzip value
+- **`GetArcItemTAR()`**: Retrieves the current arc item tar value
+- **`Oct2Size()`**: Executes oct2size operation
+- **`int()`**: Executes int operation
+- **`void()`**: Executes void operation
+
 ### Podsumowanie
-Plik `targz.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `targz.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

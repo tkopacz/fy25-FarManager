@@ -1,64 +1,57 @@
 # findfile.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Поиск (Alt-F7)
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `ArcListItem`: Performs ArcListItem operation in findfile.cpp
-- `CodePageInfo`: Performs CodePageInfo operation in findfile.cpp
-- `FindFiles`: Performs FindFiles operation in findfile.cpp
-- `FindFilesOptions`: Performs FindFilesOptions operation in findfile.cpp
-- `FindListItem`: The request to stop might arrive in the middle of something and searcher can still pump some messages
-- `InterThreadData`: This flag is set to true if the hotkey of either of Text/Hex radio is pressed.
-- `background_searcher`: Performs background_searcher operation in findfile.cpp
-- `menu_data`: Performs menu_data operation in findfile.cpp
-- `percent`: Performs percent operation in findfile.cpp
-- `pop`: Iterates through elements in findfile.cpp and adds them to a collection
+- **`ArcListItem`**: Container class managing collection of arc item
+- **`FindListItem`**: Container class managing collection of find item
+- **`menu_data`**: Implements menu data functionality
+- **`push`**: Implements push functionality
+- **`pop`**: Implements pop functionality
+- **`status`**: Implements status functionality
+- **`percent`**: Implements percent functionality
+- **`FindFilesOptions`**: Implements find files options functionality
+- **`InterThreadData`**: Implements inter thread data functionality
+
 ### Key Functions
-- `IsWordDiv()`: Проверяем символ на принадлежность разделителям слов
-- `AddMenuRecord()`: Iterates through elements in findfile.cpp and adds them to a collection
-- `ScopedLock()`: Performs ScopedLock operation in findfile.cpp
-- `AdvancedDialog()`: Performs AdvancedDialog operation in findfile.cpp
-- `MainDlgProc()`: Main entry point in findfile.cpp that starts program execution
-- `FindDlgProc()`: Performs FindDlgProc operation in findfile.cpp
-- `OpenFile()`: Performs OpenFile operation in findfile.cpp
-- `FindFilesProcess()`: Performs FindFilesProcess operation in findfile.cpp
-- `ProcessMessage()`: Тем самым добиваемся того, что выделение с элементов панели не сбрасывается.
-- `SetPluginDirectory()`: Проверяем символ на принадлежность разделителям слов
-### Namespaces
-- `messages`
+- **`clear_queue()`**: Executes clear queue operation
+- **`allocation_size()`**: Executes allocation size operation
+- **`LastFindFileOptions()`**: Executes last find file options operation
+- **`LastFindMask()`**: Executes last find mask operation
+- **`find_files()`**: Executes find files operation
+- **`InterThreadData::GetFileMask()`**: Retrieves the current file mask value
+
 ### Summary
-The `findfile.cpp` file provides essential functionality for file system operations. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `findfile.cpp` file is essential for file operations. It defines 9 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Поиск (Alt-F7)
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `ArcListItem`: Performs ArcListItem operation in findfile.cpp
-- `CodePageInfo`: Performs CodePageInfo operation in findfile.cpp
-- `FindFiles`: Performs FindFiles operation in findfile.cpp
-- `FindFilesOptions`: Performs FindFilesOptions operation in findfile.cpp
-- `FindListItem`: The request to stop might arrive in the middle of something and searcher can still pump some messages
-- `InterThreadData`: This flag is set to true if the hotkey of either of Text/Hex radio is pressed.
-- `background_searcher`: Performs background_searcher operation in findfile.cpp
-- `menu_data`: Performs menu_data operation in findfile.cpp
-- `percent`: Performs percent operation in findfile.cpp
-- `pop`: Iterates through elements in findfile.cpp and adds them to a collection
+- **`ArcListItem`**: Container class managing collection of arc item
+- **`FindListItem`**: Container class managing collection of find item
+- **`menu_data`**: Implements menu data functionality
+- **`push`**: Implements push functionality
+- **`pop`**: Implements pop functionality
+- **`status`**: Implements status functionality
+- **`percent`**: Implements percent functionality
+- **`FindFilesOptions`**: Implements find files options functionality
+- **`InterThreadData`**: Implements inter thread data functionality
+
 ### Kluczowe Funkcje
-- `IsWordDiv()`: Проверяем символ на принадлежность разделителям слов
-- `AddMenuRecord()`: Iterates through elements in findfile.cpp and adds them to a collection
-- `ScopedLock()`: Performs ScopedLock operation in findfile.cpp
-- `AdvancedDialog()`: Performs AdvancedDialog operation in findfile.cpp
-- `MainDlgProc()`: Main entry point in findfile.cpp that starts program execution
-- `FindDlgProc()`: Performs FindDlgProc operation in findfile.cpp
-- `OpenFile()`: Performs OpenFile operation in findfile.cpp
-- `FindFilesProcess()`: Performs FindFilesProcess operation in findfile.cpp
-- `ProcessMessage()`: Тем самым добиваемся того, что выделение с элементов панели не сбрасывается.
-- `SetPluginDirectory()`: Проверяем символ на принадлежность разделителям слов
-### Przestrzenie nazw
-- `messages`
+- **`clear_queue()`**: Executes clear queue operation
+- **`allocation_size()`**: Executes allocation size operation
+- **`LastFindFileOptions()`**: Executes last find file options operation
+- **`LastFindMask()`**: Executes last find mask operation
+- **`find_files()`**: Executes find files operation
+- **`InterThreadData::GetFileMask()`**: Retrieves the current file mask value
+
 ### Podsumowanie
-Plik `findfile.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `findfile.cpp` jest niezbędny dla operacji na plikach. Definiuje 9 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

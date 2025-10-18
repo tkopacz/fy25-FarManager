@@ -1,48 +1,71 @@
 # Pclass.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `StrTok`: Performs StrTok operation in Pclass.cpp
-- `custom_data`: Performs custom_data operation in Pclass.cpp
-- `priority_mapping`: Performs priority_mapping operation in Pclass.cpp
+- **`StrTok`**: Implements str tok functionality
+- **`custom_data`**: Implements custom data functionality
+- **`priority_mapping`**: Implements priority mapping functionality
+
 ### Key Functions
-- `bool()`: Performs bool operation in Pclass.cpp
-- `ui64toa_width()`: Performs ui64toa_width operation in Pclass.cpp
-- `str()`: Performs str operation in Pclass.cpp
-- `PrintTitle()`: Performs PrintTitle operation in Pclass.cpp
-- `settings()`: Iterates through elements in Pclass.cpp and adds them to a collection
-- `upper()`: Performs upper operation in Pclass.cpp
-- `TranslateMode()`: Checks a condition in Pclass.cpp and returns true or false based on the result
-- `can_be_per_sec()`: Performs can_be_per_sec operation in Pclass.cpp
-- `generate_titles()`: Performs generate_titles operation in Pclass.cpp
-- `convert_panel_modes()`: Performs convert_panel_modes operation in Pclass.cpp
-### Namespaces
-- `std`
+- **`StrTok()`**: Executes str tok operation
+- **`ui64toa_width()`**: Executes ui64toa width operation
+- **`PrintTitle()`**: Executes print title operation
+- **`upper()`**: Executes upper operation
+- **`TranslateMode()`**: Executes translate mode operation
+- **`can_be_per_sec()`**: Executes can be per sec operation
+- **`generate_titles()`**: Executes generate titles operation
+- **`convert_panel_modes()`**: Executes convert panel modes operation
+- **`custom_data()`**: Executes custom data operation
+- **`window_style()`**: Executes window style operation
+- **`window_ex_style()`**: Executes window ex style operation
+- **`DumpNTCounters()`**: Executes dump ntcounters operation
+- **`is_alttab_window()`**: Checks whether alttab window condition is true
+- **`DurationToText()`**: Executes duration to text operation
+- **`FileTimeDifferenceToText()`**: Executes file time difference to text operation
+- **`compare_numbers()`**: Executes compare numbers operation
+- **`StrTok::tok()`**: Executes tok operation
+- **`StrTok::defined()`**: Executes defined operation
+- **`custom_data::make()`**: Executes make operation
+
 ### Summary
-The `Pclass.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `Pclass.cpp` file is essential for core functionality. It defines 3 class(es) and implements 19 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `StrTok`: Performs StrTok operation in Pclass.cpp
-- `custom_data`: Performs custom_data operation in Pclass.cpp
-- `priority_mapping`: Performs priority_mapping operation in Pclass.cpp
+- **`StrTok`**: Implements str tok functionality
+- **`custom_data`**: Implements custom data functionality
+- **`priority_mapping`**: Implements priority mapping functionality
+
 ### Kluczowe Funkcje
-- `bool()`: Performs bool operation in Pclass.cpp
-- `ui64toa_width()`: Performs ui64toa_width operation in Pclass.cpp
-- `str()`: Performs str operation in Pclass.cpp
-- `PrintTitle()`: Performs PrintTitle operation in Pclass.cpp
-- `settings()`: Iterates through elements in Pclass.cpp and adds them to a collection
-- `upper()`: Performs upper operation in Pclass.cpp
-- `TranslateMode()`: Checks a condition in Pclass.cpp and returns true or false based on the result
-- `can_be_per_sec()`: Performs can_be_per_sec operation in Pclass.cpp
-- `generate_titles()`: Performs generate_titles operation in Pclass.cpp
-- `convert_panel_modes()`: Performs convert_panel_modes operation in Pclass.cpp
-### Przestrzenie nazw
-- `std`
+- **`StrTok()`**: Executes str tok operation
+- **`ui64toa_width()`**: Executes ui64toa width operation
+- **`PrintTitle()`**: Executes print title operation
+- **`upper()`**: Executes upper operation
+- **`TranslateMode()`**: Executes translate mode operation
+- **`can_be_per_sec()`**: Executes can be per sec operation
+- **`generate_titles()`**: Executes generate titles operation
+- **`convert_panel_modes()`**: Executes convert panel modes operation
+- **`custom_data()`**: Executes custom data operation
+- **`window_style()`**: Executes window style operation
+- **`window_ex_style()`**: Executes window ex style operation
+- **`DumpNTCounters()`**: Executes dump ntcounters operation
+- **`is_alttab_window()`**: Checks whether alttab window condition is true
+- **`DurationToText()`**: Executes duration to text operation
+- **`FileTimeDifferenceToText()`**: Executes file time difference to text operation
+- **`compare_numbers()`**: Executes compare numbers operation
+- **`StrTok::tok()`**: Executes tok operation
+- **`StrTok::defined()`**: Executes defined operation
+- **`custom_data::make()`**: Executes make operation
+
 ### Podsumowanie
-Plik `Pclass.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Pclass.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 19 funkcji wspierających operacje menedżera plików Far Manager.

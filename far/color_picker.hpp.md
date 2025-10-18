@@ -1,24 +1,19 @@
 # color_picker.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Standard color picker
-Main functional areas: color management
-### Key Classes
-- `FarColor`: Performs FarColor operation in color_picker.hpp
-### Key Functions
-- `GetColorDialog()`: Retrieves ColorDialog value in color_picker.hpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `color_picker.hpp` file provides essential functionality for color management. It defines 1 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `color_picker.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Standard color picker
-Główne obszary funkcjonalne: zarządzanie kolorami
-### Kluczowe Klasy
-- `FarColor`: Performs FarColor operation in color_picker.hpp
-### Kluczowe Funkcje
-- `GetColorDialog()`: Retrieves ColorDialog value in color_picker.hpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `color_picker.hpp` zapewnia podstawową funkcjonalność dla zarządzanie kolorami. Definiuje 1 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `color_picker.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

@@ -1,52 +1,71 @@
 # string_utils.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Сравнение без учета регистра, преобразование регистра
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Classes
-- `fuzzy_searcher_impl`: Performs fuzzy_searcher_impl operation in string_utils.hpp
-- `i_searcher`: Performs i_searcher operation in string_utils.hpp
-- `search_replace_string_options`: Performs search_replace_string_options operation in string_utils.hpp
+- **`i_searcher`**: Implements i searcher functionality
+- **`fuzzy_searcher_impl`**: Implements fuzzy searcher impl functionality
+- **`search_replace_string_options`**: Implements search replace string options functionality
+
 ### Key Functions
-- `IsEol()`: Checks a condition in string_utils.hpp and returns the result
-- `IsBlankOrEos()`: Checks a condition in string_utils.hpp and returns the result
-- `GetBlanks()`: Retrieves Blanks value in string_utils.hpp
-- `GetEols()`: Retrieves Eols value in string_utils.hpp
-- `is_alpha()`: Checks a condition in string_utils.hpp and returns the result
-- `is_alphanumeric()`: Checks a condition in string_utils.hpp and returns the result
-- `is_upper()`: Checks a condition in string_utils.hpp and returns the result
-- `is_lower()`: Checks a condition in string_utils.hpp and returns the result
-- `upper()`: Performs upper operation in string_utils.hpp
-- `lower()`: Performs lower operation in string_utils.hpp
+- **`IsBlankOrEos()`**: Checks whether blank or eos condition is true
+- **`GetBlanks()`**: Retrieves the current blanks value
+- **`GetEols()`**: Retrieves the current eols value
+- **`is_alpha()`**: Checks whether alpha condition is true
+- **`is_alphanumeric()`**: Checks whether alphanumeric condition is true
+- **`is_upper()`**: Checks whether upper condition is true
+- **`is_lower()`**: Checks whether lower condition is true
+- **`upper()`**: Executes upper operation
+- **`lower()`**: Executes lower operation
+- **`equal_icase()`**: Executes equal icase operation
+- **`starts_with_icase()`**: Executes starts with icase operation
+- **`ends_with_icase()`**: Executes ends with icase operation
+- **`find_icase()`**: Executes find icase operation
+- **`contains_icase()`**: Executes contains icase operation
+- **`fuzzy_searcher_impl::normalize()`**: Executes normalize operation
+
 ### Namespaces
-- `detail`
 - `inplace`
+- `detail`
+
 ### Summary
-The `string_utils.hpp` file provides essential functionality for string utilities. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `string_utils.hpp` file is essential for string manipulation and utilities. It defines 3 class(es) and implements 15 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Сравнение без учета регистра, преобразование регистра
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Klasy
-- `fuzzy_searcher_impl`: Performs fuzzy_searcher_impl operation in string_utils.hpp
-- `i_searcher`: Performs i_searcher operation in string_utils.hpp
-- `search_replace_string_options`: Performs search_replace_string_options operation in string_utils.hpp
+- **`i_searcher`**: Implements i searcher functionality
+- **`fuzzy_searcher_impl`**: Implements fuzzy searcher impl functionality
+- **`search_replace_string_options`**: Implements search replace string options functionality
+
 ### Kluczowe Funkcje
-- `IsEol()`: Checks a condition in string_utils.hpp and returns the result
-- `IsBlankOrEos()`: Checks a condition in string_utils.hpp and returns the result
-- `GetBlanks()`: Retrieves Blanks value in string_utils.hpp
-- `GetEols()`: Retrieves Eols value in string_utils.hpp
-- `is_alpha()`: Checks a condition in string_utils.hpp and returns the result
-- `is_alphanumeric()`: Checks a condition in string_utils.hpp and returns the result
-- `is_upper()`: Checks a condition in string_utils.hpp and returns the result
-- `is_lower()`: Checks a condition in string_utils.hpp and returns the result
-- `upper()`: Performs upper operation in string_utils.hpp
-- `lower()`: Performs lower operation in string_utils.hpp
+- **`IsBlankOrEos()`**: Checks whether blank or eos condition is true
+- **`GetBlanks()`**: Retrieves the current blanks value
+- **`GetEols()`**: Retrieves the current eols value
+- **`is_alpha()`**: Checks whether alpha condition is true
+- **`is_alphanumeric()`**: Checks whether alphanumeric condition is true
+- **`is_upper()`**: Checks whether upper condition is true
+- **`is_lower()`**: Checks whether lower condition is true
+- **`upper()`**: Executes upper operation
+- **`lower()`**: Executes lower operation
+- **`equal_icase()`**: Executes equal icase operation
+- **`starts_with_icase()`**: Executes starts with icase operation
+- **`ends_with_icase()`**: Executes ends with icase operation
+- **`find_icase()`**: Executes find icase operation
+- **`contains_icase()`**: Executes contains icase operation
+- **`fuzzy_searcher_impl::normalize()`**: Executes normalize operation
+
 ### Przestrzenie nazw
-- `detail`
 - `inplace`
+- `detail`
+
 ### Podsumowanie
-Plik `string_utils.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `string_utils.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Definiuje 3 klas(y) i implementuje 15 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,22 +1,19 @@
 # wcx.Plugin.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: plugin interface
-### Key Functions
-- `ConvertResult()`: Performs ConvertResult operation in wcx.Plugin.cpp
-- `WcxArchive()`: Performs WcxArchive operation in wcx.Plugin.cpp
-- `m_pfnGetPackerCaps()`: Performs m_pfnGetPackerCaps operation in wcx.Plugin.cpp
+This file implements functionality for plugin system and extension management.
+
 ### Summary
-The `wcx.Plugin.cpp` file provides essential functionality for plugin interface. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `wcx.Plugin.cpp` file is essential for plugin system and extension management. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: interfejs wtyczek
-### Kluczowe Funkcje
-- `ConvertResult()`: Performs ConvertResult operation in wcx.Plugin.cpp
-- `WcxArchive()`: Performs WcxArchive operation in wcx.Plugin.cpp
-- `m_pfnGetPackerCaps()`: Performs m_pfnGetPackerCaps operation in wcx.Plugin.cpp
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Podsumowanie
-Plik `wcx.Plugin.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `wcx.Plugin.cpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. wspierających operacje menedżera plików Far Manager.

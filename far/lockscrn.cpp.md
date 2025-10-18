@@ -1,16 +1,19 @@
 # lockscrn.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: class LockScreen
-Main functional areas: screen operations
+This file implements functionality for core functionality.
+
 ### Summary
-The `lockscrn.cpp` file provides essential functionality for screen operations. to support the Far Manager file manager operations.
+The `lockscrn.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: class LockScreen
-Główne obszary funkcjonalne: operacje ekranowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `lockscrn.cpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. wspierających operacje menedżera plików Far Manager.
+Plik `lockscrn.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

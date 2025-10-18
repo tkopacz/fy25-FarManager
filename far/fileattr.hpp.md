@@ -1,32 +1,39 @@
 # fileattr.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Работа с атрибутами файлов
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Functions
-- `ESetFileAttributes()`: Performs ESetFileAttributes operation in fileattr.hpp
-- `ESetFileCompression()`: Performs ESetFileCompression operation in fileattr.hpp
-- `ESetFileEncryption()`: Performs ESetFileEncryption operation in fileattr.hpp
-- `ESetFileSparse()`: Performs ESetFileSparse operation in fileattr.hpp
-- `ESetFileTime()`: Performs ESetFileTime operation in fileattr.hpp
-- `ESetFileOwner()`: Performs ESetFileOwner operation in fileattr.hpp
-- `EDeleteReparsePoint()`: Performs EDeleteReparsePoint operation in fileattr.hpp
+- **`ESetFileAttributes()`**: Executes eset file attributes operation
+- **`ESetFileCompression()`**: Executes eset file compression operation
+- **`ESetFileEncryption()`**: Executes eset file encryption operation
+- **`ESetFileSparse()`**: Executes eset file sparse operation
+- **`ESetFileTime()`**: Executes eset file time operation
+- **`ESetFileOwner()`**: Executes eset file owner operation
+- **`EDeleteReparsePoint()`**: Executes edelete reparse point operation
+- **`enum_attributes()`**: Executes enum attributes operation
+
 ### Summary
-The `fileattr.hpp` file provides essential functionality for file system operations. and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `fileattr.hpp` file is essential for file operations. It implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Работа с атрибутами файлов
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `ESetFileAttributes()`: Performs ESetFileAttributes operation in fileattr.hpp
-- `ESetFileCompression()`: Performs ESetFileCompression operation in fileattr.hpp
-- `ESetFileEncryption()`: Performs ESetFileEncryption operation in fileattr.hpp
-- `ESetFileSparse()`: Performs ESetFileSparse operation in fileattr.hpp
-- `ESetFileTime()`: Performs ESetFileTime operation in fileattr.hpp
-- `ESetFileOwner()`: Performs ESetFileOwner operation in fileattr.hpp
-- `EDeleteReparsePoint()`: Performs EDeleteReparsePoint operation in fileattr.hpp
+- **`ESetFileAttributes()`**: Executes eset file attributes operation
+- **`ESetFileCompression()`**: Executes eset file compression operation
+- **`ESetFileEncryption()`**: Executes eset file encryption operation
+- **`ESetFileSparse()`**: Executes eset file sparse operation
+- **`ESetFileTime()`**: Executes eset file time operation
+- **`ESetFileOwner()`**: Executes eset file owner operation
+- **`EDeleteReparsePoint()`**: Executes edelete reparse point operation
+- **`enum_attributes()`**: Executes enum attributes operation
+
 ### Podsumowanie
-Plik `fileattr.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileattr.hpp` jest niezbędny dla operacji na plikach. Implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

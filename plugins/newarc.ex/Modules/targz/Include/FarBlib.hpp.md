@@ -1,20 +1,31 @@
 # FarBlib.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `InitBlib()`: Initializes data structures and prepares for operation in FarBlib.hpp
-- `CloseBlib()`: Performs CloseBlib operation in FarBlib.hpp
+- **`void()`**: Executes void operation
+- **`int()`**: Executes int operation
+- **`InitBlib()`**: Executes init blib operation
+- **`CloseBlib()`**: Executes close blib operation
+
 ### Summary
-The `FarBlib.hpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `FarBlib.hpp` file is essential for core functionality. It implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `InitBlib()`: Initializes data structures and prepares for operation in FarBlib.hpp
-- `CloseBlib()`: Performs CloseBlib operation in FarBlib.hpp
+- **`void()`**: Executes void operation
+- **`int()`**: Executes int operation
+- **`InitBlib()`**: Executes init blib operation
+- **`CloseBlib()`**: Executes close blib operation
+
 ### Podsumowanie
-Plik `FarBlib.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarBlib.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

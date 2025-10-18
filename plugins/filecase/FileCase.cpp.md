@@ -1,26 +1,19 @@
 # FileCase.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
-### Key Functions
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in FileCase.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in FileCase.cpp
-- `settings()`: Sets or updates tings value in FileCase.cpp
-- `OpenW()`: Performs OpenW operation in FileCase.cpp
-- `GetPluginInfoW()`: Retrieves PluginInfoW value in FileCase.cpp
+This file implements functionality for file operations.
+
 ### Summary
-The `FileCase.cpp` file provides essential functionality for file system operations. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `FileCase.cpp` file is essential for file operations. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
-### Kluczowe Funkcje
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in FileCase.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in FileCase.cpp
-- `settings()`: Sets or updates tings value in FileCase.cpp
-- `OpenW()`: Performs OpenW operation in FileCase.cpp
-- `GetPluginInfoW()`: Retrieves PluginInfoW value in FileCase.cpp
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Podsumowanie
-Plik `FileCase.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FileCase.cpp` jest niezbędny dla operacji na plikach. wspierających operacje menedżera plików Far Manager.

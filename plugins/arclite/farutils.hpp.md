@@ -1,60 +1,89 @@
 # farutils.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Dialog`: Performs Dialog operation in farutils.hpp
-- `DialogItem`: Performs DialogItem operation in farutils.hpp
-- `DisableEvents`: Performs DisableEvents operation in farutils.hpp
-- `FileFilter`: Performs FileFilter operation in farutils.hpp
-- `MenuItems`: Performs MenuItems operation in farutils.hpp
-- `PanelItem`: Performs PanelItem operation in farutils.hpp
-- `Regex`: Performs Regex operation in farutils.hpp
-- `Selection`: Performs Selection operation in farutils.hpp
-- `Settings`: Sets or updates tings value in farutils.hpp
+- **`PanelItem`**: Implements panel item functionality
+- **`DialogItem`**: Implements dialog item functionality
+- **`Dialog`**: Implements dialog functionality
+- **`DisableEvents`**: Implements disable events functionality
+- **`Regex`**: Implements regex functionality
+- **`Selection`**: Implements selection functionality
+- **`FileFilter`**: Implements file filter functionality
+- **`Settings`**: Stores and manages configuration parameters and settings
+
 ### Key Functions
-- `get_error_dlg_title()`: Retrieves _error_dlg_title value in farutils.hpp
-- `init()`: Initializes data structures and prepares for operation in farutils.hpp
-- `get_plugin_module_path()`: Retrieves _plugin_module_path value in farutils.hpp
-- `msg_ptr()`: Performs msg_ptr operation in farutils.hpp
-- `get_msg()`: Retrieves _msg value in farutils.hpp
-- `get_optimal_msg_width()`: Retrieves _optimal_msg_width value in farutils.hpp
-- `message()`: Performs message operation in farutils.hpp
-- `add()`: Performs add operation in farutils.hpp
-- `menu()`: Performs menu operation in farutils.hpp
-- `get_progress_bar_str()`: Retrieves _progress_bar_str value in farutils.hpp
+- **`get_error_dlg_title()`**: Retrieves the current error dlg title value
+- **`init()`**: Executes init operation
+- **`get_plugin_module_path()`**: Retrieves the current plugin module path value
+- **`get_msg()`**: Retrieves the current msg value
+- **`get_optimal_msg_width()`**: Retrieves the current optimal msg width value
+- **`message()`**: Executes message operation
+- **`menu()`**: Executes menu operation
+- **`get_progress_bar_str()`**: Retrieves the current progress bar str value
+- **`set_progress_state()`**: Updates the progress state with a new value
+- **`set_progress_value()`**: Updates the progress value with a new value
+- **`progress_notify()`**: Executes progress notify operation
+- **`call_user_apc()`**: Executes call user apc operation
+- **`post_macro()`**: Executes post macro operation
+- **`quit()`**: Executes quit operation
+- **`save_screen()`**: Executes save screen operation
+- **`restore_screen()`**: Executes restore screen operation
+- **`flush_screen()`**: Executes flush screen operation
+- **`viewer()`**: Executes viewer operation
+- **`editor()`**: Executes editor operation
+- **`update_panel()`**: Executes update panel operation
+
 ### Namespaces
 - `Far`
+
 ### Summary
-The `farutils.hpp` file provides essential functionality for core functionality. It defines 9 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `farutils.hpp` file is essential for core functionality. It defines 8 class(es) and implements 66 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Dialog`: Performs Dialog operation in farutils.hpp
-- `DialogItem`: Performs DialogItem operation in farutils.hpp
-- `DisableEvents`: Performs DisableEvents operation in farutils.hpp
-- `FileFilter`: Performs FileFilter operation in farutils.hpp
-- `MenuItems`: Performs MenuItems operation in farutils.hpp
-- `PanelItem`: Performs PanelItem operation in farutils.hpp
-- `Regex`: Performs Regex operation in farutils.hpp
-- `Selection`: Performs Selection operation in farutils.hpp
-- `Settings`: Sets or updates tings value in farutils.hpp
+- **`PanelItem`**: Implements panel item functionality
+- **`DialogItem`**: Implements dialog item functionality
+- **`Dialog`**: Implements dialog functionality
+- **`DisableEvents`**: Implements disable events functionality
+- **`Regex`**: Implements regex functionality
+- **`Selection`**: Implements selection functionality
+- **`FileFilter`**: Implements file filter functionality
+- **`Settings`**: Stores and manages configuration parameters and settings
+
 ### Kluczowe Funkcje
-- `get_error_dlg_title()`: Retrieves _error_dlg_title value in farutils.hpp
-- `init()`: Initializes data structures and prepares for operation in farutils.hpp
-- `get_plugin_module_path()`: Retrieves _plugin_module_path value in farutils.hpp
-- `msg_ptr()`: Performs msg_ptr operation in farutils.hpp
-- `get_msg()`: Retrieves _msg value in farutils.hpp
-- `get_optimal_msg_width()`: Retrieves _optimal_msg_width value in farutils.hpp
-- `message()`: Performs message operation in farutils.hpp
-- `add()`: Performs add operation in farutils.hpp
-- `menu()`: Performs menu operation in farutils.hpp
-- `get_progress_bar_str()`: Retrieves _progress_bar_str value in farutils.hpp
+- **`get_error_dlg_title()`**: Retrieves the current error dlg title value
+- **`init()`**: Executes init operation
+- **`get_plugin_module_path()`**: Retrieves the current plugin module path value
+- **`get_msg()`**: Retrieves the current msg value
+- **`get_optimal_msg_width()`**: Retrieves the current optimal msg width value
+- **`message()`**: Executes message operation
+- **`menu()`**: Executes menu operation
+- **`get_progress_bar_str()`**: Retrieves the current progress bar str value
+- **`set_progress_state()`**: Updates the progress state with a new value
+- **`set_progress_value()`**: Updates the progress value with a new value
+- **`progress_notify()`**: Executes progress notify operation
+- **`call_user_apc()`**: Executes call user apc operation
+- **`post_macro()`**: Executes post macro operation
+- **`quit()`**: Executes quit operation
+- **`save_screen()`**: Executes save screen operation
+- **`restore_screen()`**: Executes restore screen operation
+- **`flush_screen()`**: Executes flush screen operation
+- **`viewer()`**: Executes viewer operation
+- **`editor()`**: Executes editor operation
+- **`update_panel()`**: Executes update panel operation
+
 ### Przestrzenie nazw
 - `Far`
+
 ### Podsumowanie
-Plik `farutils.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 9 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `farutils.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 8 klas(y) i implementuje 66 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,36 +1,63 @@
 # FtpAPI.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ParseDirLine()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpKeepAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpIsResume()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpCmdLineAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpSetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpSetBreakable()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpGetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpConnectMessage()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpCmdBlock()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpFindFirstFile()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- **`ParseDirLine()`**: Executes parse dir line operation
+- **`FtpKeepAlive()`**: Executes ftp keep alive operation
+- **`FtpIsResume()`**: Executes ftp is resume operation
+- **`FtpCmdLineAlive()`**: Executes ftp cmd line alive operation
+- **`FtpSetRetryCount()`**: Executes ftp set retry count operation
+- **`FtpSetBreakable()`**: Executes ftp set breakable operation
+- **`FtpGetRetryCount()`**: Executes ftp get retry count operation
+- **`FtpConnectMessage()`**: Executes ftp connect message operation
+- **`FtpCmdBlock()`**: Executes ftp cmd block operation
+- **`FtpFindFirstFile()`**: Executes ftp find first file operation
+- **`FtpFindNextFile()`**: Executes ftp find next file operation
+- **`FtpGetCurrentDirectory()`**: Executes ftp get current directory operation
+- **`FtpSetCurrentDirectory()`**: Executes ftp set current directory operation
+- **`FtpRemoveDirectory()`**: Executes ftp remove directory operation
+- **`correct_vms_name()`**: Executes correct vms name operation
+- **`FtpRenameFile()`**: Executes ftp rename file operation
+- **`FtpDeleteFile()`**: Executes ftp delete file operation
+- **`FtpChmod()`**: Executes ftp chmod operation
+- **`FtpGetFile()`**: Executes ftp get file operation
+- **`FtpFileSize()`**: Executes ftp file size operation
+
 ### Summary
-The `FtpAPI.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `FtpAPI.cpp` file is essential for core functionality. It implements 25 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ParseDirLine()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpKeepAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpIsResume()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpCmdLineAlive()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpSetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpSetBreakable()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpGetRetryCount()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpConnectMessage()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpCmdBlock()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
-- `FtpFindFirstFile()`: Checks a condition in FtpAPI.cpp and returns true or false based on the result
+- **`ParseDirLine()`**: Executes parse dir line operation
+- **`FtpKeepAlive()`**: Executes ftp keep alive operation
+- **`FtpIsResume()`**: Executes ftp is resume operation
+- **`FtpCmdLineAlive()`**: Executes ftp cmd line alive operation
+- **`FtpSetRetryCount()`**: Executes ftp set retry count operation
+- **`FtpSetBreakable()`**: Executes ftp set breakable operation
+- **`FtpGetRetryCount()`**: Executes ftp get retry count operation
+- **`FtpConnectMessage()`**: Executes ftp connect message operation
+- **`FtpCmdBlock()`**: Executes ftp cmd block operation
+- **`FtpFindFirstFile()`**: Executes ftp find first file operation
+- **`FtpFindNextFile()`**: Executes ftp find next file operation
+- **`FtpGetCurrentDirectory()`**: Executes ftp get current directory operation
+- **`FtpSetCurrentDirectory()`**: Executes ftp set current directory operation
+- **`FtpRemoveDirectory()`**: Executes ftp remove directory operation
+- **`correct_vms_name()`**: Executes correct vms name operation
+- **`FtpRenameFile()`**: Executes ftp rename file operation
+- **`FtpDeleteFile()`**: Executes ftp delete file operation
+- **`FtpChmod()`**: Executes ftp chmod operation
+- **`FtpGetFile()`**: Executes ftp get file operation
+- **`FtpFileSize()`**: Executes ftp file size operation
+
 ### Podsumowanie
-Plik `FtpAPI.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FtpAPI.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 25 funkcji wspierających operacje menedżera plików Far Manager.

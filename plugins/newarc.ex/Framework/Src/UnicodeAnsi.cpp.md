@@ -1,28 +1,39 @@
 # UnicodeAnsi.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+как-то ANSI тут неумно звучит
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `AnsiToUnicode()`: как-то ANSI тут неумно звучит
-- `UnicodeToAnsi()`: как-то ANSI тут неумно звучит
-- `UnicodeToUTF8()`: Performs UnicodeToUTF8 operation in UnicodeAnsi.cpp
-- `AnsiToUTF8()`: Performs AnsiToUTF8 operation in UnicodeAnsi.cpp
-- `UTF8ToUnicode()`: Performs UTF8ToUnicode operation in UnicodeAnsi.cpp
-- `UTF8ToAnsi()`: Performs UTF8ToAnsi operation in UnicodeAnsi.cpp
+- **`AnsiToUnicode()`**: Executes ansi to unicode operation
+- **`UnicodeToAnsi()`**: Executes unicode to ansi operation
+- **`UnicodeToUTF8()`**: Executes unicode to utf8 operation
+- **`AnsiToUTF8()`**: Executes ansi to utf8 operation
+- **`UTF8ToUnicode()`**: Executes utf8to unicode operation
+- **`UTF8ToAnsi()`**: Executes utf8to ansi operation
+
 ### Summary
-The `UnicodeAnsi.cpp` file provides essential functionality for core functionality. and contains approximately 6 function(s) to support the Far Manager file manager operations.
+The `UnicodeAnsi.cpp` file is essential for core functionality. It implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+как-то ANSI тут неумно звучит
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `AnsiToUnicode()`: как-то ANSI тут неумно звучит
-- `UnicodeToAnsi()`: как-то ANSI тут неумно звучит
-- `UnicodeToUTF8()`: Performs UnicodeToUTF8 operation in UnicodeAnsi.cpp
-- `AnsiToUTF8()`: Performs AnsiToUTF8 operation in UnicodeAnsi.cpp
-- `UTF8ToUnicode()`: Performs UTF8ToUnicode operation in UnicodeAnsi.cpp
-- `UTF8ToAnsi()`: Performs UTF8ToAnsi operation in UnicodeAnsi.cpp
+- **`AnsiToUnicode()`**: Executes ansi to unicode operation
+- **`UnicodeToAnsi()`**: Executes unicode to ansi operation
+- **`UnicodeToUTF8()`**: Executes unicode to utf8 operation
+- **`AnsiToUTF8()`**: Executes ansi to utf8 operation
+- **`UTF8ToUnicode()`**: Executes utf8to unicode operation
+- **`UTF8ToAnsi()`**: Executes utf8to ansi operation
+
 ### Podsumowanie
-Plik `UnicodeAnsi.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `UnicodeAnsi.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

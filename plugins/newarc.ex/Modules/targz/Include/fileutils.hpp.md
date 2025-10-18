@@ -1,22 +1,29 @@
 # fileutils.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Functions
-- `CreateFileEx()`: Creates and initializes a new object or resource in fileutils.hpp
-- `CreateDirEx()`: Creates and initializes a new object or resource in fileutils.hpp
-- `GenerateName()`: Performs GenerateName operation in fileutils.hpp
+- **`CreateFileEx()`**: Constructs and returns a new file ex object
+- **`CreateDirEx()`**: Constructs and returns a new dir ex object
+- **`GenerateName()`**: Executes generate name operation
+
 ### Summary
-The `fileutils.hpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `fileutils.hpp` file is essential for file operations. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `CreateFileEx()`: Creates and initializes a new object or resource in fileutils.hpp
-- `CreateDirEx()`: Creates and initializes a new object or resource in fileutils.hpp
-- `GenerateName()`: Performs GenerateName operation in fileutils.hpp
+- **`CreateFileEx()`**: Constructs and returns a new file ex object
+- **`CreateDirEx()`**: Constructs and returns a new dir ex object
+- **`GenerateName()`**: Executes generate name operation
+
 ### Podsumowanie
-Plik `fileutils.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileutils.hpp` jest niezbędny dla operacji na plikach. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

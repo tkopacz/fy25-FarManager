@@ -1,40 +1,41 @@
 # modal.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Parent class для модальных объектов
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Modal`: Performs Modal operation in modal.hpp
+- **`Modal`**: Implements modal functionality
+
 ### Key Functions
-- `SetExitCode()`: Sets or updates ExitCode value in modal.hpp
-- `Done()`: Performs Done operation in modal.hpp
-- `ClearDone()`: Performs ClearDone operation in modal.hpp
-- `Process()`: Processes input data in modal.hpp
-- `SetHelp()`: Sets or updates Help value in modal.hpp
-- `ShowHelp()`: Performs ShowHelp operation in modal.hpp
-- `SetDone()`: Sets or updates Done value in modal.hpp
-- `Close()`: Performs Close operation in modal.hpp
-- `OnClose()`: Performs OnClose operation in modal.hpp
+- **`Modal::SetExitCode()`**: Updates the exit code with a new value
+- **`Modal::Done()`**: Executes done operation
+- **`Modal::ClearDone()`**: Executes clear done operation
+- **`Modal::Process()`**: Executes process operation
+- **`Modal::SetHelp()`**: Updates the help with a new value
+- **`Modal::ShowHelp()`**: Executes show help operation
+
 ### Summary
-The `modal.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `modal.hpp` file is essential for core functionality. It defines 1 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Parent class для модальных объектов
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Modal`: Performs Modal operation in modal.hpp
+- **`Modal`**: Implements modal functionality
+
 ### Kluczowe Funkcje
-- `SetExitCode()`: Sets or updates ExitCode value in modal.hpp
-- `Done()`: Performs Done operation in modal.hpp
-- `ClearDone()`: Performs ClearDone operation in modal.hpp
-- `Process()`: Processes input data in modal.hpp
-- `SetHelp()`: Sets or updates Help value in modal.hpp
-- `ShowHelp()`: Performs ShowHelp operation in modal.hpp
-- `SetDone()`: Sets or updates Done value in modal.hpp
-- `Close()`: Performs Close operation in modal.hpp
-- `OnClose()`: Performs OnClose operation in modal.hpp
+- **`Modal::SetExitCode()`**: Updates the exit code with a new value
+- **`Modal::Done()`**: Executes done operation
+- **`Modal::ClearDone()`**: Executes clear done operation
+- **`Modal::Process()`**: Executes process operation
+- **`Modal::SetHelp()`**: Updates the help with a new value
+- **`Modal::ShowHelp()`**: Executes show help operation
+
 ### Podsumowanie
-Plik `modal.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `modal.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

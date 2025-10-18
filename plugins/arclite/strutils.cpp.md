@@ -1,36 +1,59 @@
 # strutils.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `substr_match()`: Performs substr_match operation in strutils.cpp
-- `word_wrap()`: Performs word_wrap operation in strutils.cpp
-- `fit_str()`: Performs fit_str operation in strutils.cpp
-- `center()`: Performs center operation in strutils.cpp
-- `result()`: Performs result operation in strutils.cpp
-- `strip()`: Performs strip operation in strutils.cpp
-- `str_to_int()`: Performs str_to_int operation in strutils.cpp
-- `int_to_str()`: Performs int_to_str operation in strutils.cpp
-- `_itow()`: Performs _itow operation in strutils.cpp
-- `str_to_uint()`: Performs str_to_uint operation in strutils.cpp
+- **`substr_match()`**: Executes substr match operation
+- **`word_wrap()`**: Executes word wrap operation
+- **`fit_str()`**: Executes fit str operation
+- **`center()`**: Executes center operation
+- **`strip()`**: Executes strip operation
+- **`str_to_int()`**: Executes str to int operation
+- **`int_to_str()`**: Executes int to str operation
+- **`str_to_uint()`**: Executes str to uint operation
+- **`uint_to_str()`**: Executes uint to str operation
+- **`widen()`**: Executes widen operation
+- **`split()`**: Executes split operation
+- **`combine()`**: Executes combine operation
+- **`format_data_size()`**: Executes format data size operation
+- **`is_slash()`**: Checks whether slash condition is true
+- **`unquote()`**: Executes unquote operation
+- **`search_and_replace()`**: Executes search and replace operation
+- **`str_start_with()`**: Executes str start with operation
+- **`str_end_with()`**: Executes str end with operation
+
 ### Summary
-The `strutils.cpp` file provides essential functionality for string utilities. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `strutils.cpp` file is essential for core functionality. It implements 18 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `substr_match()`: Performs substr_match operation in strutils.cpp
-- `word_wrap()`: Performs word_wrap operation in strutils.cpp
-- `fit_str()`: Performs fit_str operation in strutils.cpp
-- `center()`: Performs center operation in strutils.cpp
-- `result()`: Performs result operation in strutils.cpp
-- `strip()`: Performs strip operation in strutils.cpp
-- `str_to_int()`: Performs str_to_int operation in strutils.cpp
-- `int_to_str()`: Performs int_to_str operation in strutils.cpp
-- `_itow()`: Performs _itow operation in strutils.cpp
-- `str_to_uint()`: Performs str_to_uint operation in strutils.cpp
+- **`substr_match()`**: Executes substr match operation
+- **`word_wrap()`**: Executes word wrap operation
+- **`fit_str()`**: Executes fit str operation
+- **`center()`**: Executes center operation
+- **`strip()`**: Executes strip operation
+- **`str_to_int()`**: Executes str to int operation
+- **`int_to_str()`**: Executes int to str operation
+- **`str_to_uint()`**: Executes str to uint operation
+- **`uint_to_str()`**: Executes uint to str operation
+- **`widen()`**: Executes widen operation
+- **`split()`**: Executes split operation
+- **`combine()`**: Executes combine operation
+- **`format_data_size()`**: Executes format data size operation
+- **`is_slash()`**: Checks whether slash condition is true
+- **`unquote()`**: Executes unquote operation
+- **`search_and_replace()`**: Executes search and replace operation
+- **`str_start_with()`**: Executes str start with operation
+- **`str_end_with()`**: Executes str end with operation
+
 ### Podsumowanie
-Plik `strutils.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `strutils.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 18 funkcji wspierających operacje menedżera plików Far Manager.

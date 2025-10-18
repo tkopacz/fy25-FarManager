@@ -1,42 +1,41 @@
 # shortcuts.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Folder shortcuts
-Main functional areas: core functionality
-### Key Classes
-- `Shortcuts`: Performs Shortcuts operation in shortcuts.cpp
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `is_service()`: Checks a condition in shortcuts.cpp and returns the result
-- `MakeName()`: Performs MakeName operation in shortcuts.cpp
-- `FillMenu()`: Performs FillMenu operation in shortcuts.cpp
-- `Accept()`: Performs Accept operation in shortcuts.cpp
-- `CreateShortcutFromPanel()`: Creates and initializes a new object or resource in shortcuts.cpp
-- `EditItemImpl()`: Checks a condition in shortcuts.cpp and returns true or false based on the result
-- `Builder()`: Performs Builder operation in shortcuts.cpp
-- `EditItem()`: Checks a condition in shortcuts.cpp and returns true or false based on the result
-- `MakeListName()`: Performs MakeListName operation in shortcuts.cpp
-- `EditListItem()`: Checks a condition in shortcuts.cpp and returns true or false based on the result
+- **`MakeName()`**: Executes make name operation
+- **`FillMenu()`**: Executes fill menu operation
+- **`Accept()`**: Executes accept operation
+- **`CreateShortcutFromPanel()`**: Constructs and returns a new shortcut from panel object
+- **`EditItemImpl()`**: Executes edit item impl operation
+- **`EditItem()`**: Executes edit item operation
+- **`MakeListName()`**: Executes make list name operation
+- **`EditListItem()`**: Executes edit list item operation
+- **`make_shortcuts()`**: Executes make shortcuts operation
+
 ### Summary
-The `shortcuts.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `shortcuts.cpp` file is essential for core functionality. It implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Folder shortcuts
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Klasy
-- `Shortcuts`: Performs Shortcuts operation in shortcuts.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `is_service()`: Checks a condition in shortcuts.cpp and returns the result
-- `MakeName()`: Performs MakeName operation in shortcuts.cpp
-- `FillMenu()`: Performs FillMenu operation in shortcuts.cpp
-- `Accept()`: Performs Accept operation in shortcuts.cpp
-- `CreateShortcutFromPanel()`: Creates and initializes a new object or resource in shortcuts.cpp
-- `EditItemImpl()`: Checks a condition in shortcuts.cpp and returns true or false based on the result
-- `Builder()`: Performs Builder operation in shortcuts.cpp
-- `EditItem()`: Checks a condition in shortcuts.cpp and returns true or false based on the result
-- `MakeListName()`: Performs MakeListName operation in shortcuts.cpp
-- `EditListItem()`: Checks a condition in shortcuts.cpp and returns true or false based on the result
+- **`MakeName()`**: Executes make name operation
+- **`FillMenu()`**: Executes fill menu operation
+- **`Accept()`**: Executes accept operation
+- **`CreateShortcutFromPanel()`**: Constructs and returns a new shortcut from panel object
+- **`EditItemImpl()`**: Executes edit item impl operation
+- **`EditItem()`**: Executes edit item operation
+- **`MakeListName()`**: Executes make list name operation
+- **`EditListItem()`**: Executes edit list item operation
+- **`make_shortcuts()`**: Executes make shortcuts operation
+
 ### Podsumowanie
-Plik `shortcuts.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `shortcuts.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

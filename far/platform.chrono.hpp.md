@@ -1,58 +1,57 @@
 # platform.chrono.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `local_tag`: Performs local_tag operation in platform.chrono.hpp
-- `nt_clock`: Performs nt_clock operation in platform.chrono.hpp
-- `time`: Performs time operation in platform.chrono.hpp
-- `typed_time`: Performs typed_time operation in platform.chrono.hpp
-- `utc_tag`: Performs utc_tag operation in platform.chrono.hpp
+- **`nt_clock`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`time`**: Implements time functionality
+- **`utc_tag`**: Implements utc tag functionality
+- **`local_tag`**: Implements local tag functionality
+
 ### Key Functions
-- `now()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
-- `to_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
-- `from_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
-- `to_filetime()`: Performs to_filetime operation in platform.chrono.hpp
-- `from_filetime()`: Performs from_filetime operation in platform.chrono.hpp
-- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation in platform.chrono.hpp
-- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation in platform.chrono.hpp
-- `milliseconds()`: Performs milliseconds operation in platform.chrono.hpp
-- `now_utc()`: Performs now_utc operation in platform.chrono.hpp
-- `now_local()`: Performs now_local operation in platform.chrono.hpp
+- **`nt_clock::now()`**: Executes now operation
+- **`nt_clock::to_time_t()`**: Executes to time t operation
+- **`nt_clock::from_time_t()`**: Executes from time t operation
+- **`nt_clock::to_filetime()`**: Executes to filetime operation
+- **`nt_clock::from_filetime()`**: Executes from filetime operation
+- **`nt_clock::from_hectonanoseconds()`**: Executes from hectonanoseconds operation
+- **`nt_clock::to_hectonanoseconds()`**: Executes to hectonanoseconds operation
+- **`time::milliseconds()`**: Executes milliseconds operation
+
 ### Namespaces
-- `detail`
-- `literals`
 - `os`
+
 ### Summary
-The `platform.chrono.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `platform.chrono.hpp` file is essential for platform-specific operations. It defines 4 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `local_tag`: Performs local_tag operation in platform.chrono.hpp
-- `nt_clock`: Performs nt_clock operation in platform.chrono.hpp
-- `time`: Performs time operation in platform.chrono.hpp
-- `typed_time`: Performs typed_time operation in platform.chrono.hpp
-- `utc_tag`: Performs utc_tag operation in platform.chrono.hpp
+- **`nt_clock`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`time`**: Implements time functionality
+- **`utc_tag`**: Implements utc tag functionality
+- **`local_tag`**: Implements local tag functionality
+
 ### Kluczowe Funkcje
-- `now()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
-- `to_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
-- `from_time_t()`: TrivialClock with fixed period (100 ns) and epoch (1 Jan 1601)
-- `to_filetime()`: Performs to_filetime operation in platform.chrono.hpp
-- `from_filetime()`: Performs from_filetime operation in platform.chrono.hpp
-- `from_hectonanoseconds()`: Performs from_hectonanoseconds operation in platform.chrono.hpp
-- `to_hectonanoseconds()`: Performs to_hectonanoseconds operation in platform.chrono.hpp
-- `milliseconds()`: Performs milliseconds operation in platform.chrono.hpp
-- `now_utc()`: Performs now_utc operation in platform.chrono.hpp
-- `now_local()`: Performs now_local operation in platform.chrono.hpp
+- **`nt_clock::now()`**: Executes now operation
+- **`nt_clock::to_time_t()`**: Executes to time t operation
+- **`nt_clock::from_time_t()`**: Executes from time t operation
+- **`nt_clock::to_filetime()`**: Executes to filetime operation
+- **`nt_clock::from_filetime()`**: Executes from filetime operation
+- **`nt_clock::from_hectonanoseconds()`**: Executes from hectonanoseconds operation
+- **`nt_clock::to_hectonanoseconds()`**: Executes to hectonanoseconds operation
+- **`time::milliseconds()`**: Executes milliseconds operation
+
 ### Przestrzenie nazw
-- `detail`
-- `literals`
 - `os`
+
 ### Podsumowanie
-Plik `platform.chrono.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.chrono.hpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 4 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

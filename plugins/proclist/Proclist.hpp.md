@@ -1,64 +1,87 @@
 # Proclist.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DebugToken`: Performs DebugToken operation in Proclist.hpp
-- `InitDialogItem`: Initializes data structures and prepares for operation in Proclist.hpp
-- `PerfThread`: Performs PerfThread operation in Proclist.hpp
-- `Plist`: Performs Plist operation in Proclist.hpp
-- `ProcessData`: Processes input data in Proclist.hpp
-- `ProcessPerfData`: Processes input data in Proclist.hpp
-- `WMIConnection`: Performs WMIConnection operation in Proclist.hpp
-- `columns`: Performs columns operation in Proclist.hpp
-- `free_deleter`: Performs free_deleter operation in Proclist.hpp
-- `handle_closer`: Performs handle_closer operation in Proclist.hpp
+- **`free_deleter`**: Implements free deleter functionality
+- **`handle_closer`**: Implements handle closer functionality
+- **`local_deleter`**: Implements local deleter functionality
+- **`options`**: Implements options functionality
+- **`columns`**: Implements columns functionality
+- **`mode`**: Defines operational mode settings and behavior configuration
+- **`Plist`**: Container class managing collection of p
+- **`refresh_lock`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`ProcessData`**: Implements process data functionality
+- **`DebugToken`**: Implements debug token functionality
+
 ### Key Functions
-- `make_malloc()`: Performs make_malloc operation in Proclist.hpp
-- `normalise_handle()`: Performs normalise_handle operation in Proclist.hpp
-- `Read()`: Performs Read operation in Proclist.hpp
-- `Write()`: Max number of custom cols in any panel mode
-- `Message()`: Max number of custom cols in any panel mode
-- `Connect()`: Performs Connect operation in Proclist.hpp
-- `GetFindData()`: Retrieves FindData value in Proclist.hpp
-- `FreeFindData()`: Performs FreeFindData operation in Proclist.hpp
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo value in Proclist.hpp
-- `GetFiles()`: Retrieves Files value in Proclist.hpp
-### Namespaces
-- `literals`
-- `std`
+- **`make_malloc()`**: Executes make malloc operation
+- **`normalise_handle()`**: Executes normalise handle operation
+- **`Message()`**: Executes message operation
+- **`Plist()`**: Executes plist operation
+- **`GetList()`**: Retrieves the current list value
+- **`KillProcess()`**: Executes kill process operation
+- **`ConvertDate()`**: Executes convert date operation
+- **`Config()`**: Executes config operation
+- **`SetRegKey()`**: Updates the reg key with a new value
+- **`GetRegKey()`**: Retrieves the current reg key value
+- **`DeleteRegKey()`**: Executes delete reg key operation
+- **`WinError()`**: Executes win error operation
+- **`OpenProcessForced()`**: Executes open process forced operation
+- **`PrintNTCurDirAndEnv()`**: Executes print ntcur dir and env operation
+- **`PrintModules()`**: Executes print modules operation
+- **`PrintHandleInfo()`**: Executes print handle info operation
+- **`options::Read()`**: Performs read operation on the data stream or buffer
+- **`options::Write()`**: Performs write operation on the data stream or buffer
+- **`refresh_lock::lock()`**: Executes lock operation
+
 ### Summary
-The `Proclist.hpp` file provides essential functionality for core functionality. It defines 14 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `Proclist.hpp` file is essential for core functionality. It defines 11 class(es) and implements 19 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DebugToken`: Performs DebugToken operation in Proclist.hpp
-- `InitDialogItem`: Initializes data structures and prepares for operation in Proclist.hpp
-- `PerfThread`: Performs PerfThread operation in Proclist.hpp
-- `Plist`: Performs Plist operation in Proclist.hpp
-- `ProcessData`: Processes input data in Proclist.hpp
-- `ProcessPerfData`: Processes input data in Proclist.hpp
-- `WMIConnection`: Performs WMIConnection operation in Proclist.hpp
-- `columns`: Performs columns operation in Proclist.hpp
-- `free_deleter`: Performs free_deleter operation in Proclist.hpp
-- `handle_closer`: Performs handle_closer operation in Proclist.hpp
+- **`free_deleter`**: Implements free deleter functionality
+- **`handle_closer`**: Implements handle closer functionality
+- **`local_deleter`**: Implements local deleter functionality
+- **`options`**: Implements options functionality
+- **`columns`**: Implements columns functionality
+- **`mode`**: Defines operational mode settings and behavior configuration
+- **`Plist`**: Container class managing collection of p
+- **`refresh_lock`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`ProcessData`**: Implements process data functionality
+- **`DebugToken`**: Implements debug token functionality
+
 ### Kluczowe Funkcje
-- `make_malloc()`: Performs make_malloc operation in Proclist.hpp
-- `normalise_handle()`: Performs normalise_handle operation in Proclist.hpp
-- `Read()`: Performs Read operation in Proclist.hpp
-- `Write()`: Max number of custom cols in any panel mode
-- `Message()`: Max number of custom cols in any panel mode
-- `Connect()`: Performs Connect operation in Proclist.hpp
-- `GetFindData()`: Retrieves FindData value in Proclist.hpp
-- `FreeFindData()`: Performs FreeFindData operation in Proclist.hpp
-- `GetOpenPanelInfo()`: Retrieves OpenPanelInfo value in Proclist.hpp
-- `GetFiles()`: Retrieves Files value in Proclist.hpp
-### Przestrzenie nazw
-- `literals`
-- `std`
+- **`make_malloc()`**: Executes make malloc operation
+- **`normalise_handle()`**: Executes normalise handle operation
+- **`Message()`**: Executes message operation
+- **`Plist()`**: Executes plist operation
+- **`GetList()`**: Retrieves the current list value
+- **`KillProcess()`**: Executes kill process operation
+- **`ConvertDate()`**: Executes convert date operation
+- **`Config()`**: Executes config operation
+- **`SetRegKey()`**: Updates the reg key with a new value
+- **`GetRegKey()`**: Retrieves the current reg key value
+- **`DeleteRegKey()`**: Executes delete reg key operation
+- **`WinError()`**: Executes win error operation
+- **`OpenProcessForced()`**: Executes open process forced operation
+- **`PrintNTCurDirAndEnv()`**: Executes print ntcur dir and env operation
+- **`PrintModules()`**: Executes print modules operation
+- **`PrintHandleInfo()`**: Executes print handle info operation
+- **`options::Read()`**: Performs read operation on the data stream or buffer
+- **`options::Write()`**: Performs write operation on the data stream or buffer
+- **`refresh_lock::lock()`**: Executes lock operation
+
 ### Podsumowanie
-Plik `Proclist.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 14 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Proclist.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 11 klas(y) i implementuje 19 funkcji wspierających operacje menedżera plików Far Manager.

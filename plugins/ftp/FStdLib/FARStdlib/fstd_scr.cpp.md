@@ -1,14 +1,19 @@
 # fstd_scr.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations, screen operations
+This file implements functionality for core functionality.
+
 ### Summary
-The `fstd_scr.cpp` file provides essential functionality for file system operations, screen operations. to support the Far Manager file manager operations.
+The `fstd_scr.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików, operacje ekranowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `fstd_scr.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików, operacje ekranowe. wspierających operacje menedżera plików Far Manager.
+Plik `fstd_scr.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

@@ -1,24 +1,27 @@
 # dlgAddEditTemplate.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: dialog handling, text editing
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `SetVisibility()`: Sets or updates Visibility value in dlgAddEditTemplate.cpp
-- `hndAddEditTemplate()`: Checks a condition in dlgAddEditTemplate.cpp and returns true or false based on the result
-- `dlgAddEditTemplate()`: Checks a condition in dlgAddEditTemplate.cpp and returns true or false based on the result
-- `D()`: Performs D operation in dlgAddEditTemplate.cpp
+- **`SetVisibility()`**: Updates the visibility with a new value
+- **`dlgAddEditTemplate()`**: Executes dlg add edit template operation
+
 ### Summary
-The `dlgAddEditTemplate.cpp` file provides essential functionality for dialog handling, text editing. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `dlgAddEditTemplate.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: obsługa dialogów, edycja tekstu
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `SetVisibility()`: Sets or updates Visibility value in dlgAddEditTemplate.cpp
-- `hndAddEditTemplate()`: Checks a condition in dlgAddEditTemplate.cpp and returns true or false based on the result
-- `dlgAddEditTemplate()`: Checks a condition in dlgAddEditTemplate.cpp and returns true or false based on the result
-- `D()`: Performs D operation in dlgAddEditTemplate.cpp
+- **`SetVisibility()`**: Updates the visibility with a new value
+- **`dlgAddEditTemplate()`**: Executes dlg add edit template operation
+
 ### Podsumowanie
-Plik `dlgAddEditTemplate.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów, edycja tekstu. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `dlgAddEditTemplate.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

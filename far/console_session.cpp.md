@@ -1,22 +1,27 @@
 # console_session.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: console operations
+This file implements functionality for console I/O operations.
+
 ### Key Functions
-- `margin()`: Performs margin operation in console_session.cpp
-- `command()`: Performs command operation in console_session.cpp
+- **`margin()`**: Executes margin operation
+- **`command()`**: Executes command operation
+
 ### Summary
-The `console_session.cpp` file provides essential functionality for console operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `console_session.cpp` file is essential for console I/O operations. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: operacje konsolowe
+Ten plik implementuje funkcjonalność dla operacji wejścia/wyjścia konsoli.
+
 ### Kluczowe Funkcje
-- `margin()`: Performs margin operation in console_session.cpp
-- `command()`: Performs command operation in console_session.cpp
+- **`margin()`**: Executes margin operation
+- **`command()`**: Executes command operation
+
 ### Podsumowanie
-Plik `console_session.cpp` zapewnia podstawową funkcjonalność dla operacje konsolowe. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `console_session.cpp` jest niezbędny dla operacji wejścia/wyjścia konsoli. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

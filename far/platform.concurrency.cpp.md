@@ -1,46 +1,49 @@
 # platform.concurrency.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Threads, mutexes, events, critical sections etc.
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.cpp
-- `s`: Performs s operation in platform.concurrency.cpp
+- **`i_shared_mutex`**: Implements i shared mutex functionality
+- **`s`**: Implements s functionality
+
 ### Key Functions
-- `far_fatal_exception()`: Performs far_fatal_exception operation in platform.concurrency.cpp
-- `lock()`: Performs lock operation in platform.concurrency.cpp
-- `try_lock()`: Performs try_lock operation in platform.concurrency.cpp
-- `unlock()`: Performs unlock operation in platform.concurrency.cpp
-- `lock_shared()`: Performs lock_shared operation in platform.concurrency.cpp
-- `try_lock_shared()`: Performs try_lock_shared operation in platform.concurrency.cpp
-- `unlock_shared()`: Performs unlock_shared operation in platform.concurrency.cpp
-- `wrapper()`: Performs wrapper operation in platform.concurrency.cpp
+- **`i_shared_mutex::lock()`**: Executes lock operation
+- **`i_shared_mutex::try_lock()`**: Executes try lock operation
+- **`i_shared_mutex::unlock()`**: Executes unlock operation
+- **`i_shared_mutex::lock_shared()`**: Executes lock shared operation
+- **`i_shared_mutex::try_lock_shared()`**: Executes try lock shared operation
+- **`i_shared_mutex::unlock_shared()`**: Executes unlock shared operation
+
 ### Namespaces
-- `detail`
 - `os`
+
 ### Summary
-The `platform.concurrency.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
+The `platform.concurrency.cpp` file is essential for platform-specific operations. It defines 2 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Threads, mutexes, events, critical sections etc.
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.cpp
-- `s`: Performs s operation in platform.concurrency.cpp
+- **`i_shared_mutex`**: Implements i shared mutex functionality
+- **`s`**: Implements s functionality
+
 ### Kluczowe Funkcje
-- `far_fatal_exception()`: Performs far_fatal_exception operation in platform.concurrency.cpp
-- `lock()`: Performs lock operation in platform.concurrency.cpp
-- `try_lock()`: Performs try_lock operation in platform.concurrency.cpp
-- `unlock()`: Performs unlock operation in platform.concurrency.cpp
-- `lock_shared()`: Performs lock_shared operation in platform.concurrency.cpp
-- `try_lock_shared()`: Performs try_lock_shared operation in platform.concurrency.cpp
-- `unlock_shared()`: Performs unlock_shared operation in platform.concurrency.cpp
-- `wrapper()`: Performs wrapper operation in platform.concurrency.cpp
+- **`i_shared_mutex::lock()`**: Executes lock operation
+- **`i_shared_mutex::try_lock()`**: Executes try lock operation
+- **`i_shared_mutex::unlock()`**: Executes unlock operation
+- **`i_shared_mutex::lock_shared()`**: Executes lock shared operation
+- **`i_shared_mutex::try_lock_shared()`**: Executes try lock shared operation
+- **`i_shared_mutex::unlock_shared()`**: Executes unlock shared operation
+
 ### Przestrzenie nazw
-- `detail`
 - `os`
+
 ### Podsumowanie
-Plik `platform.concurrency.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.concurrency.cpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 2 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

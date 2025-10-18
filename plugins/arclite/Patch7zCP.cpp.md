@@ -1,40 +1,41 @@
 # Patch7zCP.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+#############################################################################
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `patched`: Performs patched operation in Patch7zCP.cpp
+- **`patched`**: Implements patched functionality
+
 ### Key Functions
-- `GetOEMCP()`: #############################################################################
-- `GetACP()`: #############################################################################
-- `MultiByteToWideChar()`: #############################################################################
-- `WideCharToMultiByte()`: Performs WideCharToMultiByte operation in Patch7zCP.cpp
-- `PinhFromImageBase()`: #############################################################################
-- `PFromRva()`: #############################################################################
-- `CountOfImports()`: #############################################################################
-- `patch_IAT()`: #############################################################################
-- `patch_7z_dll()`: PAGE_EXECUTE, PAGE_EXECUTE_READ
-- `is_valid_cp()`: #############################################################################
+- **`patch_IAT()`**: Executes patch iat operation
+- **`patch_7z_dll()`**: Executes patch 7z dll operation
+- **`is_valid_cp()`**: Checks whether valid cp condition is true
+- **`patched::GetOEMCP()`**: Retrieves the current oemcp value
+
 ### Summary
-The `Patch7zCP.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `Patch7zCP.cpp` file is essential for core functionality. It defines 1 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+#############################################################################
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `patched`: Performs patched operation in Patch7zCP.cpp
+- **`patched`**: Implements patched functionality
+
 ### Kluczowe Funkcje
-- `GetOEMCP()`: #############################################################################
-- `GetACP()`: #############################################################################
-- `MultiByteToWideChar()`: #############################################################################
-- `WideCharToMultiByte()`: Performs WideCharToMultiByte operation in Patch7zCP.cpp
-- `PinhFromImageBase()`: #############################################################################
-- `PFromRva()`: #############################################################################
-- `CountOfImports()`: #############################################################################
-- `patch_IAT()`: #############################################################################
-- `patch_7z_dll()`: PAGE_EXECUTE, PAGE_EXECUTE_READ
-- `is_valid_cp()`: #############################################################################
+- **`patch_IAT()`**: Executes patch iat operation
+- **`patch_7z_dll()`**: Executes patch 7z dll operation
+- **`is_valid_cp()`**: Checks whether valid cp condition is true
+- **`patched::GetOEMCP()`**: Retrieves the current oemcp value
+
 ### Podsumowanie
-Plik `Patch7zCP.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Patch7zCP.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

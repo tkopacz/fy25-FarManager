@@ -1,52 +1,43 @@
 # editor.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Редактор
-Main functional areas: text editing
+This file implements functionality for clipboard operations and data transfer.
+
 ### Key Classes
-- `Editor`: Iterates through elements in editor.cpp and adds them to a collection
-- `EditorBlockGuard`: Iterates through elements in editor.cpp and adds them to a collection
-- `FindCoord`: Performs FindCoord operation in editor.cpp
-- `find_all_list`: To find the next nearest match, include the entire last found match (minus one character)
-- `save_to_new_editor`: Performs save_to_new_editor operation in editor.cpp
-- `undo_block`: Performs undo_block operation in editor.cpp
+- **`EditorBlockGuard`**: Enumeration defining possible values for editor block guard
+- **`FindCoord`**: Implements find coord functionality
+- **`undo_block`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`find_all_list`**: Container class managing collection of find all
+- **`save_to_new_editor`**: Implements save to new editor functionality
+
 ### Key Functions
-- `SetNeedCheckUnmark()`: Sets or updates NeedCheckUnmark value in editor.cpp
-- `IsAnySelection()`: Checks a condition in editor.cpp and returns true or false based on the result
-- `NextSessionBookmark()`: If not first bookmark - go
-- `PrevSessionBookmark()`: If we had to save current position ...
-- `BackSessionBookmark()`: Performs BackSessionBookmark operation in editor.cpp
-- `GetSessionBookmarks()`: Checks a condition in editor.cpp and returns true or false based on the result
-- `PushSessionBookMark()`: Iterates through elements in editor.cpp and adds them to a collection
-- `PopSessionBookMark()`: Iterates through elements in editor.cpp and adds them to a collection
-- `индексом()`: N=BM.pop() - восстановить текущую позицию из закладки в конце стека и удалить закладку
-- `type()`: Performs type operation in editor.cpp
+- **`is_clear_selection_key()`**: Checks whether clear selection key condition is true
+- **`GetLineBytes()`**: Retrieves the current line bytes value
+- **`EditorBlockGuard::ed()`**: Executes ed operation
+
 ### Summary
-The `editor.cpp` file provides essential functionality for text editing. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `editor.cpp` file is essential for clipboard operations and data transfer. It defines 5 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Редактор
-Główne obszary funkcjonalne: edycja tekstu
+Ten plik implementuje funkcjonalność dla operacji schowka i transferu danych.
+
 ### Kluczowe Klasy
-- `Editor`: Iterates through elements in editor.cpp and adds them to a collection
-- `EditorBlockGuard`: Iterates through elements in editor.cpp and adds them to a collection
-- `FindCoord`: Performs FindCoord operation in editor.cpp
-- `find_all_list`: To find the next nearest match, include the entire last found match (minus one character)
-- `save_to_new_editor`: Performs save_to_new_editor operation in editor.cpp
-- `undo_block`: Performs undo_block operation in editor.cpp
+- **`EditorBlockGuard`**: Enumeration defining possible values for editor block guard
+- **`FindCoord`**: Implements find coord functionality
+- **`undo_block`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`find_all_list`**: Container class managing collection of find all
+- **`save_to_new_editor`**: Implements save to new editor functionality
+
 ### Kluczowe Funkcje
-- `SetNeedCheckUnmark()`: Sets or updates NeedCheckUnmark value in editor.cpp
-- `IsAnySelection()`: Checks a condition in editor.cpp and returns true or false based on the result
-- `NextSessionBookmark()`: If not first bookmark - go
-- `PrevSessionBookmark()`: If we had to save current position ...
-- `BackSessionBookmark()`: Performs BackSessionBookmark operation in editor.cpp
-- `GetSessionBookmarks()`: Checks a condition in editor.cpp and returns true or false based on the result
-- `PushSessionBookMark()`: Iterates through elements in editor.cpp and adds them to a collection
-- `PopSessionBookMark()`: Iterates through elements in editor.cpp and adds them to a collection
-- `индексом()`: N=BM.pop() - восстановить текущую позицию из закладки в конце стека и удалить закладку
-- `type()`: Performs type operation in editor.cpp
+- **`is_clear_selection_key()`**: Checks whether clear selection key condition is true
+- **`GetLineBytes()`**: Retrieves the current line bytes value
+- **`EditorBlockGuard::ed()`**: Executes ed operation
+
 ### Podsumowanie
-Plik `editor.cpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `editor.cpp` jest niezbędny dla operacji schowka i transferu danych. Definiuje 5 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

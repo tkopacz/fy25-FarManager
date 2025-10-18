@@ -1,18 +1,25 @@
 # diskmenu.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Key Functions
-- `ChangeDisk()`: Performs ChangeDisk operation in diskmenu.hpp
+- **`ChangeDisk()`**: Executes change disk operation
+
 ### Summary
-The `diskmenu.hpp` file provides essential functionality for menu management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `diskmenu.hpp` file is essential for menu system. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Kluczowe Funkcje
-- `ChangeDisk()`: Performs ChangeDisk operation in diskmenu.hpp
+- **`ChangeDisk()`**: Executes change disk operation
+
 ### Podsumowanie
-Plik `diskmenu.hpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `diskmenu.hpp` jest niezbędny dla systemu menu. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

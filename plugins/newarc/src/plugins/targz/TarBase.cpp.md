@@ -1,22 +1,25 @@
 # TarBase.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `GZHeader`: Performs GZHeader operation in TarBase.cpp
-### Key Functions
-- `strcpy()`: Opens and manages a file in TarBase.cpp, handling resource cleanup
+- **`GZHeader`**: Implements gzheader functionality
+
 ### Summary
-The `TarBase.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `TarBase.cpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `GZHeader`: Performs GZHeader operation in TarBase.cpp
-### Kluczowe Funkcje
-- `strcpy()`: Opens and manages a file in TarBase.cpp, handling resource cleanup
+- **`GZHeader`**: Implements gzheader functionality
+
 ### Podsumowanie
-Plik `TarBase.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `TarBase.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

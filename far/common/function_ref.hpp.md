@@ -1,24 +1,25 @@
 # function_ref.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Classes
-- `function_ref`: qualifier applied to function type has no meaning; ignored
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `bool()`: Iterates through elements in function_ref.hpp and adds them to a collection
-- `to_ptr()`: Iterates through elements in function_ref.hpp and adds them to a collection
+- **`function_ref()`**: Executes function ref operation
+
 ### Summary
-The `function_ref.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `function_ref.hpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Klasy
-- `function_ref`: qualifier applied to function type has no meaning; ignored
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `bool()`: Iterates through elements in function_ref.hpp and adds them to a collection
-- `to_ptr()`: Iterates through elements in function_ref.hpp and adds them to a collection
+- **`function_ref()`**: Executes function ref operation
+
 ### Podsumowanie
-Plik `function_ref.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `function_ref.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,28 +1,29 @@
 # tinyxml.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: tinyxml wrapper
-Main functional areas: core functionality
-### Key Functions
-- `get()`: Retrieves  value in tinyxml.hpp
+This file implements functionality for core functionality.
+
 ### Namespaces
-- `tinyxml`
 - `tinyxml_impl`
+- `tinyxml`
 - `xml`
+
 ### Summary
-The `tinyxml.hpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `tinyxml.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: tinyxml wrapper
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `get()`: Retrieves  value in tinyxml.hpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Przestrzenie nazw
-- `tinyxml`
 - `tinyxml_impl`
+- `tinyxml`
 - `xml`
+
 ### Podsumowanie
-Plik `tinyxml.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `tinyxml.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

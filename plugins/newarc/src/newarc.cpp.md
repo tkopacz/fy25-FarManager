@@ -1,36 +1,29 @@
 # newarc.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `STR2GUID()`: int length = wcslen (string)+1;
-- `OpenFilePlugin()`: Performs OpenFilePlugin operation in newarc.cpp
-- `ArchivePanel()`: Performs ArchivePanel operation in newarc.cpp
-- `LoadAndInitializePlugins()`: Performs LoadAndInitializePlugins operation in newarc.cpp
-- `GetFindData()`: Retrieves FindData value in newarc.cpp
-- `FreeFindData()`: Performs FreeFindData operation in newarc.cpp
-- `ClosePlugin()`: Performs ClosePlugin operation in newarc.cpp
-- `GetOpenPluginInfo()`: Retrieves OpenPluginInfo value in newarc.cpp
-- `GetFiles()`: Retrieves Files value in newarc.cpp
-- `PutFiles()`: Performs PutFiles operation in newarc.cpp
+- **`dlgConfigure()`**: Executes dlg configure operation
+- **`dlgCommandLinesAndParams()`**: Executes dlg command lines and params operation
+- **`mnuCommandLinesAndParams()`**: Executes mnu command lines and params operation
+
 ### Summary
-The `newarc.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `newarc.cpp` file is essential for core functionality. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `STR2GUID()`: int length = wcslen (string)+1;
-- `OpenFilePlugin()`: Performs OpenFilePlugin operation in newarc.cpp
-- `ArchivePanel()`: Performs ArchivePanel operation in newarc.cpp
-- `LoadAndInitializePlugins()`: Performs LoadAndInitializePlugins operation in newarc.cpp
-- `GetFindData()`: Retrieves FindData value in newarc.cpp
-- `FreeFindData()`: Performs FreeFindData operation in newarc.cpp
-- `ClosePlugin()`: Performs ClosePlugin operation in newarc.cpp
-- `GetOpenPluginInfo()`: Retrieves OpenPluginInfo value in newarc.cpp
-- `GetFiles()`: Retrieves Files value in newarc.cpp
-- `PutFiles()`: Performs PutFiles operation in newarc.cpp
+- **`dlgConfigure()`**: Executes dlg configure operation
+- **`dlgCommandLinesAndParams()`**: Executes dlg command lines and params operation
+- **`mnuCommandLinesAndParams()`**: Executes mnu command lines and params operation
+
 ### Podsumowanie
-Plik `newarc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `newarc.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

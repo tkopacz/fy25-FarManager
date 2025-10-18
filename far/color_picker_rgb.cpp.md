@@ -1,46 +1,47 @@
 # color_picker_rgb.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: RGB colors extension to the standard color picker
-Main functional areas: color management
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `color_rgb_state`: Performs color_rgb_state operation in color_picker_rgb.cpp
+- **`color_rgb_state`**: Implements color rgb state functionality
+
 ### Key Functions
-- `pick_color_rgb_gui()`: Checks a condition in color_picker_rgb.cpp and returns true or false based on the result
-- `TrueColorToFarColor()`: Performs TrueColorToFarColor operation in color_picker_rgb.cpp
-- `TrueColorToFarColorDistinct()`: Performs TrueColorToFarColorDistinct operation in color_picker_rgb.cpp
-- `channel_value()`: Performs channel_value operation in color_picker_rgb.cpp
-- `as_rgb()`: Performs as_rgb operation in color_picker_rgb.cpp
-- `from_rgb()`: Performs from_rgb operation in color_picker_rgb.cpp
-- `GetColorDlgProc()`: Retrieves ColorDlgProc value in color_picker_rgb.cpp
-- `cube_rgb()`: Performs cube_rgb operation in color_picker_rgb.cpp
-- `match_rgb()`: Performs match_rgb operation in color_picker_rgb.cpp
-- `init_cube()`: Initializes data structures and prepares for operation in color_picker_rgb.cpp
-### Namespaces
-- `color_picker_common`
+- **`pick_color_rgb_gui()`**: Executes pick color rgb gui operation
+- **`TrueColorToFarColor()`**: Executes true color to far color operation
+- **`TrueColorToFarColorDistinct()`**: Executes true color to far color distinct operation
+- **`cube_rgb()`**: Executes cube rgb operation
+- **`match_rgb()`**: Executes match rgb operation
+- **`init_cube()`**: Executes init cube operation
+- **`zoom()`**: Executes zoom operation
+- **`pick_color_rgb_tui()`**: Executes pick color rgb tui operation
+- **`pick_color_rgb()`**: Executes pick color rgb operation
+
 ### Summary
-The `color_picker_rgb.cpp` file provides essential functionality for color management. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `color_picker_rgb.cpp` file is essential for core functionality. It defines 1 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: RGB colors extension to the standard color picker
-Główne obszary funkcjonalne: zarządzanie kolorami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `color_rgb_state`: Performs color_rgb_state operation in color_picker_rgb.cpp
+- **`color_rgb_state`**: Implements color rgb state functionality
+
 ### Kluczowe Funkcje
-- `pick_color_rgb_gui()`: Checks a condition in color_picker_rgb.cpp and returns true or false based on the result
-- `TrueColorToFarColor()`: Performs TrueColorToFarColor operation in color_picker_rgb.cpp
-- `TrueColorToFarColorDistinct()`: Performs TrueColorToFarColorDistinct operation in color_picker_rgb.cpp
-- `channel_value()`: Performs channel_value operation in color_picker_rgb.cpp
-- `as_rgb()`: Performs as_rgb operation in color_picker_rgb.cpp
-- `from_rgb()`: Performs from_rgb operation in color_picker_rgb.cpp
-- `GetColorDlgProc()`: Retrieves ColorDlgProc value in color_picker_rgb.cpp
-- `cube_rgb()`: Performs cube_rgb operation in color_picker_rgb.cpp
-- `match_rgb()`: Performs match_rgb operation in color_picker_rgb.cpp
-- `init_cube()`: Initializes data structures and prepares for operation in color_picker_rgb.cpp
-### Przestrzenie nazw
-- `color_picker_common`
+- **`pick_color_rgb_gui()`**: Executes pick color rgb gui operation
+- **`TrueColorToFarColor()`**: Executes true color to far color operation
+- **`TrueColorToFarColorDistinct()`**: Executes true color to far color distinct operation
+- **`cube_rgb()`**: Executes cube rgb operation
+- **`match_rgb()`**: Executes match rgb operation
+- **`init_cube()`**: Executes init cube operation
+- **`zoom()`**: Executes zoom operation
+- **`pick_color_rgb_tui()`**: Executes pick color rgb tui operation
+- **`pick_color_rgb()`**: Executes pick color rgb operation
+
 ### Podsumowanie
-Plik `color_picker_rgb.cpp` zapewnia podstawową funkcjonalność dla zarządzanie kolorami. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `color_picker_rgb.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

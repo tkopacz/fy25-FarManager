@@ -1,14 +1,19 @@
 # FarPluginBase.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Summary
-The `FarPluginBase.hpp` file provides essential functionality for plugin interface. to support the Far Manager file manager operations.
+The `FarPluginBase.hpp` file is essential for plugin system and extension management. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Podsumowanie
-Plik `FarPluginBase.hpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. wspierających operacje menedżera plików Far Manager.
+Plik `FarPluginBase.hpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. wspierających operacje menedżera plików Far Manager.

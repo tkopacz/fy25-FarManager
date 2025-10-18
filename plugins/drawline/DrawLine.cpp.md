@@ -1,30 +1,29 @@
 # DrawLine.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ProcessShiftKey()`: Checks a condition in DrawLine.cpp and returns true or false based on the result
-- `GetEnvType()`: Retrieves EnvType value in DrawLine.cpp
-- `SetTitle()`: Checks a condition in DrawLine.cpp and returns true or false based on the result
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in DrawLine.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in DrawLine.cpp
-- `OpenW()`: Performs OpenW operation in DrawLine.cpp
-- `GetPluginInfoW()`: Retrieves PluginInfoW value in DrawLine.cpp
+- **`ProcessShiftKey()`**: Executes process shift key operation
+- **`GetEnvType()`**: Retrieves the current env type value
+- **`SetTitle()`**: Updates the title with a new value
+
 ### Summary
-The `DrawLine.cpp` file provides essential functionality for core functionality. and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `DrawLine.cpp` file is essential for core functionality. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ProcessShiftKey()`: Checks a condition in DrawLine.cpp and returns true or false based on the result
-- `GetEnvType()`: Retrieves EnvType value in DrawLine.cpp
-- `SetTitle()`: Checks a condition in DrawLine.cpp and returns true or false based on the result
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in DrawLine.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in DrawLine.cpp
-- `OpenW()`: Performs OpenW operation in DrawLine.cpp
-- `GetPluginInfoW()`: Retrieves PluginInfoW value in DrawLine.cpp
+- **`ProcessShiftKey()`**: Executes process shift key operation
+- **`GetEnvType()`**: Retrieves the current env type value
+- **`SetTitle()`**: Updates the title with a new value
+
 ### Podsumowanie
-Plik `DrawLine.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `DrawLine.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

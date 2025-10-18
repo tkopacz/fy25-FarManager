@@ -1,58 +1,79 @@
 # pathmix.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Misc functions for processing of path names
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `FileListItem`: Performs FileListItem operation in pathmix.hpp
-- `PluginPanelItem`: Performs PluginPanelItem operation in pathmix.hpp
-- `append_arg`: Performs append_arg operation in pathmix.hpp
-- `root_type`: Performs root_type operation in pathmix.hpp
+- **`append_arg`**: Implements append arg functionality
+- **`root_type`**: Implements root type functionality
+
 ### Key Functions
-- `is_nt_separator()`: Checks a condition in pathmix.hpp and returns the result
-- `is_separator()`: Checks a condition in pathmix.hpp and returns the result
-- `contains()`: Performs contains operation in pathmix.hpp
-- `append_arg()`: Performs append_arg operation in pathmix.hpp
-- `append_impl()`: Performs append_impl operation in pathmix.hpp
-- `append()`: Performs append operation in pathmix.hpp
-- `join()`: Performs join operation in pathmix.hpp
-- `normalize_separators()`: Performs normalize_separators operation in pathmix.hpp
-- `nt_path()`: Performs nt_path operation in pathmix.hpp
-- `kernel_path()`: Performs kernel_path operation in pathmix.hpp
+- **`nt_path()`**: Executes nt path operation
+- **`kernel_path()`**: Executes kernel path operation
+- **`ParsePath()`**: Executes parse path operation
+- **`IsRelativeRoot()`**: Checks whether relative root condition is true
+- **`IsAbsolutePath()`**: Checks whether absolute path condition is true
+- **`IsRootPath()`**: Checks whether root path condition is true
+- **`HasPathPrefix()`**: Checks whether path prefix condition is true
+- **`ExtractPathPrefix()`**: Executes extract path prefix operation
+- **`PathStartsWith()`**: Executes path starts with operation
+- **`PathCanHoldRegularFile()`**: Executes path can hold regular file operation
+- **`GetPluginPrefixPath()`**: Retrieves the current plugin prefix path value
+- **`CutToSlash()`**: Executes cut to slash operation
+- **`CutToParent()`**: Executes cut to parent operation
+- **`PointToName()`**: Executes point to name operation
+- **`PointToFolderNameIfFolder()`**: Executes point to folder name if folder operation
+- **`name_ext()`**: Executes name ext operation
+- **`AddEndSlash()`**: Executes add end slash operation
+- **`DeleteEndSlash()`**: Executes delete end slash operation
+- **`ReplaceSlashToBackslash()`**: Executes replace slash to backslash operation
+- **`ReplaceBackslashToSlash()`**: Executes replace backslash to slash operation
+
 ### Namespaces
-- `detail`
-- `inplace`
-- `legacy`
 - `path`
+- `legacy`
+
 ### Summary
-The `pathmix.hpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `pathmix.hpp` file is essential for core functionality. It defines 2 class(es) and implements 30 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Misc functions for processing of path names
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `FileListItem`: Performs FileListItem operation in pathmix.hpp
-- `PluginPanelItem`: Performs PluginPanelItem operation in pathmix.hpp
-- `append_arg`: Performs append_arg operation in pathmix.hpp
-- `root_type`: Performs root_type operation in pathmix.hpp
+- **`append_arg`**: Implements append arg functionality
+- **`root_type`**: Implements root type functionality
+
 ### Kluczowe Funkcje
-- `is_nt_separator()`: Checks a condition in pathmix.hpp and returns the result
-- `is_separator()`: Checks a condition in pathmix.hpp and returns the result
-- `contains()`: Performs contains operation in pathmix.hpp
-- `append_arg()`: Performs append_arg operation in pathmix.hpp
-- `append_impl()`: Performs append_impl operation in pathmix.hpp
-- `append()`: Performs append operation in pathmix.hpp
-- `join()`: Performs join operation in pathmix.hpp
-- `normalize_separators()`: Performs normalize_separators operation in pathmix.hpp
-- `nt_path()`: Performs nt_path operation in pathmix.hpp
-- `kernel_path()`: Performs kernel_path operation in pathmix.hpp
+- **`nt_path()`**: Executes nt path operation
+- **`kernel_path()`**: Executes kernel path operation
+- **`ParsePath()`**: Executes parse path operation
+- **`IsRelativeRoot()`**: Checks whether relative root condition is true
+- **`IsAbsolutePath()`**: Checks whether absolute path condition is true
+- **`IsRootPath()`**: Checks whether root path condition is true
+- **`HasPathPrefix()`**: Checks whether path prefix condition is true
+- **`ExtractPathPrefix()`**: Executes extract path prefix operation
+- **`PathStartsWith()`**: Executes path starts with operation
+- **`PathCanHoldRegularFile()`**: Executes path can hold regular file operation
+- **`GetPluginPrefixPath()`**: Retrieves the current plugin prefix path value
+- **`CutToSlash()`**: Executes cut to slash operation
+- **`CutToParent()`**: Executes cut to parent operation
+- **`PointToName()`**: Executes point to name operation
+- **`PointToFolderNameIfFolder()`**: Executes point to folder name if folder operation
+- **`name_ext()`**: Executes name ext operation
+- **`AddEndSlash()`**: Executes add end slash operation
+- **`DeleteEndSlash()`**: Executes delete end slash operation
+- **`ReplaceSlashToBackslash()`**: Executes replace slash to backslash operation
+- **`ReplaceBackslashToSlash()`**: Executes replace backslash to slash operation
+
 ### Przestrzenie nazw
-- `detail`
-- `inplace`
-- `legacy`
 - `path`
+- `legacy`
+
 ### Podsumowanie
-Plik `pathmix.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `pathmix.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 30 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,62 +1,67 @@
 # log.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `async_impl`: Performs async_impl operation in log.cpp
-- `console_color`: Performs console_color operation in log.cpp
-- `discardable`: Performs discardable operation in log.cpp
-- `engine`: Performs engine operation in log.cpp
-- `engine_status`: Performs engine_status operation in log.cpp
-- `message`: Performs message operation in log.cpp
-- `no_config`: Performs no_config operation in log.cpp
-- `sink`: Performs sink operation in log.cpp
-- `sink_boilerplate`: Performs sink_boilerplate operation in log.cpp
-- `sink_composite`: Performs sink_composite operation in log.cpp
+- **`message`**: Implements message functionality
+- **`sink`**: Implements sink functionality
+- **`sink_boilerplate`**: Implements sink boilerplate functionality
+- **`discardable`**: Implements discardable functionality
+- **`no_config`**: Stores and manages configuration parameters and settings
+- **`console_color`**: Implements console color functionality
+- **`synchronized_impl`**: Implements synchronized impl functionality
+- **`async_impl`**: Implements async impl functionality
+- **`sink_mode`**: Defines operational mode settings and behavior configuration
+- **`engine`**: Implements engine functionality
+- **`engine_status`**: Enumeration defining possible values for engine status
+
 ### Key Functions
-- `get()`: Retrieves  value in log.cpp
-- `parameter()`: Performs parameter operation in log.cpp
-- `get_parameter()`: Retrieves _parameter value in log.cpp
-- `sink_parameter()`: Performs sink_parameter operation in log.cpp
-- `get_sink_parameter()`: Retrieves _sink_parameter value in log.cpp
-- `parse_level()`: Performs parse_level operation in log.cpp
-- `STRLEVEL()`: Performs STRLEVEL operation in log.cpp
-- `level_to_string()`: Performs level_to_string operation in log.cpp
-- `level_to_color()`: Performs level_to_color operation in log.cpp
-- `get_thread_id()`: Retrieves _thread_id value in log.cpp
+- **`sink::configure()`**: Executes configure operation
+- **`sink::handle()`**: Executes handle operation
+- **`sink_boilerplate::configure()`**: Executes configure operation
+- **`no_config::configure_impl()`**: Executes configure impl operation
+- **`console_color::far_exception()`**: Executes far exception operation
+- **`synchronized_impl::impl()`**: Executes impl operation
+
 ### Namespaces
 - `logging`
+
 ### Summary
-The `log.cpp` file provides essential functionality for core functionality. It defines 18 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `log.cpp` file is essential for core functionality. It defines 11 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `async_impl`: Performs async_impl operation in log.cpp
-- `console_color`: Performs console_color operation in log.cpp
-- `discardable`: Performs discardable operation in log.cpp
-- `engine`: Performs engine operation in log.cpp
-- `engine_status`: Performs engine_status operation in log.cpp
-- `message`: Performs message operation in log.cpp
-- `no_config`: Performs no_config operation in log.cpp
-- `sink`: Performs sink operation in log.cpp
-- `sink_boilerplate`: Performs sink_boilerplate operation in log.cpp
-- `sink_composite`: Performs sink_composite operation in log.cpp
+- **`message`**: Implements message functionality
+- **`sink`**: Implements sink functionality
+- **`sink_boilerplate`**: Implements sink boilerplate functionality
+- **`discardable`**: Implements discardable functionality
+- **`no_config`**: Stores and manages configuration parameters and settings
+- **`console_color`**: Implements console color functionality
+- **`synchronized_impl`**: Implements synchronized impl functionality
+- **`async_impl`**: Implements async impl functionality
+- **`sink_mode`**: Defines operational mode settings and behavior configuration
+- **`engine`**: Implements engine functionality
+- **`engine_status`**: Enumeration defining possible values for engine status
+
 ### Kluczowe Funkcje
-- `get()`: Retrieves  value in log.cpp
-- `parameter()`: Performs parameter operation in log.cpp
-- `get_parameter()`: Retrieves _parameter value in log.cpp
-- `sink_parameter()`: Performs sink_parameter operation in log.cpp
-- `get_sink_parameter()`: Retrieves _sink_parameter value in log.cpp
-- `parse_level()`: Performs parse_level operation in log.cpp
-- `STRLEVEL()`: Performs STRLEVEL operation in log.cpp
-- `level_to_string()`: Performs level_to_string operation in log.cpp
-- `level_to_color()`: Performs level_to_color operation in log.cpp
-- `get_thread_id()`: Retrieves _thread_id value in log.cpp
+- **`sink::configure()`**: Executes configure operation
+- **`sink::handle()`**: Executes handle operation
+- **`sink_boilerplate::configure()`**: Executes configure operation
+- **`no_config::configure_impl()`**: Executes configure impl operation
+- **`console_color::far_exception()`**: Executes far exception operation
+- **`synchronized_impl::impl()`**: Executes impl operation
+
 ### Przestrzenie nazw
 - `logging`
+
 ### Podsumowanie
-Plik `log.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 18 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `log.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 11 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,30 +1,19 @@
 # FARCmds.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in FARCmds.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in FARCmds.cpp
-- `settings()`: Sets or updates tings value in FARCmds.cpp
-- `OpenW()`: Performs OpenW operation in FARCmds.cpp
-- `GetPluginInfoW()`: Retrieves PluginInfoW value in FARCmds.cpp
-- `ConfigureW()`: Checks a condition in FARCmds.cpp and returns true or false based on the result
-- `Builder()`: Performs Builder operation in FARCmds.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `FARCmds.cpp` file provides essential functionality for core functionality. and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `FARCmds.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in FARCmds.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in FARCmds.cpp
-- `settings()`: Sets or updates tings value in FARCmds.cpp
-- `OpenW()`: Performs OpenW operation in FARCmds.cpp
-- `GetPluginInfoW()`: Retrieves PluginInfoW value in FARCmds.cpp
-- `ConfigureW()`: Checks a condition in FARCmds.cpp and returns true or false based on the result
-- `Builder()`: Performs Builder operation in FARCmds.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `FARCmds.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FARCmds.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

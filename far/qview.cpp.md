@@ -1,22 +1,19 @@
 # qview.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Quick view panel
-Main functional areas: file viewing
-### Key Functions
-- `msg()`: Performs msg operation in qview.cpp
-- `GroupDigits()`: Performs GroupDigits operation in qview.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `qview.cpp` file provides essential functionality for file viewing. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `qview.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Quick view panel
-Główne obszary funkcjonalne: przeglądanie plików
-### Kluczowe Funkcje
-- `msg()`: Performs msg operation in qview.cpp
-- `GroupDigits()`: Performs GroupDigits operation in qview.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `qview.cpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `qview.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

@@ -1,42 +1,57 @@
 # uchardet.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+www.mozilla.org/MPL/
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `HandleUniversalDetector`: Performs HandleUniversalDetector operation in uchardet.cpp
-- `_UChardetCandidate`: Performs _UChardetCandidate operation in uchardet.cpp
+- **`_UChardetCandidate`**: Implements uchardet candidate functionality
+- **`HandleUniversalDetector`**: Abstract base class defining interface for handle universal detector operations
+
 ### Key Functions
-- `Report()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `Reset()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `GetCandidates()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `GetCharset()`: Retrieves Charset value in uchardet.cpp
-- `GetConfidence()`: Retrieves Confidence value in uchardet.cpp
-- `GetLanguage()`: Retrieves Language value in uchardet.cpp
-- `WeighLanguage()`: Performs WeighLanguage operation in uchardet.cpp
-- `WeighDefault()`: Performs WeighDefault operation in uchardet.cpp
-- `WeighCandidates()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `uchardet_new()`: Iterates through elements in uchardet.cpp and adds them to a collection
+- **`HandleUniversalDetector()`**: Executes handle universal detector operation
+- **`uchardet_new()`**: Executes uchardet new operation
+- **`uchardet_delete()`**: Executes uchardet delete operation
+- **`uchardet_handle_data()`**: Executes uchardet handle data operation
+- **`uchardet_data_end()`**: Executes uchardet data end operation
+- **`uchardet_reset()`**: Executes uchardet reset operation
+- **`uchardet_get_n_candidates()`**: Executes uchardet get n candidates operation
+- **`uchardet_get_confidence()`**: Executes uchardet get confidence operation
+- **`uchardet_weigh_language()`**: Executes uchardet weigh language operation
+- **`uchardet_set_default_weight()`**: Executes uchardet set default weight operation
+- **`HandleUniversalDetector::nsUniversalDetector()`**: Executes ns universal detector operation
+
 ### Summary
-The `uchardet.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `uchardet.cpp` file is essential for core functionality. It defines 2 class(es) and implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+www.mozilla.org/MPL/
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `HandleUniversalDetector`: Performs HandleUniversalDetector operation in uchardet.cpp
-- `_UChardetCandidate`: Performs _UChardetCandidate operation in uchardet.cpp
+- **`_UChardetCandidate`**: Implements uchardet candidate functionality
+- **`HandleUniversalDetector`**: Abstract base class defining interface for handle universal detector operations
+
 ### Kluczowe Funkcje
-- `Report()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `Reset()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `GetCandidates()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `GetCharset()`: Retrieves Charset value in uchardet.cpp
-- `GetConfidence()`: Retrieves Confidence value in uchardet.cpp
-- `GetLanguage()`: Retrieves Language value in uchardet.cpp
-- `WeighLanguage()`: Performs WeighLanguage operation in uchardet.cpp
-- `WeighDefault()`: Performs WeighDefault operation in uchardet.cpp
-- `WeighCandidates()`: Iterates through elements in uchardet.cpp and adds them to a collection
-- `uchardet_new()`: Iterates through elements in uchardet.cpp and adds them to a collection
+- **`HandleUniversalDetector()`**: Executes handle universal detector operation
+- **`uchardet_new()`**: Executes uchardet new operation
+- **`uchardet_delete()`**: Executes uchardet delete operation
+- **`uchardet_handle_data()`**: Executes uchardet handle data operation
+- **`uchardet_data_end()`**: Executes uchardet data end operation
+- **`uchardet_reset()`**: Executes uchardet reset operation
+- **`uchardet_get_n_candidates()`**: Executes uchardet get n candidates operation
+- **`uchardet_get_confidence()`**: Executes uchardet get confidence operation
+- **`uchardet_weigh_language()`**: Executes uchardet weigh language operation
+- **`uchardet_set_default_weight()`**: Executes uchardet set default weight operation
+- **`HandleUniversalDetector::nsUniversalDetector()`**: Executes ns universal detector operation
+
 ### Podsumowanie
-Plik `uchardet.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `uchardet.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

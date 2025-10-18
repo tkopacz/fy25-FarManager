@@ -1,22 +1,35 @@
 # msearch.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArcFormat`: Performs ArcFormat operation in msearch.hpp
-- `SigData`: Performs SigData operation in msearch.hpp
-- `StrPos`: Performs StrPos operation in msearch.hpp
+- **`StrPos`**: Implements str pos functionality
+- **`SigData`**: Implements sig data functionality
+
+### Key Functions
+- **`msearch()`**: Executes msearch operation
+- **`SigData::signature()`**: Executes signature operation
+
 ### Summary
-The `msearch.hpp` file provides essential functionality for core functionality. It defines 3 class(es) to support the Far Manager file manager operations.
+The `msearch.hpp` file is essential for core functionality. It defines 2 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArcFormat`: Performs ArcFormat operation in msearch.hpp
-- `SigData`: Performs SigData operation in msearch.hpp
-- `StrPos`: Performs StrPos operation in msearch.hpp
+- **`StrPos`**: Implements str pos functionality
+- **`SigData`**: Implements sig data functionality
+
+### Kluczowe Funkcje
+- **`msearch()`**: Executes msearch operation
+- **`SigData::signature()`**: Executes signature operation
+
 ### Podsumowanie
-Plik `msearch.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `msearch.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

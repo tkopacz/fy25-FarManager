@@ -1,36 +1,25 @@
 # hdbase.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `DupName()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBType2Str()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBColWidth()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBCreate()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBDestroy()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBValue2Str()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBDestroyColumns()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBCreateColumns()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBFillColumns()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBCharConvert()`: Checks a condition in hdbase.cpp and returns true or false based on the result
+- **`DupName()`**: Executes dup name operation
+
 ### Summary
-The `hdbase.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `hdbase.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `DupName()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBType2Str()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBColWidth()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBCreate()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBDestroy()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBValue2Str()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBDestroyColumns()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBCreateColumns()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBFillColumns()`: Checks a condition in hdbase.cpp and returns true or false based on the result
-- `HDBCharConvert()`: Checks a condition in hdbase.cpp and returns true or false based on the result
+- **`DupName()`**: Executes dup name operation
+
 ### Podsumowanie
-Plik `hdbase.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hdbase.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

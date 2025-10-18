@@ -1,20 +1,25 @@
 # FarMenu.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Key Functions
-- `InsertItem()`: Iterates through elements in FarMenu.cpp and adds them to a collection
-- `GetCursorXY()`: Checks a condition in FarMenu.cpp and returns true or false based on the result
+- **`GetCursorXY()`**: Retrieves the current cursor xy value
+
 ### Summary
-The `FarMenu.cpp` file provides essential functionality for menu management. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `FarMenu.cpp` file is essential for menu system. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Kluczowe Funkcje
-- `InsertItem()`: Iterates through elements in FarMenu.cpp and adds them to a collection
-- `GetCursorXY()`: Checks a condition in FarMenu.cpp and returns true or false based on the result
+- **`GetCursorXY()`**: Retrieves the current cursor xy value
+
 ### Podsumowanie
-Plik `FarMenu.cpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarMenu.cpp` jest niezbędny dla systemu menu. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

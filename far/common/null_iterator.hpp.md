@@ -1,24 +1,25 @@
 # null_iterator.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `null_iterator`: Performs null_iterator operation in null_iterator.hpp
-### Key Functions
-- `end()`: Performs end operation in null_iterator.hpp
-- `Iter()`: Performs Iter operation in null_iterator.hpp
+- **`null_iterator`**: Implements null iterator functionality
+
 ### Summary
-The `null_iterator.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `null_iterator.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `null_iterator`: Performs null_iterator operation in null_iterator.hpp
-### Kluczowe Funkcje
-- `end()`: Performs end operation in null_iterator.hpp
-- `Iter()`: Performs Iter operation in null_iterator.hpp
+- **`null_iterator`**: Implements null iterator functionality
+
 ### Podsumowanie
-Plik `null_iterator.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `null_iterator.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

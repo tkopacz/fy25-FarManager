@@ -1,24 +1,25 @@
 # algorithm.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `for_submatrix()`: Performs for_submatrix operation in algorithm.hpp
-- `Predicate()`: Performs Predicate operation in algorithm.hpp
-- `column_major_iota()`: Performs column_major_iota operation in algorithm.hpp
+- **`for_submatrix()`**: Executes for submatrix operation
+
 ### Summary
-The `algorithm.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `algorithm.hpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `for_submatrix()`: Performs for_submatrix operation in algorithm.hpp
-- `Predicate()`: Performs Predicate operation in algorithm.hpp
-- `column_major_iota()`: Performs column_major_iota operation in algorithm.hpp
+- **`for_submatrix()`**: Executes for submatrix operation
+
 ### Podsumowanie
-Plik `algorithm.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `algorithm.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

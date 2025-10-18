@@ -1,26 +1,33 @@
 # strmix.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `AddEndSlash()`: Performs AddEndSlash operation in strmix.hpp
-- `CutToSlash()`: Performs CutToSlash operation in strmix.hpp
-- `CutTo()`: Performs CutTo operation in strmix.hpp
-- `ConvertSlashes()`: Performs ConvertSlashes operation in strmix.hpp
-- `Quote()`: Performs Quote operation in strmix.hpp
+- **`AddEndSlash()`**: Executes add end slash operation
+- **`CutToSlash()`**: Executes cut to slash operation
+- **`CutTo()`**: Executes cut to operation
+- **`ConvertSlashes()`**: Executes convert slashes operation
+- **`Quote()`**: Executes quote operation
+
 ### Summary
-The `strmix.hpp` file provides essential functionality for string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `strmix.hpp` file is essential for core functionality. It implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `AddEndSlash()`: Performs AddEndSlash operation in strmix.hpp
-- `CutToSlash()`: Performs CutToSlash operation in strmix.hpp
-- `CutTo()`: Performs CutTo operation in strmix.hpp
-- `ConvertSlashes()`: Performs ConvertSlashes operation in strmix.hpp
-- `Quote()`: Performs Quote operation in strmix.hpp
+- **`AddEndSlash()`**: Executes add end slash operation
+- **`CutToSlash()`**: Executes cut to slash operation
+- **`CutTo()`**: Executes cut to operation
+- **`ConvertSlashes()`**: Executes convert slashes operation
+- **`Quote()`**: Executes quote operation
+
 ### Podsumowanie
-Plik `strmix.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `strmix.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

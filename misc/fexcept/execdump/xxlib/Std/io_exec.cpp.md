@@ -1,24 +1,19 @@
 # io_exec.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `SC_System()`: Checks a condition in io_exec.cpp and returns true or false based on the result
-- `SafeExecuteString()`: Checks a condition in io_exec.cpp and returns true or false based on the result
-- `ExecuteString()`: Checks a condition in io_exec.cpp and returns true or false based on the result
-- `strcpy()`: Performs strcpy operation in io_exec.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `io_exec.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `io_exec.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `SC_System()`: Checks a condition in io_exec.cpp and returns true or false based on the result
-- `SafeExecuteString()`: Checks a condition in io_exec.cpp and returns true or false based on the result
-- `ExecuteString()`: Checks a condition in io_exec.cpp and returns true or false based on the result
-- `strcpy()`: Performs strcpy operation in io_exec.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `io_exec.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `io_exec.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

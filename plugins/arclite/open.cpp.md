@@ -1,42 +1,47 @@
 # open.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArchiveOpenStream`: Performs ArchiveOpenStream operation in open.cpp
-- `ArchiveOpener`: Performs ArchiveOpener operation in open.cpp
-- `ArchiveSubStream`: Performs ArchiveSubStream operation in open.cpp
+- **`ArchiveSubStream`**: Implements archive sub stream functionality
+- **`ArchiveOpenStream`**: Implements archive open stream functionality
+- **`ArchiveOpener`**: Implements archive opener functionality
+
 ### Key Functions
-- `check_device_file()`: Performs check_device_file operation in open.cpp
-- `CacheHeader()`: Performs CacheHeader operation in open.cpp
-- `get_info()`: Retrieves _info value in open.cpp
-- `do_update_ui()`: Performs do_update_ui operation in open.cpp
-- `FAIL()`: Performs FAIL operation in open.cpp
-- `ps()`: Iterates through elements in open.cpp and adds them to a collection
-- `prioritize()`: Iterates through elements in open.cpp and adds them to a collection
-- `accepted_signature()`: ??? filter multi-volume .zip archives to avoid wrong opening.
-- `ArchiveOpenStream()`: Performs ArchiveOpenStream operation in open.cpp
+- **`ArchiveOpenStream()`**: Executes archive open stream operation
+- **`ArchiveOpener()`**: Executes archive opener operation
+- **`prioritize()`**: Executes prioritize operation
+- **`accepted_signature()`**: Executes accepted signature operation
+- **`ArchiveSubStream::base_stream()`**: Executes base stream operation
+- **`ArchiveOpenStream::check_device_file()`**: Executes check device file operation
+- **`ArchiveOpener::do_update_ui()`**: Executes do update ui operation
+
 ### Summary
-The `open.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `open.cpp` file is essential for core functionality. It defines 3 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArchiveOpenStream`: Performs ArchiveOpenStream operation in open.cpp
-- `ArchiveOpener`: Performs ArchiveOpener operation in open.cpp
-- `ArchiveSubStream`: Performs ArchiveSubStream operation in open.cpp
+- **`ArchiveSubStream`**: Implements archive sub stream functionality
+- **`ArchiveOpenStream`**: Implements archive open stream functionality
+- **`ArchiveOpener`**: Implements archive opener functionality
+
 ### Kluczowe Funkcje
-- `check_device_file()`: Performs check_device_file operation in open.cpp
-- `CacheHeader()`: Performs CacheHeader operation in open.cpp
-- `get_info()`: Retrieves _info value in open.cpp
-- `do_update_ui()`: Performs do_update_ui operation in open.cpp
-- `FAIL()`: Performs FAIL operation in open.cpp
-- `ps()`: Iterates through elements in open.cpp and adds them to a collection
-- `prioritize()`: Iterates through elements in open.cpp and adds them to a collection
-- `accepted_signature()`: ??? filter multi-volume .zip archives to avoid wrong opening.
-- `ArchiveOpenStream()`: Performs ArchiveOpenStream operation in open.cpp
+- **`ArchiveOpenStream()`**: Executes archive open stream operation
+- **`ArchiveOpener()`**: Executes archive opener operation
+- **`prioritize()`**: Executes prioritize operation
+- **`accepted_signature()`**: Executes accepted signature operation
+- **`ArchiveSubStream::base_stream()`**: Executes base stream operation
+- **`ArchiveOpenStream::check_device_file()`**: Executes check device file operation
+- **`ArchiveOpener::do_update_ui()`**: Executes do update ui operation
+
 ### Podsumowanie
-Plik `open.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `open.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

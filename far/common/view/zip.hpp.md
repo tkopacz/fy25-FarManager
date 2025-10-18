@@ -1,48 +1,45 @@
 # zip.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `traits`: Performs traits operation in zip.hpp
-- `zip_iterator`: Performs zip_iterator operation in zip.hpp
-- `zip_sentinel`: Performs zip_sentinel operation in zip.hpp
+- **`traits`**: Implements traits functionality
+- **`zip_sentinel`**: Implements zip sentinel functionality
+- **`zip_iterator`**: Implements zip iterator functionality
+
 ### Key Functions
-- `dereference_impl()`: Performs dereference_impl operation in zip.hpp
-- `dereference()`: Performs dereference operation in zip.hpp
-- `binary_any_of_impl()`: Performs binary_any_of_impl operation in zip.hpp
-- `binary_any_of()`: Performs binary_any_of operation in zip.hpp
-- `binary_all_of_impl()`: Performs binary_all_of_impl operation in zip.hpp
-- `binary_all_of()`: Performs binary_all_of operation in zip.hpp
-- `tuple_difference()`: Performs tuple_difference operation in zip.hpp
-- `begin()`: Performs begin operation in zip.hpp
-- `end()`: Performs end operation in zip.hpp
-- `cbegin()`: Performs cbegin operation in zip.hpp
+- **`zip()`**: Executes zip operation
+- **`traits::dereference_impl()`**: Executes dereference impl operation
+- **`zip_iterator::zip_sentinel()`**: Executes zip sentinel operation
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `zip.hpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `zip.hpp` file is essential for core functionality. It defines 3 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `traits`: Performs traits operation in zip.hpp
-- `zip_iterator`: Performs zip_iterator operation in zip.hpp
-- `zip_sentinel`: Performs zip_sentinel operation in zip.hpp
+- **`traits`**: Implements traits functionality
+- **`zip_sentinel`**: Implements zip sentinel functionality
+- **`zip_iterator`**: Implements zip iterator functionality
+
 ### Kluczowe Funkcje
-- `dereference_impl()`: Performs dereference_impl operation in zip.hpp
-- `dereference()`: Performs dereference operation in zip.hpp
-- `binary_any_of_impl()`: Performs binary_any_of_impl operation in zip.hpp
-- `binary_any_of()`: Performs binary_any_of operation in zip.hpp
-- `binary_all_of_impl()`: Performs binary_all_of_impl operation in zip.hpp
-- `binary_all_of()`: Performs binary_all_of operation in zip.hpp
-- `tuple_difference()`: Performs tuple_difference operation in zip.hpp
-- `begin()`: Performs begin operation in zip.hpp
-- `end()`: Performs end operation in zip.hpp
-- `cbegin()`: Performs cbegin operation in zip.hpp
+- **`zip()`**: Executes zip operation
+- **`traits::dereference_impl()`**: Executes dereference impl operation
+- **`zip_iterator::zip_sentinel()`**: Executes zip sentinel operation
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `zip.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `zip.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

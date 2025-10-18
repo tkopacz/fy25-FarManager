@@ -1,28 +1,25 @@
 # filepanels.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Файловые панели
-Main functional areas: panel management, file system operations
+This file implements functionality for panel display and management.
+
 ### Key Functions
-- `PrepareOptFolder()`: Performs PrepareOptFolder operation in filepanels.cpp
-- `SwapPanels()`: Checks a condition in filepanels.cpp and returns true or false based on the result
-- `RightPanel()`: ConvertNameToFull(strSrc,strSrc);
-- `LeftPanel()`: ConvertNameToFull(strSrc,strSrc);
-- `NameDir()`: Performs NameDir operation in filepanels.cpp
+- **`PrepareOptFolder()`**: Executes prepare opt folder operation
+
 ### Summary
-The `filepanels.cpp` file provides essential functionality for panel management, file system operations. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `filepanels.cpp` file is essential for panel display and management. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Файловые панели
-Główne obszary funkcjonalne: zarządzanie panelami, operacje systemu plików
+Ten plik implementuje funkcjonalność dla wyświetlania i zarządzania panelami.
+
 ### Kluczowe Funkcje
-- `PrepareOptFolder()`: Performs PrepareOptFolder operation in filepanels.cpp
-- `SwapPanels()`: Checks a condition in filepanels.cpp and returns true or false based on the result
-- `RightPanel()`: ConvertNameToFull(strSrc,strSrc);
-- `LeftPanel()`: ConvertNameToFull(strSrc,strSrc);
-- `NameDir()`: Performs NameDir operation in filepanels.cpp
+- **`PrepareOptFolder()`**: Executes prepare opt folder operation
+
 ### Podsumowanie
-Plik `filepanels.cpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami, operacje systemu plików. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `filepanels.cpp` jest niezbędny dla wyświetlania i zarządzania panelami. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,28 +1,31 @@
 # unix.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: 1         2         3         4         5         6         7
-Main functional areas: core functionality
+The minimal date-time string is "F  2000"
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `net_convert_unix_date()`: Checks a condition in unix.cpp and returns true or false based on the result
-- `SystemTimeToFileTime()`: Performs SystemTimeToFileTime operation in unix.cpp
-- `net_parse_ls_line()`: Performs net_parse_ls_line operation in unix.cpp
-- `idPRParceUnix()`: Performs idPRParceUnix operation in unix.cpp
-- `ConvertEntry()`: Performs ConvertEntry operation in unix.cpp
+- **`net_convert_unix_date()`**: Executes net convert unix date operation
+- **`net_parse_ls_line()`**: Executes net parse ls line operation
+
 ### Summary
-The `unix.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `unix.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: 1         2         3         4         5         6         7
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+The minimal date-time string is "F  2000"
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `net_convert_unix_date()`: Checks a condition in unix.cpp and returns true or false based on the result
-- `SystemTimeToFileTime()`: Performs SystemTimeToFileTime operation in unix.cpp
-- `net_parse_ls_line()`: Performs net_parse_ls_line operation in unix.cpp
-- `idPRParceUnix()`: Performs idPRParceUnix operation in unix.cpp
-- `ConvertEntry()`: Performs ConvertEntry operation in unix.cpp
+- **`net_convert_unix_date()`**: Executes net convert unix date operation
+- **`net_parse_ls_line()`**: Executes net parse ls line operation
+
 ### Podsumowanie
-Plik `unix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `unix.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

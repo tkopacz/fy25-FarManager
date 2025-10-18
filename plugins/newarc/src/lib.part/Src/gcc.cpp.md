@@ -1,32 +1,39 @@
 # gcc.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `_pei386_runtime_relocator()`: Performs _pei386_runtime_relocator operation in gcc.cpp
-- `__dllonexit()`: This is based on the function in the Wine project's exit.c
-- `DllMainCRTStartup()`: Make sure output buffers opened by DllMain or
-- `atexit()`: Performs atexit operation in gcc.cpp
-- `__do_global_dtors()`: Performs __do_global_dtors operation in gcc.cpp
-- `__do_global_ctors()`: Performs __do_global_ctors operation in gcc.cpp
-- `__main()`: Main entry point in gcc.cpp that starts program execution
-- `do_pseudo_reloc()`: Performs do_pseudo_reloc operation in gcc.cpp
+- **`void()`**: Executes void operation
+- **`_pei386_runtime_relocator()`**: Executes pei386 runtime relocator operation
+- **`atexit()`**: Executes atexit operation
+- **`__do_global_dtors()`**: Executes do global dtors operation
+- **`__do_global_ctors()`**: Executes do global ctors operation
+- **`__main()`**: Executes main operation
+- **`__dll_exit()`**: Executes dll exit operation
+- **`do_pseudo_reloc()`**: Executes do pseudo reloc operation
+
 ### Summary
-The `gcc.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
+The `gcc.cpp` file is essential for core functionality. It implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `_pei386_runtime_relocator()`: Performs _pei386_runtime_relocator operation in gcc.cpp
-- `__dllonexit()`: This is based on the function in the Wine project's exit.c
-- `DllMainCRTStartup()`: Make sure output buffers opened by DllMain or
-- `atexit()`: Performs atexit operation in gcc.cpp
-- `__do_global_dtors()`: Performs __do_global_dtors operation in gcc.cpp
-- `__do_global_ctors()`: Performs __do_global_ctors operation in gcc.cpp
-- `__main()`: Main entry point in gcc.cpp that starts program execution
-- `do_pseudo_reloc()`: Performs do_pseudo_reloc operation in gcc.cpp
+- **`void()`**: Executes void operation
+- **`_pei386_runtime_relocator()`**: Executes pei386 runtime relocator operation
+- **`atexit()`**: Executes atexit operation
+- **`__do_global_dtors()`**: Executes do global dtors operation
+- **`__do_global_ctors()`**: Executes do global ctors operation
+- **`__main()`**: Executes main operation
+- **`__dll_exit()`**: Executes dll exit operation
+- **`do_pseudo_reloc()`**: Executes do pseudo reloc operation
+
 ### Podsumowanie
-Plik `gcc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `gcc.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

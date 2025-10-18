@@ -1,50 +1,81 @@
 # strmix.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Куча разных вспомогательных функций по работе со строками
-Main functional areas: string utilities
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `size`: Don't care - can't be negative
-- `tests`: Performs tests operation in strmix.cpp
-- `units`: Performs units operation in strmix.cpp
+- **`units`**: Implements units functionality
+- **`tests`**: Implements tests functionality
+- **`tests`**: Implements tests functionality
+- **`size`**: Implements size functionality
+
 ### Key Functions
-- `GroupDigitsImpl()`: Performs GroupDigitsImpl operation in strmix.cpp
-- `GroupDigits()`: Don't care - can't be negative
-- `GroupDigitsInvariant()`: Performs GroupDigitsInvariant operation in strmix.cpp
-- `legacy_InsertQuotes()`: Iterates through elements in strmix.cpp and adds them to a collection
-- `InsertRegexpQuote()`: Iterates through elements in strmix.cpp and adds them to a collection
-- `truncate_right()`: Performs truncate_right operation in strmix.cpp
-- `legacy_operation()`: Performs legacy_operation operation in strmix.cpp
-- `truncate_left()`: Performs truncate_left operation in strmix.cpp
-- `truncate_center()`: Performs truncate_center operation in strmix.cpp
-- `StartOffset()`: Performs StartOffset operation in strmix.cpp
+- **`GroupDigitsImpl()`**: Executes group digits impl operation
+- **`GroupDigits()`**: Executes group digits operation
+- **`GroupDigitsInvariant()`**: Executes group digits invariant operation
+- **`legacy_InsertQuotes()`**: Executes legacy insert quotes operation
+- **`InsertRegexpQuote()`**: Executes insert regexp quote operation
+- **`legacy_operation()`**: Executes legacy operation operation
+- **`truncate_right()`**: Executes truncate right operation
+- **`truncate_left()`**: Executes truncate left operation
+- **`truncate_center()`**: Executes truncate center operation
+- **`StartOffset()`**: Executes start offset operation
+- **`truncate_path()`**: Executes truncate path operation
+- **`IsCaseMixed()`**: Checks whether case mixed condition is true
+- **`decltype()`**: Executes decltype operation
+- **`PrepareUnitStr()`**: Executes prepare unit str operation
+- **`FileSizeToStrImpl()`**: Executes file size to str impl operation
+- **`FileSizeToStr()`**: Executes file size to str operation
+- **`FileSizeToStrInvariant()`**: Executes file size to str invariant operation
+- **`ReplaceStrings()`**: Executes replace strings operation
+- **`remove_duplicates()`**: Executes remove duplicates operation
+- **`FindWordInString()`**: Executes find word in string operation
+
 ### Namespaces
 - `id`
+
 ### Summary
-The `strmix.cpp` file provides essential functionality for string utilities. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `strmix.cpp` file is essential for core functionality. It defines 4 class(es) and implements 35 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Куча разных вспомогательных функций по работе со строками
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `size`: Don't care - can't be negative
-- `tests`: Performs tests operation in strmix.cpp
-- `units`: Performs units operation in strmix.cpp
+- **`units`**: Implements units functionality
+- **`tests`**: Implements tests functionality
+- **`tests`**: Implements tests functionality
+- **`size`**: Implements size functionality
+
 ### Kluczowe Funkcje
-- `GroupDigitsImpl()`: Performs GroupDigitsImpl operation in strmix.cpp
-- `GroupDigits()`: Don't care - can't be negative
-- `GroupDigitsInvariant()`: Performs GroupDigitsInvariant operation in strmix.cpp
-- `legacy_InsertQuotes()`: Iterates through elements in strmix.cpp and adds them to a collection
-- `InsertRegexpQuote()`: Iterates through elements in strmix.cpp and adds them to a collection
-- `truncate_right()`: Performs truncate_right operation in strmix.cpp
-- `legacy_operation()`: Performs legacy_operation operation in strmix.cpp
-- `truncate_left()`: Performs truncate_left operation in strmix.cpp
-- `truncate_center()`: Performs truncate_center operation in strmix.cpp
-- `StartOffset()`: Performs StartOffset operation in strmix.cpp
+- **`GroupDigitsImpl()`**: Executes group digits impl operation
+- **`GroupDigits()`**: Executes group digits operation
+- **`GroupDigitsInvariant()`**: Executes group digits invariant operation
+- **`legacy_InsertQuotes()`**: Executes legacy insert quotes operation
+- **`InsertRegexpQuote()`**: Executes insert regexp quote operation
+- **`legacy_operation()`**: Executes legacy operation operation
+- **`truncate_right()`**: Executes truncate right operation
+- **`truncate_left()`**: Executes truncate left operation
+- **`truncate_center()`**: Executes truncate center operation
+- **`StartOffset()`**: Executes start offset operation
+- **`truncate_path()`**: Executes truncate path operation
+- **`IsCaseMixed()`**: Checks whether case mixed condition is true
+- **`decltype()`**: Executes decltype operation
+- **`PrepareUnitStr()`**: Executes prepare unit str operation
+- **`FileSizeToStrImpl()`**: Executes file size to str impl operation
+- **`FileSizeToStr()`**: Executes file size to str operation
+- **`FileSizeToStrInvariant()`**: Executes file size to str invariant operation
+- **`ReplaceStrings()`**: Executes replace strings operation
+- **`remove_duplicates()`**: Executes remove duplicates operation
+- **`FindWordInString()`**: Executes find word in string operation
+
 ### Przestrzenie nazw
 - `id`
+
 ### Podsumowanie
-Plik `strmix.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `strmix.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 35 funkcji wspierających operacje menedżera plików Far Manager.

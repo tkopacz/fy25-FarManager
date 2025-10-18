@@ -1,58 +1,83 @@
 # update.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArchiveUpdateProgress`: Performs ArchiveUpdateProgress operation in update.cpp
-- `ArchiveUpdater`: Performs ArchiveUpdater operation in update.cpp
-- `DeleteSrcFiles`: Validates a condition in update.cpp and throws an exception if the validation fails
-- `FileIndexInfo`: Performs FileIndexInfo operation in update.cpp
-- `FileReadStream`: Performs FileReadStream operation in update.cpp
-- `MultiVolumeUpdateStream`: Iterates through elements in update.cpp and adds them to a collection
-- `PrepareUpdate`: Performs PrepareUpdate operation in update.cpp
-- `SfxUpdateStream`: Validates a condition in update.cpp and throws an exception if the validation fails
-- `SimpleUpdateStream`: Performs SimpleUpdateStream operation in update.cpp
-- `UpdateStream`: Updates existing data or state in update.cpp
+- **`ArchiveUpdateProgress`**: Implements archive update progress functionality
+- **`UpdateStream`**: Abstract base class defining interface for update stream operations
+- **`SimpleUpdateStream`**: Abstract base class defining interface for simple update stream operations
+- **`SfxUpdateStream`**: Implements sfx update stream functionality
+- **`MultiVolumeUpdateStream`**: Implements multi volume update stream functionality
+- **`FileReadStream`**: Implements file read stream functionality
+- **`FileIndexInfo`**: Implements file index info functionality
+- **`PrepareUpdate`**: Implements prepare update functionality
+- **`ArchiveUpdater`**: Implements archive updater functionality
+- **`DeleteSrcFiles`**: Implements delete src files functionality
+
 ### Key Functions
-- `format_time()`: Performs format_time operation in update.cpp
-- `do_update_ui()`: Performs do_update_ui operation in update.cpp
-- `on_open_file()`: Performs on_open_file operation in update.cpp
-- `on_read_file()`: Performs on_read_file operation in update.cpp
-- `on_write_archive()`: Performs on_write_archive operation in update.cpp
-- `on_total_update()`: Performs on_total_update operation in update.cpp
-- `on_completed_update()`: Performs on_completed_update operation in update.cpp
-- `translate_seek_method()`: Performs translate_seek_method operation in update.cpp
-- `open()`: Performs open operation in update.cpp
-- `set_pos()`: Sets or updates _pos value in update.cpp
+- **`format_time()`**: Executes format time operation
+- **`translate_seek_method()`**: Executes translate seek method operation
+- **`SfxUpdateStream()`**: Executes sfx update stream operation
+- **`MultiVolumeUpdateStream()`**: Executes multi volume update stream operation
+- **`FileReadStream()`**: Executes file read stream operation
+- **`PrepareUpdate()`**: Executes prepare update operation
+- **`ArchiveUpdater()`**: Executes archive updater operation
+- **`DeleteSrcFiles()`**: Executes delete src files operation
+- **`ArchiveUpdateProgress::do_update_ui()`**: Executes do update ui operation
+- **`UpdateStream::progress()`**: Executes progress operation
+- **`SimpleUpdateStream::UpdateStream()`**: Executes update stream operation
+- **`SimpleUpdateStream::open()`**: Opens and initializes the resource for subsequent operations
+- **`SfxUpdateStream::UpdateStream()`**: Executes update stream operation
+- **`MultiVolumeUpdateStream::get_volume_path()`**: Retrieves the current volume path value
+- **`FileReadStream::progress()`**: Executes progress operation
+- **`PrepareUpdate::do_update_ui()`**: Executes do update ui operation
+- **`ArchiveUpdater::src_dir()`**: Executes src dir operation
+- **`DeleteSrcFiles::do_update_ui()`**: Executes do update ui operation
+
 ### Summary
-The `update.cpp` file provides essential functionality for core functionality. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `update.cpp` file is essential for core functionality. It defines 10 class(es) and implements 18 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArchiveUpdateProgress`: Performs ArchiveUpdateProgress operation in update.cpp
-- `ArchiveUpdater`: Performs ArchiveUpdater operation in update.cpp
-- `DeleteSrcFiles`: Validates a condition in update.cpp and throws an exception if the validation fails
-- `FileIndexInfo`: Performs FileIndexInfo operation in update.cpp
-- `FileReadStream`: Performs FileReadStream operation in update.cpp
-- `MultiVolumeUpdateStream`: Iterates through elements in update.cpp and adds them to a collection
-- `PrepareUpdate`: Performs PrepareUpdate operation in update.cpp
-- `SfxUpdateStream`: Validates a condition in update.cpp and throws an exception if the validation fails
-- `SimpleUpdateStream`: Performs SimpleUpdateStream operation in update.cpp
-- `UpdateStream`: Updates existing data or state in update.cpp
+- **`ArchiveUpdateProgress`**: Implements archive update progress functionality
+- **`UpdateStream`**: Abstract base class defining interface for update stream operations
+- **`SimpleUpdateStream`**: Abstract base class defining interface for simple update stream operations
+- **`SfxUpdateStream`**: Implements sfx update stream functionality
+- **`MultiVolumeUpdateStream`**: Implements multi volume update stream functionality
+- **`FileReadStream`**: Implements file read stream functionality
+- **`FileIndexInfo`**: Implements file index info functionality
+- **`PrepareUpdate`**: Implements prepare update functionality
+- **`ArchiveUpdater`**: Implements archive updater functionality
+- **`DeleteSrcFiles`**: Implements delete src files functionality
+
 ### Kluczowe Funkcje
-- `format_time()`: Performs format_time operation in update.cpp
-- `do_update_ui()`: Performs do_update_ui operation in update.cpp
-- `on_open_file()`: Performs on_open_file operation in update.cpp
-- `on_read_file()`: Performs on_read_file operation in update.cpp
-- `on_write_archive()`: Performs on_write_archive operation in update.cpp
-- `on_total_update()`: Performs on_total_update operation in update.cpp
-- `on_completed_update()`: Performs on_completed_update operation in update.cpp
-- `translate_seek_method()`: Performs translate_seek_method operation in update.cpp
-- `open()`: Performs open operation in update.cpp
-- `set_pos()`: Sets or updates _pos value in update.cpp
+- **`format_time()`**: Executes format time operation
+- **`translate_seek_method()`**: Executes translate seek method operation
+- **`SfxUpdateStream()`**: Executes sfx update stream operation
+- **`MultiVolumeUpdateStream()`**: Executes multi volume update stream operation
+- **`FileReadStream()`**: Executes file read stream operation
+- **`PrepareUpdate()`**: Executes prepare update operation
+- **`ArchiveUpdater()`**: Executes archive updater operation
+- **`DeleteSrcFiles()`**: Executes delete src files operation
+- **`ArchiveUpdateProgress::do_update_ui()`**: Executes do update ui operation
+- **`UpdateStream::progress()`**: Executes progress operation
+- **`SimpleUpdateStream::UpdateStream()`**: Executes update stream operation
+- **`SimpleUpdateStream::open()`**: Opens and initializes the resource for subsequent operations
+- **`SfxUpdateStream::UpdateStream()`**: Executes update stream operation
+- **`MultiVolumeUpdateStream::get_volume_path()`**: Retrieves the current volume path value
+- **`FileReadStream::progress()`**: Executes progress operation
+- **`PrepareUpdate::do_update_ui()`**: Executes do update ui operation
+- **`ArchiveUpdater::src_dir()`**: Executes src dir operation
+- **`DeleteSrcFiles::do_update_ui()`**: Executes do update ui operation
+
 ### Podsumowanie
-Plik `update.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `update.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 10 klas(y) i implementuje 18 funkcji wspierających operacje menedżera plików Far Manager.

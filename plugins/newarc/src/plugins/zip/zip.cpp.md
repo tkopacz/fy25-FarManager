@@ -1,36 +1,45 @@
 # zip.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `OnInitialize()`: Performs OnInitialize operation in zip.cpp
-- `ZipModule()`: Performs ZipModule operation in zip.cpp
-- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in zip.cpp
-- `OnFinalize()`: Performs OnFinalize operation in zip.cpp
-- `OnQueryArchive()`: Performs OnQueryArchive operation in zip.cpp
-- `ZipArchive()`: Performs ZipArchive operation in zip.cpp
-- `OnOpenArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
-- `OnCloseArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
-- `OnFinalizeArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
-- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in zip.cpp
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnGetArchivePluginInfo()`**: Event callback triggered when get archive plugin info occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnFinalizeArchive()`**: Event callback triggered when finalize archive occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnGetArchiveFormat()`**: Event callback triggered when get archive format occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnGetDefaultCommand()`**: Event callback triggered when get default command occurs
+
 ### Summary
-The `zip.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `zip.cpp` file is essential for core functionality. It implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `OnInitialize()`: Performs OnInitialize operation in zip.cpp
-- `ZipModule()`: Performs ZipModule operation in zip.cpp
-- `OnGetArchivePluginInfo()`: Performs OnGetArchivePluginInfo operation in zip.cpp
-- `OnFinalize()`: Performs OnFinalize operation in zip.cpp
-- `OnQueryArchive()`: Performs OnQueryArchive operation in zip.cpp
-- `ZipArchive()`: Performs ZipArchive operation in zip.cpp
-- `OnOpenArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
-- `OnCloseArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
-- `OnFinalizeArchive()`: а вот это неверно. должен быть все равно SUCCESS, но INVALID_HANDLE_VALUE
-- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in zip.cpp
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnGetArchivePluginInfo()`**: Event callback triggered when get archive plugin info occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnFinalizeArchive()`**: Event callback triggered when finalize archive occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnGetArchiveFormat()`**: Event callback triggered when get archive format occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnGetDefaultCommand()`**: Event callback triggered when get default command occurs
+
 ### Podsumowanie
-Plik `zip.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `zip.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

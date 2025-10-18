@@ -1,16 +1,19 @@
 # menubar.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Показ горизонтального меню при включенном "Always show menu bar"
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Summary
-The `menubar.cpp` file provides essential functionality for menu management. to support the Far Manager file manager operations.
+The `menubar.cpp` file is essential for menu system. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Показ горизонтального меню при включенном "Always show menu bar"
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Podsumowanie
-Plik `menubar.cpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. wspierających operacje menedżera plików Far Manager.
+Plik `menubar.cpp` jest niezbędny dla systemu menu. wspierających operacje menedżera plików Far Manager.

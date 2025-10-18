@@ -1,36 +1,39 @@
 # test.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: testing
+HEX DLL STUFF
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `idOutProc()`: Callback called from HEX procedures to output printed data
-- `idException()`: Callback called from HEX procedures to output printed data
-- `fclose()`: Performs fclose operation in test.cpp
-- `exception_occured()`: Performs exception_occured operation in test.cpp
-- `gccHandler()`: Performs gccHandler operation in test.cpp
-- `Test()`: Performs Test operation in test.cpp
-- `Proc2()`: Clears return address, traps after RET
-- `Proc1()`: Clears return address, traps after RET
-- `Proc()`: Callback called from HEX procedures to output printed data
-- `main()`: Clears return address, traps after RET
+- **`exception_occured()`**: Executes exception occured operation
+- **`gccHandler()`**: Executes gcc handler operation
+- **`Proc2()`**: Executes proc2 operation
+- **`Proc1()`**: Executes proc1 operation
+- **`Proc()`**: Executes proc operation
+- **`main()`**: Executes main operation
+
 ### Summary
-The `test.cpp` file provides essential functionality for testing. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `test.cpp` file is essential for core functionality. It implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: testowanie
+HEX DLL STUFF
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `idOutProc()`: Callback called from HEX procedures to output printed data
-- `idException()`: Callback called from HEX procedures to output printed data
-- `fclose()`: Performs fclose operation in test.cpp
-- `exception_occured()`: Performs exception_occured operation in test.cpp
-- `gccHandler()`: Performs gccHandler operation in test.cpp
-- `Test()`: Performs Test operation in test.cpp
-- `Proc2()`: Clears return address, traps after RET
-- `Proc1()`: Clears return address, traps after RET
-- `Proc()`: Callback called from HEX procedures to output printed data
-- `main()`: Clears return address, traps after RET
+- **`exception_occured()`**: Executes exception occured operation
+- **`gccHandler()`**: Executes gcc handler operation
+- **`Proc2()`**: Executes proc2 operation
+- **`Proc1()`**: Executes proc1 operation
+- **`Proc()`**: Executes proc operation
+- **`main()`**: Executes main operation
+
 ### Podsumowanie
-Plik `test.cpp` zapewnia podstawową funkcjonalność dla testowanie. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `test.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

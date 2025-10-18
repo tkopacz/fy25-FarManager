@@ -1,64 +1,81 @@
 # exception_handler.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for exception handling and error management.
+
 ### Key Classes
-- `Plugin`: Performs Plugin operation in exception_handler.hpp
-- `invalid_parameter_handler`: Performs invalid_parameter_handler operation in exception_handler.hpp
-- `no_handler`: Performs no_handler operation in exception_handler.hpp
-- `save_exception_and_return`: Performs save_exception_and_return operation in exception_handler.hpp
-- `save_exception_to`: Performs save_exception_to operation in exception_handler.hpp
-- `seh_exception`: Performs seh_exception operation in exception_handler.hpp
-- `seh_exception_impl`: Performs seh_exception_impl operation in exception_handler.hpp
-- `signal_handler`: Performs signal_handler operation in exception_handler.hpp
-- `unhandled_exception_filter`: These handlers can terminate the process or rethrow the exception
-- `vectored_exception_handler`: Performs vectored_exception_handler operation in exception_handler.hpp
+- **`unhandled_exception_filter`**: Error information container for unhandled exception filter failures
+- **`signal_handler`**: Processes and handles signal events and requests
+- **`invalid_parameter_handler`**: Processes and handles invalid parameter events and requests
+- **`vectored_exception_handler`**: Container class managing collection of vectored exception handler
+- **`seh_exception`**: Exception class representing seh exception error conditions
+- **`no_handler`**: Processes and handles no events and requests
+- **`save_exception_to`**: Error information container for save exception to failures
+
 ### Key Functions
-- `report_to_stderr()`: Performs report_to_stderr operation in exception_handler.hpp
-- `set_report_location()`: Sets or updates _report_location value in exception_handler.hpp
-- `disable_exception_handling()`: Performs disable_exception_handling operation in exception_handler.hpp
-- `exception_handling_in_progress()`: Performs exception_handling_in_progress operation in exception_handler.hpp
-- `force_stderr_exception_ui()`: Performs force_stderr_exception_ui operation in exception_handler.hpp
-- `restore_system_exception_handler()`: Performs restore_system_exception_handler operation in exception_handler.hpp
-- `set()`: Sets or updates  value in exception_handler.hpp
-- `raise()`: Performs raise operation in exception_handler.hpp
-- `dismiss()`: Performs dismiss operation in exception_handler.hpp
-- `get()`: Retrieves  value in exception_handler.hpp
+- **`report_to_stderr()`**: Executes report to stderr operation
+- **`set_report_location()`**: Updates the report location with a new value
+- **`disable_exception_handling()`**: Executes disable exception handling operation
+- **`exception_handling_in_progress()`**: Executes exception handling in progress operation
+- **`force_stderr_exception_ui()`**: Executes force stderr exception ui operation
+- **`restore_system_exception_handler()`**: Executes restore system exception handler operation
+- **`cpp_try()`**: Executes cpp try operation
+- **`wrap_current_exception()`**: Executes wrap current exception operation
+- **`rethrow_if()`**: Executes rethrow if operation
+- **`seh_try()`**: Executes seh try operation
+- **`seh_try_with_ui()`**: Executes seh try with ui operation
+- **`seh_try_no_ui()`**: Executes seh try no ui operation
+- **`seh_try_thread()`**: Executes seh try thread operation
+- **`seh_exception::set()`**: Updates the  with a new value
+- **`seh_exception::raise()`**: Executes raise operation
+- **`seh_exception::dismiss()`**: Executes dismiss operation
+- **`seh_exception::get()`**: Retrieves the current  value
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `exception_handler.hpp` file provides essential functionality for core functionality. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `exception_handler.hpp` file is essential for exception handling and error management. It defines 7 class(es) and implements 17 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla obsługi wyjątków i zarządzania błędami.
+
 ### Kluczowe Klasy
-- `Plugin`: Performs Plugin operation in exception_handler.hpp
-- `invalid_parameter_handler`: Performs invalid_parameter_handler operation in exception_handler.hpp
-- `no_handler`: Performs no_handler operation in exception_handler.hpp
-- `save_exception_and_return`: Performs save_exception_and_return operation in exception_handler.hpp
-- `save_exception_to`: Performs save_exception_to operation in exception_handler.hpp
-- `seh_exception`: Performs seh_exception operation in exception_handler.hpp
-- `seh_exception_impl`: Performs seh_exception_impl operation in exception_handler.hpp
-- `signal_handler`: Performs signal_handler operation in exception_handler.hpp
-- `unhandled_exception_filter`: These handlers can terminate the process or rethrow the exception
-- `vectored_exception_handler`: Performs vectored_exception_handler operation in exception_handler.hpp
+- **`unhandled_exception_filter`**: Error information container for unhandled exception filter failures
+- **`signal_handler`**: Processes and handles signal events and requests
+- **`invalid_parameter_handler`**: Processes and handles invalid parameter events and requests
+- **`vectored_exception_handler`**: Container class managing collection of vectored exception handler
+- **`seh_exception`**: Exception class representing seh exception error conditions
+- **`no_handler`**: Processes and handles no events and requests
+- **`save_exception_to`**: Error information container for save exception to failures
+
 ### Kluczowe Funkcje
-- `report_to_stderr()`: Performs report_to_stderr operation in exception_handler.hpp
-- `set_report_location()`: Sets or updates _report_location value in exception_handler.hpp
-- `disable_exception_handling()`: Performs disable_exception_handling operation in exception_handler.hpp
-- `exception_handling_in_progress()`: Performs exception_handling_in_progress operation in exception_handler.hpp
-- `force_stderr_exception_ui()`: Performs force_stderr_exception_ui operation in exception_handler.hpp
-- `restore_system_exception_handler()`: Performs restore_system_exception_handler operation in exception_handler.hpp
-- `set()`: Sets or updates  value in exception_handler.hpp
-- `raise()`: Performs raise operation in exception_handler.hpp
-- `dismiss()`: Performs dismiss operation in exception_handler.hpp
-- `get()`: Retrieves  value in exception_handler.hpp
+- **`report_to_stderr()`**: Executes report to stderr operation
+- **`set_report_location()`**: Updates the report location with a new value
+- **`disable_exception_handling()`**: Executes disable exception handling operation
+- **`exception_handling_in_progress()`**: Executes exception handling in progress operation
+- **`force_stderr_exception_ui()`**: Executes force stderr exception ui operation
+- **`restore_system_exception_handler()`**: Executes restore system exception handler operation
+- **`cpp_try()`**: Executes cpp try operation
+- **`wrap_current_exception()`**: Executes wrap current exception operation
+- **`rethrow_if()`**: Executes rethrow if operation
+- **`seh_try()`**: Executes seh try operation
+- **`seh_try_with_ui()`**: Executes seh try with ui operation
+- **`seh_try_no_ui()`**: Executes seh try no ui operation
+- **`seh_try_thread()`**: Executes seh try thread operation
+- **`seh_exception::set()`**: Updates the  with a new value
+- **`seh_exception::raise()`**: Executes raise operation
+- **`seh_exception::dismiss()`**: Executes dismiss operation
+- **`seh_exception::get()`**: Retrieves the current  value
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `exception_handler.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `exception_handler.hpp` jest niezbędny dla obsługi wyjątków i zarządzania błędami. Definiuje 7 klas(y) i implementuje 17 funkcji wspierających operacje menedżera plików Far Manager.

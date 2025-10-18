@@ -1,34 +1,47 @@
 # Mix.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+need "delete[]"
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ShellLinkHeader`: Performs ShellLinkHeader operation in Mix.cpp
+- **`ShellLinkHeader`**: Implements shell link header functionality
+
 ### Key Functions
-- `GetInt()`: Retrieves Int value in Mix.cpp
-- `ReplaceStrings()`: Заменить в строке Str Count вхождений подстроки FindStr на подстроку ReplStr
-- `PartCmdLine()`: Performs PartCmdLine operation in Mix.cpp
-- `ProcessOSAliases()`: Processes input data in Mix.cpp
-- `StrToGuid()`: Manages COM library initialization and cleanup in Mix.cpp using RAII pattern
-- `IsTextUTF8()`: Manages COM library initialization and cleanup in Mix.cpp using RAII pattern
-- `GetCPBuffer()`: Retrieves CPBuffer value in Mix.cpp
+- **`GetInt()`**: Retrieves the current int value
+- **`ReplaceStrings()`**: Executes replace strings operation
+- **`PartCmdLine()`**: Executes part cmd line operation
+- **`ProcessOSAliases()`**: Executes process osaliases operation
+- **`StrToGuid()`**: Executes str to guid operation
+- **`IsTextUTF8()`**: Checks whether text utf8 condition is true
+- **`GetCPBuffer()`**: Retrieves the current cpbuffer value
+
 ### Summary
-The `Mix.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `Mix.cpp` file is essential for core functionality. It defines 1 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+need "delete[]"
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ShellLinkHeader`: Performs ShellLinkHeader operation in Mix.cpp
+- **`ShellLinkHeader`**: Implements shell link header functionality
+
 ### Kluczowe Funkcje
-- `GetInt()`: Retrieves Int value in Mix.cpp
-- `ReplaceStrings()`: Заменить в строке Str Count вхождений подстроки FindStr на подстроку ReplStr
-- `PartCmdLine()`: Performs PartCmdLine operation in Mix.cpp
-- `ProcessOSAliases()`: Processes input data in Mix.cpp
-- `StrToGuid()`: Manages COM library initialization and cleanup in Mix.cpp using RAII pattern
-- `IsTextUTF8()`: Manages COM library initialization and cleanup in Mix.cpp using RAII pattern
-- `GetCPBuffer()`: Retrieves CPBuffer value in Mix.cpp
+- **`GetInt()`**: Retrieves the current int value
+- **`ReplaceStrings()`**: Executes replace strings operation
+- **`PartCmdLine()`**: Executes part cmd line operation
+- **`ProcessOSAliases()`**: Executes process osaliases operation
+- **`StrToGuid()`**: Executes str to guid operation
+- **`IsTextUTF8()`**: Checks whether text utf8 condition is true
+- **`GetCPBuffer()`**: Retrieves the current cpbuffer value
+
 ### Podsumowanie
-Plik `Mix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Mix.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

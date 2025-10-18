@@ -1,60 +1,79 @@
 # plugin.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Plugin API for Far Manager 3.0.6571.0
-Main functional areas: plugin interface
+validator: no-bom
+
+This file implements functionality for plugin system and extension management.
+
 ### Key Classes
-- `AnalyseInfo`: Performs AnalyseInfo operation in plugin.hpp
-- `ArclitePrivateInfo`: Performs ArclitePrivateInfo operation in plugin.hpp
-- `CloseAnalyseInfo`: Performs CloseAnalyseInfo operation in plugin.hpp
-- `ClosePanelInfo`: Performs ClosePanelInfo operation in plugin.hpp
-- `CmdLineSelect`: Performs CmdLineSelect operation in plugin.hpp
-- `CompareInfo`: Performs CompareInfo operation in plugin.hpp
-- `ConfigureInfo`: Performs ConfigureInfo operation in plugin.hpp
-- `DeleteFilesInfo`: Deletes or removes an item or resource in plugin.hpp
-- `DetectCodePageInfo`: Performs DetectCodePageInfo operation in plugin.hpp
-- `DialogInfo`: Performs DialogInfo operation in plugin.hpp
+- **`FarColor`**: Implements far color functionality
+- **`FarListItem`**: Container class managing collection of far item
+- **`FarListUpdate`**: Container class managing collection of far update
+- **`FarListInsert`**: Container class managing collection of far insert
+- **`FarListGetItem`**: Container class managing collection of far get item
+- **`FarListPos`**: Container class managing collection of far pos
+- **`FarListFind`**: Container class managing collection of far find
+- **`FarListDelete`**: Container class managing collection of far delete
+- **`FarListInfo`**: Container class managing collection of far info
+- **`FarListItemData`**: Container class managing collection of far item data
+- **`FarList`**: Container class managing collection of far
+- **`FarListTitles`**: Container class managing collection of far titles
+- **`FarDialogItemColors`**: Implements far dialog item colors functionality
+- **`FAR_CHAR_INFO`**: Implements far char info functionality
+- **`FarDialogItem`**: Implements far dialog item functionality
+
 ### Key Functions
-- `IsBgIndex()`: Checks a condition in plugin.hpp and returns the result
-- `IsFgIndex()`: Checks a condition in plugin.hpp and returns the result
-- `IsUnderlineIndex()`: Checks a condition in plugin.hpp and returns the result
-- `IsBgDefault()`: Checks a condition in plugin.hpp and returns the result
-- `IsFgDefault()`: Checks a condition in plugin.hpp and returns the result
-- `IsUnderlineDefault()`: Checks a condition in plugin.hpp and returns the result
-- `GetUnderline()`: Retrieves Underline value in plugin.hpp
-- `SetBgIndex()`: Sets or updates BgIndex value in plugin.hpp
-- `SetFgIndex()`: Sets or updates FgIndex value in plugin.hpp
-- `SetUnderlineIndex()`: Sets or updates UnderlineIndex value in plugin.hpp
+- **`BOOL()`**: Executes bool operation
+- **`intptr_t()`**: Executes intptr t operation
+- **`HANDLE()`**: Executes handle operation
+- **`void()`**: Executes void operation
+- **`int()`**: Executes int operation
+- **`size_t()`**: Executes size t operation
+- **`wchar_t()`**: Executes wchar t operation
+- **`uintptr_t()`**: Executes uintptr t operation
+- **`DWORD()`**: Executes dword operation
+
 ### Summary
-The `plugin.hpp` file provides essential functionality for plugin interface. It defines 121 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `plugin.hpp` file is essential for plugin system and extension management. It defines 121 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Plugin API for Far Manager 3.0.6571.0
-Główne obszary funkcjonalne: interfejs wtyczek
+validator: no-bom
+
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Klasy
-- `AnalyseInfo`: Performs AnalyseInfo operation in plugin.hpp
-- `ArclitePrivateInfo`: Performs ArclitePrivateInfo operation in plugin.hpp
-- `CloseAnalyseInfo`: Performs CloseAnalyseInfo operation in plugin.hpp
-- `ClosePanelInfo`: Performs ClosePanelInfo operation in plugin.hpp
-- `CmdLineSelect`: Performs CmdLineSelect operation in plugin.hpp
-- `CompareInfo`: Performs CompareInfo operation in plugin.hpp
-- `ConfigureInfo`: Performs ConfigureInfo operation in plugin.hpp
-- `DeleteFilesInfo`: Deletes or removes an item or resource in plugin.hpp
-- `DetectCodePageInfo`: Performs DetectCodePageInfo operation in plugin.hpp
-- `DialogInfo`: Performs DialogInfo operation in plugin.hpp
+- **`FarColor`**: Implements far color functionality
+- **`FarListItem`**: Container class managing collection of far item
+- **`FarListUpdate`**: Container class managing collection of far update
+- **`FarListInsert`**: Container class managing collection of far insert
+- **`FarListGetItem`**: Container class managing collection of far get item
+- **`FarListPos`**: Container class managing collection of far pos
+- **`FarListFind`**: Container class managing collection of far find
+- **`FarListDelete`**: Container class managing collection of far delete
+- **`FarListInfo`**: Container class managing collection of far info
+- **`FarListItemData`**: Container class managing collection of far item data
+- **`FarList`**: Container class managing collection of far
+- **`FarListTitles`**: Container class managing collection of far titles
+- **`FarDialogItemColors`**: Implements far dialog item colors functionality
+- **`FAR_CHAR_INFO`**: Implements far char info functionality
+- **`FarDialogItem`**: Implements far dialog item functionality
+
 ### Kluczowe Funkcje
-- `IsBgIndex()`: Checks a condition in plugin.hpp and returns the result
-- `IsFgIndex()`: Checks a condition in plugin.hpp and returns the result
-- `IsUnderlineIndex()`: Checks a condition in plugin.hpp and returns the result
-- `IsBgDefault()`: Checks a condition in plugin.hpp and returns the result
-- `IsFgDefault()`: Checks a condition in plugin.hpp and returns the result
-- `IsUnderlineDefault()`: Checks a condition in plugin.hpp and returns the result
-- `GetUnderline()`: Retrieves Underline value in plugin.hpp
-- `SetBgIndex()`: Sets or updates BgIndex value in plugin.hpp
-- `SetFgIndex()`: Sets or updates FgIndex value in plugin.hpp
-- `SetUnderlineIndex()`: Sets or updates UnderlineIndex value in plugin.hpp
+- **`BOOL()`**: Executes bool operation
+- **`intptr_t()`**: Executes intptr t operation
+- **`HANDLE()`**: Executes handle operation
+- **`void()`**: Executes void operation
+- **`int()`**: Executes int operation
+- **`size_t()`**: Executes size t operation
+- **`wchar_t()`**: Executes wchar t operation
+- **`uintptr_t()`**: Executes uintptr t operation
+- **`DWORD()`**: Executes dword operation
+
 ### Podsumowanie
-Plik `plugin.hpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 121 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plugin.hpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Definiuje 121 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

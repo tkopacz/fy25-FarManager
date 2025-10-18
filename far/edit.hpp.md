@@ -1,60 +1,41 @@
 # edit.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Строка редактора
-Main functional areas: text editing
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ColorItem`: Performs ColorItem operation in edit.hpp
-- `DlgEdit`: Performs DlgEdit operation in edit.hpp
-- `Edit`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
-- `Editor`: Performs Editor operation in edit.hpp
-- `FarColor`: Performs FarColor operation in edit.hpp
-- `FileEditor`: Performs FileEditor operation in edit.hpp
-- `RegExp`: Performs RegExp operation in edit.hpp
-- `RegExpMatch`: Performs RegExpMatch operation in edit.hpp
-- `ShowInfo`: Performs ShowInfo operation in edit.hpp
-- `edit_string`: Performs edit_string operation in edit.hpp
+- **`ColorItem`**: Implements color item functionality
+- **`Edit`**: Implements edit functionality
+- **`ShowInfo`**: Implements show info functionality
+- **`edit_string`**: Implements edit string functionality
+
 ### Key Functions
-- `GetOwner()`: so UUIDs are stored in a separate set and here is only a pointer.
-- `SetOwner()`: Usually we have only 5-10 unique colors.
-- `GetColor()`: Usually we have only 5-10 unique colors.
-- `SetColor()`: Keeping a copy of FarColor in each of thousands of color items is a giant waste of memory,
-- `Edit()`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
-- `ProcessKey()`: Processes input data in edit.hpp
-- `ProcessMouse()`: Processes input data in edit.hpp
-- `VMProcess()`: Performs VMProcess operation in edit.hpp
-- `Changed()`: Performs Changed operation in edit.hpp
-- `GetMaxLength()`: Retrieves MaxLength value in edit.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`ColorItem::GetOwner()`**: Retrieves the current owner value
+- **`edit_string::size()`**: Executes size operation
+
 ### Summary
-The `edit.hpp` file provides essential functionality for text editing. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `edit.hpp` file is essential for core functionality. It defines 4 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Строка редактора
-Główne obszary funkcjonalne: edycja tekstu
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ColorItem`: Performs ColorItem operation in edit.hpp
-- `DlgEdit`: Performs DlgEdit operation in edit.hpp
-- `Edit`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
-- `Editor`: Performs Editor operation in edit.hpp
-- `FarColor`: Performs FarColor operation in edit.hpp
-- `FileEditor`: Performs FileEditor operation in edit.hpp
-- `RegExp`: Performs RegExp operation in edit.hpp
-- `RegExpMatch`: Performs RegExpMatch operation in edit.hpp
-- `ShowInfo`: Performs ShowInfo operation in edit.hpp
-- `edit_string`: Performs edit_string operation in edit.hpp
+- **`ColorItem`**: Implements color item functionality
+- **`Edit`**: Implements edit functionality
+- **`ShowInfo`**: Implements show info functionality
+- **`edit_string`**: Implements edit string functionality
+
 ### Kluczowe Funkcje
-- `GetOwner()`: so UUIDs are stored in a separate set and here is only a pointer.
-- `SetOwner()`: Usually we have only 5-10 unique colors.
-- `GetColor()`: Usually we have only 5-10 unique colors.
-- `SetColor()`: Keeping a copy of FarColor in each of thousands of color items is a giant waste of memory,
-- `Edit()`: Постоянные блоки (Global->Opt->EditorPersistentBlocks)
-- `ProcessKey()`: Processes input data in edit.hpp
-- `ProcessMouse()`: Processes input data in edit.hpp
-- `VMProcess()`: Performs VMProcess operation in edit.hpp
-- `Changed()`: Performs Changed operation in edit.hpp
-- `GetMaxLength()`: Retrieves MaxLength value in edit.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`ColorItem::GetOwner()`**: Retrieves the current owner value
+- **`edit_string::size()`**: Executes size operation
+
 ### Podsumowanie
-Plik `edit.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 11 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `edit.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

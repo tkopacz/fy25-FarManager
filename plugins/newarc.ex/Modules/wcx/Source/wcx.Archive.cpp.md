@@ -1,22 +1,23 @@
 # wcx.Archive.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `CreateClassThunk()`: Creates and initializes a new object or resource in wcx.Archive.cpp
-- `GetResult()`: Retrieves Result value in wcx.Archive.cpp
-- `m_pfnCallback()`: Opens a file or creates a file handle in wcx.Archive.cpp
+m_bCreate = bCreate;
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `wcx.Archive.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `wcx.Archive.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `CreateClassThunk()`: Creates and initializes a new object or resource in wcx.Archive.cpp
-- `GetResult()`: Retrieves Result value in wcx.Archive.cpp
-- `m_pfnCallback()`: Opens a file or creates a file handle in wcx.Archive.cpp
+m_bCreate = bCreate;
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `wcx.Archive.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `wcx.Archive.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

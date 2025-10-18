@@ -1,20 +1,25 @@
 # AskOver.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `MkFileInfo()`: Performs MkFileInfo operation in AskOver.cpp
-- `FileTimeToSystemTime()`: Performs FileTimeToSystemTime operation in AskOver.cpp
+- **`MkFileInfo()`**: Executes mk file info operation
+
 ### Summary
-The `AskOver.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `AskOver.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `MkFileInfo()`: Performs MkFileInfo operation in AskOver.cpp
-- `FileTimeToSystemTime()`: Performs FileTimeToSystemTime operation in AskOver.cpp
+- **`MkFileInfo()`**: Executes mk file info operation
+
 ### Podsumowanie
-Plik `AskOver.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `AskOver.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

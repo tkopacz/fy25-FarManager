@@ -1,18 +1,23 @@
 # hs_ofile.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
-### Key Functions
-- `OpenStreamFile()`: Performs OpenStreamFile operation in hs_ofile.cpp
+NON compressed
+
+This file implements functionality for file operations.
+
 ### Summary
-The `hs_ofile.cpp` file provides essential functionality for file system operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `hs_ofile.cpp` file is essential for file operations. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
-### Kluczowe Funkcje
-- `OpenStreamFile()`: Performs OpenStreamFile operation in hs_ofile.cpp
+NON compressed
+
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Podsumowanie
-Plik `hs_ofile.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hs_ofile.cpp` jest niezbędny dla operacji na plikach. wspierających operacje menedżera plików Far Manager.

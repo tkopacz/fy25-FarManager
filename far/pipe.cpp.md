@@ -1,28 +1,25 @@
 # pipe.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Pipe-based IPC
-Main functional areas: core functionality
-### Key Functions
-- `read()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
-- `far_exception()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
-- `write()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
+This file implements functionality for core functionality.
+
 ### Namespaces
 - `pipe`
+
 ### Summary
-The `pipe.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `pipe.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Pipe-based IPC
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `read()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
-- `far_exception()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
-- `write()`: Validates a condition in pipe.cpp and throws an exception if the validation fails
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Przestrzenie nazw
 - `pipe`
+
 ### Podsumowanie
-Plik `pipe.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `pipe.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

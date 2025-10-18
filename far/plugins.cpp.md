@@ -1,48 +1,53 @@
 # plugins.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Работа с плагинами (низкий уровень, кое-что повыше в filelist.cpp)
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Key Classes
-- `PluginData`: Performs PluginData operation in plugins.cpp
-- `PluginMenuItemData`: Performs PluginMenuItemData operation in plugins.cpp
-- `layout`: Performs layout operation in plugins.cpp
-- `plugin_panel_holder`: Performs plugin_panel_holder operation in plugins.cpp
+- **`plugin_panel_holder`**: Implements plugin panel holder functionality
+- **`plugin_panel_holder`**: Implements plugin panel holder functionality
+- **`PluginMenuItemData`**: Implements plugin menu item data functionality
+- **`layout`**: Implements layout functionality
+- **`PluginData`**: Implements plugin data functionality
+
 ### Key Functions
-- `GetHotKeyPluginKey()`: Retrieves HotKeyPluginKey value in plugins.cpp
-- `GetPluginHotKey()`: Retrieves PluginHotKey value in plugins.cpp
-- `EnsureLuaCpuCompatibility()`: Performs EnsureLuaCpuCompatibility operation in plugins.cpp
-- `bool()`: All AMD64 processors have SSE2
-- `m_PluginsLoaded()`: All AMD64 processors have SSE2
-- `ScTree()`: Performs ScTree operation in plugins.cpp
-- `analyse()`: Performs analyse operation in plugins.cpp
-- `set_analyse()`: Sets or updates _analyse value in plugins.cpp
-- `File()`: Performs File operation in plugins.cpp
-- `AddHotkey()`: Performs AddHotkey operation in plugins.cpp
+- **`GetHotKeyPluginKey()`**: Retrieves the current hot key plugin key value
+- **`GetPluginHotKey()`**: Retrieves the current plugin hot key value
+- **`EnsureLuaCpuCompatibility()`**: Executes ensure lua cpu compatibility operation
+- **`AddHotkey()`**: Executes add hotkey operation
+- **`BufReserve()`**: Executes buf reserve operation
+- **`StrToBuf()`**: Executes str to buf operation
+- **`ItemsToBuf()`**: Executes items to buf operation
+- **`plugin_panel_holder::plugin_panel()`**: Executes plugin panel operation
+
 ### Summary
-The `plugins.cpp` file provides essential functionality for plugin interface. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `plugins.cpp` file is essential for plugin system and extension management. It defines 5 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Работа с плагинами (низкий уровень, кое-что повыше в filelist.cpp)
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Klasy
-- `PluginData`: Performs PluginData operation in plugins.cpp
-- `PluginMenuItemData`: Performs PluginMenuItemData operation in plugins.cpp
-- `layout`: Performs layout operation in plugins.cpp
-- `plugin_panel_holder`: Performs plugin_panel_holder operation in plugins.cpp
+- **`plugin_panel_holder`**: Implements plugin panel holder functionality
+- **`plugin_panel_holder`**: Implements plugin panel holder functionality
+- **`PluginMenuItemData`**: Implements plugin menu item data functionality
+- **`layout`**: Implements layout functionality
+- **`PluginData`**: Implements plugin data functionality
+
 ### Kluczowe Funkcje
-- `GetHotKeyPluginKey()`: Retrieves HotKeyPluginKey value in plugins.cpp
-- `GetPluginHotKey()`: Retrieves PluginHotKey value in plugins.cpp
-- `EnsureLuaCpuCompatibility()`: Performs EnsureLuaCpuCompatibility operation in plugins.cpp
-- `bool()`: All AMD64 processors have SSE2
-- `m_PluginsLoaded()`: All AMD64 processors have SSE2
-- `ScTree()`: Performs ScTree operation in plugins.cpp
-- `analyse()`: Performs analyse operation in plugins.cpp
-- `set_analyse()`: Sets or updates _analyse value in plugins.cpp
-- `File()`: Performs File operation in plugins.cpp
-- `AddHotkey()`: Performs AddHotkey operation in plugins.cpp
+- **`GetHotKeyPluginKey()`**: Retrieves the current hot key plugin key value
+- **`GetPluginHotKey()`**: Retrieves the current plugin hot key value
+- **`EnsureLuaCpuCompatibility()`**: Executes ensure lua cpu compatibility operation
+- **`AddHotkey()`**: Executes add hotkey operation
+- **`BufReserve()`**: Executes buf reserve operation
+- **`StrToBuf()`**: Executes str to buf operation
+- **`ItemsToBuf()`**: Executes items to buf operation
+- **`plugin_panel_holder::plugin_panel()`**: Executes plugin panel operation
+
 ### Podsumowanie
-Plik `plugins.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plugins.cpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Definiuje 5 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

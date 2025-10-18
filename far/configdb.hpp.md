@@ -1,68 +1,105 @@
 # configdb.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: хранение настроек в базе sqlite.
-Main functional areas: configuration management
+This file implements functionality for configuration management.
+
 ### Key Classes
-- `AssociationsConfig`: Performs AssociationsConfig operation in configdb.hpp
-- `ColorsConfig`: Performs ColorsConfig operation in configdb.hpp
-- `FarColor`: Performs FarColor operation in configdb.hpp
-- `GeneralConfig`: Performs GeneralConfig operation in configdb.hpp
-- `HierarchicalConfig`: Performs HierarchicalConfig operation in configdb.hpp
-- `HistoryConfig`: Performs HistoryConfig operation in configdb.hpp
-- `PluginsCacheConfig`: Performs PluginsCacheConfig operation in configdb.hpp
-- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation in configdb.hpp
-- `VersionInfo`: Performs VersionInfo operation in configdb.hpp
-- `async_delete`: Performs async_delete operation in configdb.hpp
+- **`GeneralConfig`**: Stores and manages configuration parameters and settings
+- **`async_delete`**: Implements async delete functionality
+- **`HierarchicalConfig`**: Stores and manages configuration parameters and settings
+- **`key`**: Simple data holder with getter/setter accessors
+- **`async_deleter`**: Implements async deleter functionality
+- **`ColorsConfig`**: Stores and manages configuration parameters and settings
+- **`AssociationsConfig`**: Stores and manages configuration parameters and settings
+- **`PluginsCacheConfig`**: Stores and manages configuration parameters and settings
+- **`PluginsHotkeysConfig`**: Enumeration defining possible values for plugins hotkeys config
+- **`HistoryConfig`**: Stores and manages configuration parameters and settings
+- **`enum_data`**: Implements enum data functionality
+- **`mode`**: Enumeration defining possible values for mode
+- **`clear_cache`**: Enumeration defining possible values for clear cache
+- **`async_key`**: Enumeration defining possible values for async key
+- **`implementation`**: Implements implementation functionality
+
 ### Key Functions
-- `GetValue()`: Retrieves Value value in configdb.hpp
-- `ValuesEnumerator()`: Performs ValuesEnumerator operation in configdb.hpp
-- `get()`: Retrieves  value in configdb.hpp
-- `bool()`: Performs bool operation in configdb.hpp
-- `KeysEnumerator()`: Performs KeysEnumerator operation in configdb.hpp
-- `EnumKeys()`: Performs EnumKeys operation in configdb.hpp
-- `EnumValues()`: Performs EnumValues operation in configdb.hpp
-- `ToSettingsType()`: Performs ToSettingsType operation in configdb.hpp
-- `MasksEnumerator()`: Performs MasksEnumerator operation in configdb.hpp
-- `EnumMasks()`: Performs EnumMasks operation in configdb.hpp
+- **`GeneralConfig()`**: Executes general config operation
+- **`HierarchicalConfig()`**: Executes hierarchical config operation
+- **`AssociationsConfig()`**: Executes associations config operation
+- **`HistoryConfig()`**: Executes history config operation
+- **`ConfigProvider()`**: Executes config provider operation
+- **`deserialize_color()`**: Executes deserialize color operation
+- **`GeneralConfig::SetValue()`**: Updates the value with a new value
+- **`GeneralConfig::GetValue()`**: Retrieves the current value value
+- **`async_delete::finish()`**: Executes finish operation
+- **`HierarchicalConfig::key()`**: Executes key operation
+- **`ColorsConfig::SetValue()`**: Updates the value with a new value
+- **`ColorsConfig::GetValue()`**: Retrieves the current value value
+- **`AssociationsConfig::GetMask()`**: Retrieves the current mask value
+- **`AssociationsConfig::GetDescription()`**: Retrieves the current description value
+- **`AssociationsConfig::GetCommand()`**: Retrieves the current command value
+- **`AssociationsConfig::SetCommand()`**: Updates the command with a new value
+- **`AssociationsConfig::SwapPositions()`**: Executes swap positions operation
+- **`AssociationsConfig::AddType()`**: Executes add type operation
+- **`AssociationsConfig::UpdateType()`**: Executes update type operation
+- **`AssociationsConfig::DelType()`**: Executes del type operation
+
 ### Namespaces
-- `concurrency`
-- `detail`
 - `os`
+- `detail`
+
 ### Summary
-The `configdb.hpp` file provides essential functionality for configuration management. It defines 24 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `configdb.hpp` file is essential for configuration management. It defines 15 class(es) and implements 84 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: хранение настроек в базе sqlite.
-Główne obszary funkcjonalne: zarządzanie konfiguracją
+Ten plik implementuje funkcjonalność dla zarządzania konfiguracją.
+
 ### Kluczowe Klasy
-- `AssociationsConfig`: Performs AssociationsConfig operation in configdb.hpp
-- `ColorsConfig`: Performs ColorsConfig operation in configdb.hpp
-- `FarColor`: Performs FarColor operation in configdb.hpp
-- `GeneralConfig`: Performs GeneralConfig operation in configdb.hpp
-- `HierarchicalConfig`: Performs HierarchicalConfig operation in configdb.hpp
-- `HistoryConfig`: Performs HistoryConfig operation in configdb.hpp
-- `PluginsCacheConfig`: Performs PluginsCacheConfig operation in configdb.hpp
-- `PluginsHotkeysConfig`: Performs PluginsHotkeysConfig operation in configdb.hpp
-- `VersionInfo`: Performs VersionInfo operation in configdb.hpp
-- `async_delete`: Performs async_delete operation in configdb.hpp
+- **`GeneralConfig`**: Stores and manages configuration parameters and settings
+- **`async_delete`**: Implements async delete functionality
+- **`HierarchicalConfig`**: Stores and manages configuration parameters and settings
+- **`key`**: Simple data holder with getter/setter accessors
+- **`async_deleter`**: Implements async deleter functionality
+- **`ColorsConfig`**: Stores and manages configuration parameters and settings
+- **`AssociationsConfig`**: Stores and manages configuration parameters and settings
+- **`PluginsCacheConfig`**: Stores and manages configuration parameters and settings
+- **`PluginsHotkeysConfig`**: Enumeration defining possible values for plugins hotkeys config
+- **`HistoryConfig`**: Stores and manages configuration parameters and settings
+- **`enum_data`**: Implements enum data functionality
+- **`mode`**: Enumeration defining possible values for mode
+- **`clear_cache`**: Enumeration defining possible values for clear cache
+- **`async_key`**: Enumeration defining possible values for async key
+- **`implementation`**: Implements implementation functionality
+
 ### Kluczowe Funkcje
-- `GetValue()`: Retrieves Value value in configdb.hpp
-- `ValuesEnumerator()`: Performs ValuesEnumerator operation in configdb.hpp
-- `get()`: Retrieves  value in configdb.hpp
-- `bool()`: Performs bool operation in configdb.hpp
-- `KeysEnumerator()`: Performs KeysEnumerator operation in configdb.hpp
-- `EnumKeys()`: Performs EnumKeys operation in configdb.hpp
-- `EnumValues()`: Performs EnumValues operation in configdb.hpp
-- `ToSettingsType()`: Performs ToSettingsType operation in configdb.hpp
-- `MasksEnumerator()`: Performs MasksEnumerator operation in configdb.hpp
-- `EnumMasks()`: Performs EnumMasks operation in configdb.hpp
+- **`GeneralConfig()`**: Executes general config operation
+- **`HierarchicalConfig()`**: Executes hierarchical config operation
+- **`AssociationsConfig()`**: Executes associations config operation
+- **`HistoryConfig()`**: Executes history config operation
+- **`ConfigProvider()`**: Executes config provider operation
+- **`deserialize_color()`**: Executes deserialize color operation
+- **`GeneralConfig::SetValue()`**: Updates the value with a new value
+- **`GeneralConfig::GetValue()`**: Retrieves the current value value
+- **`async_delete::finish()`**: Executes finish operation
+- **`HierarchicalConfig::key()`**: Executes key operation
+- **`ColorsConfig::SetValue()`**: Updates the value with a new value
+- **`ColorsConfig::GetValue()`**: Retrieves the current value value
+- **`AssociationsConfig::GetMask()`**: Retrieves the current mask value
+- **`AssociationsConfig::GetDescription()`**: Retrieves the current description value
+- **`AssociationsConfig::GetCommand()`**: Retrieves the current command value
+- **`AssociationsConfig::SetCommand()`**: Updates the command with a new value
+- **`AssociationsConfig::SwapPositions()`**: Executes swap positions operation
+- **`AssociationsConfig::AddType()`**: Executes add type operation
+- **`AssociationsConfig::UpdateType()`**: Executes update type operation
+- **`AssociationsConfig::DelType()`**: Executes del type operation
+
 ### Przestrzenie nazw
-- `concurrency`
-- `detail`
 - `os`
+- `detail`
+
 ### Podsumowanie
-Plik `configdb.hpp` zapewnia podstawową funkcjonalność dla zarządzanie konfiguracją. Definiuje 24 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `configdb.hpp` jest niezbędny dla zarządzania konfiguracją. Definiuje 15 klas(y) i implementuje 84 funkcji wspierających operacje menedżera plików Far Manager.

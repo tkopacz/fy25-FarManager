@@ -1,54 +1,41 @@
 # panel.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Parent class для панелей
-Main functional areas: panel management
+This file implements functionality for panel display and management.
+
 ### Key Classes
-- `DizList`: Performs DizList operation in panel.hpp
-- `PanelViewSettings`: Performs PanelViewSettings operation in panel.hpp
-- `ShortcutInfo`: Performs ShortcutInfo operation in panel.hpp
-- `column`: Performs column operation in panel.hpp
-- `panel_mode`: Performs panel_mode operation in panel.hpp
-- `panel_sort`: Performs panel_sort operation in panel.hpp
-- `plugin_panel`: Performs plugin_panel operation in panel.hpp
+- **`column`**: Enumeration defining possible values for column
+- **`PanelViewSettings`**: Enumeration defining possible values for panel view settings
+- **`panel_mode`**: Defines operational mode settings and behavior configuration
+- **`ShortcutInfo`**: Implements shortcut info functionality
+
 ### Key Functions
-- `clone()`: Performs clone operation in panel.hpp
-- `Show()`: Performs Show operation in panel.hpp
-- `Hide()`: Performs Hide operation in panel.hpp
-- `DisplayObject()`: Performs DisplayObject operation in panel.hpp
-- `ShowConsoleTitle()`: Performs ShowConsoleTitle operation in panel.hpp
-- `VMProcess()`: Performs VMProcess operation in panel.hpp
-- `CloseFile()`: Performs CloseFile operation in panel.hpp
-- `UpdateViewPanel()`: Updates existing data or state in panel.hpp
-- `CompareDir()`: Performs CompareDir operation in panel.hpp
-- `MoveToMouse()`: Performs MoveToMouse operation in panel.hpp
+- **`internal_sort_mode_to_plugin()`**: Executes internal sort mode to plugin operation
+- **`plugin_sort_mode_to_internal()`**: Executes plugin sort mode to internal operation
+- **`PanelViewSettings::Flags()`**: Executes flags operation
+
 ### Summary
-The `panel.hpp` file provides essential functionality for panel management. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `panel.hpp` file is essential for panel display and management. It defines 4 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Parent class для панелей
-Główne obszary funkcjonalne: zarządzanie panelami
+Ten plik implementuje funkcjonalność dla wyświetlania i zarządzania panelami.
+
 ### Kluczowe Klasy
-- `DizList`: Performs DizList operation in panel.hpp
-- `PanelViewSettings`: Performs PanelViewSettings operation in panel.hpp
-- `ShortcutInfo`: Performs ShortcutInfo operation in panel.hpp
-- `column`: Performs column operation in panel.hpp
-- `panel_mode`: Performs panel_mode operation in panel.hpp
-- `panel_sort`: Performs panel_sort operation in panel.hpp
-- `plugin_panel`: Performs plugin_panel operation in panel.hpp
+- **`column`**: Enumeration defining possible values for column
+- **`PanelViewSettings`**: Enumeration defining possible values for panel view settings
+- **`panel_mode`**: Defines operational mode settings and behavior configuration
+- **`ShortcutInfo`**: Implements shortcut info functionality
+
 ### Kluczowe Funkcje
-- `clone()`: Performs clone operation in panel.hpp
-- `Show()`: Performs Show operation in panel.hpp
-- `Hide()`: Performs Hide operation in panel.hpp
-- `DisplayObject()`: Performs DisplayObject operation in panel.hpp
-- `ShowConsoleTitle()`: Performs ShowConsoleTitle operation in panel.hpp
-- `VMProcess()`: Performs VMProcess operation in panel.hpp
-- `CloseFile()`: Performs CloseFile operation in panel.hpp
-- `UpdateViewPanel()`: Updates existing data or state in panel.hpp
-- `CompareDir()`: Performs CompareDir operation in panel.hpp
-- `MoveToMouse()`: Performs MoveToMouse operation in panel.hpp
+- **`internal_sort_mode_to_plugin()`**: Executes internal sort mode to plugin operation
+- **`plugin_sort_mode_to_internal()`**: Executes plugin sort mode to internal operation
+- **`PanelViewSettings::Flags()`**: Executes flags operation
+
 ### Podsumowanie
-Plik `panel.hpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `panel.hpp` jest niezbędny dla wyświetlania i zarządzania panelami. Definiuje 4 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

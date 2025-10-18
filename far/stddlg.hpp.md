@@ -1,60 +1,69 @@
 # stddlg.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Куча разных стандартных диалогов
-Main functional areas: dialog handling
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `SearchReplaceDlgParams`: Performs SearchReplaceDlgParams operation in stddlg.hpp
-- `SearchReplaceDlgResult`: Performs SearchReplaceDlgResult operation in stddlg.hpp
-- `SharedGroup`: Performs SharedGroup operation in stddlg.hpp
-- `dirinfo_progress`: Performs dirinfo_progress operation in stddlg.hpp
-- `error_state_ex`: Performs error_state_ex operation in stddlg.hpp
-- `goto_coord`: Performs goto_coord operation in stddlg.hpp
-- `lng`: Performs lng operation in stddlg.hpp
-- `operation`: использовать последние введенные данные
-- `progress_impl`: Performs progress_impl operation in stddlg.hpp
-- `single_progress`: Performs single_progress operation in stddlg.hpp
+- **`SearchReplaceDlgProps`**: Enumeration defining possible values for search replace dlg props
+- **`SearchReplaceDlgParams`**: Enumeration defining possible values for search replace dlg params
+- **`SharedGroup`**: Enumeration defining possible values for shared group
+- **`SearchReplaceDlgResult`**: Enumeration defining possible values for search replace dlg result
+- **`operation`**: Enumeration defining possible values for operation
+- **`goto_coord`**: Implements goto coord functionality
+- **`progress_impl`**: Implements progress impl functionality
+
 ### Key Functions
-- `GetShared()`: Retrieves Shared value in stddlg.hpp
-- `SaveToShared()`: Performs SaveToShared operation in stddlg.hpp
-- `SetSearchPattern()`: Sets or updates SearchPattern value in stddlg.hpp
-- `IsSearchPatternEmpty()`: Checks a condition in stddlg.hpp and returns the result
-- `GetString()`: Retrieves String value in stddlg.hpp
-- `GetNameAndPassword()`: Retrieves NameAndPassword value in stddlg.hpp
-- `OperationFailed()`: для диалога GetNameAndPassword()
-- `cancel_operation()`: использовать последние введенные данные
-- `ReCompileErrorMessage()`: operation_cancelled exception: cancelled
-- `GoToRowCol()`: operation_cancelled exception: cancelled
+- **`GetSearchReplaceString()`**: Retrieves the current search replace string value
+- **`GetString()`**: Retrieves the current string value
+- **`GetNameAndPassword()`**: Retrieves the current name and password value
+- **`OperationFailed()`**: Executes operation failed operation
+- **`cancel_operation()`**: Executes cancel operation operation
+- **`retryable_ui_operation()`**: Executes retryable ui operation operation
+- **`ReCompileErrorMessage()`**: Executes re compile error message operation
+- **`GoToRowCol()`**: Executes go to row col operation
+- **`ConfirmAbort()`**: Executes confirm abort operation
+- **`CheckForEscAndConfirmAbort()`**: Executes check for esc and confirm abort operation
+- **`RetryAbort()`**: Executes retry abort operation
+- **`regex_playground()`**: Executes regex playground operation
+- **`error_lookup()`**: Executes error lookup operation
+- **`progress_impl::init()`**: Executes init operation
+
 ### Summary
-The `stddlg.hpp` file provides essential functionality for dialog handling. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `stddlg.hpp` file is essential for core functionality. It defines 7 class(es) and implements 14 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Куча разных стандартных диалогов
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `SearchReplaceDlgParams`: Performs SearchReplaceDlgParams operation in stddlg.hpp
-- `SearchReplaceDlgResult`: Performs SearchReplaceDlgResult operation in stddlg.hpp
-- `SharedGroup`: Performs SharedGroup operation in stddlg.hpp
-- `dirinfo_progress`: Performs dirinfo_progress operation in stddlg.hpp
-- `error_state_ex`: Performs error_state_ex operation in stddlg.hpp
-- `goto_coord`: Performs goto_coord operation in stddlg.hpp
-- `lng`: Performs lng operation in stddlg.hpp
-- `operation`: использовать последние введенные данные
-- `progress_impl`: Performs progress_impl operation in stddlg.hpp
-- `single_progress`: Performs single_progress operation in stddlg.hpp
+- **`SearchReplaceDlgProps`**: Enumeration defining possible values for search replace dlg props
+- **`SearchReplaceDlgParams`**: Enumeration defining possible values for search replace dlg params
+- **`SharedGroup`**: Enumeration defining possible values for shared group
+- **`SearchReplaceDlgResult`**: Enumeration defining possible values for search replace dlg result
+- **`operation`**: Enumeration defining possible values for operation
+- **`goto_coord`**: Implements goto coord functionality
+- **`progress_impl`**: Implements progress impl functionality
+
 ### Kluczowe Funkcje
-- `GetShared()`: Retrieves Shared value in stddlg.hpp
-- `SaveToShared()`: Performs SaveToShared operation in stddlg.hpp
-- `SetSearchPattern()`: Sets or updates SearchPattern value in stddlg.hpp
-- `IsSearchPatternEmpty()`: Checks a condition in stddlg.hpp and returns the result
-- `GetString()`: Retrieves String value in stddlg.hpp
-- `GetNameAndPassword()`: Retrieves NameAndPassword value in stddlg.hpp
-- `OperationFailed()`: для диалога GetNameAndPassword()
-- `cancel_operation()`: использовать последние введенные данные
-- `ReCompileErrorMessage()`: operation_cancelled exception: cancelled
-- `GoToRowCol()`: operation_cancelled exception: cancelled
+- **`GetSearchReplaceString()`**: Retrieves the current search replace string value
+- **`GetString()`**: Retrieves the current string value
+- **`GetNameAndPassword()`**: Retrieves the current name and password value
+- **`OperationFailed()`**: Executes operation failed operation
+- **`cancel_operation()`**: Executes cancel operation operation
+- **`retryable_ui_operation()`**: Executes retryable ui operation operation
+- **`ReCompileErrorMessage()`**: Executes re compile error message operation
+- **`GoToRowCol()`**: Executes go to row col operation
+- **`ConfirmAbort()`**: Executes confirm abort operation
+- **`CheckForEscAndConfirmAbort()`**: Executes check for esc and confirm abort operation
+- **`RetryAbort()`**: Executes retry abort operation
+- **`regex_playground()`**: Executes regex playground operation
+- **`error_lookup()`**: Executes error lookup operation
+- **`progress_impl::init()`**: Executes init operation
+
 ### Podsumowanie
-Plik `stddlg.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `stddlg.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 7 klas(y) i implementuje 14 funkcji wspierających operacje menedżera plików Far Manager.

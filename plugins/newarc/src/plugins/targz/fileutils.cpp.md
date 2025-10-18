@@ -1,28 +1,35 @@
 # fileutils.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Functions
-- `AskRetry()`: Performs AskRetry operation in fileutils.cpp
-- `GetFileAttr()`: Retrieves FileAttr value in fileutils.cpp
-- `AskOverwrite()`: *size=(unsigned long long)find.nFileSizeLow+(unsigned long long)find.nFileSizeHigh*4294967296ULL;
-- `CreateFileEx()`: Opens a file or creates a file handle in fileutils.cpp
-- `CreateDirEx()`: Checks a condition in fileutils.cpp and returns true or false based on the result
-- `GenerateName()`: Checks a condition in fileutils.cpp and returns true or false based on the result
+- **`AskRetry()`**: Executes ask retry operation
+- **`GetFileAttr()`**: Retrieves the current file attr value
+- **`AskOverwrite()`**: Executes ask overwrite operation
+- **`CreateFileEx()`**: Constructs and returns a new file ex object
+- **`CreateDirEx()`**: Constructs and returns a new dir ex object
+- **`GenerateName()`**: Executes generate name operation
+
 ### Summary
-The `fileutils.cpp` file provides essential functionality for file system operations. and contains approximately 6 function(s) to support the Far Manager file manager operations.
+The `fileutils.cpp` file is essential for file operations. It implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `AskRetry()`: Performs AskRetry operation in fileutils.cpp
-- `GetFileAttr()`: Retrieves FileAttr value in fileutils.cpp
-- `AskOverwrite()`: *size=(unsigned long long)find.nFileSizeLow+(unsigned long long)find.nFileSizeHigh*4294967296ULL;
-- `CreateFileEx()`: Opens a file or creates a file handle in fileutils.cpp
-- `CreateDirEx()`: Checks a condition in fileutils.cpp and returns true or false based on the result
-- `GenerateName()`: Checks a condition in fileutils.cpp and returns true or false based on the result
+- **`AskRetry()`**: Executes ask retry operation
+- **`GetFileAttr()`**: Retrieves the current file attr value
+- **`AskOverwrite()`**: Executes ask overwrite operation
+- **`CreateFileEx()`**: Constructs and returns a new file ex object
+- **`CreateDirEx()`**: Constructs and returns a new dir ex object
+- **`GenerateName()`**: Executes generate name operation
+
 ### Podsumowanie
-Plik `fileutils.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileutils.cpp` jest niezbędny dla operacji na plikach. Implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

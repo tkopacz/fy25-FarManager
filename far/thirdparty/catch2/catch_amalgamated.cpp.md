@@ -1,96 +1,117 @@
 # catch_amalgamated.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: singleton implementation
+Catch v3.8.0
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `AssertionPrinter`: Implementation of CompactReporter formatting
-- `BySectionInfo`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `CerrStream`: cout may get redirected when running tests
-- `ColumnBreak`: Performs ColumnBreak operation in catch_amalgamated.cpp
-- `ColumnInfo`: Performs ColumnInfo operation in catch_amalgamated.cpp
-- `ConsoleAssertionPrinter`: For simplicity, benchmarking-only helpers are always enabled
-- `Duration`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `Endianness`: Performs Endianness operation in catch_amalgamated.cpp
-- `FileRedirect`: Flushes cout/cerr/clog streams and stdout/stderr FDs
-- `FloatingPointKind`: Performs FloatingPointKind operation in catch_amalgamated.cpp
+- **`do_nothing`**: Implements do nothing functionality
+- **`bazelShardingOptions`**: Implements bazel sharding options functionality
+- **`RegistryHub`**: Implements registry hub functionality
+- **`TestGroup`**: Implements test group functionality
+- **`Endianness`**: Implements endianness functionality
+- **`ParserInfo`**: Implements parser info functionality
+- **`SignalDefs`**: Implements signal defs functionality
+- **`SignalDefs`**: Implements signal defs functionality
+- **`OutputDebugWriter`**: Implements output debug writer functionality
+- **`CerrStream`**: Implements cerr stream functionality
+- **`NoopRedirect`**: Implements noop redirect functionality
+- **`RedirectedStreamNew`**: Implements redirected stream new functionality
+- **`StreamRedirect`**: Implements stream redirect functionality
+- **`TempFile`**: Implements temp file functionality
+- **`FileRedirect`**: Implements file redirect functionality
+
 ### Key Functions
-- `analyse()`: defined(CATCH_PLATFORM_WINDOWS)
-- `throw_optimized_away_error()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
-- `resample()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
-- `outlier_variance()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `erf_inv()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `standard_deviation()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `weighted_average_quantile()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `classify_outliers()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `mean()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `normal_cdf()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- **`marginComparison()`**: Executes margin comparison operation
+- **`main()`**: Executes main operation
+- **`Message()`**: Executes message operation
+- **`step()`**: Executes step operation
+- **`write()`**: Performs write operation on the data stream or buffer
+- **`WithinULP()`**: Executes within ulp operation
+- **`WithinAbs()`**: Executes within abs operation
+- **`WithinRel()`**: Executes within rel operation
+- **`IsNaN()`**: Checks whether na n condition is true
+- **`makeRatio()`**: Executes make ratio operation
+- **`findMax()`**: Executes find max operation
+- **`TablePrinter()`**: Executes table printer operation
+- **`RegistryHub::getReporterRegistry()`**: Retrieves the current reporter registry value
+- **`NoopRedirect::activateImpl()`**: Executes activate impl operation
+- **`TempFile::defined()`**: Executes defined operation
+- **`FileRedirect::flushEverything()`**: Executes flush everything operation
+- **`StringStreams::add()`**: Adds new element(s) to the collection
+- **`AssertionPrinter::stream()`**: Executes stream operation
+- **`ConsoleAssertionPrinter::stream()`**: Executes stream operation
+- **`ConsoleAssertionPrinter::if()`**: Executes if operation
+
 ### Namespaces
-- `Benchmark`
 - `Catch`
-- `Clara`
+- `literals`
 - `Detail`
 - `Generators`
-- `JsonReporter`
-- `JunitReporter`
-- `Matchers`
-- `Session`
-- `TeamCityReporter`
 - `TestCaseTracking`
-- `TextFlow`
-- `bool`
-- `enum`
-- `literals`
-- `namespace`
-- `std`
-- `void`
+- `Matchers`
+
 ### Summary
-The `catch_amalgamated.cpp` file provides essential functionality for singleton implementation. It defines 32 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `catch_amalgamated.cpp` file is essential for core functionality. It defines 28 class(es) and implements 21 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: implementacja singletona
+Catch v3.8.0
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `AssertionPrinter`: Implementation of CompactReporter formatting
-- `BySectionInfo`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `CerrStream`: cout may get redirected when running tests
-- `ColumnBreak`: Performs ColumnBreak operation in catch_amalgamated.cpp
-- `ColumnInfo`: Performs ColumnInfo operation in catch_amalgamated.cpp
-- `ConsoleAssertionPrinter`: For simplicity, benchmarking-only helpers are always enabled
-- `Duration`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `Endianness`: Performs Endianness operation in catch_amalgamated.cpp
-- `FileRedirect`: Flushes cout/cerr/clog streams and stdout/stderr FDs
-- `FloatingPointKind`: Performs FloatingPointKind operation in catch_amalgamated.cpp
+- **`do_nothing`**: Implements do nothing functionality
+- **`bazelShardingOptions`**: Implements bazel sharding options functionality
+- **`RegistryHub`**: Implements registry hub functionality
+- **`TestGroup`**: Implements test group functionality
+- **`Endianness`**: Implements endianness functionality
+- **`ParserInfo`**: Implements parser info functionality
+- **`SignalDefs`**: Implements signal defs functionality
+- **`SignalDefs`**: Implements signal defs functionality
+- **`OutputDebugWriter`**: Implements output debug writer functionality
+- **`CerrStream`**: Implements cerr stream functionality
+- **`NoopRedirect`**: Implements noop redirect functionality
+- **`RedirectedStreamNew`**: Implements redirected stream new functionality
+- **`StreamRedirect`**: Implements stream redirect functionality
+- **`TempFile`**: Implements temp file functionality
+- **`FileRedirect`**: Implements file redirect functionality
+
 ### Kluczowe Funkcje
-- `analyse()`: defined(CATCH_PLATFORM_WINDOWS)
-- `throw_optimized_away_error()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
-- `resample()`: Validates a condition in catch_amalgamated.cpp and throws an exception if the validation fails
-- `outlier_variance()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `erf_inv()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `standard_deviation()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `weighted_average_quantile()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `classify_outliers()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `mean()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
-- `normal_cdf()`: Iterates through elements in catch_amalgamated.cpp and adds them to a collection
+- **`marginComparison()`**: Executes margin comparison operation
+- **`main()`**: Executes main operation
+- **`Message()`**: Executes message operation
+- **`step()`**: Executes step operation
+- **`write()`**: Performs write operation on the data stream or buffer
+- **`WithinULP()`**: Executes within ulp operation
+- **`WithinAbs()`**: Executes within abs operation
+- **`WithinRel()`**: Executes within rel operation
+- **`IsNaN()`**: Checks whether na n condition is true
+- **`makeRatio()`**: Executes make ratio operation
+- **`findMax()`**: Executes find max operation
+- **`TablePrinter()`**: Executes table printer operation
+- **`RegistryHub::getReporterRegistry()`**: Retrieves the current reporter registry value
+- **`NoopRedirect::activateImpl()`**: Executes activate impl operation
+- **`TempFile::defined()`**: Executes defined operation
+- **`FileRedirect::flushEverything()`**: Executes flush everything operation
+- **`StringStreams::add()`**: Adds new element(s) to the collection
+- **`AssertionPrinter::stream()`**: Executes stream operation
+- **`ConsoleAssertionPrinter::stream()`**: Executes stream operation
+- **`ConsoleAssertionPrinter::if()`**: Executes if operation
+
 ### Przestrzenie nazw
-- `Benchmark`
 - `Catch`
-- `Clara`
+- `literals`
 - `Detail`
 - `Generators`
-- `JsonReporter`
-- `JunitReporter`
-- `Matchers`
-- `Session`
-- `TeamCityReporter`
 - `TestCaseTracking`
-- `TextFlow`
-- `bool`
-- `enum`
-- `literals`
-- `namespace`
-- `std`
-- `void`
+- `Matchers`
+
 ### Podsumowanie
-Plik `catch_amalgamated.cpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 32 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `catch_amalgamated.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 28 klas(y) i implementuje 21 funkcji wspierających operacje menedżera plików Far Manager.

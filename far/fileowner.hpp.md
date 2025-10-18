@@ -1,24 +1,29 @@
 # fileowner.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Кэш SID`ов и функция GetOwner
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Functions
-- `GetFileOwner()`: Retrieves FileOwner value in fileowner.hpp
-- `SetFileOwner()`: Sets or updates FileOwner value in fileowner.hpp
-- `SetOwnerInternal()`: Sets or updates OwnerInternal value in fileowner.hpp
+- **`GetFileOwner()`**: Retrieves the current file owner value
+- **`SetFileOwner()`**: Updates the file owner with a new value
+- **`SetOwnerInternal()`**: Updates the owner internal with a new value
+
 ### Summary
-The `fileowner.hpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `fileowner.hpp` file is essential for file operations. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Кэш SID`ов и функция GetOwner
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `GetFileOwner()`: Retrieves FileOwner value in fileowner.hpp
-- `SetFileOwner()`: Sets or updates FileOwner value in fileowner.hpp
-- `SetOwnerInternal()`: Sets or updates OwnerInternal value in fileowner.hpp
+- **`GetFileOwner()`**: Retrieves the current file owner value
+- **`SetFileOwner()`**: Updates the file owner with a new value
+- **`SetOwnerInternal()`**: Updates the owner internal with a new value
+
 ### Podsumowanie
-Plik `fileowner.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileowner.hpp` jest niezbędny dla operacji na plikach. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

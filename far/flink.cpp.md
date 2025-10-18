@@ -1,50 +1,77 @@
 # flink.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Куча разных функций по обработке Link`ов - Hard&Sym
-Main functional areas: core functionality
+This file implements functionality for file operations.
+
 ### Key Classes
-- `APPEXECLINK_REPARSE_DATA_BUFFER`: Performs APPEXECLINK_REPARSE_DATA_BUFFER operation in flink.cpp
-- `LX_SYMLINK_REPARSE_DATA_BUFFER`: Performs LX_SYMLINK_REPARSE_DATA_BUFFER operation in flink.cpp
-- `NFS_REPARSE_DATA_BUFFER`: Performs NFS_REPARSE_DATA_BUFFER operation in flink.cpp
-- `WCI_REPARSE_DATA_BUFFER`: Performs WCI_REPARSE_DATA_BUFFER operation in flink.cpp
-- `name_data`: Performs name_data operation in flink.cpp
+- **`name_data`**: Implements name data functionality
+- **`NFS_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+- **`APPEXECLINK_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+- **`LX_SYMLINK_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+- **`WCI_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+
 ### Key Functions
-- `CreateVolumeMountPoint()`: Creates and initializes a new object or resource in flink.cpp
-- `FillREPARSE_DATA_BUFFER()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `sizeof()`: Performs sizeof operation in flink.cpp
-- `GetDesiredAccessForReparsePointChange()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `SetREPARSE_DATA_BUFFER()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `SetBuffer()`: Sets or updates Buffer value in flink.cpp
-- `PrepareAndSetREPARSE_DATA_BUFFER()`: Open() succeeded, but IoControl() failed. We can't handle this automatically :(
-- `GetREPARSE_DATA_BUFFER()`: Retrieves REPARSE_DATA_BUFFER value in flink.cpp
-- `fObject()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `CreateReparsePoint()`: Checks a condition in flink.cpp and returns true or false based on the result
+- **`CreateVolumeMountPoint()`**: Constructs and returns a new volume mount point object
+- **`FillREPARSE_DATA_BUFFER()`**: Executes fill reparse data buffer operation
+- **`GetDesiredAccessForReparsePointChange()`**: Retrieves the current desired access for reparse point change value
+- **`SetREPARSE_DATA_BUFFER()`**: Updates the reparse data buffer with a new value
+- **`PrepareAndSetREPARSE_DATA_BUFFER()`**: Executes prepare and set reparse data buffer operation
+- **`GetREPARSE_DATA_BUFFER()`**: Retrieves the current reparse data buffer value
+- **`CreateReparsePoint()`**: Constructs and returns a new reparse point object
+- **`DeleteReparsePoint()`**: Executes delete reparse point operation
+- **`GetReparsePointInfo()`**: Retrieves the current reparse point info value
+- **`GetNumberOfLinks()`**: Retrieves the current number of links value
+- **`MkHardLink()`**: Executes mk hard link operation
+- **`EnumStreams()`**: Executes enum streams operation
+- **`DelSubstDrive()`**: Executes del subst drive operation
+- **`GetSubstName()`**: Retrieves the current subst name value
+- **`GetVHDInfo()`**: Retrieves the current vhdinfo value
+- **`detach_vhd()`**: Executes detach vhd operation
+- **`GetPathRoot()`**: Retrieves the current path root value
+- **`ModifyReparsePoint()`**: Executes modify reparse point operation
+- **`NormalizeSymlinkName()`**: Executes normalize symlink name operation
+- **`MkSymLink()`**: Executes mk sym link operation
+
 ### Summary
-The `flink.cpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `flink.cpp` file is essential for file operations. It defines 5 class(es) and implements 21 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Куча разных функций по обработке Link`ов - Hard&Sym
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `APPEXECLINK_REPARSE_DATA_BUFFER`: Performs APPEXECLINK_REPARSE_DATA_BUFFER operation in flink.cpp
-- `LX_SYMLINK_REPARSE_DATA_BUFFER`: Performs LX_SYMLINK_REPARSE_DATA_BUFFER operation in flink.cpp
-- `NFS_REPARSE_DATA_BUFFER`: Performs NFS_REPARSE_DATA_BUFFER operation in flink.cpp
-- `WCI_REPARSE_DATA_BUFFER`: Performs WCI_REPARSE_DATA_BUFFER operation in flink.cpp
-- `name_data`: Performs name_data operation in flink.cpp
+- **`name_data`**: Implements name data functionality
+- **`NFS_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+- **`APPEXECLINK_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+- **`LX_SYMLINK_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+- **`WCI_REPARSE_DATA_BUFFER`**: Manages memory buffer with automatic allocation and deallocation
+
 ### Kluczowe Funkcje
-- `CreateVolumeMountPoint()`: Creates and initializes a new object or resource in flink.cpp
-- `FillREPARSE_DATA_BUFFER()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `sizeof()`: Performs sizeof operation in flink.cpp
-- `GetDesiredAccessForReparsePointChange()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `SetREPARSE_DATA_BUFFER()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `SetBuffer()`: Sets or updates Buffer value in flink.cpp
-- `PrepareAndSetREPARSE_DATA_BUFFER()`: Open() succeeded, but IoControl() failed. We can't handle this automatically :(
-- `GetREPARSE_DATA_BUFFER()`: Retrieves REPARSE_DATA_BUFFER value in flink.cpp
-- `fObject()`: Checks a condition in flink.cpp and returns true or false based on the result
-- `CreateReparsePoint()`: Checks a condition in flink.cpp and returns true or false based on the result
+- **`CreateVolumeMountPoint()`**: Constructs and returns a new volume mount point object
+- **`FillREPARSE_DATA_BUFFER()`**: Executes fill reparse data buffer operation
+- **`GetDesiredAccessForReparsePointChange()`**: Retrieves the current desired access for reparse point change value
+- **`SetREPARSE_DATA_BUFFER()`**: Updates the reparse data buffer with a new value
+- **`PrepareAndSetREPARSE_DATA_BUFFER()`**: Executes prepare and set reparse data buffer operation
+- **`GetREPARSE_DATA_BUFFER()`**: Retrieves the current reparse data buffer value
+- **`CreateReparsePoint()`**: Constructs and returns a new reparse point object
+- **`DeleteReparsePoint()`**: Executes delete reparse point operation
+- **`GetReparsePointInfo()`**: Retrieves the current reparse point info value
+- **`GetNumberOfLinks()`**: Retrieves the current number of links value
+- **`MkHardLink()`**: Executes mk hard link operation
+- **`EnumStreams()`**: Executes enum streams operation
+- **`DelSubstDrive()`**: Executes del subst drive operation
+- **`GetSubstName()`**: Retrieves the current subst name value
+- **`GetVHDInfo()`**: Retrieves the current vhdinfo value
+- **`detach_vhd()`**: Executes detach vhd operation
+- **`GetPathRoot()`**: Retrieves the current path root value
+- **`ModifyReparsePoint()`**: Executes modify reparse point operation
+- **`NormalizeSymlinkName()`**: Executes normalize symlink name operation
+- **`MkSymLink()`**: Executes mk sym link operation
+
 ### Podsumowanie
-Plik `flink.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `flink.cpp` jest niezbędny dla operacji na plikach. Definiuje 5 klas(y) i implementuje 21 funkcji wspierających operacje menedżera plików Far Manager.

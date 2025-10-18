@@ -1,58 +1,43 @@
 # notification.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: singleton implementation
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `event_handler`: Performs event_handler operation in notification.hpp
-- `listener`: Performs listener operation in notification.hpp
-- `message`: Performs message operation in notification.hpp
-- `message_manager`: Performs message_manager operation in notification.hpp
-- `scope`: Performs scope operation in notification.hpp
-- `update_devices_message`: Updates existing data or state in notification.hpp
-- `wm_listener`: Performs wm_listener operation in notification.hpp
+- **`update_devices_message`**: Implements update devices message functionality
+- **`message`**: Implements message functionality
+- **`scope`**: Implements scope functionality
+
 ### Key Functions
-- `subscribe()`: Performs subscribe operation in notification.hpp
-- `unsubscribe()`: Performs unsubscribe operation in notification.hpp
-- `notify()`: Performs notify operation in notification.hpp
-- `dispatch()`: Performs dispatch operation in notification.hpp
-- `enable_power_notifications()`: Performs enable_power_notifications operation in notification.hpp
-- `disable_power_notifications()`: Performs disable_power_notifications operation in notification.hpp
-- `suppressor()`: Performs suppressor operation in notification.hpp
-- `commit_add()`: Performs commit_add operation in notification.hpp
-- `commit_remove()`: Performs commit_remove operation in notification.hpp
-- `suppress_dispatch()`: Performs suppress_dispatch operation in notification.hpp
+- **`message::subscribe()`**: Executes subscribe operation
+- **`message::unsubscribe()`**: Executes unsubscribe operation
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `notification.hpp` file provides essential functionality for singleton implementation. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `notification.hpp` file is essential for core functionality. It defines 3 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: implementacja singletona
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `event_handler`: Performs event_handler operation in notification.hpp
-- `listener`: Performs listener operation in notification.hpp
-- `message`: Performs message operation in notification.hpp
-- `message_manager`: Performs message_manager operation in notification.hpp
-- `scope`: Performs scope operation in notification.hpp
-- `update_devices_message`: Updates existing data or state in notification.hpp
-- `wm_listener`: Performs wm_listener operation in notification.hpp
+- **`update_devices_message`**: Implements update devices message functionality
+- **`message`**: Implements message functionality
+- **`scope`**: Implements scope functionality
+
 ### Kluczowe Funkcje
-- `subscribe()`: Performs subscribe operation in notification.hpp
-- `unsubscribe()`: Performs unsubscribe operation in notification.hpp
-- `notify()`: Performs notify operation in notification.hpp
-- `dispatch()`: Performs dispatch operation in notification.hpp
-- `enable_power_notifications()`: Performs enable_power_notifications operation in notification.hpp
-- `disable_power_notifications()`: Performs disable_power_notifications operation in notification.hpp
-- `suppressor()`: Performs suppressor operation in notification.hpp
-- `commit_add()`: Performs commit_add operation in notification.hpp
-- `commit_remove()`: Performs commit_remove operation in notification.hpp
-- `suppress_dispatch()`: Performs suppress_dispatch operation in notification.hpp
+- **`message::subscribe()`**: Executes subscribe operation
+- **`message::unsubscribe()`**: Executes unsubscribe operation
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `notification.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `notification.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

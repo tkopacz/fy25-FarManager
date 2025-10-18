@@ -1,16 +1,19 @@
 # refreshwindowmanager.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Класс для рефрешки
-Main functional areas: window management
+This file implements functionality for core manager functionality.
+
 ### Summary
-The `refreshwindowmanager.cpp` file provides essential functionality for window management. to support the Far Manager file manager operations.
+The `refreshwindowmanager.cpp` file is essential for core manager functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Класс для рефрешки
-Główne obszary funkcjonalne: zarządzanie oknami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności menedżera.
+
 ### Podsumowanie
-Plik `refreshwindowmanager.cpp` zapewnia podstawową funkcjonalność dla zarządzanie oknami. wspierających operacje menedżera plików Far Manager.
+Plik `refreshwindowmanager.cpp` jest niezbędny dla podstawowej funkcjonalności menedżera. wspierających operacje menedżera plików Far Manager.

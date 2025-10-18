@@ -1,58 +1,55 @@
 # ipc.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DRIVE_LETTER_CURDIR`: Performs DRIVE_LETTER_CURDIR operation in ipc.hpp
-- `LDR_MODULE`: Performs LDR_MODULE operation in ipc.hpp
-- `LIST_ENTRY`: Performs LIST_ENTRY operation in ipc.hpp
-- `PEB`: Performs PEB operation in ipc.hpp
-- `PEB_LDR_DATA`: Performs PEB_LDR_DATA operation in ipc.hpp
-- `PROCESS_BASIC_INFORMATION`: Performs PROCESS_BASIC_INFORMATION operation in ipc.hpp
-- `PROCESS_PARAMETERS`: Performs PROCESS_PARAMETERS operation in ipc.hpp
-- `UNICODE_STRING`: Performs UNICODE_STRING operation in ipc.hpp
-- `bitness`: Performs bitness operation in ipc.hpp
-- `ipc_t`: Performs ipc_t operation in ipc.hpp
+- **`bitness`**: Implements bitness functionality
+- **`ipc_t`**: Enumeration defining possible values for ipc t
+- **`UNICODE_STRING`**: Enumeration defining possible values for unicode string
+- **`DRIVE_LETTER_CURDIR`**: Enumeration defining possible values for drive letter curdir
+- **`PROCESS_PARAMETERS`**: Implements process parameters functionality
+- **`LIST_ENTRY`**: Container class managing collection of list entry
+- **`LDR_MODULE`**: Implements ldr module functionality
+- **`PEB_LDR_DATA`**: Implements peb ldr data functionality
+- **`PEB`**: Implements peb functionality
+- **`PROCESS_BASIC_INFORMATION`**: Implements process basic information functionality
+- **`validate`**: Implements validate functionality
+
 ### Key Functions
-- `read_process_memory()`: Performs read_process_memory operation in ipc.hpp
-- `constexpr()`: Performs constexpr operation in ipc.hpp
-- `NT_SUCCESS()`: Performs NT_SUCCESS operation in ipc.hpp
-- `read_string()`: Performs read_string operation in ipc.hpp
-- `query_information_process()`: Performs query_information_process operation in ipc.hpp
-- `get_internal_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
-- `find_terminator()`: Checks a condition in ipc.hpp and returns true or false based on the result
-- `get_open_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
-- `print_modules()`: Performs print_modules operation in ipc.hpp
-- `get_bitness()`: Retrieves _bitness value in ipc.hpp
+- **`get_bitness()`**: Retrieves the current bitness value
+- **`get_open_process_data()`**: Retrieves the current open process data value
+- **`print_modules()`**: Executes print modules operation
+
 ### Summary
-The `ipc.hpp` file provides essential functionality for core functionality. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `ipc.hpp` file is essential for core functionality. It defines 11 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DRIVE_LETTER_CURDIR`: Performs DRIVE_LETTER_CURDIR operation in ipc.hpp
-- `LDR_MODULE`: Performs LDR_MODULE operation in ipc.hpp
-- `LIST_ENTRY`: Performs LIST_ENTRY operation in ipc.hpp
-- `PEB`: Performs PEB operation in ipc.hpp
-- `PEB_LDR_DATA`: Performs PEB_LDR_DATA operation in ipc.hpp
-- `PROCESS_BASIC_INFORMATION`: Performs PROCESS_BASIC_INFORMATION operation in ipc.hpp
-- `PROCESS_PARAMETERS`: Performs PROCESS_PARAMETERS operation in ipc.hpp
-- `UNICODE_STRING`: Performs UNICODE_STRING operation in ipc.hpp
-- `bitness`: Performs bitness operation in ipc.hpp
-- `ipc_t`: Performs ipc_t operation in ipc.hpp
+- **`bitness`**: Implements bitness functionality
+- **`ipc_t`**: Enumeration defining possible values for ipc t
+- **`UNICODE_STRING`**: Enumeration defining possible values for unicode string
+- **`DRIVE_LETTER_CURDIR`**: Enumeration defining possible values for drive letter curdir
+- **`PROCESS_PARAMETERS`**: Implements process parameters functionality
+- **`LIST_ENTRY`**: Container class managing collection of list entry
+- **`LDR_MODULE`**: Implements ldr module functionality
+- **`PEB_LDR_DATA`**: Implements peb ldr data functionality
+- **`PEB`**: Implements peb functionality
+- **`PROCESS_BASIC_INFORMATION`**: Implements process basic information functionality
+- **`validate`**: Implements validate functionality
+
 ### Kluczowe Funkcje
-- `read_process_memory()`: Performs read_process_memory operation in ipc.hpp
-- `constexpr()`: Performs constexpr operation in ipc.hpp
-- `NT_SUCCESS()`: Performs NT_SUCCESS operation in ipc.hpp
-- `read_string()`: Performs read_string operation in ipc.hpp
-- `query_information_process()`: Performs query_information_process operation in ipc.hpp
-- `get_internal_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
-- `find_terminator()`: Checks a condition in ipc.hpp and returns true or false based on the result
-- `get_open_process_data()`: Checks a condition in ipc.hpp and returns true or false based on the result
-- `print_modules()`: Performs print_modules operation in ipc.hpp
-- `get_bitness()`: Retrieves _bitness value in ipc.hpp
+- **`get_bitness()`**: Retrieves the current bitness value
+- **`get_open_process_data()`**: Retrieves the current open process data value
+- **`print_modules()`**: Executes print modules operation
+
 ### Podsumowanie
-Plik `ipc.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 11 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `ipc.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 11 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

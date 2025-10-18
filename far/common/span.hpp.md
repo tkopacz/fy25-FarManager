@@ -1,14 +1,25 @@
 # span.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
+### Key Functions
+- **`span()`**: Executes span operation
+
 ### Summary
-The `span.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `span.hpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
+### Kluczowe Funkcje
+- **`span()`**: Executes span operation
+
 ### Podsumowanie
-Plik `span.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `span.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

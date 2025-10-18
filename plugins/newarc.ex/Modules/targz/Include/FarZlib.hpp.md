@@ -1,20 +1,33 @@
 # FarZlib.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `InitZlib()`: Initializes data structures and prepares for operation in FarZlib.hpp
-- `CloseZlib()`: Performs CloseZlib operation in FarZlib.hpp
+- **`int()`**: Executes int operation
+- **`gzFile()`**: Executes gz file operation
+- **`z_off_t()`**: Executes z off t operation
+- **`InitZlib()`**: Executes init zlib operation
+- **`CloseZlib()`**: Executes close zlib operation
+
 ### Summary
-The `FarZlib.hpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `FarZlib.hpp` file is essential for core functionality. It implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `InitZlib()`: Initializes data structures and prepares for operation in FarZlib.hpp
-- `CloseZlib()`: Performs CloseZlib operation in FarZlib.hpp
+- **`int()`**: Executes int operation
+- **`gzFile()`**: Executes gz file operation
+- **`z_off_t()`**: Executes z off t operation
+- **`InitZlib()`**: Executes init zlib operation
+- **`CloseZlib()`**: Executes close zlib operation
+
 ### Podsumowanie
-Plik `FarZlib.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarZlib.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

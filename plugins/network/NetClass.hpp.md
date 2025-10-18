@@ -1,46 +1,49 @@
 # NetClass.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `NameAndPassInfo`: Performs NameAndPassInfo operation in NetClass.hpp
-- `NetBrowser`: Performs NetBrowser operation in NetClass.hpp
-- `NetResource`: Performs NetResource operation in NetClass.hpp
-- `NetResourceList`: Performs NetResourceList operation in NetClass.hpp
+- **`NetResource`**: Implements net resource functionality
+- **`NetResourceList`**: Container class managing collection of net resource
+- **`NameAndPassInfo`**: Implements name and pass info functionality
+- **`NetBrowser`**: Implements net browser functionality
+
 ### Key Functions
-- `NetResource()`: Performs NetResource operation in NetClass.hpp
-- `getNETRESOURCE()`: Retrieves NETRESOURCE value in NetClass.hpp
-- `Clear()`: Performs Clear operation in NetClass.hpp
-- `Enumerate()`: Performs Enumerate operation in NetClass.hpp
-- `Push()`: Performs Push operation in NetClass.hpp
-- `Top()`: Performs Top operation in NetClass.hpp
-- `Pop()`: Performs Pop operation in NetClass.hpp
-- `Count()`: Performs Count operation in NetClass.hpp
-- `RemoveItems()`: Deletes or removes an item or resource in NetClass.hpp
-- `DisconnectFromServer()`: Performs DisconnectFromServer operation in NetClass.hpp
+- **`NetResource()`**: Executes net resource operation
+- **`NetResourceList::Clear()`**: Removes all content and resets to empty state
+- **`NetResourceList::Enumerate()`**: Executes enumerate operation
+- **`NetResourceList::Push()`**: Adds new element(s) to the collection
+- **`NetResourceList::Top()`**: Executes top operation
+- **`NetResourceList::Pop()`**: Removes element(s) from the collection
+- **`NetResourceList::Count()`**: Executes count operation
+
 ### Summary
-The `NetClass.hpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `NetClass.hpp` file is essential for core functionality. It defines 4 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `NameAndPassInfo`: Performs NameAndPassInfo operation in NetClass.hpp
-- `NetBrowser`: Performs NetBrowser operation in NetClass.hpp
-- `NetResource`: Performs NetResource operation in NetClass.hpp
-- `NetResourceList`: Performs NetResourceList operation in NetClass.hpp
+- **`NetResource`**: Implements net resource functionality
+- **`NetResourceList`**: Container class managing collection of net resource
+- **`NameAndPassInfo`**: Implements name and pass info functionality
+- **`NetBrowser`**: Implements net browser functionality
+
 ### Kluczowe Funkcje
-- `NetResource()`: Performs NetResource operation in NetClass.hpp
-- `getNETRESOURCE()`: Retrieves NETRESOURCE value in NetClass.hpp
-- `Clear()`: Performs Clear operation in NetClass.hpp
-- `Enumerate()`: Performs Enumerate operation in NetClass.hpp
-- `Push()`: Performs Push operation in NetClass.hpp
-- `Top()`: Performs Top operation in NetClass.hpp
-- `Pop()`: Performs Pop operation in NetClass.hpp
-- `Count()`: Performs Count operation in NetClass.hpp
-- `RemoveItems()`: Deletes or removes an item or resource in NetClass.hpp
-- `DisconnectFromServer()`: Performs DisconnectFromServer operation in NetClass.hpp
+- **`NetResource()`**: Executes net resource operation
+- **`NetResourceList::Clear()`**: Removes all content and resets to empty state
+- **`NetResourceList::Enumerate()`**: Executes enumerate operation
+- **`NetResourceList::Push()`**: Adds new element(s) to the collection
+- **`NetResourceList::Top()`**: Executes top operation
+- **`NetResourceList::Pop()`**: Removes element(s) from the collection
+- **`NetResourceList::Count()`**: Executes count operation
+
 ### Podsumowanie
-Plik `NetClass.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `NetClass.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

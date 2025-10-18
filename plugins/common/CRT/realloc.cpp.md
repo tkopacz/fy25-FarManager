@@ -1,20 +1,19 @@
 # realloc.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `realloc()`: Performs realloc operation in realloc.cpp
-- `_recalloc()`: Performs _recalloc operation in realloc.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `realloc.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `realloc.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `realloc()`: Performs realloc operation in realloc.cpp
-- `_recalloc()`: Performs _recalloc operation in realloc.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `realloc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `realloc.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

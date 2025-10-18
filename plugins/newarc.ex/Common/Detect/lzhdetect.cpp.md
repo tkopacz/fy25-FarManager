@@ -1,24 +1,39 @@
 # lzhdetect.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+Header Size in Bytes
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `LZH_Level0`: Performs LZH_Level0 operation in lzhdetect.cpp
+- **`LZH_Level0`**: Implements lzh level0 functionality
+
 ### Key Functions
-- `CheckLZHHeader()`: Iterates through elements in lzhdetect.cpp and adds them to a collection
-- `IsLzhHeader()`: Iterates through elements in lzhdetect.cpp and adds them to a collection
+- **`CheckLZHHeader()`**: Executes check lzhheader operation
+- **`IsLzhHeader()`**: Checks whether lzh header condition is true
+- **`LZH_Level0::bytes()`**: Executes bytes operation
+
 ### Summary
-The `lzhdetect.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `lzhdetect.cpp` file is essential for core functionality. It defines 1 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Header Size in Bytes
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `LZH_Level0`: Performs LZH_Level0 operation in lzhdetect.cpp
+- **`LZH_Level0`**: Implements lzh level0 functionality
+
 ### Kluczowe Funkcje
-- `CheckLZHHeader()`: Iterates through elements in lzhdetect.cpp and adds them to a collection
-- `IsLzhHeader()`: Iterates through elements in lzhdetect.cpp and adds them to a collection
+- **`CheckLZHHeader()`**: Executes check lzhheader operation
+- **`IsLzhHeader()`**: Checks whether lzh header condition is true
+- **`LZH_Level0::bytes()`**: Executes bytes operation
+
 ### Podsumowanie
-Plik `lzhdetect.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `lzhdetect.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

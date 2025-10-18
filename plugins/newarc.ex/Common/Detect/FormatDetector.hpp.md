@@ -1,40 +1,59 @@
 # FormatDetector.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `FormatDetector`: Performs FormatDetector operation in FormatDetector.hpp
+- **`FormatDetector`**: Implements format detector functionality
+
 ### Key Functions
-- `Is7z()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsArj()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsCab()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsHfs()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsIso()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsLzh()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsLzma()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsMacho()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsNsis()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsPe()`: Checks a condition in FormatDetector.hpp and returns the result
+- **`FormatDetector::Is7z()`**: Checks whether 7z condition is true
+- **`FormatDetector::IsArj()`**: Checks whether arj condition is true
+- **`FormatDetector::IsCab()`**: Checks whether cab condition is true
+- **`FormatDetector::IsHfs()`**: Checks whether hfs condition is true
+- **`FormatDetector::IsIso()`**: Checks whether iso condition is true
+- **`FormatDetector::IsLzh()`**: Checks whether lzh condition is true
+- **`FormatDetector::IsLzma()`**: Checks whether lzma condition is true
+- **`FormatDetector::IsMacho()`**: Checks whether macho condition is true
+- **`FormatDetector::IsNsis()`**: Checks whether nsis condition is true
+- **`FormatDetector::IsPe()`**: Checks whether pe condition is true
+- **`FormatDetector::IsRar()`**: Checks whether rar condition is true
+- **`FormatDetector::IsTar()`**: Checks whether tar condition is true
+- **`FormatDetector::IsUdf()`**: Checks whether udf condition is true
+- **`FormatDetector::IsZip()`**: Checks whether zip condition is true
+- **`FormatDetector::IsAce()`**: Checks whether ace condition is true
+
 ### Summary
-The `FormatDetector.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `FormatDetector.hpp` file is essential for core functionality. It defines 1 class(es) and implements 15 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `FormatDetector`: Performs FormatDetector operation in FormatDetector.hpp
+- **`FormatDetector`**: Implements format detector functionality
+
 ### Kluczowe Funkcje
-- `Is7z()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsArj()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsCab()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsHfs()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsIso()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsLzh()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsLzma()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsMacho()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsNsis()`: Checks a condition in FormatDetector.hpp and returns the result
-- `IsPe()`: Checks a condition in FormatDetector.hpp and returns the result
+- **`FormatDetector::Is7z()`**: Checks whether 7z condition is true
+- **`FormatDetector::IsArj()`**: Checks whether arj condition is true
+- **`FormatDetector::IsCab()`**: Checks whether cab condition is true
+- **`FormatDetector::IsHfs()`**: Checks whether hfs condition is true
+- **`FormatDetector::IsIso()`**: Checks whether iso condition is true
+- **`FormatDetector::IsLzh()`**: Checks whether lzh condition is true
+- **`FormatDetector::IsLzma()`**: Checks whether lzma condition is true
+- **`FormatDetector::IsMacho()`**: Checks whether macho condition is true
+- **`FormatDetector::IsNsis()`**: Checks whether nsis condition is true
+- **`FormatDetector::IsPe()`**: Checks whether pe condition is true
+- **`FormatDetector::IsRar()`**: Checks whether rar condition is true
+- **`FormatDetector::IsTar()`**: Checks whether tar condition is true
+- **`FormatDetector::IsUdf()`**: Checks whether udf condition is true
+- **`FormatDetector::IsZip()`**: Checks whether zip condition is true
+- **`FormatDetector::IsAce()`**: Checks whether ace condition is true
+
 ### Podsumowanie
-Plik `FormatDetector.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FormatDetector.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 15 funkcji wspierających operacje menedżera plików Far Manager.

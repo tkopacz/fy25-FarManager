@@ -1,46 +1,35 @@
 # elevation.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Elevation
-Main functional areas: singleton implementation
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `elevation`: Performs elevation operation in elevation.hpp
-- `lng`: Performs lng operation in elevation.hpp
-- `suppress`: Performs suppress operation in elevation.hpp
+- **`suppress`**: Implements suppress functionality
+
 ### Key Functions
-- `ResetApprove()`: Performs ResetApprove operation in elevation.hpp
-- `Elevated()`: Performs Elevated operation in elevation.hpp
-- `create_directory()`: Creates and initializes a new object or resource in elevation.hpp
-- `remove_directory()`: Deletes or removes an item or resource in elevation.hpp
-- `delete_file()`: Deletes or removes an item or resource in elevation.hpp
-- `copy_file()`: Performs copy_file operation in elevation.hpp
-- `move_file()`: Performs move_file operation in elevation.hpp
-- `replace_file()`: Performs replace_file operation in elevation.hpp
-- `get_file_attributes()`: Retrieves _file_attributes value in elevation.hpp
-- `set_file_attributes()`: Sets or updates _file_attributes value in elevation.hpp
+- **`ElevationRequired()`**: Executes elevation required operation
+- **`ElevationMain()`**: Executes elevation main operation
+- **`IsElevationArgument()`**: Checks whether elevation argument condition is true
+
 ### Summary
-The `elevation.hpp` file provides essential functionality for singleton implementation. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `elevation.hpp` file is essential for core functionality. It defines 1 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Elevation
-Główne obszary funkcjonalne: implementacja singletona
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `elevation`: Performs elevation operation in elevation.hpp
-- `lng`: Performs lng operation in elevation.hpp
-- `suppress`: Performs suppress operation in elevation.hpp
+- **`suppress`**: Implements suppress functionality
+
 ### Kluczowe Funkcje
-- `ResetApprove()`: Performs ResetApprove operation in elevation.hpp
-- `Elevated()`: Performs Elevated operation in elevation.hpp
-- `create_directory()`: Creates and initializes a new object or resource in elevation.hpp
-- `remove_directory()`: Deletes or removes an item or resource in elevation.hpp
-- `delete_file()`: Deletes or removes an item or resource in elevation.hpp
-- `copy_file()`: Performs copy_file operation in elevation.hpp
-- `move_file()`: Performs move_file operation in elevation.hpp
-- `replace_file()`: Performs replace_file operation in elevation.hpp
-- `get_file_attributes()`: Retrieves _file_attributes value in elevation.hpp
-- `set_file_attributes()`: Sets or updates _file_attributes value in elevation.hpp
+- **`ElevationRequired()`**: Executes elevation required operation
+- **`ElevationMain()`**: Executes elevation main operation
+- **`IsElevationArgument()`**: Checks whether elevation argument condition is true
+
 ### Podsumowanie
-Plik `elevation.hpp` zapewnia podstawową funkcjonalność dla implementacja singletona. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `elevation.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

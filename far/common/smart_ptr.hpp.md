@@ -1,56 +1,49 @@
 # smart_ptr.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `array_ptr`: Performs array_ptr operation in smart_ptr.hpp
-- `block_ptr`: Storage for variable size structs, e.g. with data following the struct in the memory block
-- `file_closer`: Performs file_closer operation in smart_ptr.hpp
-- `nop_deleter`: Performs nop_deleter operation in smart_ptr.hpp
-- `ptr_setter`: Performs ptr_setter operation in smart_ptr.hpp
-- `releaser`: Performs releaser operation in smart_ptr.hpp
-- `unique_ptr_with_ondestroy`: Performs unique_ptr_with_ondestroy operation in smart_ptr.hpp
+- **`array_ptr`**: Container class managing collection of array ptr
+- **`unique_ptr_with_ondestroy`**: Implements unique ptr with ondestroy functionality
+- **`file_closer`**: Implements file closer functionality
+- **`ptr_setter`**: Implements ptr setter functionality
+- **`releaser`**: Implements releaser functionality
+- **`nop_deleter`**: Implements nop deleter functionality
+
 ### Key Functions
-- `reset()`: Performs reset operation in smart_ptr.hpp
-- `data()`: We don't need a strong guarantee here, so it's better to reduce memory usage
-- `get_data()`: Retrieves _data value in smart_ptr.hpp
-- `size()`: We don't need a strong guarantee here, so it's better to reduce memory usage
-- `empty()`: We don't need a strong guarantee here, so it's better to reduce memory usage
-- `bool()`: Performs bool operation in smart_ptr.hpp
-- `begin()`: Performs begin operation in smart_ptr.hpp
-- `end()`: Performs end operation in smart_ptr.hpp
-- `cbegin()`: Performs cbegin operation in smart_ptr.hpp
-- `cend()`: Performs cend operation in smart_ptr.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`make_raii_wrapper()`**: Executes make raii wrapper operation
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `smart_ptr.hpp` file provides essential functionality for core functionality. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `smart_ptr.hpp` file is essential for core functionality. It defines 6 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `array_ptr`: Performs array_ptr operation in smart_ptr.hpp
-- `block_ptr`: Storage for variable size structs, e.g. with data following the struct in the memory block
-- `file_closer`: Performs file_closer operation in smart_ptr.hpp
-- `nop_deleter`: Performs nop_deleter operation in smart_ptr.hpp
-- `ptr_setter`: Performs ptr_setter operation in smart_ptr.hpp
-- `releaser`: Performs releaser operation in smart_ptr.hpp
-- `unique_ptr_with_ondestroy`: Performs unique_ptr_with_ondestroy operation in smart_ptr.hpp
+- **`array_ptr`**: Container class managing collection of array ptr
+- **`unique_ptr_with_ondestroy`**: Implements unique ptr with ondestroy functionality
+- **`file_closer`**: Implements file closer functionality
+- **`ptr_setter`**: Implements ptr setter functionality
+- **`releaser`**: Implements releaser functionality
+- **`nop_deleter`**: Implements nop deleter functionality
+
 ### Kluczowe Funkcje
-- `reset()`: Performs reset operation in smart_ptr.hpp
-- `data()`: We don't need a strong guarantee here, so it's better to reduce memory usage
-- `get_data()`: Retrieves _data value in smart_ptr.hpp
-- `size()`: We don't need a strong guarantee here, so it's better to reduce memory usage
-- `empty()`: We don't need a strong guarantee here, so it's better to reduce memory usage
-- `bool()`: Performs bool operation in smart_ptr.hpp
-- `begin()`: Performs begin operation in smart_ptr.hpp
-- `end()`: Performs end operation in smart_ptr.hpp
-- `cbegin()`: Performs cbegin operation in smart_ptr.hpp
-- `cend()`: Performs cend operation in smart_ptr.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`make_raii_wrapper()`**: Executes make raii wrapper operation
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `smart_ptr.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `smart_ptr.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 6 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

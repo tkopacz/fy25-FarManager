@@ -1,36 +1,39 @@
 # EditCase.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: text editing
+EditCase is Far Manager plugin. It allows to change the case of selected text
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `FindBounds()`: What we consider as letter
-- `FindEnd()`: Current character is letter!
-- `FindStart()`: Performs FindStart operation in EditCase.cpp
-- `MyIsAlpha()`: Performs MyIsAlpha operation in EditCase.cpp
-- `GetNextCCType()`: Put converted letter back to string
-- `ChangeCase()`: Performs ChangeCase operation in EditCase.cpp
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in EditCase.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in EditCase.cpp
-- `plugSettings()`: Performs plugSettings operation in EditCase.cpp
-- `OpenW()`: Performs OpenW operation in EditCase.cpp
+- **`FindBounds()`**: Executes find bounds operation
+- **`FindEnd()`**: Executes find end operation
+- **`FindStart()`**: Executes find start operation
+- **`MyIsAlpha()`**: Executes my is alpha operation
+- **`GetNextCCType()`**: Retrieves the current next cctype value
+- **`ChangeCase()`**: Executes change case operation
+
 ### Summary
-The `EditCase.cpp` file provides essential functionality for text editing. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `EditCase.cpp` file is essential for core functionality. It implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: edycja tekstu
+EditCase is Far Manager plugin. It allows to change the case of selected text
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `FindBounds()`: What we consider as letter
-- `FindEnd()`: Current character is letter!
-- `FindStart()`: Performs FindStart operation in EditCase.cpp
-- `MyIsAlpha()`: Performs MyIsAlpha operation in EditCase.cpp
-- `GetNextCCType()`: Put converted letter back to string
-- `ChangeCase()`: Performs ChangeCase operation in EditCase.cpp
-- `GetGlobalInfoW()`: Retrieves GlobalInfoW value in EditCase.cpp
-- `SetStartupInfoW()`: Sets or updates StartupInfoW value in EditCase.cpp
-- `plugSettings()`: Performs plugSettings operation in EditCase.cpp
-- `OpenW()`: Performs OpenW operation in EditCase.cpp
+- **`FindBounds()`**: Executes find bounds operation
+- **`FindEnd()`**: Executes find end operation
+- **`FindStart()`**: Executes find start operation
+- **`MyIsAlpha()`**: Executes my is alpha operation
+- **`GetNextCCType()`**: Retrieves the current next cctype value
+- **`ChangeCase()`**: Executes change case operation
+
 ### Podsumowanie
-Plik `EditCase.cpp` zapewnia podstawową funkcjonalność dla edycja tekstu. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `EditCase.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

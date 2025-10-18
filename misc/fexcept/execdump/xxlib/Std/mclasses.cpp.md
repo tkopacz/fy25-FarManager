@@ -1,30 +1,19 @@
 # mclasses.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `MyStringSortProc()`: Performs MyStringSortProc operation in mclasses.cpp
-- `MyStringSearchProc()`: Performs MyStringSearchProc operation in mclasses.cpp
-- `MyStringIncSearchProc()`: Performs MyStringIncSearchProc operation in mclasses.cpp
-- `MyStringSearchCharProc()`: Performs MyStringSearchCharProc operation in mclasses.cpp
-- `MyStringIncSearchCharProc()`: Performs MyStringIncSearchCharProc operation in mclasses.cpp
-- `s()`: Performs s operation in mclasses.cpp
-- `Search()`: Performs Search operation in mclasses.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `mclasses.cpp` file provides essential functionality for core functionality. and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `mclasses.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `MyStringSortProc()`: Performs MyStringSortProc operation in mclasses.cpp
-- `MyStringSearchProc()`: Performs MyStringSearchProc operation in mclasses.cpp
-- `MyStringIncSearchProc()`: Performs MyStringIncSearchProc operation in mclasses.cpp
-- `MyStringSearchCharProc()`: Performs MyStringSearchCharProc operation in mclasses.cpp
-- `MyStringIncSearchCharProc()`: Performs MyStringIncSearchCharProc operation in mclasses.cpp
-- `s()`: Performs s operation in mclasses.cpp
-- `Search()`: Performs Search operation in mclasses.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `mclasses.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mclasses.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

@@ -1,48 +1,57 @@
 # filefilterparams.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Параметры Файлового фильтра
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `FileFilterParams`: Performs FileFilterParams operation in filefilterparams.hpp
-- `filter_area`: Performs filter_area operation in filefilterparams.hpp
-- `filter_dates`: Performs filter_dates operation in filefilterparams.hpp
-- `fmask`: Performs fmask operation in filefilterparams.hpp
+- **`filter_dates`**: Enumeration defining possible values for filter dates
+- **`FileFilterParams`**: Implements file filter params functionality
+- **`fmask`**: Implements fmask functionality
+
 ### Key Functions
-- `filter_dates()`: Performs filter_dates operation in filefilterparams.hpp
-- `bool()`: Performs bool operation in filefilterparams.hpp
-- `Clone()`: Performs Clone operation in filefilterparams.hpp
-- `SetTitle()`: Sets or updates Title value in filefilterparams.hpp
-- `SetMask()`: Sets or updates Mask value in filefilterparams.hpp
-- `SetDate()`: Sets or updates Date value in filefilterparams.hpp
-- `SetSize()`: Sets or updates Size value in filefilterparams.hpp
-- `SetHardLinks()`: Sets or updates HardLinks value in filefilterparams.hpp
-- `SetAttr()`: Sets or updates Attr value in filefilterparams.hpp
-- `SetColors()`: Sets or updates Colors value in filefilterparams.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`FileFilterConfig()`**: Executes file filter config operation
+- **`MenuString()`**: Executes menu string operation
+- **`FileFilterParams::Clone()`**: Executes clone operation
+- **`FileFilterParams::SetTitle()`**: Updates the title with a new value
+- **`FileFilterParams::SetMask()`**: Updates the mask with a new value
+- **`FileFilterParams::SetDate()`**: Updates the date with a new value
+- **`FileFilterParams::SetSize()`**: Updates the size with a new value
+- **`FileFilterParams::SetHardLinks()`**: Updates the hard links with a new value
+- **`FileFilterParams::SetAttr()`**: Updates the attr with a new value
+- **`FileFilterParams::SetColors()`**: Updates the colors with a new value
+- **`FileFilterParams::SetSortGroup()`**: Updates the sort group with a new value
+
 ### Summary
-The `filefilterparams.hpp` file provides essential functionality for file system operations. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `filefilterparams.hpp` file is essential for file operations. It defines 3 class(es) and implements 12 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Параметры Файлового фильтра
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `FileFilterParams`: Performs FileFilterParams operation in filefilterparams.hpp
-- `filter_area`: Performs filter_area operation in filefilterparams.hpp
-- `filter_dates`: Performs filter_dates operation in filefilterparams.hpp
-- `fmask`: Performs fmask operation in filefilterparams.hpp
+- **`filter_dates`**: Enumeration defining possible values for filter dates
+- **`FileFilterParams`**: Implements file filter params functionality
+- **`fmask`**: Implements fmask functionality
+
 ### Kluczowe Funkcje
-- `filter_dates()`: Performs filter_dates operation in filefilterparams.hpp
-- `bool()`: Performs bool operation in filefilterparams.hpp
-- `Clone()`: Performs Clone operation in filefilterparams.hpp
-- `SetTitle()`: Sets or updates Title value in filefilterparams.hpp
-- `SetMask()`: Sets or updates Mask value in filefilterparams.hpp
-- `SetDate()`: Sets or updates Date value in filefilterparams.hpp
-- `SetSize()`: Sets or updates Size value in filefilterparams.hpp
-- `SetHardLinks()`: Sets or updates HardLinks value in filefilterparams.hpp
-- `SetAttr()`: Sets or updates Attr value in filefilterparams.hpp
-- `SetColors()`: Sets or updates Colors value in filefilterparams.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`FileFilterConfig()`**: Executes file filter config operation
+- **`MenuString()`**: Executes menu string operation
+- **`FileFilterParams::Clone()`**: Executes clone operation
+- **`FileFilterParams::SetTitle()`**: Updates the title with a new value
+- **`FileFilterParams::SetMask()`**: Updates the mask with a new value
+- **`FileFilterParams::SetDate()`**: Updates the date with a new value
+- **`FileFilterParams::SetSize()`**: Updates the size with a new value
+- **`FileFilterParams::SetHardLinks()`**: Updates the hard links with a new value
+- **`FileFilterParams::SetAttr()`**: Updates the attr with a new value
+- **`FileFilterParams::SetColors()`**: Updates the colors with a new value
+- **`FileFilterParams::SetSortGroup()`**: Updates the sort group with a new value
+
 ### Podsumowanie
-Plik `filefilterparams.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `filefilterparams.hpp` jest niezbędny dla operacji na plikach. Definiuje 3 klas(y) i implementuje 12 funkcji wspierających operacje menedżera plików Far Manager.

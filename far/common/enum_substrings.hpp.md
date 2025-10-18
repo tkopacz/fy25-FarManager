@@ -1,18 +1,19 @@
 # enum_substrings.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
-### Key Functions
-- `enum_substrings()`: Enumerator for string1\0string2\0string3\0...stringN\0\0
+This file implements functionality for string manipulation and utilities.
+
 ### Summary
-The `enum_substrings.hpp` file provides essential functionality for string utilities. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `enum_substrings.hpp` file is essential for string manipulation and utilities. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
-### Kluczowe Funkcje
-- `enum_substrings()`: Enumerator for string1\0string2\0string3\0...stringN\0\0
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Podsumowanie
-Plik `enum_substrings.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `enum_substrings.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. wspierających operacje menedżera plików Far Manager.

@@ -1,42 +1,49 @@
 # panelmix.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Commonly used panel related functions
-Main functional areas: panel management
+This file implements functionality for panel display and management.
+
 ### Key Classes
-- `column_info`: Performs column_info operation in panelmix.cpp
+- **`column_info`**: Implements column info functionality
+
 ### Key Functions
-- `ShellUpdatePanels()`: Performs ShellUpdatePanels operation in panelmix.cpp
-- `CheckUpdateAnotherPanel()`: if(AnotherPanel->NeedUpdatePanel(SrcPanel))
-- `MakePath()`: Checks a condition in panelmix.cpp and returns true or false based on the result
-- `MakePathForUI()`: Checks a condition in panelmix.cpp and returns true or false based on the result
-- `EnumWidths()`: Performs EnumWidths operation in panelmix.cpp
-- `EnumWidthsRange()`: Performs EnumWidthsRange operation in panelmix.cpp
-- `FormatStr_Attribute()`: Iterates through elements in panelmix.cpp and adds them to a collection
-- `FormatStr_DateTime()`: Iterates through elements in panelmix.cpp and adds them to a collection
-- `fit_to_right()`: Performs fit_to_right operation in panelmix.cpp
-- `FormatStr_Size()`: Performs FormatStr_Size operation in panelmix.cpp
+- **`ShellUpdatePanels()`**: Executes shell update panels operation
+- **`CheckUpdateAnotherPanel()`**: Executes check update another panel operation
+- **`MakePath()`**: Executes make path operation
+- **`MakePathForUI()`**: Executes make path for ui operation
+- **`DeserialiseViewSettings()`**: Executes deserialise view settings operation
+- **`SerialiseViewSettings()`**: Executes serialise view settings operation
+- **`FormatStr_Attribute()`**: Executes format str attribute operation
+- **`FormatStr_DateTime()`**: Executes format str date time operation
+- **`FormatStr_Size()`**: Executes format str size operation
+- **`GetDefaultWidth()`**: Retrieves the current default width value
+
 ### Summary
-The `panelmix.cpp` file provides essential functionality for panel management. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `panelmix.cpp` file is essential for panel display and management. It defines 1 class(es) and implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Commonly used panel related functions
-Główne obszary funkcjonalne: zarządzanie panelami
+Ten plik implementuje funkcjonalność dla wyświetlania i zarządzania panelami.
+
 ### Kluczowe Klasy
-- `column_info`: Performs column_info operation in panelmix.cpp
+- **`column_info`**: Implements column info functionality
+
 ### Kluczowe Funkcje
-- `ShellUpdatePanels()`: Performs ShellUpdatePanels operation in panelmix.cpp
-- `CheckUpdateAnotherPanel()`: if(AnotherPanel->NeedUpdatePanel(SrcPanel))
-- `MakePath()`: Checks a condition in panelmix.cpp and returns true or false based on the result
-- `MakePathForUI()`: Checks a condition in panelmix.cpp and returns true or false based on the result
-- `EnumWidths()`: Performs EnumWidths operation in panelmix.cpp
-- `EnumWidthsRange()`: Performs EnumWidthsRange operation in panelmix.cpp
-- `FormatStr_Attribute()`: Iterates through elements in panelmix.cpp and adds them to a collection
-- `FormatStr_DateTime()`: Iterates through elements in panelmix.cpp and adds them to a collection
-- `fit_to_right()`: Performs fit_to_right operation in panelmix.cpp
-- `FormatStr_Size()`: Performs FormatStr_Size operation in panelmix.cpp
+- **`ShellUpdatePanels()`**: Executes shell update panels operation
+- **`CheckUpdateAnotherPanel()`**: Executes check update another panel operation
+- **`MakePath()`**: Executes make path operation
+- **`MakePathForUI()`**: Executes make path for ui operation
+- **`DeserialiseViewSettings()`**: Executes deserialise view settings operation
+- **`SerialiseViewSettings()`**: Executes serialise view settings operation
+- **`FormatStr_Attribute()`**: Executes format str attribute operation
+- **`FormatStr_DateTime()`**: Executes format str date time operation
+- **`FormatStr_Size()`**: Executes format str size operation
+- **`GetDefaultWidth()`**: Retrieves the current default width value
+
 ### Podsumowanie
-Plik `panelmix.cpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `panelmix.cpp` jest niezbędny dla wyświetlania i zarządzania panelami. Definiuje 1 klas(y) i implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

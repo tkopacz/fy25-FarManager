@@ -1,48 +1,71 @@
 # keyboard.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Функции, имеющие отношение к клавиатуре
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `FarKey`: Performs FarKey operation in keyboard.hpp
-- `FarKeyboardState`: Performs FarKeyboardState operation in keyboard.hpp
-- `implementation`: Performs implementation operation in keyboard.hpp
-- `keyboard_repeat_emulation`: Performs keyboard_repeat_emulation operation in keyboard.hpp
+- **`FarKeyboardState`**: Implements far keyboard state functionality
+- **`keyboard_repeat_emulation`**: Implements keyboard repeat emulation functionality
+
 ### Key Functions
-- `ClearKeyQueue()`: Performs ClearKeyQueue operation in keyboard.hpp
-- `main_loop_process_messages()`: Main entry point in keyboard.hpp that starts program execution
-- `AltPressed()`: только что был ввод Alt-Цифира?
-- `CtrlPressed()`: только что был ввод Alt-Цифира?
-- `ShiftPressed()`: только что был ввод Alt-Цифира?
-- `OnlyAltPressed()`: только что был ввод Alt-Цифира?
-- `OnlyCtrlPressed()`: только что был ввод Alt-Цифира?
-- `OnlyShiftPressed()`: только что был ввод Alt-Цифира?
-- `OnlyAltShiftPressed()`: Performs OnlyAltShiftPressed operation in keyboard.hpp
-- `OnlyCtrlShiftPressed()`: Performs OnlyCtrlShiftPressed operation in keyboard.hpp
+- **`ClearKeyQueue()`**: Executes clear key queue operation
+- **`main_loop_process_messages()`**: Executes main loop process messages operation
+- **`InitKeysArray()`**: Executes init keys array operation
+- **`KeyToKeyLayoutCompare()`**: Executes key to key layout compare operation
+- **`KeyToKeyLayout()`**: Executes key to key layout operation
+- **`IsMouseButtonPressed()`**: Checks whether mouse button pressed condition is true
+- **`while_mouse_button_pressed()`**: Executes while mouse button pressed operation
+- **`IsMouseButtonEvent()`**: Checks whether mouse button event condition is true
+- **`get_wheel_threshold()`**: Retrieves the current wheel threshold value
+- **`get_wheel_scroll_lines()`**: Retrieves the current wheel scroll lines value
+- **`get_wheel_scroll_chars()`**: Retrieves the current wheel scroll chars value
+- **`TranslateKeyToVK()`**: Executes translate key to vk operation
+- **`KeyNameToKey()`**: Executes key name to key operation
+- **`InputRecordToText()`**: Executes input record to text operation
+- **`KeyToText()`**: Executes key to text operation
+- **`KeyToLocalizedText()`**: Executes key to localized text operation
+- **`KeysListToLocalizedText()`**: Executes keys list to localized text operation
+- **`KeysToLocalizedText()`**: Executes keys to localized text operation
+- **`KeyToInputRecord()`**: Executes key to input record operation
+- **`FarKeyToInputRecord()`**: Executes far key to input record operation
+
 ### Summary
-The `keyboard.hpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `keyboard.hpp` file is essential for core functionality. It defines 2 class(es) and implements 37 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Функции, имеющие отношение к клавиатуре
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `FarKey`: Performs FarKey operation in keyboard.hpp
-- `FarKeyboardState`: Performs FarKeyboardState operation in keyboard.hpp
-- `implementation`: Performs implementation operation in keyboard.hpp
-- `keyboard_repeat_emulation`: Performs keyboard_repeat_emulation operation in keyboard.hpp
+- **`FarKeyboardState`**: Implements far keyboard state functionality
+- **`keyboard_repeat_emulation`**: Implements keyboard repeat emulation functionality
+
 ### Kluczowe Funkcje
-- `ClearKeyQueue()`: Performs ClearKeyQueue operation in keyboard.hpp
-- `main_loop_process_messages()`: Main entry point in keyboard.hpp that starts program execution
-- `AltPressed()`: только что был ввод Alt-Цифира?
-- `CtrlPressed()`: только что был ввод Alt-Цифира?
-- `ShiftPressed()`: только что был ввод Alt-Цифира?
-- `OnlyAltPressed()`: только что был ввод Alt-Цифира?
-- `OnlyCtrlPressed()`: только что был ввод Alt-Цифира?
-- `OnlyShiftPressed()`: только что был ввод Alt-Цифира?
-- `OnlyAltShiftPressed()`: Performs OnlyAltShiftPressed operation in keyboard.hpp
-- `OnlyCtrlShiftPressed()`: Performs OnlyCtrlShiftPressed operation in keyboard.hpp
+- **`ClearKeyQueue()`**: Executes clear key queue operation
+- **`main_loop_process_messages()`**: Executes main loop process messages operation
+- **`InitKeysArray()`**: Executes init keys array operation
+- **`KeyToKeyLayoutCompare()`**: Executes key to key layout compare operation
+- **`KeyToKeyLayout()`**: Executes key to key layout operation
+- **`IsMouseButtonPressed()`**: Checks whether mouse button pressed condition is true
+- **`while_mouse_button_pressed()`**: Executes while mouse button pressed operation
+- **`IsMouseButtonEvent()`**: Checks whether mouse button event condition is true
+- **`get_wheel_threshold()`**: Retrieves the current wheel threshold value
+- **`get_wheel_scroll_lines()`**: Retrieves the current wheel scroll lines value
+- **`get_wheel_scroll_chars()`**: Retrieves the current wheel scroll chars value
+- **`TranslateKeyToVK()`**: Executes translate key to vk operation
+- **`KeyNameToKey()`**: Executes key name to key operation
+- **`InputRecordToText()`**: Executes input record to text operation
+- **`KeyToText()`**: Executes key to text operation
+- **`KeyToLocalizedText()`**: Executes key to localized text operation
+- **`KeysListToLocalizedText()`**: Executes keys list to localized text operation
+- **`KeysToLocalizedText()`**: Executes keys to localized text operation
+- **`KeyToInputRecord()`**: Executes key to input record operation
+- **`FarKeyToInputRecord()`**: Executes far key to input record operation
+
 ### Podsumowanie
-Plik `keyboard.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `keyboard.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 37 funkcji wspierających operacje menedżera plików Far Manager.

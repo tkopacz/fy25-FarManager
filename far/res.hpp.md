@@ -1,14 +1,23 @@
 # res.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+validator: no-bom
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `res.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `res.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+validator: no-bom
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `res.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `res.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

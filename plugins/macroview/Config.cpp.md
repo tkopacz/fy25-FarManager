@@ -1,14 +1,19 @@
 # Config.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: configuration management
+This file implements functionality for configuration management.
+
 ### Summary
-The `Config.cpp` file provides essential functionality for configuration management. to support the Far Manager file manager operations.
+The `Config.cpp` file is essential for configuration management. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie konfiguracją
+Ten plik implementuje funkcjonalność dla zarządzania konfiguracją.
+
 ### Podsumowanie
-Plik `Config.cpp` zapewnia podstawową funkcjonalność dla zarządzanie konfiguracją. wspierających operacje menedżera plików Far Manager.
+Plik `Config.cpp` jest niezbędny dla zarządzania konfiguracją. wspierających operacje menedżera plików Far Manager.

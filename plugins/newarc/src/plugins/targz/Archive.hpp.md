@@ -1,36 +1,53 @@
 # Archive.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArchiveBase`: Performs ArchiveBase operation in Archive.hpp
-- `ArchiveDetect`: Performs ArchiveDetect operation in Archive.hpp
-- `ArchiveGzip`: Performs ArchiveGzip operation in Archive.hpp
-- `ArchiveOne`: Performs ArchiveOne operation in Archive.hpp
-- `CpioBase`: Performs CpioBase operation in Archive.hpp
-- `TarBase`: Performs TarBase operation in Archive.hpp
+- **`ArchiveBase`**: Implements archive base functionality
+- **`ArchiveOne`**: Implements archive one functionality
+- **`ArchiveGzip`**: Implements archive gzip functionality
+- **`ArchiveDetect`**: Implements archive detect functionality
+- **`TarBase`**: Implements tar base functionality
+- **`CpioBase`**: Implements cpio base functionality
+
 ### Key Functions
-- `Next()`: Performs Next operation in Archive.hpp
-- `Extract()`: Performs Extract operation in Archive.hpp
-- `Read()`: Performs Read operation in Archive.hpp
+- **`ArchiveOne::Next()`**: Executes next operation
+- **`ArchiveOne::Extract()`**: Executes extract operation
+- **`ArchiveGzip::ArchiveOne()`**: Executes archive one operation
+- **`TarBase::Next()`**: Executes next operation
+- **`TarBase::Extract()`**: Executes extract operation
+- **`CpioBase::Next()`**: Executes next operation
+- **`CpioBase::Extract()`**: Executes extract operation
+
 ### Summary
-The `Archive.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `Archive.hpp` file is essential for core functionality. It defines 6 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArchiveBase`: Performs ArchiveBase operation in Archive.hpp
-- `ArchiveDetect`: Performs ArchiveDetect operation in Archive.hpp
-- `ArchiveGzip`: Performs ArchiveGzip operation in Archive.hpp
-- `ArchiveOne`: Performs ArchiveOne operation in Archive.hpp
-- `CpioBase`: Performs CpioBase operation in Archive.hpp
-- `TarBase`: Performs TarBase operation in Archive.hpp
+- **`ArchiveBase`**: Implements archive base functionality
+- **`ArchiveOne`**: Implements archive one functionality
+- **`ArchiveGzip`**: Implements archive gzip functionality
+- **`ArchiveDetect`**: Implements archive detect functionality
+- **`TarBase`**: Implements tar base functionality
+- **`CpioBase`**: Implements cpio base functionality
+
 ### Kluczowe Funkcje
-- `Next()`: Performs Next operation in Archive.hpp
-- `Extract()`: Performs Extract operation in Archive.hpp
-- `Read()`: Performs Read operation in Archive.hpp
+- **`ArchiveOne::Next()`**: Executes next operation
+- **`ArchiveOne::Extract()`**: Executes extract operation
+- **`ArchiveGzip::ArchiveOne()`**: Executes archive one operation
+- **`TarBase::Next()`**: Executes next operation
+- **`TarBase::Extract()`**: Executes extract operation
+- **`CpioBase::Next()`**: Executes next operation
+- **`CpioBase::Extract()`**: Executes extract operation
+
 ### Podsumowanie
-Plik `Archive.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Archive.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 6 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

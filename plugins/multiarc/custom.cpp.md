@@ -1,50 +1,59 @@
 # custom.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Meta`: Performs Meta operation in custom.cpp
-- `MetaReplacer`: Performs MetaReplacer operation in custom.cpp
-- `StringList`: Performs StringList operation in custom.cpp
+- **`StringList`**: Container class managing collection of string
+- **`MetaReplacer`**: Implements meta replacer functionality
+- **`Meta`**: Implements meta functionality
+
 ### Key Functions
-- `OpenArchivePipe()`: Performs OpenArchivePipe operation in custom.cpp
-- `GetString()`: Retrieves String value in custom.cpp
-- `HexCharToNum()`: Performs HexCharToNum operation in custom.cpp
-- `GetSectionName()`: Checks a condition in custom.cpp and returns true or false based on the result
-- `GetIniString()`: Checks a condition in custom.cpp and returns true or false based on the result
-- `GetIniInt()`: Checks a condition in custom.cpp and returns true or false based on the result
-- `FillFormat()`: Performs FillFormat operation in custom.cpp
-- `MakeFiletime()`: Performs MakeFiletime operation in custom.cpp
-- `StringToInt()`: Performs StringToInt operation in custom.cpp
-- `StringToInt64()`: Performs StringToInt64 operation in custom.cpp
-### Namespaces
-- `PCRE`
+- **`GetString()`**: Retrieves the current string value
+- **`HexCharToNum()`**: Executes hex char to num operation
+- **`GetSectionName()`**: Retrieves the current section name value
+- **`GetIniString()`**: Retrieves the current ini string value
+- **`GetIniInt()`**: Retrieves the current ini int value
+- **`FillFormat()`**: Executes fill format operation
+- **`MakeFiletime()`**: Executes make filetime operation
+- **`StringToInt()`**: Executes string to int operation
+- **`StringToInt64()`**: Executes string to int64 operation
+- **`StringToIntHex()`**: Executes string to int hex operation
+- **`ParseListingItemRegExp()`**: Executes parse listing item reg exp operation
+- **`ParseListingItemPlain()`**: Executes parse listing item plain operation
+- **`StringList::pNext()`**: Executes p next operation
+
 ### Summary
-The `custom.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `custom.cpp` file is essential for core functionality. It defines 3 class(es) and implements 13 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Meta`: Performs Meta operation in custom.cpp
-- `MetaReplacer`: Performs MetaReplacer operation in custom.cpp
-- `StringList`: Performs StringList operation in custom.cpp
+- **`StringList`**: Container class managing collection of string
+- **`MetaReplacer`**: Implements meta replacer functionality
+- **`Meta`**: Implements meta functionality
+
 ### Kluczowe Funkcje
-- `OpenArchivePipe()`: Performs OpenArchivePipe operation in custom.cpp
-- `GetString()`: Retrieves String value in custom.cpp
-- `HexCharToNum()`: Performs HexCharToNum operation in custom.cpp
-- `GetSectionName()`: Checks a condition in custom.cpp and returns true or false based on the result
-- `GetIniString()`: Checks a condition in custom.cpp and returns true or false based on the result
-- `GetIniInt()`: Checks a condition in custom.cpp and returns true or false based on the result
-- `FillFormat()`: Performs FillFormat operation in custom.cpp
-- `MakeFiletime()`: Performs MakeFiletime operation in custom.cpp
-- `StringToInt()`: Performs StringToInt operation in custom.cpp
-- `StringToInt64()`: Performs StringToInt64 operation in custom.cpp
-### Przestrzenie nazw
-- `PCRE`
+- **`GetString()`**: Retrieves the current string value
+- **`HexCharToNum()`**: Executes hex char to num operation
+- **`GetSectionName()`**: Retrieves the current section name value
+- **`GetIniString()`**: Retrieves the current ini string value
+- **`GetIniInt()`**: Retrieves the current ini int value
+- **`FillFormat()`**: Executes fill format operation
+- **`MakeFiletime()`**: Executes make filetime operation
+- **`StringToInt()`**: Executes string to int operation
+- **`StringToInt64()`**: Executes string to int64 operation
+- **`StringToIntHex()`**: Executes string to int hex operation
+- **`ParseListingItemRegExp()`**: Executes parse listing item reg exp operation
+- **`ParseListingItemPlain()`**: Executes parse listing item plain operation
+- **`StringList::pNext()`**: Executes p next operation
+
 ### Podsumowanie
-Plik `custom.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `custom.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 13 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,20 +1,25 @@
 # farlng2.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Key Functions
-- `GetCodePage()`: Retrieves CodePage value in farlng2.cpp
-- `ParseString()`: Performs ParseString operation in farlng2.cpp
+- **`GetCodePage()`**: Retrieves the current code page value
+
 ### Summary
-The `farlng2.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `farlng2.cpp` file is essential for language file processing and localization. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Kluczowe Funkcje
-- `GetCodePage()`: Retrieves CodePage value in farlng2.cpp
-- `ParseString()`: Performs ParseString operation in farlng2.cpp
+- **`GetCodePage()`**: Retrieves the current code page value
+
 ### Podsumowanie
-Plik `farlng2.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `farlng2.cpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

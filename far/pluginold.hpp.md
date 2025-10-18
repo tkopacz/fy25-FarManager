@@ -1,40 +1,59 @@
 # pluginold.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Key Classes
-- `ActlKeyMacro`: Performs ActlKeyMacro operation in pluginold.hpp
-- `CharTableSet`: Performs CharTableSet operation in pluginold.hpp
-- `CmdLineSelect`: Performs CmdLineSelect operation in pluginold.hpp
-- `EditorBookMarks`: Performs EditorBookMarks operation in pluginold.hpp
-- `EditorColor`: Performs EditorColor operation in pluginold.hpp
-- `EditorConvertPos`: Performs EditorConvertPos operation in pluginold.hpp
-- `EditorConvertText`: Performs EditorConvertText operation in pluginold.hpp
-- `EditorGetString`: Performs EditorGetString operation in pluginold.hpp
-- `EditorInfo`: Performs EditorInfo operation in pluginold.hpp
-- `EditorSaveFile`: Performs EditorSaveFile operation in pluginold.hpp
+- **`FarListItem`**: Container class managing collection of far item
+- **`FarListUpdate`**: Container class managing collection of far update
+- **`FarListInsert`**: Container class managing collection of far insert
+- **`FarListGetItem`**: Container class managing collection of far get item
+- **`FarListPos`**: Container class managing collection of far pos
+- **`FarListFind`**: Container class managing collection of far find
+- **`FarListDelete`**: Container class managing collection of far delete
+- **`FarListInfo`**: Container class managing collection of far info
+- **`FarListItemData`**: Container class managing collection of far item data
+- **`FarList`**: Container class managing collection of far
+- **`FarListTitles`**: Container class managing collection of far titles
+- **`FarListColors`**: Container class managing collection of far colors
+- **`FarDialogItem`**: Implements far dialog item functionality
+- **`FarDialogItemData`**: Implements far dialog item data functionality
+- **`FarDialogEvent`**: Implements far dialog event functionality
+
 ### Namespaces
 - `oldfar`
+
 ### Summary
-The `pluginold.hpp` file provides essential functionality for plugin interface. It defines 52 class(es) to support the Far Manager file manager operations.
+The `pluginold.hpp` file is essential for plugin system and extension management. It defines 52 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Klasy
-- `ActlKeyMacro`: Performs ActlKeyMacro operation in pluginold.hpp
-- `CharTableSet`: Performs CharTableSet operation in pluginold.hpp
-- `CmdLineSelect`: Performs CmdLineSelect operation in pluginold.hpp
-- `EditorBookMarks`: Performs EditorBookMarks operation in pluginold.hpp
-- `EditorColor`: Performs EditorColor operation in pluginold.hpp
-- `EditorConvertPos`: Performs EditorConvertPos operation in pluginold.hpp
-- `EditorConvertText`: Performs EditorConvertText operation in pluginold.hpp
-- `EditorGetString`: Performs EditorGetString operation in pluginold.hpp
-- `EditorInfo`: Performs EditorInfo operation in pluginold.hpp
-- `EditorSaveFile`: Performs EditorSaveFile operation in pluginold.hpp
+- **`FarListItem`**: Container class managing collection of far item
+- **`FarListUpdate`**: Container class managing collection of far update
+- **`FarListInsert`**: Container class managing collection of far insert
+- **`FarListGetItem`**: Container class managing collection of far get item
+- **`FarListPos`**: Container class managing collection of far pos
+- **`FarListFind`**: Container class managing collection of far find
+- **`FarListDelete`**: Container class managing collection of far delete
+- **`FarListInfo`**: Container class managing collection of far info
+- **`FarListItemData`**: Container class managing collection of far item data
+- **`FarList`**: Container class managing collection of far
+- **`FarListTitles`**: Container class managing collection of far titles
+- **`FarListColors`**: Container class managing collection of far colors
+- **`FarDialogItem`**: Implements far dialog item functionality
+- **`FarDialogItemData`**: Implements far dialog item data functionality
+- **`FarDialogEvent`**: Implements far dialog event functionality
+
 ### Przestrzenie nazw
 - `oldfar`
+
 ### Podsumowanie
-Plik `pluginold.hpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 52 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `pluginold.hpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Definiuje 52 klas(y) wspierających operacje menedżera plików Far Manager.

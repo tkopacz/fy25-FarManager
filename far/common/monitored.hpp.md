@@ -1,26 +1,25 @@
 # monitored.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `monitored`: Performs monitored operation in monitored.hpp
-### Key Functions
-- `value()`: Performs value operation in monitored.hpp
-- `touched()`: Performs touched operation in monitored.hpp
-- `forget()`: Performs forget operation in monitored.hpp
+- **`monitored`**: Implements monitored functionality
+
 ### Summary
-The `monitored.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `monitored.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `monitored`: Performs monitored operation in monitored.hpp
-### Kluczowe Funkcje
-- `value()`: Performs value operation in monitored.hpp
-- `touched()`: Performs touched operation in monitored.hpp
-- `forget()`: Performs forget operation in monitored.hpp
+- **`monitored`**: Implements monitored functionality
+
 ### Podsumowanie
-Plik `monitored.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `monitored.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

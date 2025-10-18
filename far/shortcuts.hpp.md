@@ -1,44 +1,33 @@
 # shortcuts.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Folder shortcuts
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Shortcuts`: Performs Shortcuts operation in shortcuts.hpp
-- `VMenu2`: Performs VMenu2 operation in shortcuts.hpp
-- `data`: Performs data operation in shortcuts.hpp
-- `menu_item_ex`: Performs menu_item_ex operation in shortcuts.hpp
-- `shortcut`: Performs shortcut operation in shortcuts.hpp
+- **`Shortcuts`**: Enumeration defining possible values for shortcuts
+- **`data`**: Enumeration defining possible values for data
+
 ### Key Functions
-- `Shortcuts()`: Performs Shortcuts operation in shortcuts.hpp
-- `Get()`: Retrieves  value in shortcuts.hpp
-- `Add()`: Performs Add operation in shortcuts.hpp
-- `Configure()`: Performs Configure operation in shortcuts.hpp
-- `Enumerator()`: Performs Enumerator operation in shortcuts.hpp
-- `GetOne()`: Retrieves One value in shortcuts.hpp
-- `Save()`: Performs Save operation in shortcuts.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+
 ### Summary
-The `shortcuts.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `shortcuts.hpp` file is essential for core functionality. It defines 2 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Folder shortcuts
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Shortcuts`: Performs Shortcuts operation in shortcuts.hpp
-- `VMenu2`: Performs VMenu2 operation in shortcuts.hpp
-- `data`: Performs data operation in shortcuts.hpp
-- `menu_item_ex`: Performs menu_item_ex operation in shortcuts.hpp
-- `shortcut`: Performs shortcut operation in shortcuts.hpp
+- **`Shortcuts`**: Enumeration defining possible values for shortcuts
+- **`data`**: Enumeration defining possible values for data
+
 ### Kluczowe Funkcje
-- `Shortcuts()`: Performs Shortcuts operation in shortcuts.hpp
-- `Get()`: Retrieves  value in shortcuts.hpp
-- `Add()`: Performs Add operation in shortcuts.hpp
-- `Configure()`: Performs Configure operation in shortcuts.hpp
-- `Enumerator()`: Performs Enumerator operation in shortcuts.hpp
-- `GetOne()`: Retrieves One value in shortcuts.hpp
-- `Save()`: Performs Save operation in shortcuts.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+
 ### Podsumowanie
-Plik `shortcuts.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `shortcuts.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

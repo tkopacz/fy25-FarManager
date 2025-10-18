@@ -1,50 +1,75 @@
 # customact.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for MSI installer custom actions.
+
 ### Key Classes
-- `Buffer`: Template class that manages a dynamically allocated array with automatic cleanup
-- `ComInit`: RAII wrapper that calls CoInitialize on construction and CoUninitialize on destruction to manage COM library initialization
-- `Error`: Structure that holds error information including code, message, file, and line number for exception handling
-- `NonCopyable`: Base class that prevents copying by making copy constructor and assignment operator private
+- **`Error`**: Error information container for error failures
+- **`NonCopyable`**: Implements non copyable functionality
+- **`Buffer`**: Template class managing dynamically allocated array with automatic memory cleanup
+- **`ComInit`**: RAII wrapper managing com init initialization and cleanup lifecycle
+
 ### Key Functions
-- `DllMain()`: Stores the module handle when the DLL is loaded by the system for later use in finding resources
-- `FAIL()`: Creates and throws an Error structure with a code to abort execution on failure conditions
-- `FAIL_MSG()`: Creates and throws an Error structure with a custom message to abort execution with specific error details
-- `CHECK_SYS()`: Verifies a Windows system call succeeded, throwing an error with the Win32 error code if it failed
-- `CHECK_ADVSYS()`: Verifies a Windows advanced API call returned ERROR_SUCCESS, throwing an HRESULT error if it failed
-- `CHECK_COM()`: Verifies a COM method call succeeded by checking the HRESULT, throwing an error if it failed
-- `CHECK()`: Verifies a boolean condition is true, throwing an error with the condition text if it is false
-- `resize()`: Reallocates the internal buffer to a new size, deleting the old buffer first
-- `data()`: Returns a pointer to the internal buffer array for direct access
-- `size()`: Returns the current size of the buffer in number of elements
-### Namespaces
-- `std`
+- **`widen()`**: Executes widen operation
+- **`int_to_str()`**: Executes int to str operation
+- **`hex()`**: Executes hex operation
+- **`unhex()`**: Executes unhex operation
+- **`hex_str()`**: Executes hex str operation
+- **`get_system_message()`**: Retrieves the current system message value
+- **`get_shortcut_props()`**: Retrieves the current shortcut props value
+- **`set_shortcut_props()`**: Updates the shortcut props with a new value
+- **`get_field()`**: Retrieves the current field value
+- **`get_property()`**: Retrieves the current property value
+- **`add_trailing_slash()`**: Executes add trailing slash operation
+- **`is_installed()`**: Checks whether installed condition is true
+- **`is_component_installed()`**: Checks whether component installed condition is true
+- **`is_feature_installed()`**: Checks whether feature installed condition is true
+- **`get_shortcut_list()`**: Retrieves the current shortcut list value
+- **`init_progress()`**: Executes init progress operation
+- **`update_progress()`**: Executes update progress operation
+- **`get_error_message()`**: Retrieves the current error message value
+- **`log_message()`**: Executes log message operation
+- **`save_shortcut_props()`**: Executes save shortcut props operation
+
 ### Summary
-The `customact.cpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `customact.cpp` file is essential for MSI installer custom actions. It defines 4 class(es) and implements 25 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla niestandardowych akcji instalatora MSI.
+
 ### Kluczowe Klasy
-- `Buffer`: Template class that manages a dynamically allocated array with automatic cleanup
-- `ComInit`: RAII wrapper that calls CoInitialize on construction and CoUninitialize on destruction to manage COM library initialization
-- `Error`: Structure that holds error information including code, message, file, and line number for exception handling
-- `NonCopyable`: Base class that prevents copying by making copy constructor and assignment operator private
+- **`Error`**: Error information container for error failures
+- **`NonCopyable`**: Implements non copyable functionality
+- **`Buffer`**: Template class managing dynamically allocated array with automatic memory cleanup
+- **`ComInit`**: RAII wrapper managing com init initialization and cleanup lifecycle
+
 ### Kluczowe Funkcje
-- `DllMain()`: Stores the module handle when the DLL is loaded by the system for later use in finding resources
-- `FAIL()`: Creates and throws an Error structure with a code to abort execution on failure conditions
-- `FAIL_MSG()`: Creates and throws an Error structure with a custom message to abort execution with specific error details
-- `CHECK_SYS()`: Verifies a Windows system call succeeded, throwing an error with the Win32 error code if it failed
-- `CHECK_ADVSYS()`: Verifies a Windows advanced API call returned ERROR_SUCCESS, throwing an HRESULT error if it failed
-- `CHECK_COM()`: Verifies a COM method call succeeded by checking the HRESULT, throwing an error if it failed
-- `CHECK()`: Verifies a boolean condition is true, throwing an error with the condition text if it is false
-- `resize()`: Reallocates the internal buffer to a new size, deleting the old buffer first
-- `data()`: Returns a pointer to the internal buffer array for direct access
-- `size()`: Returns the current size of the buffer in number of elements
-### Przestrzenie nazw
-- `std`
+- **`widen()`**: Executes widen operation
+- **`int_to_str()`**: Executes int to str operation
+- **`hex()`**: Executes hex operation
+- **`unhex()`**: Executes unhex operation
+- **`hex_str()`**: Executes hex str operation
+- **`get_system_message()`**: Retrieves the current system message value
+- **`get_shortcut_props()`**: Retrieves the current shortcut props value
+- **`set_shortcut_props()`**: Updates the shortcut props with a new value
+- **`get_field()`**: Retrieves the current field value
+- **`get_property()`**: Retrieves the current property value
+- **`add_trailing_slash()`**: Executes add trailing slash operation
+- **`is_installed()`**: Checks whether installed condition is true
+- **`is_component_installed()`**: Checks whether component installed condition is true
+- **`is_feature_installed()`**: Checks whether feature installed condition is true
+- **`get_shortcut_list()`**: Retrieves the current shortcut list value
+- **`init_progress()`**: Executes init progress operation
+- **`update_progress()`**: Executes update progress operation
+- **`get_error_message()`**: Retrieves the current error message value
+- **`log_message()`**: Executes log message operation
+- **`save_shortcut_props()`**: Executes save shortcut props operation
+
 ### Podsumowanie
-Plik `customact.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `customact.cpp` jest niezbędny dla niestandardowych akcji instalatora MSI. Definiuje 4 klas(y) i implementuje 25 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,66 +1,99 @@
 # config.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Конфигурация
-Main functional areas: configuration management
+This file implements functionality for configuration management.
+
 ### Key Classes
-- `AutoCompleteOptions`: Performs AutoCompleteOptions operation in config.hpp
-- `CodeXLAT`: Performs CodeXLAT operation in config.hpp
-- `CommandLineOptions`: Performs CommandLineOptions operation in config.hpp
-- `Confirmation`: Performs Confirmation operation in config.hpp
-- `CopyMoveOptions`: Performs CopyMoveOptions operation in config.hpp
-- `DeleteOptions`: Deletes or removes an item or resource in config.hpp
-- `DialogBuilder`: Performs DialogBuilder operation in config.hpp
-- `DialogsOptions`: Performs DialogsOptions operation in config.hpp
-- `DizOptions`: Performs DizOptions operation in config.hpp
-- `EditorOptions`: Performs EditorOptions operation in config.hpp
+- **`Option`**: Implements option functionality
+- **`validator_tag`**: Implements validator tag functionality
+- **`notifier_tag`**: Implements notifier tag functionality
+- **`OptionImpl`**: Implements option impl functionality
+- **`config_type`**: Enumeration defining possible values for config type
+- **`SortingOptions`**: Implements sorting options functionality
+- **`collation`**: Implements collation functionality
+- **`PanelOptions`**: Enumeration defining possible values for panel options
+- **`AutoCompleteOptions`**: Enumeration defining possible values for auto complete options
+- **`PluginConfirmation`**: Implements plugin confirmation functionality
+- **`Confirmation`**: Implements confirmation functionality
+- **`DizOptions`**: Implements diz options functionality
+- **`CodeXLAT`**: Implements code xlat functionality
+- **`EditorOptions`**: Implements editor options functionality
+- **`ViewerOptions`**: Implements viewer options functionality
+
 ### Key Functions
-- `Changed()`: Performs Changed operation in config.hpp
-- `GetT()`: Retrieves T value in config.hpp
-- `SetT()`: Sets or updates T value in config.hpp
-- `MakeUnchanged()`: Performs MakeUnchanged operation in config.hpp
-- `validator()`: Performs validator operation in config.hpp
-- `Callable()`: Performs Callable operation in config.hpp
-- `notifier()`: Performs notifier operation in config.hpp
-- `SetCallback()`: Sets or updates Callback value in config.hpp
-- `Get()`: Retrieves  value in config.hpp
-- `Set()`: Sets or updates  value in config.hpp
+- **`GetFarIniString()`**: Retrieves the current far ini string value
+- **`GetFarIniInt()`**: Retrieves the current far ini int value
+- **`GetRedrawTimeout()`**: Retrieves the current redraw timeout value
+- **`Option::toString()`**: Executes to string operation
+- **`Option::TryParse()`**: Executes try parse operation
+- **`Option::ExInfo()`**: Executes ex info operation
+- **`Option::GetType()`**: Retrieves the current type value
+- **`Option::IsDefault()`**: Checks whether default condition is true
+- **`Option::SetDefault()`**: Updates the default with a new value
+- **`Option::Edit()`**: Executes edit operation
+- **`Option::Export()`**: Executes export operation
+- **`Option::Changed()`**: Executes changed operation
+- **`OptionImpl::SetCallback()`**: Updates the callback with a new value
+- **`EditorOptions::ViewerConfig()`**: Executes viewer config operation
+- **`ViewerOptions::ViewerConfig()`**: Executes viewer config operation
+- **`DialogsOptions::списка()`**: Executes списка operation
+- **`TreeOptions::defined()`**: Executes defined operation
+
 ### Namespaces
-- `detail`
 - `option`
+- `detail`
+
 ### Summary
-The `config.hpp` file provides essential functionality for configuration management. It defines 42 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `config.hpp` file is essential for configuration management. It defines 31 class(es) and implements 17 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Конфигурация
-Główne obszary funkcjonalne: zarządzanie konfiguracją
+Ten plik implementuje funkcjonalność dla zarządzania konfiguracją.
+
 ### Kluczowe Klasy
-- `AutoCompleteOptions`: Performs AutoCompleteOptions operation in config.hpp
-- `CodeXLAT`: Performs CodeXLAT operation in config.hpp
-- `CommandLineOptions`: Performs CommandLineOptions operation in config.hpp
-- `Confirmation`: Performs Confirmation operation in config.hpp
-- `CopyMoveOptions`: Performs CopyMoveOptions operation in config.hpp
-- `DeleteOptions`: Deletes or removes an item or resource in config.hpp
-- `DialogBuilder`: Performs DialogBuilder operation in config.hpp
-- `DialogsOptions`: Performs DialogsOptions operation in config.hpp
-- `DizOptions`: Performs DizOptions operation in config.hpp
-- `EditorOptions`: Performs EditorOptions operation in config.hpp
+- **`Option`**: Implements option functionality
+- **`validator_tag`**: Implements validator tag functionality
+- **`notifier_tag`**: Implements notifier tag functionality
+- **`OptionImpl`**: Implements option impl functionality
+- **`config_type`**: Enumeration defining possible values for config type
+- **`SortingOptions`**: Implements sorting options functionality
+- **`collation`**: Implements collation functionality
+- **`PanelOptions`**: Enumeration defining possible values for panel options
+- **`AutoCompleteOptions`**: Enumeration defining possible values for auto complete options
+- **`PluginConfirmation`**: Implements plugin confirmation functionality
+- **`Confirmation`**: Implements confirmation functionality
+- **`DizOptions`**: Implements diz options functionality
+- **`CodeXLAT`**: Implements code xlat functionality
+- **`EditorOptions`**: Implements editor options functionality
+- **`ViewerOptions`**: Implements viewer options functionality
+
 ### Kluczowe Funkcje
-- `Changed()`: Performs Changed operation in config.hpp
-- `GetT()`: Retrieves T value in config.hpp
-- `SetT()`: Sets or updates T value in config.hpp
-- `MakeUnchanged()`: Performs MakeUnchanged operation in config.hpp
-- `validator()`: Performs validator operation in config.hpp
-- `Callable()`: Performs Callable operation in config.hpp
-- `notifier()`: Performs notifier operation in config.hpp
-- `SetCallback()`: Sets or updates Callback value in config.hpp
-- `Get()`: Retrieves  value in config.hpp
-- `Set()`: Sets or updates  value in config.hpp
+- **`GetFarIniString()`**: Retrieves the current far ini string value
+- **`GetFarIniInt()`**: Retrieves the current far ini int value
+- **`GetRedrawTimeout()`**: Retrieves the current redraw timeout value
+- **`Option::toString()`**: Executes to string operation
+- **`Option::TryParse()`**: Executes try parse operation
+- **`Option::ExInfo()`**: Executes ex info operation
+- **`Option::GetType()`**: Retrieves the current type value
+- **`Option::IsDefault()`**: Checks whether default condition is true
+- **`Option::SetDefault()`**: Updates the default with a new value
+- **`Option::Edit()`**: Executes edit operation
+- **`Option::Export()`**: Executes export operation
+- **`Option::Changed()`**: Executes changed operation
+- **`OptionImpl::SetCallback()`**: Updates the callback with a new value
+- **`EditorOptions::ViewerConfig()`**: Executes viewer config operation
+- **`ViewerOptions::ViewerConfig()`**: Executes viewer config operation
+- **`DialogsOptions::списка()`**: Executes списка operation
+- **`TreeOptions::defined()`**: Executes defined operation
+
 ### Przestrzenie nazw
-- `detail`
 - `option`
+- `detail`
+
 ### Podsumowanie
-Plik `config.hpp` zapewnia podstawową funkcjonalność dla zarządzanie konfiguracją. Definiuje 42 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `config.hpp` jest niezbędny dla zarządzania konfiguracją. Definiuje 31 klas(y) i implementuje 17 funkcji wspierających operacje menedżera plików Far Manager.

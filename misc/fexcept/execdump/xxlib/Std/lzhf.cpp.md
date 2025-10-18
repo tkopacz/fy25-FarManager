@@ -1,34 +1,35 @@
 # lzhf.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `iFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `oFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- **`iFile`**: Implements i file functionality
+- **`oFile`**: Implements o file functionality
+
 ### Key Functions
-- `BlockReady()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `LZHFileReadHeader()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `s()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `LZHFileCompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `os()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `LZHFileDecompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- **`iFile::BlockReady()`**: Executes block ready operation
+- **`oFile::BlockReady()`**: Executes block ready operation
+
 ### Summary
-The `lzhf.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
+The `lzhf.cpp` file is essential for core functionality. It defines 2 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `iFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `oFile`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- **`iFile`**: Implements i file functionality
+- **`oFile`**: Implements o file functionality
+
 ### Kluczowe Funkcje
-- `BlockReady()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `LZHFileReadHeader()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `s()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `LZHFileCompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `os()`: Checks a condition in lzhf.cpp and returns true or false based on the result
-- `LZHFileDecompress()`: Checks a condition in lzhf.cpp and returns true or false based on the result
+- **`iFile::BlockReady()`**: Executes block ready operation
+- **`oFile::BlockReady()`**: Executes block ready operation
+
 ### Podsumowanie
-Plik `lzhf.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `lzhf.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

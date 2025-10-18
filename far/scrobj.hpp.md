@@ -1,48 +1,45 @@
 # scrobj.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Parent class для всех screen objects
-Main functional areas: screen operations
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `SaveScreen`: Performs SaveScreen operation in scrobj.hpp
-- `ScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
-- `ScreenObjectWithShadow`: Performs ScreenObjectWithShadow operation in scrobj.hpp
-- `SimpleScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
+- **`SimpleScreenObject`**: Enumeration defining possible values for simple screen object
+- **`ScreenObject`**: Implements screen object functionality
+- **`ScreenObjectWithShadow`**: Implements screen object with shadow functionality
+
 ### Key Functions
-- `ProcessKey()`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
-- `ProcessMouse()`: Processes input data in scrobj.hpp
-- `Hide()`: Performs Hide operation in scrobj.hpp
-- `Show()`: Performs Show operation in scrobj.hpp
-- `ShowConsoleTitle()`: Performs ShowConsoleTitle operation in scrobj.hpp
-- `SetPosition()`: Sets or updates Position value in scrobj.hpp
-- `GetPosition()`: Retrieves Position value in scrobj.hpp
-- `SetScreenPosition()`: Sets or updates ScreenPosition value in scrobj.hpp
-- `ResizeConsole()`: Performs ResizeConsole operation in scrobj.hpp
-- `VMProcess()`: Performs VMProcess operation in scrobj.hpp
+- **`SimpleScreenObject::ProcessKey()`**: Executes process key operation
+- **`ScreenObject::SetPosition()`**: Updates the position with a new value
+- **`ScreenObject::Show()`**: Executes show operation
+- **`ScreenObject::Hide()`**: Executes hide operation
+- **`ScreenObject::HideButKeepSaveScreen()`**: Executes hide but keep save screen operation
+- **`ScreenObjectWithShadow::Hide()`**: Executes hide operation
+
 ### Summary
-The `scrobj.hpp` file provides essential functionality for screen operations. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `scrobj.hpp` file is essential for core functionality. It defines 3 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Parent class для всех screen objects
-Główne obszary funkcjonalne: operacje ekranowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `SaveScreen`: Performs SaveScreen operation in scrobj.hpp
-- `ScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
-- `ScreenObjectWithShadow`: Performs ScreenObjectWithShadow operation in scrobj.hpp
-- `SimpleScreenObject`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
+- **`SimpleScreenObject`**: Enumeration defining possible values for simple screen object
+- **`ScreenObject`**: Implements screen object functionality
+- **`ScreenObjectWithShadow`**: Implements screen object with shadow functionality
+
 ### Kluczowe Funkcje
-- `ProcessKey()`: можно использовать только младший байт (т.е. маска 0x000000FF), остальное отдается порожденным классам
-- `ProcessMouse()`: Processes input data in scrobj.hpp
-- `Hide()`: Performs Hide operation in scrobj.hpp
-- `Show()`: Performs Show operation in scrobj.hpp
-- `ShowConsoleTitle()`: Performs ShowConsoleTitle operation in scrobj.hpp
-- `SetPosition()`: Sets or updates Position value in scrobj.hpp
-- `GetPosition()`: Retrieves Position value in scrobj.hpp
-- `SetScreenPosition()`: Sets or updates ScreenPosition value in scrobj.hpp
-- `ResizeConsole()`: Performs ResizeConsole operation in scrobj.hpp
-- `VMProcess()`: Performs VMProcess operation in scrobj.hpp
+- **`SimpleScreenObject::ProcessKey()`**: Executes process key operation
+- **`ScreenObject::SetPosition()`**: Updates the position with a new value
+- **`ScreenObject::Show()`**: Executes show operation
+- **`ScreenObject::Hide()`**: Executes hide operation
+- **`ScreenObject::HideButKeepSaveScreen()`**: Executes hide but keep save screen operation
+- **`ScreenObjectWithShadow::Hide()`**: Executes hide operation
+
 ### Podsumowanie
-Plik `scrobj.hpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `scrobj.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

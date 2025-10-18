@@ -1,32 +1,35 @@
 # options.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ExternalCodec`: Performs ExternalCodec operation in options.hpp
-- `LoadedFromXML`: Performs LoadedFromXML operation in options.hpp
-- `Options`: Performs Options operation in options.hpp
+- **`ExternalCodec`**: Implements external codec functionality
+- **`Options`**: Implements options functionality
+- **`LoadedFromXML`**: Implements loaded from xml functionality
+
 ### Key Functions
-- `reset()`: Performs reset operation in options.hpp
-- `load()`: Performs load operation in options.hpp
-- `save()`: Performs save operation in options.hpp
-- `get_app_option()`: Retrieves _app_option value in options.hpp
+- **`get_app_option()`**: Retrieves the current app option value
+
 ### Summary
-The `options.hpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `options.hpp` file is essential for core functionality. It defines 3 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ExternalCodec`: Performs ExternalCodec operation in options.hpp
-- `LoadedFromXML`: Performs LoadedFromXML operation in options.hpp
-- `Options`: Performs Options operation in options.hpp
+- **`ExternalCodec`**: Implements external codec functionality
+- **`Options`**: Implements options functionality
+- **`LoadedFromXML`**: Implements loaded from xml functionality
+
 ### Kluczowe Funkcje
-- `reset()`: Performs reset operation in options.hpp
-- `load()`: Performs load operation in options.hpp
-- `save()`: Performs save operation in options.hpp
-- `get_app_option()`: Retrieves _app_option value in options.hpp
+- **`get_app_option()`**: Retrieves the current app option value
+
 ### Podsumowanie
-Plik `options.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `options.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

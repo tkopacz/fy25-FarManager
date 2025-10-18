@@ -1,20 +1,27 @@
 # FarZlib.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `InitZlib()`: Initializes data structures and prepares for operation in FarZlib.cpp
-- `CloseZlib()`: Performs CloseZlib operation in FarZlib.cpp
+- **`InitZlib()`**: Executes init zlib operation
+- **`CloseZlib()`**: Executes close zlib operation
+
 ### Summary
-The `FarZlib.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `FarZlib.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `InitZlib()`: Initializes data structures and prepares for operation in FarZlib.cpp
-- `CloseZlib()`: Performs CloseZlib operation in FarZlib.cpp
+- **`InitZlib()`**: Executes init zlib operation
+- **`CloseZlib()`**: Executes close zlib operation
+
 ### Podsumowanie
-Plik `FarZlib.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarZlib.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

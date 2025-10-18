@@ -1,48 +1,73 @@
 # Compare.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `FileIndex`: Performs FileIndex operation in Compare.cpp
-- `FileName`: Performs FileName operation in Compare.cpp
-- `InitDialogItem`: Initializes data structures and prepares for operation in Compare.cpp
-- `Options`: Performs Options operation in Compare.cpp
-- `OwnPanelInfo`: Performs OwnPanelInfo operation in Compare.cpp
+- **`Options`**: Implements options functionality
+- **`OwnPanelInfo`**: Implements own panel info functionality
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`FileName`**: Implements file name functionality
+- **`FileIndex`**: Implements file index functionality
+
 ### Key Functions
-- `WFD2FFD()`: Performs WFD2FFD operation in Compare.cpp
-- `GetSetting()`: Retrieves Setting value in Compare.cpp
-- `SplitCopy()`: Performs SplitCopy operation in Compare.cpp
-- `ShowMessageRaw()`: Performs ShowMessageRaw operation in Compare.cpp
-- `ShowMessage()`: Performs ShowMessage operation in Compare.cpp
-- `ShowMessageWhenComparingContents()`: Performs ShowMessageWhenComparingContents operation in Compare.cpp
-- `ShowDialogProc()`: Performs ShowDialogProc operation in Compare.cpp
-- `ShowDialog()`: Performs ShowDialog operation in Compare.cpp
-- `settings()`: Sets or updates tings value in Compare.cpp
-- `CheckForEsc()`: Checks a condition in Compare.cpp and returns true or false based on the result
+- **`WFD2FFD()`**: Executes wfd2ffd operation
+- **`GetSetting()`**: Retrieves the current setting value
+- **`SplitCopy()`**: Executes split copy operation
+- **`ShowMessageRaw()`**: Executes show message raw operation
+- **`ShowMessage()`**: Executes show message operation
+- **`ShowMessageWhenComparingContents()`**: Executes show message when comparing contents operation
+- **`ShowDialog()`**: Executes show dialog operation
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`FileName()`**: Executes file name operation
+- **`BuildPanelIndex()`**: Executes build panel index operation
+- **`FreePanelIndex()`**: Executes free panel index operation
+- **`GetDirList()`**: Retrieves the current dir list value
+- **`FreeDirList()`**: Executes free dir list operation
+- **`CompareDirs()`**: Executes compare dirs operation
+- **`isnewline()`**: Checks whether newline condition is true
+- **`CompareFiles()`**: Executes compare files operation
+- **`GetPanelItem()`**: Retrieves the current panel item value
+- **`FreePanelItems()`**: Executes free panel items operation
+
 ### Summary
-The `Compare.cpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `Compare.cpp` file is essential for core functionality. It defines 5 class(es) and implements 18 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `FileIndex`: Performs FileIndex operation in Compare.cpp
-- `FileName`: Performs FileName operation in Compare.cpp
-- `InitDialogItem`: Initializes data structures and prepares for operation in Compare.cpp
-- `Options`: Performs Options operation in Compare.cpp
-- `OwnPanelInfo`: Performs OwnPanelInfo operation in Compare.cpp
+- **`Options`**: Implements options functionality
+- **`OwnPanelInfo`**: Implements own panel info functionality
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`FileName`**: Implements file name functionality
+- **`FileIndex`**: Implements file index functionality
+
 ### Kluczowe Funkcje
-- `WFD2FFD()`: Performs WFD2FFD operation in Compare.cpp
-- `GetSetting()`: Retrieves Setting value in Compare.cpp
-- `SplitCopy()`: Performs SplitCopy operation in Compare.cpp
-- `ShowMessageRaw()`: Performs ShowMessageRaw operation in Compare.cpp
-- `ShowMessage()`: Performs ShowMessage operation in Compare.cpp
-- `ShowMessageWhenComparingContents()`: Performs ShowMessageWhenComparingContents operation in Compare.cpp
-- `ShowDialogProc()`: Performs ShowDialogProc operation in Compare.cpp
-- `ShowDialog()`: Performs ShowDialog operation in Compare.cpp
-- `settings()`: Sets or updates tings value in Compare.cpp
-- `CheckForEsc()`: Checks a condition in Compare.cpp and returns true or false based on the result
+- **`WFD2FFD()`**: Executes wfd2ffd operation
+- **`GetSetting()`**: Retrieves the current setting value
+- **`SplitCopy()`**: Executes split copy operation
+- **`ShowMessageRaw()`**: Executes show message raw operation
+- **`ShowMessage()`**: Executes show message operation
+- **`ShowMessageWhenComparingContents()`**: Executes show message when comparing contents operation
+- **`ShowDialog()`**: Executes show dialog operation
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`FileName()`**: Executes file name operation
+- **`BuildPanelIndex()`**: Executes build panel index operation
+- **`FreePanelIndex()`**: Executes free panel index operation
+- **`GetDirList()`**: Retrieves the current dir list value
+- **`FreeDirList()`**: Executes free dir list operation
+- **`CompareDirs()`**: Executes compare dirs operation
+- **`isnewline()`**: Checks whether newline condition is true
+- **`CompareFiles()`**: Executes compare files operation
+- **`GetPanelItem()`**: Retrieves the current panel item value
+- **`FreePanelItems()`**: Executes free panel items operation
+
 ### Podsumowanie
-Plik `Compare.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Compare.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 5 klas(y) i implementuje 18 funkcji wspierających operacje menedżera plików Far Manager.

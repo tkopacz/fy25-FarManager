@@ -1,40 +1,47 @@
 # codepage.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `installed_codepages`: Performs installed_codepages operation in codepage.cpp
+- **`installed_codepages`**: Implements installed codepages functionality
+
 ### Key Functions
-- `GetACP()`: Retrieves ACP value in codepage.cpp
-- `GetOEMCP()`: Retrieves OEMCP value in codepage.cpp
-- `oem()`: Performs oem operation in codepage.cpp
-- `ansi()`: Performs ansi operation in codepage.cpp
-- `extract_codepage_name()`: Performs extract_codepage_name operation in codepage.cpp
-- `callback()`: Validates a condition in codepage.cpp and throws an exception if the validation fails
-- `enum_cp_callback()`: Validates a condition in codepage.cpp and throws an exception if the validation fails
-- `cpp_try()`: Validates a condition in codepage.cpp and throws an exception if the validation fails
-- `get_installed_codepages()`: Retrieves _installed_codepages value in codepage.cpp
-- `InstalledCodepages()`: Performs InstalledCodepages operation in codepage.cpp
+- **`extract_codepage_name()`**: Executes extract codepage name operation
+- **`get_codepage_info()`**: Retrieves the current codepage info value
+- **`get_installed_codepages()`**: Retrieves the current installed codepages value
+- **`IsCodePageSupported()`**: Checks whether code page supported condition is true
+- **`IsVirtualCodePage()`**: Checks whether virtual code page condition is true
+- **`IsUtf16CodePage()`**: Checks whether utf16code page condition is true
+- **`IsStandardCodePage()`**: Checks whether standard code page condition is true
+- **`IsUtfCodePage()`**: Checks whether utf code page condition is true
+- **`ShortReadableCodepageName()`**: Executes short readable codepage name operation
+
 ### Summary
-The `codepage.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `codepage.cpp` file is essential for core functionality. It defines 1 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `installed_codepages`: Performs installed_codepages operation in codepage.cpp
+- **`installed_codepages`**: Implements installed codepages functionality
+
 ### Kluczowe Funkcje
-- `GetACP()`: Retrieves ACP value in codepage.cpp
-- `GetOEMCP()`: Retrieves OEMCP value in codepage.cpp
-- `oem()`: Performs oem operation in codepage.cpp
-- `ansi()`: Performs ansi operation in codepage.cpp
-- `extract_codepage_name()`: Performs extract_codepage_name operation in codepage.cpp
-- `callback()`: Validates a condition in codepage.cpp and throws an exception if the validation fails
-- `enum_cp_callback()`: Validates a condition in codepage.cpp and throws an exception if the validation fails
-- `cpp_try()`: Validates a condition in codepage.cpp and throws an exception if the validation fails
-- `get_installed_codepages()`: Retrieves _installed_codepages value in codepage.cpp
-- `InstalledCodepages()`: Performs InstalledCodepages operation in codepage.cpp
+- **`extract_codepage_name()`**: Executes extract codepage name operation
+- **`get_codepage_info()`**: Retrieves the current codepage info value
+- **`get_installed_codepages()`**: Retrieves the current installed codepages value
+- **`IsCodePageSupported()`**: Checks whether code page supported condition is true
+- **`IsVirtualCodePage()`**: Checks whether virtual code page condition is true
+- **`IsUtf16CodePage()`**: Checks whether utf16code page condition is true
+- **`IsStandardCodePage()`**: Checks whether standard code page condition is true
+- **`IsUtfCodePage()`**: Checks whether utf code page condition is true
+- **`ShortReadableCodepageName()`**: Executes short readable codepage name operation
+
 ### Podsumowanie
-Plik `codepage.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `codepage.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

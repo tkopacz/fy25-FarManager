@@ -1,16 +1,19 @@
 # platform.headers.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Platform headers
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Summary
-The `platform.headers.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `platform.headers.hpp` file is essential for platform-specific operations. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Platform headers
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Podsumowanie
-Plik `platform.headers.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `platform.headers.hpp` jest niezbędny dla operacji specyficznych dla platformy. wspierających operacje menedżera plików Far Manager.

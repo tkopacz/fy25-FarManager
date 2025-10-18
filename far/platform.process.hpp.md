@@ -1,44 +1,33 @@
 # platform.process.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `enum_process_entry`: Performs enum_process_entry operation in platform.process.hpp
-- `image_type`: Performs image_type operation in platform.process.hpp
-### Key Functions
-- `get_process_subsystem()`: Retrieves _process_subsystem value in platform.process.hpp
-- `get_process_name()`: Retrieves _process_name value in platform.process.hpp
-- `enumerate_locking_processes_rm()`: Performs enumerate_locking_processes_rm operation in platform.process.hpp
-- `enumerate_locking_processes_nt()`: Performs enumerate_locking_processes_nt operation in platform.process.hpp
-- `enum_processes()`: Performs enum_processes operation in platform.process.hpp
-- `get()`: Retrieves  value in platform.process.hpp
-- `terminate_other()`: Performs terminate_other operation in platform.process.hpp
-- `terminate()`: Performs terminate operation in platform.process.hpp
+- **`image_type`**: Implements image type functionality
+- **`enum_process_entry`**: Enumeration defining possible values for enum process entry
+
 ### Namespaces
 - `os`
+
 ### Summary
-The `platform.process.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
+The `platform.process.hpp` file is essential for platform-specific operations. It defines 2 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `enum_process_entry`: Performs enum_process_entry operation in platform.process.hpp
-- `image_type`: Performs image_type operation in platform.process.hpp
-### Kluczowe Funkcje
-- `get_process_subsystem()`: Retrieves _process_subsystem value in platform.process.hpp
-- `get_process_name()`: Retrieves _process_name value in platform.process.hpp
-- `enumerate_locking_processes_rm()`: Performs enumerate_locking_processes_rm operation in platform.process.hpp
-- `enumerate_locking_processes_nt()`: Performs enumerate_locking_processes_nt operation in platform.process.hpp
-- `enum_processes()`: Performs enum_processes operation in platform.process.hpp
-- `get()`: Retrieves  value in platform.process.hpp
-- `terminate_other()`: Performs terminate_other operation in platform.process.hpp
-- `terminate()`: Performs terminate operation in platform.process.hpp
+- **`image_type`**: Implements image type functionality
+- **`enum_process_entry`**: Enumeration defining possible values for enum process entry
+
 ### Przestrzenie nazw
 - `os`
+
 ### Podsumowanie
-Plik `platform.process.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.process.hpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.

@@ -1,44 +1,33 @@
 # treelist.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Tree panel
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `TreeItem`: Performs TreeItem operation in treelist.hpp
-- `private_tag`: Performs private_tag operation in treelist.hpp
+- **`private_tag`**: Enumeration defining possible values for private tag
+- **`TreeItem`**: Enumeration defining possible values for tree item
+
 ### Key Functions
-- `string_view()`: Performs string_view operation in treelist.hpp
-- `create()`: Creates and initializes a new object or resource in treelist.hpp
-- `ProcessKey()`: Processes input data in treelist.hpp
-- `ProcessMouse()`: Processes input data in treelist.hpp
-- `GoToFile()`: Performs GoToFile operation in treelist.hpp
-- `FindPartName()`: Performs FindPartName operation in treelist.hpp
-- `Update()`: Updates existing data or state in treelist.hpp
-- `GetCurDir()`: Retrieves CurDir value in treelist.hpp
-- `SetRootDir()`: Sets or updates RootDir value in treelist.hpp
-- `ProcessEnter()`: Processes input data in treelist.hpp
+- **`TreeItem::Last()`**: Executes last operation
+
 ### Summary
-The `treelist.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `treelist.hpp` file is essential for core functionality. It defines 2 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Tree panel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `TreeItem`: Performs TreeItem operation in treelist.hpp
-- `private_tag`: Performs private_tag operation in treelist.hpp
+- **`private_tag`**: Enumeration defining possible values for private tag
+- **`TreeItem`**: Enumeration defining possible values for tree item
+
 ### Kluczowe Funkcje
-- `string_view()`: Performs string_view operation in treelist.hpp
-- `create()`: Creates and initializes a new object or resource in treelist.hpp
-- `ProcessKey()`: Processes input data in treelist.hpp
-- `ProcessMouse()`: Processes input data in treelist.hpp
-- `GoToFile()`: Performs GoToFile operation in treelist.hpp
-- `FindPartName()`: Performs FindPartName operation in treelist.hpp
-- `Update()`: Updates existing data or state in treelist.hpp
-- `GetCurDir()`: Retrieves CurDir value in treelist.hpp
-- `SetRootDir()`: Sets or updates RootDir value in treelist.hpp
-- `ProcessEnter()`: Processes input data in treelist.hpp
+- **`TreeItem::Last()`**: Executes last operation
+
 ### Podsumowanie
-Plik `treelist.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `treelist.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

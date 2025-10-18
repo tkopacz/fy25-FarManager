@@ -1,22 +1,19 @@
 # mu_cp.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `Eng2Rus()`: Performs Eng2Rus operation in mu_cp.cpp
-- `Rus2Eng()`: Performs Rus2Eng operation in mu_cp.cpp
-- `Rus2CP()`: Performs Rus2CP operation in mu_cp.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `mu_cp.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `mu_cp.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `Eng2Rus()`: Performs Eng2Rus operation in mu_cp.cpp
-- `Rus2Eng()`: Performs Rus2Eng operation in mu_cp.cpp
-- `Rus2CP()`: Performs Rus2CP operation in mu_cp.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `mu_cp.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mu_cp.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

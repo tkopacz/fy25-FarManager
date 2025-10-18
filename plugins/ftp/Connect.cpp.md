@@ -1,22 +1,31 @@
 # Connect.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+<local> [<remote>]
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `s()`: Performs s operation in Connect.cpp
-- `encode_UTF8()`: Checks a condition in Connect.cpp and returns true or false based on the result
-- `decode_UTF8()`: Performs decode_UTF8 operation in Connect.cpp
+- **`encode_UTF8()`**: Executes encode utf8 operation
+- **`decode_UTF8()`**: Executes decode utf8 operation
+
 ### Summary
-The `Connect.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `Connect.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+<local> [<remote>]
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `s()`: Performs s operation in Connect.cpp
-- `encode_UTF8()`: Checks a condition in Connect.cpp and returns true or false based on the result
-- `decode_UTF8()`: Performs decode_UTF8 operation in Connect.cpp
+- **`encode_UTF8()`**: Executes encode utf8 operation
+- **`decode_UTF8()`**: Executes decode utf8 operation
+
 ### Podsumowanie
-Plik `Connect.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Connect.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

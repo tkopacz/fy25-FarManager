@@ -1,58 +1,65 @@
 # color_picker.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Standard color picker
-Main functional areas: color management
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `color_state`: Performs color_state operation in color_picker.cpp
-- `single_color_state`: Performs single_color_state operation in color_picker.cpp
+- **`single_color_state`**: Implements single color state functionality
+- **`color_state`**: Implements color state functionality
+
 ### Key Functions
-- `color_code()`: Performs color_code operation in color_picker.cpp
-- `fg_item()`: Performs fg_item operation in color_picker.cpp
-- `bg_item()`: Performs bg_item operation in color_picker.cpp
-- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc value in color_picker.cpp
-- `refresh_fg()`: Performs refresh_fg operation in color_picker.cpp
-- `refresh_bg()`: Performs refresh_bg operation in color_picker.cpp
-- `GetColorDlgProc()`: Checks a condition in color_picker.cpp and returns true or false based on the result
-- `scd_item()`: Performs scd_item operation in color_picker.cpp
-- `activate_control()`: Checks a condition in color_picker.cpp and returns true or false based on the result
-- `disable_if_needed()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- **`color_code()`**: Executes color code operation
+- **`parse_color()`**: Executes parse color operation
+- **`get_control_id()`**: Retrieves the current control id value
+- **`activate_control()`**: Executes activate control operation
+- **`disable_if_needed()`**: Executes disable if needed operation
+- **`pick_color_single()`**: Executes pick color single operation
+- **`GetColorDialog()`**: Retrieves the current color dialog value
+- **`single_color_state::GetSingleColorDlgProc()`**: Retrieves the current single color dlg proc value
+- **`color_state::refresh_fg()`**: Executes refresh fg operation
+
 ### Namespaces
-- `cb`
-- `cd`
 - `color_basic`
+- `cb`
 - `color_dialog`
-- `scd`
+- `cd`
 - `single_color_dialog`
+- `scd`
+
 ### Summary
-The `color_picker.cpp` file provides essential functionality for color management. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `color_picker.cpp` file is essential for core functionality. It defines 2 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Standard color picker
-Główne obszary funkcjonalne: zarządzanie kolorami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `color_state`: Performs color_state operation in color_picker.cpp
-- `single_color_state`: Performs single_color_state operation in color_picker.cpp
+- **`single_color_state`**: Implements single color state functionality
+- **`color_state`**: Implements color state functionality
+
 ### Kluczowe Funkcje
-- `color_code()`: Performs color_code operation in color_picker.cpp
-- `fg_item()`: Performs fg_item operation in color_picker.cpp
-- `bg_item()`: Performs bg_item operation in color_picker.cpp
-- `GetSingleColorDlgProc()`: Retrieves SingleColorDlgProc value in color_picker.cpp
-- `refresh_fg()`: Performs refresh_fg operation in color_picker.cpp
-- `refresh_bg()`: Performs refresh_bg operation in color_picker.cpp
-- `GetColorDlgProc()`: Checks a condition in color_picker.cpp and returns true or false based on the result
-- `scd_item()`: Performs scd_item operation in color_picker.cpp
-- `activate_control()`: Checks a condition in color_picker.cpp and returns true or false based on the result
-- `disable_if_needed()`: Checks a condition in color_picker.cpp and returns true or false based on the result
+- **`color_code()`**: Executes color code operation
+- **`parse_color()`**: Executes parse color operation
+- **`get_control_id()`**: Retrieves the current control id value
+- **`activate_control()`**: Executes activate control operation
+- **`disable_if_needed()`**: Executes disable if needed operation
+- **`pick_color_single()`**: Executes pick color single operation
+- **`GetColorDialog()`**: Retrieves the current color dialog value
+- **`single_color_state::GetSingleColorDlgProc()`**: Retrieves the current single color dlg proc value
+- **`color_state::refresh_fg()`**: Executes refresh fg operation
+
 ### Przestrzenie nazw
-- `cb`
-- `cd`
 - `color_basic`
+- `cb`
 - `color_dialog`
-- `scd`
+- `cd`
 - `single_color_dialog`
+- `scd`
+
 ### Podsumowanie
-Plik `color_picker.cpp` zapewnia podstawową funkcjonalność dla zarządzanie kolorami. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `color_picker.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

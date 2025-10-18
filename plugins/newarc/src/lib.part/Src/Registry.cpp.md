@@ -1,22 +1,29 @@
 # Registry.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `RegQueryStringArray()`: Performs RegQueryStringArray operation in Registry.cpp
-- `RegSaveStringArray()`: Performs RegSaveStringArray operation in Registry.cpp
-- `RegQueryLongValue()`: Performs RegQueryLongValue operation in Registry.cpp
+- **`RegQueryStringArray()`**: Executes reg query string array operation
+- **`RegSaveStringArray()`**: Executes reg save string array operation
+- **`RegQueryLongValue()`**: Executes reg query long value operation
+
 ### Summary
-The `Registry.cpp` file provides essential functionality for string utilities. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `Registry.cpp` file is essential for core functionality. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `RegQueryStringArray()`: Performs RegQueryStringArray operation in Registry.cpp
-- `RegSaveStringArray()`: Performs RegSaveStringArray operation in Registry.cpp
-- `RegQueryLongValue()`: Performs RegQueryLongValue operation in Registry.cpp
+- **`RegQueryStringArray()`**: Executes reg query string array operation
+- **`RegSaveStringArray()`**: Executes reg save string array operation
+- **`RegQueryLongValue()`**: Executes reg query long value operation
+
 ### Podsumowanie
-Plik `Registry.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Registry.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

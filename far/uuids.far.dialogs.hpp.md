@@ -1,22 +1,25 @@
 # uuids.far.dialogs.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: UUIDs of common dialogs
-Main functional areas: dialog handling
+This file implements functionality for dialog and user interface.
+
 ### Namespaces
 - `uuids`
-- `uuids_inline`
+
 ### Summary
-The `uuids.far.dialogs.hpp` file provides essential functionality for dialog handling. to support the Far Manager file manager operations.
+The `uuids.far.dialogs.hpp` file is essential for dialog and user interface. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: UUIDs of common dialogs
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla okien dialogowych i interfejsu użytkownika.
+
 ### Przestrzenie nazw
 - `uuids`
-- `uuids_inline`
+
 ### Podsumowanie
-Plik `uuids.far.dialogs.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. wspierających operacje menedżera plików Far Manager.
+Plik `uuids.far.dialogs.hpp` jest niezbędny dla okien dialogowych i interfejsu użytkownika. wspierających operacje menedżera plików Far Manager.

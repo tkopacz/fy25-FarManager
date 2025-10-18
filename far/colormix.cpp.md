@@ -1,54 +1,83 @@
 # colormix.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Работа с цветами
-Main functional areas: color management
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `color_mapping`: Performs color_mapping operation in colormix.cpp
-- `colors_cache`: Performs colors_cache operation in colormix.cpp
-- `colors_mapping`: Performs colors_mapping operation in colormix.cpp
-- `index_color_16`: Performs index_color_16 operation in colormix.cpp
-- `palette_type`: Performs palette_type operation in colormix.cpp
+- **`color_mapping`**: Implements color mapping functionality
+- **`colors_mapping`**: Implements colors mapping functionality
+- **`colors_cache`**: Implements colors cache functionality
+- **`index_color_16`**: Implements index color 16 functionality
+- **`palette_type`**: Implements palette type functionality
+
 ### Key Functions
-- `palette()`: Performs palette operation in colormix.cpp
-- `closest_index_16()`: Performs closest_index_16 operation in colormix.cpp
-- `closest_index_256()`: Performs closest_index_256 operation in colormix.cpp
-- `last_16()`: Performs last_16 operation in colormix.cpp
-- `last_256()`: Performs last_256 operation in colormix.cpp
-- `invalidate()`: Performs invalidate operation in colormix.cpp
-- `index_bits()`: Performs index_bits operation in colormix.cpp
-- `color_bits()`: Performs color_bits operation in colormix.cpp
-- `alpha_bits()`: Performs alpha_bits operation in colormix.cpp
-- `index_value()`: Performs index_value operation in colormix.cpp
+- **`color_to_palette_index()`**: Executes color to palette index operation
+- **`same_index()`**: Executes same index operation
+- **`FarColorToConsoleColor()`**: Executes far color to console color operation
+- **`FarColorToConsole256Color()`**: Executes far color to console256color operation
+- **`NtColorToFarColor()`**: Executes nt color to far color operation
+- **`ConsoleIndexToTrueColor()`**: Executes console index to true color operation
+- **`ARGB2ABGR()`**: Executes argb2abgr operation
+- **`ExtractColor()`**: Executes extract color operation
+- **`ExtractStyle()`**: Executes extract style operation
+- **`ExtractColorInNewFormat()`**: Executes extract color in new format operation
+- **`UnderlineToString()`**: Executes underline to string operation
+- **`StringToUnderline()`**: Executes string to underline operation
+- **`ColorFlagsToString()`**: Executes color flags to string operation
+- **`resolve_default()`**: Executes resolve default operation
+- **`resolve_defaults()`**: Executes resolve defaults operation
+- **`unresolve_defaults()`**: Executes unresolve defaults operation
+- **`default_colorref()`**: Executes default colorref operation
+- **`default_color()`**: Executes default color operation
+- **`is_default()`**: Checks whether default condition is true
+- **`store_default_color()`**: Executes store default color operation
+
 ### Namespaces
 - `colors`
+
 ### Summary
-The `colormix.cpp` file provides essential functionality for color management. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `colormix.cpp` file is essential for core functionality. It defines 5 class(es) and implements 23 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Работа с цветами
-Główne obszary funkcjonalne: zarządzanie kolorami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `color_mapping`: Performs color_mapping operation in colormix.cpp
-- `colors_cache`: Performs colors_cache operation in colormix.cpp
-- `colors_mapping`: Performs colors_mapping operation in colormix.cpp
-- `index_color_16`: Performs index_color_16 operation in colormix.cpp
-- `palette_type`: Performs palette_type operation in colormix.cpp
+- **`color_mapping`**: Implements color mapping functionality
+- **`colors_mapping`**: Implements colors mapping functionality
+- **`colors_cache`**: Implements colors cache functionality
+- **`index_color_16`**: Implements index color 16 functionality
+- **`palette_type`**: Implements palette type functionality
+
 ### Kluczowe Funkcje
-- `palette()`: Performs palette operation in colormix.cpp
-- `closest_index_16()`: Performs closest_index_16 operation in colormix.cpp
-- `closest_index_256()`: Performs closest_index_256 operation in colormix.cpp
-- `last_16()`: Performs last_16 operation in colormix.cpp
-- `last_256()`: Performs last_256 operation in colormix.cpp
-- `invalidate()`: Performs invalidate operation in colormix.cpp
-- `index_bits()`: Performs index_bits operation in colormix.cpp
-- `color_bits()`: Performs color_bits operation in colormix.cpp
-- `alpha_bits()`: Performs alpha_bits operation in colormix.cpp
-- `index_value()`: Performs index_value operation in colormix.cpp
+- **`color_to_palette_index()`**: Executes color to palette index operation
+- **`same_index()`**: Executes same index operation
+- **`FarColorToConsoleColor()`**: Executes far color to console color operation
+- **`FarColorToConsole256Color()`**: Executes far color to console256color operation
+- **`NtColorToFarColor()`**: Executes nt color to far color operation
+- **`ConsoleIndexToTrueColor()`**: Executes console index to true color operation
+- **`ARGB2ABGR()`**: Executes argb2abgr operation
+- **`ExtractColor()`**: Executes extract color operation
+- **`ExtractStyle()`**: Executes extract style operation
+- **`ExtractColorInNewFormat()`**: Executes extract color in new format operation
+- **`UnderlineToString()`**: Executes underline to string operation
+- **`StringToUnderline()`**: Executes string to underline operation
+- **`ColorFlagsToString()`**: Executes color flags to string operation
+- **`resolve_default()`**: Executes resolve default operation
+- **`resolve_defaults()`**: Executes resolve defaults operation
+- **`unresolve_defaults()`**: Executes unresolve defaults operation
+- **`default_colorref()`**: Executes default colorref operation
+- **`default_color()`**: Executes default color operation
+- **`is_default()`**: Checks whether default condition is true
+- **`store_default_color()`**: Executes store default color operation
+
 ### Przestrzenie nazw
 - `colors`
+
 ### Podsumowanie
-Plik `colormix.cpp` zapewnia podstawową funkcjonalność dla zarządzanie kolorami. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `colormix.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 5 klas(y) i implementuje 23 funkcji wspierających operacje menedżera plików Far Manager.

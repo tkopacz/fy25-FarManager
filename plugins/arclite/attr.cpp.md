@@ -1,40 +1,59 @@
 # attr.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `PropInfo`: Iterates through elements in attr.cpp and adds them to a collection
+- **`PropInfo`**: Implements prop info functionality
+
 ### Key Functions
-- `uint_to_hex_str()`: Performs uint_to_hex_str operation in attr.cpp
-- `format_str_prop()`: Performs format_str_prop operation in attr.cpp
-- `format_int_prop()`: Performs format_int_prop operation in attr.cpp
-- `format_uint_prop()`: Performs format_uint_prop operation in attr.cpp
-- `format_size_prop()`: Performs format_size_prop operation in attr.cpp
-- `format_filetime_prop()`: Performs format_filetime_prop operation in attr.cpp
-- `date_time()`: Performs date_time operation in attr.cpp
-- `format_crc_prop()`: Performs format_crc_prop operation in attr.cpp
-- `format_posix_attrib_prop()`: Performs format_posix_attrib_prop operation in attr.cpp
-- `format_attrib_prop()`: 3 (Volume label - obsolete)
+- **`uint_to_hex_str()`**: Executes uint to hex str operation
+- **`format_str_prop()`**: Executes format str prop operation
+- **`format_int_prop()`**: Executes format int prop operation
+- **`format_uint_prop()`**: Executes format uint prop operation
+- **`format_size_prop()`**: Executes format size prop operation
+- **`format_filetime_prop()`**: Executes format filetime prop operation
+- **`format_crc_prop()`**: Executes format crc prop operation
+- **`format_posix_attrib_prop()`**: Executes format posix attrib prop operation
+- **`NOT_CONTENT_INDEXED()`**: Executes not content indexed operation
+- **`INTEGRITY_STREAM()`**: Executes integrity stream operation
+- **`VIRTUAL()`**: Executes virtual operation
+- **`NO_SCRUB_DATA()`**: Executes no scrub data operation
+- **`format_attrib_prop()`**: Executes format attrib prop operation
+- **`decode_nt_security_decriptor()`**: Executes decode nt security decriptor operation
+- **`decode_nt_reparse_buffer()`**: Executes decode nt reparse buffer operation
+
 ### Summary
-The `attr.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `attr.cpp` file is essential for core functionality. It defines 1 class(es) and implements 15 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `PropInfo`: Iterates through elements in attr.cpp and adds them to a collection
+- **`PropInfo`**: Implements prop info functionality
+
 ### Kluczowe Funkcje
-- `uint_to_hex_str()`: Performs uint_to_hex_str operation in attr.cpp
-- `format_str_prop()`: Performs format_str_prop operation in attr.cpp
-- `format_int_prop()`: Performs format_int_prop operation in attr.cpp
-- `format_uint_prop()`: Performs format_uint_prop operation in attr.cpp
-- `format_size_prop()`: Performs format_size_prop operation in attr.cpp
-- `format_filetime_prop()`: Performs format_filetime_prop operation in attr.cpp
-- `date_time()`: Performs date_time operation in attr.cpp
-- `format_crc_prop()`: Performs format_crc_prop operation in attr.cpp
-- `format_posix_attrib_prop()`: Performs format_posix_attrib_prop operation in attr.cpp
-- `format_attrib_prop()`: 3 (Volume label - obsolete)
+- **`uint_to_hex_str()`**: Executes uint to hex str operation
+- **`format_str_prop()`**: Executes format str prop operation
+- **`format_int_prop()`**: Executes format int prop operation
+- **`format_uint_prop()`**: Executes format uint prop operation
+- **`format_size_prop()`**: Executes format size prop operation
+- **`format_filetime_prop()`**: Executes format filetime prop operation
+- **`format_crc_prop()`**: Executes format crc prop operation
+- **`format_posix_attrib_prop()`**: Executes format posix attrib prop operation
+- **`NOT_CONTENT_INDEXED()`**: Executes not content indexed operation
+- **`INTEGRITY_STREAM()`**: Executes integrity stream operation
+- **`VIRTUAL()`**: Executes virtual operation
+- **`NO_SCRUB_DATA()`**: Executes no scrub data operation
+- **`format_attrib_prop()`**: Executes format attrib prop operation
+- **`decode_nt_security_decriptor()`**: Executes decode nt security decriptor operation
+- **`decode_nt_reparse_buffer()`**: Executes decode nt reparse buffer operation
+
 ### Podsumowanie
-Plik `attr.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `attr.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 15 funkcji wspierających operacje menedżera plików Far Manager.

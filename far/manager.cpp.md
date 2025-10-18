@@ -1,24 +1,25 @@
 # manager.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Переключение между несколькими file panels, viewers, editors, dialogs
-Main functional areas: core functionality
+This file implements functionality for core manager functionality.
+
 ### Key Functions
-- `CASHook()`: Checks a condition in manager.cpp and returns true or false based on the result
-- `AreEqual()`: Подсчитать количество окон с указанным именем.
-- `i()`: Performs i operation in manager.cpp
+- **`CASHook()`**: Executes cashook operation
+
 ### Summary
-The `manager.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `manager.cpp` file is essential for core manager functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Переключение между несколькими file panels, viewers, editors, dialogs
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności menedżera.
+
 ### Kluczowe Funkcje
-- `CASHook()`: Checks a condition in manager.cpp and returns true or false based on the result
-- `AreEqual()`: Подсчитать количество окон с указанным именем.
-- `i()`: Performs i operation in manager.cpp
+- **`CASHook()`**: Executes cashook operation
+
 ### Podsumowanie
-Plik `manager.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `manager.cpp` jest niezbędny dla podstawowej funkcjonalności menedżera. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

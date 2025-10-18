@@ -1,14 +1,19 @@
 # fstd_Dialog.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: dialog handling, file system operations
+This file implements functionality for dialog and user interface.
+
 ### Summary
-The `fstd_Dialog.cpp` file provides essential functionality for dialog handling, file system operations. to support the Far Manager file manager operations.
+The `fstd_Dialog.cpp` file is essential for dialog and user interface. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: obsługa dialogów, operacje systemu plików
+Ten plik implementuje funkcjonalność dla okien dialogowych i interfejsu użytkownika.
+
 ### Podsumowanie
-Plik `fstd_Dialog.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów, operacje systemu plików. wspierających operacje menedżera plików Far Manager.
+Plik `fstd_Dialog.cpp` jest niezbędny dla okien dialogowych i interfejsu użytkownika. wspierających operacje menedżera plików Far Manager.

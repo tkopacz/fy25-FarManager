@@ -1,14 +1,23 @@
 # uchardet_model.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+validator: no-include-guards
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `uchardet_model.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `uchardet_model.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+validator: no-include-guards
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `uchardet_model.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `uchardet_model.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

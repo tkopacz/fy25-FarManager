@@ -1,50 +1,43 @@
 # macro.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Макросы
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Dialog`: Performs Dialog operation in macro.hpp
-- `DlgParam`: Performs DlgParam operation in macro.hpp
-- `KeyMacro`: дисаблим автостартующие макросы
-- `MacroPanelSelect`: Performs MacroPanelSelect operation in macro.hpp
-- `point`: Performs point operation in macro.hpp
+- **`MacroPanelSelect`**: Implements macro panel select functionality
+
 ### Key Functions
-- `AddMacro()`: дисаблим автостартующие макросы
-- `DelMacro()`: дисаблим автостартующие макросы
-- `ExecuteString()`: дисаблим автостартующие макросы
-- `GetMacroKeyInfo()`: дисаблим автостартующие макросы
-- `IsOutputDisabled()`: Checks a condition in macro.hpp and returns the result
-- `IsExecuting()`: Checks a condition in macro.hpp and returns the result
-- `IsHistoryDisabled()`: Checks a condition in macro.hpp and returns the result
-- `MacroExists()`: Performs MacroExists operation in macro.hpp
-- `RunStartMacro()`: Performs RunStartMacro operation in macro.hpp
-- `SaveMacros()`: Performs SaveMacros operation in macro.hpp
+- **`IsMenuArea()`**: Checks whether menu area condition is true
+- **`IsMenuOrDialogArea()`**: Checks whether menu or dialog area condition is true
+- **`IsPanelsArea()`**: Checks whether panels area condition is true
+- **`ShowUserMenu()`**: Executes show user menu operation
+- **`IsTopMacroOutputDisabled()`**: Checks whether top macro output disabled condition is true
+- **`GetHistoryDisableMask()`**: Retrieves the current history disable mask value
+- **`SetHistoryDisableMask()`**: Updates the history disable mask with a new value
+
 ### Summary
-The `macro.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `macro.hpp` file is essential for core functionality. It defines 1 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Макросы
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Dialog`: Performs Dialog operation in macro.hpp
-- `DlgParam`: Performs DlgParam operation in macro.hpp
-- `KeyMacro`: дисаблим автостартующие макросы
-- `MacroPanelSelect`: Performs MacroPanelSelect operation in macro.hpp
-- `point`: Performs point operation in macro.hpp
+- **`MacroPanelSelect`**: Implements macro panel select functionality
+
 ### Kluczowe Funkcje
-- `AddMacro()`: дисаблим автостартующие макросы
-- `DelMacro()`: дисаблим автостартующие макросы
-- `ExecuteString()`: дисаблим автостартующие макросы
-- `GetMacroKeyInfo()`: дисаблим автостартующие макросы
-- `IsOutputDisabled()`: Checks a condition in macro.hpp and returns the result
-- `IsExecuting()`: Checks a condition in macro.hpp and returns the result
-- `IsHistoryDisabled()`: Checks a condition in macro.hpp and returns the result
-- `MacroExists()`: Performs MacroExists operation in macro.hpp
-- `RunStartMacro()`: Performs RunStartMacro operation in macro.hpp
-- `SaveMacros()`: Performs SaveMacros operation in macro.hpp
+- **`IsMenuArea()`**: Checks whether menu area condition is true
+- **`IsMenuOrDialogArea()`**: Checks whether menu or dialog area condition is true
+- **`IsPanelsArea()`**: Checks whether panels area condition is true
+- **`ShowUserMenu()`**: Executes show user menu operation
+- **`IsTopMacroOutputDisabled()`**: Checks whether top macro output disabled condition is true
+- **`GetHistoryDisableMask()`**: Retrieves the current history disable mask value
+- **`SetHistoryDisableMask()`**: Updates the history disable mask with a new value
+
 ### Podsumowanie
-Plik `macro.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `macro.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

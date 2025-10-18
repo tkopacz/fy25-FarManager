@@ -1,16 +1,25 @@
 # file_io.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
+### Key Functions
+- **`save_file_with_replace()`**: Executes save file with replace operation
+
 ### Summary
-The `file_io.hpp` file provides essential functionality for file system operations. to support the Far Manager file manager operations.
+The `file_io.hpp` file is essential for file operations. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
+### Kluczowe Funkcje
+- **`save_file_with_replace()`**: Executes save file with replace operation
+
 ### Podsumowanie
-Plik `file_io.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. wspierających operacje menedżera plików Far Manager.
+Plik `file_io.hpp` jest niezbędny dla operacji na plikach. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

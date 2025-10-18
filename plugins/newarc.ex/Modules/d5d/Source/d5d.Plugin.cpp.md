@@ -1,38 +1,25 @@
 # d5d.Plugin.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: m_pfnGetDriverInfo(pInfo);
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Key Functions
-- `ShortStringToTCHAR()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `GetLanguageString()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `ShowMessageBox()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `Percent()`: как это работает - одному богу известно
-- `GetLanguageStringThunk()`: как это работает - одному богу известно
-- `ShowMessageBoxThunk()`: как это работает - одному богу известно
-- `PercentThunk()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `m_pfnGetNumVersion()`: Checks a condition in d5d.Plugin.cpp and returns true or false based on the result
-- `ANSI_NAME_DELETE()`: m_pfnInitPluginEx5 не поддерживается.
-- `D5DArchive()`: m_pfnInitPluginEx5 не поддерживается. где я им AnsiString возьму
+- **`ShortStringToTCHAR()`**: Executes short string to tchar operation
+
 ### Summary
-The `d5d.Plugin.cpp` file provides essential functionality for plugin interface. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `d5d.Plugin.cpp` file is essential for plugin system and extension management. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: m_pfnGetDriverInfo(pInfo);
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Funkcje
-- `ShortStringToTCHAR()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `GetLanguageString()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `ShowMessageBox()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `Percent()`: как это работает - одному богу известно
-- `GetLanguageStringThunk()`: как это работает - одному богу известно
-- `ShowMessageBoxThunk()`: как это работает - одному богу известно
-- `PercentThunk()`: Iterates through elements in d5d.Plugin.cpp and adds them to a collection
-- `m_pfnGetNumVersion()`: Checks a condition in d5d.Plugin.cpp and returns true or false based on the result
-- `ANSI_NAME_DELETE()`: m_pfnInitPluginEx5 не поддерживается.
-- `D5DArchive()`: m_pfnInitPluginEx5 не поддерживается. где я им AnsiString возьму
+- **`ShortStringToTCHAR()`**: Executes short string to tchar operation
+
 ### Podsumowanie
-Plik `d5d.Plugin.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `d5d.Plugin.cpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

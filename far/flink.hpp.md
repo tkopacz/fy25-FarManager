@@ -1,42 +1,55 @@
 # flink.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Заголовочный файл для работы с Hard & SymLink
-Main functional areas: core functionality
-### Key Classes
-- `error_state_ex`: Performs error_state_ex operation in flink.hpp
+This file implements functionality for file operations.
+
 ### Key Functions
-- `MkHardLink()`: Performs MkHardLink operation in flink.hpp
-- `CreateVolumeMountPoint()`: Creates and initializes a new object or resource in flink.hpp
-- `CreateReparsePoint()`: Creates and initializes a new object or resource in flink.hpp
-- `DeleteReparsePoint()`: Deletes or removes an item or resource in flink.hpp
-- `ModifyReparsePoint()`: Performs ModifyReparsePoint operation in flink.hpp
-- `GetReparsePointInfo()`: Retrieves ReparsePointInfo value in flink.hpp
-- `GetSubstName()`: Retrieves SubstName value in flink.hpp
-- `GetVHDInfo()`: Retrieves VHDInfo value in flink.hpp
-- `detach_vhd()`: Performs detach_vhd operation in flink.hpp
-- `DelSubstDrive()`: Performs DelSubstDrive operation in flink.hpp
+- **`MkHardLink()`**: Executes mk hard link operation
+- **`GetNumberOfLinks()`**: Retrieves the current number of links value
+- **`CreateVolumeMountPoint()`**: Constructs and returns a new volume mount point object
+- **`CreateReparsePoint()`**: Constructs and returns a new reparse point object
+- **`DeleteReparsePoint()`**: Executes delete reparse point operation
+- **`ModifyReparsePoint()`**: Executes modify reparse point operation
+- **`GetReparsePointInfo()`**: Retrieves the current reparse point info value
+- **`GetSubstName()`**: Retrieves the current subst name value
+- **`GetVHDInfo()`**: Retrieves the current vhdinfo value
+- **`detach_vhd()`**: Executes detach vhd operation
+- **`DelSubstDrive()`**: Executes del subst drive operation
+- **`GetPathRoot()`**: Retrieves the current path root value
+- **`EnumStreams()`**: Executes enum streams operation
+- **`NormalizeSymlinkName()`**: Executes normalize symlink name operation
+- **`MkSymLink()`**: Executes mk sym link operation
+- **`reparse_tag_to_string()`**: Executes reparse tag to string operation
+
 ### Summary
-The `flink.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `flink.hpp` file is essential for file operations. It implements 16 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Заголовочный файл для работы с Hard & SymLink
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Klasy
-- `error_state_ex`: Performs error_state_ex operation in flink.hpp
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `MkHardLink()`: Performs MkHardLink operation in flink.hpp
-- `CreateVolumeMountPoint()`: Creates and initializes a new object or resource in flink.hpp
-- `CreateReparsePoint()`: Creates and initializes a new object or resource in flink.hpp
-- `DeleteReparsePoint()`: Deletes or removes an item or resource in flink.hpp
-- `ModifyReparsePoint()`: Performs ModifyReparsePoint operation in flink.hpp
-- `GetReparsePointInfo()`: Retrieves ReparsePointInfo value in flink.hpp
-- `GetSubstName()`: Retrieves SubstName value in flink.hpp
-- `GetVHDInfo()`: Retrieves VHDInfo value in flink.hpp
-- `detach_vhd()`: Performs detach_vhd operation in flink.hpp
-- `DelSubstDrive()`: Performs DelSubstDrive operation in flink.hpp
+- **`MkHardLink()`**: Executes mk hard link operation
+- **`GetNumberOfLinks()`**: Retrieves the current number of links value
+- **`CreateVolumeMountPoint()`**: Constructs and returns a new volume mount point object
+- **`CreateReparsePoint()`**: Constructs and returns a new reparse point object
+- **`DeleteReparsePoint()`**: Executes delete reparse point operation
+- **`ModifyReparsePoint()`**: Executes modify reparse point operation
+- **`GetReparsePointInfo()`**: Retrieves the current reparse point info value
+- **`GetSubstName()`**: Retrieves the current subst name value
+- **`GetVHDInfo()`**: Retrieves the current vhdinfo value
+- **`detach_vhd()`**: Executes detach vhd operation
+- **`DelSubstDrive()`**: Executes del subst drive operation
+- **`GetPathRoot()`**: Retrieves the current path root value
+- **`EnumStreams()`**: Executes enum streams operation
+- **`NormalizeSymlinkName()`**: Executes normalize symlink name operation
+- **`MkSymLink()`**: Executes mk sym link operation
+- **`reparse_tag_to_string()`**: Executes reparse tag to string operation
+
 ### Podsumowanie
-Plik `flink.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `flink.hpp` jest niezbędny dla operacji na plikach. Implementuje 16 funkcji wspierających operacje menedżera plików Far Manager.

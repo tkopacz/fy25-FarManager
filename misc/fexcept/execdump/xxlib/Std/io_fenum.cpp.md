@@ -1,14 +1,19 @@
 # io_fenum.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Summary
-The `io_fenum.cpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `io_fenum.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `io_fenum.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `io_fenum.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

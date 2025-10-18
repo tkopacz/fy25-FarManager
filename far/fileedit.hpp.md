@@ -1,46 +1,31 @@
 # fileedit.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Редактирование файла - надстройка над editor.cpp
-Main functional areas: text editing, file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `error_state_ex`: Performs error_state_ex operation in fileedit.hpp
-- `f4_key_timer`: Performs f4_key_timer operation in fileedit.hpp
-- `private_tag`: Performs private_tag operation in fileedit.hpp
+- **`private_tag`**: Implements private tag functionality
+
 ### Key Functions
-- `create()`: используется сервисная область
-- `FileEditor()`: Performs FileEditor operation in fileedit.hpp
-- `GetCanLoseFocus()`: Retrieves CanLoseFocus value in fileedit.hpp
-- `IsFileModified()`: Checks a condition in fileedit.hpp and returns the result
-- `GetTypeAndName()`: Retrieves TypeAndName value in fileedit.hpp
-- `VMProcess()`: Performs VMProcess operation in fileedit.hpp
-- `Show()`: Performs Show operation in fileedit.hpp
-- `GetEditor()`: Retrieves Editor value in fileedit.hpp
-- `ShowStatus()`: Performs ShowStatus operation in fileedit.hpp
-- `SetLockEditor()`: Sets or updates LockEditor value in fileedit.hpp
+- **`dlgOpenEditor()`**: Executes dlg open editor operation
+
 ### Summary
-The `fileedit.hpp` file provides essential functionality for text editing, file system operations. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `fileedit.hpp` file is essential for file operations. It defines 1 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Редактирование файла - надстройка над editor.cpp
-Główne obszary funkcjonalne: edycja tekstu, operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `error_state_ex`: Performs error_state_ex operation in fileedit.hpp
-- `f4_key_timer`: Performs f4_key_timer operation in fileedit.hpp
-- `private_tag`: Performs private_tag operation in fileedit.hpp
+- **`private_tag`**: Implements private tag functionality
+
 ### Kluczowe Funkcje
-- `create()`: используется сервисная область
-- `FileEditor()`: Performs FileEditor operation in fileedit.hpp
-- `GetCanLoseFocus()`: Retrieves CanLoseFocus value in fileedit.hpp
-- `IsFileModified()`: Checks a condition in fileedit.hpp and returns the result
-- `GetTypeAndName()`: Retrieves TypeAndName value in fileedit.hpp
-- `VMProcess()`: Performs VMProcess operation in fileedit.hpp
-- `Show()`: Performs Show operation in fileedit.hpp
-- `GetEditor()`: Retrieves Editor value in fileedit.hpp
-- `ShowStatus()`: Performs ShowStatus operation in fileedit.hpp
-- `SetLockEditor()`: Sets or updates LockEditor value in fileedit.hpp
+- **`dlgOpenEditor()`**: Executes dlg open editor operation
+
 ### Podsumowanie
-Plik `fileedit.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu, operacje systemu plików. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileedit.hpp` jest niezbędny dla operacji na plikach. Definiuje 1 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,42 +1,71 @@
 # utils.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Buffer`: Performs Buffer operation in utils.hpp
-- `NonCopyable`: Performs NonCopyable operation in utils.hpp
+- **`NonCopyable`**: Implements non copyable functionality
+- **`Buffer`**: Template class managing dynamically allocated array with automatic memory cleanup
+
 ### Key Functions
-- `substr_match()`: Performs substr_match operation in utils.hpp
-- `word_wrap()`: Performs word_wrap operation in utils.hpp
-- `fit_str()`: Performs fit_str operation in utils.hpp
-- `center()`: Performs center operation in utils.hpp
-- `strip()`: Performs strip operation in utils.hpp
-- `str_to_int()`: Performs str_to_int operation in utils.hpp
-- `int_to_str()`: Performs int_to_str operation in utils.hpp
-- `str_to_uint()`: Performs str_to_uint operation in utils.hpp
-- `uint_to_str()`: Performs uint_to_str operation in utils.hpp
-- `widen()`: Performs widen operation in utils.hpp
+- **`substr_match()`**: Executes substr match operation
+- **`word_wrap()`**: Executes word wrap operation
+- **`fit_str()`**: Executes fit str operation
+- **`center()`**: Executes center operation
+- **`strip()`**: Executes strip operation
+- **`str_to_int()`**: Executes str to int operation
+- **`int_to_str()`**: Executes int to str operation
+- **`str_to_uint()`**: Executes str to uint operation
+- **`uint_to_str()`**: Executes uint to str operation
+- **`widen()`**: Executes widen operation
+- **`split()`**: Executes split operation
+- **`combine()`**: Executes combine operation
+- **`format_data_size()`**: Executes format data size operation
+- **`is_slash()`**: Checks whether slash condition is true
+- **`unquote()`**: Executes unquote operation
+- **`search_and_replace()`**: Executes search and replace operation
+- **`str_start_with()`**: Executes str start with operation
+- **`str_end_with()`**: Executes str end with operation
+- **`long_path()`**: Executes long path operation
+- **`long_path_norm()`**: Executes long path norm operation
+
 ### Summary
-The `utils.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `utils.hpp` file is essential for core functionality. It defines 2 class(es) and implements 33 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Buffer`: Performs Buffer operation in utils.hpp
-- `NonCopyable`: Performs NonCopyable operation in utils.hpp
+- **`NonCopyable`**: Implements non copyable functionality
+- **`Buffer`**: Template class managing dynamically allocated array with automatic memory cleanup
+
 ### Kluczowe Funkcje
-- `substr_match()`: Performs substr_match operation in utils.hpp
-- `word_wrap()`: Performs word_wrap operation in utils.hpp
-- `fit_str()`: Performs fit_str operation in utils.hpp
-- `center()`: Performs center operation in utils.hpp
-- `strip()`: Performs strip operation in utils.hpp
-- `str_to_int()`: Performs str_to_int operation in utils.hpp
-- `int_to_str()`: Performs int_to_str operation in utils.hpp
-- `str_to_uint()`: Performs str_to_uint operation in utils.hpp
-- `uint_to_str()`: Performs uint_to_str operation in utils.hpp
-- `widen()`: Performs widen operation in utils.hpp
+- **`substr_match()`**: Executes substr match operation
+- **`word_wrap()`**: Executes word wrap operation
+- **`fit_str()`**: Executes fit str operation
+- **`center()`**: Executes center operation
+- **`strip()`**: Executes strip operation
+- **`str_to_int()`**: Executes str to int operation
+- **`int_to_str()`**: Executes int to str operation
+- **`str_to_uint()`**: Executes str to uint operation
+- **`uint_to_str()`**: Executes uint to str operation
+- **`widen()`**: Executes widen operation
+- **`split()`**: Executes split operation
+- **`combine()`**: Executes combine operation
+- **`format_data_size()`**: Executes format data size operation
+- **`is_slash()`**: Checks whether slash condition is true
+- **`unquote()`**: Executes unquote operation
+- **`search_and_replace()`**: Executes search and replace operation
+- **`str_start_with()`**: Executes str start with operation
+- **`str_end_with()`**: Executes str end with operation
+- **`long_path()`**: Executes long path operation
+- **`long_path_norm()`**: Executes long path norm operation
+
 ### Podsumowanie
-Plik `utils.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `utils.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 33 funkcji wspierających operacje menedżera plików Far Manager.

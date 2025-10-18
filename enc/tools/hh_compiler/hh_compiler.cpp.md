@@ -1,40 +1,37 @@
 # hh_compiler.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `GetACP_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `MultiByteToWideChar_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `MultiByteToWideChar()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `WideCharToMultiByte_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `WideCharToMultiByte()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `FindByName()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `FromRva()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `write_memory()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `VirtualProtect()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `patch()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- **`FindByName()`**: Executes find by name operation
+- **`write_memory()`**: Executes write memory operation
+- **`patch()`**: Executes patch operation
+- **`main()`**: Executes main operation
+
 ### Namespaces
 - `replacement`
+
 ### Summary
-The `hh_compiler.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `hh_compiler.cpp` file is essential for core functionality. It implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `GetACP_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `MultiByteToWideChar_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `MultiByteToWideChar()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `WideCharToMultiByte_hook()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `WideCharToMultiByte()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `FindByName()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `FromRva()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `write_memory()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `VirtualProtect()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
-- `patch()`: Checks a condition in hh_compiler.cpp and returns true or false based on the result
+- **`FindByName()`**: Executes find by name operation
+- **`write_memory()`**: Executes write memory operation
+- **`patch()`**: Executes patch operation
+- **`main()`**: Executes main operation
+
 ### Przestrzenie nazw
 - `replacement`
+
 ### Podsumowanie
-Plik `hh_compiler.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hh_compiler.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

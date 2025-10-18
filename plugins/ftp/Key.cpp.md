@@ -1,26 +1,31 @@
 # Key.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+Assert( 0 );
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ProcError()`: Iterates through elements in Key.cpp and adds them to a collection
-- `InsertHostsCmd()`: Iterates through elements in Key.cpp and adds them to a collection
-- `mnu()`: Checks a condition in Key.cpp and returns true or false based on the result
-- `AddToBackup()`: Checks a condition in Key.cpp and returns true or false based on the result
-- `s()`: Performs s operation in Key.cpp
+- **`ProcError()`**: Executes proc error operation
+- **`InsertHostsCmd()`**: Executes insert hosts cmd operation
+
 ### Summary
-The `Key.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `Key.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Assert( 0 );
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ProcError()`: Iterates through elements in Key.cpp and adds them to a collection
-- `InsertHostsCmd()`: Iterates through elements in Key.cpp and adds them to a collection
-- `mnu()`: Checks a condition in Key.cpp and returns true or false based on the result
-- `AddToBackup()`: Checks a condition in Key.cpp and returns true or false based on the result
-- `s()`: Performs s operation in Key.cpp
+- **`ProcError()`**: Executes proc error operation
+- **`InsertHostsCmd()`**: Executes insert hosts cmd operation
+
 ### Podsumowanie
-Plik `Key.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Key.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

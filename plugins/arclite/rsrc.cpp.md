@@ -1,58 +1,79 @@
 # rsrc.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `IconFileEntry`: Performs IconFileEntry operation in rsrc.cpp
-- `IconFileHeader`: Performs IconFileHeader operation in rsrc.cpp
-- `IconGroupEntry`: Performs IconGroupEntry operation in rsrc.cpp
-- `IconGroupHeader`: Performs IconGroupHeader operation in rsrc.cpp
-- `IconImage`: Performs IconImage operation in rsrc.cpp
-- `IconImageRsrc`: Performs IconImageRsrc operation in rsrc.cpp
-- `IconRsrc`: Performs IconRsrc operation in rsrc.cpp
-- `IdLang`: Performs IdLang operation in rsrc.cpp
-- `ResourceUpdate`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `RsrcId`: Iterates through elements in rsrc.cpp and adds them to a collection
+- **`RsrcId`**: Simple data holder with getter/setter accessors
+- **`IconImage`**: Implements icon image functionality
+- **`IconFileHeader`**: Implements icon file header functionality
+- **`IconFileEntry`**: Implements icon file entry functionality
+- **`IconImageRsrc`**: Implements icon image rsrc functionality
+- **`IconRsrc`**: Implements icon rsrc functionality
+- **`IconGroupHeader`**: Implements icon group header functionality
+- **`IconGroupEntry`**: Implements icon group entry functionality
+- **`RsrcModule`**: Implements rsrc module functionality
+- **`ResourceUpdate`**: Enumeration defining possible values for resource update
+- **`VersionEncoder`**: Implements version encoder functionality
+- **`IdLang`**: Implements id lang functionality
+
 ### Key Functions
-- `set()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `LPCTSTR()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `is_int()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `load_icon_file()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `file()`: Width, in pixels, of the image
-- `load_icon_rsrc()`: Resource type (1 for icons)
-- `enum_names_proc()`: Checks a condition in rsrc.cpp and returns true or false based on the result
-- `enum_langs_proc()`: Checks a condition in rsrc.cpp and returns true or false based on the result
-- `handle()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `close()`: Iterates through elements in rsrc.cpp and adds them to a collection
+- **`RsrcId()`**: Executes rsrc id operation
+- **`load_icon_file()`**: Executes load icon file operation
+- **`load_icon_rsrc()`**: Executes load icon rsrc operation
+- **`enum_rsrc_names()`**: Executes enum rsrc names operation
+- **`enum_rsrc_langs()`**: Executes enum rsrc langs operation
+- **`RsrcModule()`**: Executes rsrc module operation
+- **`replace_icon()`**: Executes replace icon operation
+- **`replace_ver_info()`**: Executes replace ver info operation
+- **`RsrcId::set()`**: Updates the  with a new value
+- **`IconFileHeader::Type()`**: Executes type operation
+- **`IconFileEntry::image()`**: Executes image operation
+- **`IconGroupHeader::type()`**: Executes type operation
+- **`IconGroupEntry::image()`**: Executes image operation
+- **`VersionEncoder::encode()`**: Executes encode operation
+
 ### Summary
-The `rsrc.cpp` file provides essential functionality for core functionality. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `rsrc.cpp` file is essential for core functionality. It defines 12 class(es) and implements 14 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `IconFileEntry`: Performs IconFileEntry operation in rsrc.cpp
-- `IconFileHeader`: Performs IconFileHeader operation in rsrc.cpp
-- `IconGroupEntry`: Performs IconGroupEntry operation in rsrc.cpp
-- `IconGroupHeader`: Performs IconGroupHeader operation in rsrc.cpp
-- `IconImage`: Performs IconImage operation in rsrc.cpp
-- `IconImageRsrc`: Performs IconImageRsrc operation in rsrc.cpp
-- `IconRsrc`: Performs IconRsrc operation in rsrc.cpp
-- `IdLang`: Performs IdLang operation in rsrc.cpp
-- `ResourceUpdate`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `RsrcId`: Iterates through elements in rsrc.cpp and adds them to a collection
+- **`RsrcId`**: Simple data holder with getter/setter accessors
+- **`IconImage`**: Implements icon image functionality
+- **`IconFileHeader`**: Implements icon file header functionality
+- **`IconFileEntry`**: Implements icon file entry functionality
+- **`IconImageRsrc`**: Implements icon image rsrc functionality
+- **`IconRsrc`**: Implements icon rsrc functionality
+- **`IconGroupHeader`**: Implements icon group header functionality
+- **`IconGroupEntry`**: Implements icon group entry functionality
+- **`RsrcModule`**: Implements rsrc module functionality
+- **`ResourceUpdate`**: Enumeration defining possible values for resource update
+- **`VersionEncoder`**: Implements version encoder functionality
+- **`IdLang`**: Implements id lang functionality
+
 ### Kluczowe Funkcje
-- `set()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `LPCTSTR()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `is_int()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `load_icon_file()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `file()`: Width, in pixels, of the image
-- `load_icon_rsrc()`: Resource type (1 for icons)
-- `enum_names_proc()`: Checks a condition in rsrc.cpp and returns true or false based on the result
-- `enum_langs_proc()`: Checks a condition in rsrc.cpp and returns true or false based on the result
-- `handle()`: Iterates through elements in rsrc.cpp and adds them to a collection
-- `close()`: Iterates through elements in rsrc.cpp and adds them to a collection
+- **`RsrcId()`**: Executes rsrc id operation
+- **`load_icon_file()`**: Executes load icon file operation
+- **`load_icon_rsrc()`**: Executes load icon rsrc operation
+- **`enum_rsrc_names()`**: Executes enum rsrc names operation
+- **`enum_rsrc_langs()`**: Executes enum rsrc langs operation
+- **`RsrcModule()`**: Executes rsrc module operation
+- **`replace_icon()`**: Executes replace icon operation
+- **`replace_ver_info()`**: Executes replace ver info operation
+- **`RsrcId::set()`**: Updates the  with a new value
+- **`IconFileHeader::Type()`**: Executes type operation
+- **`IconFileEntry::image()`**: Executes image operation
+- **`IconGroupHeader::type()`**: Executes type operation
+- **`IconGroupEntry::image()`**: Executes image operation
+- **`VersionEncoder::encode()`**: Executes encode operation
+
 ### Podsumowanie
-Plik `rsrc.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `rsrc.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 12 klas(y) i implementuje 14 funkcji wspierających operacje menedżera plików Far Manager.

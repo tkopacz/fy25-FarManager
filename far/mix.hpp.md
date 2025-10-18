@@ -1,50 +1,73 @@
 # mix.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Mix
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `PluginPanelItemHolder`: Performs PluginPanelItemHolder operation in mix.hpp
-- `PluginPanelItemHolderHeap`: Performs PluginPanelItemHolderHeap operation in mix.hpp
-- `SetAutocomplete`: Sets or updates Autocomplete value in mix.hpp
-- `plugin_item_list`: Performs plugin_item_list operation in mix.hpp
-- `std`: Performs std operation in mix.hpp
+- **`PluginPanelItemHolder`**: Implements plugin panel item holder functionality
+- **`PluginPanelItemHolderHeap`**: Implements plugin panel item holder heap functionality
+- **`plugin_item_list`**: Container class managing collection of plugin item
+
 ### Key Functions
-- `ToPercent()`: Performs ToPercent operation in mix.hpp
-- `FromPercent()`: Performs FromPercent operation in mix.hpp
-- `MakeTemp()`: Performs MakeTemp operation in mix.hpp
-- `MakeTempInSameDir()`: Performs MakeTempInSameDir operation in mix.hpp
-- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation in mix.hpp
-- `set_name()`: Sets or updates _name value in mix.hpp
-- `set_alt_name()`: Sets or updates _alt_name value in mix.hpp
-- `set_description()`: Sets or updates _description value in mix.hpp
-- `set_owner()`: Sets or updates _owner value in mix.hpp
-- `set_columns()`: Sets or updates _columns value in mix.hpp
+- **`MakeTemp()`**: Executes make temp operation
+- **`MakeTempInSameDir()`**: Executes make temp in same dir operation
+- **`PluginPanelItemToFindDataEx()`**: Executes plugin panel item to find data ex operation
+- **`FindDataExToPluginPanelItemHolder()`**: Executes find data ex to plugin panel item holder operation
+- **`FreePluginPanelItemData()`**: Executes free plugin panel item data operation
+- **`FreePluginPanelItemUserData()`**: Executes free plugin panel item user data operation
+- **`FreePluginPanelItemsData()`**: Executes free plugin panel items data operation
+- **`WindowTypeToPluginWindowType()`**: Executes window type to plugin window type operation
+- **`ReloadEnvironment()`**: Executes reload environment operation
+- **`version_to_string()`**: Executes version to string operation
+- **`PluginPanelItemHolder::set_name()`**: Updates the name with a new value
+- **`PluginPanelItemHolder::set_alt_name()`**: Updates the alt name with a new value
+- **`PluginPanelItemHolder::set_description()`**: Updates the description with a new value
+- **`PluginPanelItemHolder::set_owner()`**: Updates the owner with a new value
+- **`PluginPanelItemHolder::set_columns()`**: Updates the columns with a new value
+- **`PluginPanelItemHolderHeap::set_name()`**: Updates the name with a new value
+- **`PluginPanelItemHolderHeap::set_alt_name()`**: Updates the alt name with a new value
+- **`PluginPanelItemHolderHeap::set_description()`**: Updates the description with a new value
+- **`PluginPanelItemHolderHeap::set_owner()`**: Updates the owner with a new value
+- **`PluginPanelItemHolderHeap::set_columns()`**: Updates the columns with a new value
+
 ### Summary
-The `mix.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `mix.hpp` file is essential for core functionality. It defines 3 class(es) and implements 23 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Mix
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `PluginPanelItemHolder`: Performs PluginPanelItemHolder operation in mix.hpp
-- `PluginPanelItemHolderHeap`: Performs PluginPanelItemHolderHeap operation in mix.hpp
-- `SetAutocomplete`: Sets or updates Autocomplete value in mix.hpp
-- `plugin_item_list`: Performs plugin_item_list operation in mix.hpp
-- `std`: Performs std operation in mix.hpp
+- **`PluginPanelItemHolder`**: Implements plugin panel item holder functionality
+- **`PluginPanelItemHolderHeap`**: Implements plugin panel item holder heap functionality
+- **`plugin_item_list`**: Container class managing collection of plugin item
+
 ### Kluczowe Funkcje
-- `ToPercent()`: Performs ToPercent operation in mix.hpp
-- `FromPercent()`: Performs FromPercent operation in mix.hpp
-- `MakeTemp()`: Performs MakeTemp operation in mix.hpp
-- `MakeTempInSameDir()`: Performs MakeTempInSameDir operation in mix.hpp
-- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation in mix.hpp
-- `set_name()`: Sets or updates _name value in mix.hpp
-- `set_alt_name()`: Sets or updates _alt_name value in mix.hpp
-- `set_description()`: Sets or updates _description value in mix.hpp
-- `set_owner()`: Sets or updates _owner value in mix.hpp
-- `set_columns()`: Sets or updates _columns value in mix.hpp
+- **`MakeTemp()`**: Executes make temp operation
+- **`MakeTempInSameDir()`**: Executes make temp in same dir operation
+- **`PluginPanelItemToFindDataEx()`**: Executes plugin panel item to find data ex operation
+- **`FindDataExToPluginPanelItemHolder()`**: Executes find data ex to plugin panel item holder operation
+- **`FreePluginPanelItemData()`**: Executes free plugin panel item data operation
+- **`FreePluginPanelItemUserData()`**: Executes free plugin panel item user data operation
+- **`FreePluginPanelItemsData()`**: Executes free plugin panel items data operation
+- **`WindowTypeToPluginWindowType()`**: Executes window type to plugin window type operation
+- **`ReloadEnvironment()`**: Executes reload environment operation
+- **`version_to_string()`**: Executes version to string operation
+- **`PluginPanelItemHolder::set_name()`**: Updates the name with a new value
+- **`PluginPanelItemHolder::set_alt_name()`**: Updates the alt name with a new value
+- **`PluginPanelItemHolder::set_description()`**: Updates the description with a new value
+- **`PluginPanelItemHolder::set_owner()`**: Updates the owner with a new value
+- **`PluginPanelItemHolder::set_columns()`**: Updates the columns with a new value
+- **`PluginPanelItemHolderHeap::set_name()`**: Updates the name with a new value
+- **`PluginPanelItemHolderHeap::set_alt_name()`**: Updates the alt name with a new value
+- **`PluginPanelItemHolderHeap::set_description()`**: Updates the description with a new value
+- **`PluginPanelItemHolderHeap::set_owner()`**: Updates the owner with a new value
+- **`PluginPanelItemHolderHeap::set_columns()`**: Updates the columns with a new value
+
 ### Podsumowanie
-Plik `mix.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mix.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 23 funkcji wspierających operacje menedżera plików Far Manager.

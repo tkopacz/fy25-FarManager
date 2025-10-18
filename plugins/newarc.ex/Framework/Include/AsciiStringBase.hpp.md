@@ -1,28 +1,35 @@
 # AsciiStringBase.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Classes
-- `AsciiStringBase`: Performs AsciiStringBase operation in AsciiStringBase.hpp
-- `AsciiStringBaseEx`: Checks a condition in AsciiStringBase.hpp and returns true or false based on the result
+- **`AsciiStringBase`**: Implements ascii string base functionality
+- **`AsciiStringBaseEx`**: Implements ascii string base ex functionality
+
 ### Key Functions
-- `SetData()`: Sets or updates Data value in AsciiStringBase.hpp
-- `GetEncoding()`: Retrieves Encoding value in AsciiStringBase.hpp
-- `Append()`: Performs Append operation in AsciiStringBase.hpp
+- **`AsciiStringBase()`**: Executes ascii string base operation
+- **`AsciiStringBaseEx::AsciiStringBase()`**: Executes ascii string base operation
+
 ### Summary
-The `AsciiStringBase.hpp` file provides essential functionality for string utilities. It defines 2 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `AsciiStringBase.hpp` file is essential for string manipulation and utilities. It defines 2 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Klasy
-- `AsciiStringBase`: Performs AsciiStringBase operation in AsciiStringBase.hpp
-- `AsciiStringBaseEx`: Checks a condition in AsciiStringBase.hpp and returns true or false based on the result
+- **`AsciiStringBase`**: Implements ascii string base functionality
+- **`AsciiStringBaseEx`**: Implements ascii string base ex functionality
+
 ### Kluczowe Funkcje
-- `SetData()`: Sets or updates Data value in AsciiStringBase.hpp
-- `GetEncoding()`: Retrieves Encoding value in AsciiStringBase.hpp
-- `Append()`: Performs Append operation in AsciiStringBase.hpp
+- **`AsciiStringBase()`**: Executes ascii string base operation
+- **`AsciiStringBaseEx::AsciiStringBase()`**: Executes ascii string base operation
+
 ### Podsumowanie
-Plik `AsciiStringBase.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 2 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `AsciiStringBase.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Definiuje 2 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

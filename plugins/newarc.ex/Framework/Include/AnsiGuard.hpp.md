@@ -1,20 +1,27 @@
 # AnsiGuard.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `AnsiGuard`: Performs AnsiGuard operation in AnsiGuard.hpp
-- `OemGuard`: Performs OemGuard operation in AnsiGuard.hpp
+- **`AnsiGuard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`OemGuard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+
 ### Summary
-The `AnsiGuard.hpp` file provides essential functionality for core functionality. It defines 2 class(es) to support the Far Manager file manager operations.
+The `AnsiGuard.hpp` file is essential for core functionality. It defines 2 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `AnsiGuard`: Performs AnsiGuard operation in AnsiGuard.hpp
-- `OemGuard`: Performs OemGuard operation in AnsiGuard.hpp
+- **`AnsiGuard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`OemGuard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+
 ### Podsumowanie
-Plik `AnsiGuard.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `AnsiGuard.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.

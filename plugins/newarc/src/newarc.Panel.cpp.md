@@ -1,44 +1,71 @@
 # newarc.Panel.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: panel management
+This file implements functionality for panel display and management.
+
 ### Key Classes
-- `ArchiveTemplate`: Performs ArchiveTemplate operation in newarc.Panel.cpp
-- `ParamStruct`: Performs ParamStruct operation in newarc.Panel.cpp
-- `ScanStruct`: Performs ScanStruct operation in newarc.Panel.cpp
+- **`ParamStruct`**: Implements param struct functionality
+- **`ArchiveTemplate`**: Implements archive template functionality
+- **`ArchiveTemplate`**: Implements archive template functionality
+- **`ScanStruct`**: Implements scan struct functionality
+
 ### Key Functions
-- `CheckForEsc()`: Performs CheckForEsc operation in newarc.Panel.cpp
-- `ProcessName()`: Processes input data in newarc.Panel.cpp
-- `CreateListFile()`: Opens and manages a file in newarc.Panel.cpp, handling resource cleanup
-- `ParseString()`: Performs ParseString operation in newarc.Panel.cpp
-- `IsFileInFolder()`: Checks a condition in newarc.Panel.cpp and returns the result
-- `GetArchiveItemsToProcess()`: Retrieves ArchiveItemsToProcess value in newarc.Panel.cpp
-- `ExecuteCommand()`: __debug ("total - %I64u", pOS->uTotalSize);
-- `SetFormatTitle()`: Sets or updates FormatTitle value in newarc.Panel.cpp
-- `hndAddEditTemplate()`: const char *lpAdditionalParams;
-- `LoadTemplates()`: Performs LoadTemplates operation in newarc.Panel.cpp
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`StrFree()`**: Executes str free operation
+- **`ProcessName()`**: Executes process name operation
+- **`CreateListFile()`**: Constructs and returns a new list file object
+- **`ParseString()`**: Executes parse string operation
+- **`IsFileInFolder()`**: Checks whether file in folder condition is true
+- **`GetArchiveItemsToProcess()`**: Retrieves the current archive items to process value
+- **`ExecuteCommand()`**: Executes execute command operation
+- **`SetFormatTitle()`**: Updates the format title with a new value
+- **`LoadTemplates()`**: Executes load templates operation
+- **`SaveTemplates()`**: Executes save templates operation
+- **`dlgAddEditTemplate()`**: Executes dlg add edit template operation
+- **`SetTemplate()`**: Updates the template with a new value
+- **`dlgModifyCreateArchive()`**: Executes dlg modify create archive operation
+- **`dlgGetArchiveFiles()`**: Executes dlg get archive files operation
+- **`doDeleteFiles()`**: Executes do delete files operation
+- **`msgDeleteFiles()`**: Executes msg delete files operation
+- **`mnuChooseOperation()`**: Executes mnu choose operation operation
+
 ### Summary
-The `newarc.Panel.cpp` file provides essential functionality for panel management. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `newarc.Panel.cpp` file is essential for panel display and management. It defines 4 class(es) and implements 18 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie panelami
+Ten plik implementuje funkcjonalność dla wyświetlania i zarządzania panelami.
+
 ### Kluczowe Klasy
-- `ArchiveTemplate`: Performs ArchiveTemplate operation in newarc.Panel.cpp
-- `ParamStruct`: Performs ParamStruct operation in newarc.Panel.cpp
-- `ScanStruct`: Performs ScanStruct operation in newarc.Panel.cpp
+- **`ParamStruct`**: Implements param struct functionality
+- **`ArchiveTemplate`**: Implements archive template functionality
+- **`ArchiveTemplate`**: Implements archive template functionality
+- **`ScanStruct`**: Implements scan struct functionality
+
 ### Kluczowe Funkcje
-- `CheckForEsc()`: Performs CheckForEsc operation in newarc.Panel.cpp
-- `ProcessName()`: Processes input data in newarc.Panel.cpp
-- `CreateListFile()`: Opens and manages a file in newarc.Panel.cpp, handling resource cleanup
-- `ParseString()`: Performs ParseString operation in newarc.Panel.cpp
-- `IsFileInFolder()`: Checks a condition in newarc.Panel.cpp and returns the result
-- `GetArchiveItemsToProcess()`: Retrieves ArchiveItemsToProcess value in newarc.Panel.cpp
-- `ExecuteCommand()`: __debug ("total - %I64u", pOS->uTotalSize);
-- `SetFormatTitle()`: Sets or updates FormatTitle value in newarc.Panel.cpp
-- `hndAddEditTemplate()`: const char *lpAdditionalParams;
-- `LoadTemplates()`: Performs LoadTemplates operation in newarc.Panel.cpp
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`StrFree()`**: Executes str free operation
+- **`ProcessName()`**: Executes process name operation
+- **`CreateListFile()`**: Constructs and returns a new list file object
+- **`ParseString()`**: Executes parse string operation
+- **`IsFileInFolder()`**: Checks whether file in folder condition is true
+- **`GetArchiveItemsToProcess()`**: Retrieves the current archive items to process value
+- **`ExecuteCommand()`**: Executes execute command operation
+- **`SetFormatTitle()`**: Updates the format title with a new value
+- **`LoadTemplates()`**: Executes load templates operation
+- **`SaveTemplates()`**: Executes save templates operation
+- **`dlgAddEditTemplate()`**: Executes dlg add edit template operation
+- **`SetTemplate()`**: Updates the template with a new value
+- **`dlgModifyCreateArchive()`**: Executes dlg modify create archive operation
+- **`dlgGetArchiveFiles()`**: Executes dlg get archive files operation
+- **`doDeleteFiles()`**: Executes do delete files operation
+- **`msgDeleteFiles()`**: Executes msg delete files operation
+- **`mnuChooseOperation()`**: Executes mnu choose operation operation
+
 ### Podsumowanie
-Plik `newarc.Panel.cpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `newarc.Panel.cpp` jest niezbędny dla wyświetlania i zarządzania panelami. Definiuje 4 klas(y) i implementuje 18 funkcji wspierających operacje menedżera plików Far Manager.

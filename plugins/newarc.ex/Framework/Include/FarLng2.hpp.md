@@ -1,32 +1,39 @@
 # FarLng2.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Key Classes
-- `Language`: Performs Language operation in FarLng2.hpp
+- **`Language`**: Implements language functionality
+
 ### Key Functions
-- `LoadFromBuffer()`: Performs LoadFromBuffer operation in FarLng2.hpp
-- `LoadFromFile()`: Performs LoadFromFile operation in FarLng2.hpp
-- `AddString()`: Performs AddString operation in FarLng2.hpp
-- `GetMsg()`: Retrieves Msg value in FarLng2.hpp
-- `GetLanguage()`: Retrieves Language value in FarLng2.hpp
-- `ParseString()`: Performs ParseString operation in FarLng2.hpp
+- **`Language::LoadFromBuffer()`**: Executes load from buffer operation
+- **`Language::LoadFromFile()`**: Executes load from file operation
+- **`Language::AddString()`**: Executes add string operation
+- **`Language::GetMsg()`**: Retrieves the current msg value
+- **`Language::GetLanguage()`**: Retrieves the current language value
+
 ### Summary
-The `FarLng2.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
+The `FarLng2.hpp` file is essential for language file processing and localization. It defines 1 class(es) and implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Kluczowe Klasy
-- `Language`: Performs Language operation in FarLng2.hpp
+- **`Language`**: Implements language functionality
+
 ### Kluczowe Funkcje
-- `LoadFromBuffer()`: Performs LoadFromBuffer operation in FarLng2.hpp
-- `LoadFromFile()`: Performs LoadFromFile operation in FarLng2.hpp
-- `AddString()`: Performs AddString operation in FarLng2.hpp
-- `GetMsg()`: Retrieves Msg value in FarLng2.hpp
-- `GetLanguage()`: Retrieves Language value in FarLng2.hpp
-- `ParseString()`: Performs ParseString operation in FarLng2.hpp
+- **`Language::LoadFromBuffer()`**: Executes load from buffer operation
+- **`Language::LoadFromFile()`**: Executes load from file operation
+- **`Language::AddString()`**: Executes add string operation
+- **`Language::GetMsg()`**: Retrieves the current msg value
+- **`Language::GetLanguage()`**: Retrieves the current language value
+
 ### Podsumowanie
-Plik `FarLng2.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarLng2.hpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. Definiuje 1 klas(y) i implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

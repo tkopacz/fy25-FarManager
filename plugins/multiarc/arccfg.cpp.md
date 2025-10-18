@@ -1,22 +1,27 @@
 # arccfg.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ConfigGeneral()`: Checks a condition in arccfg.cpp and returns true or false based on the result
-- `CfgCmdProc()`: SetRegKey(HKEY_CURRENT_USER,"","DeleteExtFile",Opt.DeleteExtFile);
-- `ConfigCommands()`: Checks a condition in arccfg.cpp and returns true or false based on the result
+- **`ConfigGeneral()`**: Executes config general operation
+- **`ConfigCommands()`**: Executes config commands operation
+
 ### Summary
-The `arccfg.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `arccfg.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ConfigGeneral()`: Checks a condition in arccfg.cpp and returns true or false based on the result
-- `CfgCmdProc()`: SetRegKey(HKEY_CURRENT_USER,"","DeleteExtFile",Opt.DeleteExtFile);
-- `ConfigCommands()`: Checks a condition in arccfg.cpp and returns true or false based on the result
+- **`ConfigGeneral()`**: Executes config general operation
+- **`ConfigCommands()`**: Executes config commands operation
+
 ### Podsumowanie
-Plik `arccfg.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `arccfg.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

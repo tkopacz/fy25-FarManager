@@ -1,22 +1,19 @@
 # plog_s.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `SayCL()`: Performs SayCL operation in plog_s.cpp
-- `_SayC()`: Performs _SayC operation in plog_s.cpp
-- `_SayL()`: Performs _SayL operation in plog_s.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `plog_s.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `plog_s.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `SayCL()`: Performs SayCL operation in plog_s.cpp
-- `_SayC()`: Performs _SayC operation in plog_s.cpp
-- `_SayL()`: Performs _SayL operation in plog_s.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `plog_s.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plog_s.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

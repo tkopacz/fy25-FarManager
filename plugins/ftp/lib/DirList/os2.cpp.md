@@ -1,24 +1,25 @@
 # os2.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `net_parse_os_date_time()`: Performs net_parse_os_date_time operation in os2.cpp
-- `SystemTimeToFileTime()`: Performs SystemTimeToFileTime operation in os2.cpp
-- `idPRParceOS2()`: Performs idPRParceOS2 operation in os2.cpp
-- `ConvertEntry()`: Performs ConvertEntry operation in os2.cpp
+- **`net_parse_os_date_time()`**: Executes net parse os date time operation
+
 ### Summary
-The `os2.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `os2.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `net_parse_os_date_time()`: Performs net_parse_os_date_time operation in os2.cpp
-- `SystemTimeToFileTime()`: Performs SystemTimeToFileTime operation in os2.cpp
-- `idPRParceOS2()`: Performs idPRParceOS2 operation in os2.cpp
-- `ConvertEntry()`: Performs ConvertEntry operation in os2.cpp
+- **`net_parse_os_date_time()`**: Executes net parse os date time operation
+
 ### Podsumowanie
-Plik `os2.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `os2.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

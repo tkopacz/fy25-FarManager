@@ -1,46 +1,53 @@
 # comutils.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `BStr`: Performs BStr operation in comutils.hpp
-- `ComBase`: Performs ComBase operation in comutils.hpp
-- `ComObject`: Performs ComObject operation in comutils.hpp
-- `PropVariant`: Performs PropVariant operation in comutils.hpp
+- **`ComBase`**: RAII wrapper managing com base initialization and cleanup lifecycle
+- **`ComObject`**: RAII wrapper managing com object initialization and cleanup lifecycle
+- **`PropVariant`**: Implements prop variant functionality
+- **`BStr`**: Implements bstr functionality
+
 ### Key Functions
-- `Release()`: Performs Release operation in comutils.hpp
-- `bool()`: Performs bool operation in comutils.hpp
-- `detach()`: Performs detach operation in comutils.hpp
-- `clear()`: Performs clear operation in comutils.hpp
-- `ref()`: Performs ref operation in comutils.hpp
-- `set_binary()`: Sets or updates _binary value in comutils.hpp
-- `is_int()`: Checks a condition in comutils.hpp and returns the result
-- `is_uint()`: Checks a condition in comutils.hpp and returns the result
-- `is_int64()`: Checks a condition in comutils.hpp and returns the result
-- `is_uint64()`: Checks a condition in comutils.hpp and returns the result
+- **`ComObject()`**: Executes com object operation
+- **`PropVariant()`**: Executes prop variant operation
+- **`BStr()`**: Executes bstr operation
+- **`read_stream()`**: Executes read stream operation
+- **`write_stream()`**: Executes write stream operation
+- **`ComBase::ref_cnt()`**: Executes ref cnt operation
+- **`ComObject::obj()`**: Executes obj operation
+- **`PropVariant::clear()`**: Removes all content and resets to empty state
+- **`BStr::clear()`**: Removes all content and resets to empty state
+
 ### Summary
-The `comutils.hpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `comutils.hpp` file is essential for core functionality. It defines 4 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `BStr`: Performs BStr operation in comutils.hpp
-- `ComBase`: Performs ComBase operation in comutils.hpp
-- `ComObject`: Performs ComObject operation in comutils.hpp
-- `PropVariant`: Performs PropVariant operation in comutils.hpp
+- **`ComBase`**: RAII wrapper managing com base initialization and cleanup lifecycle
+- **`ComObject`**: RAII wrapper managing com object initialization and cleanup lifecycle
+- **`PropVariant`**: Implements prop variant functionality
+- **`BStr`**: Implements bstr functionality
+
 ### Kluczowe Funkcje
-- `Release()`: Performs Release operation in comutils.hpp
-- `bool()`: Performs bool operation in comutils.hpp
-- `detach()`: Performs detach operation in comutils.hpp
-- `clear()`: Performs clear operation in comutils.hpp
-- `ref()`: Performs ref operation in comutils.hpp
-- `set_binary()`: Sets or updates _binary value in comutils.hpp
-- `is_int()`: Checks a condition in comutils.hpp and returns the result
-- `is_uint()`: Checks a condition in comutils.hpp and returns the result
-- `is_int64()`: Checks a condition in comutils.hpp and returns the result
-- `is_uint64()`: Checks a condition in comutils.hpp and returns the result
+- **`ComObject()`**: Executes com object operation
+- **`PropVariant()`**: Executes prop variant operation
+- **`BStr()`**: Executes bstr operation
+- **`read_stream()`**: Executes read stream operation
+- **`write_stream()`**: Executes write stream operation
+- **`ComBase::ref_cnt()`**: Executes ref cnt operation
+- **`ComObject::obj()`**: Executes obj operation
+- **`PropVariant::clear()`**: Removes all content and resets to empty state
+- **`BStr::clear()`**: Removes all content and resets to empty state
+
 ### Podsumowanie
-Plik `comutils.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `comutils.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

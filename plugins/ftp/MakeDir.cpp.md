@@ -1,14 +1,19 @@
 # MakeDir.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Summary
-The `MakeDir.cpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `MakeDir.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `MakeDir.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `MakeDir.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

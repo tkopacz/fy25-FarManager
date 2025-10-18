@@ -1,62 +1,53 @@
 # vmenu.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Обычное вертикальное меню
-Main functional areas: menu management
+This file implements functionality for clipboard operations and data transfer.
+
 ### Key Classes
-- `alignment`: Performs alignment operation in vmenu.cpp
-- `bulk_update_scope_guard`: Keeps track of the horizontal state of all items.
-- `color_indices`: Performs color_indices operation in vmenu.cpp
-- `item_color_indices`: Performs item_color_indices operation in vmenu.cpp
-- `item_hscroll_policy`: Performs item_hscroll_policy operation in vmenu.cpp
-- `menu_layout`: Performs menu_layout operation in vmenu.cpp
-- `test_data`: Performs test_data operation in vmenu.cpp
-- `test_segment`: Performs test_segment operation in vmenu.cpp
-- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation in vmenu.cpp
+- **`color_indices`**: Implements color indices functionality
+- **`item_color_indices`**: Implements item color indices functionality
+- **`menu_layout`**: Implements menu layout functionality
+- **`item_hscroll_policy`**: Implements item hscroll policy functionality
+- **`vmenu_horizontal_tracker`**: Implements vmenu horizontal tracker functionality
+- **`bulk_update_scope_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`alignment`**: Enumeration defining possible values for alignment
+- **`test_data`**: Implements test data functionality
+- **`test_segment`**: Implements test segment functionality
+- **`test_data`**: Implements test data functionality
+- **`test_data`**: Implements test data functionality
+
 ### Key Functions
-- `item_color_indices()`: Performs item_color_indices operation in vmenu.cpp
-- `need_box()`: Performs need_box operation in vmenu.cpp
-- `get_box_type()`: Retrieves _box_type value in vmenu.cpp
-- `get_service_area_size()`: Retrieves _service_area_size value in vmenu.cpp
-- `fixed_columns_width()`: Performs fixed_columns_width operation in vmenu.cpp
-- `get_title_service_area_size()`: Plus one position for separator
-- `get_client_rect()`: Retrieves _client_rect value in vmenu.cpp
-- `need_check_mark()`: Performs need_check_mark operation in vmenu.cpp
-- `need_left_hscroll()`: Performs need_left_hscroll operation in vmenu.cpp
-- `need_right_hscroll()`: Performs need_right_hscroll operation in vmenu.cpp
-### Namespaces
-- `std`
+- **`IsFilterEditKey()`**: Checks whether filter edit key condition is true
+- **`vmenu_horizontal_tracker::bulk_update_scope_guard()`**: Executes bulk update scope guard operation
+
 ### Summary
-The `vmenu.cpp` file provides essential functionality for menu management. It defines 9 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `vmenu.cpp` file is essential for clipboard operations and data transfer. It defines 11 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Обычное вертикальное меню
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla operacji schowka i transferu danych.
+
 ### Kluczowe Klasy
-- `alignment`: Performs alignment operation in vmenu.cpp
-- `bulk_update_scope_guard`: Keeps track of the horizontal state of all items.
-- `color_indices`: Performs color_indices operation in vmenu.cpp
-- `item_color_indices`: Performs item_color_indices operation in vmenu.cpp
-- `item_hscroll_policy`: Performs item_hscroll_policy operation in vmenu.cpp
-- `menu_layout`: Performs menu_layout operation in vmenu.cpp
-- `test_data`: Performs test_data operation in vmenu.cpp
-- `test_segment`: Performs test_segment operation in vmenu.cpp
-- `vmenu_horizontal_tracker`: Performs vmenu_horizontal_tracker operation in vmenu.cpp
+- **`color_indices`**: Implements color indices functionality
+- **`item_color_indices`**: Implements item color indices functionality
+- **`menu_layout`**: Implements menu layout functionality
+- **`item_hscroll_policy`**: Implements item hscroll policy functionality
+- **`vmenu_horizontal_tracker`**: Implements vmenu horizontal tracker functionality
+- **`bulk_update_scope_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`alignment`**: Enumeration defining possible values for alignment
+- **`test_data`**: Implements test data functionality
+- **`test_segment`**: Implements test segment functionality
+- **`test_data`**: Implements test data functionality
+- **`test_data`**: Implements test data functionality
+
 ### Kluczowe Funkcje
-- `item_color_indices()`: Performs item_color_indices operation in vmenu.cpp
-- `need_box()`: Performs need_box operation in vmenu.cpp
-- `get_box_type()`: Retrieves _box_type value in vmenu.cpp
-- `get_service_area_size()`: Retrieves _service_area_size value in vmenu.cpp
-- `fixed_columns_width()`: Performs fixed_columns_width operation in vmenu.cpp
-- `get_title_service_area_size()`: Plus one position for separator
-- `get_client_rect()`: Retrieves _client_rect value in vmenu.cpp
-- `need_check_mark()`: Performs need_check_mark operation in vmenu.cpp
-- `need_left_hscroll()`: Performs need_left_hscroll operation in vmenu.cpp
-- `need_right_hscroll()`: Performs need_right_hscroll operation in vmenu.cpp
-### Przestrzenie nazw
-- `std`
+- **`IsFilterEditKey()`**: Checks whether filter edit key condition is true
+- **`vmenu_horizontal_tracker::bulk_update_scope_guard()`**: Executes bulk update scope guard operation
+
 ### Podsumowanie
-Plik `vmenu.cpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. Definiuje 9 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `vmenu.cpp` jest niezbędny dla operacji schowka i transferu danych. Definiuje 11 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

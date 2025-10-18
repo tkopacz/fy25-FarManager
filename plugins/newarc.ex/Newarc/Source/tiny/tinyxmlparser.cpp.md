@@ -1,42 +1,35 @@
 # tinyxmlparser.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `TiXmlDocument`: Performs TiXmlDocument operation in tinyxmlparser.cpp
-- `TiXmlParsingData`: Performs TiXmlParsingData operation in tinyxmlparser.cpp
+- **`TiXmlParsingData`**: Implements ti xml parsing data functionality
+
 ### Key Functions
-- `isalpha()`: This will only work for low-ascii, everything else is assumed to be a valid
-- `isalnum()`: return isalpha( anyByte );
-- `Stamp()`: Only used by the document!
-- `Cursor()`: to figure out alhabetical vs. not across encoding. So take a very
-- `ConvertUTF32ToUTF8()`: Performs ConvertUTF32ToUTF8 operation in tinyxmlparser.cpp
-- `TIXML_LOG()`: Performs TIXML_LOG operation in tinyxmlparser.cpp
-- `TiXmlDeclaration()`: Performs TiXmlDeclaration operation in tinyxmlparser.cpp
-- `TiXmlComment()`: const char* xmlHeader = { "<?xml" };
-- `TiXmlText()`: Performs TiXmlText operation in tinyxmlparser.cpp
-- `TiXmlUnknown()`: Performs TiXmlUnknown operation in tinyxmlparser.cpp
+- **`code()`**: Executes code operation
+- **`TiXmlParsingData::Stamp()`**: Executes stamp operation
+- **`TiXmlParsingData::Cursor()`**: Executes cursor operation
+
 ### Summary
-The `tinyxmlparser.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `tinyxmlparser.cpp` file is essential for core functionality. It defines 1 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `TiXmlDocument`: Performs TiXmlDocument operation in tinyxmlparser.cpp
-- `TiXmlParsingData`: Performs TiXmlParsingData operation in tinyxmlparser.cpp
+- **`TiXmlParsingData`**: Implements ti xml parsing data functionality
+
 ### Kluczowe Funkcje
-- `isalpha()`: This will only work for low-ascii, everything else is assumed to be a valid
-- `isalnum()`: return isalpha( anyByte );
-- `Stamp()`: Only used by the document!
-- `Cursor()`: to figure out alhabetical vs. not across encoding. So take a very
-- `ConvertUTF32ToUTF8()`: Performs ConvertUTF32ToUTF8 operation in tinyxmlparser.cpp
-- `TIXML_LOG()`: Performs TIXML_LOG operation in tinyxmlparser.cpp
-- `TiXmlDeclaration()`: Performs TiXmlDeclaration operation in tinyxmlparser.cpp
-- `TiXmlComment()`: const char* xmlHeader = { "<?xml" };
-- `TiXmlText()`: Performs TiXmlText operation in tinyxmlparser.cpp
-- `TiXmlUnknown()`: Performs TiXmlUnknown operation in tinyxmlparser.cpp
+- **`code()`**: Executes code operation
+- **`TiXmlParsingData::Stamp()`**: Executes stamp operation
+- **`TiXmlParsingData::Cursor()`**: Executes cursor operation
+
 ### Podsumowanie
-Plik `tinyxmlparser.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `tinyxmlparser.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

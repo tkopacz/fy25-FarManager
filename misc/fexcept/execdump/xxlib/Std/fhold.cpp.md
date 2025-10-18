@@ -1,14 +1,19 @@
 # fhold.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Summary
-The `fhold.cpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `fhold.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `fhold.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `fhold.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

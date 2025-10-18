@@ -1,20 +1,27 @@
 # rsrc.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `replace_icon()`: Performs replace_icon operation in rsrc.hpp
-- `replace_ver_info()`: Performs replace_ver_info operation in rsrc.hpp
+- **`replace_icon()`**: Executes replace icon operation
+- **`replace_ver_info()`**: Executes replace ver info operation
+
 ### Summary
-The `rsrc.hpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `rsrc.hpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `replace_icon()`: Performs replace_icon operation in rsrc.hpp
-- `replace_ver_info()`: Performs replace_ver_info operation in rsrc.hpp
+- **`replace_icon()`**: Executes replace icon operation
+- **`replace_ver_info()`**: Executes replace ver info operation
+
 ### Podsumowanie
-Plik `rsrc.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `rsrc.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

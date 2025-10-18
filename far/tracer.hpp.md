@@ -1,36 +1,49 @@
 # tracer.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `map_file`: Performs map_file operation in tracer.hpp
-- `tracer`: Performs tracer operation in tracer.hpp
-- `with_symbols`: Performs with_symbols operation in tracer.hpp
+- **`tracer`**: Implements tracer functionality
+- **`with_symbols`**: Implements with symbols functionality
+
 ### Key Functions
-- `get_symbol()`: Retrieves _symbol value in tracer.hpp
-- `with_symbols()`: Performs with_symbols operation in tracer.hpp
-- `sym_initialise()`: Performs sym_initialise operation in tracer.hpp
-- `sym_cleanup()`: Performs sym_cleanup operation in tracer.hpp
+- **`tracer::get_symbols()`**: Retrieves the current symbols value
+- **`tracer::get_symbol()`**: Retrieves the current symbol value
+- **`tracer::current_stacktrace()`**: Executes current stacktrace operation
+- **`tracer::stacktrace()`**: Executes stacktrace operation
+- **`tracer::exception_stacktrace()`**: Executes exception stacktrace operation
+- **`tracer::with_symbols()`**: Executes with symbols operation
+
 ### Namespaces
 - `tracer_detail`
+
 ### Summary
-The `tracer.hpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `tracer.hpp` file is essential for core functionality. It defines 2 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `map_file`: Performs map_file operation in tracer.hpp
-- `tracer`: Performs tracer operation in tracer.hpp
-- `with_symbols`: Performs with_symbols operation in tracer.hpp
+- **`tracer`**: Implements tracer functionality
+- **`with_symbols`**: Implements with symbols functionality
+
 ### Kluczowe Funkcje
-- `get_symbol()`: Retrieves _symbol value in tracer.hpp
-- `with_symbols()`: Performs with_symbols operation in tracer.hpp
-- `sym_initialise()`: Performs sym_initialise operation in tracer.hpp
-- `sym_cleanup()`: Performs sym_cleanup operation in tracer.hpp
+- **`tracer::get_symbols()`**: Retrieves the current symbols value
+- **`tracer::get_symbol()`**: Retrieves the current symbol value
+- **`tracer::current_stacktrace()`**: Executes current stacktrace operation
+- **`tracer::stacktrace()`**: Executes stacktrace operation
+- **`tracer::exception_stacktrace()`**: Executes exception stacktrace operation
+- **`tracer::with_symbols()`**: Executes with symbols operation
+
 ### Przestrzenie nazw
 - `tracer_detail`
+
 ### Podsumowanie
-Plik `tracer.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `tracer.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

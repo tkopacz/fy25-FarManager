@@ -1,30 +1,27 @@
 # map_file.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `info`: Performs info operation in map_file.hpp
-- `line`: Performs line operation in map_file.hpp
-- `map_file`: Performs map_file operation in map_file.hpp
-### Key Functions
-- `map_file()`: Performs map_file operation in map_file.hpp
-- `get()`: Retrieves  value in map_file.hpp
-- `read()`: Performs read operation in map_file.hpp
+- **`map_file`**: Simple data holder with getter/setter accessors
+- **`info`**: Implements info functionality
+
 ### Summary
-The `map_file.hpp` file provides essential functionality for file system operations. It defines 3 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `map_file.hpp` file is essential for file operations. It defines 2 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `info`: Performs info operation in map_file.hpp
-- `line`: Performs line operation in map_file.hpp
-- `map_file`: Performs map_file operation in map_file.hpp
-### Kluczowe Funkcje
-- `map_file()`: Performs map_file operation in map_file.hpp
-- `get()`: Retrieves  value in map_file.hpp
-- `read()`: Performs read operation in map_file.hpp
+- **`map_file`**: Simple data holder with getter/setter accessors
+- **`info`**: Implements info functionality
+
 ### Podsumowanie
-Plik `map_file.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 3 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `map_file.hpp` jest niezbędny dla operacji na plikach. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.

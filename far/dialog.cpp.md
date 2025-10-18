@@ -1,46 +1,51 @@
 # dialog.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Класс диалога
-Main functional areas: dialog handling, singleton implementation
+This file implements functionality for dialog and user interface.
+
 ### Key Classes
-- `DialogItemEx`: Структура, описывающая автоматизацию для DIF_AUTOMATION
-- `DlgUserControl`: Performs DlgUserControl operation in dialog.cpp
-- `dialogs_set`: Performs dialogs_set operation in dialog.cpp
+- **`DlgUserControl`**: Implements dlg user control functionality
+
 ### Key Functions
-- `CanGetFocus()`: не прорисовывать строку редактирования при изменениях в комбо
-- `IsEmulatedEditorLine()`: static bool CanGetFocus(int Type)
-- `IsKeyHighlighted()`: Checks a condition in dialog.cpp and returns true or false based on the result
-- `ConvertItemSmall()`: (AltKey=='-' || AltKey=='/' || AltKey==',' || AltKey=='.' ||
-- `ItemString()`: AltKey==':' || AltKey=='"' || AltKey=='~'))
-- `ConvertItemEx2()`: Performs ConvertItemEx2 operation in dialog.cpp
-- `ItemsToItemsEx()`: Performs ItemsToItemsEx operation in dialog.cpp
-- `DefProcFunction()`: Performs DefProcFunction operation in dialog.cpp
-- `InitDialogObjects()`: Y2 при этом = высоте диалога.
-- `IsSuitableItem()`: и одинаковой вертикальной позицией будут отцентрированы в диалоге.
+- **`CanGetFocus()`**: Executes can get focus operation
+- **`IsEmulatedEditorLine()`**: Checks whether emulated editor line condition is true
+- **`IsKeyHighlighted()`**: Checks whether key highlighted condition is true
+- **`ConvertItemSmall()`**: Executes convert item small operation
+- **`ItemString()`**: Executes item string operation
+- **`ConvertItemEx2()`**: Executes convert item ex2 operation
+- **`ItemsToItemsEx()`**: Executes items to items ex operation
+- **`MakeDialogItems()`**: Executes make dialog items operation
+- **`DefProcFunction()`**: Executes def proc function operation
+- **`get_dialog_item_text()`**: Retrieves text data from dialog item text
+- **`set_dialog_item_text()`**: Stores text data to dialog item text
+
 ### Summary
-The `dialog.cpp` file provides essential functionality for dialog handling, singleton implementation. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `dialog.cpp` file is essential for dialog and user interface. It defines 1 class(es) and implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Класс диалога
-Główne obszary funkcjonalne: obsługa dialogów, implementacja singletona
+Ten plik implementuje funkcjonalność dla okien dialogowych i interfejsu użytkownika.
+
 ### Kluczowe Klasy
-- `DialogItemEx`: Структура, описывающая автоматизацию для DIF_AUTOMATION
-- `DlgUserControl`: Performs DlgUserControl operation in dialog.cpp
-- `dialogs_set`: Performs dialogs_set operation in dialog.cpp
+- **`DlgUserControl`**: Implements dlg user control functionality
+
 ### Kluczowe Funkcje
-- `CanGetFocus()`: не прорисовывать строку редактирования при изменениях в комбо
-- `IsEmulatedEditorLine()`: static bool CanGetFocus(int Type)
-- `IsKeyHighlighted()`: Checks a condition in dialog.cpp and returns true or false based on the result
-- `ConvertItemSmall()`: (AltKey=='-' || AltKey=='/' || AltKey==',' || AltKey=='.' ||
-- `ItemString()`: AltKey==':' || AltKey=='"' || AltKey=='~'))
-- `ConvertItemEx2()`: Performs ConvertItemEx2 operation in dialog.cpp
-- `ItemsToItemsEx()`: Performs ItemsToItemsEx operation in dialog.cpp
-- `DefProcFunction()`: Performs DefProcFunction operation in dialog.cpp
-- `InitDialogObjects()`: Y2 при этом = высоте диалога.
-- `IsSuitableItem()`: и одинаковой вертикальной позицией будут отцентрированы в диалоге.
+- **`CanGetFocus()`**: Executes can get focus operation
+- **`IsEmulatedEditorLine()`**: Checks whether emulated editor line condition is true
+- **`IsKeyHighlighted()`**: Checks whether key highlighted condition is true
+- **`ConvertItemSmall()`**: Executes convert item small operation
+- **`ItemString()`**: Executes item string operation
+- **`ConvertItemEx2()`**: Executes convert item ex2 operation
+- **`ItemsToItemsEx()`**: Executes items to items ex operation
+- **`MakeDialogItems()`**: Executes make dialog items operation
+- **`DefProcFunction()`**: Executes def proc function operation
+- **`get_dialog_item_text()`**: Retrieves text data from dialog item text
+- **`set_dialog_item_text()`**: Stores text data to dialog item text
+
 ### Podsumowanie
-Plik `dialog.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów, implementacja singletona. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `dialog.cpp` jest niezbędny dla okien dialogowych i interfejsu użytkownika. Definiuje 1 klas(y) i implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

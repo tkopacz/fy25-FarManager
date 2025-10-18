@@ -1,22 +1,29 @@
 # FarLng.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Key Functions
-- `LoadLanguageFile()`: Performs LoadLanguageFile operation in FarLng.hpp
-- `SearchAndLoadLanguageFile()`: Performs SearchAndLoadLanguageFile operation in FarLng.hpp
-- `FinalizeLanguageStrings()`: Performs FinalizeLanguageStrings operation in FarLng.hpp
+- **`LoadLanguageFile()`**: Executes load language file operation
+- **`SearchAndLoadLanguageFile()`**: Executes search and load language file operation
+- **`FinalizeLanguageStrings()`**: Executes finalize language strings operation
+
 ### Summary
-The `FarLng.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `FarLng.hpp` file is essential for language file processing and localization. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Kluczowe Funkcje
-- `LoadLanguageFile()`: Performs LoadLanguageFile operation in FarLng.hpp
-- `SearchAndLoadLanguageFile()`: Performs SearchAndLoadLanguageFile operation in FarLng.hpp
-- `FinalizeLanguageStrings()`: Performs FinalizeLanguageStrings operation in FarLng.hpp
+- **`LoadLanguageFile()`**: Executes load language file operation
+- **`SearchAndLoadLanguageFile()`**: Executes search and load language file operation
+- **`FinalizeLanguageStrings()`**: Executes finalize language strings operation
+
 ### Podsumowanie
-Plik `FarLng.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarLng.hpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

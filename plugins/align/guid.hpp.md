@@ -1,14 +1,23 @@
 # guid.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+{B076F0B0-90AE-408c-AD09-491606F09435}
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `guid.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `guid.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+{B076F0B0-90AE-408c-AD09-491606F09435}
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `guid.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `guid.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

@@ -1,42 +1,59 @@
 # arj.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ARJHd1`: Performs ARJHd1 operation in arj.cpp
-- `ARJHd2`: Performs ARJHd2 operation in arj.cpp
+- **`ARJHd1`**: Implements arjhd1 functionality
+- **`ARJHd2`**: Implements arjhd2 functionality
+
 ### Key Functions
-- `make_crctable()`: indicates dual-name archive
-- `crc_buf()`: indicates file starting position field (for split files)
-- `IsArchive()`: indicates filename translated ("\" changed to "/")
-- `OpenArchive()`: Opens a file or creates a file handle in arj.cpp
-- `GetArcItem()`: Retrieves ArcItem value in arj.cpp
-- `CloseArchive()`: Performs CloseArchive operation in arj.cpp
-- `GetSFXPos()`: Retrieves SFXPos value in arj.cpp
-- `GetFormatName()`: Retrieves FormatName value in arj.cpp
-- `GetDefaultCommands()`: Retrieves DefaultCommands value in arj.cpp
+- **`make_crctable()`**: Executes make crctable operation
+- **`crc_buf()`**: Executes crc buf operation
+- **`ARJHd1::id()`**: Executes id operation
+- **`ARJHd1::size()`**: Executes size operation
+- **`ARJHd1::type()`**: Executes type operation
+- **`ARJHd1::version()`**: Executes version operation
+- **`ARJHd1::flags()`**: Executes flags operation
+- **`ARJHd1::option()`**: Executes option operation
+- **`ARJHd1::created()`**: Constructs and returns a new d object
+- **`ARJHd1::comment()`**: Executes comment operation
+- **`ARJHd1::header()`**: Executes header operation
+- **`ARJHd2::id()`**: Executes id operation
+- **`ARJHd2::size()`**: Executes size operation
+- **`ARJHd2::header()`**: Executes header operation
+
 ### Summary
-The `arj.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `arj.cpp` file is essential for core functionality. It defines 2 class(es) and implements 16 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ARJHd1`: Performs ARJHd1 operation in arj.cpp
-- `ARJHd2`: Performs ARJHd2 operation in arj.cpp
+- **`ARJHd1`**: Implements arjhd1 functionality
+- **`ARJHd2`**: Implements arjhd2 functionality
+
 ### Kluczowe Funkcje
-- `make_crctable()`: indicates dual-name archive
-- `crc_buf()`: indicates file starting position field (for split files)
-- `IsArchive()`: indicates filename translated ("\" changed to "/")
-- `OpenArchive()`: Opens a file or creates a file handle in arj.cpp
-- `GetArcItem()`: Retrieves ArcItem value in arj.cpp
-- `CloseArchive()`: Performs CloseArchive operation in arj.cpp
-- `GetSFXPos()`: Retrieves SFXPos value in arj.cpp
-- `GetFormatName()`: Retrieves FormatName value in arj.cpp
-- `GetDefaultCommands()`: Retrieves DefaultCommands value in arj.cpp
+- **`make_crctable()`**: Executes make crctable operation
+- **`crc_buf()`**: Executes crc buf operation
+- **`ARJHd1::id()`**: Executes id operation
+- **`ARJHd1::size()`**: Executes size operation
+- **`ARJHd1::type()`**: Executes type operation
+- **`ARJHd1::version()`**: Executes version operation
+- **`ARJHd1::flags()`**: Executes flags operation
+- **`ARJHd1::option()`**: Executes option operation
+- **`ARJHd1::created()`**: Constructs and returns a new d object
+- **`ARJHd1::comment()`**: Executes comment operation
+- **`ARJHd1::header()`**: Executes header operation
+- **`ARJHd2::id()`**: Executes id operation
+- **`ARJHd2::size()`**: Executes size operation
+- **`ARJHd2::header()`**: Executes header operation
+
 ### Podsumowanie
-Plik `arj.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `arj.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 16 funkcji wspierających operacje menedżera plików Far Manager.

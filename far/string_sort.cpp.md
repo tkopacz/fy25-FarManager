@@ -1,50 +1,71 @@
 # string_sort.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Classes
-- `invariant_comparer`: Performs invariant_comparer operation in string_sort.cpp
-- `invariant_comparer_icase`: Performs invariant_comparer_icase operation in string_sort.cpp
-- `numeric_comparer`: Performs numeric_comparer operation in string_sort.cpp
-- `ordinal_comparer`: Performs ordinal_comparer operation in string_sort.cpp
-- `ordinal_comparer_icase`: Performs ordinal_comparer_icase operation in string_sort.cpp
+- **`numeric_comparer`**: Implements numeric comparer functionality
+- **`ordinal_comparer`**: Implements ordinal comparer functionality
+- **`ordinal_comparer_icase`**: Implements ordinal comparer icase functionality
+- **`invariant_comparer`**: Implements invariant comparer functionality
+- **`invariant_comparer_icase`**: Implements invariant comparer icase functionality
+
 ### Key Functions
-- `per_char_compare()`: Performs per_char_compare operation in string_sort.cpp
-- `windows_to_std()`: Performs windows_to_std operation in string_sort.cpp
-- `compare_ordinal_t()`: Performs compare_ordinal_t operation in string_sort.cpp
-- `compare_ordinal()`: Performs compare_ordinal operation in string_sort.cpp
-- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in string_sort.cpp
-- `compare_numeric_t()`: Performs compare_numeric_t operation in string_sort.cpp
-- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation in string_sort.cpp
-- `compare_ordinal_numeric_icase()`: Performs compare_ordinal_numeric_icase operation in string_sort.cpp
-- `create_alt_sort_table()`: Creates and initializes a new object or resource in string_sort.cpp
-- `compare_invariant()`: Performs compare_invariant operation in string_sort.cpp
+- **`per_char_compare()`**: Executes per char compare operation
+- **`windows_to_std()`**: Executes windows to std operation
+- **`compare_ordinal_t()`**: Executes compare ordinal t operation
+- **`compare_ordinal()`**: Executes compare ordinal operation
+- **`compare_ordinal_icase()`**: Executes compare ordinal icase operation
+- **`compare_numeric_t()`**: Executes compare numeric t operation
+- **`compare_ordinal_numeric()`**: Executes compare ordinal numeric operation
+- **`compare_ordinal_numeric_icase()`**: Executes compare ordinal numeric icase operation
+- **`compare_invariant()`**: Executes compare invariant operation
+- **`compare_invariant_icase()`**: Executes compare invariant icase operation
+- **`compare_invariant_numeric()`**: Executes compare invariant numeric operation
+- **`compare_invariant_numeric_icase()`**: Executes compare invariant numeric icase operation
+- **`compare_natural_base()`**: Executes compare natural base operation
+- **`compare_natural()`**: Executes compare natural operation
+- **`compare_natural_icase()`**: Executes compare natural icase operation
+- **`compare_natural_numeric()`**: Executes compare natural numeric operation
+- **`compare_natural_numeric_icase()`**: Executes compare natural numeric icase operation
+
 ### Summary
-The `string_sort.cpp` file provides essential functionality for string utilities. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `string_sort.cpp` file is essential for string manipulation and utilities. It defines 5 class(es) and implements 17 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Klasy
-- `invariant_comparer`: Performs invariant_comparer operation in string_sort.cpp
-- `invariant_comparer_icase`: Performs invariant_comparer_icase operation in string_sort.cpp
-- `numeric_comparer`: Performs numeric_comparer operation in string_sort.cpp
-- `ordinal_comparer`: Performs ordinal_comparer operation in string_sort.cpp
-- `ordinal_comparer_icase`: Performs ordinal_comparer_icase operation in string_sort.cpp
+- **`numeric_comparer`**: Implements numeric comparer functionality
+- **`ordinal_comparer`**: Implements ordinal comparer functionality
+- **`ordinal_comparer_icase`**: Implements ordinal comparer icase functionality
+- **`invariant_comparer`**: Implements invariant comparer functionality
+- **`invariant_comparer_icase`**: Implements invariant comparer icase functionality
+
 ### Kluczowe Funkcje
-- `per_char_compare()`: Performs per_char_compare operation in string_sort.cpp
-- `windows_to_std()`: Performs windows_to_std operation in string_sort.cpp
-- `compare_ordinal_t()`: Performs compare_ordinal_t operation in string_sort.cpp
-- `compare_ordinal()`: Performs compare_ordinal operation in string_sort.cpp
-- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in string_sort.cpp
-- `compare_numeric_t()`: Performs compare_numeric_t operation in string_sort.cpp
-- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation in string_sort.cpp
-- `compare_ordinal_numeric_icase()`: Performs compare_ordinal_numeric_icase operation in string_sort.cpp
-- `create_alt_sort_table()`: Creates and initializes a new object or resource in string_sort.cpp
-- `compare_invariant()`: Performs compare_invariant operation in string_sort.cpp
+- **`per_char_compare()`**: Executes per char compare operation
+- **`windows_to_std()`**: Executes windows to std operation
+- **`compare_ordinal_t()`**: Executes compare ordinal t operation
+- **`compare_ordinal()`**: Executes compare ordinal operation
+- **`compare_ordinal_icase()`**: Executes compare ordinal icase operation
+- **`compare_numeric_t()`**: Executes compare numeric t operation
+- **`compare_ordinal_numeric()`**: Executes compare ordinal numeric operation
+- **`compare_ordinal_numeric_icase()`**: Executes compare ordinal numeric icase operation
+- **`compare_invariant()`**: Executes compare invariant operation
+- **`compare_invariant_icase()`**: Executes compare invariant icase operation
+- **`compare_invariant_numeric()`**: Executes compare invariant numeric operation
+- **`compare_invariant_numeric_icase()`**: Executes compare invariant numeric icase operation
+- **`compare_natural_base()`**: Executes compare natural base operation
+- **`compare_natural()`**: Executes compare natural operation
+- **`compare_natural_icase()`**: Executes compare natural icase operation
+- **`compare_natural_numeric()`**: Executes compare natural numeric operation
+- **`compare_natural_numeric_icase()`**: Executes compare natural numeric icase operation
+
 ### Podsumowanie
-Plik `string_sort.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `string_sort.cpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Definiuje 5 klas(y) i implementuje 17 funkcji wspierających operacje menedżera plików Far Manager.

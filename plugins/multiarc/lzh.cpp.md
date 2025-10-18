@@ -1,50 +1,53 @@
 # lzh.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DictSizeType`: Performs DictSizeType operation in lzh.cpp
-- `LZH_Level0`: Performs LZH_Level0 operation in lzh.cpp
-- `LZH_Level1`: Performs LZH_Level1 operation in lzh.cpp
-- `LZH_Level2`: Performs LZH_Level2 operation in lzh.cpp
-- `OSIDType`: Performs OSIDType operation in lzh.cpp
+- **`OSIDType`**: Implements osidtype functionality
+- **`DictSizeType`**: Implements dict size type functionality
+- **`LZH_Level0`**: Implements lzh level0 functionality
+- **`LZH_Level1`**: Implements lzh level1 functionality
+- **`LZH_Level2`**: Implements lzh level2 functionality
+
 ### Key Functions
-- `UnixTimeToFileTime()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `SetFarInfo()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
-- `CheckLZHHeader()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `IsArchive()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `OpenArchive()`: Opens a file or creates a file handle in lzh.cpp
-- `GetArcItem()`: Retrieves ArcItem value in lzh.cpp
-- `ReadFile()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `stamp()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `GetSFXPos()`: Iterates through elements in lzh.cpp and adds them to a collection
+- **`CheckLZHHeader()`**: Executes check lzhheader operation
+- **`LZH_Level0::bytes()`**: Executes bytes operation
+- **`LZH_Level1::bytes()`**: Executes bytes operation
+- **`LZH_Level1::size()`**: Executes size operation
+- **`LZH_Level1::type()`**: Executes type operation
+- **`LZH_Level2::header()`**: Executes header operation
+- **`LZH_Level2::size()`**: Executes size operation
+- **`LZH_Level2::type()`**: Executes type operation
+
 ### Summary
-The `lzh.cpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `lzh.cpp` file is essential for core functionality. It defines 5 class(es) and implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DictSizeType`: Performs DictSizeType operation in lzh.cpp
-- `LZH_Level0`: Performs LZH_Level0 operation in lzh.cpp
-- `LZH_Level1`: Performs LZH_Level1 operation in lzh.cpp
-- `LZH_Level2`: Performs LZH_Level2 operation in lzh.cpp
-- `OSIDType`: Performs OSIDType operation in lzh.cpp
+- **`OSIDType`**: Implements osidtype functionality
+- **`DictSizeType`**: Implements dict size type functionality
+- **`LZH_Level0`**: Implements lzh level0 functionality
+- **`LZH_Level1`**: Implements lzh level1 functionality
+- **`LZH_Level2`**: Implements lzh level2 functionality
+
 ### Kluczowe Funkcje
-- `UnixTimeToFileTime()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `SetFarInfo()`: Number of 100 nanosecond units from 01.01.1601 to 01.01.1970
-- `CheckLZHHeader()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `IsArchive()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `OpenArchive()`: Opens a file or creates a file handle in lzh.cpp
-- `GetArcItem()`: Retrieves ArcItem value in lzh.cpp
-- `ReadFile()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `stamp()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in lzh.cpp and adds them to a collection
-- `GetSFXPos()`: Iterates through elements in lzh.cpp and adds them to a collection
+- **`CheckLZHHeader()`**: Executes check lzhheader operation
+- **`LZH_Level0::bytes()`**: Executes bytes operation
+- **`LZH_Level1::bytes()`**: Executes bytes operation
+- **`LZH_Level1::size()`**: Executes size operation
+- **`LZH_Level1::type()`**: Executes type operation
+- **`LZH_Level2::header()`**: Executes header operation
+- **`LZH_Level2::size()`**: Executes size operation
+- **`LZH_Level2::type()`**: Executes type operation
+
 ### Podsumowanie
-Plik `lzh.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `lzh.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 5 klas(y) i implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,22 +1,23 @@
 # fstd_log.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
-### Key Functions
-- `LOGInit()`: Opens and manages a file in fstd_log.cpp, handling resource cleanup
-- `FP_FILELog()`: Opens and manages a file in fstd_log.cpp, handling resource cleanup
-- `fprintf()`: Opens and manages a file in fstd_log.cpp, handling resource cleanup
+[fstd_mklog.cpp]
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `fstd_log.cpp` file provides essential functionality for file system operations. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `fstd_log.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
-### Kluczowe Funkcje
-- `LOGInit()`: Opens and manages a file in fstd_log.cpp, handling resource cleanup
-- `FP_FILELog()`: Opens and manages a file in fstd_log.cpp, handling resource cleanup
-- `fprintf()`: Opens and manages a file in fstd_log.cpp, handling resource cleanup
+[fstd_mklog.cpp]
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `fstd_log.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fstd_log.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

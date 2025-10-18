@@ -1,42 +1,43 @@
 # plclass.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ModuleImports`: Performs ModuleImports operation in plclass.cpp
+- **`ModuleImports`**: Implements module imports functionality
+
 ### Key Functions
-- `ModuleFile()`: only module with GetGlobalInfoW can be native plugin
-- `StreamBuffer()`: only module with GetGlobalInfoW can be native plugin
-- `Stream()`: Performs Stream operation in plclass.cpp
-- `IsPlugin()`: only module with GetGlobalInfoW can be native plugin
-- `PrepareModulePath()`: Checks a condition in plclass.cpp and returns true or false based on the result
-- `CreatePluginStartupInfo()`: Opens a file or creates a file handle in plclass.cpp
-- `ShowMessageAboutIllegalPluginVersion()`: Performs ShowMessageAboutIllegalPluginVersion operation in plclass.cpp
-- `MakeSignature()`: Performs MakeSignature operation in plclass.cpp
-- `SetUuid()`: Sets or updates Uuid value in plclass.cpp
-- `CheckFarVersion()`: Performs CheckFarVersion operation in plclass.cpp
+- **`PrepareModulePath()`**: Executes prepare module path operation
+- **`CreatePluginStartupInfo()`**: Constructs and returns a new plugin startup info object
+- **`ShowMessageAboutIllegalPluginVersion()`**: Executes show message about illegal plugin version operation
+- **`MakeSignature()`**: Executes make signature operation
+- **`CheckFarVersion()`**: Executes check far version operation
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`CreateCustomPluginFactory()`**: Constructs and returns a new custom plugin factory object
+
 ### Summary
-The `plclass.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `plclass.cpp` file is essential for core functionality. It defines 1 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ModuleImports`: Performs ModuleImports operation in plclass.cpp
+- **`ModuleImports`**: Implements module imports functionality
+
 ### Kluczowe Funkcje
-- `ModuleFile()`: only module with GetGlobalInfoW can be native plugin
-- `StreamBuffer()`: only module with GetGlobalInfoW can be native plugin
-- `Stream()`: Performs Stream operation in plclass.cpp
-- `IsPlugin()`: only module with GetGlobalInfoW can be native plugin
-- `PrepareModulePath()`: Checks a condition in plclass.cpp and returns true or false based on the result
-- `CreatePluginStartupInfo()`: Opens a file or creates a file handle in plclass.cpp
-- `ShowMessageAboutIllegalPluginVersion()`: Performs ShowMessageAboutIllegalPluginVersion operation in plclass.cpp
-- `MakeSignature()`: Performs MakeSignature operation in plclass.cpp
-- `SetUuid()`: Sets or updates Uuid value in plclass.cpp
-- `CheckFarVersion()`: Performs CheckFarVersion operation in plclass.cpp
+- **`PrepareModulePath()`**: Executes prepare module path operation
+- **`CreatePluginStartupInfo()`**: Constructs and returns a new plugin startup info object
+- **`ShowMessageAboutIllegalPluginVersion()`**: Executes show message about illegal plugin version operation
+- **`MakeSignature()`**: Executes make signature operation
+- **`CheckFarVersion()`**: Executes check far version operation
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`CreateCustomPluginFactory()`**: Constructs and returns a new custom plugin factory object
+
 ### Podsumowanie
-Plik `plclass.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plclass.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

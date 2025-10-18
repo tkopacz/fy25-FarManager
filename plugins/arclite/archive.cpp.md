@@ -1,44 +1,47 @@
 # archive.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DirInfo`: Performs DirInfo operation in archive.cpp
-- `MyCompressCodecsInfo`: Iterates through elements in archive.cpp and adds them to a collection
-- `SfxModuleInfo`: Performs SfxModuleInfo operation in archive.cpp
+- **`MyCompressCodecsInfo`**: Implements my compress codecs info functionality
+- **`SfxModuleInfo`**: Implements sfx module info functionality
+- **`DirInfo`**: Implements dir info functionality
+
 ### Key Functions
-- `c_xfat()`: Performs c_xfat operation in archive.cpp
-- `GetHandlerProperty2()`: Iterates through elements in archive.cpp and adds them to a collection
-- `GetHandlerProperty()`: Iterates through elements in archive.cpp and adds them to a collection
-- `size()`: Checks a condition in archive.cpp and returns true or false based on the result
-- `GetCoderInfo()`: Retrieves CoderInfo value in archive.cpp
-- `ArcAPI()`: Performs ArcAPI operation in archive.cpp
-- `file_enum()`: Iterates through elements in archive.cpp and adds them to a collection
-- `FreeLibrary()`: Performs FreeLibrary operation in archive.cpp
-- `codecs_enum()`: Iterates through elements in archive.cpp and adds them to a collection
-- `MyCompressCodecsInfo()`: Iterates through elements in archive.cpp and adds them to a collection
+- **`GetCoderInfo()`**: Retrieves the current coder info value
+- **`MyCompressCodecsInfo()`**: Executes my compress codecs info operation
+- **`ParseSignatures()`**: Executes parse signatures operation
+- **`flags2texts()`**: Executes flags2texts operation
+- **`MyCompressCodecsInfo::libs_()`**: Executes libs operation
+- **`MyCompressCodecsInfo::if()`**: Executes if operation
+- **`DirInfo::lstrcmpiW()`**: Executes lstrcmpi w operation
+
 ### Summary
-The `archive.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `archive.cpp` file is essential for core functionality. It defines 3 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DirInfo`: Performs DirInfo operation in archive.cpp
-- `MyCompressCodecsInfo`: Iterates through elements in archive.cpp and adds them to a collection
-- `SfxModuleInfo`: Performs SfxModuleInfo operation in archive.cpp
+- **`MyCompressCodecsInfo`**: Implements my compress codecs info functionality
+- **`SfxModuleInfo`**: Implements sfx module info functionality
+- **`DirInfo`**: Implements dir info functionality
+
 ### Kluczowe Funkcje
-- `c_xfat()`: Performs c_xfat operation in archive.cpp
-- `GetHandlerProperty2()`: Iterates through elements in archive.cpp and adds them to a collection
-- `GetHandlerProperty()`: Iterates through elements in archive.cpp and adds them to a collection
-- `size()`: Checks a condition in archive.cpp and returns true or false based on the result
-- `GetCoderInfo()`: Retrieves CoderInfo value in archive.cpp
-- `ArcAPI()`: Performs ArcAPI operation in archive.cpp
-- `file_enum()`: Iterates through elements in archive.cpp and adds them to a collection
-- `FreeLibrary()`: Performs FreeLibrary operation in archive.cpp
-- `codecs_enum()`: Iterates through elements in archive.cpp and adds them to a collection
-- `MyCompressCodecsInfo()`: Iterates through elements in archive.cpp and adds them to a collection
+- **`GetCoderInfo()`**: Retrieves the current coder info value
+- **`MyCompressCodecsInfo()`**: Executes my compress codecs info operation
+- **`ParseSignatures()`**: Executes parse signatures operation
+- **`flags2texts()`**: Executes flags2texts operation
+- **`MyCompressCodecsInfo::libs_()`**: Executes libs operation
+- **`MyCompressCodecsInfo::if()`**: Executes if operation
+- **`DirInfo::lstrcmpiW()`**: Executes lstrcmpi w operation
+
 ### Podsumowanie
-Plik `archive.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `archive.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

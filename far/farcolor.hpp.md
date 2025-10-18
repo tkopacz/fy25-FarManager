@@ -1,16 +1,19 @@
 # farcolor.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Colors Index for FAR Manager <%VERSION%>
-Main functional areas: color management
+This file implements functionality for core functionality.
+
 ### Summary
-The `farcolor.hpp` file provides essential functionality for color management. to support the Far Manager file manager operations.
+The `farcolor.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Colors Index for FAR Manager <%VERSION%>
-Główne obszary funkcjonalne: zarządzanie kolorami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `farcolor.hpp` zapewnia podstawową funkcjonalność dla zarządzanie kolorami. wspierających operacje menedżera plików Far Manager.
+Plik `farcolor.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

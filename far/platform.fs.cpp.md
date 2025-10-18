@@ -1,58 +1,31 @@
 # platform.fs.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: file system operations
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `file_walker`: Checks a condition in platform.fs.cpp and returns true or false based on the result
-- `i_find_file_handle_impl`: Performs i_find_file_handle_impl operation in platform.fs.cpp
-### Key Functions
-- `SHErrorToWinError()`: Performs SHErrorToWinError operation in platform.fs.cpp
-- `set_current_directory_syncronisation()`: Sets or updates _current_directory_syncronisation value in platform.fs.cpp
-- `is_standard_letter()`: Checks a condition in platform.fs.cpp and returns the result
-- `get_number()`: Retrieves _number value in platform.fs.cpp
-- `get_letter()`: Retrieves _letter value in platform.fs.cpp
-- `get_device_path()`: Retrieves _device_path value in platform.fs.cpp
-- `get_win32nt_device_path()`: Retrieves _win32nt_device_path value in platform.fs.cpp
-- `get_root_directory()`: Retrieves _root_directory value in platform.fs.cpp
-- `get_win32nt_root_directory()`: Retrieves _win32nt_root_directory value in platform.fs.cpp
-- `get_type()`: Retrieves _type value in platform.fs.cpp
+- **`i_find_file_handle_impl`**: Implements i find file handle impl functionality
+
 ### Namespaces
-- `detail`
-- `drive`
-- `low`
 - `os`
-- `osd`
-- `state`
+
 ### Summary
-The `platform.fs.cpp` file provides essential functionality for file system operations. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `platform.fs.cpp` file is essential for platform-specific operations. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `file_walker`: Checks a condition in platform.fs.cpp and returns true or false based on the result
-- `i_find_file_handle_impl`: Performs i_find_file_handle_impl operation in platform.fs.cpp
-### Kluczowe Funkcje
-- `SHErrorToWinError()`: Performs SHErrorToWinError operation in platform.fs.cpp
-- `set_current_directory_syncronisation()`: Sets or updates _current_directory_syncronisation value in platform.fs.cpp
-- `is_standard_letter()`: Checks a condition in platform.fs.cpp and returns the result
-- `get_number()`: Retrieves _number value in platform.fs.cpp
-- `get_letter()`: Retrieves _letter value in platform.fs.cpp
-- `get_device_path()`: Retrieves _device_path value in platform.fs.cpp
-- `get_win32nt_device_path()`: Retrieves _win32nt_device_path value in platform.fs.cpp
-- `get_root_directory()`: Retrieves _root_directory value in platform.fs.cpp
-- `get_win32nt_root_directory()`: Retrieves _win32nt_root_directory value in platform.fs.cpp
-- `get_type()`: Retrieves _type value in platform.fs.cpp
+- **`i_find_file_handle_impl`**: Implements i find file handle impl functionality
+
 ### Przestrzenie nazw
-- `detail`
-- `drive`
-- `low`
 - `os`
-- `osd`
-- `state`
+
 ### Podsumowanie
-Plik `platform.fs.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.fs.cpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

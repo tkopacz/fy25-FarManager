@@ -1,20 +1,19 @@
 # dlgedit.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Одиночная строка редактирования для диалога (как наследник класса Edit)
-Main functional areas: dialog handling, text editing
-### Key Functions
-- `Editor()`: Performs Editor operation in dlgedit.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `dlgedit.cpp` file provides essential functionality for dialog handling, text editing. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `dlgedit.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Одиночная строка редактирования для диалога (как наследник класса Edit)
-Główne obszary funkcjonalne: obsługa dialogów, edycja tekstu
-### Kluczowe Funkcje
-- `Editor()`: Performs Editor operation in dlgedit.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `dlgedit.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów, edycja tekstu. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `dlgedit.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

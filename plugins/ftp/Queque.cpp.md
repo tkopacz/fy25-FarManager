@@ -1,26 +1,29 @@
 # Queque.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `AskDeleteQueue()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `FMSG()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `mnu()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `GetCurPath()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `Invalidate()`: Checks a condition in Queque.cpp and returns true or false based on the result
+- **`AskDeleteQueue()`**: Executes ask delete queue operation
+- **`free()`**: Executes free operation
+- **`Log()`**: Executes log operation
+
 ### Summary
-The `Queque.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `Queque.cpp` file is essential for core functionality. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `AskDeleteQueue()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `FMSG()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `mnu()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `GetCurPath()`: Checks a condition in Queque.cpp and returns true or false based on the result
-- `Invalidate()`: Checks a condition in Queque.cpp and returns true or false based on the result
+- **`AskDeleteQueue()`**: Executes ask delete queue operation
+- **`free()`**: Executes free operation
+- **`Log()`**: Executes log operation
+
 ### Podsumowanie
-Plik `Queque.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Queque.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,40 +1,39 @@
 # dirinfo.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: GetDirInfo & GetPluginDirInfo
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `BasicDirInfoData`: Performs BasicDirInfoData operation in dirinfo.hpp
-- `DirInfoData`: Performs DirInfoData operation in dirinfo.hpp
-- `PluginPanelItem`: Performs PluginPanelItem operation in dirinfo.hpp
-- `UserDataItem`: Performs UserDataItem operation in dirinfo.hpp
-- `multifilter`: Performs multifilter operation in dirinfo.hpp
-- `plugin_panel`: Performs plugin_panel operation in dirinfo.hpp
+- **`BasicDirInfoData`**: Enumeration defining possible values for basic dir info data
+- **`DirInfoData`**: Enumeration defining possible values for dir info data
+
 ### Key Functions
-- `GetDirInfo()`: Retrieves DirInfo value in dirinfo.hpp
-- `GetPluginDirInfo()`: Retrieves PluginDirInfo value in dirinfo.hpp
-- `GetPluginDirList()`: Retrieves PluginDirList value in dirinfo.hpp
-- `FreePluginDirList()`: Performs FreePluginDirList operation in dirinfo.hpp
+- **`GetDirInfo()`**: Retrieves the current dir info value
+- **`GetPluginDirInfo()`**: Retrieves the current plugin dir info value
+- **`GetPluginDirList()`**: Retrieves the current plugin dir list value
+- **`FreePluginDirList()`**: Executes free plugin dir list operation
+
 ### Summary
-The `dirinfo.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `dirinfo.hpp` file is essential for core functionality. It defines 2 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: GetDirInfo & GetPluginDirInfo
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `BasicDirInfoData`: Performs BasicDirInfoData operation in dirinfo.hpp
-- `DirInfoData`: Performs DirInfoData operation in dirinfo.hpp
-- `PluginPanelItem`: Performs PluginPanelItem operation in dirinfo.hpp
-- `UserDataItem`: Performs UserDataItem operation in dirinfo.hpp
-- `multifilter`: Performs multifilter operation in dirinfo.hpp
-- `plugin_panel`: Performs plugin_panel operation in dirinfo.hpp
+- **`BasicDirInfoData`**: Enumeration defining possible values for basic dir info data
+- **`DirInfoData`**: Enumeration defining possible values for dir info data
+
 ### Kluczowe Funkcje
-- `GetDirInfo()`: Retrieves DirInfo value in dirinfo.hpp
-- `GetPluginDirInfo()`: Retrieves PluginDirInfo value in dirinfo.hpp
-- `GetPluginDirList()`: Retrieves PluginDirList value in dirinfo.hpp
-- `FreePluginDirList()`: Performs FreePluginDirList operation in dirinfo.hpp
+- **`GetDirInfo()`**: Retrieves the current dir info value
+- **`GetPluginDirInfo()`**: Retrieves the current plugin dir info value
+- **`GetPluginDirList()`**: Retrieves the current plugin dir list value
+- **`FreePluginDirList()`**: Executes free plugin dir list operation
+
 ### Podsumowanie
-Plik `dirinfo.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `dirinfo.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

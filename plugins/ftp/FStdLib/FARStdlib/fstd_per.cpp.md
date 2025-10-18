@@ -1,30 +1,25 @@
 # fstd_per.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `PRPeriod`: Performs PRPeriod operation in fstd_per.cpp
-### Key Functions
-- `FP_PeriodCreate()`: Performs FP_PeriodCreate operation in fstd_per.cpp
-- `FP_PeriodDestroy()`: Performs FP_PeriodDestroy operation in fstd_per.cpp
-- `FP_PeriodEnd()`: Performs FP_PeriodEnd operation in fstd_per.cpp
-- `FP_PeriodTime()`: Performs FP_PeriodTime operation in fstd_per.cpp
-- `FP_PeriodReset()`: Performs FP_PeriodReset operation in fstd_per.cpp
+- **`PRPeriod`**: Implements prperiod functionality
+
 ### Summary
-The `fstd_per.cpp` file provides essential functionality for file system operations. It defines 1 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `fstd_per.cpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `PRPeriod`: Performs PRPeriod operation in fstd_per.cpp
-### Kluczowe Funkcje
-- `FP_PeriodCreate()`: Performs FP_PeriodCreate operation in fstd_per.cpp
-- `FP_PeriodDestroy()`: Performs FP_PeriodDestroy operation in fstd_per.cpp
-- `FP_PeriodEnd()`: Performs FP_PeriodEnd operation in fstd_per.cpp
-- `FP_PeriodTime()`: Performs FP_PeriodTime operation in fstd_per.cpp
-- `FP_PeriodReset()`: Performs FP_PeriodReset operation in fstd_per.cpp
+- **`PRPeriod`**: Implements prperiod functionality
+
 ### Podsumowanie
-Plik `fstd_per.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 1 klas(y) i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fstd_per.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

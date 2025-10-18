@@ -1,32 +1,43 @@
 # scope_exit.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `exception_monitor`: Performs exception_monitor operation in scope_exit.hpp
-- `make_scope_guard`: Performs make_scope_guard operation in scope_exit.hpp
-- `scope_guard`: int... "a camel is a horse designed by a committee" :(
-- `scope_type`: Performs scope_type operation in scope_exit.hpp
+- **`scope_type`**: Implements scope type functionality
+- **`exception_monitor`**: Enumeration defining possible values for exception monitor
+- **`scope_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`make_scope_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+
 ### Key Functions
-- `invoke_handler()`: Performs invoke_handler operation in scope_exit.hpp
+- **`exception_monitor::invoke_handler()`**: Executes invoke handler operation
+
 ### Namespaces
 - `scope_exit`
+
 ### Summary
-The `scope_exit.hpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `scope_exit.hpp` file is essential for core functionality. It defines 4 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `exception_monitor`: Performs exception_monitor operation in scope_exit.hpp
-- `make_scope_guard`: Performs make_scope_guard operation in scope_exit.hpp
-- `scope_guard`: int... "a camel is a horse designed by a committee" :(
-- `scope_type`: Performs scope_type operation in scope_exit.hpp
+- **`scope_type`**: Implements scope type functionality
+- **`exception_monitor`**: Enumeration defining possible values for exception monitor
+- **`scope_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`make_scope_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+
 ### Kluczowe Funkcje
-- `invoke_handler()`: Performs invoke_handler operation in scope_exit.hpp
+- **`exception_monitor::invoke_handler()`**: Executes invoke handler operation
+
 ### Przestrzenie nazw
 - `scope_exit`
+
 ### Podsumowanie
-Plik `scope_exit.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `scope_exit.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

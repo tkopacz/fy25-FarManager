@@ -1,18 +1,29 @@
 # rtl.Hook.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+dword dwBase = (dword)hModule;
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `RtlHookImportTable()`: dword dwBase = (dword)hModule;
+- **`RtlHookImportTable()`**: Executes rtl hook import table operation
+
 ### Summary
-The `rtl.Hook.cpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `rtl.Hook.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+dword dwBase = (dword)hModule;
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `RtlHookImportTable()`: dword dwBase = (dword)hModule;
+- **`RtlHookImportTable()`**: Executes rtl hook import table operation
+
 ### Podsumowanie
-Plik `rtl.Hook.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `rtl.Hook.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

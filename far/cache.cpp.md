@@ -1,16 +1,19 @@
 # cache.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Кеширование записи в файл/чтения из файла
-Main functional areas: file caching
+This file implements functionality for core functionality.
+
 ### Summary
-The `cache.cpp` file provides essential functionality for file caching. to support the Far Manager file manager operations.
+The `cache.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Кеширование записи в файл/чтения из файла
-Główne obszary funkcjonalne: buforowanie plików
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `cache.cpp` zapewnia podstawową funkcjonalność dla buforowanie plików. wspierających operacje menedżera plików Far Manager.
+Plik `cache.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

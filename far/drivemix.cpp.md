@@ -1,22 +1,27 @@
 # drivemix.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Misc functions for drive/disk info
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `UpdateSavedDrives()`: Updates existing data or state in drivemix.cpp
-- `allowed_drives_mask()`: Performs allowed_drives_mask operation in drivemix.cpp
+- **`UpdateSavedDrives()`**: Executes update saved drives operation
+- **`allowed_drives_mask()`**: Executes allowed drives mask operation
+
 ### Summary
-The `drivemix.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `drivemix.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Misc functions for drive/disk info
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `UpdateSavedDrives()`: Updates existing data or state in drivemix.cpp
-- `allowed_drives_mask()`: Performs allowed_drives_mask operation in drivemix.cpp
+- **`UpdateSavedDrives()`**: Executes update saved drives operation
+- **`allowed_drives_mask()`**: Executes allowed drives mask operation
+
 ### Podsumowanie
-Plik `drivemix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `drivemix.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

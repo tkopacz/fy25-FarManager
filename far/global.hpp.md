@@ -1,38 +1,41 @@
 # global.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Описание глобальных переменных
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `far_clock`: Performs far_clock operation in global.hpp
-- `global`: Performs global operation in global.hpp
+- **`global`**: Implements global functionality
+- **`far_clock`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+
 ### Key Functions
-- `MainThreadHandle()`: Main entry point in global.hpp that starts program execution
-- `IsMainThread()`: Checks a condition in global.hpp and returns the result
-- `FarUpTime()`: Performs FarUpTime operation in global.hpp
-- `FolderChanged()`: Performs FolderChanged operation in global.hpp
-- `get()`: Retrieves  value in global.hpp
-- `size()`: Performs size operation in global.hpp
-- `update()`: Updates existing data or state in global.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`global::MainThreadHandle()`**: Executes main thread handle operation
+- **`far_clock::get()`**: Retrieves the current  value
+- **`far_clock::size()`**: Executes size operation
+- **`far_clock::update()`**: Executes update operation
+
 ### Summary
-The `global.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `global.hpp` file is essential for core functionality. It defines 2 class(es) and implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Описание глобальных переменных
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `far_clock`: Performs far_clock operation in global.hpp
-- `global`: Performs global operation in global.hpp
+- **`global`**: Implements global functionality
+- **`far_clock`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+
 ### Kluczowe Funkcje
-- `MainThreadHandle()`: Main entry point in global.hpp that starts program execution
-- `IsMainThread()`: Checks a condition in global.hpp and returns the result
-- `FarUpTime()`: Performs FarUpTime operation in global.hpp
-- `FolderChanged()`: Performs FolderChanged operation in global.hpp
-- `get()`: Retrieves  value in global.hpp
-- `size()`: Performs size operation in global.hpp
-- `update()`: Updates existing data or state in global.hpp
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`global::MainThreadHandle()`**: Executes main thread handle operation
+- **`far_clock::get()`**: Retrieves the current  value
+- **`far_clock::size()`**: Executes size operation
+- **`far_clock::update()`**: Executes update operation
+
 ### Podsumowanie
-Plik `global.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `global.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

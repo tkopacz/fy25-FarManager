@@ -1,50 +1,65 @@
 # diskmenu.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Key Classes
-- `DiskMenuItem`: Performs DiskMenuItem operation in diskmenu.cpp
-- `DiskMenuParam`: Performs DiskMenuParam operation in diskmenu.cpp
-- `disk_item`: Performs disk_item operation in diskmenu.cpp
-- `menu_init_item`: Performs menu_init_item operation in diskmenu.cpp
-- `plugin_item`: Performs plugin_item operation in diskmenu.cpp
-- `separator`: Performs separator operation in diskmenu.cpp
+- **`disk_item`**: Implements disk item functionality
+- **`plugin_item`**: Implements plugin item functionality
+- **`menu_init_item`**: Implements menu init item functionality
+- **`separator`**: Implements separator functionality
+- **`DiskMenuItem`**: Implements disk menu item functionality
+- **`DiskMenuParam`**: Implements disk menu param functionality
+
 ### Key Functions
-- `is_disk()`: DRIVE_REMOVABLE = 2,
-- `dos_drive_name()`: DRIVE_RAMDISK = 6,
-- `dos_drive_root_directory()`: Performs dos_drive_root_directory operation in diskmenu.cpp
-- `EjectFailed()`: Performs EjectFailed operation in diskmenu.cpp
-- `AddPluginItems()`: BUGBUG load uses the same error message
-- `ConfigureChangeDriveMode()`: Performs ConfigureChangeDriveMode operation in diskmenu.cpp
-- `Builder()`: Performs Builder operation in diskmenu.cpp
-- `MessageRemoveConnection()`: Performs MessageRemoveConnection operation in diskmenu.cpp
-- `DriveLocalToRemoteName()`: Performs DriveLocalToRemoteName operation in diskmenu.cpp
-- `ProcessDelDisk()`: Checks a condition in diskmenu.cpp and returns true or false based on the result
+- **`is_disk()`**: Checks whether disk condition is true
+- **`dos_drive_name()`**: Executes dos drive name operation
+- **`dos_drive_root_directory()`**: Executes dos drive root directory operation
+- **`EjectFailed()`**: Executes eject failed operation
+- **`AddPluginItems()`**: Executes add plugin items operation
+- **`ConfigureChangeDriveMode()`**: Executes configure change drive mode operation
+- **`MessageRemoveConnection()`**: Executes message remove connection operation
+- **`ProcessDelDisk()`**: Executes process del disk operation
+- **`DisconnectDrive()`**: Executes disconnect drive operation
+- **`RemoveHotplugDevice()`**: Executes remove hotplug device operation
+- **`GetShellName()`**: Retrieves the current shell name value
+- **`ChangeDiskMenu()`**: Executes change disk menu operation
+- **`ChangeDisk()`**: Executes change disk operation
+
 ### Summary
-The `diskmenu.cpp` file provides essential functionality for menu management. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `diskmenu.cpp` file is essential for menu system. It defines 6 class(es) and implements 13 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Kluczowe Klasy
-- `DiskMenuItem`: Performs DiskMenuItem operation in diskmenu.cpp
-- `DiskMenuParam`: Performs DiskMenuParam operation in diskmenu.cpp
-- `disk_item`: Performs disk_item operation in diskmenu.cpp
-- `menu_init_item`: Performs menu_init_item operation in diskmenu.cpp
-- `plugin_item`: Performs plugin_item operation in diskmenu.cpp
-- `separator`: Performs separator operation in diskmenu.cpp
+- **`disk_item`**: Implements disk item functionality
+- **`plugin_item`**: Implements plugin item functionality
+- **`menu_init_item`**: Implements menu init item functionality
+- **`separator`**: Implements separator functionality
+- **`DiskMenuItem`**: Implements disk menu item functionality
+- **`DiskMenuParam`**: Implements disk menu param functionality
+
 ### Kluczowe Funkcje
-- `is_disk()`: DRIVE_REMOVABLE = 2,
-- `dos_drive_name()`: DRIVE_RAMDISK = 6,
-- `dos_drive_root_directory()`: Performs dos_drive_root_directory operation in diskmenu.cpp
-- `EjectFailed()`: Performs EjectFailed operation in diskmenu.cpp
-- `AddPluginItems()`: BUGBUG load uses the same error message
-- `ConfigureChangeDriveMode()`: Performs ConfigureChangeDriveMode operation in diskmenu.cpp
-- `Builder()`: Performs Builder operation in diskmenu.cpp
-- `MessageRemoveConnection()`: Performs MessageRemoveConnection operation in diskmenu.cpp
-- `DriveLocalToRemoteName()`: Performs DriveLocalToRemoteName operation in diskmenu.cpp
-- `ProcessDelDisk()`: Checks a condition in diskmenu.cpp and returns true or false based on the result
+- **`is_disk()`**: Checks whether disk condition is true
+- **`dos_drive_name()`**: Executes dos drive name operation
+- **`dos_drive_root_directory()`**: Executes dos drive root directory operation
+- **`EjectFailed()`**: Executes eject failed operation
+- **`AddPluginItems()`**: Executes add plugin items operation
+- **`ConfigureChangeDriveMode()`**: Executes configure change drive mode operation
+- **`MessageRemoveConnection()`**: Executes message remove connection operation
+- **`ProcessDelDisk()`**: Executes process del disk operation
+- **`DisconnectDrive()`**: Executes disconnect drive operation
+- **`RemoveHotplugDevice()`**: Executes remove hotplug device operation
+- **`GetShellName()`**: Retrieves the current shell name value
+- **`ChangeDiskMenu()`**: Executes change disk menu operation
+- **`ChangeDisk()`**: Executes change disk operation
+
 ### Podsumowanie
-Plik `diskmenu.cpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `diskmenu.cpp` jest niezbędny dla systemu menu. Definiuje 6 klas(y) i implementuje 13 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,22 +1,27 @@
 # hotplug.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Отключение Hotplug-устройств
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `RemoveHotplugDrive()`: Deletes or removes an item or resource in hotplug.hpp
-- `ShowHotplugDevices()`: Performs ShowHotplugDevices operation in hotplug.hpp
+- **`RemoveHotplugDrive()`**: Executes remove hotplug drive operation
+- **`ShowHotplugDevices()`**: Executes show hotplug devices operation
+
 ### Summary
-The `hotplug.hpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `hotplug.hpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Отключение Hotplug-устройств
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `RemoveHotplugDrive()`: Deletes or removes an item or resource in hotplug.hpp
-- `ShowHotplugDevices()`: Performs ShowHotplugDevices operation in hotplug.hpp
+- **`RemoveHotplugDrive()`**: Executes remove hotplug drive operation
+- **`ShowHotplugDevices()`**: Executes show hotplug devices operation
+
 ### Podsumowanie
-Plik `hotplug.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hotplug.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

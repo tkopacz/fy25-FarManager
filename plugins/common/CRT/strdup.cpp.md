@@ -1,14 +1,19 @@
 # strdup.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for core functionality.
+
 ### Summary
-The `strdup.cpp` file provides essential functionality for string utilities. to support the Far Manager file manager operations.
+The `strdup.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `strdup.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. wspierających operacje menedżera plików Far Manager.
+Plik `strdup.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

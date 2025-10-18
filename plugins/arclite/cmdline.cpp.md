@@ -1,40 +1,57 @@
 # cmdline.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Param`: Performs Param operation in cmdline.cpp
+- **`Param`**: Implements param functionality
+
 ### Key Functions
-- `lc()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_command()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_plugin_call()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `is_param()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_param()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_bool_value()`: Checks a condition in cmdline.cpp and returns true or false based on the result
-- `FAIL()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_tri_state_value()`: Checks a condition in cmdline.cpp and returns true or false based on the result
-- `parse_open_command()`: arc:[-r] [-x[d]] [-d] [-t:<arc_type>] [-p:<password>]
-- `parse_update_command()`: [-mf[:(y|n)]] [-ie[:(y|n)]] [-o[:(o|s)]] [-adv:<advanced>] <archive> (<file1> <file2> ... | @<filelist>)
+- **`lc()`**: Executes lc operation
+- **`parse_command()`**: Executes parse command operation
+- **`parse_plugin_call()`**: Executes parse plugin call operation
+- **`is_param()`**: Checks whether param condition is true
+- **`parse_param()`**: Executes parse param operation
+- **`parse_bool_value()`**: Executes parse bool value operation
+- **`parse_tri_state_value()`**: Executes parse tri state value operation
+- **`parse_listfile()`**: Executes parse listfile operation
+- **`parse_open_command()`**: Executes parse open command operation
+- **`parse_update_command()`**: Executes parse update command operation
+- **`parse_extract_params()`**: Executes parse extract params operation
+- **`parse_extract_command()`**: Executes parse extract command operation
+- **`parse_extractitems_command()`**: Executes parse extractitems command operation
+- **`parse_test_command()`**: Executes parse test command operation
+
 ### Summary
-The `cmdline.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `cmdline.cpp` file is essential for core functionality. It defines 1 class(es) and implements 14 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Param`: Performs Param operation in cmdline.cpp
+- **`Param`**: Implements param functionality
+
 ### Kluczowe Funkcje
-- `lc()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_command()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_plugin_call()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `is_param()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_param()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_bool_value()`: Checks a condition in cmdline.cpp and returns true or false based on the result
-- `FAIL()`: Iterates through elements in cmdline.cpp and adds them to a collection
-- `parse_tri_state_value()`: Checks a condition in cmdline.cpp and returns true or false based on the result
-- `parse_open_command()`: arc:[-r] [-x[d]] [-d] [-t:<arc_type>] [-p:<password>]
-- `parse_update_command()`: [-mf[:(y|n)]] [-ie[:(y|n)]] [-o[:(o|s)]] [-adv:<advanced>] <archive> (<file1> <file2> ... | @<filelist>)
+- **`lc()`**: Executes lc operation
+- **`parse_command()`**: Executes parse command operation
+- **`parse_plugin_call()`**: Executes parse plugin call operation
+- **`is_param()`**: Checks whether param condition is true
+- **`parse_param()`**: Executes parse param operation
+- **`parse_bool_value()`**: Executes parse bool value operation
+- **`parse_tri_state_value()`**: Executes parse tri state value operation
+- **`parse_listfile()`**: Executes parse listfile operation
+- **`parse_open_command()`**: Executes parse open command operation
+- **`parse_update_command()`**: Executes parse update command operation
+- **`parse_extract_params()`**: Executes parse extract params operation
+- **`parse_extract_command()`**: Executes parse extract command operation
+- **`parse_extractitems_command()`**: Executes parse extractitems command operation
+- **`parse_test_command()`**: Executes parse test command operation
+
 ### Podsumowanie
-Plik `cmdline.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `cmdline.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 14 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,56 +1,85 @@
 # MultiArc.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArcCommand`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `ArcItemUserData`: Performs ArcItemUserData operation in MultiArc.hpp
-- `ArcPlugins`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `InitDialogItem`: Initializes data structures and prepares for operation in MultiArc.hpp
-- `KillStruct`: Performs KillStruct operation in MultiArc.hpp
-- `MAAdvFlags`: Performs MAAdvFlags operation in MultiArc.hpp
-- `Options`: Performs Options operation in MultiArc.hpp
-- `PluginClass`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `PluginItem`: Performs PluginItem operation in MultiArc.hpp
+- **`ArcItemUserData`**: Implements arc item user data functionality
+- **`PluginItem`**: Implements plugin item functionality
+- **`ArcPlugins`**: Implements arc plugins functionality
+- **`PluginClass`**: Implements plugin class functionality
+- **`ArcCommand`**: RAII wrapper managing arc command initialization and cleanup lifecycle
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`KillStruct`**: Implements kill struct functionality
+- **`MAAdvFlags`**: Implements maadv flags functionality
+- **`Options`**: Implements options functionality
+
 ### Key Functions
-- `IsArchive()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `OpenArchive()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetArcItem()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetFormatName()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetDefaultCommands()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `FmtCount()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `LoadFmtModules()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `CompareFmtModules()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetGroupName()`: Iterates through elements in MultiArc.hpp and adds them to a collection
+- **`DWORD()`**: Executes dword operation
+- **`BOOL()`**: Executes bool operation
+- **`int()`**: Executes int operation
+- **`WritePrivateProfileInt()`**: Executes write private profile int operation
+- **`ConfigGeneral()`**: Executes config general operation
+- **`ConfigCommands()`**: Executes config commands operation
+- **`Execute()`**: Executes execute operation
+- **`AddExt()`**: Executes add ext operation
+- **`StartThreadForKillListFile()`**: Executes start thread for kill list file operation
+- **`QuoteText()`**: Executes quote text operation
+- **`ConvertNameToShort()`**: Executes convert name to short operation
+- **`InitDialogItems()`**: Executes init dialog items operation
+- **`InsertCommas()`**: Executes insert commas operation
+- **`ToPercent()`**: Executes to percent operation
+- **`IsCaseMixed()`**: Checks whether case mixed condition is true
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`LocalStrnicmp()`**: Executes local strnicmp operation
+- **`__isspace()`**: Executes isspace operation
+- **`FindExecuteFile()`**: Executes find execute file operation
+- **`GoToFile()`**: Executes go to file operation
+
 ### Summary
-The `MultiArc.hpp` file provides essential functionality for core functionality. It defines 9 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `MultiArc.hpp` file is essential for core functionality. It defines 9 class(es) and implements 51 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArcCommand`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `ArcItemUserData`: Performs ArcItemUserData operation in MultiArc.hpp
-- `ArcPlugins`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `InitDialogItem`: Initializes data structures and prepares for operation in MultiArc.hpp
-- `KillStruct`: Performs KillStruct operation in MultiArc.hpp
-- `MAAdvFlags`: Performs MAAdvFlags operation in MultiArc.hpp
-- `Options`: Performs Options operation in MultiArc.hpp
-- `PluginClass`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `PluginItem`: Performs PluginItem operation in MultiArc.hpp
+- **`ArcItemUserData`**: Implements arc item user data functionality
+- **`PluginItem`**: Implements plugin item functionality
+- **`ArcPlugins`**: Implements arc plugins functionality
+- **`PluginClass`**: Implements plugin class functionality
+- **`ArcCommand`**: RAII wrapper managing arc command initialization and cleanup lifecycle
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`KillStruct`**: Implements kill struct functionality
+- **`MAAdvFlags`**: Implements maadv flags functionality
+- **`Options`**: Implements options functionality
+
 ### Kluczowe Funkcje
-- `IsArchive()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `OpenArchive()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetArcItem()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetFormatName()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetDefaultCommands()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `FmtCount()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `LoadFmtModules()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `CompareFmtModules()`: Iterates through elements in MultiArc.hpp and adds them to a collection
-- `GetGroupName()`: Iterates through elements in MultiArc.hpp and adds them to a collection
+- **`DWORD()`**: Executes dword operation
+- **`BOOL()`**: Executes bool operation
+- **`int()`**: Executes int operation
+- **`WritePrivateProfileInt()`**: Executes write private profile int operation
+- **`ConfigGeneral()`**: Executes config general operation
+- **`ConfigCommands()`**: Executes config commands operation
+- **`Execute()`**: Executes execute operation
+- **`AddExt()`**: Executes add ext operation
+- **`StartThreadForKillListFile()`**: Executes start thread for kill list file operation
+- **`QuoteText()`**: Executes quote text operation
+- **`ConvertNameToShort()`**: Executes convert name to short operation
+- **`InitDialogItems()`**: Executes init dialog items operation
+- **`InsertCommas()`**: Executes insert commas operation
+- **`ToPercent()`**: Executes to percent operation
+- **`IsCaseMixed()`**: Checks whether case mixed condition is true
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`LocalStrnicmp()`**: Executes local strnicmp operation
+- **`__isspace()`**: Executes isspace operation
+- **`FindExecuteFile()`**: Executes find execute file operation
+- **`GoToFile()`**: Executes go to file operation
+
 ### Podsumowanie
-Plik `MultiArc.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 9 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `MultiArc.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 9 klas(y) i implementuje 51 funkcji wspierających operacje menedżera plików Far Manager.

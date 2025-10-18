@@ -1,36 +1,27 @@
 # mu_os.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ToOEM()`: ----------------------------------------------------------------------------
-- `FromOEM()`: ----------------------------------------------------------------------------
-- `GetHInstance()`: ----------------------------------------------------------------------------
-- `random()`: ----------------------------------------------------------------------------
-- `randomize()`: ----------------------------------------------------------------------------
-- `FreeSlice()`: ----------------------------------------------------------------------------
-- `ErrorBeep()`: Free system sice under windows
-- `defined()`: ----------------------------------------------------------------------------
-- `RegisterAtExit()`: ----------------------------------------------------------------------------
-- `atexit()`: ----------------------------------------------------------------------------
+- **`RegisterAtExit()`**: Executes register at exit operation
+- **`SetFMode()`**: Updates the fmode with a new value
+
 ### Summary
-The `mu_os.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `mu_os.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ToOEM()`: ----------------------------------------------------------------------------
-- `FromOEM()`: ----------------------------------------------------------------------------
-- `GetHInstance()`: ----------------------------------------------------------------------------
-- `random()`: ----------------------------------------------------------------------------
-- `randomize()`: ----------------------------------------------------------------------------
-- `FreeSlice()`: ----------------------------------------------------------------------------
-- `ErrorBeep()`: Free system sice under windows
-- `defined()`: ----------------------------------------------------------------------------
-- `RegisterAtExit()`: ----------------------------------------------------------------------------
-- `atexit()`: ----------------------------------------------------------------------------
+- **`RegisterAtExit()`**: Executes register at exit operation
+- **`SetFMode()`**: Updates the fmode with a new value
+
 ### Podsumowanie
-Plik `mu_os.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mu_os.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,72 +1,79 @@
 # platform.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Враперы вокруг некоторых WinAPI функций
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `deleter`: Deletes or removes an item or resource in platform.hpp
-- `error_state`: Performs error_state operation in platform.hpp
-- `function_pointer`: Performs function_pointer operation in platform.hpp
-- `handle_closer`: Performs handle_closer operation in platform.hpp
-- `handle_implementation`: Performs handle_implementation operation in platform.hpp
-- `handle_t`: Performs handle_t operation in platform.hpp
-- `last_error_guard`: Performs last_error_guard operation in platform.hpp
-- `module`: Performs module operation in platform.hpp
-- `module_deleter`: Performs module_deleter operation in platform.hpp
-- `nt_handle_closer`: Performs nt_handle_closer operation in platform.hpp
+- **`handle_implementation`**: Implements handle implementation functionality
+- **`handle_closer`**: Implements handle closer functionality
+- **`nt_handle_closer`**: Implements nt handle closer functionality
+- **`printer_handle_closer`**: Implements printer handle closer functionality
+- **`error_state`**: Error information container for error state failures
+- **`last_error_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`module`**: Implements module functionality
+- **`module_deleter`**: Implements module deleter functionality
+- **`opaque_function_pointer`**: Implements opaque function pointer functionality
+- **`function_pointer`**: Implements function pointer functionality
+- **`deleter`**: Implements deleter functionality
+
 ### Key Functions
-- `buffer()`: Performs buffer operation in platform.hpp
-- `wait()`: Performs wait operation in platform.hpp
-- `is_signaled()`: Checks a condition in platform.hpp and returns the result
-- `wait_any()`: Performs wait_any operation in platform.hpp
-- `wait_all()`: Performs wait_all operation in platform.hpp
-- `normalise()`: Performs normalise operation in platform.hpp
-- `native_handle()`: Performs native_handle operation in platform.hpp
-- `reset()`: Performs reset operation in platform.hpp
-- `close()`: Performs close operation in platform.hpp
-- `set_error_mode()`: Sets or updates _error_mode value in platform.hpp
+- **`handle_implementation::wait()`**: Executes wait operation
+- **`handle_implementation::is_signaled()`**: Checks whether signaled condition is true
+- **`handle_implementation::wait_any()`**: Executes wait any operation
+- **`error_state::any()`**: Executes any operation
+- **`last_error_guard::get()`**: Retrieves the current  value
+- **`last_error_guard::dismiss()`**: Executes dismiss operation
+- **`module::GetProcAddress()`**: Retrieves the current proc address value
+- **`opaque_function_pointer::bool()`**: Executes bool operation
+- **`opaque_function_pointer::name()`**: Executes name operation
+- **`function_pointer::raw_function_pointer()`**: Executes raw function pointer operation
+- **`deleter::handle_t()`**: Executes handle t operation
+- **`deleter::explicit()`**: Executes explicit operation
+
 ### Namespaces
-- `detail`
-- `netapi`
 - `os`
-- `rtdl`
-- `uuid`
+
 ### Summary
-The `platform.hpp` file provides essential functionality for core functionality. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `platform.hpp` file is essential for platform-specific operations. It defines 11 class(es) and implements 14 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Враперы вокруг некоторых WinAPI функций
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `deleter`: Deletes or removes an item or resource in platform.hpp
-- `error_state`: Performs error_state operation in platform.hpp
-- `function_pointer`: Performs function_pointer operation in platform.hpp
-- `handle_closer`: Performs handle_closer operation in platform.hpp
-- `handle_implementation`: Performs handle_implementation operation in platform.hpp
-- `handle_t`: Performs handle_t operation in platform.hpp
-- `last_error_guard`: Performs last_error_guard operation in platform.hpp
-- `module`: Performs module operation in platform.hpp
-- `module_deleter`: Performs module_deleter operation in platform.hpp
-- `nt_handle_closer`: Performs nt_handle_closer operation in platform.hpp
+- **`handle_implementation`**: Implements handle implementation functionality
+- **`handle_closer`**: Implements handle closer functionality
+- **`nt_handle_closer`**: Implements nt handle closer functionality
+- **`printer_handle_closer`**: Implements printer handle closer functionality
+- **`error_state`**: Error information container for error state failures
+- **`last_error_guard`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`module`**: Implements module functionality
+- **`module_deleter`**: Implements module deleter functionality
+- **`opaque_function_pointer`**: Implements opaque function pointer functionality
+- **`function_pointer`**: Implements function pointer functionality
+- **`deleter`**: Implements deleter functionality
+
 ### Kluczowe Funkcje
-- `buffer()`: Performs buffer operation in platform.hpp
-- `wait()`: Performs wait operation in platform.hpp
-- `is_signaled()`: Checks a condition in platform.hpp and returns the result
-- `wait_any()`: Performs wait_any operation in platform.hpp
-- `wait_all()`: Performs wait_all operation in platform.hpp
-- `normalise()`: Performs normalise operation in platform.hpp
-- `native_handle()`: Performs native_handle operation in platform.hpp
-- `reset()`: Performs reset operation in platform.hpp
-- `close()`: Performs close operation in platform.hpp
-- `set_error_mode()`: Sets or updates _error_mode value in platform.hpp
+- **`handle_implementation::wait()`**: Executes wait operation
+- **`handle_implementation::is_signaled()`**: Checks whether signaled condition is true
+- **`handle_implementation::wait_any()`**: Executes wait any operation
+- **`error_state::any()`**: Executes any operation
+- **`last_error_guard::get()`**: Retrieves the current  value
+- **`last_error_guard::dismiss()`**: Executes dismiss operation
+- **`module::GetProcAddress()`**: Retrieves the current proc address value
+- **`opaque_function_pointer::bool()`**: Executes bool operation
+- **`opaque_function_pointer::name()`**: Executes name operation
+- **`function_pointer::raw_function_pointer()`**: Executes raw function pointer operation
+- **`deleter::handle_t()`**: Executes handle t operation
+- **`deleter::explicit()`**: Executes explicit operation
+
 ### Przestrzenie nazw
-- `detail`
-- `netapi`
 - `os`
-- `rtdl`
-- `uuid`
+
 ### Podsumowanie
-Plik `platform.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.hpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 11 klas(y) i implementuje 14 funkcji wspierających operacje menedżera plików Far Manager.

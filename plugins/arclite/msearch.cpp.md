@@ -1,24 +1,37 @@
 # msearch.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `StateElement`: Performs StateElement operation in msearch.cpp
-- `StateMatrix`: Iterates through elements in msearch.cpp and adds them to a collection
+- **`StateElement`**: Implements state element functionality
+- **`StateMatrix`**: Implements state matrix functionality
+
 ### Key Functions
-- `at()`: Iterates through elements in msearch.cpp and adds them to a collection
+- **`create_state_matrix()`**: Constructs and returns a new state matrix object
+- **`msearch()`**: Executes msearch operation
+- **`StateMatrix::sizeof()`**: Executes sizeof operation
+
 ### Summary
-The `msearch.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `msearch.cpp` file is essential for core functionality. It defines 2 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `StateElement`: Performs StateElement operation in msearch.cpp
-- `StateMatrix`: Iterates through elements in msearch.cpp and adds them to a collection
+- **`StateElement`**: Implements state element functionality
+- **`StateMatrix`**: Implements state matrix functionality
+
 ### Kluczowe Funkcje
-- `at()`: Iterates through elements in msearch.cpp and adds them to a collection
+- **`create_state_matrix()`**: Constructs and returns a new state matrix object
+- **`msearch()`**: Executes msearch operation
+- **`StateMatrix::sizeof()`**: Executes sizeof operation
+
 ### Podsumowanie
-Plik `msearch.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `msearch.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,38 +1,43 @@
 # mix.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Куча разных вспомогательных функций
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ToPercent()`: Performs ToPercent operation in mix.cpp
-- `FromPercent()`: Performs FromPercent operation in mix.cpp
-- `MakeTemp()`: Performs MakeTemp operation in mix.cpp
-- `PrefixStr()`: Performs PrefixStr operation in mix.cpp
-- `MakeTempInSameDir()`: Let's try the full 32-bit range manually.
-- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation in mix.cpp
-- `FindDataExToPluginPanelItemHolder()`: Performs FindDataExToPluginPanelItemHolder operation in mix.cpp
-- `FreePluginPanelItemData()`: Performs FreePluginPanelItemData operation in mix.cpp
-- `FreePluginPanelItemUserData()`: Performs FreePluginPanelItemUserData operation in mix.cpp
-- `FreePluginPanelItemsData()`: Performs FreePluginPanelItemsData operation in mix.cpp
+- **`MakeTemp()`**: Executes make temp operation
+- **`MakeTempInSameDir()`**: Executes make temp in same dir operation
+- **`PluginPanelItemToFindDataEx()`**: Executes plugin panel item to find data ex operation
+- **`FindDataExToPluginPanelItemHolder()`**: Executes find data ex to plugin panel item holder operation
+- **`FreePluginPanelItemData()`**: Executes free plugin panel item data operation
+- **`FreePluginPanelItemUserData()`**: Executes free plugin panel item user data operation
+- **`FreePluginPanelItemsData()`**: Executes free plugin panel items data operation
+- **`WindowTypeToPluginWindowType()`**: Executes window type to plugin window type operation
+- **`ReloadEnvironment()`**: Executes reload environment operation
+- **`version_to_string()`**: Executes version to string operation
+
 ### Summary
-The `mix.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `mix.cpp` file is essential for core functionality. It implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Куча разных вспомогательных функций
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ToPercent()`: Performs ToPercent operation in mix.cpp
-- `FromPercent()`: Performs FromPercent operation in mix.cpp
-- `MakeTemp()`: Performs MakeTemp operation in mix.cpp
-- `PrefixStr()`: Performs PrefixStr operation in mix.cpp
-- `MakeTempInSameDir()`: Let's try the full 32-bit range manually.
-- `PluginPanelItemToFindDataEx()`: Performs PluginPanelItemToFindDataEx operation in mix.cpp
-- `FindDataExToPluginPanelItemHolder()`: Performs FindDataExToPluginPanelItemHolder operation in mix.cpp
-- `FreePluginPanelItemData()`: Performs FreePluginPanelItemData operation in mix.cpp
-- `FreePluginPanelItemUserData()`: Performs FreePluginPanelItemUserData operation in mix.cpp
-- `FreePluginPanelItemsData()`: Performs FreePluginPanelItemsData operation in mix.cpp
+- **`MakeTemp()`**: Executes make temp operation
+- **`MakeTempInSameDir()`**: Executes make temp in same dir operation
+- **`PluginPanelItemToFindDataEx()`**: Executes plugin panel item to find data ex operation
+- **`FindDataExToPluginPanelItemHolder()`**: Executes find data ex to plugin panel item holder operation
+- **`FreePluginPanelItemData()`**: Executes free plugin panel item data operation
+- **`FreePluginPanelItemUserData()`**: Executes free plugin panel item user data operation
+- **`FreePluginPanelItemsData()`**: Executes free plugin panel items data operation
+- **`WindowTypeToPluginWindowType()`**: Executes window type to plugin window type operation
+- **`ReloadEnvironment()`**: Executes reload environment operation
+- **`version_to_string()`**: Executes version to string operation
+
 ### Podsumowanie
-Plik `mix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mix.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

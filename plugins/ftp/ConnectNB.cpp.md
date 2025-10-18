@@ -1,22 +1,19 @@
 # ConnectNB.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `GET_TIME()`: Performs GET_TIME operation in ConnectNB.cpp
-- `FD_ZERO()`: Performs FD_ZERO operation in ConnectNB.cpp
-- `nb_waitstate()`: Performs nb_waitstate operation in ConnectNB.cpp
+This file implements functionality for core functionality.
+
 ### Summary
-The `ConnectNB.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `ConnectNB.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `GET_TIME()`: Performs GET_TIME operation in ConnectNB.cpp
-- `FD_ZERO()`: Performs FD_ZERO operation in ConnectNB.cpp
-- `nb_waitstate()`: Performs nb_waitstate operation in ConnectNB.cpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `ConnectNB.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `ConnectNB.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

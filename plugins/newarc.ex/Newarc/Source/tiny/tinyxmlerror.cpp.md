@@ -1,14 +1,25 @@
 # tinyxmlerror.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for exception handling and error management.
+
+### Key Functions
+- **`code()`**: Executes code operation
+
 ### Summary
-The `tinyxmlerror.cpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `tinyxmlerror.cpp` file is essential for exception handling and error management. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla obsługi wyjątków i zarządzania błędami.
+
+### Kluczowe Funkcje
+- **`code()`**: Executes code operation
+
 ### Podsumowanie
-Plik `tinyxmlerror.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `tinyxmlerror.cpp` jest niezbędny dla obsługi wyjątków i zarządzania błędami. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

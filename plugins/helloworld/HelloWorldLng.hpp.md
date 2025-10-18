@@ -1,14 +1,19 @@
 # HelloWorldLng.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Summary
-The `HelloWorldLng.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `HelloWorldLng.hpp` file is essential for language file processing and localization. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Podsumowanie
-Plik `HelloWorldLng.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `HelloWorldLng.hpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. wspierających operacje menedżera plików Far Manager.

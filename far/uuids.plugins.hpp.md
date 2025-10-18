@@ -1,22 +1,25 @@
 # uuids.plugins.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Namespaces
 - `uuids`
-- `uuids_inline`
+
 ### Summary
-The `uuids.plugins.hpp` file provides essential functionality for plugin interface. to support the Far Manager file manager operations.
+The `uuids.plugins.hpp` file is essential for plugin system and extension management. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Przestrzenie nazw
 - `uuids`
-- `uuids_inline`
+
 ### Podsumowanie
-Plik `uuids.plugins.hpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. wspierających operacje menedżera plików Far Manager.
+Plik `uuids.plugins.hpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. wspierających operacje menedżera plików Far Manager.

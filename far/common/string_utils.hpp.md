@@ -1,56 +1,81 @@
 # string_utils.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Classes
-- `append_arg`: Performs append_arg operation in string_utils.hpp
-- `lvalue_string_view`: Performs lvalue_string_view operation in string_utils.hpp
-- `string_comparer`: Performs string_comparer operation in string_utils.hpp
-- `string_copyref`: Performs string_copyref operation in string_utils.hpp
+- **`string_copyref`**: Implements string copyref functionality
+- **`append_arg`**: Implements append arg functionality
+- **`lvalue_string_view`**: Implements lvalue string view functionality
+- **`string_comparer`**: Implements string comparer functionality
+
 ### Key Functions
-- `copy_string()`: Performs copy_string operation in string_utils.hpp
-- `null_terminated_t()`: Helper class to safely pass string_view to low level C or platform API.
-- `c_str()`: Performs c_str operation in string_utils.hpp
-- `empty()`: Performs empty operation in string_utils.hpp
-- `append_impl()`: Performs append_impl operation in string_utils.hpp
-- `append()`: Don't "auto" it yet, ICE in VS2019
-- `concat()`: Don't "auto" it yet, ICE in VS2019
-- `contains()`: Performs contains operation in string_utils.hpp
-- `constexpr()`: Performs constexpr operation in string_utils.hpp
-- `within()`: Performs within operation in string_utils.hpp
+- **`copy_string()`**: Executes copy string operation
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`append()`**: Executes append operation
+- **`concat()`**: Executes concat operation
+- **`contains()`**: Executes contains operation
+- **`within()`**: Executes within operation
+- **`unquote()`**: Executes unquote operation
+- **`quote()`**: Executes quote operation
+- **`quote_unconditional()`**: Executes quote unconditional operation
+- **`quote_normalise()`**: Executes quote normalise operation
+- **`quote_space()`**: Executes quote space operation
+- **`trim_left()`**: Executes trim left operation
+- **`trim_right()`**: Executes trim right operation
+- **`trim()`**: Executes trim operation
+- **`join()`**: Executes join operation
+- **`split()`**: Executes split operation
+- **`string_comparer::make_hash()`**: Executes make hash operation
+
 ### Namespaces
-- `copy`
+- `string_utils`
 - `detail`
 - `inplace`
-- `string_utils`
+- `copy`
+
 ### Summary
-The `string_utils.hpp` file provides essential functionality for string utilities. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `string_utils.hpp` file is essential for string manipulation and utilities. It defines 4 class(es) and implements 17 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Klasy
-- `append_arg`: Performs append_arg operation in string_utils.hpp
-- `lvalue_string_view`: Performs lvalue_string_view operation in string_utils.hpp
-- `string_comparer`: Performs string_comparer operation in string_utils.hpp
-- `string_copyref`: Performs string_copyref operation in string_utils.hpp
+- **`string_copyref`**: Implements string copyref functionality
+- **`append_arg`**: Implements append arg functionality
+- **`lvalue_string_view`**: Implements lvalue string view functionality
+- **`string_comparer`**: Implements string comparer functionality
+
 ### Kluczowe Funkcje
-- `copy_string()`: Performs copy_string operation in string_utils.hpp
-- `null_terminated_t()`: Helper class to safely pass string_view to low level C or platform API.
-- `c_str()`: Performs c_str operation in string_utils.hpp
-- `empty()`: Performs empty operation in string_utils.hpp
-- `append_impl()`: Performs append_impl operation in string_utils.hpp
-- `append()`: Don't "auto" it yet, ICE in VS2019
-- `concat()`: Don't "auto" it yet, ICE in VS2019
-- `contains()`: Performs contains operation in string_utils.hpp
-- `constexpr()`: Performs constexpr operation in string_utils.hpp
-- `within()`: Performs within operation in string_utils.hpp
+- **`copy_string()`**: Executes copy string operation
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`append()`**: Executes append operation
+- **`concat()`**: Executes concat operation
+- **`contains()`**: Executes contains operation
+- **`within()`**: Executes within operation
+- **`unquote()`**: Executes unquote operation
+- **`quote()`**: Executes quote operation
+- **`quote_unconditional()`**: Executes quote unconditional operation
+- **`quote_normalise()`**: Executes quote normalise operation
+- **`quote_space()`**: Executes quote space operation
+- **`trim_left()`**: Executes trim left operation
+- **`trim_right()`**: Executes trim right operation
+- **`trim()`**: Executes trim operation
+- **`join()`**: Executes join operation
+- **`split()`**: Executes split operation
+- **`string_comparer::make_hash()`**: Executes make hash operation
+
 ### Przestrzenie nazw
-- `copy`
+- `string_utils`
 - `detail`
 - `inplace`
-- `string_utils`
+- `copy`
+
 ### Podsumowanie
-Plik `string_utils.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `string_utils.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Definiuje 4 klas(y) i implementuje 17 funkcji wspierających operacje menedżera plików Far Manager.

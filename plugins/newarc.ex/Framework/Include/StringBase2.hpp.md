@@ -1,48 +1,49 @@
 # StringBase2.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Classes
-- `AnsiTraits`: Performs AnsiTraits operation in StringBase2.hpp
-- `BaseTraits`: Performs BaseTraits operation in StringBase2.hpp
-- `StringBase`: для оптимизации создания пустых String
-- `StringData`: Performs StringData operation in StringBase2.hpp
-- `UnicodeTraits`: Performs UnicodeTraits operation in StringBase2.hpp
+- **`BaseTraits`**: Implements base traits functionality
+- **`UnicodeTraits`**: Implements unicode traits functionality
+- **`AnsiTraits`**: Implements ansi traits functionality
+- **`StringData`**: Implements string data functionality
+- **`StringBase`**: Implements string base functionality
+
 ### Key Functions
-- `StrLengthW()`: Performs StrLengthW operation in StringBase2.hpp
-- `StrLengthA()`: Performs StrLengthA operation in StringBase2.hpp
-- `ConvertString()`: Performs ConvertString operation in StringBase2.hpp
-- `Free()`: Performs Free operation in StringBase2.hpp
-- `GetDefaultEncoding()`: Retrieves DefaultEncoding value in StringBase2.hpp
-- `StrLength()`: Performs StrLength operation in StringBase2.hpp
-- `GetAnsiDataLength()`: Retrieves AnsiDataLength value in StringBase2.hpp
-- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation in StringBase2.hpp
-- `CopyAnsiData()`: Performs CopyAnsiData operation in StringBase2.hpp
-- `GetUnicodeDataLength()`: Retrieves UnicodeDataLength value in StringBase2.hpp
+- **`StringBase()`**: Executes string base operation
+- **`BaseTraits::StrLengthW()`**: Executes str length w operation
+- **`UnicodeTraits::GetDefaultEncoding()`**: Retrieves the current default encoding value
+- **`AnsiTraits::GetDefaultEncoding()`**: Retrieves the current default encoding value
+- **`StringData::AllocData()`**: Executes alloc data operation
+- **`StringData::if()`**: Executes if operation
+
 ### Summary
-The `StringBase2.hpp` file provides essential functionality for string utilities. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `StringBase2.hpp` file is essential for string manipulation and utilities. It defines 5 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Klasy
-- `AnsiTraits`: Performs AnsiTraits operation in StringBase2.hpp
-- `BaseTraits`: Performs BaseTraits operation in StringBase2.hpp
-- `StringBase`: для оптимизации создания пустых String
-- `StringData`: Performs StringData operation in StringBase2.hpp
-- `UnicodeTraits`: Performs UnicodeTraits operation in StringBase2.hpp
+- **`BaseTraits`**: Implements base traits functionality
+- **`UnicodeTraits`**: Implements unicode traits functionality
+- **`AnsiTraits`**: Implements ansi traits functionality
+- **`StringData`**: Implements string data functionality
+- **`StringBase`**: Implements string base functionality
+
 ### Kluczowe Funkcje
-- `StrLengthW()`: Performs StrLengthW operation in StringBase2.hpp
-- `StrLengthA()`: Performs StrLengthA operation in StringBase2.hpp
-- `ConvertString()`: Performs ConvertString operation in StringBase2.hpp
-- `Free()`: Performs Free operation in StringBase2.hpp
-- `GetDefaultEncoding()`: Retrieves DefaultEncoding value in StringBase2.hpp
-- `StrLength()`: Performs StrLength operation in StringBase2.hpp
-- `GetAnsiDataLength()`: Retrieves AnsiDataLength value in StringBase2.hpp
-- `MultiByteToWideChar()`: Performs MultiByteToWideChar operation in StringBase2.hpp
-- `CopyAnsiData()`: Performs CopyAnsiData operation in StringBase2.hpp
-- `GetUnicodeDataLength()`: Retrieves UnicodeDataLength value in StringBase2.hpp
+- **`StringBase()`**: Executes string base operation
+- **`BaseTraits::StrLengthW()`**: Executes str length w operation
+- **`UnicodeTraits::GetDefaultEncoding()`**: Retrieves the current default encoding value
+- **`AnsiTraits::GetDefaultEncoding()`**: Retrieves the current default encoding value
+- **`StringData::AllocData()`**: Executes alloc data operation
+- **`StringData::if()`**: Executes if operation
+
 ### Podsumowanie
-Plik `StringBase2.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `StringBase2.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Definiuje 5 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

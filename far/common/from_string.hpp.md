@@ -1,30 +1,33 @@
 # from_string.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Functions
-- `from_string()`: Performs from_string operation in from_string.hpp
-- `constexpr()`: Performs constexpr operation in from_string.hpp
-- `Data()`: Performs Data operation in from_string.hpp
-- `from_string_long()`: Performs from_string_long operation in from_string.hpp
+- **`from_string()`**: Executes from string operation
+- **`try_from_string()`**: Executes try from string operation
+
 ### Namespaces
 - `detail`
-- `std`
+
 ### Summary
-The `from_string.hpp` file provides essential functionality for string utilities. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `from_string.hpp` file is essential for string manipulation and utilities. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Funkcje
-- `from_string()`: Performs from_string operation in from_string.hpp
-- `constexpr()`: Performs constexpr operation in from_string.hpp
-- `Data()`: Performs Data operation in from_string.hpp
-- `from_string_long()`: Performs from_string_long operation in from_string.hpp
+- **`from_string()`**: Executes from string operation
+- **`try_from_string()`**: Executes try from string operation
+
 ### Przestrzenie nazw
 - `detail`
-- `std`
+
 ### Podsumowanie
-Plik `from_string.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `from_string.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

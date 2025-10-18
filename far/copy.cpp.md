@@ -1,52 +1,49 @@
 # copy.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Копирование файлов
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ShellCopy`: Performs ShellCopy operation in copy.cpp
-- `created_folders`: При копировании/переносе выставляем FILE_ATTRIBUTE_ENCRYPTED
-- `file_names_for_overwrite_dialog`: Performs file_names_for_overwrite_dialog operation in copy.cpp
-- `overwrite`: Performs overwrite operation in copy.cpp
-- `security`: Performs security operation in copy.cpp
-- `total_info`: Performs total_info operation in copy.cpp
+- **`overwrite`**: Implements overwrite functionality
+- **`security`**: Enumeration defining possible values for security
+- **`created_folders`**: Implements created folders functionality
+- **`total_info`**: Implements total info functionality
+- **`file_names_for_overwrite_dialog`**: Implements file names for overwrite dialog functionality
+
 ### Key Functions
-- `copy_selected_items()`: Performs copy_selected_items operation in copy.cpp
-- `ShellCopyOneFile()`: Performs ShellCopyOneFile operation in copy.cpp
-- `CheckStreams()`: Performs CheckStreams operation in copy.cpp
-- `ShellCopyFile()`: Performs ShellCopyFile operation in copy.cpp
-- `ShellSystemCopy()`: Validates a condition in copy.cpp and throws an exception if the validation fails
-- `DeleteAfterMove()`: Checks a condition in copy.cpp and returns true or false based on the result
-- `AskOverwrite()`: called by ShellCopyOneFile
-- `GetSecurity()`: Checks a condition in copy.cpp and returns true or false based on the result
-- `SetSecurity()`: Sets or updates Security value in copy.cpp
-- `ResetSecurity()`: Performs ResetSecurity operation in copy.cpp
+- **`set_file_time()`**: Updates the file time with a new value
+- **`CmpFullNames()`**: Executes cmp full names operation
+- **`CheckNulOrCon()`**: Executes check nul or con operation
+- **`GenerateName()`**: Executes generate name operation
+- **`CheckAndUpdateConsole()`**: Executes check and update console operation
+- **`Copy()`**: Executes copy operation
+
 ### Summary
-The `copy.cpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `copy.cpp` file is essential for core functionality. It defines 5 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Копирование файлов
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ShellCopy`: Performs ShellCopy operation in copy.cpp
-- `created_folders`: При копировании/переносе выставляем FILE_ATTRIBUTE_ENCRYPTED
-- `file_names_for_overwrite_dialog`: Performs file_names_for_overwrite_dialog operation in copy.cpp
-- `overwrite`: Performs overwrite operation in copy.cpp
-- `security`: Performs security operation in copy.cpp
-- `total_info`: Performs total_info operation in copy.cpp
+- **`overwrite`**: Implements overwrite functionality
+- **`security`**: Enumeration defining possible values for security
+- **`created_folders`**: Implements created folders functionality
+- **`total_info`**: Implements total info functionality
+- **`file_names_for_overwrite_dialog`**: Implements file names for overwrite dialog functionality
+
 ### Kluczowe Funkcje
-- `copy_selected_items()`: Performs copy_selected_items operation in copy.cpp
-- `ShellCopyOneFile()`: Performs ShellCopyOneFile operation in copy.cpp
-- `CheckStreams()`: Performs CheckStreams operation in copy.cpp
-- `ShellCopyFile()`: Performs ShellCopyFile operation in copy.cpp
-- `ShellSystemCopy()`: Validates a condition in copy.cpp and throws an exception if the validation fails
-- `DeleteAfterMove()`: Checks a condition in copy.cpp and returns true or false based on the result
-- `AskOverwrite()`: called by ShellCopyOneFile
-- `GetSecurity()`: Checks a condition in copy.cpp and returns true or false based on the result
-- `SetSecurity()`: Sets or updates Security value in copy.cpp
-- `ResetSecurity()`: Performs ResetSecurity operation in copy.cpp
+- **`set_file_time()`**: Updates the file time with a new value
+- **`CmpFullNames()`**: Executes cmp full names operation
+- **`CheckNulOrCon()`**: Executes check nul or con operation
+- **`GenerateName()`**: Executes generate name operation
+- **`CheckAndUpdateConsole()`**: Executes check and update console operation
+- **`Copy()`**: Executes copy operation
+
 ### Podsumowanie
-Plik `copy.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `copy.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 5 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

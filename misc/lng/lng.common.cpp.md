@@ -1,30 +1,29 @@
 # lng.common.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Key Functions
-- `TrimEnd()`: Performs TrimEnd operation in lng.common.cpp
-- `TrimStart()`: Performs TrimStart operation in lng.common.cpp
-- `Trim()`: Performs Trim operation in lng.common.cpp
-- `sprintf()`: Performs sprintf operation in lng.common.cpp
-- `printf()`: Performs printf operation in lng.common.cpp
-- `atol()`: Performs atol operation in lng.common.cpp
-- `CRC32()`: Performs CRC32 operation in lng.common.cpp
+- **`TrimEnd()`**: Executes trim end operation
+- **`TrimStart()`**: Executes trim start operation
+- **`Trim()`**: Executes trim operation
+
 ### Summary
-The `lng.common.cpp` file provides essential functionality for core functionality. and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `lng.common.cpp` file is essential for language file processing and localization. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Kluczowe Funkcje
-- `TrimEnd()`: Performs TrimEnd operation in lng.common.cpp
-- `TrimStart()`: Performs TrimStart operation in lng.common.cpp
-- `Trim()`: Performs Trim operation in lng.common.cpp
-- `sprintf()`: Performs sprintf operation in lng.common.cpp
-- `printf()`: Performs printf operation in lng.common.cpp
-- `atol()`: Performs atol operation in lng.common.cpp
-- `CRC32()`: Performs CRC32 operation in lng.common.cpp
+- **`TrimEnd()`**: Executes trim end operation
+- **`TrimStart()`**: Executes trim start operation
+- **`Trim()`**: Executes trim operation
+
 ### Podsumowanie
-Plik `lng.common.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `lng.common.cpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

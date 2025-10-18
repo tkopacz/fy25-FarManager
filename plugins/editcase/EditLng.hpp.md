@@ -1,14 +1,19 @@
 # EditLng.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: text editing
+This file implements functionality for language file processing and localization.
+
 ### Summary
-The `EditLng.hpp` file provides essential functionality for text editing. to support the Far Manager file manager operations.
+The `EditLng.hpp` file is essential for language file processing and localization. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: edycja tekstu
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Podsumowanie
-Plik `EditLng.hpp` zapewnia podstawową funkcjonalność dla edycja tekstu. wspierających operacje menedżera plików Far Manager.
+Plik `EditLng.hpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. wspierających operacje menedżera plików Far Manager.

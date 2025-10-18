@@ -1,30 +1,33 @@
 # FarMenu.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Key Classes
-- `FarMenu`: Performs FarMenu operation in FarMenu.hpp
-- `UserDataStruct`: Performs UserDataStruct operation in FarMenu.hpp
+- **`FarMenu`**: Implements far menu functionality
+- **`UserDataStruct`**: Implements user data struct functionality
+
 ### Key Functions
-- `Add()`: Performs Add operation in FarMenu.hpp
-- `Run()`: Performs Run operation in FarMenu.hpp
-- `GetData()`: Retrieves Data value in FarMenu.hpp
-- `Done()`: Performs Done operation in FarMenu.hpp
+- **`FarMenu()`**: Executes far menu operation
+
 ### Summary
-The `FarMenu.hpp` file provides essential functionality for menu management. It defines 2 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `FarMenu.hpp` file is essential for menu system. It defines 2 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Kluczowe Klasy
-- `FarMenu`: Performs FarMenu operation in FarMenu.hpp
-- `UserDataStruct`: Performs UserDataStruct operation in FarMenu.hpp
+- **`FarMenu`**: Implements far menu functionality
+- **`UserDataStruct`**: Implements user data struct functionality
+
 ### Kluczowe Funkcje
-- `Add()`: Performs Add operation in FarMenu.hpp
-- `Run()`: Performs Run operation in FarMenu.hpp
-- `GetData()`: Retrieves Data value in FarMenu.hpp
-- `Done()`: Performs Done operation in FarMenu.hpp
+- **`FarMenu()`**: Executes far menu operation
+
 ### Podsumowanie
-Plik `FarMenu.hpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. Definiuje 2 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarMenu.hpp` jest niezbędny dla systemu menu. Definiuje 2 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

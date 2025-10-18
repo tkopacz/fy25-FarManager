@@ -1,46 +1,45 @@
 # MacroView.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: file viewing
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Config`: Performs Config operation in MacroView.hpp
-- `InitDialogItem`: Initializes data structures and prepares for operation in MacroView.hpp
-- `MenuData`: Performs MenuData operation in MacroView.hpp
-- `TMacroView`: Performs TMacroView operation in MacroView.hpp
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`Config`**: Stores and manages configuration parameters and settings
+- **`MenuData`**: Implements menu data functionality
+- **`TMacroView`**: Implements tmacro view functionality
+
 ### Key Functions
-- `InterceptDllCall()`: Performs InterceptDllCall operation in MacroView.hpp
-- `MacroDialogProc()`: Performs MacroDialogProc operation in MacroView.hpp
-- `MenuDialogProc()`: Performs MenuDialogProc operation in MacroView.hpp
-- `DefKeyDialogProc()`: Performs DefKeyDialogProc operation in MacroView.hpp
-- `CopyDialogProc()`: Performs CopyDialogProc operation in MacroView.hpp
-- `ProcessKey()`: Processes input data in MacroView.hpp
-- `ProcessPeekKey()`: Processes input data in MacroView.hpp
-- `AllTrim()`: Performs AllTrim operation in MacroView.hpp
-- `UnQuoteText()`: Performs UnQuoteText operation in MacroView.hpp
-- `QuoteText()`: Performs QuoteText operation in MacroView.hpp
+- **`InterceptDllCall()`**: Executes intercept dll call operation
+- **`BOOL()`**: Executes bool operation
+- **`TMacroView::Configure()`**: Executes configure operation
+- **`TMacroView::ReadConfig()`**: Executes read config operation
+- **`TMacroView::MacroList()`**: Executes macro list operation
+
 ### Summary
-The `MacroView.hpp` file provides essential functionality for file viewing. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `MacroView.hpp` file is essential for core functionality. It defines 4 class(es) and implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: przeglądanie plików
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Config`: Performs Config operation in MacroView.hpp
-- `InitDialogItem`: Initializes data structures and prepares for operation in MacroView.hpp
-- `MenuData`: Performs MenuData operation in MacroView.hpp
-- `TMacroView`: Performs TMacroView operation in MacroView.hpp
+- **`InitDialogItem`**: Implements init dialog item functionality
+- **`Config`**: Stores and manages configuration parameters and settings
+- **`MenuData`**: Implements menu data functionality
+- **`TMacroView`**: Implements tmacro view functionality
+
 ### Kluczowe Funkcje
-- `InterceptDllCall()`: Performs InterceptDllCall operation in MacroView.hpp
-- `MacroDialogProc()`: Performs MacroDialogProc operation in MacroView.hpp
-- `MenuDialogProc()`: Performs MenuDialogProc operation in MacroView.hpp
-- `DefKeyDialogProc()`: Performs DefKeyDialogProc operation in MacroView.hpp
-- `CopyDialogProc()`: Performs CopyDialogProc operation in MacroView.hpp
-- `ProcessKey()`: Processes input data in MacroView.hpp
-- `ProcessPeekKey()`: Processes input data in MacroView.hpp
-- `AllTrim()`: Performs AllTrim operation in MacroView.hpp
-- `UnQuoteText()`: Performs UnQuoteText operation in MacroView.hpp
-- `QuoteText()`: Performs QuoteText operation in MacroView.hpp
+- **`InterceptDllCall()`**: Executes intercept dll call operation
+- **`BOOL()`**: Executes bool operation
+- **`TMacroView::Configure()`**: Executes configure operation
+- **`TMacroView::ReadConfig()`**: Executes read config operation
+- **`TMacroView::MacroList()`**: Executes macro list operation
+
 ### Podsumowanie
-Plik `MacroView.hpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `MacroView.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

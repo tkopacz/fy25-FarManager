@@ -1,60 +1,77 @@
 # plugin.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Plugin API for FAR Manager 2.0 build 1807
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Key Classes
-- `ActlEjectMedia`: Performs ActlEjectMedia operation in plugin.hpp
-- `ActlKeyMacro`: Performs ActlKeyMacro operation in plugin.hpp
-- `CmdLineSelect`: Performs CmdLineSelect operation in plugin.hpp
-- `DialogInfo`: Performs DialogInfo operation in plugin.hpp
-- `EditorBookMarks`: Performs EditorBookMarks operation in plugin.hpp
-- `EditorColor`: Performs EditorColor operation in plugin.hpp
-- `EditorConvertPos`: Performs EditorConvertPos operation in plugin.hpp
-- `EditorGetString`: Performs EditorGetString operation in plugin.hpp
-- `EditorInfo`: Performs EditorInfo operation in plugin.hpp
-- `EditorSaveFile`: Performs EditorSaveFile operation in plugin.hpp
+- **`FarListItem`**: Container class managing collection of far item
+- **`FarListUpdate`**: Container class managing collection of far update
+- **`FarListInsert`**: Container class managing collection of far insert
+- **`FarListGetItem`**: Container class managing collection of far get item
+- **`FarListPos`**: Container class managing collection of far pos
+- **`FarListFind`**: Container class managing collection of far find
+- **`FarListDelete`**: Container class managing collection of far delete
+- **`FarListInfo`**: Container class managing collection of far info
+- **`FarListItemData`**: Container class managing collection of far item data
+- **`FarList`**: Container class managing collection of far
+- **`FarListTitles`**: Container class managing collection of far titles
+- **`FarListColors`**: Container class managing collection of far colors
+- **`FarDialogItem`**: Implements far dialog item functionality
+- **`FarDialogItemData`**: Implements far dialog item data functionality
+- **`FarDialogEvent`**: Implements far dialog event functionality
+
 ### Key Functions
-- `IsEdit()`: Check diagol element type has inputstring?
-- `DlgList_SetCurPos()`: Performs DlgList_SetCurPos operation in plugin.hpp
-- `DlgList_DeleteItem()`: Performs DlgList_DeleteItem operation in plugin.hpp
-- `DlgList_SetItemStrAsData()`: Performs DlgList_SetItemStrAsData operation in plugin.hpp
-- `ClosePluginW()`: Performs ClosePluginW operation in plugin.hpp
-- `CompareW()`: Performs CompareW operation in plugin.hpp
-- `ConfigureW()`: Performs ConfigureW operation in plugin.hpp
-- `DeleteFilesW()`: Deletes or removes an item or resource in plugin.hpp
-- `ExitFARW()`: Performs ExitFARW operation in plugin.hpp
-- `FreeFindDataW()`: Performs FreeFindDataW operation in plugin.hpp
+- **`int()`**: Executes int operation
+- **`LONG_PTR()`**: Executes long ptr operation
+- **`HANDLE()`**: Executes handle operation
+- **`void()`**: Executes void operation
+- **`BOOL()`**: Executes bool operation
+- **`INT_PTR()`**: Executes int ptr operation
+- **`__int64()`**: Executes int64 operation
+- **`wchar_t()`**: Executes wchar t operation
+- **`size_t()`**: Executes size t operation
+- **`DWORD()`**: Executes dword operation
+
 ### Summary
-The `plugin.hpp` file provides essential functionality for plugin interface. It defines 56 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `plugin.hpp` file is essential for plugin system and extension management. It defines 56 class(es) and implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Plugin API for FAR Manager 2.0 build 1807
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Klasy
-- `ActlEjectMedia`: Performs ActlEjectMedia operation in plugin.hpp
-- `ActlKeyMacro`: Performs ActlKeyMacro operation in plugin.hpp
-- `CmdLineSelect`: Performs CmdLineSelect operation in plugin.hpp
-- `DialogInfo`: Performs DialogInfo operation in plugin.hpp
-- `EditorBookMarks`: Performs EditorBookMarks operation in plugin.hpp
-- `EditorColor`: Performs EditorColor operation in plugin.hpp
-- `EditorConvertPos`: Performs EditorConvertPos operation in plugin.hpp
-- `EditorGetString`: Performs EditorGetString operation in plugin.hpp
-- `EditorInfo`: Performs EditorInfo operation in plugin.hpp
-- `EditorSaveFile`: Performs EditorSaveFile operation in plugin.hpp
+- **`FarListItem`**: Container class managing collection of far item
+- **`FarListUpdate`**: Container class managing collection of far update
+- **`FarListInsert`**: Container class managing collection of far insert
+- **`FarListGetItem`**: Container class managing collection of far get item
+- **`FarListPos`**: Container class managing collection of far pos
+- **`FarListFind`**: Container class managing collection of far find
+- **`FarListDelete`**: Container class managing collection of far delete
+- **`FarListInfo`**: Container class managing collection of far info
+- **`FarListItemData`**: Container class managing collection of far item data
+- **`FarList`**: Container class managing collection of far
+- **`FarListTitles`**: Container class managing collection of far titles
+- **`FarListColors`**: Container class managing collection of far colors
+- **`FarDialogItem`**: Implements far dialog item functionality
+- **`FarDialogItemData`**: Implements far dialog item data functionality
+- **`FarDialogEvent`**: Implements far dialog event functionality
+
 ### Kluczowe Funkcje
-- `IsEdit()`: Check diagol element type has inputstring?
-- `DlgList_SetCurPos()`: Performs DlgList_SetCurPos operation in plugin.hpp
-- `DlgList_DeleteItem()`: Performs DlgList_DeleteItem operation in plugin.hpp
-- `DlgList_SetItemStrAsData()`: Performs DlgList_SetItemStrAsData operation in plugin.hpp
-- `ClosePluginW()`: Performs ClosePluginW operation in plugin.hpp
-- `CompareW()`: Performs CompareW operation in plugin.hpp
-- `ConfigureW()`: Performs ConfigureW operation in plugin.hpp
-- `DeleteFilesW()`: Deletes or removes an item or resource in plugin.hpp
-- `ExitFARW()`: Performs ExitFARW operation in plugin.hpp
-- `FreeFindDataW()`: Performs FreeFindDataW operation in plugin.hpp
+- **`int()`**: Executes int operation
+- **`LONG_PTR()`**: Executes long ptr operation
+- **`HANDLE()`**: Executes handle operation
+- **`void()`**: Executes void operation
+- **`BOOL()`**: Executes bool operation
+- **`INT_PTR()`**: Executes int ptr operation
+- **`__int64()`**: Executes int64 operation
+- **`wchar_t()`**: Executes wchar t operation
+- **`size_t()`**: Executes size t operation
+- **`DWORD()`**: Executes dword operation
+
 ### Podsumowanie
-Plik `plugin.hpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 56 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plugin.hpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Definiuje 56 klas(y) i implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

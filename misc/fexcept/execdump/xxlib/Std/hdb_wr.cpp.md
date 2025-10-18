@@ -1,22 +1,27 @@
 # hdb_wr.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `dbWrite()`: Checks a condition in hdb_wr.cpp and returns true or false based on the result
-- `dbWriteInfo()`: Checks a condition in hdb_wr.cpp and returns true or false based on the result
-- `HDBWrite()`: Checks a condition in hdb_wr.cpp and returns true or false based on the result
+- **`dbWrite()`**: Executes db write operation
+- **`dbWriteInfo()`**: Executes db write info operation
+
 ### Summary
-The `hdb_wr.cpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `hdb_wr.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `dbWrite()`: Checks a condition in hdb_wr.cpp and returns true or false based on the result
-- `dbWriteInfo()`: Checks a condition in hdb_wr.cpp and returns true or false based on the result
-- `HDBWrite()`: Checks a condition in hdb_wr.cpp and returns true or false based on the result
+- **`dbWrite()`**: Executes db write operation
+- **`dbWriteInfo()`**: Executes db write info operation
+
 ### Podsumowanie
-Plik `hdb_wr.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hdb_wr.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

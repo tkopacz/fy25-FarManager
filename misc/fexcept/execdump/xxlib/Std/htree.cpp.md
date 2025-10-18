@@ -1,24 +1,25 @@
 # htree.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `HTNextName()`: Checks a condition in htree.cpp and returns true or false based on the result
-- `GetName()`: Checks a condition in htree.cpp and returns true or false based on the result
-- `ClassName()`: Checks a condition in htree.cpp and returns true or false based on the result
-- `BackCount()`: Checks a condition in htree.cpp and returns true or false based on the result
+- **`HTNextName()`**: Executes htnext name operation
+
 ### Summary
-The `htree.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `htree.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `HTNextName()`: Checks a condition in htree.cpp and returns true or false based on the result
-- `GetName()`: Checks a condition in htree.cpp and returns true or false based on the result
-- `ClassName()`: Checks a condition in htree.cpp and returns true or false based on the result
-- `BackCount()`: Checks a condition in htree.cpp and returns true or false based on the result
+- **`HTNextName()`**: Executes htnext name operation
+
 ### Podsumowanie
-Plik `htree.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `htree.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,18 +1,25 @@
 # lazy.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `lazy`: Performs lazy operation in lazy.hpp
+- **`lazy`**: Implements lazy functionality
+
 ### Summary
-The `lazy.hpp` file provides essential functionality for core functionality. It defines 1 class(es) to support the Far Manager file manager operations.
+The `lazy.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `lazy`: Performs lazy operation in lazy.hpp
+- **`lazy`**: Implements lazy functionality
+
 ### Podsumowanie
-Plik `lazy.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `lazy.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

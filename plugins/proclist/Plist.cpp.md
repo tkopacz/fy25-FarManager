@@ -1,40 +1,43 @@
 # Plist.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `OpenProcessForced()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `OpenProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `GetPData()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `FreeUserData()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `GetList()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `l()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `ProcessData()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `KillProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `PrintNTCurDirAndEnv()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `PrintModuleVersion()`: Checks a condition in Plist.cpp and returns true or false based on the result
-### Namespaces
-- `std`
+- **`OpenProcessForced()`**: Executes open process forced operation
+- **`GetPData()`**: Retrieves the current pdata value
+- **`GetList()`**: Retrieves the current list value
+- **`KillProcess()`**: Executes kill process operation
+- **`PrintNTCurDirAndEnv()`**: Executes print ntcur dir and env operation
+- **`PrintModuleVersion()`**: Executes print module version operation
+- **`print_module_impl()`**: Executes print module impl operation
+- **`print_module()`**: Executes print module operation
+- **`get_module_file_name()`**: Retrieves the current module file name value
+- **`PrintModules()`**: Executes print modules operation
+
 ### Summary
-The `Plist.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `Plist.cpp` file is essential for core functionality. It implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `OpenProcessForced()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `OpenProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `GetPData()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `FreeUserData()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `GetList()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `l()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `ProcessData()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `KillProcess()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `PrintNTCurDirAndEnv()`: Checks a condition in Plist.cpp and returns true or false based on the result
-- `PrintModuleVersion()`: Checks a condition in Plist.cpp and returns true or false based on the result
-### Przestrzenie nazw
-- `std`
+- **`OpenProcessForced()`**: Executes open process forced operation
+- **`GetPData()`**: Retrieves the current pdata value
+- **`GetList()`**: Retrieves the current list value
+- **`KillProcess()`**: Executes kill process operation
+- **`PrintNTCurDirAndEnv()`**: Executes print ntcur dir and env operation
+- **`PrintModuleVersion()`**: Executes print module version operation
+- **`print_module_impl()`**: Executes print module impl operation
+- **`print_module()`**: Executes print module operation
+- **`get_module_file_name()`**: Retrieves the current module file name value
+- **`PrintModules()`**: Executes print modules operation
+
 ### Podsumowanie
-Plik `Plist.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Plist.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

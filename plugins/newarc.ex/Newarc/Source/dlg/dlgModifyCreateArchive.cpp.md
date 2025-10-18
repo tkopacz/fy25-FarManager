@@ -1,32 +1,37 @@
 # dlgModifyCreateArchive.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: dialog handling
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `CreateArchiveParams`: Creates and initializes a new object or resource in dlgModifyCreateArchive.cpp
+- **`CreateArchiveParams`**: Implements create archive params functionality
+
 ### Key Functions
-- `SetFormatTitle()`: Sets or updates FormatTitle value in dlgModifyCreateArchive.cpp
-- `SetTemplate()`: Sets or updates Template value in dlgModifyCreateArchive.cpp
-- `EnableControls()`: Performs EnableControls operation in dlgModifyCreateArchive.cpp
-- `hndModifyCreateArchive()`: Checks a condition in dlgModifyCreateArchive.cpp and returns true or false based on the result
-- `dlgModifyCreateArchive()`: Checks a condition in dlgModifyCreateArchive.cpp and returns true or false based on the result
-- `D()`: Performs D operation in dlgModifyCreateArchive.cpp
+- **`SetFormatTitle()`**: Updates the format title with a new value
+- **`SetTemplate()`**: Updates the template with a new value
+- **`EnableControls()`**: Executes enable controls operation
+- **`dlgModifyCreateArchive()`**: Executes dlg modify create archive operation
+
 ### Summary
-The `dlgModifyCreateArchive.cpp` file provides essential functionality for dialog handling. It defines 1 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
+The `dlgModifyCreateArchive.cpp` file is essential for core functionality. It defines 1 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `CreateArchiveParams`: Creates and initializes a new object or resource in dlgModifyCreateArchive.cpp
+- **`CreateArchiveParams`**: Implements create archive params functionality
+
 ### Kluczowe Funkcje
-- `SetFormatTitle()`: Sets or updates FormatTitle value in dlgModifyCreateArchive.cpp
-- `SetTemplate()`: Sets or updates Template value in dlgModifyCreateArchive.cpp
-- `EnableControls()`: Performs EnableControls operation in dlgModifyCreateArchive.cpp
-- `hndModifyCreateArchive()`: Checks a condition in dlgModifyCreateArchive.cpp and returns true or false based on the result
-- `dlgModifyCreateArchive()`: Checks a condition in dlgModifyCreateArchive.cpp and returns true or false based on the result
-- `D()`: Performs D operation in dlgModifyCreateArchive.cpp
+- **`SetFormatTitle()`**: Updates the format title with a new value
+- **`SetTemplate()`**: Updates the template with a new value
+- **`EnableControls()`**: Executes enable controls operation
+- **`dlgModifyCreateArchive()`**: Executes dlg modify create archive operation
+
 ### Podsumowanie
-Plik `dlgModifyCreateArchive.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 1 klas(y) i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `dlgModifyCreateArchive.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

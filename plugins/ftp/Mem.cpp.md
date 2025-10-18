@@ -1,30 +1,31 @@
 # Mem.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ShowMemInfo()`: Performs ShowMemInfo operation in Mem.cpp
-- `calloc()`: Performs calloc operation in Mem.cpp
-- `_Alloc()`: Performs _Alloc operation in Mem.cpp
-- `free()`: Performs free operation in Mem.cpp
-- `realloc()`: Performs realloc operation in Mem.cpp
+- **`ShowMemInfo()`**: Executes show mem info operation
+
 ### Namespaces
 - `std`
+
 ### Summary
-The `Mem.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `Mem.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ShowMemInfo()`: Performs ShowMemInfo operation in Mem.cpp
-- `calloc()`: Performs calloc operation in Mem.cpp
-- `_Alloc()`: Performs _Alloc operation in Mem.cpp
-- `free()`: Performs free operation in Mem.cpp
-- `realloc()`: Performs realloc operation in Mem.cpp
+- **`ShowMemInfo()`**: Executes show mem info operation
+
 ### Przestrzenie nazw
 - `std`
+
 ### Podsumowanie
-Plik `Mem.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Mem.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,26 +1,39 @@
 # transactional.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `scoped_transaction`: Performs scoped_transaction operation in transactional.hpp
-- `transactional`: Performs transactional operation in transactional.hpp
+- **`transactional`**: Implements transactional functionality
+- **`scoped_transaction`**: Implements scoped transaction functionality
+
 ### Key Functions
-- `ScopedTransaction()`: Performs ScopedTransaction operation in transactional.hpp
-- `scoped_transaction()`: Performs scoped_transaction operation in transactional.hpp
+- **`transactional::BeginTransaction()`**: Executes begin transaction operation
+- **`transactional::EndTransaction()`**: Executes end transaction operation
+- **`transactional::ScopedTransaction()`**: Executes scoped transaction operation
+- **`transactional::scoped_transaction()`**: Executes scoped transaction operation
+
 ### Summary
-The `transactional.hpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `transactional.hpp` file is essential for core functionality. It defines 2 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `scoped_transaction`: Performs scoped_transaction operation in transactional.hpp
-- `transactional`: Performs transactional operation in transactional.hpp
+- **`transactional`**: Implements transactional functionality
+- **`scoped_transaction`**: Implements scoped transaction functionality
+
 ### Kluczowe Funkcje
-- `ScopedTransaction()`: Performs ScopedTransaction operation in transactional.hpp
-- `scoped_transaction()`: Performs scoped_transaction operation in transactional.hpp
+- **`transactional::BeginTransaction()`**: Executes begin transaction operation
+- **`transactional::EndTransaction()`**: Executes end transaction operation
+- **`transactional::ScopedTransaction()`**: Executes scoped transaction operation
+- **`transactional::scoped_transaction()`**: Executes scoped transaction operation
+
 ### Podsumowanie
-Plik `transactional.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `transactional.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,18 +1,25 @@
 # mnuConfigSelect.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: configuration management
+This file implements functionality for configuration management.
+
 ### Key Functions
-- `mnuConfigSelect()`: Performs mnuConfigSelect operation in mnuConfigSelect.cpp
+- **`mnuConfigSelect()`**: Executes mnu config select operation
+
 ### Summary
-The `mnuConfigSelect.cpp` file provides essential functionality for configuration management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `mnuConfigSelect.cpp` file is essential for configuration management. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie konfiguracją
+Ten plik implementuje funkcjonalność dla zarządzania konfiguracją.
+
 ### Kluczowe Funkcje
-- `mnuConfigSelect()`: Performs mnuConfigSelect operation in mnuConfigSelect.cpp
+- **`mnuConfigSelect()`**: Executes mnu config select operation
+
 ### Podsumowanie
-Plik `mnuConfigSelect.cpp` zapewnia podstawową funkcjonalność dla zarządzanie konfiguracją. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mnuConfigSelect.cpp` jest niezbędny dla zarządzania konfiguracją. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

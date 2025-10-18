@@ -1,46 +1,43 @@
 # macroapi.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Macro API
-Main functional areas: core functionality
+This file implements functionality for clipboard operations and data transfer.
+
 ### Key Classes
-- `FarMacroApi`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `LockOutput`: Performs LockOutput operation in macroapi.cpp
-- `editor_options`: Performs editor_options operation in macroapi.cpp
+- **`FarMacroApi`**: Implements far macro api functionality
+- **`editor_options`**: Implements editor options functionality
+
 ### Key Functions
-- `ToDouble()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `SelectPanel()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `PushBoolean()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `PushPointer()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `PushValue()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `PushNil()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `PushTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `SetTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `PushError()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `SetField()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- **`ToDouble()`**: Executes to double operation
+- **`SelectPanel()`**: Executes select panel operation
+- **`is_active_panel_code()`**: Checks whether active panel code condition is true
+- **`SplitPath()`**: Executes split path operation
+- **`convert_size2str_flags()`**: Executes convert size2str flags operation
+- **`FarMacroApi::mData()`**: Executes m data operation
+
 ### Summary
-The `macroapi.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `macroapi.cpp` file is essential for clipboard operations and data transfer. It defines 2 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Macro API
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji schowka i transferu danych.
+
 ### Kluczowe Klasy
-- `FarMacroApi`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `LockOutput`: Performs LockOutput operation in macroapi.cpp
-- `editor_options`: Performs editor_options operation in macroapi.cpp
+- **`FarMacroApi`**: Implements far macro api functionality
+- **`editor_options`**: Implements editor options functionality
+
 ### Kluczowe Funkcje
-- `ToDouble()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `SelectPanel()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `PushBoolean()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `PushPointer()`: Checks a condition in macroapi.cpp and returns true or false based on the result
-- `PushValue()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `PushNil()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `PushTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `SetTable()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `PushError()`: Iterates through elements in macroapi.cpp and adds them to a collection
-- `SetField()`: Iterates through elements in macroapi.cpp and adds them to a collection
+- **`ToDouble()`**: Executes to double operation
+- **`SelectPanel()`**: Executes select panel operation
+- **`is_active_panel_code()`**: Checks whether active panel code condition is true
+- **`SplitPath()`**: Executes split path operation
+- **`convert_size2str_flags()`**: Executes convert size2str flags operation
+- **`FarMacroApi::mData()`**: Executes m data operation
+
 ### Podsumowanie
-Plik `macroapi.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `macroapi.cpp` jest niezbędny dla operacji schowka i transferu danych. Definiuje 2 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

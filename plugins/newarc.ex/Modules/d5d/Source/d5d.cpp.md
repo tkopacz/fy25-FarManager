@@ -1,36 +1,49 @@
 # d5d.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+{567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `OnInitialize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
-- `OnFinalize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
-- `OnQueryArchive()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
-- `OnOpenArchive()`: Performs OnOpenArchive operation in d5d.cpp
-- `OnCloseArchive()`: Performs OnCloseArchive operation in d5d.cpp
-- `OnGetArchiveModuleInfo()`: Performs OnGetArchiveModuleInfo operation in d5d.cpp
-- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in d5d.cpp
-- `OnFreeArchiveItem()`: Performs OnFreeArchiveItem operation in d5d.cpp
-- `OnExtract()`: Performs OnExtract operation in d5d.cpp
-- `OnStartOperation()`: Performs OnStartOperation operation in d5d.cpp
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnGetArchiveModuleInfo()`**: Event callback triggered when get archive module info occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnFreeArchiveItem()`**: Event callback triggered when free archive item occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnStartOperation()`**: Event callback triggered when start operation occurs
+- **`OnEndOperation()`**: Event callback triggered when end operation occurs
+
 ### Summary
-The `d5d.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `d5d.cpp` file is essential for core functionality. It implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+{567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `OnInitialize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
-- `OnFinalize()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
-- `OnQueryArchive()`: {567FAD13-AF54-45EC-BD70-AD60FA1C2CA4}
-- `OnOpenArchive()`: Performs OnOpenArchive operation in d5d.cpp
-- `OnCloseArchive()`: Performs OnCloseArchive operation in d5d.cpp
-- `OnGetArchiveModuleInfo()`: Performs OnGetArchiveModuleInfo operation in d5d.cpp
-- `OnGetArchiveItem()`: Performs OnGetArchiveItem operation in d5d.cpp
-- `OnFreeArchiveItem()`: Performs OnFreeArchiveItem operation in d5d.cpp
-- `OnExtract()`: Performs OnExtract operation in d5d.cpp
-- `OnStartOperation()`: Performs OnStartOperation operation in d5d.cpp
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnGetArchiveModuleInfo()`**: Event callback triggered when get archive module info occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnFreeArchiveItem()`**: Event callback triggered when free archive item occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnStartOperation()`**: Event callback triggered when start operation occurs
+- **`OnEndOperation()`**: Event callback triggered when end operation occurs
+
 ### Podsumowanie
-Plik `d5d.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `d5d.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,40 +1,41 @@
 # Plugin.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Key Classes
-- `FTPPluginsInfo`: Performs FTPPluginsInfo operation in Plugin.cpp
+- **`FTPPluginsInfo`**: Implements ftpplugins info functionality
+
 ### Key Functions
-- `idProcStart()`: Performs idProcStart operation in Plugin.cpp
-- `idProcEnd()`: Performs idProcEnd operation in Plugin.cpp
-- `idGetOpt()`: Performs idGetOpt operation in Plugin.cpp
-- `idFtpCmdBlock()`: Performs idFtpCmdBlock operation in Plugin.cpp
-- `FtpCmdBlock()`: Performs FtpCmdBlock operation in Plugin.cpp
-- `idFtpGetRetryCount()`: Performs idFtpGetRetryCount operation in Plugin.cpp
-- `FtpGetRetryCount()`: Performs FtpGetRetryCount operation in Plugin.cpp
-- `idGetHostOpt()`: Performs idGetHostOpt operation in Plugin.cpp
-- `CreateFTPInterface()`: Creates and initializes a new object or resource in Plugin.cpp
-- `StdCreator()`: Performs StdCreator operation in Plugin.cpp
+- **`CreateFTPInterface()`**: Constructs and returns a new ftpinterface object
+- **`StdCreator()`**: Executes std creator operation
+- **`InitPlugins()`**: Executes init plugins operation
+- **`FreePlugins()`**: Executes free plugins operation
+- **`GetPluginHolder()`**: Retrieves the current plugin holder value
+- **`PluginAvailable()`**: Executes plugin available operation
+
 ### Summary
-The `Plugin.cpp` file provides essential functionality for plugin interface. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `Plugin.cpp` file is essential for plugin system and extension management. It defines 1 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Klasy
-- `FTPPluginsInfo`: Performs FTPPluginsInfo operation in Plugin.cpp
+- **`FTPPluginsInfo`**: Implements ftpplugins info functionality
+
 ### Kluczowe Funkcje
-- `idProcStart()`: Performs idProcStart operation in Plugin.cpp
-- `idProcEnd()`: Performs idProcEnd operation in Plugin.cpp
-- `idGetOpt()`: Performs idGetOpt operation in Plugin.cpp
-- `idFtpCmdBlock()`: Performs idFtpCmdBlock operation in Plugin.cpp
-- `FtpCmdBlock()`: Performs FtpCmdBlock operation in Plugin.cpp
-- `idFtpGetRetryCount()`: Performs idFtpGetRetryCount operation in Plugin.cpp
-- `FtpGetRetryCount()`: Performs FtpGetRetryCount operation in Plugin.cpp
-- `idGetHostOpt()`: Performs idGetHostOpt operation in Plugin.cpp
-- `CreateFTPInterface()`: Creates and initializes a new object or resource in Plugin.cpp
-- `StdCreator()`: Performs StdCreator operation in Plugin.cpp
+- **`CreateFTPInterface()`**: Constructs and returns a new ftpinterface object
+- **`StdCreator()`**: Executes std creator operation
+- **`InitPlugins()`**: Executes init plugins operation
+- **`FreePlugins()`**: Executes free plugins operation
+- **`GetPluginHolder()`**: Retrieves the current plugin holder value
+- **`PluginAvailable()`**: Executes plugin available operation
+
 ### Podsumowanie
-Plik `Plugin.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Plugin.cpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Definiuje 1 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

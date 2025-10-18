@@ -1,16 +1,19 @@
 # window.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Parent class для немодальных объектов
-Main functional areas: window management
+This file implements functionality for core functionality.
+
 ### Summary
-The `window.cpp` file provides essential functionality for window management. to support the Far Manager file manager operations.
+The `window.cpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Parent class для немодальных объектов
-Główne obszary funkcjonalne: zarządzanie oknami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `window.cpp` zapewnia podstawową funkcjonalność dla zarządzanie oknami. wspierających operacje menedżera plików Far Manager.
+Plik `window.cpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

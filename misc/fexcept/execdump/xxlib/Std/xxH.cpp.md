@@ -1,34 +1,35 @@
 # xxH.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+jmp|call [dword ptr <memory>] op code
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `JMPOpCode`: Performs JMPOpCode operation in xxH.cpp
+- **`JMPOpCode`**: Implements jmpop code functionality
+
 ### Key Functions
-- `PushProcHookInfo()`: Used to temprorary save EAX
-- `PopProcHookInfo()`: Performs PopProcHookInfo operation in xxH.cpp
-- `doBPUnwindJMP()`: Performs doBPUnwindJMP operation in xxH.cpp
-- `doBPUnwind()`: Performs doBPUnwind operation in xxH.cpp
-- `Subst_Function()`: Performs Subst_Function operation in xxH.cpp
-- `MakeAddrWritable()`: Patch first 6 byte to call new handler
-- `InitHook_Proc()`: Checks a condition in xxH.cpp and returns true or false based on the result
+- **`__declspec()`**: Executes declspec operation
+
 ### Summary
-The `xxH.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 7 function(s) to support the Far Manager file manager operations.
+The `xxH.cpp` file is essential for core functionality. It defines 1 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+jmp|call [dword ptr <memory>] op code
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `JMPOpCode`: Performs JMPOpCode operation in xxH.cpp
+- **`JMPOpCode`**: Implements jmpop code functionality
+
 ### Kluczowe Funkcje
-- `PushProcHookInfo()`: Used to temprorary save EAX
-- `PopProcHookInfo()`: Performs PopProcHookInfo operation in xxH.cpp
-- `doBPUnwindJMP()`: Performs doBPUnwindJMP operation in xxH.cpp
-- `doBPUnwind()`: Performs doBPUnwind operation in xxH.cpp
-- `Subst_Function()`: Performs Subst_Function operation in xxH.cpp
-- `MakeAddrWritable()`: Patch first 6 byte to call new handler
-- `InitHook_Proc()`: Checks a condition in xxH.cpp and returns true or false based on the result
+- **`__declspec()`**: Executes declspec operation
+
 ### Podsumowanie
-Plik `xxH.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 7 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `xxH.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

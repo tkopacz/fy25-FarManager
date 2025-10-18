@@ -1,46 +1,41 @@
 # usermenu.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: User menu и есть
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Key Classes
-- `UserMenu`: Performs UserMenu operation in usermenu.cpp
-- `UserMenuItem`: Performs UserMenuItem operation in usermenu.cpp
-- `menu_mode`: Performs menu_mode operation in usermenu.cpp
+- **`menu_mode`**: Defines operational mode settings and behavior configuration
+
 ### Key Functions
-- `UserMenu()`: Performs UserMenu operation in usermenu.cpp
-- `ProcessUserMenu()`: Encoding could fail, so we need to prepare the data before touching the file
-- `DeleteMenuRecord()`: Checks a condition in usermenu.cpp and returns true or false based on the result
-- `EditMenu()`: Checks a condition in usermenu.cpp and returns true or false based on the result
-- `ProcessSingleMenu()`: Processes input data in usermenu.cpp
-- `SaveMenu()`: Validates a condition in usermenu.cpp and throws an exception if the validation fails
-- `EditMenuDlgProc()`: Checks a condition in usermenu.cpp and returns true or false based on the result
-- `PrepareHotKey()`: Коды выхода из меню (Exit codes)
-- `SerializeMenu()`: при наличии "&" продублируем
-- `ParseMenu()`: Performs ParseMenu operation in usermenu.cpp
+- **`PrepareHotKey()`**: Executes prepare hot key operation
+- **`SerializeMenu()`**: Executes serialize menu operation
+- **`ParseMenu()`**: Executes parse menu operation
+- **`DeserializeMenu()`**: Executes deserialize menu operation
+- **`FillUserMenu()`**: Executes fill user menu operation
+- **`user_menu()`**: Executes user menu operation
+
 ### Summary
-The `usermenu.cpp` file provides essential functionality for menu management. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `usermenu.cpp` file is essential for menu system. It defines 1 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: User menu и есть
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Kluczowe Klasy
-- `UserMenu`: Performs UserMenu operation in usermenu.cpp
-- `UserMenuItem`: Performs UserMenuItem operation in usermenu.cpp
-- `menu_mode`: Performs menu_mode operation in usermenu.cpp
+- **`menu_mode`**: Defines operational mode settings and behavior configuration
+
 ### Kluczowe Funkcje
-- `UserMenu()`: Performs UserMenu operation in usermenu.cpp
-- `ProcessUserMenu()`: Encoding could fail, so we need to prepare the data before touching the file
-- `DeleteMenuRecord()`: Checks a condition in usermenu.cpp and returns true or false based on the result
-- `EditMenu()`: Checks a condition in usermenu.cpp and returns true or false based on the result
-- `ProcessSingleMenu()`: Processes input data in usermenu.cpp
-- `SaveMenu()`: Validates a condition in usermenu.cpp and throws an exception if the validation fails
-- `EditMenuDlgProc()`: Checks a condition in usermenu.cpp and returns true or false based on the result
-- `PrepareHotKey()`: Коды выхода из меню (Exit codes)
-- `SerializeMenu()`: при наличии "&" продублируем
-- `ParseMenu()`: Performs ParseMenu operation in usermenu.cpp
+- **`PrepareHotKey()`**: Executes prepare hot key operation
+- **`SerializeMenu()`**: Executes serialize menu operation
+- **`ParseMenu()`**: Executes parse menu operation
+- **`DeserializeMenu()`**: Executes deserialize menu operation
+- **`FillUserMenu()`**: Executes fill user menu operation
+- **`user_menu()`**: Executes user menu operation
+
 ### Podsumowanie
-Plik `usermenu.cpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `usermenu.cpp` jest niezbędny dla systemu menu. Definiuje 1 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

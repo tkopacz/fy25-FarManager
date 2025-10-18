@@ -1,42 +1,41 @@
 # newarc.Panel.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: panel management
+This file implements functionality for panel display and management.
+
 ### Key Classes
-- `ExecuteStruct`: Performs ExecuteStruct operation in newarc.Panel.cpp
-- `ScanStruct`: Performs ScanStruct operation in newarc.Panel.cpp
+- **`ExecuteStruct`**: Implements execute struct functionality
+- **`ScanStruct`**: Implements scan struct functionality
+
 ### Key Functions
-- `QuoteSpaceOnly()`: Performs QuoteSpaceOnly operation in newarc.Panel.cpp
-- `ExecuteCommand()`: Performs ExecuteCommand operation in newarc.Panel.cpp
-- `CheckForEsc()`: Performs CheckForEsc operation in newarc.Panel.cpp
-- `strcpy()`: Performs strcpy operation in newarc.Panel.cpp
-- `GetArchiveItemsToProcessFromNode()`: Retrieves ArchiveItemsToProcessFromNode value in newarc.Panel.cpp
-- `FindDataToArchiveItem()`: ад и кромешный пиздец. отдаем обратно модулю то, что он сам и навыделял. т.е. хоть эти ArchiveItem и новые, данные в них
-- `ScanDirectory()`: Performs ScanDirectory operation in newarc.Panel.cpp
-- `Delete()`: if ( nResult == RESULT_SUCCESS )
-- `GetArchiveItemsToProcess()`: Retrieves ArchiveItemsToProcess value in newarc.Panel.cpp
-- `ES()`: Performs ES operation in newarc.Panel.cpp
+- **`QuoteSpaceOnly()`**: Executes quote space only operation
+- **`ExecuteCommand()`**: Executes execute command operation
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`FindDataToArchiveItem()`**: Executes find data to archive item operation
+- **`ExecuteStruct::items()`**: Executes items operation
+
 ### Summary
-The `newarc.Panel.cpp` file provides essential functionality for panel management. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `newarc.Panel.cpp` file is essential for panel display and management. It defines 2 class(es) and implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie panelami
+Ten plik implementuje funkcjonalność dla wyświetlania i zarządzania panelami.
+
 ### Kluczowe Klasy
-- `ExecuteStruct`: Performs ExecuteStruct operation in newarc.Panel.cpp
-- `ScanStruct`: Performs ScanStruct operation in newarc.Panel.cpp
+- **`ExecuteStruct`**: Implements execute struct functionality
+- **`ScanStruct`**: Implements scan struct functionality
+
 ### Kluczowe Funkcje
-- `QuoteSpaceOnly()`: Performs QuoteSpaceOnly operation in newarc.Panel.cpp
-- `ExecuteCommand()`: Performs ExecuteCommand operation in newarc.Panel.cpp
-- `CheckForEsc()`: Performs CheckForEsc operation in newarc.Panel.cpp
-- `strcpy()`: Performs strcpy operation in newarc.Panel.cpp
-- `GetArchiveItemsToProcessFromNode()`: Retrieves ArchiveItemsToProcessFromNode value in newarc.Panel.cpp
-- `FindDataToArchiveItem()`: ад и кромешный пиздец. отдаем обратно модулю то, что он сам и навыделял. т.е. хоть эти ArchiveItem и новые, данные в них
-- `ScanDirectory()`: Performs ScanDirectory operation in newarc.Panel.cpp
-- `Delete()`: if ( nResult == RESULT_SUCCESS )
-- `GetArchiveItemsToProcess()`: Retrieves ArchiveItemsToProcess value in newarc.Panel.cpp
-- `ES()`: Performs ES operation in newarc.Panel.cpp
+- **`QuoteSpaceOnly()`**: Executes quote space only operation
+- **`ExecuteCommand()`**: Executes execute command operation
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`FindDataToArchiveItem()`**: Executes find data to archive item operation
+- **`ExecuteStruct::items()`**: Executes items operation
+
 ### Podsumowanie
-Plik `newarc.Panel.cpp` zapewnia podstawową funkcjonalność dla zarządzanie panelami. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `newarc.Panel.cpp` jest niezbędny dla wyświetlania i zarządzania panelami. Definiuje 2 klas(y) i implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

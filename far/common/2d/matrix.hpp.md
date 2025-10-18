@@ -1,54 +1,41 @@
 # matrix.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `matrix`: Performs matrix operation in matrix.hpp
-- `matrix_data`: Performs matrix_data operation in matrix.hpp
-- `matrix_iterator`: GCC isn't smart enough to deduce this
-- `matrix_row`: Performs matrix_row operation in matrix.hpp
-- `matrix_view`: Performs matrix_view operation in matrix.hpp
+- **`matrix_iterator`**: Implements matrix iterator functionality
+- **`matrix_view`**: Implements matrix view functionality
+- **`matrix_data`**: Implements matrix data functionality
+
 ### Key Functions
-- `matrix_row()`: Performs matrix_row operation in matrix.hpp
-- `matrix_iterator()`: GCC isn't smart enough to deduce this
-- `begin()`: Performs begin operation in matrix.hpp
-- `iterator()`: GCC isn't smart enough to deduce this
-- `end()`: Performs end operation in matrix.hpp
-- `cbegin()`: Performs cbegin operation in matrix.hpp
-- `cend()`: Performs cend operation in matrix.hpp
-- `rbegin()`: Performs rbegin operation in matrix.hpp
-- `rend()`: Performs rend operation in matrix.hpp
-- `crbegin()`: Performs crbegin operation in matrix.hpp
+- **`matrix()`**: Executes matrix operation
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `matrix.hpp` file provides essential functionality for core functionality. It defines 5 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `matrix.hpp` file is essential for core functionality. It defines 3 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `matrix`: Performs matrix operation in matrix.hpp
-- `matrix_data`: Performs matrix_data operation in matrix.hpp
-- `matrix_iterator`: GCC isn't smart enough to deduce this
-- `matrix_row`: Performs matrix_row operation in matrix.hpp
-- `matrix_view`: Performs matrix_view operation in matrix.hpp
+- **`matrix_iterator`**: Implements matrix iterator functionality
+- **`matrix_view`**: Implements matrix view functionality
+- **`matrix_data`**: Implements matrix data functionality
+
 ### Kluczowe Funkcje
-- `matrix_row()`: Performs matrix_row operation in matrix.hpp
-- `matrix_iterator()`: GCC isn't smart enough to deduce this
-- `begin()`: Performs begin operation in matrix.hpp
-- `iterator()`: GCC isn't smart enough to deduce this
-- `end()`: Performs end operation in matrix.hpp
-- `cbegin()`: Performs cbegin operation in matrix.hpp
-- `cend()`: Performs cend operation in matrix.hpp
-- `rbegin()`: Performs rbegin operation in matrix.hpp
-- `rend()`: Performs rend operation in matrix.hpp
-- `crbegin()`: Performs crbegin operation in matrix.hpp
+- **`matrix()`**: Executes matrix operation
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `matrix.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 5 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `matrix.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

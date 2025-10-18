@@ -1,30 +1,37 @@
 # lng.convertor.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Key Classes
-- `LanguageEntry`: Performs LanguageEntry operation in lng.convertor.cpp
+- **`LanguageEntry`**: Implements language entry functionality
+
 ### Key Functions
-- `FixQuotes()`: BUG: /* comments don't work!
-- `ReadFromBufferEx()`: Checks a condition in lng.convertor.cpp and returns true or false based on the result
-- `ReadLanguage()`: Checks a condition in lng.convertor.cpp and returns true or false based on the result
-- `main()`: Main entry point in lng.convertor.cpp that starts program execution
-- `printf()`: Performs printf operation in lng.convertor.cpp
+- **`FixQuotes()`**: Executes fix quotes operation
+- **`ReadFromBufferEx()`**: Executes read from buffer ex operation
+- **`ReadLanguage()`**: Executes read language operation
+- **`main()`**: Executes main operation
+
 ### Summary
-The `lng.convertor.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `lng.convertor.cpp` file is essential for language file processing and localization. It defines 1 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Kluczowe Klasy
-- `LanguageEntry`: Performs LanguageEntry operation in lng.convertor.cpp
+- **`LanguageEntry`**: Implements language entry functionality
+
 ### Kluczowe Funkcje
-- `FixQuotes()`: BUG: /* comments don't work!
-- `ReadFromBufferEx()`: Checks a condition in lng.convertor.cpp and returns true or false based on the result
-- `ReadLanguage()`: Checks a condition in lng.convertor.cpp and returns true or false based on the result
-- `main()`: Main entry point in lng.convertor.cpp that starts program execution
-- `printf()`: Performs printf operation in lng.convertor.cpp
+- **`FixQuotes()`**: Executes fix quotes operation
+- **`ReadFromBufferEx()`**: Executes read from buffer ex operation
+- **`ReadLanguage()`**: Executes read language operation
+- **`main()`**: Executes main operation
+
 ### Podsumowanie
-Plik `lng.convertor.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `lng.convertor.cpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. Definiuje 1 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,24 +1,33 @@
 # test.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: testing
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArchiveTester`: Performs ArchiveTester operation in test.cpp
+- **`ArchiveTester`**: Implements archive tester functionality
+
 ### Key Functions
-- `do_update_ui()`: Performs do_update_ui operation in test.cpp
-- `ps()`: Performs ps operation in test.cpp
+- **`ArchiveTester()`**: Executes archive tester operation
+- **`ArchiveTester::do_update_ui()`**: Executes do update ui operation
+
 ### Summary
-The `test.cpp` file provides essential functionality for testing. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `test.cpp` file is essential for core functionality. It defines 1 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: testowanie
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArchiveTester`: Performs ArchiveTester operation in test.cpp
+- **`ArchiveTester`**: Implements archive tester functionality
+
 ### Kluczowe Funkcje
-- `do_update_ui()`: Performs do_update_ui operation in test.cpp
-- `ps()`: Performs ps operation in test.cpp
+- **`ArchiveTester()`**: Executes archive tester operation
+- **`ArchiveTester::do_update_ui()`**: Executes do update ui operation
+
 ### Podsumowanie
-Plik `test.cpp` zapewnia podstawową funkcjonalność dla testowanie. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `test.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,38 +1,37 @@
 # scrsaver.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: ScreenSaver
-Main functional areas: screen operations
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `star`: Performs star operation in scrsaver.cpp
-- `starfield`: Performs starfield operation in scrsaver.cpp
-- `steer_axis`: Performs steer_axis operation in scrsaver.cpp
-- `steer_direction`: Performs steer_direction operation in scrsaver.cpp
+- **`starfield`**: Implements starfield functionality
+- **`star`**: Implements star functionality
+- **`steer_axis`**: Implements steer axis functionality
+- **`steer_direction`**: Enumeration defining possible values for steer direction
+
 ### Key Functions
-- `create_star()`: Creates and initializes a new object or resource in scrsaver.cpp
-- `update()`: Updates existing data or state in scrsaver.cpp
-- `factor()`: Performs factor operation in scrsaver.cpp
-- `rotate()`: Performs rotate operation in scrsaver.cpp
-- `ScreenSaver()`: std::random_device doesn't work in w2k
+- **`ScreenSaver()`**: Executes screen saver operation
+
 ### Summary
-The `scrsaver.cpp` file provides essential functionality for screen operations. It defines 4 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `scrsaver.cpp` file is essential for core functionality. It defines 4 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: ScreenSaver
-Główne obszary funkcjonalne: operacje ekranowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `star`: Performs star operation in scrsaver.cpp
-- `starfield`: Performs starfield operation in scrsaver.cpp
-- `steer_axis`: Performs steer_axis operation in scrsaver.cpp
-- `steer_direction`: Performs steer_direction operation in scrsaver.cpp
+- **`starfield`**: Implements starfield functionality
+- **`star`**: Implements star functionality
+- **`steer_axis`**: Implements steer axis functionality
+- **`steer_direction`**: Enumeration defining possible values for steer direction
+
 ### Kluczowe Funkcje
-- `create_star()`: Creates and initializes a new object or resource in scrsaver.cpp
-- `update()`: Updates existing data or state in scrsaver.cpp
-- `factor()`: Performs factor operation in scrsaver.cpp
-- `rotate()`: Performs rotate operation in scrsaver.cpp
-- `ScreenSaver()`: std::random_device doesn't work in w2k
+- **`ScreenSaver()`**: Executes screen saver operation
+
 ### Podsumowanie
-Plik `scrsaver.cpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. Definiuje 4 klas(y) i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `scrsaver.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

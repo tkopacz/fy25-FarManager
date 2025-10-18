@@ -1,20 +1,25 @@
 # setcolor.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Установка фаровских цветов
-Main functional areas: color management
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `SetColors()`: Sets or updates Colors value in setcolor.hpp
+- **`SetColors()`**: Updates the colors with a new value
+
 ### Summary
-The `setcolor.hpp` file provides essential functionality for color management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `setcolor.hpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Установка фаровских цветов
-Główne obszary funkcjonalne: zarządzanie kolorami
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `SetColors()`: Sets or updates Colors value in setcolor.hpp
+- **`SetColors()`**: Updates the colors with a new value
+
 ### Podsumowanie
-Plik `setcolor.hpp` zapewnia podstawową funkcjonalność dla zarządzanie kolorami. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `setcolor.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

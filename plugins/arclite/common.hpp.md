@@ -1,58 +1,75 @@
 # common.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Attr`: Performs Attr operation in common.hpp
-- `ExtractOptions`: Performs ExtractOptions operation in common.hpp
-- `OpenOptions`: Performs OpenOptions operation in common.hpp
-- `ProfileOptions`: Performs ProfileOptions operation in common.hpp
-- `ProgressMonitor`: Performs ProgressMonitor operation in common.hpp
-- `ProgressSuspend`: Performs ProgressSuspend operation in common.hpp
-- `SfxInstallConfig`: Performs SfxInstallConfig operation in common.hpp
-- `SfxOptions`: Performs SfxOptions operation in common.hpp
-- `SfxVersionInfo`: Performs SfxVersionInfo operation in common.hpp
-- `UpdateOptions`: Updates existing data or state in common.hpp
+- **`ProgressMonitor`**: Abstract base class defining interface for progress monitor operations
+- **`ProgressSuspend`**: Implements progress suspend functionality
+- **`OpenOptions`**: Implements open options functionality
+- **`ExtractOptions`**: Implements extract options functionality
+- **`SfxVersionInfo`**: Implements sfx version info functionality
+- **`SfxInstallConfig`**: Stores and manages configuration parameters and settings
+- **`SfxOptions`**: Implements sfx options functionality
+- **`ProfileOptions`**: Implements profile options functionality
+- **`UpdateOptions`**: Implements update options functionality
+- **`UpdateProfile`**: Implements update profile functionality
+- **`Attr`**: Implements attr functionality
+
 ### Key Functions
-- `update_time()`: Updates existing data or state in common.hpp
-- `discard_time()`: Performs discard_time operation in common.hpp
-- `display()`: Performs display operation in common.hpp
-- `is_single_key()`: Checks a condition in common.hpp and returns the result
-- `handle_esc()`: Performs handle_esc operation in common.hpp
-- `update_ui()`: Updates existing data or state in common.hpp
-- `clean()`: Performs clean operation in common.hpp
-- `time_elapsed()`: Performs time_elapsed operation in common.hpp
-- `ticks_per_sec()`: Performs ticks_per_sec operation in common.hpp
-- `retry_or_ignore_error()`: Performs retry_or_ignore_error operation in common.hpp
+- **`retry_or_ignore_error()`**: Executes retry or ignore error operation
+- **`calc_percent()`**: Executes calc percent operation
+- **`get_module_version()`**: Retrieves the current module version value
+- **`parse_size_string()`**: Executes parse size string operation
+- **`translate_seek_method()`**: Executes translate seek method operation
+- **`expand_macros()`**: Executes expand macros operation
+- **`load_file()`**: Executes load file operation
+- **`auto_rename()`**: Executes auto rename operation
+- **`ProgressMonitor::update_ui()`**: Executes update ui operation
+- **`ProgressMonitor::clean()`**: Executes clean operation
+- **`ProgressMonitor::time_elapsed()`**: Executes time elapsed operation
+- **`ProgressMonitor::ticks_per_sec()`**: Executes ticks per sec operation
+- **`ProgressSuspend::progress()`**: Executes progress operation
+
 ### Summary
-The `common.hpp` file provides essential functionality for core functionality. It defines 12 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `common.hpp` file is essential for core functionality. It defines 11 class(es) and implements 13 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Attr`: Performs Attr operation in common.hpp
-- `ExtractOptions`: Performs ExtractOptions operation in common.hpp
-- `OpenOptions`: Performs OpenOptions operation in common.hpp
-- `ProfileOptions`: Performs ProfileOptions operation in common.hpp
-- `ProgressMonitor`: Performs ProgressMonitor operation in common.hpp
-- `ProgressSuspend`: Performs ProgressSuspend operation in common.hpp
-- `SfxInstallConfig`: Performs SfxInstallConfig operation in common.hpp
-- `SfxOptions`: Performs SfxOptions operation in common.hpp
-- `SfxVersionInfo`: Performs SfxVersionInfo operation in common.hpp
-- `UpdateOptions`: Updates existing data or state in common.hpp
+- **`ProgressMonitor`**: Abstract base class defining interface for progress monitor operations
+- **`ProgressSuspend`**: Implements progress suspend functionality
+- **`OpenOptions`**: Implements open options functionality
+- **`ExtractOptions`**: Implements extract options functionality
+- **`SfxVersionInfo`**: Implements sfx version info functionality
+- **`SfxInstallConfig`**: Stores and manages configuration parameters and settings
+- **`SfxOptions`**: Implements sfx options functionality
+- **`ProfileOptions`**: Implements profile options functionality
+- **`UpdateOptions`**: Implements update options functionality
+- **`UpdateProfile`**: Implements update profile functionality
+- **`Attr`**: Implements attr functionality
+
 ### Kluczowe Funkcje
-- `update_time()`: Updates existing data or state in common.hpp
-- `discard_time()`: Performs discard_time operation in common.hpp
-- `display()`: Performs display operation in common.hpp
-- `is_single_key()`: Checks a condition in common.hpp and returns the result
-- `handle_esc()`: Performs handle_esc operation in common.hpp
-- `update_ui()`: Updates existing data or state in common.hpp
-- `clean()`: Performs clean operation in common.hpp
-- `time_elapsed()`: Performs time_elapsed operation in common.hpp
-- `ticks_per_sec()`: Performs ticks_per_sec operation in common.hpp
-- `retry_or_ignore_error()`: Performs retry_or_ignore_error operation in common.hpp
+- **`retry_or_ignore_error()`**: Executes retry or ignore error operation
+- **`calc_percent()`**: Executes calc percent operation
+- **`get_module_version()`**: Retrieves the current module version value
+- **`parse_size_string()`**: Executes parse size string operation
+- **`translate_seek_method()`**: Executes translate seek method operation
+- **`expand_macros()`**: Executes expand macros operation
+- **`load_file()`**: Executes load file operation
+- **`auto_rename()`**: Executes auto rename operation
+- **`ProgressMonitor::update_ui()`**: Executes update ui operation
+- **`ProgressMonitor::clean()`**: Executes clean operation
+- **`ProgressMonitor::time_elapsed()`**: Executes time elapsed operation
+- **`ProgressMonitor::ticks_per_sec()`**: Executes ticks per sec operation
+- **`ProgressSuspend::progress()`**: Executes progress operation
+
 ### Podsumowanie
-Plik `common.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 12 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `common.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 11 klas(y) i implementuje 13 funkcji wspierających operacje menedżera plików Far Manager.

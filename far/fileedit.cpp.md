@@ -1,42 +1,43 @@
 # fileedit.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Редактирование файла - надстройка над editor.cpp
-Main functional areas: text editing, file system operations
-### Key Classes
-- `FileEditor`: Performs FileEditor operation in fileedit.cpp
+This file implements functionality for file operations.
+
 ### Key Functions
-- `expired()`: Performs expired operation in fileedit.cpp
-- `hndOpenEditor()`: Performs hndOpenEditor operation in fileedit.cpp
-- `dlgOpenEditor()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `dlgBadEditorCodepage()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `Builder()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `hndSaveFileAs()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `dlgSaveFileAs()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `get_read_only_attributes()`: Retrieves _read_only_attributes value in fileedit.cpp
-- `FileStatus()`: Performs FileStatus operation in fileedit.cpp
-- `SetExitCode()`: $ 17.08.2001 KM - Добавлено для поиска по AltF7. При редактировании найденного файла из архива для клавиши F2 сделать вызов ShiftF2.
+- **`hndOpenEditor()`**: Executes hnd open editor operation
+- **`dlgOpenEditor()`**: Executes dlg open editor operation
+- **`dlgBadEditorCodepage()`**: Executes dlg bad editor codepage operation
+- **`hndSaveFileAs()`**: Executes hnd save file as operation
+- **`dlgSaveFileAs()`**: Executes dlg save file as operation
+- **`get_read_only_attributes()`**: Retrieves the current read only attributes value
+- **`confirm_save()`**: Executes confirm save operation
+- **`parent_directory()`**: Executes parent directory operation
+- **`char_code()`**: Executes char code operation
+- **`ansi_char_code()`**: Executes ansi char code operation
+
 ### Summary
-The `fileedit.cpp` file provides essential functionality for text editing, file system operations. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `fileedit.cpp` file is essential for file operations. It implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Редактирование файла - надстройка над editor.cpp
-Główne obszary funkcjonalne: edycja tekstu, operacje systemu plików
-### Kluczowe Klasy
-- `FileEditor`: Performs FileEditor operation in fileedit.cpp
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `expired()`: Performs expired operation in fileedit.cpp
-- `hndOpenEditor()`: Performs hndOpenEditor operation in fileedit.cpp
-- `dlgOpenEditor()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `dlgBadEditorCodepage()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `Builder()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `hndSaveFileAs()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `dlgSaveFileAs()`: Checks a condition in fileedit.cpp and returns true or false based on the result
-- `get_read_only_attributes()`: Retrieves _read_only_attributes value in fileedit.cpp
-- `FileStatus()`: Performs FileStatus operation in fileedit.cpp
-- `SetExitCode()`: $ 17.08.2001 KM - Добавлено для поиска по AltF7. При редактировании найденного файла из архива для клавиши F2 сделать вызов ShiftF2.
+- **`hndOpenEditor()`**: Executes hnd open editor operation
+- **`dlgOpenEditor()`**: Executes dlg open editor operation
+- **`dlgBadEditorCodepage()`**: Executes dlg bad editor codepage operation
+- **`hndSaveFileAs()`**: Executes hnd save file as operation
+- **`dlgSaveFileAs()`**: Executes dlg save file as operation
+- **`get_read_only_attributes()`**: Retrieves the current read only attributes value
+- **`confirm_save()`**: Executes confirm save operation
+- **`parent_directory()`**: Executes parent directory operation
+- **`char_code()`**: Executes char code operation
+- **`ansi_char_code()`**: Executes ansi char code operation
+
 ### Podsumowanie
-Plik `fileedit.cpp` zapewnia podstawową funkcjonalność dla edycja tekstu, operacje systemu plików. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileedit.cpp` jest niezbędny dla operacji na plikach. Implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

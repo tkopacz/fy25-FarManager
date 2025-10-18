@@ -1,40 +1,61 @@
 # module.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `AddStruct`: Performs AddStruct operation in module.hpp
-- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation in module.hpp
-- `ArchiveItemInfo`: Performs ArchiveItemInfo operation in module.hpp
-- `ArchivePassword`: Performs ArchivePassword operation in module.hpp
-- `ArchivePluginInfo`: Performs ArchivePluginInfo operation in module.hpp
-- `CloseArchiveStruct`: Performs CloseArchiveStruct operation in module.hpp
-- `ConfigureFormatStruct`: Performs ConfigureFormatStruct operation in module.hpp
-- `CreateArchiveStruct`: Creates and initializes a new object or resource in module.hpp
-- `DeleteStruct`: Deletes or removes an item or resource in module.hpp
-- `ExtractStruct`: Performs ExtractStruct operation in module.hpp
+- **`OperationStructPlugin`**: Implements operation struct plugin functionality
+- **`ArchivePassword`**: Implements archive password functionality
+- **`ProcessFileStruct`**: Implements process file struct functionality
+- **`ArchiveItemInfo`**: Implements archive item info functionality
+- **`ArchiveFormatInfo`**: Implements archive format info functionality
+- **`ArchivePluginInfo`**: Implements archive plugin info functionality
+- **`ArchivePluginInfo`**: Implements archive plugin info functionality
+- **`QueryArchiveStruct`**: Implements query archive struct functionality
+- **`QueryArchiveFormatStruct`**: Implements query archive format struct functionality
+- **`GetDefaultCommandStruct`**: Implements get default command struct functionality
+- **`GetArchiveFormatStruct`**: Implements get archive format struct functionality
+- **`ExtractStruct`**: Implements extract struct functionality
+- **`OpenArchiveStruct`**: Implements open archive struct functionality
+- **`CloseArchiveStruct`**: Implements close archive struct functionality
+- **`GetArchiveItemStruct`**: Implements get archive item struct functionality
+
 ### Key Functions
-- `PluginEntry()`: Performs PluginEntry operation in module.hpp
+- **`LONG_PTR()`**: Executes long ptr operation
+- **`void()`**: Executes void operation
+
 ### Summary
-The `module.hpp` file provides essential functionality for core functionality. It defines 22 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `module.hpp` file is essential for core functionality. It defines 23 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `AddStruct`: Performs AddStruct operation in module.hpp
-- `ArchiveFormatInfo`: Performs ArchiveFormatInfo operation in module.hpp
-- `ArchiveItemInfo`: Performs ArchiveItemInfo operation in module.hpp
-- `ArchivePassword`: Performs ArchivePassword operation in module.hpp
-- `ArchivePluginInfo`: Performs ArchivePluginInfo operation in module.hpp
-- `CloseArchiveStruct`: Performs CloseArchiveStruct operation in module.hpp
-- `ConfigureFormatStruct`: Performs ConfigureFormatStruct operation in module.hpp
-- `CreateArchiveStruct`: Creates and initializes a new object or resource in module.hpp
-- `DeleteStruct`: Deletes or removes an item or resource in module.hpp
-- `ExtractStruct`: Performs ExtractStruct operation in module.hpp
+- **`OperationStructPlugin`**: Implements operation struct plugin functionality
+- **`ArchivePassword`**: Implements archive password functionality
+- **`ProcessFileStruct`**: Implements process file struct functionality
+- **`ArchiveItemInfo`**: Implements archive item info functionality
+- **`ArchiveFormatInfo`**: Implements archive format info functionality
+- **`ArchivePluginInfo`**: Implements archive plugin info functionality
+- **`ArchivePluginInfo`**: Implements archive plugin info functionality
+- **`QueryArchiveStruct`**: Implements query archive struct functionality
+- **`QueryArchiveFormatStruct`**: Implements query archive format struct functionality
+- **`GetDefaultCommandStruct`**: Implements get default command struct functionality
+- **`GetArchiveFormatStruct`**: Implements get archive format struct functionality
+- **`ExtractStruct`**: Implements extract struct functionality
+- **`OpenArchiveStruct`**: Implements open archive struct functionality
+- **`CloseArchiveStruct`**: Implements close archive struct functionality
+- **`GetArchiveItemStruct`**: Implements get archive item struct functionality
+
 ### Kluczowe Funkcje
-- `PluginEntry()`: Performs PluginEntry operation in module.hpp
+- **`LONG_PTR()`**: Executes long ptr operation
+- **`void()`**: Executes void operation
+
 ### Podsumowanie
-Plik `module.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 22 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `module.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 23 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

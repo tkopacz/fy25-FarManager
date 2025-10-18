@@ -1,36 +1,61 @@
 # ArcMix.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `FileExists()`: Performs FileExists operation in ArcMix.cpp
-- `GoToFile()`: Performs GoToFile operation in ArcMix.cpp
-- `__isspace()`: Performs __isspace operation in ArcMix.cpp
-- `StartThreadForKillListFile()`: Performs StartThreadForKillListFile operation in ArcMix.cpp
-- `ThreadWhatWaitingForKillListFile()`: Performs ThreadWhatWaitingForKillListFile operation in ArcMix.cpp
-- `Execute()`: Performs Execute operation in ArcMix.cpp
-- `QuoteText()`: нехай за процессом тред следит, и файл бъет тапком
-- `ConvertNameToShort()`: Performs ConvertNameToShort operation in ArcMix.cpp
-- `lstrcpy()`: Performs lstrcpy operation in ArcMix.cpp
-- `InitDialogItems()`: Initializes data structures and prepares for operation in ArcMix.cpp
+- **`FileExists()`**: Executes file exists operation
+- **`GoToFile()`**: Executes go to file operation
+- **`__isspace()`**: Executes isspace operation
+- **`StartThreadForKillListFile()`**: Executes start thread for kill list file operation
+- **`Execute()`**: Executes execute operation
+- **`QuoteText()`**: Executes quote text operation
+- **`ConvertNameToShort()`**: Executes convert name to short operation
+- **`InitDialogItems()`**: Executes init dialog items operation
+- **`InsertCommas()`**: Executes insert commas operation
+- **`ToPercent()`**: Executes to percent operation
+- **`IsCaseMixed()`**: Checks whether case mixed condition is true
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`LocalStrnicmp()`**: Executes local strnicmp operation
+- **`FindExecuteFile()`**: Executes find execute file operation
+- **`AddExt()`**: Executes add ext operation
+- **`WritePrivateProfileInt()`**: Executes write private profile int operation
+- **`GetScrX()`**: Retrieves the current scr x value
+- **`PathMayBeAbsolute()`**: Executes path may be absolute operation
+- **`NormalizePath()`**: Executes normalize path operation
+
 ### Summary
-The `ArcMix.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `ArcMix.cpp` file is essential for core functionality. It implements 19 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `FileExists()`: Performs FileExists operation in ArcMix.cpp
-- `GoToFile()`: Performs GoToFile operation in ArcMix.cpp
-- `__isspace()`: Performs __isspace operation in ArcMix.cpp
-- `StartThreadForKillListFile()`: Performs StartThreadForKillListFile operation in ArcMix.cpp
-- `ThreadWhatWaitingForKillListFile()`: Performs ThreadWhatWaitingForKillListFile operation in ArcMix.cpp
-- `Execute()`: Performs Execute operation in ArcMix.cpp
-- `QuoteText()`: нехай за процессом тред следит, и файл бъет тапком
-- `ConvertNameToShort()`: Performs ConvertNameToShort operation in ArcMix.cpp
-- `lstrcpy()`: Performs lstrcpy operation in ArcMix.cpp
-- `InitDialogItems()`: Initializes data structures and prepares for operation in ArcMix.cpp
+- **`FileExists()`**: Executes file exists operation
+- **`GoToFile()`**: Executes go to file operation
+- **`__isspace()`**: Executes isspace operation
+- **`StartThreadForKillListFile()`**: Executes start thread for kill list file operation
+- **`Execute()`**: Executes execute operation
+- **`QuoteText()`**: Executes quote text operation
+- **`ConvertNameToShort()`**: Executes convert name to short operation
+- **`InitDialogItems()`**: Executes init dialog items operation
+- **`InsertCommas()`**: Executes insert commas operation
+- **`ToPercent()`**: Executes to percent operation
+- **`IsCaseMixed()`**: Checks whether case mixed condition is true
+- **`CheckForEsc()`**: Executes check for esc operation
+- **`LocalStrnicmp()`**: Executes local strnicmp operation
+- **`FindExecuteFile()`**: Executes find execute file operation
+- **`AddExt()`**: Executes add ext operation
+- **`WritePrivateProfileInt()`**: Executes write private profile int operation
+- **`GetScrX()`**: Retrieves the current scr x value
+- **`PathMayBeAbsolute()`**: Executes path may be absolute operation
+- **`NormalizePath()`**: Executes normalize path operation
+
 ### Podsumowanie
-Plik `ArcMix.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `ArcMix.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 19 funkcji wspierających operacje menedżera plików Far Manager.

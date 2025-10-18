@@ -1,28 +1,35 @@
 # palette.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Таблица цветов
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ColorsInit`: Performs ColorsInit operation in palette.cpp
+- **`ColorsInit`**: Implements colors init functionality
+
 ### Key Functions
-- `index_color()`: COL_WARNDIALOGSELECTEDDEFAULTBUTTON,
-- `reset()`: COL_WARNDIALOGHIGHLIGHTDEFAULTBUTTON,
-- `CustomLabel()`: Performs CustomLabel operation in palette.cpp
+- **`index_color()`**: Executes index color operation
+- **`reset()`**: Restores the object to its default initialized state
+- **`CustomLabel()`**: Executes custom label operation
+
 ### Summary
-The `palette.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `palette.cpp` file is essential for core functionality. It defines 1 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Таблица цветов
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ColorsInit`: Performs ColorsInit operation in palette.cpp
+- **`ColorsInit`**: Implements colors init functionality
+
 ### Kluczowe Funkcje
-- `index_color()`: COL_WARNDIALOGSELECTEDDEFAULTBUTTON,
-- `reset()`: COL_WARNDIALOGHIGHLIGHTDEFAULTBUTTON,
-- `CustomLabel()`: Performs CustomLabel operation in palette.cpp
+- **`index_color()`**: Executes index color operation
+- **`reset()`**: Restores the object to its default initialized state
+- **`CustomLabel()`**: Executes custom label operation
+
 ### Podsumowanie
-Plik `palette.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `palette.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

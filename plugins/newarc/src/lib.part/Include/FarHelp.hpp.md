@@ -1,22 +1,25 @@
 # FarHelp.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for help system and documentation display.
+
 ### Key Classes
-- `FarVersion`: Performs FarVersion operation in FarHelp.hpp
-### Key Functions
-- `FarGetState()`: Performs FarGetState operation in FarHelp.hpp
+- **`FarVersion`**: Implements far version functionality
+
 ### Summary
-The `FarHelp.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `FarHelp.hpp` file is essential for help system and documentation display. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla systemu pomocy i wyświetlania dokumentacji.
+
 ### Kluczowe Klasy
-- `FarVersion`: Performs FarVersion operation in FarHelp.hpp
-### Kluczowe Funkcje
-- `FarGetState()`: Performs FarGetState operation in FarHelp.hpp
+- **`FarVersion`**: Implements far version functionality
+
 ### Podsumowanie
-Plik `FarHelp.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarHelp.hpp` jest niezbędny dla systemu pomocy i wyświetlania dokumentacji. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

@@ -1,46 +1,53 @@
 # locale.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `init`: Initializes data structures and prepares for operation in locale.cpp
+- **`init`**: Implements init functionality
+
 ### Key Functions
-- `is_cjk_codepage()`: Checks a condition in locale.cpp and returns the result
-- `any_of()`: Performs any_of operation in locale.cpp
-- `get_is_cjk()`: Retrieves _is_cjk value in locale.cpp
-- `get_date_format()`: Retrieves _date_format value in locale.cpp
-- `get_digits_grouping()`: Retrieves _digits_grouping value in locale.cpp
-- `get_date_separator()`: Retrieves _date_separator value in locale.cpp
-- `get_time_separator()`: Retrieves _time_separator value in locale.cpp
-- `get_decimal_separator()`: Retrieves _decimal_separator value in locale.cpp
-- `get_thousand_separator()`: Retrieves _thousand_separator value in locale.cpp
-- `get_month_day_names()`: Retrieves _month_day_names value in locale.cpp
+- **`is_cjk_codepage()`**: Checks whether cjk codepage condition is true
+- **`get_is_cjk()`**: Retrieves the current is cjk value
+- **`get_date_format()`**: Retrieves the current date format value
+- **`get_digits_grouping()`**: Retrieves the current digits grouping value
+- **`get_date_separator()`**: Retrieves the current date separator value
+- **`get_time_separator()`**: Retrieves the current time separator value
+- **`get_decimal_separator()`**: Retrieves the current decimal separator value
+- **`get_thousand_separator()`**: Retrieves the current thousand separator value
+- **`get_month_day_names()`**: Retrieves the current month day names value
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `locale.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `locale.cpp` file is essential for core functionality. It defines 1 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `init`: Initializes data structures and prepares for operation in locale.cpp
+- **`init`**: Implements init functionality
+
 ### Kluczowe Funkcje
-- `is_cjk_codepage()`: Checks a condition in locale.cpp and returns the result
-- `any_of()`: Performs any_of operation in locale.cpp
-- `get_is_cjk()`: Retrieves _is_cjk value in locale.cpp
-- `get_date_format()`: Retrieves _date_format value in locale.cpp
-- `get_digits_grouping()`: Retrieves _digits_grouping value in locale.cpp
-- `get_date_separator()`: Retrieves _date_separator value in locale.cpp
-- `get_time_separator()`: Retrieves _time_separator value in locale.cpp
-- `get_decimal_separator()`: Retrieves _decimal_separator value in locale.cpp
-- `get_thousand_separator()`: Retrieves _thousand_separator value in locale.cpp
-- `get_month_day_names()`: Retrieves _month_day_names value in locale.cpp
+- **`is_cjk_codepage()`**: Checks whether cjk codepage condition is true
+- **`get_is_cjk()`**: Retrieves the current is cjk value
+- **`get_date_format()`**: Retrieves the current date format value
+- **`get_digits_grouping()`**: Retrieves the current digits grouping value
+- **`get_date_separator()`**: Retrieves the current date separator value
+- **`get_time_separator()`**: Retrieves the current time separator value
+- **`get_decimal_separator()`**: Retrieves the current decimal separator value
+- **`get_thousand_separator()`**: Retrieves the current thousand separator value
+- **`get_month_day_names()`**: Retrieves the current month day names value
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `locale.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `locale.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

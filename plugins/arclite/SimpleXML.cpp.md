@@ -1,46 +1,45 @@
 # SimpleXML.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ParseException`: Performs ParseException operation in SimpleXML.cpp
-- `View`: Performs View operation in SimpleXML.cpp
+- **`ParseException`**: Error information container for parse exception failures
+- **`View`**: Implements view functionality
+
 ### Key Functions
-- `save_start()`: Performs save_start operation in SimpleXML.cpp
-- `save_end()`: Performs save_end operation in SimpleXML.cpp
-- `get_saved()`: Retrieves _saved value in SimpleXML.cpp
-- `move()`: Performs move operation in SimpleXML.cpp
-- `space()`: Performs space operation in SimpleXML.cpp
-- `Name()`: Performs Name operation in SimpleXML.cpp
-- `name()`: Performs name operation in SimpleXML.cpp
-- `skip_spaces()`: Performs skip_spaces operation in SimpleXML.cpp
-- `check_end()`: Performs check_end operation in SimpleXML.cpp
-- `ParseException()`: Performs ParseException operation in SimpleXML.cpp
+- **`View()`**: Executes view operation
+- **`parse()`**: Executes parse operation
+- **`ParseException::ret()`**: Executes ret operation
+- **`View::str_view()`**: Executes str view operation
+
 ### Namespaces
 - `SimpleXML`
+
 ### Summary
-The `SimpleXML.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `SimpleXML.cpp` file is essential for core functionality. It defines 2 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ParseException`: Performs ParseException operation in SimpleXML.cpp
-- `View`: Performs View operation in SimpleXML.cpp
+- **`ParseException`**: Error information container for parse exception failures
+- **`View`**: Implements view functionality
+
 ### Kluczowe Funkcje
-- `save_start()`: Performs save_start operation in SimpleXML.cpp
-- `save_end()`: Performs save_end operation in SimpleXML.cpp
-- `get_saved()`: Retrieves _saved value in SimpleXML.cpp
-- `move()`: Performs move operation in SimpleXML.cpp
-- `space()`: Performs space operation in SimpleXML.cpp
-- `Name()`: Performs Name operation in SimpleXML.cpp
-- `name()`: Performs name operation in SimpleXML.cpp
-- `skip_spaces()`: Performs skip_spaces operation in SimpleXML.cpp
-- `check_end()`: Performs check_end operation in SimpleXML.cpp
-- `ParseException()`: Performs ParseException operation in SimpleXML.cpp
+- **`View()`**: Executes view operation
+- **`parse()`**: Executes parse operation
+- **`ParseException::ret()`**: Executes ret operation
+- **`View::str_view()`**: Executes str view operation
+
 ### Przestrzenie nazw
 - `SimpleXML`
+
 ### Podsumowanie
-Plik `SimpleXML.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `SimpleXML.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

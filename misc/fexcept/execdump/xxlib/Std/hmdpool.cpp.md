@@ -1,42 +1,29 @@
 # hmdpool.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+Used as b-tree ID in IO operations
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DataArray`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `HMemDataPool1`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-### Key Functions
-- `Free()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `Detach()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `SetData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `Clear()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `LocateData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `CreateData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `DeleteData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `GetData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `GetDataSize()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `SaveItem()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
+- **`HMemDataPool1`**: Implements hmem data pool1 functionality
+
 ### Summary
-The `hmdpool.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `hmdpool.cpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Used as b-tree ID in IO operations
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DataArray`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `HMemDataPool1`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-### Kluczowe Funkcje
-- `Free()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `Detach()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `SetData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `Clear()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `LocateData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `CreateData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `DeleteData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `GetData()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `GetDataSize()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
-- `SaveItem()`: Checks a condition in hmdpool.cpp and returns true or false based on the result
+- **`HMemDataPool1`**: Implements hmem data pool1 functionality
+
 ### Podsumowanie
-Plik `hmdpool.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hmdpool.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

@@ -1,26 +1,31 @@
 # format.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Форматирование строк
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `thousands_separator`: Performs thousands_separator operation in format.cpp
+- **`thousands_separator`**: Implements thousands separator functionality
+
 ### Key Functions
-- `wchar_t()`: Iterates through elements in format.cpp and adds them to a collection
-- `char()`: Iterates through elements in format.cpp and adds them to a collection
+- **`thousands_separator::wchar_t()`**: Executes wchar t operation
+
 ### Summary
-The `format.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `format.cpp` file is essential for core functionality. It defines 1 class(es) and implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Форматирование строк
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `thousands_separator`: Performs thousands_separator operation in format.cpp
+- **`thousands_separator`**: Implements thousands separator functionality
+
 ### Kluczowe Funkcje
-- `wchar_t()`: Iterates through elements in format.cpp and adds them to a collection
-- `char()`: Iterates through elements in format.cpp and adds them to a collection
+- **`thousands_separator::wchar_t()`**: Executes wchar t operation
+
 ### Podsumowanie
-Plik `format.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `format.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

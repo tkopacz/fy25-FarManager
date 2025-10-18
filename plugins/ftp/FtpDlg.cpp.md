@@ -1,24 +1,25 @@
 # FtpDlg.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: dialog handling
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `AskSaveList()`: Checks a condition in FtpDlg.cpp and returns true or false based on the result
-- `SET_FLAG()`: Performs SET_FLAG operation in FtpDlg.cpp
-- `QueryExHostOptions()`: Checks a condition in FtpDlg.cpp and returns true or false based on the result
-- `GetLoginData()`: Checks a condition in FtpDlg.cpp and returns true or false based on the result
+- **`QueryExHostOptions()`**: Executes query ex host options operation
+
 ### Summary
-The `FtpDlg.cpp` file provides essential functionality for dialog handling. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `FtpDlg.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `AskSaveList()`: Checks a condition in FtpDlg.cpp and returns true or false based on the result
-- `SET_FLAG()`: Performs SET_FLAG operation in FtpDlg.cpp
-- `QueryExHostOptions()`: Checks a condition in FtpDlg.cpp and returns true or false based on the result
-- `GetLoginData()`: Checks a condition in FtpDlg.cpp and returns true or false based on the result
+- **`QueryExHostOptions()`**: Executes query ex host options operation
+
 ### Podsumowanie
-Plik `FtpDlg.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FtpDlg.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

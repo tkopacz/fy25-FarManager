@@ -1,44 +1,47 @@
 # fileowner.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Кэш SID`ов и функция GetOwner
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `sid`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `sid_hash_eq`: Performs sid_hash_eq operation in fileowner.cpp
+- **`sid`**: Implements sid functionality
+- **`sid_hash_eq`**: Implements sid hash eq functionality
+
 ### Key Functions
-- `SidToName()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `sid()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `bool()`: Performs bool operation in fileowner.cpp
-- `get()`: Retrieves  value in fileowner.cpp
-- `reset()`: Performs reset operation in fileowner.cpp
-- `size()`: Performs size operation in fileowner.cpp
-- `get_hash()`: Retrieves _hash value in fileowner.cpp
-- `SidToNameCached()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `Callable()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `IsOwned()`: Checks a condition in fileowner.cpp and returns true or false based on the result
+- **`SidToName()`**: Executes sid to name operation
+- **`SidToNameCached()`**: Executes sid to name cached operation
+- **`ProcessFileOwner()`**: Executes process file owner operation
+- **`IsOwned()`**: Checks whether owned condition is true
+- **`GetFileOwner()`**: Retrieves the current file owner value
+- **`get_sid()`**: Retrieves the current sid value
+- **`SetOwnerInternal()`**: Updates the owner internal with a new value
+- **`SetFileOwner()`**: Updates the file owner with a new value
+
 ### Summary
-The `fileowner.cpp` file provides essential functionality for file system operations. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `fileowner.cpp` file is essential for file operations. It defines 2 class(es) and implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Кэш SID`ов и функция GetOwner
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `sid`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `sid_hash_eq`: Performs sid_hash_eq operation in fileowner.cpp
+- **`sid`**: Implements sid functionality
+- **`sid_hash_eq`**: Implements sid hash eq functionality
+
 ### Kluczowe Funkcje
-- `SidToName()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `sid()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `bool()`: Performs bool operation in fileowner.cpp
-- `get()`: Retrieves  value in fileowner.cpp
-- `reset()`: Performs reset operation in fileowner.cpp
-- `size()`: Performs size operation in fileowner.cpp
-- `get_hash()`: Retrieves _hash value in fileowner.cpp
-- `SidToNameCached()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `Callable()`: Checks a condition in fileowner.cpp and returns true or false based on the result
-- `IsOwned()`: Checks a condition in fileowner.cpp and returns true or false based on the result
+- **`SidToName()`**: Executes sid to name operation
+- **`SidToNameCached()`**: Executes sid to name cached operation
+- **`ProcessFileOwner()`**: Executes process file owner operation
+- **`IsOwned()`**: Checks whether owned condition is true
+- **`GetFileOwner()`**: Retrieves the current file owner value
+- **`get_sid()`**: Retrieves the current sid value
+- **`SetOwnerInternal()`**: Updates the owner internal with a new value
+- **`SetFileOwner()`**: Updates the file owner with a new value
+
 ### Podsumowanie
-Plik `fileowner.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `fileowner.cpp` jest niezbędny dla operacji na plikach. Definiuje 2 klas(y) i implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

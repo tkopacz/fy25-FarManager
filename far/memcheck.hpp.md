@@ -1,24 +1,25 @@
 # memcheck.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Memory leak detector
-Main functional areas: core functionality
-### Key Classes
-- `checker`: Performs checker operation in memcheck.hpp
+This file implements functionality for core functionality.
+
 ### Namespaces
 - `memcheck`
+
 ### Summary
-The `memcheck.hpp` file provides essential functionality for core functionality. It defines 1 class(es) to support the Far Manager file manager operations.
+The `memcheck.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Memory leak detector
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Klasy
-- `checker`: Performs checker operation in memcheck.hpp
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Przestrzenie nazw
 - `memcheck`
+
 ### Podsumowanie
-Plik `memcheck.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `memcheck.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

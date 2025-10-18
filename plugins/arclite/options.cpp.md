@@ -1,42 +1,51 @@
 # options.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `OptionsKey`: Performs OptionsKey operation in options.cpp
-- `xml_parser`: Performs xml_parser operation in options.cpp
+- **`xml_parser`**: Implements xml parser functionality
+- **`OptionsKey`**: Implements options key functionality
+
 ### Key Functions
-- `utf8_to_wstring()`: Performs utf8_to_wstring operation in options.cpp
-- `parse_uints()`: Performs parse_uints operation in options.cpp
-- `OnTag()`: Performs OnTag operation in options.cpp
-- `OnBody()`: Iterates through elements in options.cpp and adds them to a collection
-- `OnAttr()`: Iterates through elements in options.cpp and adds them to a collection
-- `parse()`: Performs parse operation in options.cpp
-- `load_arclite_xml()`: Performs load_arclite_xml operation in options.cpp
-- `xml()`: Performs xml operation in options.cpp
-- `get_int()`: Retrieves _int value in options.cpp
-- `get_bool()`: Retrieves _bool value in options.cpp
+- **`utf8_to_wstring()`**: Executes utf8 to wstring operation
+- **`parse_uints()`**: Executes parse uints operation
+- **`xml_parser()`**: Executes xml parser operation
+- **`load_arclite_xml()`**: Executes load arclite xml operation
+- **`load_sfx_options()`**: Executes load sfx options operation
+- **`save_sfx_options()`**: Executes save sfx options operation
+- **`get_profile_key_name()`**: Retrieves the current profile key name value
+- **`get_app_option()`**: Retrieves the current app option value
+- **`xml_parser::options()`**: Executes options operation
+- **`OptionsKey::get_int()`**: Retrieves the current int value
+
 ### Summary
-The `options.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `options.cpp` file is essential for core functionality. It defines 2 class(es) and implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `OptionsKey`: Performs OptionsKey operation in options.cpp
-- `xml_parser`: Performs xml_parser operation in options.cpp
+- **`xml_parser`**: Implements xml parser functionality
+- **`OptionsKey`**: Implements options key functionality
+
 ### Kluczowe Funkcje
-- `utf8_to_wstring()`: Performs utf8_to_wstring operation in options.cpp
-- `parse_uints()`: Performs parse_uints operation in options.cpp
-- `OnTag()`: Performs OnTag operation in options.cpp
-- `OnBody()`: Iterates through elements in options.cpp and adds them to a collection
-- `OnAttr()`: Iterates through elements in options.cpp and adds them to a collection
-- `parse()`: Performs parse operation in options.cpp
-- `load_arclite_xml()`: Performs load_arclite_xml operation in options.cpp
-- `xml()`: Performs xml operation in options.cpp
-- `get_int()`: Retrieves _int value in options.cpp
-- `get_bool()`: Retrieves _bool value in options.cpp
+- **`utf8_to_wstring()`**: Executes utf8 to wstring operation
+- **`parse_uints()`**: Executes parse uints operation
+- **`xml_parser()`**: Executes xml parser operation
+- **`load_arclite_xml()`**: Executes load arclite xml operation
+- **`load_sfx_options()`**: Executes load sfx options operation
+- **`save_sfx_options()`**: Executes save sfx options operation
+- **`get_profile_key_name()`**: Retrieves the current profile key name value
+- **`get_app_option()`**: Retrieves the current app option value
+- **`xml_parser::options()`**: Executes options operation
+- **`OptionsKey::get_int()`**: Retrieves the current int value
+
 ### Podsumowanie
-Plik `options.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `options.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

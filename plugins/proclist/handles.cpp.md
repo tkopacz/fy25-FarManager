@@ -1,50 +1,61 @@
 # handles.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+Based on Zoltan Csizmadia's TaskManagerEx source, zoltan_csizmadia@yahoo.com
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation in handles.cpp
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation in handles.cpp
-- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in handles.cpp
-- `test`: Performs test operation in handles.cpp
+- **`SYSTEM_HANDLE_TABLE_ENTRY_INFO`**: Implements system handle table entry info functionality
+- **`PROCLIST_SYSTEM_HANDLE_INFORMATION`**: Container class managing collection of proclist system handle information
+- **`THREAD_BASIC_INFORMATION`**: Implements thread basic information functionality
+- **`test`**: Implements test functionality
+
 ### Key Functions
-- `GetProcessId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
-- `GetThreadId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
-- `to_string()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetFileName()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetFileNameThread()`: Check if it's possible to get the file name info
-- `GetTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetTypeFromTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetUserAccountID()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetNameByType()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `l()`: Checks a condition in handles.cpp and returns true or false based on the result
-### Namespaces
-- `std`
+- **`GetProcessId()`**: Retrieves the current process id value
+- **`GetThreadId()`**: Retrieves the current thread id value
+- **`to_string()`**: Executes to string operation
+- **`query_object()`**: Executes query object operation
+- **`GetFileName()`**: Retrieves the current file name value
+- **`GetTypeToken()`**: Retrieves the current type token value
+- **`GetTypeFromTypeToken()`**: Retrieves the current type from type token value
+- **`GetNameByType()`**: Retrieves the current name by type value
+- **`duplicate_handle()`**: Executes duplicate handle operation
+- **`PrintHandleInfo()`**: Executes print handle info operation
+- **`test::GetFileNameThread()`**: Retrieves the current file name thread value
+
 ### Summary
-The `handles.cpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `handles.cpp` file is essential for core functionality. It defines 4 class(es) and implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Based on Zoltan Csizmadia's TaskManagerEx source, zoltan_csizmadia@yahoo.com
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `PROCLIST_SYSTEM_HANDLE_INFORMATION`: Performs PROCLIST_SYSTEM_HANDLE_INFORMATION operation in handles.cpp
-- `SYSTEM_HANDLE_TABLE_ENTRY_INFO`: Performs SYSTEM_HANDLE_TABLE_ENTRY_INFO operation in handles.cpp
-- `THREAD_BASIC_INFORMATION`: Performs THREAD_BASIC_INFORMATION operation in handles.cpp
-- `test`: Performs test operation in handles.cpp
+- **`SYSTEM_HANDLE_TABLE_ENTRY_INFO`**: Implements system handle table entry info functionality
+- **`PROCLIST_SYSTEM_HANDLE_INFORMATION`**: Container class managing collection of proclist system handle information
+- **`THREAD_BASIC_INFORMATION`**: Implements thread basic information functionality
+- **`test`**: Implements test functionality
+
 ### Kluczowe Funkcje
-- `GetProcessId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
-- `GetThreadId()`: NOT constexpr: such casts are technically UB and not available in constexpr context
-- `to_string()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetFileName()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetFileNameThread()`: Check if it's possible to get the file name info
-- `GetTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetTypeFromTypeToken()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetUserAccountID()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `GetNameByType()`: Checks a condition in handles.cpp and returns true or false based on the result
-- `l()`: Checks a condition in handles.cpp and returns true or false based on the result
-### Przestrzenie nazw
-- `std`
+- **`GetProcessId()`**: Retrieves the current process id value
+- **`GetThreadId()`**: Retrieves the current thread id value
+- **`to_string()`**: Executes to string operation
+- **`query_object()`**: Executes query object operation
+- **`GetFileName()`**: Retrieves the current file name value
+- **`GetTypeToken()`**: Retrieves the current type token value
+- **`GetTypeFromTypeToken()`**: Retrieves the current type from type token value
+- **`GetNameByType()`**: Retrieves the current name by type value
+- **`duplicate_handle()`**: Executes duplicate handle operation
+- **`PrintHandleInfo()`**: Executes print handle info operation
+- **`test::GetFileNameThread()`**: Retrieves the current file name thread value
+
 ### Podsumowanie
-Plik `handles.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `handles.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

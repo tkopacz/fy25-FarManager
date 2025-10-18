@@ -1,44 +1,63 @@
 # stddlg.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Куча разных стандартных диалогов
-Main functional areas: dialog handling
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `dirinfo_progress_detail`: Performs dirinfo_progress_detail operation in stddlg.cpp
-- `single_progress_detail`: Performs single_progress_detail operation in stddlg.cpp
-- `status`: Iterates through elements in stddlg.cpp and adds them to a collection
+- **`status`**: Implements status functionality
+- **`single_progress_detail`**: Implements single progress detail functionality
+- **`dirinfo_progress_detail`**: Implements dirinfo progress detail functionality
+
 ### Key Functions
-- `GetShared()`: Retrieves Shared value in stddlg.cpp
-- `SaveToShared()`: Performs SaveToShared operation in stddlg.cpp
-- `SetFlagIf()`: Sets or updates FlagIf value in stddlg.cpp
-- `GetString()`: Checks a condition in stddlg.cpp and returns true or false based on the result
-- `GetNameAndPassword()`: Стандартный диалог ввода пароля.
-- `format_process_name()`: Checks a condition in stddlg.cpp and returns true or false based on the result
-- `PointToName()`: Should never happen, but just in case
-- `OperationFailed()`: Iterates through elements in stddlg.cpp and adds them to a collection
-- `ReCompileErrorMessage()`: Checks a condition in stddlg.cpp and returns true or false based on the result
+- **`GetSearchReplaceString()`**: Retrieves the current search replace string value
+- **`GetString()`**: Retrieves the current string value
+- **`GetNameAndPassword()`**: Retrieves the current name and password value
+- **`format_process_name()`**: Executes format process name operation
+- **`get_locking_processes()`**: Retrieves the current locking processes value
+- **`OperationFailed()`**: Executes operation failed operation
+- **`retryable_ui_operation()`**: Executes retryable ui operation operation
+- **`ReCompileErrorMessage()`**: Executes re compile error message operation
+- **`GetRowCol()`**: Retrieves the current row col value
+- **`GoToRowCol()`**: Executes go to row col operation
+- **`ConfirmAbort()`**: Executes confirm abort operation
+- **`CheckForEscAndConfirmAbort()`**: Executes check for esc and confirm abort operation
+- **`RetryAbort()`**: Executes retry abort operation
+- **`regex_playground()`**: Executes regex playground operation
+- **`error_lookup()`**: Executes error lookup operation
+
 ### Summary
-The `stddlg.cpp` file provides essential functionality for dialog handling. It defines 3 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `stddlg.cpp` file is essential for core functionality. It defines 3 class(es) and implements 15 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Куча разных стандартных диалогов
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `dirinfo_progress_detail`: Performs dirinfo_progress_detail operation in stddlg.cpp
-- `single_progress_detail`: Performs single_progress_detail operation in stddlg.cpp
-- `status`: Iterates through elements in stddlg.cpp and adds them to a collection
+- **`status`**: Implements status functionality
+- **`single_progress_detail`**: Implements single progress detail functionality
+- **`dirinfo_progress_detail`**: Implements dirinfo progress detail functionality
+
 ### Kluczowe Funkcje
-- `GetShared()`: Retrieves Shared value in stddlg.cpp
-- `SaveToShared()`: Performs SaveToShared operation in stddlg.cpp
-- `SetFlagIf()`: Sets or updates FlagIf value in stddlg.cpp
-- `GetString()`: Checks a condition in stddlg.cpp and returns true or false based on the result
-- `GetNameAndPassword()`: Стандартный диалог ввода пароля.
-- `format_process_name()`: Checks a condition in stddlg.cpp and returns true or false based on the result
-- `PointToName()`: Should never happen, but just in case
-- `OperationFailed()`: Iterates through elements in stddlg.cpp and adds them to a collection
-- `ReCompileErrorMessage()`: Checks a condition in stddlg.cpp and returns true or false based on the result
+- **`GetSearchReplaceString()`**: Retrieves the current search replace string value
+- **`GetString()`**: Retrieves the current string value
+- **`GetNameAndPassword()`**: Retrieves the current name and password value
+- **`format_process_name()`**: Executes format process name operation
+- **`get_locking_processes()`**: Retrieves the current locking processes value
+- **`OperationFailed()`**: Executes operation failed operation
+- **`retryable_ui_operation()`**: Executes retryable ui operation operation
+- **`ReCompileErrorMessage()`**: Executes re compile error message operation
+- **`GetRowCol()`**: Retrieves the current row col value
+- **`GoToRowCol()`**: Executes go to row col operation
+- **`ConfirmAbort()`**: Executes confirm abort operation
+- **`CheckForEscAndConfirmAbort()`**: Executes check for esc and confirm abort operation
+- **`RetryAbort()`**: Executes retry abort operation
+- **`regex_playground()`**: Executes regex playground operation
+- **`error_lookup()`**: Executes error lookup operation
+
 ### Podsumowanie
-Plik `stddlg.cpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 3 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `stddlg.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 15 funkcji wspierających operacje menedżera plików Far Manager.

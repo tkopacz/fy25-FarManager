@@ -1,34 +1,31 @@
 # polyfills.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Emulation of C++ features missing in supported compilers & libraries
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `fold_left_fn`: Performs fold_left_fn operation in polyfills.hpp
-### Key Functions
-- `yield()`: Performs yield operation in polyfills.hpp
-- `to_underlying()`: Performs to_underlying operation in polyfills.hpp
-- `unreachable()`: Performs unreachable operation in polyfills.hpp
-- `__builtin_unreachable()`: Performs __builtin_unreachable operation in polyfills.hpp
+- **`fold_left_fn`**: Implements fold left fn functionality
+
 ### Namespaces
 - `std`
+
 ### Summary
-The `polyfills.hpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `polyfills.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Emulation of C++ features missing in supported compilers & libraries
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `fold_left_fn`: Performs fold_left_fn operation in polyfills.hpp
-### Kluczowe Funkcje
-- `yield()`: Performs yield operation in polyfills.hpp
-- `to_underlying()`: Performs to_underlying operation in polyfills.hpp
-- `unreachable()`: Performs unreachable operation in polyfills.hpp
-- `__builtin_unreachable()`: Performs __builtin_unreachable operation in polyfills.hpp
+- **`fold_left_fn`**: Implements fold left fn functionality
+
 ### Przestrzenie nazw
 - `std`
+
 ### Podsumowanie
-Plik `polyfills.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `polyfills.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

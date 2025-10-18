@@ -1,40 +1,39 @@
 # hwinmod.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `tagMODULEENTRY32`: Performs tagMODULEENTRY32 operation in hwinmod.cpp
+- **`tagMODULEENTRY32`**: Implements tag moduleentry32 functionality
+
 ### Key Functions
-- `MAP_ABORT()`: #define ABORT( v ) HAbort v
-- `QNT_ERROR()`: #define ABORT( v ) HAbort v
-- `TH_ABORT()`: #define ABORT( v ) HAbort v
-- `QueryModules_NT()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
-- `QueryModules_TH()`: The hModule of this module in th32ProcessID's context
-- `HModuleInfo()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
-- `isTheSameBase()`: Checks a condition in hwinmod.cpp and returns the result
-- `isTheSameHMod()`: Checks a condition in hwinmod.cpp and returns the result
-- `HModuleArray()`: Performs HModuleArray operation in hwinmod.cpp
-- `Rescan()`: Performs Rescan operation in hwinmod.cpp
+- **`LPDebugBuffer()`**: Executes lpdebug buffer operation
+- **`BOOL()`**: Executes bool operation
+- **`HANDLE()`**: Executes handle operation
+- **`FindInfo_HMod()`**: Executes find info hmod operation
+- **`FindInfo_Base()`**: Executes find info base operation
+
 ### Summary
-The `hwinmod.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `hwinmod.cpp` file is essential for core functionality. It defines 1 class(es) and implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `tagMODULEENTRY32`: Performs tagMODULEENTRY32 operation in hwinmod.cpp
+- **`tagMODULEENTRY32`**: Implements tag moduleentry32 functionality
+
 ### Kluczowe Funkcje
-- `MAP_ABORT()`: #define ABORT( v ) HAbort v
-- `QNT_ERROR()`: #define ABORT( v ) HAbort v
-- `TH_ABORT()`: #define ABORT( v ) HAbort v
-- `QueryModules_NT()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
-- `QueryModules_TH()`: The hModule of this module in th32ProcessID's context
-- `HModuleInfo()`: Checks a condition in hwinmod.cpp and returns true or false based on the result
-- `isTheSameBase()`: Checks a condition in hwinmod.cpp and returns the result
-- `isTheSameHMod()`: Checks a condition in hwinmod.cpp and returns the result
-- `HModuleArray()`: Performs HModuleArray operation in hwinmod.cpp
-- `Rescan()`: Performs Rescan operation in hwinmod.cpp
+- **`LPDebugBuffer()`**: Executes lpdebug buffer operation
+- **`BOOL()`**: Executes bool operation
+- **`HANDLE()`**: Executes handle operation
+- **`FindInfo_HMod()`**: Executes find info hmod operation
+- **`FindInfo_Base()`**: Executes find info base operation
+
 ### Podsumowanie
-Plik `hwinmod.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hwinmod.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

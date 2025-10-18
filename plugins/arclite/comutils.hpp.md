@@ -1,46 +1,49 @@
 # comutils.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `BStr`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `ComBase`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `ComObject`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `PropVariant`: Validates a condition in comutils.hpp and throws an exception if the validation fails
+- **`ComBase`**: RAII wrapper managing com base initialization and cleanup lifecycle
+- **`ComObject`**: RAII wrapper managing com object initialization and cleanup lifecycle
+- **`PropVariant`**: Implements prop variant functionality
+- **`BStr`**: Implements bstr functionality
+
 ### Key Functions
-- `Release()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `bool()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `detach()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `clear()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `ref()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_int()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_uint()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_size()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_str()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_bool()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
+- **`ComObject()`**: Executes com object operation
+- **`PropVariant()`**: Executes prop variant operation
+- **`BStr()`**: Executes bstr operation
+- **`ComBase::ref_cnt()`**: Executes ref cnt operation
+- **`ComObject::obj()`**: Executes obj operation
+- **`PropVariant::clear()`**: Removes all content and resets to empty state
+- **`BStr::clear()`**: Removes all content and resets to empty state
+
 ### Summary
-The `comutils.hpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `comutils.hpp` file is essential for core functionality. It defines 4 class(es) and implements 7 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `BStr`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `ComBase`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `ComObject`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `PropVariant`: Validates a condition in comutils.hpp and throws an exception if the validation fails
+- **`ComBase`**: RAII wrapper managing com base initialization and cleanup lifecycle
+- **`ComObject`**: RAII wrapper managing com object initialization and cleanup lifecycle
+- **`PropVariant`**: Implements prop variant functionality
+- **`BStr`**: Implements bstr functionality
+
 ### Kluczowe Funkcje
-- `Release()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `bool()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `detach()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `clear()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `ref()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_int()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_uint()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_size()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_str()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
-- `is_bool()`: Validates a condition in comutils.hpp and throws an exception if the validation fails
+- **`ComObject()`**: Executes com object operation
+- **`PropVariant()`**: Executes prop variant operation
+- **`BStr()`**: Executes bstr operation
+- **`ComBase::ref_cnt()`**: Executes ref cnt operation
+- **`ComObject::obj()`**: Executes obj operation
+- **`PropVariant::clear()`**: Removes all content and resets to empty state
+- **`BStr::clear()`**: Removes all content and resets to empty state
+
 ### Podsumowanie
-Plik `comutils.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `comutils.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 4 klas(y) i implementuje 7 funkcji wspierających operacje menedżera plików Far Manager.

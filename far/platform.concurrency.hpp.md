@@ -1,66 +1,67 @@
 # platform.concurrency.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Threads, mutexes, events, critical sections etc.
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `critical_section`: Performs critical_section operation in platform.concurrency.hpp
-- `event`: Performs event operation in platform.concurrency.hpp
-- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.hpp
-- `mutex`: Performs mutex operation in platform.concurrency.hpp
-- `shared_mutex`: Q: WTF is this, it's in the standard!
-- `state`: Performs state operation in platform.concurrency.hpp
-- `synced_queue`: Performs synced_queue operation in platform.concurrency.hpp
-- `thread`: Performs thread operation in platform.concurrency.hpp
-- `timer`: Performs timer operation in platform.concurrency.hpp
-- `timer_closer`: Performs timer_closer operation in platform.concurrency.hpp
+- **`critical_section`**: Implements critical section functionality
+- **`thread`**: Implements thread functionality
+- **`mutex`**: Implements mutex functionality
+- **`shared_mutex`**: Implements shared mutex functionality
+- **`event`**: Implements event functionality
+- **`type`**: Enumeration defining possible values for type
+- **`state`**: Enumeration defining possible values for state
+- **`timer`**: Enumeration defining possible values for timer
+- **`timer_closer`**: Implements timer closer functionality
+
 ### Key Functions
-- `make_name()`: Performs make_name operation in platform.concurrency.hpp
-- `lock()`: Checks a condition in platform.concurrency.hpp and returns true or false based on the result
-- `unlock()`: Performs unlock operation in platform.concurrency.hpp
-- `thread()`: Performs thread operation in platform.concurrency.hpp
-- `get_id()`: Retrieves _id value in platform.concurrency.hpp
-- `joinable()`: Performs joinable operation in platform.concurrency.hpp
-- `detach()`: Performs detach operation in platform.concurrency.hpp
-- `join()`: Performs join operation in platform.concurrency.hpp
-- `check_joinable()`: Performs check_joinable operation in platform.concurrency.hpp
-- `finalise()`: Performs finalise operation in platform.concurrency.hpp
+- **`critical_section::lock()`**: Executes lock operation
+- **`critical_section::unlock()`**: Executes unlock operation
+- **`shared_mutex::lock()`**: Executes lock operation
+- **`shared_mutex::try_lock()`**: Executes try lock operation
+- **`shared_mutex::unlock()`**: Executes unlock operation
+- **`shared_mutex::lock_shared()`**: Executes lock shared operation
+- **`shared_mutex::try_lock_shared()`**: Executes try lock shared operation
+- **`shared_mutex::unlock_shared()`**: Executes unlock shared operation
+
 ### Namespaces
-- `detail`
 - `os`
+
 ### Summary
-The `platform.concurrency.hpp` file provides essential functionality for core functionality. It defines 11 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `platform.concurrency.hpp` file is essential for platform-specific operations. It defines 9 class(es) and implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Threads, mutexes, events, critical sections etc.
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `critical_section`: Performs critical_section operation in platform.concurrency.hpp
-- `event`: Performs event operation in platform.concurrency.hpp
-- `i_shared_mutex`: Performs i_shared_mutex operation in platform.concurrency.hpp
-- `mutex`: Performs mutex operation in platform.concurrency.hpp
-- `shared_mutex`: Q: WTF is this, it's in the standard!
-- `state`: Performs state operation in platform.concurrency.hpp
-- `synced_queue`: Performs synced_queue operation in platform.concurrency.hpp
-- `thread`: Performs thread operation in platform.concurrency.hpp
-- `timer`: Performs timer operation in platform.concurrency.hpp
-- `timer_closer`: Performs timer_closer operation in platform.concurrency.hpp
+- **`critical_section`**: Implements critical section functionality
+- **`thread`**: Implements thread functionality
+- **`mutex`**: Implements mutex functionality
+- **`shared_mutex`**: Implements shared mutex functionality
+- **`event`**: Implements event functionality
+- **`type`**: Enumeration defining possible values for type
+- **`state`**: Enumeration defining possible values for state
+- **`timer`**: Enumeration defining possible values for timer
+- **`timer_closer`**: Implements timer closer functionality
+
 ### Kluczowe Funkcje
-- `make_name()`: Performs make_name operation in platform.concurrency.hpp
-- `lock()`: Checks a condition in platform.concurrency.hpp and returns true or false based on the result
-- `unlock()`: Performs unlock operation in platform.concurrency.hpp
-- `thread()`: Performs thread operation in platform.concurrency.hpp
-- `get_id()`: Retrieves _id value in platform.concurrency.hpp
-- `joinable()`: Performs joinable operation in platform.concurrency.hpp
-- `detach()`: Performs detach operation in platform.concurrency.hpp
-- `join()`: Performs join operation in platform.concurrency.hpp
-- `check_joinable()`: Performs check_joinable operation in platform.concurrency.hpp
-- `finalise()`: Performs finalise operation in platform.concurrency.hpp
+- **`critical_section::lock()`**: Executes lock operation
+- **`critical_section::unlock()`**: Executes unlock operation
+- **`shared_mutex::lock()`**: Executes lock operation
+- **`shared_mutex::try_lock()`**: Executes try lock operation
+- **`shared_mutex::unlock()`**: Executes unlock operation
+- **`shared_mutex::lock_shared()`**: Executes lock shared operation
+- **`shared_mutex::try_lock_shared()`**: Executes try lock shared operation
+- **`shared_mutex::unlock_shared()`**: Executes unlock shared operation
+
 ### Przestrzenie nazw
-- `detail`
 - `os`
+
 ### Podsumowanie
-Plik `platform.concurrency.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 11 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.concurrency.hpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 9 klas(y) i implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

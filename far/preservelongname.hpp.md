@@ -1,20 +1,25 @@
 # preservelongname.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: class PreserveLongName
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `PreserveLongName`: Performs PreserveLongName operation in preservelongname.hpp
+- **`PreserveLongName`**: Implements preserve long name functionality
+
 ### Summary
-The `preservelongname.hpp` file provides essential functionality for core functionality. It defines 1 class(es) to support the Far Manager file manager operations.
+The `preservelongname.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: class PreserveLongName
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `PreserveLongName`: Performs PreserveLongName operation in preservelongname.hpp
+- **`PreserveLongName`**: Implements preserve long name functionality
+
 ### Podsumowanie
-Plik `preservelongname.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `preservelongname.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

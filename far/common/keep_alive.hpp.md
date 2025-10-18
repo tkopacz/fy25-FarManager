@@ -1,18 +1,25 @@
 # keep_alive.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `get()`: Retrieves  value in keep_alive.hpp
+- **`keep_alive()`**: Executes keep alive operation
+
 ### Summary
-The `keep_alive.hpp` file provides essential functionality for core functionality. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `keep_alive.hpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `get()`: Retrieves  value in keep_alive.hpp
+- **`keep_alive()`**: Executes keep alive operation
+
 ### Podsumowanie
-Plik `keep_alive.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `keep_alive.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

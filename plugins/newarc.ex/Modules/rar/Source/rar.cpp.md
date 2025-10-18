@@ -1,40 +1,57 @@
 # rar.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+{D7495BDD-BD70-4FEA-A20B-DE421ABA5847}
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation in rar.cpp
+- **`ArchiveModuleInformation`**: Implements archive module information functionality
+
 ### Key Functions
-- `OnInitialize()`: {D7495BDD-BD70-4FEA-A20B-DE421ABA5847}
-- `RarModule()`: Performs RarModule operation in rar.cpp
-- `OnFinalize()`: Performs OnFinalize operation in rar.cpp
-- `OnQueryArchive()`: Performs OnQueryArchive operation in rar.cpp
-- `RarArchive()`: Performs RarArchive operation in rar.cpp
-- `OnOpenArchive()`: Performs OnOpenArchive operation in rar.cpp
-- `OnCloseArchive()`: Performs OnCloseArchive operation in rar.cpp
-- `OnFinalizeArchive()`: Performs OnFinalizeArchive operation in rar.cpp
-- `OnGetArchiveModuleInfo()`: Performs OnGetArchiveModuleInfo operation in rar.cpp
-- `OnGetArchiveItem()`: we just dont care, only one format
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnFinalizeArchive()`**: Event callback triggered when finalize archive occurs
+- **`OnGetArchiveModuleInfo()`**: Event callback triggered when get archive module info occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnFreeArchiveItem()`**: Event callback triggered when free archive item occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnTest()`**: Event callback triggered when test occurs
+- **`OnGetDefaultCommand()`**: Event callback triggered when get default command occurs
+
 ### Summary
-The `rar.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `rar.cpp` file is essential for core functionality. It defines 1 class(es) and implements 12 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+{D7495BDD-BD70-4FEA-A20B-DE421ABA5847}
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArchiveModuleInformation`: Performs ArchiveModuleInformation operation in rar.cpp
+- **`ArchiveModuleInformation`**: Implements archive module information functionality
+
 ### Kluczowe Funkcje
-- `OnInitialize()`: {D7495BDD-BD70-4FEA-A20B-DE421ABA5847}
-- `RarModule()`: Performs RarModule operation in rar.cpp
-- `OnFinalize()`: Performs OnFinalize operation in rar.cpp
-- `OnQueryArchive()`: Performs OnQueryArchive operation in rar.cpp
-- `RarArchive()`: Performs RarArchive operation in rar.cpp
-- `OnOpenArchive()`: Performs OnOpenArchive operation in rar.cpp
-- `OnCloseArchive()`: Performs OnCloseArchive operation in rar.cpp
-- `OnFinalizeArchive()`: Performs OnFinalizeArchive operation in rar.cpp
-- `OnGetArchiveModuleInfo()`: Performs OnGetArchiveModuleInfo operation in rar.cpp
-- `OnGetArchiveItem()`: we just dont care, only one format
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnFinalizeArchive()`**: Event callback triggered when finalize archive occurs
+- **`OnGetArchiveModuleInfo()`**: Event callback triggered when get archive module info occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnFreeArchiveItem()`**: Event callback triggered when free archive item occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnTest()`**: Event callback triggered when test occurs
+- **`OnGetDefaultCommand()`**: Event callback triggered when get default command occurs
+
 ### Podsumowanie
-Plik `rar.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `rar.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 12 funkcji wspierających operacje menedżera plików Far Manager.

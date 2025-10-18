@@ -1,42 +1,33 @@
 # edit.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Строка редактора
-Main functional areas: text editing
+This file implements functionality for clipboard operations and data transfer.
+
 ### Key Classes
-- `positions_cache`: Performs positions_cache operation in edit.cpp
+- **`positions_cache`**: Simple data holder with getter/setter accessors
+
 ### Key Functions
-- `get()`: Retrieves  value in edit.cpp
-- `RealPosToVisual()`: Iterates through elements in edit.cpp and adds them to a collection
-- `VisualPosToReal()`: Performs VisualPosToReal operation in edit.cpp
-- `block()`: Performs block operation in edit.cpp
-- `RemoveSelection()`: Deletes or removes an item or resource in edit.cpp
-- `flatten_string()`: Performs flatten_string operation in edit.cpp
-- `Select()`: Performs Select operation in edit.cpp
-- `Show()`: Вычисление нового положения курсора в строке с учётом Mask.
-- `repeat()`: Performs repeat operation in edit.cpp
-- `InsertKey()`: Checks a condition in edit.cpp and returns true or false based on the result
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`flatten_string()`**: Executes flatten string operation
+
 ### Summary
-The `edit.cpp` file provides essential functionality for text editing. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `edit.cpp` file is essential for clipboard operations and data transfer. It defines 1 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Строка редактора
-Główne obszary funkcjonalne: edycja tekstu
+Ten plik implementuje funkcjonalność dla operacji schowka i transferu danych.
+
 ### Kluczowe Klasy
-- `positions_cache`: Performs positions_cache operation in edit.cpp
+- **`positions_cache`**: Simple data holder with getter/setter accessors
+
 ### Kluczowe Funkcje
-- `get()`: Retrieves  value in edit.cpp
-- `RealPosToVisual()`: Iterates through elements in edit.cpp and adds them to a collection
-- `VisualPosToReal()`: Performs VisualPosToReal operation in edit.cpp
-- `block()`: Performs block operation in edit.cpp
-- `RemoveSelection()`: Deletes or removes an item or resource in edit.cpp
-- `flatten_string()`: Performs flatten_string operation in edit.cpp
-- `Select()`: Performs Select operation in edit.cpp
-- `Show()`: Вычисление нового положения курсора в строке с учётом Mask.
-- `repeat()`: Performs repeat operation in edit.cpp
-- `InsertKey()`: Checks a condition in edit.cpp and returns true or false based on the result
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`flatten_string()`**: Executes flatten string operation
+
 ### Podsumowanie
-Plik `edit.cpp` zapewnia podstawową funkcjonalność dla edycja tekstu. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `edit.cpp` jest niezbędny dla operacji schowka i transferu danych. Definiuje 1 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

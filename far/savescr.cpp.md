@@ -1,22 +1,25 @@
 # savescr.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Сохраняем и восстанавливаем экран кусками и целиком
-Main functional areas: screen operations
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `CleanupBuffer()`: Performs CleanupBuffer operation in savescr.cpp
-- `clear_and_shrink()`: don't call vector.resize() here, it'
+- **`CleanupBuffer()`**: Executes cleanup buffer operation
+
 ### Summary
-The `savescr.cpp` file provides essential functionality for screen operations. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `savescr.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Сохраняем и восстанавливаем экран кусками и целиком
-Główne obszary funkcjonalne: operacje ekranowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `CleanupBuffer()`: Performs CleanupBuffer operation in savescr.cpp
-- `clear_and_shrink()`: don't call vector.resize() here, it'
+- **`CleanupBuffer()`**: Executes cleanup buffer operation
+
 ### Podsumowanie
-Plik `savescr.cpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `savescr.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

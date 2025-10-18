@@ -1,26 +1,29 @@
 # rtl.Strings.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Functions
-- `StrDeleteArray()`: Performs StrDeleteArray operation in rtl.Strings.cpp
-- `StrDelete()`: Performs StrDelete operation in rtl.Strings.cpp
-- `StrReplace()`: Performs StrReplace operation in rtl.Strings.cpp
-- `StrDuplicate()`: Performs StrDuplicate operation in rtl.Strings.cpp
-- `StrLength()`: Performs StrLength operation in rtl.Strings.cpp
+- **`StrDeleteArray()`**: Executes str delete array operation
+- **`StrDelete()`**: Executes str delete operation
+- **`StrReplace()`**: Executes str replace operation
+
 ### Summary
-The `rtl.Strings.cpp` file provides essential functionality for string utilities. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `rtl.Strings.cpp` file is essential for string manipulation and utilities. It implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Funkcje
-- `StrDeleteArray()`: Performs StrDeleteArray operation in rtl.Strings.cpp
-- `StrDelete()`: Performs StrDelete operation in rtl.Strings.cpp
-- `StrReplace()`: Performs StrReplace operation in rtl.Strings.cpp
-- `StrDuplicate()`: Performs StrDuplicate operation in rtl.Strings.cpp
-- `StrLength()`: Performs StrLength operation in rtl.Strings.cpp
+- **`StrDeleteArray()`**: Executes str delete array operation
+- **`StrDelete()`**: Executes str delete operation
+- **`StrReplace()`**: Executes str replace operation
+
 ### Podsumowanie
-Plik `rtl.Strings.cpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `rtl.Strings.cpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

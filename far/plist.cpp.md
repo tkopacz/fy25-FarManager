@@ -1,38 +1,45 @@
 # plist.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Список процессов (Ctrl-W)
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ProcInfo`: Performs ProcInfo operation in plist.cpp
-- `menu_data`: Performs menu_data operation in plist.cpp
-- `proc_item`: Performs proc_item operation in plist.cpp
+- **`menu_data`**: Implements menu data functionality
+- **`ProcInfo`**: Implements proc info functionality
+- **`proc_item`**: Implements proc item functionality
+
 ### Key Functions
-- `is_cloaked_window()`: Checks a condition in plist.cpp and returns the result
-- `is_alttab_window()`: Checks a condition in plist.cpp and returns the result
-- `EnumWindowsProc()`: Tool windows should not be displayed either, these do not appear in the task bar
-- `AddMenuItem()`: Checks a condition in plist.cpp and returns true or false based on the result
-- `ShowProcessList()`: Validates a condition in plist.cpp and throws an exception if the validation fails
-- `SwitchToWindow()`: Performs SwitchToWindow operation in plist.cpp
+- **`процессов()`**: Executes процессов operation
+- **`is_cloaked_window()`**: Checks whether cloaked window condition is true
+- **`is_alttab_window()`**: Checks whether alttab window condition is true
+- **`AddMenuItem()`**: Executes add menu item operation
+- **`ShowProcessList()`**: Executes show process list operation
+- **`SwitchToWindow()`**: Executes switch to window operation
+
 ### Summary
-The `plist.cpp` file provides essential functionality for core functionality. It defines 3 class(es) and contains approximately 6 function(s) to support the Far Manager file manager operations.
+The `plist.cpp` file is essential for core functionality. It defines 3 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Список процессов (Ctrl-W)
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ProcInfo`: Performs ProcInfo operation in plist.cpp
-- `menu_data`: Performs menu_data operation in plist.cpp
-- `proc_item`: Performs proc_item operation in plist.cpp
+- **`menu_data`**: Implements menu data functionality
+- **`ProcInfo`**: Implements proc info functionality
+- **`proc_item`**: Implements proc item functionality
+
 ### Kluczowe Funkcje
-- `is_cloaked_window()`: Checks a condition in plist.cpp and returns the result
-- `is_alttab_window()`: Checks a condition in plist.cpp and returns the result
-- `EnumWindowsProc()`: Tool windows should not be displayed either, these do not appear in the task bar
-- `AddMenuItem()`: Checks a condition in plist.cpp and returns true or false based on the result
-- `ShowProcessList()`: Validates a condition in plist.cpp and throws an exception if the validation fails
-- `SwitchToWindow()`: Performs SwitchToWindow operation in plist.cpp
+- **`процессов()`**: Executes процессов operation
+- **`is_cloaked_window()`**: Checks whether cloaked window condition is true
+- **`is_alttab_window()`**: Checks whether alttab window condition is true
+- **`AddMenuItem()`**: Executes add menu item operation
+- **`ShowProcessList()`**: Executes show process list operation
+- **`SwitchToWindow()`**: Executes switch to window operation
+
 ### Podsumowanie
-Plik `plist.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 3 klas(y) i zawiera około 6 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plist.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

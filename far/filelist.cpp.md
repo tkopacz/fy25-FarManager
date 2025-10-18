@@ -1,64 +1,83 @@
 # filelist.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Файловая панель
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `CustomSort`: Performs CustomSort operation in filelist.cpp
-- `FileList`: Checks a condition in filelist.cpp and returns true or false based on the result
-- `arg`: Performs arg operation in filelist.cpp
-- `file_state`: Performs file_state operation in filelist.cpp
-- `hash_less`: Checks a condition in filelist.cpp and returns the result
-- `list_less`: Performs list_less operation in filelist.cpp
-- `ps_action`: Performs ps_action operation in filelist.cpp
-- `ps_mode`: Performs ps_mode operation in filelist.cpp
-- `sort_mode`: Performs sort_mode operation in filelist.cpp
+- **`sort_mode`**: Defines operational mode settings and behavior configuration
+- **`CustomSort`**: Implements custom sort functionality
+- **`list_less`**: Container class managing collection of less
+- **`ps_action`**: Implements ps action functionality
+- **`ps_mode`**: Enumeration defining possible values for ps mode
+- **`file_state`**: Simple data holder with getter/setter accessors
+- **`hash_less`**: Implements hash less functionality
+- **`arg`**: Implements arg functionality
+
 ### Key Functions
-- `order_indicator()`: Performs order_indicator operation in filelist.cpp
-- `to_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -
-- `to_whole_seconds()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
-- `compare_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
-- `FileListToSortingPanelItem()`: Performs FileListToSortingPanelItem operation in filelist.cpp
-- `SortFileList()`: Checks a condition in filelist.cpp and returns true or false based on the result
-- `CanSort()`: Checks a condition in filelist.cpp and returns true or false based on the result
-- `GetItemFullName()`: Retrieves ItemFullName value in filelist.cpp
-- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize value in filelist.cpp
-- `event_id()`: Performs event_id operation in filelist.cpp
+- **`to_fat_write_time()`**: Executes to fat write time operation
+- **`to_whole_seconds()`**: Executes to whole seconds operation
+- **`compare_fat_write_time()`**: Executes compare fat write time operation
+- **`FileListToSortingPanelItem()`**: Executes file list to sorting panel item operation
+- **`SortFileList()`**: Executes sort file list operation
+- **`CanSort()`**: Executes can sort operation
+- **`GetItemFullName()`**: Retrieves the current item full name value
+- **`GetStreamsCountAndSize()`**: Retrieves the current streams count and size value
+- **`IsExecutable()`**: Checks whether executable condition is true
+- **`folder_size_display_type()`**: Executes folder size display type operation
+- **`select_sort_layer()`**: Executes select sort layer operation
+- **`edit_sort_layers()`**: Executes edit sort layers operation
+- **`FileListItemToPluginPanelItemBasic()`**: Executes file list item to plugin panel item basic operation
+- **`ShouldHideFilesFromView()`**: Executes should hide files from view operation
+- **`size2str()`**: Executes size2str operation
+- **`CanMakeStripes()`**: Executes can make stripes operation
+- **`file_state::get()`**: Retrieves the current  value
+
 ### Namespaces
 - `custom_sort`
-- `std`
+
 ### Summary
-The `filelist.cpp` file provides essential functionality for file system operations. It defines 9 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `filelist.cpp` file is essential for file operations. It defines 8 class(es) and implements 17 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Файловая панель
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `CustomSort`: Performs CustomSort operation in filelist.cpp
-- `FileList`: Checks a condition in filelist.cpp and returns true or false based on the result
-- `arg`: Performs arg operation in filelist.cpp
-- `file_state`: Performs file_state operation in filelist.cpp
-- `hash_less`: Checks a condition in filelist.cpp and returns the result
-- `list_less`: Performs list_less operation in filelist.cpp
-- `ps_action`: Performs ps_action operation in filelist.cpp
-- `ps_mode`: Performs ps_mode operation in filelist.cpp
-- `sort_mode`: Performs sort_mode operation in filelist.cpp
+- **`sort_mode`**: Defines operational mode settings and behavior configuration
+- **`CustomSort`**: Implements custom sort functionality
+- **`list_less`**: Container class managing collection of less
+- **`ps_action`**: Implements ps action functionality
+- **`ps_mode`**: Enumeration defining possible values for ps mode
+- **`file_state`**: Simple data holder with getter/setter accessors
+- **`hash_less`**: Implements hash less functionality
+- **`arg`**: Implements arg functionality
+
 ### Kluczowe Funkcje
-- `order_indicator()`: Performs order_indicator operation in filelist.cpp
-- `to_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -
-- `to_whole_seconds()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
-- `compare_fat_write_time()`: FAT Last Write time is rounded up to the even number of seconds, e.g. 2s 1ms -> 4s
-- `FileListToSortingPanelItem()`: Performs FileListToSortingPanelItem operation in filelist.cpp
-- `SortFileList()`: Checks a condition in filelist.cpp and returns true or false based on the result
-- `CanSort()`: Checks a condition in filelist.cpp and returns true or false based on the result
-- `GetItemFullName()`: Retrieves ItemFullName value in filelist.cpp
-- `GetStreamsCountAndSize()`: Retrieves StreamsCountAndSize value in filelist.cpp
-- `event_id()`: Performs event_id operation in filelist.cpp
+- **`to_fat_write_time()`**: Executes to fat write time operation
+- **`to_whole_seconds()`**: Executes to whole seconds operation
+- **`compare_fat_write_time()`**: Executes compare fat write time operation
+- **`FileListToSortingPanelItem()`**: Executes file list to sorting panel item operation
+- **`SortFileList()`**: Executes sort file list operation
+- **`CanSort()`**: Executes can sort operation
+- **`GetItemFullName()`**: Retrieves the current item full name value
+- **`GetStreamsCountAndSize()`**: Retrieves the current streams count and size value
+- **`IsExecutable()`**: Checks whether executable condition is true
+- **`folder_size_display_type()`**: Executes folder size display type operation
+- **`select_sort_layer()`**: Executes select sort layer operation
+- **`edit_sort_layers()`**: Executes edit sort layers operation
+- **`FileListItemToPluginPanelItemBasic()`**: Executes file list item to plugin panel item basic operation
+- **`ShouldHideFilesFromView()`**: Executes should hide files from view operation
+- **`size2str()`**: Executes size2str operation
+- **`CanMakeStripes()`**: Executes can make stripes operation
+- **`file_state::get()`**: Retrieves the current  value
+
 ### Przestrzenie nazw
 - `custom_sort`
-- `std`
+
 ### Podsumowanie
-Plik `filelist.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 9 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `filelist.cpp` jest niezbędny dla operacji na plikach. Definiuje 8 klas(y) i implementuje 17 funkcji wspierających operacje menedżera plików Far Manager.

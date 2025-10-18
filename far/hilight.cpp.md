@@ -1,44 +1,47 @@
 # hilight.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Files highlighting
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `file_color()`: Performs file_color operation in hilight.cpp
-- `mark_color()`: Performs mark_color operation in hilight.cpp
-- `SetHighlighting()`: Sets or updates Highlighting value in hilight.cpp
-- `LoadHighlight()`: Performs LoadHighlight operation in hilight.cpp
-- `ApplyBlackOnBlackColor()`: Performs ApplyBlackOnBlackColor operation in hilight.cpp
-- `ApplyBlackOnBlackColors()`: Performs ApplyBlackOnBlackColors operation in hilight.cpp
-- `ApplyColors()`: Performs ApplyColors operation in hilight.cpp
-- `merge()`: Унаследуем пометку из Src если она не прозрачная
-- `inherit_color()`: Selected cursor lies on top of selection and can inherit its color
-- `HighlightDlgUpdateUserControl()`: Performs HighlightDlgUpdateUserControl operation in hilight.cpp
+- **`SetHighlighting()`**: Updates the highlighting with a new value
+- **`LoadHighlight()`**: Executes load highlight operation
+- **`ApplyBlackOnBlackColor()`**: Executes apply black on black color operation
+- **`ApplyBlackOnBlackColors()`**: Executes apply black on black colors operation
+- **`ApplyColors()`**: Executes apply colors operation
+- **`inherit_color()`**: Executes inherit color operation
+- **`HighlightDlgUpdateUserControl()`**: Executes highlight dlg update user control operation
+- **`SaveHighlight()`**: Executes save highlight operation
+
 ### Namespaces
-- `colors`
 - `names`
+- `colors`
+
 ### Summary
-The `hilight.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `hilight.cpp` file is essential for core functionality. It implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Files highlighting
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `file_color()`: Performs file_color operation in hilight.cpp
-- `mark_color()`: Performs mark_color operation in hilight.cpp
-- `SetHighlighting()`: Sets or updates Highlighting value in hilight.cpp
-- `LoadHighlight()`: Performs LoadHighlight operation in hilight.cpp
-- `ApplyBlackOnBlackColor()`: Performs ApplyBlackOnBlackColor operation in hilight.cpp
-- `ApplyBlackOnBlackColors()`: Performs ApplyBlackOnBlackColors operation in hilight.cpp
-- `ApplyColors()`: Performs ApplyColors operation in hilight.cpp
-- `merge()`: Унаследуем пометку из Src если она не прозрачная
-- `inherit_color()`: Selected cursor lies on top of selection and can inherit its color
-- `HighlightDlgUpdateUserControl()`: Performs HighlightDlgUpdateUserControl operation in hilight.cpp
+- **`SetHighlighting()`**: Updates the highlighting with a new value
+- **`LoadHighlight()`**: Executes load highlight operation
+- **`ApplyBlackOnBlackColor()`**: Executes apply black on black color operation
+- **`ApplyBlackOnBlackColors()`**: Executes apply black on black colors operation
+- **`ApplyColors()`**: Executes apply colors operation
+- **`inherit_color()`**: Executes inherit color operation
+- **`HighlightDlgUpdateUserControl()`**: Executes highlight dlg update user control operation
+- **`SaveHighlight()`**: Executes save highlight operation
+
 ### Przestrzenie nazw
-- `colors`
 - `names`
+- `colors`
+
 ### Podsumowanie
-Plik `hilight.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hilight.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

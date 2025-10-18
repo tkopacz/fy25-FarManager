@@ -1,20 +1,23 @@
 # headers.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Namespaces
-- `literals`
-- `std`
+'type-name': class has virtual functions, but its trivial destructor is not virtual; instances of objects derived from this class may not be destructed correctly
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `headers.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `headers.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Przestrzenie nazw
-- `literals`
-- `std`
+'type-name': class has virtual functions, but its trivial destructor is not virtual; instances of objects derived from this class may not be destructed correctly
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `headers.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `headers.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

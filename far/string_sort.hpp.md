@@ -1,46 +1,43 @@
 # string_sort.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: string utilities
+This file implements functionality for string manipulation and utilities.
+
 ### Key Classes
-- `SQLiteDb`: Performs SQLiteDb operation in string_sort.hpp
-- `keyhole`: Performs keyhole operation in string_sort.hpp
-- `less_icase_t`: Performs less_icase_t operation in string_sort.hpp
-- `less_t`: Performs less_t operation in string_sort.hpp
-- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation in string_sort.hpp
+- **`less_t`**: Implements less t functionality
+- **`less_icase_t`**: Implements less icase t functionality
+- **`keyhole`**: Implements keyhole functionality
+
 ### Key Functions
-- `compare()`: Default comparison entry point.
-- `adjust_comparer()`: Default comparison entry point.
-- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in string_sort.hpp
-- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation in string_sort.hpp
-- `ordering_as_int()`: Performs ordering_as_int operation in string_sort.hpp
+- **`keyhole::compare_ordinal_icase()`**: Executes compare ordinal icase operation
+- **`keyhole::compare_ordinal_numeric()`**: Executes compare ordinal numeric operation
+
 ### Namespaces
-- `detail`
 - `string_sort`
+
 ### Summary
-The `string_sort.hpp` file provides essential functionality for string utilities. It defines 5 class(es) and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `string_sort.hpp` file is essential for string manipulation and utilities. It defines 3 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla manipulacji łańcuchami znaków i narzędzi.
+
 ### Kluczowe Klasy
-- `SQLiteDb`: Performs SQLiteDb operation in string_sort.hpp
-- `keyhole`: Performs keyhole operation in string_sort.hpp
-- `less_icase_t`: Performs less_icase_t operation in string_sort.hpp
-- `less_t`: Performs less_t operation in string_sort.hpp
-- `pluginapi_sort_accessor`: Performs pluginapi_sort_accessor operation in string_sort.hpp
+- **`less_t`**: Implements less t functionality
+- **`less_icase_t`**: Implements less icase t functionality
+- **`keyhole`**: Implements keyhole functionality
+
 ### Kluczowe Funkcje
-- `compare()`: Default comparison entry point.
-- `adjust_comparer()`: Default comparison entry point.
-- `compare_ordinal_icase()`: Performs compare_ordinal_icase operation in string_sort.hpp
-- `compare_ordinal_numeric()`: Performs compare_ordinal_numeric operation in string_sort.hpp
-- `ordering_as_int()`: Performs ordering_as_int operation in string_sort.hpp
+- **`keyhole::compare_ordinal_icase()`**: Executes compare ordinal icase operation
+- **`keyhole::compare_ordinal_numeric()`**: Executes compare ordinal numeric operation
+
 ### Przestrzenie nazw
-- `detail`
 - `string_sort`
+
 ### Podsumowanie
-Plik `string_sort.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 5 klas(y) i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `string_sort.hpp` jest niezbędny dla manipulacji łańcuchami znaków i narzędzi. Definiuje 3 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

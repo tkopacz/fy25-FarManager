@@ -1,14 +1,23 @@
 # disable_warnings_in_std_end.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+validator: no-include-guards
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `disable_warnings_in_std_end.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `disable_warnings_in_std_end.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+validator: no-include-guards
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `disable_warnings_in_std_end.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `disable_warnings_in_std_end.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

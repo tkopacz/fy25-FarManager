@@ -1,58 +1,59 @@
 # platform.reg.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for platform-specific operations.
+
 ### Key Classes
-- `enum_key`: Performs enum_key operation in platform.reg.hpp
-- `enum_value`: Performs enum_value operation in platform.reg.hpp
-- `error`: Performs error operation in platform.reg.hpp
-- `exception`: Performs exception operation in platform.reg.hpp
-- `hkey_deleter`: Performs hkey_deleter operation in platform.reg.hpp
-- `key`: Performs key operation in platform.reg.hpp
-- `value`: Performs value operation in platform.reg.hpp
+- **`error`**: Enumeration defining possible values for error
+- **`exception`**: Enumeration defining possible values for exception
+- **`key`**: Enumeration defining possible values for key
+- **`hkey_deleter`**: Implements hkey deleter functionality
+- **`value`**: Implements value functionality
+
 ### Key Functions
-- `close()`: Performs close operation in platform.reg.hpp
-- `native_handle()`: Performs native_handle operation in platform.reg.hpp
-- `enum_keys()`: Performs enum_keys operation in platform.reg.hpp
-- `enum_values()`: Performs enum_values operation in platform.reg.hpp
-- `exits()`: Performs exits operation in platform.reg.hpp
-- `key()`: Performs key operation in platform.reg.hpp
-- `enum_keys_impl()`: Performs enum_keys_impl operation in platform.reg.hpp
-- `enum_values_impl()`: Performs enum_values_impl operation in platform.reg.hpp
-- `name()`: Performs name operation in platform.reg.hpp
-- `type()`: Performs type operation in platform.reg.hpp
+- **`key::open()`**: Opens and initializes the resource for subsequent operations
+- **`key::close()`**: Closes the resource and releases any associated system handles
+- **`key::native_handle()`**: Executes native handle operation
+- **`key::enum_keys()`**: Executes enum keys operation
+- **`key::enum_values()`**: Executes enum values operation
+- **`key::exits()`**: Executes exits operation
+- **`key::get_string()`**: Retrieves the current string value
+- **`key::get_dword()`**: Retrieves the current dword value
+
 ### Namespaces
 - `os`
+
 ### Summary
-The `platform.reg.hpp` file provides essential functionality for core functionality. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `platform.reg.hpp` file is essential for platform-specific operations. It defines 5 class(es) and implements 10 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla operacji specyficznych dla platformy.
+
 ### Kluczowe Klasy
-- `enum_key`: Performs enum_key operation in platform.reg.hpp
-- `enum_value`: Performs enum_value operation in platform.reg.hpp
-- `error`: Performs error operation in platform.reg.hpp
-- `exception`: Performs exception operation in platform.reg.hpp
-- `hkey_deleter`: Performs hkey_deleter operation in platform.reg.hpp
-- `key`: Performs key operation in platform.reg.hpp
-- `value`: Performs value operation in platform.reg.hpp
+- **`error`**: Enumeration defining possible values for error
+- **`exception`**: Enumeration defining possible values for exception
+- **`key`**: Enumeration defining possible values for key
+- **`hkey_deleter`**: Implements hkey deleter functionality
+- **`value`**: Implements value functionality
+
 ### Kluczowe Funkcje
-- `close()`: Performs close operation in platform.reg.hpp
-- `native_handle()`: Performs native_handle operation in platform.reg.hpp
-- `enum_keys()`: Performs enum_keys operation in platform.reg.hpp
-- `enum_values()`: Performs enum_values operation in platform.reg.hpp
-- `exits()`: Performs exits operation in platform.reg.hpp
-- `key()`: Performs key operation in platform.reg.hpp
-- `enum_keys_impl()`: Performs enum_keys_impl operation in platform.reg.hpp
-- `enum_values_impl()`: Performs enum_values_impl operation in platform.reg.hpp
-- `name()`: Performs name operation in platform.reg.hpp
-- `type()`: Performs type operation in platform.reg.hpp
+- **`key::open()`**: Opens and initializes the resource for subsequent operations
+- **`key::close()`**: Closes the resource and releases any associated system handles
+- **`key::native_handle()`**: Executes native handle operation
+- **`key::enum_keys()`**: Executes enum keys operation
+- **`key::enum_values()`**: Executes enum values operation
+- **`key::exits()`**: Executes exits operation
+- **`key::get_string()`**: Retrieves the current string value
+- **`key::get_dword()`**: Retrieves the current dword value
+
 ### Przestrzenie nazw
 - `os`
+
 ### Podsumowanie
-Plik `platform.reg.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `platform.reg.hpp` jest niezbędny dla operacji specyficznych dla platformy. Definiuje 5 klas(y) i implementuje 10 funkcji wspierających operacje menedżera plików Far Manager.

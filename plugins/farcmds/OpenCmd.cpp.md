@@ -1,38 +1,61 @@
 # OpenCmd.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: fn - имя файла, откуда читать
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `getCurrDir()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `closeHandle()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `killTemp()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `createFile()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `createFileStream()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `clearScreen()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `restoreScreen()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `isDevice()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `validForView()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `showPartOfOutput()`: нитка параллельного вывода на экран для ":<+"
+- **`getCurrDir()`**: Retrieves the current curr dir value
+- **`closeHandle()`**: Executes close handle operation
+- **`killTemp()`**: Executes kill temp operation
+- **`createFile()`**: Constructs and returns a new file object
+- **`createFileStream()`**: Constructs and returns a new file stream object
+- **`clearScreen()`**: Executes clear screen operation
+- **`restoreScreen()`**: Executes restore screen operation
+- **`isDevice()`**: Checks whether device condition is true
+- **`validForView()`**: Executes valid for view operation
+- **`showPartOfOutput()`**: Executes show part of output operation
+- **`MakeTempNames()`**: Executes make temp names operation
+- **`GetStreamAndMode()`**: Retrieves the current stream and mode value
+- **`__getContent()`**: Executes get content operation
+- **`__proc_Load()`**: Executes proc load operation
+- **`__proc_Unload()`**: Executes proc unload operation
+- **`__proc_Goto()`**: Executes proc goto operation
+- **`__proc_WhereIs()`**: Executes proc where is operation
+- **`__proc_Link()`**: Executes proc link operation
+- **`OpenFromCommandLine()`**: Executes open from command line operation
+
 ### Summary
-The `OpenCmd.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `OpenCmd.cpp` file is essential for core functionality. It implements 19 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: fn - имя файла, откуда читать
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `getCurrDir()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `closeHandle()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `killTemp()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `createFile()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `createFileStream()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `clearScreen()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `restoreScreen()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `isDevice()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `validForView()`: Opens and manages a file in OpenCmd.cpp, handling resource cleanup
-- `showPartOfOutput()`: нитка параллельного вывода на экран для ":<+"
+- **`getCurrDir()`**: Retrieves the current curr dir value
+- **`closeHandle()`**: Executes close handle operation
+- **`killTemp()`**: Executes kill temp operation
+- **`createFile()`**: Constructs and returns a new file object
+- **`createFileStream()`**: Constructs and returns a new file stream object
+- **`clearScreen()`**: Executes clear screen operation
+- **`restoreScreen()`**: Executes restore screen operation
+- **`isDevice()`**: Checks whether device condition is true
+- **`validForView()`**: Executes valid for view operation
+- **`showPartOfOutput()`**: Executes show part of output operation
+- **`MakeTempNames()`**: Executes make temp names operation
+- **`GetStreamAndMode()`**: Retrieves the current stream and mode value
+- **`__getContent()`**: Executes get content operation
+- **`__proc_Load()`**: Executes proc load operation
+- **`__proc_Unload()`**: Executes proc unload operation
+- **`__proc_Goto()`**: Executes proc goto operation
+- **`__proc_WhereIs()`**: Executes proc where is operation
+- **`__proc_Link()`**: Executes proc link operation
+- **`OpenFromCommandLine()`**: Executes open from command line operation
+
 ### Podsumowanie
-Plik `OpenCmd.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `OpenCmd.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 19 funkcji wspierających operacje menedżera plików Far Manager.

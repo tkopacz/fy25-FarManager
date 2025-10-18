@@ -1,52 +1,55 @@
 # enum_tokens.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `composite_overrider`: Performs composite_overrider operation in enum_tokens.hpp
-- `custom_policy`: Performs custom_policy operation in enum_tokens.hpp
-- `null_overrider`: Performs null_overrider operation in enum_tokens.hpp
-- `quotes_overrider`: Performs quotes_overrider operation in enum_tokens.hpp
-- `simple_policy`: Performs simple_policy operation in enum_tokens.hpp
-- `trimmer`: Performs trimmer operation in enum_tokens.hpp
+- **`null_overrider`**: Implements null overrider functionality
+- **`quotes_overrider`**: Implements quotes overrider functionality
+- **`trimmer`**: Implements trimmer functionality
+- **`simple_policy`**: Implements simple policy functionality
+- **`custom_policy`**: Implements custom policy functionality
+
 ### Key Functions
-- `reset()`: Performs reset operation in enum_tokens.hpp
-- `active()`: Performs active operation in enum_tokens.hpp
-- `postprocess()`: Performs postprocess operation in enum_tokens.hpp
-- `reset_impl()`: Performs reset_impl operation in enum_tokens.hpp
-- `active_impl()`: Performs active_impl operation in enum_tokens.hpp
-- `postprocess_impl()`: Iterates through elements in enum_tokens.hpp and adds them to a collection
-- `get_opt()`: Retrieves _opt value in enum_tokens.hpp
-- `extract()`: Iterates through elements in enum_tokens.hpp and adds them to a collection
-- `get()`: Checks a condition in enum_tokens.hpp and returns true or false based on the result
+- **`enum_tokens_t()`**: Executes enum tokens t operation
+- **`null_overrider::reset()`**: Restores the object to its default initialized state
+- **`quotes_overrider::reset()`**: Restores the object to its default initialized state
+- **`trimmer::postprocess()`**: Executes postprocess operation
+- **`simple_policy::extract()`**: Executes extract operation
+- **`custom_policy::extract()`**: Executes extract operation
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `enum_tokens.hpp` file provides essential functionality for core functionality. It defines 6 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `enum_tokens.hpp` file is essential for core functionality. It defines 5 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `composite_overrider`: Performs composite_overrider operation in enum_tokens.hpp
-- `custom_policy`: Performs custom_policy operation in enum_tokens.hpp
-- `null_overrider`: Performs null_overrider operation in enum_tokens.hpp
-- `quotes_overrider`: Performs quotes_overrider operation in enum_tokens.hpp
-- `simple_policy`: Performs simple_policy operation in enum_tokens.hpp
-- `trimmer`: Performs trimmer operation in enum_tokens.hpp
+- **`null_overrider`**: Implements null overrider functionality
+- **`quotes_overrider`**: Implements quotes overrider functionality
+- **`trimmer`**: Implements trimmer functionality
+- **`simple_policy`**: Implements simple policy functionality
+- **`custom_policy`**: Implements custom policy functionality
+
 ### Kluczowe Funkcje
-- `reset()`: Performs reset operation in enum_tokens.hpp
-- `active()`: Performs active operation in enum_tokens.hpp
-- `postprocess()`: Performs postprocess operation in enum_tokens.hpp
-- `reset_impl()`: Performs reset_impl operation in enum_tokens.hpp
-- `active_impl()`: Performs active_impl operation in enum_tokens.hpp
-- `postprocess_impl()`: Iterates through elements in enum_tokens.hpp and adds them to a collection
-- `get_opt()`: Retrieves _opt value in enum_tokens.hpp
-- `extract()`: Iterates through elements in enum_tokens.hpp and adds them to a collection
-- `get()`: Checks a condition in enum_tokens.hpp and returns true or false based on the result
+- **`enum_tokens_t()`**: Executes enum tokens t operation
+- **`null_overrider::reset()`**: Restores the object to its default initialized state
+- **`quotes_overrider::reset()`**: Restores the object to its default initialized state
+- **`trimmer::postprocess()`**: Executes postprocess operation
+- **`simple_policy::extract()`**: Executes extract operation
+- **`custom_policy::extract()`**: Executes extract operation
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `enum_tokens.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 6 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `enum_tokens.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 5 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

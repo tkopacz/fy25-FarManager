@@ -1,54 +1,47 @@
 # zip.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Second-level plugin module for FAR Manager and MultiArc plugin
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ExtraBlockHeader`: Performs ExtraBlockHeader operation in zip.cpp
-- `NTFSAttributeHeader`: Performs NTFSAttributeHeader operation in zip.cpp
-- `TimesAttribute`: Performs TimesAttribute operation in zip.cpp
-- `ZIP64Descriptor`: Performs ZIP64Descriptor operation in zip.cpp
-- `ZipHdr1`: Performs ZipHdr1 operation in zip.cpp
-- `ZipHdr2`: Performs ZipHdr2 operation in zip.cpp
-- `ZipHeader`: Performs ZipHeader operation in zip.cpp
+- **`ZipHeader`**: Implements zip header functionality
+- **`ZipHdr1`**: Implements zip hdr1 functionality
+- **`ZipHdr2`**: Implements zip hdr2 functionality
+- **`ExtraBlockHeader`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`NTFSAttributeHeader`**: Implements ntfsattribute header functionality
+- **`TimesAttribute`**: Implements times attribute functionality
+- **`ZIP64Descriptor`**: Implements zip64descriptor functionality
+
 ### Key Functions
-- `IsValidHeader()`: Iterates through elements in zip.cpp and adds them to a collection
-- `GetFilePosition()`: Iterates through elements in zip.cpp and adds them to a collection
-- `IsZIPFileMagic()`: Iterates through elements in zip.cpp and adds them to a collection
-- `IsArchive()`: version is in the low byte
-- `OpenArchive()`: Opens a file or creates a file handle in zip.cpp
-- `GetArcItem()`: Retrieves ArcItem value in zip.cpp
-- `SetFilePointer()`: Iterates through elements in zip.cpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in zip.cpp and adds them to a collection
-- `GetSFXPos()`: Iterates through elements in zip.cpp and adds them to a collection
-- `GetFormatName()`: Iterates through elements in zip.cpp and adds them to a collection
+- **`IsValidHeader()`**: Checks whether valid header condition is true
+- **`GetFilePosition()`**: Retrieves the current file position value
+- **`IsZIPFileMagic()`**: Checks whether zipfile magic condition is true
+
 ### Summary
-The `zip.cpp` file provides essential functionality for core functionality. It defines 7 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `zip.cpp` file is essential for core functionality. It defines 7 class(es) and implements 3 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Second-level plugin module for FAR Manager and MultiArc plugin
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ExtraBlockHeader`: Performs ExtraBlockHeader operation in zip.cpp
-- `NTFSAttributeHeader`: Performs NTFSAttributeHeader operation in zip.cpp
-- `TimesAttribute`: Performs TimesAttribute operation in zip.cpp
-- `ZIP64Descriptor`: Performs ZIP64Descriptor operation in zip.cpp
-- `ZipHdr1`: Performs ZipHdr1 operation in zip.cpp
-- `ZipHdr2`: Performs ZipHdr2 operation in zip.cpp
-- `ZipHeader`: Performs ZipHeader operation in zip.cpp
+- **`ZipHeader`**: Implements zip header functionality
+- **`ZipHdr1`**: Implements zip hdr1 functionality
+- **`ZipHdr2`**: Implements zip hdr2 functionality
+- **`ExtraBlockHeader`**: RAII guard ensuring proper resource locking and automatic unlocking on scope exit
+- **`NTFSAttributeHeader`**: Implements ntfsattribute header functionality
+- **`TimesAttribute`**: Implements times attribute functionality
+- **`ZIP64Descriptor`**: Implements zip64descriptor functionality
+
 ### Kluczowe Funkcje
-- `IsValidHeader()`: Iterates through elements in zip.cpp and adds them to a collection
-- `GetFilePosition()`: Iterates through elements in zip.cpp and adds them to a collection
-- `IsZIPFileMagic()`: Iterates through elements in zip.cpp and adds them to a collection
-- `IsArchive()`: version is in the low byte
-- `OpenArchive()`: Opens a file or creates a file handle in zip.cpp
-- `GetArcItem()`: Retrieves ArcItem value in zip.cpp
-- `SetFilePointer()`: Iterates through elements in zip.cpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in zip.cpp and adds them to a collection
-- `GetSFXPos()`: Iterates through elements in zip.cpp and adds them to a collection
-- `GetFormatName()`: Iterates through elements in zip.cpp and adds them to a collection
+- **`IsValidHeader()`**: Checks whether valid header condition is true
+- **`GetFilePosition()`**: Retrieves the current file position value
+- **`IsZIPFileMagic()`**: Checks whether zipfile magic condition is true
+
 ### Podsumowanie
-Plik `zip.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 7 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `zip.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 7 klas(y) i implementuje 3 funkcji wspierających operacje menedżera plików Far Manager.

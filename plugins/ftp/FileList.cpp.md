@@ -1,26 +1,31 @@
 # FileList.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Functions
-- `UType2Str()`: Opens a file or creates a file handle in FileList.cpp
-- `Str2UType()`: Opens a file or creates a file handle in FileList.cpp
-- `GetOtherPath()`: Opens a file or creates a file handle in FileList.cpp
-- `FMSG()`: Opens a file or creates a file handle in FileList.cpp
-- `SayOutError()`: Opens a file or creates a file handle in FileList.cpp
+- **`UType2Str()`**: Executes utype2str operation
+- **`Str2UType()`**: Executes str2utype operation
+- **`GetOtherPath()`**: Retrieves the current other path value
+- **`SayOutError()`**: Executes say out error operation
+
 ### Summary
-The `FileList.cpp` file provides essential functionality for file system operations. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `FileList.cpp` file is essential for file operations. It implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Funkcje
-- `UType2Str()`: Opens a file or creates a file handle in FileList.cpp
-- `Str2UType()`: Opens a file or creates a file handle in FileList.cpp
-- `GetOtherPath()`: Opens a file or creates a file handle in FileList.cpp
-- `FMSG()`: Opens a file or creates a file handle in FileList.cpp
-- `SayOutError()`: Opens a file or creates a file handle in FileList.cpp
+- **`UType2Str()`**: Executes utype2str operation
+- **`Str2UType()`**: Executes str2utype operation
+- **`GetOtherPath()`**: Retrieves the current other path value
+- **`SayOutError()`**: Executes say out error operation
+
 ### Podsumowanie
-Plik `FileList.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FileList.cpp` jest niezbędny dla operacji na plikach. Implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

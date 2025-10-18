@@ -1,46 +1,37 @@
 # FarDlgBuilder.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Динамическое конструирование диалогов - версия для внутреннего употребления в FAR
-Main functional areas: dialog handling
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DialogBuilder`: Performs DialogBuilder operation in FarDlgBuilder.hpp
-- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in FarDlgBuilder.hpp
-- `lng`: Performs lng operation in FarDlgBuilder.hpp
+- **`lng_string`**: Enumeration defining possible values for lng string
+- **`DialogBuilderListItem`**: Enumeration defining possible values for dialog builder list item
+- **`DialogBuilder`**: Implements dialog builder functionality
+
 ### Key Functions
-- `c_str()`: Performs c_str operation in FarDlgBuilder.hpp
-- `str()`: Performs str operation in FarDlgBuilder.hpp
-- `value()`: Performs value operation in FarDlgBuilder.hpp
-- `flags()`: Performs flags operation in FarDlgBuilder.hpp
-- `DialogBuilder()`: Performs DialogBuilder operation in FarDlgBuilder.hpp
-- `AddText()`: Performs AddText operation in FarDlgBuilder.hpp
-- `AddCheckbox()`: Performs AddCheckbox operation in FarDlgBuilder.hpp
-- `AddTextBefore()`: Performs AddTextBefore operation in FarDlgBuilder.hpp
-- `AddTextAfter()`: Performs AddTextAfter operation in FarDlgBuilder.hpp
-- `AddButtonAfter()`: Performs AddButtonAfter operation in FarDlgBuilder.hpp
+- **`automation()`**: Executes automation operation
+- **`lng_string::c_str()`**: Executes c str operation
+
 ### Summary
-The `FarDlgBuilder.hpp` file provides essential functionality for dialog handling. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `FarDlgBuilder.hpp` file is essential for core functionality. It defines 3 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Динамическое конструирование диалогов - версия для внутреннего употребления в FAR
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DialogBuilder`: Performs DialogBuilder operation in FarDlgBuilder.hpp
-- `DialogBuilderListItem`: Performs DialogBuilderListItem operation in FarDlgBuilder.hpp
-- `lng`: Performs lng operation in FarDlgBuilder.hpp
+- **`lng_string`**: Enumeration defining possible values for lng string
+- **`DialogBuilderListItem`**: Enumeration defining possible values for dialog builder list item
+- **`DialogBuilder`**: Implements dialog builder functionality
+
 ### Kluczowe Funkcje
-- `c_str()`: Performs c_str operation in FarDlgBuilder.hpp
-- `str()`: Performs str operation in FarDlgBuilder.hpp
-- `value()`: Performs value operation in FarDlgBuilder.hpp
-- `flags()`: Performs flags operation in FarDlgBuilder.hpp
-- `DialogBuilder()`: Performs DialogBuilder operation in FarDlgBuilder.hpp
-- `AddText()`: Performs AddText operation in FarDlgBuilder.hpp
-- `AddCheckbox()`: Performs AddCheckbox operation in FarDlgBuilder.hpp
-- `AddTextBefore()`: Performs AddTextBefore operation in FarDlgBuilder.hpp
-- `AddTextAfter()`: Performs AddTextAfter operation in FarDlgBuilder.hpp
-- `AddButtonAfter()`: Performs AddButtonAfter operation in FarDlgBuilder.hpp
+- **`automation()`**: Executes automation operation
+- **`lng_string::c_str()`**: Executes c str operation
+
 ### Podsumowanie
-Plik `FarDlgBuilder.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarDlgBuilder.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 3 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

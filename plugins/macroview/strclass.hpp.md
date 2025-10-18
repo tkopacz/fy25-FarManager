@@ -1,38 +1,43 @@
 # strclass.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: string utilities
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `TStrList`: Performs TStrList operation in strclass.hpp
+- **`TStrList`**: Container class managing collection of tstr
+
 ### Key Functions
-- `DeleteList()`: Deletes or removes an item or resource in strclass.hpp
-- `Clear()`: Performs Clear operation in strclass.hpp
-- `Add()`: Performs Add operation in strclass.hpp
-- `Insert()`: Performs Insert operation in strclass.hpp
-- `Delete()`: Deletes or removes an item or resource in strclass.hpp
-- `GetText()`: Retrieves Text value in strclass.hpp
-- `SetText()`: Sets or updates Text value in strclass.hpp
-- `GetCount()`: Retrieves Count value in strclass.hpp
-- `Sort()`: Performs Sort operation in strclass.hpp
+- **`TStrList::Clear()`**: Removes all content and resets to empty state
+- **`TStrList::Add()`**: Adds new element(s) to the collection
+- **`TStrList::Insert()`**: Adds new element(s) to the collection
+- **`TStrList::Delete()`**: Removes element(s) from the collection
+- **`TStrList::GetText()`**: Retrieves text data from text
+- **`TStrList::SetText()`**: Stores text data to text
+- **`TStrList::GetCount()`**: Retrieves the current count value
+
 ### Summary
-The `strclass.hpp` file provides essential functionality for string utilities. It defines 1 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `strclass.hpp` file is essential for core functionality. It defines 1 class(es) and implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: narzędzia łańcuchowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `TStrList`: Performs TStrList operation in strclass.hpp
+- **`TStrList`**: Container class managing collection of tstr
+
 ### Kluczowe Funkcje
-- `DeleteList()`: Deletes or removes an item or resource in strclass.hpp
-- `Clear()`: Performs Clear operation in strclass.hpp
-- `Add()`: Performs Add operation in strclass.hpp
-- `Insert()`: Performs Insert operation in strclass.hpp
-- `Delete()`: Deletes or removes an item or resource in strclass.hpp
-- `GetText()`: Retrieves Text value in strclass.hpp
-- `SetText()`: Sets or updates Text value in strclass.hpp
-- `GetCount()`: Retrieves Count value in strclass.hpp
-- `Sort()`: Performs Sort operation in strclass.hpp
+- **`TStrList::Clear()`**: Removes all content and resets to empty state
+- **`TStrList::Add()`**: Adds new element(s) to the collection
+- **`TStrList::Insert()`**: Adds new element(s) to the collection
+- **`TStrList::Delete()`**: Removes element(s) from the collection
+- **`TStrList::GetText()`**: Retrieves text data from text
+- **`TStrList::SetText()`**: Stores text data to text
+- **`TStrList::GetCount()`**: Retrieves the current count value
+
 ### Podsumowanie
-Plik `strclass.hpp` zapewnia podstawową funkcjonalność dla narzędzia łańcuchowe. Definiuje 1 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `strclass.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

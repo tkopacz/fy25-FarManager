@@ -1,54 +1,53 @@
 # exception_handler_test.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: testing
+This file implements functionality for exception handling and error management.
+
 ### Key Classes
-- `base`: Performs base operation in exception_handler_test.cpp
-- `c`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `data`: Performs data operation in exception_handler_test.cpp
-- `derived1`: Performs derived1 operation in exception_handler_test.cpp
-- `derived2`: Performs derived2 operation in exception_handler_test.cpp
-- `test`: Performs test operation in exception_handler_test.cpp
+- **`c`**: Implements c functionality
+- **`test`**: Implements test functionality
+- **`base`**: Implements base functionality
+- **`data`**: Implements data functionality
+
 ### Key Functions
-- `cpp_far()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `far_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_far_rethrow()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_far_fatal()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `far_fatal_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_lib()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_nested()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_nested_thread()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_bad_alloc()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- **`trace()`**: Executes trace operation
+- **`ExceptionTestHook()`**: Executes exception test hook operation
+- **`RegisterTestExceptionsHook()`**: Executes register test exceptions hook operation
+- **`c::far_exception()`**: Executes far exception operation
+- **`test::throw_exception()`**: Executes throw exception operation
+- **`test::far_exception()`**: Executes far exception operation
+
 ### Namespaces
 - `tests`
+
 ### Summary
-The `exception_handler_test.cpp` file provides essential functionality for testing. It defines 6 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `exception_handler_test.cpp` file is essential for exception handling and error management. It defines 4 class(es) and implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: testowanie
+Ten plik implementuje funkcjonalność dla obsługi wyjątków i zarządzania błędami.
+
 ### Kluczowe Klasy
-- `base`: Performs base operation in exception_handler_test.cpp
-- `c`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `data`: Performs data operation in exception_handler_test.cpp
-- `derived1`: Performs derived1 operation in exception_handler_test.cpp
-- `derived2`: Performs derived2 operation in exception_handler_test.cpp
-- `test`: Performs test operation in exception_handler_test.cpp
+- **`c`**: Implements c functionality
+- **`test`**: Implements test functionality
+- **`base`**: Implements base functionality
+- **`data`**: Implements data functionality
+
 ### Kluczowe Funkcje
-- `cpp_far()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `far_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_far_rethrow()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_far_fatal()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `far_fatal_exception()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_lib()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_nested()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_nested_thread()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
-- `cpp_std_bad_alloc()`: Validates a condition in exception_handler_test.cpp and throws an exception if the validation fails
+- **`trace()`**: Executes trace operation
+- **`ExceptionTestHook()`**: Executes exception test hook operation
+- **`RegisterTestExceptionsHook()`**: Executes register test exceptions hook operation
+- **`c::far_exception()`**: Executes far exception operation
+- **`test::throw_exception()`**: Executes throw exception operation
+- **`test::far_exception()`**: Executes far exception operation
+
 ### Przestrzenie nazw
 - `tests`
+
 ### Podsumowanie
-Plik `exception_handler_test.cpp` zapewnia podstawową funkcjonalność dla testowanie. Definiuje 6 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `exception_handler_test.cpp` jest niezbędny dla obsługi wyjątków i zarządzania błędami. Definiuje 4 klas(y) i implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

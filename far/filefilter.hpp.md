@@ -1,50 +1,33 @@
 # filefilter.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Файловый фильтр
-Main functional areas: file system operations
+This file implements functionality for file operations.
+
 ### Key Classes
-- `filter_area`: Performs filter_area operation in filefilter.hpp
-- `filter_result`: Performs filter_result operation in filefilter.hpp
-- `multifilter`: Performs multifilter operation in filefilter.hpp
-### Key Functions
-- `bool()`: Performs bool operation in filefilter.hpp
-- `UpdateCurrentTime()`: Updates existing data or state in filefilter.hpp
-- `FileInFilterEx()`: Performs FileInFilterEx operation in filefilter.hpp
-- `FileInFilter()`: Performs FileInFilter operation in filefilter.hpp
-- `IsEnabledOnPanel()`: Checks a condition in filefilter.hpp and returns the result
-- `area()`: Performs area operation in filefilter.hpp
-- `panel()`: Performs panel operation in filefilter.hpp
-- `should_include_folders_by_default()`: Performs should_include_folders_by_default operation in filefilter.hpp
-- `LoadFilter()`: Performs LoadFilter operation in filefilter.hpp
-- `SaveFilter()`: Performs SaveFilter operation in filefilter.hpp
+- **`filter_action`**: Enumeration defining possible values for filter action
+- **`filter_result`**: Enumeration defining possible values for filter result
+
 ### Namespaces
 - `filters`
+
 ### Summary
-The `filefilter.hpp` file provides essential functionality for file system operations. It defines 3 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `filefilter.hpp` file is essential for file operations. It defines 2 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Файловый фильтр
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla operacji na plikach.
+
 ### Kluczowe Klasy
-- `filter_area`: Performs filter_area operation in filefilter.hpp
-- `filter_result`: Performs filter_result operation in filefilter.hpp
-- `multifilter`: Performs multifilter operation in filefilter.hpp
-### Kluczowe Funkcje
-- `bool()`: Performs bool operation in filefilter.hpp
-- `UpdateCurrentTime()`: Updates existing data or state in filefilter.hpp
-- `FileInFilterEx()`: Performs FileInFilterEx operation in filefilter.hpp
-- `FileInFilter()`: Performs FileInFilter operation in filefilter.hpp
-- `IsEnabledOnPanel()`: Checks a condition in filefilter.hpp and returns the result
-- `area()`: Performs area operation in filefilter.hpp
-- `panel()`: Performs panel operation in filefilter.hpp
-- `should_include_folders_by_default()`: Performs should_include_folders_by_default operation in filefilter.hpp
-- `LoadFilter()`: Performs LoadFilter operation in filefilter.hpp
-- `SaveFilter()`: Performs SaveFilter operation in filefilter.hpp
+- **`filter_action`**: Enumeration defining possible values for filter action
+- **`filter_result`**: Enumeration defining possible values for filter result
+
 ### Przestrzenie nazw
 - `filters`
+
 ### Podsumowanie
-Plik `filefilter.hpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. Definiuje 3 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `filefilter.hpp` jest niezbędny dla operacji na plikach. Definiuje 2 klas(y) wspierających operacje menedżera plików Far Manager.

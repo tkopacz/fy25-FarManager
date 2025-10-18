@@ -1,20 +1,19 @@
 # msgError.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
-### Key Functions
-- `msgError()`: Performs msgError operation in msgError.cpp
-- `message()`: Performs message operation in msgError.cpp
+This file implements functionality for exception handling and error management.
+
 ### Summary
-The `msgError.cpp` file provides essential functionality for core functionality. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `msgError.cpp` file is essential for exception handling and error management. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
-### Kluczowe Funkcje
-- `msgError()`: Performs msgError operation in msgError.cpp
-- `message()`: Performs message operation in msgError.cpp
+Ten plik implementuje funkcjonalność dla obsługi wyjątków i zarządzania błędami.
+
 ### Podsumowanie
-Plik `msgError.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `msgError.cpp` jest niezbędny dla obsługi wyjątków i zarządzania błędami. wspierających operacje menedżera plików Far Manager.

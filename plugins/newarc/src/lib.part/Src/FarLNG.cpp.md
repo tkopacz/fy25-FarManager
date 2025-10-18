@@ -1,36 +1,45 @@
 # FarLNG.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for language file processing and localization.
+
 ### Key Functions
-- `IsEOL()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `IsEmpty()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `CutTo()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `CutToSlash()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `GetLngHlfParam()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `FindQuotedSubstr()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `TranslateMessage()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `ScanMsgsBuf()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `LoadLanguageFile()`: Opens and manages a file in FarLNG.cpp, handling resource cleanup
-- `SearchAndLoadLanguageFile()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- **`IsEOL()`**: Checks whether eol condition is true
+- **`IsEmpty()`**: Checks whether empty condition is true
+- **`CutTo()`**: Executes cut to operation
+- **`CutToSlash()`**: Executes cut to slash operation
+- **`GetLngHlfParam()`**: Retrieves the current lng hlf param value
+- **`FindQuotedSubstr()`**: Executes find quoted substr operation
+- **`TranslateMessage()`**: Executes translate message operation
+- **`ScanMsgsBuf()`**: Executes scan msgs buf operation
+- **`LoadLanguageFile()`**: Executes load language file operation
+- **`SearchAndLoadLanguageFile()`**: Executes search and load language file operation
+- **`FinalizeLanguageStrings()`**: Executes finalize language strings operation
+
 ### Summary
-The `FarLNG.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `FarLNG.cpp` file is essential for language file processing and localization. It implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla przetwarzania plików językowych i lokalizacji.
+
 ### Kluczowe Funkcje
-- `IsEOL()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `IsEmpty()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `CutTo()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `CutToSlash()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `GetLngHlfParam()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `FindQuotedSubstr()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `TranslateMessage()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `ScanMsgsBuf()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
-- `LoadLanguageFile()`: Opens and manages a file in FarLNG.cpp, handling resource cleanup
-- `SearchAndLoadLanguageFile()`: Checks a condition in FarLNG.cpp and returns true or false based on the result
+- **`IsEOL()`**: Checks whether eol condition is true
+- **`IsEmpty()`**: Checks whether empty condition is true
+- **`CutTo()`**: Executes cut to operation
+- **`CutToSlash()`**: Executes cut to slash operation
+- **`GetLngHlfParam()`**: Retrieves the current lng hlf param value
+- **`FindQuotedSubstr()`**: Executes find quoted substr operation
+- **`TranslateMessage()`**: Executes translate message operation
+- **`ScanMsgsBuf()`**: Executes scan msgs buf operation
+- **`LoadLanguageFile()`**: Executes load language file operation
+- **`SearchAndLoadLanguageFile()`**: Executes search and load language file operation
+- **`FinalizeLanguageStrings()`**: Executes finalize language strings operation
+
 ### Podsumowanie
-Plik `FarLNG.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `FarLNG.cpp` jest niezbędny dla przetwarzania plików językowych i lokalizacji. Implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

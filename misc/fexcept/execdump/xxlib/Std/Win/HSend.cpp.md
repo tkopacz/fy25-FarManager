@@ -1,36 +1,35 @@
 # HSend.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `GetCompName()`: Retrieves CompName value in HSend.cpp
-- `_FWrite()`: Performs _FWrite operation in HSend.cpp
-- `FIOWrite()`: Performs FIOWrite operation in HSend.cpp
-- `_FRead()`: Performs _FRead operation in HSend.cpp
-- `FIORead()`: Performs FIORead operation in HSend.cpp
-- `idPipeNameProc()`: Opens and manages a file in HSend.cpp, handling resource cleanup
-- `Create()`: Checks a condition in HSend.cpp and returns true or false based on the result
-- `Close()`: Checks a condition in HSend.cpp and returns true or false based on the result
-- `HPipeChannel()`: Network name (as requested in NameLocate)
-- `LocateNet()`: Find by reristered global name
+- **`GetCompName()`**: Retrieves the current comp name value
+- **`_FWrite()`**: Executes fwrite operation
+- **`_FRead()`**: Executes fread operation
+- **`FreeLocals()`**: Executes free locals operation
+- **`CreateLocals()`**: Constructs and returns a new locals object
+- **`ForceLocal()`**: Executes force local operation
+
 ### Summary
-The `HSend.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `HSend.cpp` file is essential for core functionality. It implements 6 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `GetCompName()`: Retrieves CompName value in HSend.cpp
-- `_FWrite()`: Performs _FWrite operation in HSend.cpp
-- `FIOWrite()`: Performs FIOWrite operation in HSend.cpp
-- `_FRead()`: Performs _FRead operation in HSend.cpp
-- `FIORead()`: Performs FIORead operation in HSend.cpp
-- `idPipeNameProc()`: Opens and manages a file in HSend.cpp, handling resource cleanup
-- `Create()`: Checks a condition in HSend.cpp and returns true or false based on the result
-- `Close()`: Checks a condition in HSend.cpp and returns true or false based on the result
-- `HPipeChannel()`: Network name (as requested in NameLocate)
-- `LocateNet()`: Find by reristered global name
+- **`GetCompName()`**: Retrieves the current comp name value
+- **`_FWrite()`**: Executes fwrite operation
+- **`_FRead()`**: Executes fread operation
+- **`FreeLocals()`**: Executes free locals operation
+- **`CreateLocals()`**: Constructs and returns a new locals object
+- **`ForceLocal()`**: Executes force local operation
+
 ### Podsumowanie
-Plik `HSend.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `HSend.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 6 funkcji wspierających operacje menedżera plików Far Manager.

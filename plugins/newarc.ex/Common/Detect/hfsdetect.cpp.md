@@ -1,18 +1,25 @@
 # hfsdetect.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: file system operations
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `IsHfsHeader()`: Iterates through elements in hfsdetect.cpp and adds them to a collection
+- **`IsHfsHeader()`**: Checks whether hfs header condition is true
+
 ### Summary
-The `hfsdetect.cpp` file provides essential functionality for file system operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `hfsdetect.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: operacje systemu plików
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `IsHfsHeader()`: Iterates through elements in hfsdetect.cpp and adds them to a collection
+- **`IsHfsHeader()`**: Checks whether hfs header condition is true
+
 ### Podsumowanie
-Plik `hfsdetect.cpp` zapewnia podstawową funkcjonalność dla operacje systemu plików. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `hfsdetect.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

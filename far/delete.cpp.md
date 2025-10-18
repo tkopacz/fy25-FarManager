@@ -1,48 +1,57 @@
 # delete.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Удаление файлов
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ShellDelete`: Performs ShellDelete operation in delete.cpp
-- `delete_progress`: Deletes or removes an item or resource in delete.cpp
-- `progress`: Performs progress operation in delete.cpp
-- `total_items`: Performs total_items operation in delete.cpp
+- **`total_items`**: Implements total items functionality
+- **`progress`**: Implements progress functionality
+
 ### Key Functions
-- `set_wipe_percent()`: Sets or updates _wipe_percent value in delete.cpp
-- `update()`: Updates existing data or state in delete.cpp
-- `ConfirmDeleteReadOnlyFile()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `ShellRemoveFile()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `ERemoveDirectory()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `RemoveToRecycleBin()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `process_item()`: Processes input data in delete.cpp
-- `EraseFileData()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `TimeCheck()`: FILE_READ_DATA is for sparse files
-- `CharDist()`: Checks a condition in delete.cpp and returns true or false based on the result
+- **`delete_progress()`**: Executes delete progress operation
+- **`EraseFileData()`**: Executes erase file data operation
+- **`EraseFile()`**: Executes erase file operation
+- **`EraseDirectory()`**: Executes erase directory operation
+- **`show_confirmation()`**: Executes show confirmation operation
+- **`calculate_total()`**: Executes calculate total operation
+- **`confirm_erase_file_with_hardlinks()`**: Executes confirm erase file with hardlinks operation
+- **`erase_file_with_retry()`**: Executes erase file with retry operation
+- **`delete_file_with_retry()`**: Executes delete file with retry operation
+- **`break_links_for_old_os()`**: Executes break links for old os operation
+- **`DeleteDirTree()`**: Executes delete dir tree operation
+- **`DeleteFileWithFolder()`**: Executes delete file with folder operation
+- **`Delete()`**: Removes element(s) from the collection
+
 ### Summary
-The `delete.cpp` file provides essential functionality for core functionality. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `delete.cpp` file is essential for core functionality. It defines 2 class(es) and implements 13 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Удаление файлов
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ShellDelete`: Performs ShellDelete operation in delete.cpp
-- `delete_progress`: Deletes or removes an item or resource in delete.cpp
-- `progress`: Performs progress operation in delete.cpp
-- `total_items`: Performs total_items operation in delete.cpp
+- **`total_items`**: Implements total items functionality
+- **`progress`**: Implements progress functionality
+
 ### Kluczowe Funkcje
-- `set_wipe_percent()`: Sets or updates _wipe_percent value in delete.cpp
-- `update()`: Updates existing data or state in delete.cpp
-- `ConfirmDeleteReadOnlyFile()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `ShellRemoveFile()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `ERemoveDirectory()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `RemoveToRecycleBin()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `process_item()`: Processes input data in delete.cpp
-- `EraseFileData()`: Checks a condition in delete.cpp and returns true or false based on the result
-- `TimeCheck()`: FILE_READ_DATA is for sparse files
-- `CharDist()`: Checks a condition in delete.cpp and returns true or false based on the result
+- **`delete_progress()`**: Executes delete progress operation
+- **`EraseFileData()`**: Executes erase file data operation
+- **`EraseFile()`**: Executes erase file operation
+- **`EraseDirectory()`**: Executes erase directory operation
+- **`show_confirmation()`**: Executes show confirmation operation
+- **`calculate_total()`**: Executes calculate total operation
+- **`confirm_erase_file_with_hardlinks()`**: Executes confirm erase file with hardlinks operation
+- **`erase_file_with_retry()`**: Executes erase file with retry operation
+- **`delete_file_with_retry()`**: Executes delete file with retry operation
+- **`break_links_for_old_os()`**: Executes break links for old os operation
+- **`DeleteDirTree()`**: Executes delete dir tree operation
+- **`DeleteFileWithFolder()`**: Executes delete file with folder operation
+- **`Delete()`**: Removes element(s) from the collection
+
 ### Podsumowanie
-Plik `delete.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `delete.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 13 funkcji wspierających operacje menedżera plików Far Manager.

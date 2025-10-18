@@ -1,36 +1,49 @@
 # TarGz.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `MyIsArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `ArchiveGzip()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `ArchiveOne()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `QueryArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `OpenArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetSFXPos()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetArcItem()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetFormatName()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetDefaultCommands()`: Iterates through elements in TarGz.cpp and adds them to a collection
+- **`MyIsArchive()`**: Executes my is archive operation
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnFinalizeArchive()`**: Event callback triggered when finalize archive occurs
+- **`OnGetArchivePluginInfo()`**: Event callback triggered when get archive plugin info occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnGetArchiveFormat()`**: Event callback triggered when get archive format occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnTest()`**: Event callback triggered when test occurs
+- **`OnGetDefaultCommand()`**: Event callback triggered when get default command occurs
+
 ### Summary
-The `TarGz.cpp` file provides essential functionality for core functionality. and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `TarGz.cpp` file is essential for core functionality. It implements 13 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `MyIsArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `ArchiveGzip()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `ArchiveOne()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `QueryArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `OpenArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetSFXPos()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetArcItem()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `CloseArchive()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetFormatName()`: Iterates through elements in TarGz.cpp and adds them to a collection
-- `GetDefaultCommands()`: Iterates through elements in TarGz.cpp and adds them to a collection
+- **`MyIsArchive()`**: Executes my is archive operation
+- **`OnInitialize()`**: Event callback triggered when initialize occurs
+- **`OnFinalize()`**: Event callback triggered when finalize occurs
+- **`OnQueryArchive()`**: Event callback triggered when query archive occurs
+- **`OnOpenArchive()`**: Event callback triggered when open archive occurs
+- **`OnCloseArchive()`**: Event callback triggered when close archive occurs
+- **`OnFinalizeArchive()`**: Event callback triggered when finalize archive occurs
+- **`OnGetArchivePluginInfo()`**: Event callback triggered when get archive plugin info occurs
+- **`OnGetArchiveItem()`**: Event callback triggered when get archive item occurs
+- **`OnGetArchiveFormat()`**: Event callback triggered when get archive format occurs
+- **`OnExtract()`**: Event callback triggered when extract occurs
+- **`OnTest()`**: Event callback triggered when test occurs
+- **`OnGetDefaultCommand()`**: Event callback triggered when get default command occurs
+
 ### Podsumowanie
-Plik `TarGz.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `TarGz.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 13 funkcji wspierających operacje menedżera plików Far Manager.

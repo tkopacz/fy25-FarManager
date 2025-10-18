@@ -1,58 +1,61 @@
 # archive.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `ArcAPI`: Performs ArcAPI operation in archive.hpp
-- `ArcChain`: Performs ArcChain operation in archive.hpp
-- `ArcEntry`: Performs ArcEntry operation in archive.hpp
-- `ArcFileInfo`: Performs ArcFileInfo operation in archive.hpp
-- `ArcFormat`: Performs ArcFormat operation in archive.hpp
-- `ArcFormats`: Performs ArcFormats operation in archive.hpp
-- `ArcLib`: Performs ArcLib operation in archive.hpp
-- `Archive`: Performs Archive operation in archive.hpp
-- `CDllCodecInfo`: Performs CDllCodecInfo operation in archive.hpp
-- `CDllHasherInfo`: Performs CDllHasherInfo operation in archive.hpp
+- **`ArcLib`**: Implements arc lib functionality
+- **`ArcFormat`**: Implements arc format functionality
+- **`CDllCodecInfo`**: Implements cdll codec info functionality
+- **`CDllHasherInfo`**: Implements cdll hasher info functionality
+- **`SfxModule`**: Implements sfx module functionality
+- **`ArcAPI`**: Implements arc api functionality
+- **`ArcFileInfo`**: Implements arc file info functionality
+- **`ArcEntry`**: Implements arc entry functionality
+
 ### Key Functions
-- `get_prop()`: Retrieves _prop value in archive.hpp
-- `get_bool_prop()`: Retrieves _bool_prop value in archive.hpp
-- `get_uint_prop()`: Retrieves _uint_prop value in archive.hpp
-- `get_string_prop()`: Retrieves _string_prop value in archive.hpp
-- `get_bytes_prop()`: Retrieves _bytes_prop value in archive.hpp
-- `default_extension()`: Performs default_extension operation in archive.hpp
-- `Flags_KeepName()`: Performs Flags_KeepName operation in archive.hpp
-- `Flags_FindSignature()`: Performs Flags_FindSignature operation in archive.hpp
-- `Flags_AltStreams()`: Performs Flags_AltStreams operation in archive.hpp
-- `Flags_NtSecure()`: Performs Flags_NtSecure operation in archive.hpp
+- **`ArcLib::get_prop()`**: Retrieves the current prop value
+- **`ArcLib::get_bool_prop()`**: Retrieves the current bool prop value
+- **`ArcLib::get_uint_prop()`**: Retrieves the current uint prop value
+- **`ArcLib::get_string_prop()`**: Retrieves the current string prop value
+- **`ArcLib::get_bytes_prop()`**: Retrieves the current bytes prop value
+- **`SfxModule::description()`**: Executes description operation
+- **`SfxModule::all_codecs()`**: Executes all codecs operation
+- **`SfxModule::install_config()`**: Executes install config operation
+- **`ArcEntry::type()`**: Executes type operation
+
 ### Summary
-The `archive.hpp` file provides essential functionality for core functionality. It defines 14 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `archive.hpp` file is essential for core functionality. It defines 8 class(es) and implements 9 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `ArcAPI`: Performs ArcAPI operation in archive.hpp
-- `ArcChain`: Performs ArcChain operation in archive.hpp
-- `ArcEntry`: Performs ArcEntry operation in archive.hpp
-- `ArcFileInfo`: Performs ArcFileInfo operation in archive.hpp
-- `ArcFormat`: Performs ArcFormat operation in archive.hpp
-- `ArcFormats`: Performs ArcFormats operation in archive.hpp
-- `ArcLib`: Performs ArcLib operation in archive.hpp
-- `Archive`: Performs Archive operation in archive.hpp
-- `CDllCodecInfo`: Performs CDllCodecInfo operation in archive.hpp
-- `CDllHasherInfo`: Performs CDllHasherInfo operation in archive.hpp
+- **`ArcLib`**: Implements arc lib functionality
+- **`ArcFormat`**: Implements arc format functionality
+- **`CDllCodecInfo`**: Implements cdll codec info functionality
+- **`CDllHasherInfo`**: Implements cdll hasher info functionality
+- **`SfxModule`**: Implements sfx module functionality
+- **`ArcAPI`**: Implements arc api functionality
+- **`ArcFileInfo`**: Implements arc file info functionality
+- **`ArcEntry`**: Implements arc entry functionality
+
 ### Kluczowe Funkcje
-- `get_prop()`: Retrieves _prop value in archive.hpp
-- `get_bool_prop()`: Retrieves _bool_prop value in archive.hpp
-- `get_uint_prop()`: Retrieves _uint_prop value in archive.hpp
-- `get_string_prop()`: Retrieves _string_prop value in archive.hpp
-- `get_bytes_prop()`: Retrieves _bytes_prop value in archive.hpp
-- `default_extension()`: Performs default_extension operation in archive.hpp
-- `Flags_KeepName()`: Performs Flags_KeepName operation in archive.hpp
-- `Flags_FindSignature()`: Performs Flags_FindSignature operation in archive.hpp
-- `Flags_AltStreams()`: Performs Flags_AltStreams operation in archive.hpp
-- `Flags_NtSecure()`: Performs Flags_NtSecure operation in archive.hpp
+- **`ArcLib::get_prop()`**: Retrieves the current prop value
+- **`ArcLib::get_bool_prop()`**: Retrieves the current bool prop value
+- **`ArcLib::get_uint_prop()`**: Retrieves the current uint prop value
+- **`ArcLib::get_string_prop()`**: Retrieves the current string prop value
+- **`ArcLib::get_bytes_prop()`**: Retrieves the current bytes prop value
+- **`SfxModule::description()`**: Executes description operation
+- **`SfxModule::all_codecs()`**: Executes all codecs operation
+- **`SfxModule::install_config()`**: Executes install config operation
+- **`ArcEntry::type()`**: Executes type operation
+
 ### Podsumowanie
-Plik `archive.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 14 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `archive.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 8 klas(y) i implementuje 9 funkcji wspierających operacje menedżera plików Far Manager.

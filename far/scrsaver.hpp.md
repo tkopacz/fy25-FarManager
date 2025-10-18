@@ -1,20 +1,25 @@
 # scrsaver.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: ScreenSaver
-Main functional areas: screen operations
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `ScreenSaver()`: Performs ScreenSaver operation in scrsaver.hpp
+- **`ScreenSaver()`**: Executes screen saver operation
+
 ### Summary
-The `scrsaver.hpp` file provides essential functionality for screen operations. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `scrsaver.hpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: ScreenSaver
-Główne obszary funkcjonalne: operacje ekranowe
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `ScreenSaver()`: Performs ScreenSaver operation in scrsaver.hpp
+- **`ScreenSaver()`**: Executes screen saver operation
+
 ### Podsumowanie
-Plik `scrsaver.hpp` zapewnia podstawową funkcjonalność dla operacje ekranowe. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `scrsaver.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

@@ -1,14 +1,23 @@
 # lua.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+Lua header files for C++
+
+This file implements functionality for core functionality.
+
 ### Summary
-The `lua.hpp` file provides essential functionality for core functionality. to support the Far Manager file manager operations.
+The `lua.hpp` file is essential for core functionality. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Lua header files for C++
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Podsumowanie
-Plik `lua.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. wspierających operacje menedżera plików Far Manager.
+Plik `lua.hpp` jest niezbędny dla podstawowej funkcjonalności. wspierających operacje menedżera plików Far Manager.

@@ -1,18 +1,29 @@
 # Brackets.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+Правило: "Игнорировать скобки, заключенные в кавычки"
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `Options`: Performs Options operation in Brackets.hpp
+- **`Options`**: Implements options functionality
+
 ### Summary
-The `Brackets.hpp` file provides essential functionality for core functionality. It defines 1 class(es) to support the Far Manager file manager operations.
+The `Brackets.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Правило: "Игнорировать скобки, заключенные в кавычки"
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `Options`: Performs Options operation in Brackets.hpp
+- **`Options`**: Implements options functionality
+
 ### Podsumowanie
-Plik `Brackets.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `Brackets.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

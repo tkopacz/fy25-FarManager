@@ -1,60 +1,69 @@
 # viewer.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Internal viewer
-Main functional areas: file viewing
+This file implements functionality for file viewer functionality.
+
 ### Key Classes
-- `Dialog`: Performs Dialog operation in viewer.hpp
-- `FileViewer`: Performs FileViewer operation in viewer.hpp
-- `KeyBar`: Performs KeyBar operation in viewer.hpp
-- `SearchDisposition`: Performs SearchDisposition operation in viewer.hpp
-- `Viewer`: Performs Viewer operation in viewer.hpp
-- `ViewerContainer`: Performs ViewerContainer operation in viewer.hpp
-- `ViewerString`: Performs ViewerString operation in viewer.hpp
-- `ViewerUndoData`: Performs ViewerUndoData operation in viewer.hpp
-- `search_data`: Performs search_data operation in viewer.hpp
-- `vgetc_cache`: Performs vgetc_cache operation in viewer.hpp
+- **`Viewer`**: Enumeration defining possible values for viewer
+- **`ViewerString`**: Implements viewer string functionality
+- **`vgetc_cache`**: Implements vgetc cache functionality
+- **`ViewerContainer`**: Implements viewer container functionality
+
 ### Key Functions
-- `Viewer()`: Performs Viewer operation in viewer.hpp
-- `ProcessKey()`: Processes input data in viewer.hpp
-- `ProcessMouse()`: Processes input data in viewer.hpp
-- `VMProcess()`: Performs VMProcess operation in viewer.hpp
-- `OpenFile()`: Performs OpenFile operation in viewer.hpp
-- `SetViewKeyBar()`: Sets or updates ViewKeyBar value in viewer.hpp
-- `UpdateViewKeyBar()`: Updates existing data or state in viewer.hpp
-- `SetStatusMode()`: Sets or updates StatusMode value in viewer.hpp
-- `EnableHideCursor()`: Performs EnableHideCursor operation in viewer.hpp
-- `GetWrapMode()`: Retrieves WrapMode value in viewer.hpp
+- **`Viewer::ProcessKey()`**: Executes process key operation
+- **`Viewer::ProcessMouse()`**: Executes process mouse operation
+- **`Viewer::VMProcess()`**: Executes vmprocess operation
+- **`Viewer::OpenFile()`**: Executes open file operation
+- **`Viewer::SetViewKeyBar()`**: Updates the view key bar with a new value
+- **`Viewer::UpdateViewKeyBar()`**: Executes update view key bar operation
+- **`Viewer::SetStatusMode()`**: Updates the status mode with a new value
+- **`Viewer::EnableHideCursor()`**: Executes enable hide cursor operation
+- **`Viewer::GetWrapMode()`**: Retrieves the current wrap mode value
+- **`Viewer::SetWrapMode()`**: Updates the wrap mode with a new value
+- **`Viewer::GetWrapType()`**: Retrieves the current wrap type value
+- **`Viewer::SetWrapType()`**: Updates the wrap type with a new value
+- **`Viewer::KeepInitParameters()`**: Executes keep init parameters operation
+- **`Viewer::GetFileName()`**: Retrieves the current file name value
+- **`vgetc_cache::begin()`**: Executes begin operation
+- **`ViewerContainer::GetViewer()`**: Retrieves the current viewer value
+- **`ViewerContainer::GetById()`**: Retrieves the current by id value
+
 ### Summary
-The `viewer.hpp` file provides essential functionality for file viewing. It defines 10 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `viewer.hpp` file is essential for file viewer functionality. It defines 4 class(es) and implements 17 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Internal viewer
-Główne obszary funkcjonalne: przeglądanie plików
+Ten plik implementuje funkcjonalność dla funkcjonalności przeglądarki plików.
+
 ### Kluczowe Klasy
-- `Dialog`: Performs Dialog operation in viewer.hpp
-- `FileViewer`: Performs FileViewer operation in viewer.hpp
-- `KeyBar`: Performs KeyBar operation in viewer.hpp
-- `SearchDisposition`: Performs SearchDisposition operation in viewer.hpp
-- `Viewer`: Performs Viewer operation in viewer.hpp
-- `ViewerContainer`: Performs ViewerContainer operation in viewer.hpp
-- `ViewerString`: Performs ViewerString operation in viewer.hpp
-- `ViewerUndoData`: Performs ViewerUndoData operation in viewer.hpp
-- `search_data`: Performs search_data operation in viewer.hpp
-- `vgetc_cache`: Performs vgetc_cache operation in viewer.hpp
+- **`Viewer`**: Enumeration defining possible values for viewer
+- **`ViewerString`**: Implements viewer string functionality
+- **`vgetc_cache`**: Implements vgetc cache functionality
+- **`ViewerContainer`**: Implements viewer container functionality
+
 ### Kluczowe Funkcje
-- `Viewer()`: Performs Viewer operation in viewer.hpp
-- `ProcessKey()`: Processes input data in viewer.hpp
-- `ProcessMouse()`: Processes input data in viewer.hpp
-- `VMProcess()`: Performs VMProcess operation in viewer.hpp
-- `OpenFile()`: Performs OpenFile operation in viewer.hpp
-- `SetViewKeyBar()`: Sets or updates ViewKeyBar value in viewer.hpp
-- `UpdateViewKeyBar()`: Updates existing data or state in viewer.hpp
-- `SetStatusMode()`: Sets or updates StatusMode value in viewer.hpp
-- `EnableHideCursor()`: Performs EnableHideCursor operation in viewer.hpp
-- `GetWrapMode()`: Retrieves WrapMode value in viewer.hpp
+- **`Viewer::ProcessKey()`**: Executes process key operation
+- **`Viewer::ProcessMouse()`**: Executes process mouse operation
+- **`Viewer::VMProcess()`**: Executes vmprocess operation
+- **`Viewer::OpenFile()`**: Executes open file operation
+- **`Viewer::SetViewKeyBar()`**: Updates the view key bar with a new value
+- **`Viewer::UpdateViewKeyBar()`**: Executes update view key bar operation
+- **`Viewer::SetStatusMode()`**: Updates the status mode with a new value
+- **`Viewer::EnableHideCursor()`**: Executes enable hide cursor operation
+- **`Viewer::GetWrapMode()`**: Retrieves the current wrap mode value
+- **`Viewer::SetWrapMode()`**: Updates the wrap mode with a new value
+- **`Viewer::GetWrapType()`**: Retrieves the current wrap type value
+- **`Viewer::SetWrapType()`**: Updates the wrap type with a new value
+- **`Viewer::KeepInitParameters()`**: Executes keep init parameters operation
+- **`Viewer::GetFileName()`**: Retrieves the current file name value
+- **`vgetc_cache::begin()`**: Executes begin operation
+- **`ViewerContainer::GetViewer()`**: Retrieves the current viewer value
+- **`ViewerContainer::GetById()`**: Retrieves the current by id value
+
 ### Podsumowanie
-Plik `viewer.hpp` zapewnia podstawową funkcjonalność dla przeglądanie plików. Definiuje 10 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `viewer.hpp` jest niezbędny dla funkcjonalności przeglądarki plików. Definiuje 4 klas(y) i implementuje 17 funkcji wspierających operacje menedżera plików Far Manager.

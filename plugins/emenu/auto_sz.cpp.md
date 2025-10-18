@@ -1,24 +1,27 @@
 # auto_sz.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `LPWSTR()`: Performs LPWSTR operation in auto_sz.cpp
-- `LPCWSTR()`: Performs LPCWSTR operation in auto_sz.cpp
-- `lstrlen()`: Performs lstrlen operation in auto_sz.cpp
-- `lstrcmpi()`: Performs lstrcmpi operation in auto_sz.cpp
+- **`LPWSTR()`**: Executes lpwstr operation
+- **`LPCWSTR()`**: Executes lpcwstr operation
+
 ### Summary
-The `auto_sz.cpp` file provides essential functionality for core functionality. and contains approximately 4 function(s) to support the Far Manager file manager operations.
+The `auto_sz.cpp` file is essential for core functionality. It implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `LPWSTR()`: Performs LPWSTR operation in auto_sz.cpp
-- `LPCWSTR()`: Performs LPCWSTR operation in auto_sz.cpp
-- `lstrlen()`: Performs lstrlen operation in auto_sz.cpp
-- `lstrcmpi()`: Performs lstrcmpi operation in auto_sz.cpp
+- **`LPWSTR()`**: Executes lpwstr operation
+- **`LPCWSTR()`**: Executes lpcwstr operation
+
 ### Podsumowanie
-Plik `auto_sz.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 4 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `auto_sz.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

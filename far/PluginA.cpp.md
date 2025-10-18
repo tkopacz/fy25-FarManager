@@ -1,52 +1,81 @@
 # PluginA.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: plugin interface
+This file implements functionality for plugin system and extension management.
+
 ### Key Classes
-- `DialogData`: Performs DialogData operation in PluginA.cpp
-- `FAR_SEARCH_A_CALLBACK_PARAM`: Performs FAR_SEARCH_A_CALLBACK_PARAM operation in PluginA.cpp
-- `comparer_helper`: Performs comparer_helper operation in PluginA.cpp
-- `oldPanelInfoContainer`: Performs oldPanelInfoContainer operation in PluginA.cpp
+- **`comparer_helper`**: Implements comparer helper functionality
+- **`DialogData`**: Implements dialog data functionality
+- **`FAR_SEARCH_A_CALLBACK_PARAM`**: Implements far search a callback param functionality
+
 ### Key Functions
-- `old_palette_to_palette()`: This was removed in 3.x and the enums don't match anymore :(
-- `Create()`: ProcessSynchroEvent not used
-- `PluginsRootKey()`: Performs PluginsRootKey operation in PluginA.cpp
-- `FindExport()`: Performs FindExport operation in PluginA.cpp
-- `kind()`: module with ANY known export can be OEM plugin
-- `CreateOemPluginFactory()`: module with ANY known export can be OEM plugin
-- `IsSpaceA()`: module with ANY known export can be OEM plugin
-- `IsEolA()`: module with ANY known export can be OEM plugin
-- `IsSlashA()`: module with ANY known export can be OEM plugin
-- `LocalUpperInit()`: Performs LocalUpperInit operation in PluginA.cpp
+- **`old_palette_to_palette()`**: Executes old palette to palette operation
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`CreateOemPluginFactory()`**: Constructs and returns a new oem plugin factory object
+- **`IsSpaceA()`**: Checks whether space a condition is true
+- **`IsEolA()`**: Checks whether eol a condition is true
+- **`IsSlashA()`**: Checks whether slash a condition is true
+- **`LocalUpperInit()`**: Executes local upper init operation
+- **`LocalStricmp()`**: Executes local stricmp operation
+- **`LocalStrnicmp()`**: Executes local strnicmp operation
+- **`AnsiToUnicodeBin()`**: Executes ansi to unicode bin operation
+- **`UnicodeToAnsiBin()`**: Executes unicode to ansi bin operation
+- **`FreeUnicodeArrayMagic()`**: Executes free unicode array magic operation
+- **`OldKeyToKey()`**: Executes old key to key operation
+- **`KeyToOldKey()`**: Executes key to old key operation
+- **`FirstFlagsToSecond()`**: Executes first flags to second operation
+- **`SecondFlagsToFirst()`**: Executes second flags to first operation
+- **`ConvertInfoPanelLinesA()`**: Executes convert info panel lines a operation
+- **`FreeUnicodeInfoPanelLines()`**: Executes free unicode info panel lines operation
+- **`ConvertPanelModeToUnicode()`**: Executes convert panel mode to unicode operation
+- **`ConvertPanelModesToUnicode()`**: Executes convert panel modes to unicode operation
+
 ### Namespaces
 - `oldfar`
 - `oldpluginapi`
+
 ### Summary
-The `PluginA.cpp` file provides essential functionality for plugin interface. It defines 4 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `PluginA.cpp` file is essential for plugin system and extension management. It defines 3 class(es) and implements 59 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: interfejs wtyczek
+Ten plik implementuje funkcjonalność dla systemu wtyczek i zarządzania rozszerzeniami.
+
 ### Kluczowe Klasy
-- `DialogData`: Performs DialogData operation in PluginA.cpp
-- `FAR_SEARCH_A_CALLBACK_PARAM`: Performs FAR_SEARCH_A_CALLBACK_PARAM operation in PluginA.cpp
-- `comparer_helper`: Performs comparer_helper operation in PluginA.cpp
-- `oldPanelInfoContainer`: Performs oldPanelInfoContainer operation in PluginA.cpp
+- **`comparer_helper`**: Implements comparer helper functionality
+- **`DialogData`**: Implements dialog data functionality
+- **`FAR_SEARCH_A_CALLBACK_PARAM`**: Implements far search a callback param functionality
+
 ### Kluczowe Funkcje
-- `old_palette_to_palette()`: This was removed in 3.x and the enums don't match anymore :(
-- `Create()`: ProcessSynchroEvent not used
-- `PluginsRootKey()`: Performs PluginsRootKey operation in PluginA.cpp
-- `FindExport()`: Performs FindExport operation in PluginA.cpp
-- `kind()`: module with ANY known export can be OEM plugin
-- `CreateOemPluginFactory()`: module with ANY known export can be OEM plugin
-- `IsSpaceA()`: module with ANY known export can be OEM plugin
-- `IsEolA()`: module with ANY known export can be OEM plugin
-- `IsSlashA()`: module with ANY known export can be OEM plugin
-- `LocalUpperInit()`: Performs LocalUpperInit operation in PluginA.cpp
+- **`old_palette_to_palette()`**: Executes old palette to palette operation
+- **`NONCOPYABLE()`**: Executes noncopyable operation
+- **`CreateOemPluginFactory()`**: Constructs and returns a new oem plugin factory object
+- **`IsSpaceA()`**: Checks whether space a condition is true
+- **`IsEolA()`**: Checks whether eol a condition is true
+- **`IsSlashA()`**: Checks whether slash a condition is true
+- **`LocalUpperInit()`**: Executes local upper init operation
+- **`LocalStricmp()`**: Executes local stricmp operation
+- **`LocalStrnicmp()`**: Executes local strnicmp operation
+- **`AnsiToUnicodeBin()`**: Executes ansi to unicode bin operation
+- **`UnicodeToAnsiBin()`**: Executes unicode to ansi bin operation
+- **`FreeUnicodeArrayMagic()`**: Executes free unicode array magic operation
+- **`OldKeyToKey()`**: Executes old key to key operation
+- **`KeyToOldKey()`**: Executes key to old key operation
+- **`FirstFlagsToSecond()`**: Executes first flags to second operation
+- **`SecondFlagsToFirst()`**: Executes second flags to first operation
+- **`ConvertInfoPanelLinesA()`**: Executes convert info panel lines a operation
+- **`FreeUnicodeInfoPanelLines()`**: Executes free unicode info panel lines operation
+- **`ConvertPanelModeToUnicode()`**: Executes convert panel mode to unicode operation
+- **`ConvertPanelModesToUnicode()`**: Executes convert panel modes to unicode operation
+
 ### Przestrzenie nazw
 - `oldfar`
 - `oldpluginapi`
+
 ### Podsumowanie
-Plik `PluginA.cpp` zapewnia podstawową funkcjonalność dla interfejs wtyczek. Definiuje 4 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `PluginA.cpp` jest niezbędny dla systemu wtyczek i zarządzania rozszerzeniami. Definiuje 3 klas(y) i implementuje 59 funkcji wspierających operacje menedżera plików Far Manager.

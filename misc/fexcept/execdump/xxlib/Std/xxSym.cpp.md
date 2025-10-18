@@ -1,40 +1,37 @@
 # xxSym.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `FuncAddr`: Performs FuncAddr operation in xxSym.cpp
+- **`FuncAddr`**: Implements func addr functionality
+
 ### Key Functions
-- `PSymbols()`: Performs PSymbols operation in xxSym.cpp
-- `idRVA()`: Performs idRVA operation in xxSym.cpp
-- `idFuncSort()`: Performs idFuncSort operation in xxSym.cpp
-- `InitSysPath()`: Initializes data structures and prepares for operation in xxSym.cpp
-- `_isstring()`: Performs _isstring operation in xxSym.cpp
-- `_isprint()`: Performs _isprint operation in xxSym.cpp
-- `_IsBadStringPtr()`: Checks a condition in xxSym.cpp and returns true or false based on the result
-- `Find()`: Performs Find operation in xxSym.cpp
-- `FindBase()`: Performs FindBase operation in xxSym.cpp
-- `idExit()`: Checks a condition in xxSym.cpp and returns true or false based on the result
+- **`int32()`**: Executes int32 operation
+- **`InitSysPath()`**: Executes init sys path operation
+- **`HSYMInitialize()`**: Executes hsyminitialize operation
+- **`get_demangler()`**: Retrieves the current demangler value
+
 ### Summary
-The `xxSym.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `xxSym.cpp` file is essential for core functionality. It defines 1 class(es) and implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `FuncAddr`: Performs FuncAddr operation in xxSym.cpp
+- **`FuncAddr`**: Implements func addr functionality
+
 ### Kluczowe Funkcje
-- `PSymbols()`: Performs PSymbols operation in xxSym.cpp
-- `idRVA()`: Performs idRVA operation in xxSym.cpp
-- `idFuncSort()`: Performs idFuncSort operation in xxSym.cpp
-- `InitSysPath()`: Initializes data structures and prepares for operation in xxSym.cpp
-- `_isstring()`: Performs _isstring operation in xxSym.cpp
-- `_isprint()`: Performs _isprint operation in xxSym.cpp
-- `_IsBadStringPtr()`: Checks a condition in xxSym.cpp and returns true or false based on the result
-- `Find()`: Performs Find operation in xxSym.cpp
-- `FindBase()`: Performs FindBase operation in xxSym.cpp
-- `idExit()`: Checks a condition in xxSym.cpp and returns true or false based on the result
+- **`int32()`**: Executes int32 operation
+- **`InitSysPath()`**: Executes init sys path operation
+- **`HSYMInitialize()`**: Executes hsyminitialize operation
+- **`get_demangler()`**: Retrieves the current demangler value
+
 ### Podsumowanie
-Plik `xxSym.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `xxSym.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

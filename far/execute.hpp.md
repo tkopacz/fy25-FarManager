@@ -1,24 +1,31 @@
 # execute.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: "Запускатель" программ.
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `OpenFolderInShell()`: Performs OpenFolderInShell operation in execute.hpp
-- `ExpandOSAliases()`: Performs ExpandOSAliases operation in execute.hpp
-- `ExtractIfExistCommand()`: Performs ExtractIfExistCommand operation in execute.hpp
+- **`OpenFolderInShell()`**: Executes open folder in shell operation
+- **`Execute()`**: Executes execute operation
+- **`ExpandOSAliases()`**: Executes expand osaliases operation
+- **`ExtractIfExistCommand()`**: Executes extract if exist command operation
+
 ### Summary
-The `execute.hpp` file provides essential functionality for core functionality. and contains approximately 3 function(s) to support the Far Manager file manager operations.
+The `execute.hpp` file is essential for core functionality. It implements 4 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: "Запускатель" программ.
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `OpenFolderInShell()`: Performs OpenFolderInShell operation in execute.hpp
-- `ExpandOSAliases()`: Performs ExpandOSAliases operation in execute.hpp
-- `ExtractIfExistCommand()`: Performs ExtractIfExistCommand operation in execute.hpp
+- **`OpenFolderInShell()`**: Executes open folder in shell operation
+- **`Execute()`**: Executes execute operation
+- **`ExpandOSAliases()`**: Executes expand osaliases operation
+- **`ExtractIfExistCommand()`**: Executes extract if exist command operation
+
 ### Podsumowanie
-Plik `execute.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 3 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `execute.hpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 4 funkcji wspierających operacje menedżera plików Far Manager.

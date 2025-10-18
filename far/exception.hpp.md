@@ -1,58 +1,57 @@
 # exception.hpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for exception handling and error management.
+
 ### Key Classes
-- `break_into_debugger`: Performs break_into_debugger operation in exception.hpp
-- `error_state_ex`: Performs error_state_ex operation in exception.hpp
-- `far_base_exception`: Performs far_base_exception operation in exception.hpp
-- `far_exception`: Represents all other failures, potentially continuable.
-- `far_known_exception`: Represents all other failures, potentially continuable.
-- `far_std_exception`: Performs far_std_exception operation in exception.hpp
-- `formattable`: Performs formattable operation in exception.hpp
-- `unknown_exception_t`: Performs unknown_exception_t operation in exception.hpp
+- **`error_state_ex`**: Exception class representing error state ex error conditions
+- **`far_base_exception`**: Exception class representing far base exception error conditions
+- **`far_std_exception`**: Exception class representing far std exception error conditions
+- **`break_into_debugger`**: Implements break into debugger functionality
+- **`far_exception`**: Exception class representing far exception error conditions
+- **`far_known_exception`**: Exception class representing far known exception error conditions
+- **`unknown_exception_t`**: Error information container for unknown exception t failures
+
 ### Key Functions
-- `any()`: Performs any operation in exception.hpp
-- `ErrnoStr()`: Performs ErrnoStr operation in exception.hpp
-- `system_error()`: Performs system_error operation in exception.hpp
-- `to_string()`: Performs to_string operation in exception.hpp
-- `source_location_to_string()`: Performs source_location_to_string operation in exception.hpp
-- `message()`: Performs message operation in exception.hpp
-- `location()`: Performs location operation in exception.hpp
-- `far_base_exception()`: Performs far_base_exception operation in exception.hpp
-- `far_std_exception()`: Performs far_std_exception operation in exception.hpp
-- `convert_message()`: Performs convert_message operation in exception.hpp
+- **`source_location_to_string()`**: Executes source location to string operation
+- **`throw_far_exception()`**: Executes throw far exception operation
+- **`far_base_exception::message()`**: Executes message operation
+- **`far_known_exception::far_exception()`**: Executes far exception operation
+- **`unknown_exception_t::to_string()`**: Executes to string operation
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `exception.hpp` file provides essential functionality for core functionality. It defines 8 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `exception.hpp` file is essential for exception handling and error management. It defines 7 class(es) and implements 5 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla obsługi wyjątków i zarządzania błędami.
+
 ### Kluczowe Klasy
-- `break_into_debugger`: Performs break_into_debugger operation in exception.hpp
-- `error_state_ex`: Performs error_state_ex operation in exception.hpp
-- `far_base_exception`: Performs far_base_exception operation in exception.hpp
-- `far_exception`: Represents all other failures, potentially continuable.
-- `far_known_exception`: Represents all other failures, potentially continuable.
-- `far_std_exception`: Performs far_std_exception operation in exception.hpp
-- `formattable`: Performs formattable operation in exception.hpp
-- `unknown_exception_t`: Performs unknown_exception_t operation in exception.hpp
+- **`error_state_ex`**: Exception class representing error state ex error conditions
+- **`far_base_exception`**: Exception class representing far base exception error conditions
+- **`far_std_exception`**: Exception class representing far std exception error conditions
+- **`break_into_debugger`**: Implements break into debugger functionality
+- **`far_exception`**: Exception class representing far exception error conditions
+- **`far_known_exception`**: Exception class representing far known exception error conditions
+- **`unknown_exception_t`**: Error information container for unknown exception t failures
+
 ### Kluczowe Funkcje
-- `any()`: Performs any operation in exception.hpp
-- `ErrnoStr()`: Performs ErrnoStr operation in exception.hpp
-- `system_error()`: Performs system_error operation in exception.hpp
-- `to_string()`: Performs to_string operation in exception.hpp
-- `source_location_to_string()`: Performs source_location_to_string operation in exception.hpp
-- `message()`: Performs message operation in exception.hpp
-- `location()`: Performs location operation in exception.hpp
-- `far_base_exception()`: Performs far_base_exception operation in exception.hpp
-- `far_std_exception()`: Performs far_std_exception operation in exception.hpp
-- `convert_message()`: Performs convert_message operation in exception.hpp
+- **`source_location_to_string()`**: Executes source location to string operation
+- **`throw_far_exception()`**: Executes throw far exception operation
+- **`far_base_exception::message()`**: Executes message operation
+- **`far_known_exception::far_exception()`**: Executes far exception operation
+- **`unknown_exception_t::to_string()`**: Executes to string operation
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `exception.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 8 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `exception.hpp` jest niezbędny dla obsługi wyjątków i zarządzania błędami. Definiuje 7 klas(y) i implementuje 5 funkcji wspierających operacje menedżera plików Far Manager.

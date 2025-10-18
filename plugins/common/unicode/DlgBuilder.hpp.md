@@ -1,54 +1,65 @@
 # DlgBuilder.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Dynamic construction of dialogs for FAR Manager
-Main functional areas: dialog handling
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `DialogAPIBinding`: Performs DialogAPIBinding operation in DlgBuilder.hpp
-- `PluginCheckBoxBinding`: Performs PluginCheckBoxBinding operation in DlgBuilder.hpp
-- `PluginDialogBuilder`: Performs PluginDialogBuilder operation in DlgBuilder.hpp
-- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation in DlgBuilder.hpp
-- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation in DlgBuilder.hpp
-- `PluginListControlBinding`: Performs PluginListControlBinding operation in DlgBuilder.hpp
-- `PluginRadioButtonBinding`: Performs PluginRadioButtonBinding operation in DlgBuilder.hpp
-- `PluginUIntEditFieldBinding`: Performs PluginUIntEditFieldBinding operation in DlgBuilder.hpp
+- **`DialogAPIBinding`**: Implements dialog apibinding functionality
+- **`PluginCheckBoxBinding`**: Implements plugin check box binding functionality
+- **`PluginRadioButtonBinding`**: Implements plugin radio button binding functionality
+- **`PluginEditFieldBinding`**: Implements plugin edit field binding functionality
+- **`PluginIntEditFieldBinding`**: Implements plugin int edit field binding functionality
+- **`PluginUIntEditFieldBinding`**: Implements plugin uint edit field binding functionality
+- **`PluginListControlBinding`**: Container class managing collection of plugin control binding
+- **`PluginDialogBuilder`**: Implements plugin dialog builder functionality
+
 ### Key Functions
-- `SaveValue()`: Performs SaveValue operation in DlgBuilder.hpp
-- `lstrcpynW()`: Performs lstrcpynW operation in DlgBuilder.hpp
-- `GetBuffer()`: Retrieves Buffer value in DlgBuilder.hpp
-- `GetMask()`: Retrieves Mask value in DlgBuilder.hpp
-- `GetLastID()`: Retrieves LastID value in DlgBuilder.hpp
-- `AddText()`: Добавляет статический текст, расположенный на отдельной строке в диалоге.
-- `AddCheckbox()`: Добавляет статический текст, расположенный на отдельной строке в диалоге.
-- `AddRadioButtons()`: Performs AddRadioButtons operation in DlgBuilder.hpp
-- `AddIntEditField()`: Добавляет поле типа DI_FIXEDIT для редактирования указанного числового значения.
+- **`PluginCheckBoxBinding()`**: Executes plugin check box binding operation
+- **`PluginListControlBinding()`**: Executes plugin list control binding operation
+- **`PluginDialogBuilder()`**: Executes plugin dialog builder operation
+- **`DialogAPIBinding::Info()`**: Executes info operation
+- **`PluginCheckBoxBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginRadioButtonBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginEditFieldBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginIntEditFieldBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginUIntEditFieldBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginListControlBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginDialogBuilder::Info()`**: Executes info operation
+
 ### Summary
-The `DlgBuilder.hpp` file provides essential functionality for dialog handling. It defines 8 class(es) and contains approximately 9 function(s) to support the Far Manager file manager operations.
+The `DlgBuilder.hpp` file is essential for core functionality. It defines 8 class(es) and implements 11 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Dynamic construction of dialogs for FAR Manager
-Główne obszary funkcjonalne: obsługa dialogów
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `DialogAPIBinding`: Performs DialogAPIBinding operation in DlgBuilder.hpp
-- `PluginCheckBoxBinding`: Performs PluginCheckBoxBinding operation in DlgBuilder.hpp
-- `PluginDialogBuilder`: Performs PluginDialogBuilder operation in DlgBuilder.hpp
-- `PluginEditFieldBinding`: Performs PluginEditFieldBinding operation in DlgBuilder.hpp
-- `PluginIntEditFieldBinding`: Performs PluginIntEditFieldBinding operation in DlgBuilder.hpp
-- `PluginListControlBinding`: Performs PluginListControlBinding operation in DlgBuilder.hpp
-- `PluginRadioButtonBinding`: Performs PluginRadioButtonBinding operation in DlgBuilder.hpp
-- `PluginUIntEditFieldBinding`: Performs PluginUIntEditFieldBinding operation in DlgBuilder.hpp
+- **`DialogAPIBinding`**: Implements dialog apibinding functionality
+- **`PluginCheckBoxBinding`**: Implements plugin check box binding functionality
+- **`PluginRadioButtonBinding`**: Implements plugin radio button binding functionality
+- **`PluginEditFieldBinding`**: Implements plugin edit field binding functionality
+- **`PluginIntEditFieldBinding`**: Implements plugin int edit field binding functionality
+- **`PluginUIntEditFieldBinding`**: Implements plugin uint edit field binding functionality
+- **`PluginListControlBinding`**: Container class managing collection of plugin control binding
+- **`PluginDialogBuilder`**: Implements plugin dialog builder functionality
+
 ### Kluczowe Funkcje
-- `SaveValue()`: Performs SaveValue operation in DlgBuilder.hpp
-- `lstrcpynW()`: Performs lstrcpynW operation in DlgBuilder.hpp
-- `GetBuffer()`: Retrieves Buffer value in DlgBuilder.hpp
-- `GetMask()`: Retrieves Mask value in DlgBuilder.hpp
-- `GetLastID()`: Retrieves LastID value in DlgBuilder.hpp
-- `AddText()`: Добавляет статический текст, расположенный на отдельной строке в диалоге.
-- `AddCheckbox()`: Добавляет статический текст, расположенный на отдельной строке в диалоге.
-- `AddRadioButtons()`: Performs AddRadioButtons operation in DlgBuilder.hpp
-- `AddIntEditField()`: Добавляет поле типа DI_FIXEDIT для редактирования указанного числового значения.
+- **`PluginCheckBoxBinding()`**: Executes plugin check box binding operation
+- **`PluginListControlBinding()`**: Executes plugin list control binding operation
+- **`PluginDialogBuilder()`**: Executes plugin dialog builder operation
+- **`DialogAPIBinding::Info()`**: Executes info operation
+- **`PluginCheckBoxBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginRadioButtonBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginEditFieldBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginIntEditFieldBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginUIntEditFieldBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginListControlBinding::DialogAPIBinding()`**: Executes dialog apibinding operation
+- **`PluginDialogBuilder::Info()`**: Executes info operation
+
 ### Podsumowanie
-Plik `DlgBuilder.hpp` zapewnia podstawową funkcjonalność dla obsługa dialogów. Definiuje 8 klas(y) i zawiera około 9 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `DlgBuilder.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 8 klas(y) i implementuje 11 funkcji wspierających operacje menedżera plików Far Manager.

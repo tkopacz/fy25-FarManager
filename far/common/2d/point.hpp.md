@@ -1,24 +1,31 @@
 # point.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: */
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `point`: Performs point operation in point.hpp
+- **`point`**: Implements point functionality
+
 ### Namespaces
 - `detail`
+
 ### Summary
-The `point.hpp` file provides essential functionality for core functionality. It defines 1 class(es) to support the Far Manager file manager operations.
+The `point.hpp` file is essential for core functionality. It defines 1 class(es) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: */
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `point`: Performs point operation in point.hpp
+- **`point`**: Implements point functionality
+
 ### Przestrzenie nazw
 - `detail`
+
 ### Podsumowanie
-Plik `point.hpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.
+Plik `point.hpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) wspierających operacje menedżera plików Far Manager.

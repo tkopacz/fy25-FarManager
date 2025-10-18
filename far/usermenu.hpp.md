@@ -1,20 +1,25 @@
 # usermenu.hpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: User menu и есть
-Main functional areas: menu management
+This file implements functionality for menu system.
+
 ### Key Functions
-- `user_menu()`: Performs user_menu operation in usermenu.hpp
+- **`user_menu()`**: Executes user menu operation
+
 ### Summary
-The `usermenu.hpp` file provides essential functionality for menu management. and contains approximately 1 function(s) to support the Far Manager file manager operations.
+The `usermenu.hpp` file is essential for menu system. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: User menu и есть
-Główne obszary funkcjonalne: zarządzanie menu
+Ten plik implementuje funkcjonalność dla systemu menu.
+
 ### Kluczowe Funkcje
-- `user_menu()`: Performs user_menu operation in usermenu.hpp
+- **`user_menu()`**: Executes user menu operation
+
 ### Podsumowanie
-Plik `usermenu.hpp` zapewnia podstawową funkcjonalność dla zarządzanie menu. i zawiera około 1 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `usermenu.hpp` jest niezbędny dla systemu menu. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

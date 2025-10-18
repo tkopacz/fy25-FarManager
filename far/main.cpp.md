@@ -1,46 +1,75 @@
 # main.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: Функция main.
-Main functional areas: core functionality
+validator: no-self-include
+
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `args_context`: Performs args_context operation in main.cpp
+- **`args_context`**: Implements args context functionality
+
 ### Key Functions
-- `show_help()`: Performs show_help operation in main.cpp
-- `MainProcess()`: Main entry point in main.cpp that starts program execution
-- `full_path_expanded()`: Performs full_path_expanded operation in main.cpp
-- `InitTemplateProfile()`: Initializes data structures and prepares for operation in main.cpp
-- `InitProfile()`: Initializes data structures and prepares for operation in main.cpp
-- `GetShellProfilePath()`: roaming data default path: %APPDATA%\Far Manager\Profile
-- `is_arg()`: Checks a condition in main.cpp and returns the result
-- `ShowVersion()`: Performs ShowVersion operation in main.cpp
-- `log_hook_wow64_status()`: Performs log_hook_wow64_status operation in main.cpp
-- `parse_argument()`: Validates a condition in main.cpp and throws an exception if the validation fails
+- **`show_help()`**: Executes show help operation
+- **`MainProcess()`**: Executes main process operation
+- **`full_path_expanded()`**: Executes full path expanded operation
+- **`InitTemplateProfile()`**: Executes init template profile operation
+- **`InitProfile()`**: Executes init profile operation
+- **`is_arg()`**: Checks whether arg condition is true
+- **`ShowVersion()`**: Executes show version operation
+- **`ProcessServiceModes()`**: Executes process service modes operation
+- **`get_hook_wow64_error()`**: Retrieves the current hook wow64 error value
+- **`log_hook_wow64_status()`**: Executes log hook wow64 status operation
+- **`invalid_argument()`**: Executes invalid argument operation
+- **`parse_argument()`**: Executes parse argument operation
+- **`parse_command_line()`**: Executes parse command line operation
+- **`mainImpl()`**: Executes main impl operation
+- **`configure_exception_handling()`**: Executes configure exception handling operation
+- **`premain()`**: Executes premain operation
+- **`wmain_seh()`**: Executes wmain seh operation
+- **`main()`**: Executes main operation
+
 ### Namespaces
 - `args`
+
 ### Summary
-The `main.cpp` file provides essential functionality for core functionality. It defines 1 class(es) and contains approximately 10 function(s) to support the Far Manager file manager operations.
+The `main.cpp` file is essential for core functionality. It defines 1 class(es) and implements 18 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: Функция main.
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+validator: no-self-include
+
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `args_context`: Performs args_context operation in main.cpp
+- **`args_context`**: Implements args context functionality
+
 ### Kluczowe Funkcje
-- `show_help()`: Performs show_help operation in main.cpp
-- `MainProcess()`: Main entry point in main.cpp that starts program execution
-- `full_path_expanded()`: Performs full_path_expanded operation in main.cpp
-- `InitTemplateProfile()`: Initializes data structures and prepares for operation in main.cpp
-- `InitProfile()`: Initializes data structures and prepares for operation in main.cpp
-- `GetShellProfilePath()`: roaming data default path: %APPDATA%\Far Manager\Profile
-- `is_arg()`: Checks a condition in main.cpp and returns the result
-- `ShowVersion()`: Performs ShowVersion operation in main.cpp
-- `log_hook_wow64_status()`: Performs log_hook_wow64_status operation in main.cpp
-- `parse_argument()`: Validates a condition in main.cpp and throws an exception if the validation fails
+- **`show_help()`**: Executes show help operation
+- **`MainProcess()`**: Executes main process operation
+- **`full_path_expanded()`**: Executes full path expanded operation
+- **`InitTemplateProfile()`**: Executes init template profile operation
+- **`InitProfile()`**: Executes init profile operation
+- **`is_arg()`**: Checks whether arg condition is true
+- **`ShowVersion()`**: Executes show version operation
+- **`ProcessServiceModes()`**: Executes process service modes operation
+- **`get_hook_wow64_error()`**: Retrieves the current hook wow64 error value
+- **`log_hook_wow64_status()`**: Executes log hook wow64 status operation
+- **`invalid_argument()`**: Executes invalid argument operation
+- **`parse_argument()`**: Executes parse argument operation
+- **`parse_command_line()`**: Executes parse command line operation
+- **`mainImpl()`**: Executes main impl operation
+- **`configure_exception_handling()`**: Executes configure exception handling operation
+- **`premain()`**: Executes premain operation
+- **`wmain_seh()`**: Executes wmain seh operation
+- **`main()`**: Executes main operation
+
 ### Przestrzenie nazw
 - `args`
+
 ### Podsumowanie
-Plik `main.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 1 klas(y) i zawiera około 10 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `main.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 1 klas(y) i implementuje 18 funkcji wspierających operacje menedżera plików Far Manager.

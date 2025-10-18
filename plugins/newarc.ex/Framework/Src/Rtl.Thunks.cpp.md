@@ -1,32 +1,39 @@
 # Rtl.Thunks.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `CreateThunkEx()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunkFastEx()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `ReleaseThunkEx()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunk()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `ReleaseThunk()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunkRegister()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunkCdecl()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `ReleaseThunkCdecl()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
+- **`CreateThunkEx()`**: Constructs and returns a new thunk ex object
+- **`CreateThunkFastEx()`**: Constructs and returns a new thunk fast ex object
+- **`ReleaseThunkEx()`**: Executes release thunk ex operation
+- **`CreateThunk()`**: Constructs and returns a new thunk object
+- **`ReleaseThunk()`**: Executes release thunk operation
+- **`CreateThunkRegister()`**: Constructs and returns a new thunk register object
+- **`CreateThunkCdecl()`**: Constructs and returns a new thunk cdecl object
+- **`ReleaseThunkCdecl()`**: Executes release thunk cdecl operation
+
 ### Summary
-The `Rtl.Thunks.cpp` file provides essential functionality for core functionality. and contains approximately 8 function(s) to support the Far Manager file manager operations.
+The `Rtl.Thunks.cpp` file is essential for core functionality. It implements 8 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `CreateThunkEx()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunkFastEx()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `ReleaseThunkEx()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunk()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `ReleaseThunk()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunkRegister()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `CreateThunkCdecl()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
-- `ReleaseThunkCdecl()`: Iterates through elements in Rtl.Thunks.cpp and adds them to a collection
+- **`CreateThunkEx()`**: Constructs and returns a new thunk ex object
+- **`CreateThunkFastEx()`**: Constructs and returns a new thunk fast ex object
+- **`ReleaseThunkEx()`**: Executes release thunk ex operation
+- **`CreateThunk()`**: Constructs and returns a new thunk object
+- **`ReleaseThunk()`**: Executes release thunk operation
+- **`CreateThunkRegister()`**: Constructs and returns a new thunk register object
+- **`CreateThunkCdecl()`**: Constructs and returns a new thunk cdecl object
+- **`ReleaseThunkCdecl()`**: Executes release thunk cdecl operation
+
 ### Podsumowanie
-Plik `Rtl.Thunks.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `Rtl.Thunks.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 8 funkcji wspierających operacje menedżera plików Far Manager.

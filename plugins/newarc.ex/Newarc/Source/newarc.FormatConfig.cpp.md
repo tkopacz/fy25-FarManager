@@ -1,20 +1,19 @@
 # newarc.FormatConfig.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: configuration management
-### Key Functions
-- `TiXmlElement()`: Performs TiXmlElement operation in newarc.FormatConfig.cpp
-- `handle()`: Performs handle operation in newarc.FormatConfig.cpp
+This file implements functionality for configuration management.
+
 ### Summary
-The `newarc.FormatConfig.cpp` file provides essential functionality for configuration management. and contains approximately 2 function(s) to support the Far Manager file manager operations.
+The `newarc.FormatConfig.cpp` file is essential for configuration management. that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: zarządzanie konfiguracją
-### Kluczowe Funkcje
-- `TiXmlElement()`: Performs TiXmlElement operation in newarc.FormatConfig.cpp
-- `handle()`: Performs handle operation in newarc.FormatConfig.cpp
+Ten plik implementuje funkcjonalność dla zarządzania konfiguracją.
+
 ### Podsumowanie
-Plik `newarc.FormatConfig.cpp` zapewnia podstawową funkcjonalność dla zarządzanie konfiguracją. i zawiera około 2 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `newarc.FormatConfig.cpp` jest niezbędny dla zarządzania konfiguracją. wspierających operacje menedżera plików Far Manager.

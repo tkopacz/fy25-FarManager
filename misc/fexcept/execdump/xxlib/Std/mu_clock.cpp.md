@@ -1,26 +1,25 @@
 # mu_clock.cpp
+
 ## English
+
 ### Purpose
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Functions
-- `time()`: Performs time operation in mu_clock.cpp
-- `GetClock()`: Retrieves Clock value in mu_clock.cpp
-- `CmpClock()`: Performs CmpClock operation in mu_clock.cpp
-- `difftime()`: Performs difftime operation in mu_clock.cpp
-- `MakeClockString()`: Performs MakeClockString operation in mu_clock.cpp
+- **`time()`**: Executes time operation
+
 ### Summary
-The `mu_clock.cpp` file provides essential functionality for core functionality. and contains approximately 5 function(s) to support the Far Manager file manager operations.
+The `mu_clock.cpp` file is essential for core functionality. It implements 1 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Funkcje
-- `time()`: Performs time operation in mu_clock.cpp
-- `GetClock()`: Retrieves Clock value in mu_clock.cpp
-- `CmpClock()`: Performs CmpClock operation in mu_clock.cpp
-- `difftime()`: Performs difftime operation in mu_clock.cpp
-- `MakeClockString()`: Performs MakeClockString operation in mu_clock.cpp
+- **`time()`**: Executes time operation
+
 ### Podsumowanie
-Plik `mu_clock.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. i zawiera około 5 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `mu_clock.cpp` jest niezbędny dla podstawowej funkcjonalności. Implementuje 1 funkcji wspierających operacje menedżera plików Far Manager.

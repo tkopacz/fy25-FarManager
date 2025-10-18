@@ -1,40 +1,35 @@
 # plugsettings.cpp
+
 ## English
+
 ### Purpose
-This file implements functionality related to: API для хранения плагинами настроек.
-Main functional areas: core functionality
+This file implements functionality for core functionality.
+
 ### Key Classes
-- `FarSettingsHistoryItems`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `FarSettingsNameItems`: Performs FarSettingsNameItems operation in plugsettings.cpp
+- **`FarSettingsNameItems`**: Stores and manages configuration parameters and settings
+- **`FarSettingsHistoryItems`**: Stores and manages configuration parameters and settings
+
 ### Key Functions
-- `add()`: Performs add operation in plugsettings.cpp
-- `get()`: Retrieves  value in plugsettings.cpp
-- `Set()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `Get()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `Enum()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `Delete()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `SubKey()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `FillHistory()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
+- **`FarSettingsNameItems::add()`**: Adds new element(s) to the collection
+- **`FarSettingsHistoryItems::add()`**: Adds new element(s) to the collection
+
 ### Summary
-The `plugsettings.cpp` file provides essential functionality for core functionality. It defines 2 class(es) and contains approximately 8 function(s) to support the Far Manager file manager operations.
+The `plugsettings.cpp` file is essential for core functionality. It defines 2 class(es) and implements 2 function(s) that support Far Manager file manager operations.
 
 ---
 
 ## Polski (Polish)
+
 ### Cel
-Ten plik implementuje funkcjonalność związaną z: API для хранения плагинами настроек.
-Główne obszary funkcjonalne: podstawowa funkcjonalność
+Ten plik implementuje funkcjonalność dla podstawowej funkcjonalności.
+
 ### Kluczowe Klasy
-- `FarSettingsHistoryItems`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `FarSettingsNameItems`: Performs FarSettingsNameItems operation in plugsettings.cpp
+- **`FarSettingsNameItems`**: Stores and manages configuration parameters and settings
+- **`FarSettingsHistoryItems`**: Stores and manages configuration parameters and settings
+
 ### Kluczowe Funkcje
-- `add()`: Performs add operation in plugsettings.cpp
-- `get()`: Retrieves  value in plugsettings.cpp
-- `Set()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `Get()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `Enum()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `Delete()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `SubKey()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
-- `FillHistory()`: Checks a condition in plugsettings.cpp and returns true or false based on the result
+- **`FarSettingsNameItems::add()`**: Adds new element(s) to the collection
+- **`FarSettingsHistoryItems::add()`**: Adds new element(s) to the collection
+
 ### Podsumowanie
-Plik `plugsettings.cpp` zapewnia podstawową funkcjonalność dla podstawowa funkcjonalność. Definiuje 2 klas(y) i zawiera około 8 funkcji wspierających operacje menedżera plików Far Manager.
+Plik `plugsettings.cpp` jest niezbędny dla podstawowej funkcjonalności. Definiuje 2 klas(y) i implementuje 2 funkcji wspierających operacje menedżera plików Far Manager.

@@ -211,7 +211,7 @@ BSD License — see `LICENSE`.
 
 ```pwsh
 # Clone
-
+git clone https://github.com/FarGroup/FarManager.git
 cd FarManager
 
 # Build (VS Release x64)

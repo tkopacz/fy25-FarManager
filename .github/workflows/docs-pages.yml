@@ -6,17 +6,19 @@ on:
 
 jobs:
   build:
+    # Deploys to FarGroup/api using the upstream GH_PAT secret; skip in forks.
+    if: github.repository == 'FarGroup/FarManager'
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - name: Build Enc
         run: ./enc/tools/tool.make_inet.py
 
       - name: GitHub Pages
         if: success()
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           repo: FarGroup/api
           target_branch: master

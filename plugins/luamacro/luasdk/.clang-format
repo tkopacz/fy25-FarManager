@@ -1,0 +1,5 @@
+# Vendored third-party code: keep upstream formatting, never reformat.
+---
+DisableFormat: true
+SortIncludes: Never
+...

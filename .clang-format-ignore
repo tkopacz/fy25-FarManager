@@ -1,0 +1,10 @@
+# Loose vendored headers living next to project code (clang-format 18+).
+# Whole vendored directories are disabled by their own .clang-format files.
+plugins/newarc/src/plugins/targz/zlib.h
+plugins/newarc/src/plugins/targz/zconf.h
+plugins/newarc/src/plugins/targz/bzlib.h
+plugins/newarc/src/plugins/zip/zlib.h
+plugins/newarc/src/plugins/zip/zconf.h
+plugins/newarc/src/plugins/zip/unzip.h
+plugins/newarc/src/plugins/zip/zip.h
+plugins/newarc/src/plugins/zip/ioapi.h

@@ -25,6 +25,19 @@ prosimy kierować się poniższymi wytycznymi:
    (<fardeven@googlegroups.com>).
 7. Osoby często poprawiające kod będą uprawione do pełnego dostępu do repozytorium.
 
+#### Formatowanie kodu (`.clang-format`)
+
+W tym forku plik `.clang-format` w katalogu głównym opisuje istniejący styl kodu `far/`
+(tabulatory, nawiasy klamrowe w stylu Allman, wcięte przestrzenie nazw i etykiety `case`,
+choć część kodu ich nie wcina, brak limitu długości linii, ręcznie grupowane dyrektywy `#include`).
+Wtyczki wcięte spacjami (`align`, `arclite`, `emenu`, `multiarc`) mają własne nadpisania,
+a kod zewnętrzny (np. `far/thirdparty`, `libpcre`, nagłówki 7-Zip, `newarc.ex/Modules`, zlib/bzip2/minizip w `newarc`)
+jest wyłączony z formatowania przez `DisableFormat: true` lub `.clang-format-ignore`.
+
+Konfiguracja ma charakter pomocniczy: CI jej nie wymusza, a kod nie został nią przeformatowany.
+Formatuj wyłącznie zmienione linie, np. `git clang-format`, i nie wysyłaj masowych zmian
+formatowania. Wiążące reguły nadal sprawdza `far/tools/source_validator.py`.
+
 
 #### Kompilacja
 

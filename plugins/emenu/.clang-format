@@ -1,0 +1,7 @@
+# This plugin is indented with two spaces; everything else follows the root profile.
+---
+BasedOnStyle: InheritParentConfig
+UseTab: Never
+IndentWidth: 2
+AccessModifierOffset: -2
+...

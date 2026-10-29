@@ -1,0 +1,97 @@
+# Advisory clang-format profile describing the existing Far Manager style
+# (see .editorconfig and far/tools/source_validator.py).
+# It is not enforced in CI and the codebase has not been reformatted with it.
+# Vendored code is excluded by DisableFormat configs in its directories and,
+# for loose vendored headers, by .clang-format-ignore (clang-format 18+).
+---
+Language: Cpp
+Standard: Latest
+
+# Indentation: tabs only in leading whitespace (source_validator.py
+# rejects tabs after the first non-tab character).
+UseTab: ForContinuationAndIndentation
+TabWidth: 4
+IndentWidth: 4
+ContinuationIndentWidth: 4
+ConstructorInitializerIndentWidth: 4
+AccessModifierOffset: -4
+IndentAccessModifiers: false
+NamespaceIndentation: All
+# The code base mixes both styles; indented labels cover more lines.
+IndentCaseLabels: true
+IndentCaseBlocks: false
+IndentGotoLabels: false
+IndentPPDirectives: None
+IndentExternBlock: NoIndent
+IndentWrappedFunctionNames: false
+LambdaBodyIndentation: OuterScope
+
+# No hard line length limit: long lines are common and intentional.
+ColumnLimit: 0
+
+# Allman also wraps lambda bodies, matching the dominant multi-line
+# "[&]\n{" form; one-line lambdas will be split if reformatted.
+BreakBeforeBraces: Allman
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortLambdasOnASingleLine: All
+AllowShortEnumsOnASingleLine: false
+BreakTemplateDeclarations: Yes
+AlwaysBreakAfterReturnType: None
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+CompactNamespaces: false
+FixNamespaceComments: false
+KeepEmptyLines:
+  AtStartOfBlock: false
+  AtStartOfFile: false
+MaxEmptyLinesToKeep: 2
+InsertNewlineAtEOF: true
+
+# Pointers and references bind to the type.
+PointerAlignment: Left
+ReferenceAlignment: Left
+DerivePointerAlignment: false
+QualifierAlignment: Leave
+
+# Spacing.
+SpaceAfterCStyleCast: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyBlock: false
+SpacesInAngles: Never
+SpacesInSquareBrackets: false
+SpacesInParens: Never
+Cpp11BracedListStyle: false
+SpacesBeforeTrailingComments: 1
+
+# Keep hand-made alignment rather than computing new one.
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+AlignConsecutiveMacros: None
+AlignEscapedNewlines: DontAlign
+AlignOperands: DontAlign
+AlignTrailingComments:
+  Kind: Leave
+ReflowComments: false
+
+# Includes are grouped manually under "// Self:", "// Internal:",
+# "// Platform:", "// Common:", "// External:" comments; do not reorder.
+SortIncludes: Never
+IncludeBlocks: Preserve
+SortUsingDeclarations: Never
+
+# Project macros that behave like statements.
+StatementMacros:
+  - SCOPED_ACTION
+...

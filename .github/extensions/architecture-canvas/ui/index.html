@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Diagramy architektury</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <header class="toolbar">
+        <form id="file-form" class="row" autocomplete="off">
+            <label for="file-path" class="sr-only">Plik</label>
+            <input id="file-path" list="file-list" placeholder="docs/ARCHITECTURE-PL.md" spellcheck="false" />
+            <datalist id="file-list"></datalist>
+            <button type="submit">Otwórz</button>
+        </form>
+        <div class="row">
+            <label for="block-select">Diagram</label>
+            <select id="block-select"></select>
+            <button id="new-toggle" type="button" title="Dodaj nowy diagram na końcu pliku">+ Nowy</button>
+            <span class="spacer"></span>
+            <span id="status" class="status" role="status"></span>
+            <button id="revert" type="button">Przywróć</button>
+            <button id="save" type="button" class="primary" title="Ctrl+S">Zapisz</button>
+        </div>
+        <form id="new-form" class="row" hidden>
+            <label for="new-title">Tytuł</label>
+            <input id="new-title" placeholder="np. Kontekst systemu" maxlength="200" />
+            <label for="new-template">Szablon</label>
+            <select id="new-template"></select>
+            <button type="submit" class="primary">Dodaj</button>
+            <button type="button" id="new-cancel">Anuluj</button>
+        </form>
+        <div id="banner" class="banner" hidden></div>
+    </header>
+    <main class="split">
+        <section class="pane editor-pane">
+            <div class="pane-head">
+                <span>Kod Mermaid</span>
+                <label class="snippet">Wstaw szablon <select id="insert-template"><option value="">—</option></select></label>
+            </div>
+            <textarea id="source" spellcheck="false" aria-label="Kod Mermaid"></textarea>
+        </section>
+        <section class="pane preview-pane">
+            <div class="pane-head">
+                <span>Podgląd</span>
+                <span class="zoom">
+                    <button type="button" id="zoom-out" title="Pomniejsz">−</button>
+                    <button type="button" id="zoom-fit" title="Dopasuj">Dopasuj</button>
+                    <button type="button" id="zoom-in" title="Powiększ">+</button>
+                </span>
+            </div>
+            <div id="render-error" class="render-error" hidden></div>
+            <div id="preview" class="preview"></div>
+        </section>
+    </main>
+    <script src="/mermaid.min.js"></script>
+    <script type="module" src="/app.js"></script>
+</body>
+</html>

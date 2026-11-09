@@ -1,0 +1,220 @@
+:root {
+    color-scheme: light dark;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-color-default, #ffffff);
+    color: var(--text-color-default, #1f2328);
+    font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+    font-size: var(--text-body-medium, 14px);
+    line-height: var(--leading-body-medium, 20px);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border-color-default, #d0d7de);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.spacer {
+    flex: 1;
+}
+
+#file-path {
+    flex: 1;
+    min-width: 160px;
+    font-family: var(--font-mono, Consolas, monospace);
+}
+
+input,
+select,
+button,
+textarea {
+    font: inherit;
+    color: inherit;
+    background: var(--background-color-default, #ffffff);
+    border: 1px solid var(--border-color-default, #d0d7de);
+    border-radius: 6px;
+}
+
+input,
+select {
+    padding: 3px 6px;
+}
+
+#block-select {
+    max-width: 320px;
+}
+
+button {
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+button.primary {
+    background: var(--true-color-blue, #0969da);
+    border-color: var(--true-color-blue, #0969da);
+    color: var(--color-white, #ffffff);
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-focus-outline, #0969da);
+    outline-offset: 1px;
+}
+
+.status {
+    color: var(--text-color-muted, #656d76);
+    font-size: var(--text-body-small, 12px);
+}
+
+.status.dirty {
+    color: var(--true-color-orange, #bc4c00);
+}
+
+.banner {
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--true-color-red, #cf222e);
+    background: var(--true-color-red-muted, rgba(207, 34, 46, 0.1));
+}
+
+.banner.info {
+    border-color: var(--true-color-blue, #0969da);
+    background: var(--true-color-blue-muted, rgba(9, 105, 218, 0.1));
+}
+
+.banner button {
+    margin-left: 6px;
+}
+
+.split {
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: minmax(240px, 2fr) 3fr;
+}
+
+@media (max-width: 720px) {
+    .split {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.pane {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+}
+
+.editor-pane {
+    border-right: 1px solid var(--border-color-default, #d0d7de);
+}
+
+.pane-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    color: var(--text-color-muted, #656d76);
+    font-size: var(--text-body-small, 12px);
+    border-bottom: 1px solid var(--border-color-default, #d0d7de);
+}
+
+.pane-head select,
+.pane-head button {
+    font-size: inherit;
+    padding: 1px 6px;
+}
+
+#source {
+    flex: 1;
+    resize: none;
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+    font-family: var(--font-mono, "SFMono-Regular", Consolas, monospace);
+    font-size: var(--text-code-block, 13px);
+    line-height: 1.5;
+    tab-size: 2;
+    white-space: pre;
+}
+
+#source:disabled {
+    opacity: 0.6;
+}
+
+.render-error {
+    margin: 8px 10px 0;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--true-color-red, #cf222e);
+    background: var(--true-color-red-muted, rgba(207, 34, 46, 0.1));
+    font-family: var(--font-mono, Consolas, monospace);
+    font-size: var(--text-code-inline, 12px);
+    white-space: pre-wrap;
+    max-height: 30%;
+    overflow: auto;
+}
+
+.preview {
+    flex: 1;
+    overflow: auto;
+    padding: 12px;
+}
+
+.preview.stale svg {
+    opacity: 0.45;
+}
+
+.preview svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.preview.fit svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.empty {
+    color: var(--text-color-muted, #656d76);
+    text-align: center;
+    margin-top: 40px;
+}

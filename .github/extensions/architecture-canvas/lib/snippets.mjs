@@ -1,0 +1,105 @@
+// Starter templates for architecture diagrams. Pure data: served to the browser too.
+
+export const SNIPPETS = [
+    {
+        id: "layers",
+        label: "Warstwy / moduły (flowchart + subgraph)",
+        title: "Warstwy systemu",
+        source: [
+            "flowchart TB",
+            "  subgraph UI[\"Interfejs\"]",
+            "    panels[\"Panele\"]",
+            "    dialogs[\"Okna dialogowe\"]",
+            "  end",
+            "  subgraph Core[\"Rdzeń\"]",
+            "    manager[\"Menedżer\"]",
+            "    config[\"Konfiguracja\"]",
+            "  end",
+            "  subgraph Ext[\"Rozszerzenia\"]",
+            "    plugins[\"Wtyczki\"]",
+            "  end",
+            "  UI --> Core",
+            "  Core --> Ext",
+        ].join("\n"),
+    },
+    {
+        id: "context",
+        label: "Kontekst systemu (C4)",
+        title: "Kontekst systemu",
+        source: [
+            "C4Context",
+            "  title Kontekst systemu",
+            "  Person(user, \"Użytkownik\", \"Korzysta z aplikacji\")",
+            "  System(app, \"Aplikacja\", \"Główny system\")",
+            "  System_Ext(ext, \"System zewnętrzny\", \"Np. usługa w chmurze\")",
+            "  Rel(user, app, \"Używa\")",
+            "  Rel(app, ext, \"Wywołuje\", \"HTTPS\")",
+        ].join("\n"),
+    },
+    {
+        id: "containers",
+        label: "Kontenery / komponenty (flowchart)",
+        title: "Kontenery",
+        source: [
+            "flowchart LR",
+            "  user([\"Użytkownik\"])",
+            "  subgraph System[\"System\"]",
+            "    ui[\"Aplikacja<br/><small>UI</small>\"]",
+            "    api[\"Usługa API\"]",
+            "    db[(\"Baza danych\")]",
+            "  end",
+            "  ext[\"System zewnętrzny\"]:::external",
+            "  user --> ui --> api --> db",
+            "  api -. \"HTTPS\" .-> ext",
+            "  classDef external stroke-dasharray: 5 5",
+        ].join("\n"),
+    },
+    {
+        id: "sequence",
+        label: "Sekwencja wywołań",
+        title: "Przepływ wywołań",
+        source: [
+            "sequenceDiagram",
+            "  autonumber",
+            "  actor U as Użytkownik",
+            "  participant A as Aplikacja",
+            "  participant P as Wtyczka",
+            "  U->>A: Polecenie",
+            "  A->>P: Wywołanie API",
+            "  P-->>A: Wynik",
+            "  A-->>U: Odświeżony widok",
+        ].join("\n"),
+    },
+    {
+        id: "classes",
+        label: "Klasy / interfejsy",
+        title: "Model klas",
+        source: [
+            "classDiagram",
+            "  class Panel {",
+            "    +Refresh()",
+            "    +ProcessKey()",
+            "  }",
+            "  class FilePanel",
+            "  class PluginPanel",
+            "  Panel <|-- FilePanel",
+            "  Panel <|-- PluginPanel",
+        ].join("\n"),
+    },
+    {
+        id: "state",
+        label: "Maszyna stanów",
+        title: "Cykl życia",
+        source: [
+            "stateDiagram-v2",
+            "  [*] --> Załadowana",
+            "  Załadowana --> Aktywna: Open",
+            "  Aktywna --> Załadowana: Close",
+            "  Załadowana --> [*]: Unload",
+        ].join("\n"),
+    },
+];
+
+export function snippetById(id) {
+    return SNIPPETS.find((s) => s.id === id) ?? null;
+}

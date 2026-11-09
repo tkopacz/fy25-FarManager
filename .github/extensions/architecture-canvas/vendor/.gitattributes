@@ -1,0 +1,2 @@
+# Vendored Mermaid bundle: keep byte-for-byte (no EOL normalization, no diffs).
+* -text -diff

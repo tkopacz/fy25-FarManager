@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Triage issues</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <header class="toolbar">
+        <form id="repo-form" class="repo">
+            <label for="repo-input">Repozytorium</label>
+            <input id="repo-input" type="text" spellcheck="false" autocomplete="off" placeholder="owner/repo" />
+            <button type="submit">Ustaw</button>
+        </form>
+        <button id="fetch-btn" class="primary" type="button">Pobierz issues</button>
+        <div class="progress" aria-live="polite">
+            <div class="bar"><div id="progress-fill"></div></div>
+            <span id="progress-text">Nie pobrano issues</span>
+        </div>
+    </header>
+
+    <div id="notice" class="notice" hidden></div>
+    <div id="error" class="notice error" hidden></div>
+
+    <section class="filters" id="filters" hidden>
+        <select id="filter-status" aria-label="Status">
+            <option value="all">Wszystkie</option>
+            <option value="pending">Do przejrzenia</option>
+            <option value="reviewed">Przejrzane</option>
+            <option value="changed">Ze zmianami</option>
+        </select>
+        <select id="filter-label" aria-label="Etykieta"><option value="">Dowolna etykieta</option></select>
+        <input id="filter-text" type="search" placeholder="Szukaj w tytule i treści…" />
+        <select id="sort" aria-label="Sortowanie">
+            <option value="number-desc">Najnowsze (#↓)</option>
+            <option value="number-asc">Najstarsze (#↑)</option>
+            <option value="updated-desc">Ostatnio aktualizowane</option>
+            <option value="comments-desc">Najwięcej komentarzy</option>
+            <option value="title">Tytuł A–Z</option>
+        </select>
+    </section>
+
+    <main class="layout">
+        <ul id="issue-list" class="issue-list" aria-label="Lista issues"></ul>
+        <section id="detail" class="detail">
+            <p class="muted" id="empty-hint">Kliknij „Pobierz issues”, aby wczytać otwarte zgłoszenia. Nic nie jest pobierane wcześniej.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span id="plan-summary" class="muted"></span>
+        <span class="spacer"></span>
+        <button id="discard-btn" type="button">Odrzuć wszystkie decyzje</button>
+        <button id="apply-btn" class="primary" type="button" disabled>Zastosuj na GitHubie…</button>
+    </footer>
+
+    <dialog id="apply-dialog">
+        <h2>Podsumowanie zmian na GitHubie</h2>
+        <p class="muted" id="apply-repo"></p>
+        <div id="apply-plan" class="plan"></div>
+        <div id="apply-result" class="plan"></div>
+        <label class="confirm"><input id="apply-confirm" type="checkbox" /> Rozumiem, że zmiany zostaną zapisane w prawdziwych issues.</label>
+        <div class="dialog-actions">
+            <button id="dry-run-btn" type="button">Podgląd kroków (dry-run)</button>
+            <span class="spacer"></span>
+            <button id="cancel-apply-btn" type="button">Anuluj</button>
+            <button id="confirm-apply-btn" class="danger" type="button" disabled>Zapisz na GitHubie</button>
+        </div>
+    </dialog>
+
+    <dialog id="ask-dialog">
+        <p id="ask-text"></p>
+        <div class="dialog-actions">
+            <span class="spacer"></span>
+            <button id="ask-no" type="button">Anuluj</button>
+            <button id="ask-yes" class="primary" type="button">Tak</button>
+        </div>
+    </dialog>
+
+    <script type="module" src="/app.js"></script>
+</body>
+</html>
